@@ -1,15 +1,15 @@
 # nitw_german
-We're translating the game **Night In The Woods** into German with the Dialogue Tool for NITW (big thanks to [Captain Southbird](https://github.com/captainsouthbird) for providing this) and you can help us with that!
+We're translating the game **Night In The Woods** into German with the *Dialogue Tool for NITW* (big thanks to [Captain Southbird](https://github.com/captainsouthbird) for providing this) and you can help us with that!
 
 99 % of the texts has already been translated, but it's not completely playable yet unfortunateley. There is a bit work left on this and you can help in suggesting better translations for the game!
 
 ## Setup 
 - Install the [Dialogue Tool for NITW](https://github.com/captainsouthbird/NITW-Dialogue-Tool). Here's another [tutorial](https://nightinthewoods-archive.fandom.com/wiki/Editing_Dialogue) to use it.
 - download this repo and move all the files into the **yarn** Folder
-- in the **Files** Tab of the tool "write" the text files "to the assets".
+- in the **Files** Tab of the tool *write* the text files *to the assets*.
 
 ## Contribution
-It's still a bit buggy playing the game in German, because at some points the functions to manipulate the processes also have been influenced by our edits. Some of the content comes from automatic translators :-)
+It's still a bit buggy playing the game in German, because at some points the functions to manipulate the processes also have been influenced by our edits.
 
 The most important thing would be to correct logical errors by **localizing** and improving word jokes, idioms etc. into German in order to properly express the meaning and humor of this great game. 
 
