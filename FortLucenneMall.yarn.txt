@@ -59,7 +59,7 @@ position: -250,6675
 ---
 Mae: :) O_O #line:be5f2c
 Mae: OH MEIN GOTT! #line:fbc79c
-Mae: Die UREV ist immer noch da! #line:c244dd
+Mae: Das UREV ist immer noch da! #line:c244dd
 Bea: Ha ha ja. Dieses alte Ding. #line:2febd7
 Mae: Ich kann die Nervositaet von hier aus spueren. #line:f00a93
 Bea: Wenn ich da reinschaue, fuehle ich mich alt. #line:071d18
@@ -77,7 +77,7 @@ Mae: #line:8ad7dd
 <<lookUp Mae>>
 Mae: Und trotzdem ist Dollar Empire immer noch da?! #line:ffa495
 Bea: Ich glaube, das ist eine Sache, mit der das Internet nicht mithalten kann. #line:c15121
-    ->schaetze ich.   #line:f13330
+    ->vermutlich.   #line:f13330
     ->Ich ging hier immer rein, als ich ein Kind war #line:1533c3
         Mae: Man konnte einen Radiergummi fuer einen Dollar bekommen, :) #line:2f2cbc
         Mae: einen Bleistift fuer einen Dollar, #line:dc30cc
@@ -310,8 +310,8 @@ Mae: _o_ #line:072e9c
 Mae: Was zum Teufel ist passiert? #line:c07859
 Bea: Aehm... Das Internet? #line:016bab
 <<run Mae MaeNearExitStairTop>>
-Mae: We had the internet when we used to come here! #line:23caee
-Mae: WHAT HAPPENED TO THE CAROUSEL?! #line:c5c6ab
+Mae: Wir haben schon Internet gehabt, als wir hierher kamen! #line:23caee
+Mae: WAS IST MIT DEM KARUSSELL PASSIERT?! #Zeile:c5c6ab
 <<waitForMove Bea>>
 <<walk Bea BeaNearExitStairTop>>
 Bea: Verkauft, schaetze ich. #line:25b4a2

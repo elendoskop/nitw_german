@@ -17,7 +17,7 @@ Molly: Ich habe hier draussen meine Runden gedreht und dich auf dem verbotenen S
 Mae: Und? :\ #line:0a6724
 <<setAnimBool Molly hip 1>>
 Molly: Steig ins Auto, Mae. #line:95f681
-Mae: Nein. :-line:954d55
+Mae: Nein. :| #line:954d55
 Molly: Willst du deine erste Nacht wieder im Knast verbringen, Mae? #line:ac8356
 <<close>>
 <<wait 2>>
@@ -37,7 +37,7 @@ position: 306,141
 <<freezePlayer>>
 Mae: Es ist erst 2 Jahre her, seit ich hier gelebt habe. #line:28bef4
 Mae: Nicht auf diesem Spielplatz, ich meine Possum Springs. #line:b7e70d
-Mae: Das wird alles durcheinander gebracht. Ich sollte es aufschreiben. #line:078aae
+Mae: Das gerät langsam alles etwas durcheinander. Ich sollte es aufschreiben. #line:078aae
 <<close>>
 //journal time!//
 <<close>>
@@ -168,8 +168,8 @@ tags:
 colorID: 0
 position: 46,1378
 ---
-Mae: Ich erinnere mich genau, dass ich kaum die Spitze des Rades erreicht habe. #line:801ee5
-Mae: Ich erinnere mich definitiv, dass ich seitdem kaum gewachsen bin. #line:e3b124
+Mae: Ich weiß noch genau, wie ich die Spitze des Rads kaum erreicht habe. #line:801ee5
+Mae: Ich weiß noch genau, dass ich seitdem kaum gewachsen bin. #line:e3b124
 <<end>>
 ===
 title: X_BoatWheel.3
