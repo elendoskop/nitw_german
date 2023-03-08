@@ -9,7 +9,7 @@ position: 657,380
     Mae: das ist nicht lustig. #line:49c23f
     Mae: das nervt. #line:07ac91
     Mae: warum sind die Dinge seltsam. #line:bdb3a4
-    Mae: warum fühlt sich das nicht gut an. #line:61f060
+    Mae: warum fuehlt sich das nicht gut an. #line:61f060
     Mae: alles ist dumm. #line:8b211d
     <<wait 4>>
     <<lookleft Mae>>
@@ -28,22 +28,22 @@ position: 657,380
     Mae: Wonach sieht es denn aus, was ich tue? #line:bd423b
     <<wait 3>>
     Gregg: Ok gut, das war eine #line:646848
-    Mae: blöde Frage. #line:1457c4
+    Mae: bloede Frage. #line:1457c4
     Gregg: ok, *WARUM* machst du das? #line:10f1a1
     Mae: *Brauche* ich einen Grund? #line:cb81cc
     Gregg: Ja! Ich glaube, das brauchst du! #line:d1eaad
     Mae: Seit wann? #line:395be9
-    Mae: Was machst du überhaupt hier drin? #line:f6e6bd
+    Mae: Was machst du ueberhaupt hier drin? #line:f6e6bd
     Gregg: Dich kriegen! #line:a12d77
-    Mae: Ich finde den Weg nach draußen selbst! #line:32544a
+    Mae: Ich finde den Weg nach draussen selbst! #line:32544a
     Gregg: Gut! #line:6f5aab
     Mae: Gut! #line:8b3c19
     Gregg: Gut! #line:109645
     Mae: Gut! #line:dec74e
     Gregg: irgendwie eine komische Frage, aber #line:e19b4d
-    Gregg: bist du *bevor* du beschlossen hast, die Toilette zu verwüsten #line:f69801
+    Gregg: bist du *bevor* du beschlossen hast, die Toilette zu verwuesten #line:f69801
     Gregg: oder... #line:def917
-    Mae: *GOTT* Gregg ich hätte gar nicht gehen müssen. #line:e34608
+    Mae: *GOTT* Gregg ich haette gar nicht gehen muessen. #line:e34608
     Gregg: ok! herrje! #line:cc4120
     <<wait 3>>
     Mae: ICH BIN JETZT. o_o :( \o/ #line:992a85
