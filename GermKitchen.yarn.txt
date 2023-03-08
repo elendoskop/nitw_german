@@ -1,0 +1,64 @@
+title: EnterLevel
+tags:
+colorID: 0
+position: 211,280
+---
+[[HomeQuest]]
+===
+title: HomeQuest
+tags:
+colorID: 0
+position: 489,317
+---
+<<hide Collision:Right>>
+<<hide Collision:Left>>
+
+<<warp Mae Mae0>>
+<<warp Germ Germ0>>
+
+<<walk Mae Mae1>>
+<<walk Germ Germ1>>
+
+<<waitForMove Mae>>
+
+//germ and mae walk in. GermMom is in the FG//
+Germ: hey mom! #line:005ccd
+Germ: Das ist Mae! #line:afb41d
+Germ: sie isst mit uns zu Abend! #line:792f65
+<<lookLeft Germ>>
+Mae: o/ #line:23d7dd
+Mae: aeh. Hi. #line:3aa9c7
+Mae: :) #line:5c42de
+GermMom: Hallo Mae. #line:eaf6e7
+Mae: _o_ #line:845258
+GermMom: Ich hoffe du magst Sloppy Joes! #line:ca3b97
+Mae: Wer mag das nicht? #line:d2616c
+GermMom: Niemand in diesem Haus. #line:fd916f
+Germ: Ich dachte, ihr zwei solltet euch vor dem Abendessen treffen! #line:a2ded3
+GermMom: Das ist sehr ruecksichtsvoll, Jeremy. #line:2dc50d
+Germ: Ich werde Mae der Oma vorstellen! #line:9156e1
+GermMom: Oh. Ist es das, worum es hier geht? #line:423007
+Mae: Was? #line:f979c6
+Germ: Darf ich? #line:5655ac
+GermMom: Du brauchst meine Erlaubnis nicht. #line:d08553
+GermMutter: Was auch immer passiert, es liegt an dir. #line:b86bcf
+Mae: :| #line:15a92e
+Mae: Was? #line:5f8dc1
+Germ: Komm schon! #line:14b6aa
+<<walk Germ Germ2>>
+->Schoen, Sie kennenzulernen! #line:8010d2
+	GermMom: Dich auch, Mae! #line:d57b3f
+->... #line:2f3ad3
+    GermMom: Was ist das? #line:f751b8
+    Mae: Ich... aeh... haette nie gedacht, dass Germ eine Mutter hat? #line:880caf
+    GermMom: Er steckt voller UEberraschungen. #line:34d0f5
+    Mae: Aber sicher doch! #line:a3b57a
+    GermMom: Du solltest Oma nicht warten lassen. #line:1cde44
+    Mae: oh richtig #line:8a16cb
+<<close>>
+<<walk Mae Mae2>>
+<<waitForMove Mae>>
+
+<<irisOut 1 wait>>
+<<scene GermLivingRoom -1>>
+===

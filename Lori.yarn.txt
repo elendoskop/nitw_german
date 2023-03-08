@@ -1,0 +1,968 @@
+title: Lori
+tags:
+colorID: 0
+position: 2473,1234
+---
+<<if $demo2>>
+    <<if $lori is 0>>
+        <<set $lori += 1>>
+        [[LoriDemo2_00]]
+    <<elseif $lori is 1>>
+        <<set $lori += 1>>
+        [[LoriDemo2_01]]
+    <<elseif $lori is 2>>
+        [[LoriDemo2_02]]
+    <<endif>>
+<<elseif $met_lori is 0>>
+    <<if $act is 4 and $day is 3>>
+        <<set $lori to 1>>
+    <<endif>>
+    [[LoriIntroConvo]]
+<<elseif $act is 1>>
+    [[A1.Emoticon]]
+<<elseif $act is 2 and $day is 1>>
+    <<if $lori is 0>>
+        <<set $lori to 1>>
+        [[A2D1.0]]
+    <<elseif $lori is 1>>
+        [[A2D1.Emoticon]]
+    <<endif>>
+<<elseif $act is 2 and $day is 2>>
+    <<if $lori is 0>>
+        <<set $lori to 1>>
+        [[A2D2.0]]
+    <<elseif $lori is 1>>
+        [[A2D2.Emoticon]]
+    <<endif>>
+<<elseif $act is 2 and $day is 3>>
+    <<if $lori is 0>>
+        <<set $lori to 1>>
+        [[A2D3.0]]
+    <<elseif $lori is 1>>
+        [[A2D3.Emoticon]]
+    <<endif>>
+<<elseif $act is 2 and $day is 4>>
+    <<if $lori is 0>>
+        <<set $lori to 1>>
+        [[A2D4.0]]
+    <<elseif $lori is 1>>
+        [[A2D4.Emoticon]]
+    <<endif>>
+<<elseif $act is 3 and $day is 1>>
+    <<if $lori is 0>>
+        <<set $lori to 1>>
+        [[A3D1.0]]
+    <<elseif $lori is 1>>
+        [[A3D1.Emoticon]]
+    <<endif>>
+<<elseif $act is 3 and $day is 2>>
+    <<if $lori is 0>>
+        <<set $lori to 1>>
+        [[A3D2.0]]
+    <<elseif $lori is 1>>
+        [[A3D2.Emoticon]]
+    <<endif>>
+<<elseif $act is 3 and $day is 3>>
+    <<if $lori is 0>>
+        <<set $lori to 1>>
+        [[A3D3.0]]
+    <<elseif $lori is 1>>
+        [[A3D3.Emoticon]]
+    <<endif>>
+<<elseif $act is 3 and $day is 4>>
+    <<if $lori is 0>>
+        <<set $lori to 1>>
+        [[A3D4.0]]
+    <<elseif $lori is 1>>
+        [[A3D4.Emoticon]]
+    <<endif>>
+<<elseif $act is 4 and $day is 3>>
+    <<if $lori is 0>>
+        <<set $lori to 1>>
+        [[A4D3.0]]
+    <<elseif $lori is 1>>
+        [[A4D3.Emoticon]]
+    <<endif>>
+<<endif>>
+===
+title: LoriInitLevel
+tags:
+colorID: 0
+position: 1997,1219
+---
+<<if $night is 0 and $lori_day_done is 1>>
+    <<hide Lori>>
+<<else>>
+    <<if $act is 1 and $TowneCentreEast and $met_lori is 0>>
+        <<warp Lori LoriGround>>
+        <<show Lori>>
+        <<sit Lori>>
+    <<elseif $act is 3 and $day is 2 and $TowneCentreEast>>
+        <<show Lori>>
+        <<sit Lori>>
+    <<elseif $act is 2 and $day is 1 and $TowneCentreEast>>
+        <<warp Lori LoriRoof>>
+        <<show Lori>>
+        <<sit Lori>>
+    <<elseif $act is 2 and $day is 2 and $TowneCentreEast>>
+        <<warp Lori LoriRoof>>
+        <<show Lori>>
+        <<sit Lori>>
+    <<elseif $act is 2 and $day is 3 and $TowneCentreEast>>
+        <<warp Lori LoriRoof>>
+        <<show Lori>>
+        <<sit Lori>>
+    <<elseif $act is 2 and $day is 4 and $TowneCentreEast>>
+        <<warp Lori LoriGround>>
+        <<show Lori>>
+        <<sit Lori>>
+    <<elseif $act is 3 and $day is 1 and $TowneCentreEast>>
+        <<warp Lori LoriRoof>>
+        <<show Lori>>
+        <<sit Lori>>
+    <<elseif $act is 3 and $day is 2 and $TowneCentreEast>>
+        <<warp Lori LoriRoof>>
+        <<show Lori>>
+        <<sit Lori>>
+    <<elseif $act is 3 and $day is 3 and $TowneCentreEast>>
+        <<warp Lori LoriRoof>>
+        <<show Lori>>
+        <<sit Lori>>
+    <<elseif $act is 3 and $day is 4 and $TowneCentreEast>>
+        <<warp Lori LoriRoof>>
+        <<show Lori>>
+        <<sit Lori>>
+    <<elseif $act is 4 and $day is 3 and $TowneCentreEast>>
+        <<warp Lori LoriRoof>>
+        <<show Lori>>
+        <<sit Lori>>
+    <<elseif $Tracks or $OverheadTracks>>
+        <<show Lori>>
+        <<flip Mae -1>>
+    <<else>>
+        <<hide Lori>>
+    <<endif>>
+<<endif>>
+===
+title: LoriIntroConvo
+tags:
+colorID: 3
+position: 1588,2031
+---
+<<if $act is 4 and $day is 3>>
+    Lori: Hey Killer. #line:afb663
+    Mae: Oje! Wer bist du denn? #line:8e0f0c
+    Lori: Lori M. #line:44ab74
+    Mae: Woher weisst du von dieser ganzen "Moerder"-Sache? #line:00a0fa
+    Lori: Du bist fuer einige von uns eine Art lokale Beruehmtheit. #line:48728f
+    Mae: ok. #line:31955e
+    Mae: Habe ich dich schon mal irgendwo gesehen? #line:c304da
+    Lori: Ich weiss es nicht. Ich bin die meisten Tage hier oben. #line:8cbe8b
+    Mae: hm #line:24eb62
+    Lori: hm #line:efa133
+    Mae: Man sieht sich. #line:af7f96
+    Lori: Bis spaeter, Moerder. #line:d5c005
+    <<set $lori_done to 1>>
+<<else>>
+    Lori: Hey Killer. #line:195be6
+    Mae: Ugh. Nenn mich nicht so. =_= #line:402264
+    Mae: Wer bist du? #line:2ce327
+    Lori: Lori M. #line:9a7666
+    Mae: Woher weisst du ueberhaupt von der "Killer"-Sache? #line:eb0cd8
+    Lori: Es war eine grosse Sache, sogar fuer uns Mittelschueler. #line:04f253
+        ->Ja gut. Das ist schon sehr lange her. #line:94ad48
+            Lori: Warum hast du es getan? #line:ee7d34
+            Mae: Ich weiss es nicht. #line:08d17b
+            Lori: Hatte er es verdient? #line:c28e9b
+            Mae: Nein. #line:a6ad66
+            Lori: Unsere Muetter haben uns gesagt, wir sollen nicht mit dir reden. #line:f6c941
+            Lori: Weil niemand wusste, wann du es wieder tun wuerdest. #line:bf5518
+        ->Und was haben die Mittelschueler gesagt #line:3974a6
+            Lori: Du hast ihn ins Krankenhaus gebracht. #line:4b96a6
+            Lori: Und keiner weiss, warum. #line:347781
+            Lori: Hat er es irgendwie verdient oder so? #line:3b79fe
+            Mae: Nein. #line:974bd9
+            Lori: Unsere Muetter haben uns gesagt, wir sollen nicht mit dir reden. #line:3a44f1
+            Lori: Weil niemand wusste, wann du es wieder tun wuerdest. #line:27e5db
+    Mae: Nun, gruesst eure Mutter von mir. Sie klingt reizend. #line:b45d9d
+    Lori: Oh, sie ist weg. #line:3274e9
+    Mae: Oh. Tut mir leid. #line:ebefeb
+    Lori: Ist schon in Ordnung. #line:df6038
+    Mae: Yeesh. :\ #line:df657a
+    Mae: :| o_o #line:d84604
+<<endif>>
+
+<<set $met_lori to 1>>
+===
+title: A2D1.0
+tags:
+colorID: 3
+position: 1837,2027
+---
+Mae: Hey. #line:9c8c4d
+Lori: Hey! Du bist es. #line:734b8f
+Mae: Ich bin's. #line:76f621
+Mae: Ich werde mich setzen. Die Beine bringen mich um. #line:db6531
+Lori: Ja, es ist eine Wanderung, um hier hoch zu kommen, oder? #line:986657
+Mae: Ich werde einfach alt. 20 Jahre. #line:ff8343
+Lori: Du bist so alt wie der ganze Weg. #line:db27c1
+Mae: Wie alt bist du? :| #line:7e234a
+Lori: 15 im Februar. #line:ee6c3c
+<<close>>
+<<sit>>
+Mae: Ich habe hier immer nach der Schule rumgehangen. #line:cdd15a
+Lori: Wirklich? Die meisten Kinder kommen nicht den ganzen Weg hierher. #line:58d23b
+Mae: Ha ha. Deshalb ist es ja so schoen :) =_= #line:bf382d
+Lori: Besser als zu Hause zu sein! #line:04af3a
+Mae: o_o :| #line:086d5c
+Mae: Wo wohnst du denn? #line:e7ed34
+Lori: Chestnut street. #line:29147f
+Mae: Oh ok. Draussen bei den Gleisen. #line:ad3040
+Lori: Ja... ich schaetze, ich bin nicht wirklich "Stadt". #line:a6e4e8
+Lori: Ich bin wie #line:cb8070
+Lori: "Spuren". #line:9dfe0d
+Mae: Ich wohne unten auf Maple. #line:09d7b9
+Lori: Ooh! Die reiche Nachbarschaft! #line:891d77
+Mae: {emote=interrobang} #line:e5feb8
+    ->Was? #line:8e8d58
+    ->Um...nein. #line:51448c
+Lori: Oh sorry. #line:8d9f88
+Lori: Ich meinte nur, es ist schoen... #line:b55c42
+Lori: *huestel* *huestel* #line:8799bb
+Lori: Vergiss es, ist ok, tut mir leid, tut mir leid #line:216268
+//lori goes into panic animation//
+Mae: :( #line:e6e6fd
+Mae: Es ist ok! Beruhige dich! #line:543279
+Lori: Es tut mir leid, dass ich manchmal so komisch bin, es tut mir leid #line:4d82ee
+Lori: *huff* *huff* *huff* #line:bb10ec
+Mae: Ich vergebe dir, wenn du aufhoerst, dich zu entschuldigen! #line:12c6d4
+Lori: *huff* *huff* #line:686605
+Lori: ok. #line:2161b9
+Mae: :| #line:c27e84
+//pause as transition back to lori normal//
+Mae: Die Spuren sind cool. Ich war schon lange nicht mehr da draussen. #line:131803
+Lori: Der Zug ruettelt nachts an meinem Zimmer. #line:706b23
+Mae: Ja, im Winter kann ich ihn hoeren :) #line:c30b58
+Mae: Eines meiner Lieblingsgeraeusche. #line:cb85a4
+Lori: Nun, du musst nicht mit #line:78a5f6 aufwachen.
+Lori: *huff* #line:d0e8dc
+Lori: Stuecke der Decke auf dir. #line:7dc54b
+Mae: Gutes Argument. :| #line:dba546
+Mae: In Ordnung #line:7c41d0
+<<jump>>
+Mae: Ich bin raus! Es war nett zu plaudern! #line:929c9f
+Lori: Ich bin die meisten Tage hier. #line:31d795
+Mae: Cool #line:3ff8a6
+Mae: Wir sehen uns spaeter! o/ #line:8b491d
+Lori: Wir sehen uns, Killer. #line:8544a8
+Mae: Ugh. =_= _o_ #line:450b02
+Mae: o_o #line:13dfc7
+<<set $can_do_lori_friendship_quest to 1>>
+<<if $knows_mural and $talked_to_lori_about_mural is 0>>
+    [[TalkAboutMural]]
+<<endif>>
+===
+title: A2D1.Emoticon
+tags: temp
+colorID: 3
+position: 2074,2027
+---
+Lori: {emote=crossbones} #line:41676d
+===
+title: A2D2.0
+tags: temp
+colorID: 3
+position: 2320,2033
+---
+Mae: Hey #line:ce6e4a
+Lori: Hallo #line:136ed6
+Mae: Werde mich hinsetzen, wenn das in Ordnung ist. #line:8d4cd6
+Lori: Das ist in Ordnung. #line:e868c8
+<<close>>
+<<sit>>
+<<wait 2>>
+Mae: Was machst du? #line:8a20a4
+Lori: Zeichnen. #line:0ac6ce
+Mae: ok, was zeichnest du. #line:4a2700
+Lori: Du weisst doch, wie in einem Film #line:538e06
+Lori: wie ein Messer durch jemandes Auge geht #line:5cc0e2
+Mae: wow Junge, das war ich schon immer #line:07853e
+Lori: Ich entwerfe einen Effekt und ein Make-up fuer das #line:799ee0
+Lori:{emote=eye_stab} #line:0b4f4c
+Lori: Ich arbeite an einem Horrorfilm. #line:042740
+    ->Du wirst einen Horrorfilm machen? #line:f1e865
+        Lori: Nein. #line:c68b7b
+        Lori: Ja. #line:6695fa
+    ->Das ist sooooo toll! #line:a00756
+        Lori: ok vielleicht schaffe ich es noch nicht aber #line:9a183d
+Lori: Ich meine, eines Tages koennte ich #line:3679c4
+Lori: Regie fuehren und schreiben und das Make-up machen. #line:087518
+Lori: Ich habe auch einen wirklich guten Schrei. #line:d27868
+Mae: Wirklich? #line:9131c2
+Lori:{width=600} AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGH!!!! #line:b8349a
+Lori: Ich moechte wie #line:68396c
+Lori: auf die Schule fuer Horrorfilme gehen. #line:b2e812
+    ->Ich glaube, die haben die. #line:d502bc
+        Lori: Oh ja, die sind wirklich cool. #line:8384ad
+    ->Die haben die? #line:fb02e9
+        Lori: Ja!!! #line:47a114
+Lori: Ich weiss schon, wie man falsches Blut und Koerperteile herstellt. #line:96194a
+Lori: Tut mir leid, es ist wahrscheinlich langweilig. #line:61a255
+Mae: Wie um alles in der Welt kann das langweilig sein? #line:0f2777
+Lori: Ich kenne so ziemlich alle von ihnen. #line:39a326
+Mae: Koerperteile? #line:79a97f
+Lori: Horrorfilme. #line:44588a
+Mae: Jeder einzelne? #line:54f72e
+Lori: Viele von ihnen. #line:9414e2
+Mae: cool cool cool. #line:da15bb
+Mae: in Ordnung, ich muss los. #line:88f75e
+<<jump>>
+Lori: bis dann! #line:65a455
+Mae: spaeter! #line:78e458
+<<set $can_do_lori_friendship_quest to 1>>
+<<if $knows_mural and $talked_to_lori_about_mural is 0>>
+    [[TalkAboutMural]]
+<<endif>>
+===
+title: A2D2.Emoticon
+tags: temp
+colorID: 3
+position: 2565,2033
+---
+Lori: {emote=Grabstein} #line:77f79e
+===
+title: A2D3.0
+tags:
+colorID: 3
+position: 2818,2016
+---
+Mae: Hey Kleiner. Was hast du vor? #line:1be514
+Lori: Hey Erwachsene. Nix. #line:c9639d
+Mae: Klingt gut. #line:04266b
+<<if $can_do_lori_friendship_quest>>
+    Lori: Ich wollte runter zu den Gleisen gehen #line:d055f9
+    Lori: wolltest du mitkommen? #line:781a8f
+    Lori: Sorry, wenn das langweilig klingt #line:a0b439
+    Lori: Du musst nicht mitkommen. #line:91d03e
+    Lori: Es ist ok. #line:796d2a
+    Mae: ha ha geez lass mich antworten bevor du entscheidest ich habe nein gesagt #line:24b323
+    Lori: oh ok... wolltest du gehen? #line:eb2c6a
+    -> Klar! #line:0e913e
+        Lori: oh gut! ja, das wird lustig! #line:6eef04
+        Mae: lass uns rocken #line:3d3c87
+        <<irisOut 1 wait>>
+        <<scene Tracks>>
+    -> Eigentlich kann ich nicht #line:0b6aaf
+        Lori: Oh. Oh, okay. #line:5b3a3b
+        Lori: Es ist gut. Es ist gut. #line:25136a
+        Lori: es waere sowieso langweilig. #line:3580b6
+        Mae: Oh Mann, ich wollte dich nicht traurig machen! #line:b51de8
+        Mae: Ich bin heute nur beschaeftigt, das ist alles. #line:0fc3e5
+        Lori: es ist cool, es ist cool, es ist cool #line:c6a252
+        Lori: wir sehen uns spaeter! #line:0becf1
+        Mae: ...see ya...? #line:c6a797
+<<else>>
+    Lori: Wahrscheinlich werde ich an den Bahngleisen abhaengen. #line:a5e2e9
+    Mae: schoen. #line:6a7769
+    Mae: Wir sehen uns! #line:d1ac25
+    Lori: tschuess! #line:8a7dc1
+<<endif>>
+===
+title: A2D3.Emoticon
+tags: temp
+colorID: 3
+position: 3048,2004
+---
+Lori: {emote=crossbones} #line:ad8fdb
+===
+title: A2D4.0
+tags: temp blocking
+colorID: 3
+position: 3298,2009
+---
+Mae: Bist du scharf auf das Harfest? #line:4b1027
+Lori: Aehm. Harfest ist ziemlich bloed, oder? #line:327698
+Lori: Ich werde mir einen Haufen alter Dracula-Filme aus den 60ern ansehen. #line:8c803e
+Mae: Das klingt eigentlich ganz cool. #line:1120df
+Lori: Ist es auch. Ich werde mir auch eine Pizza holen. #line:d0d56f
+Lori: Ganz fuer mich allein. #line:8f90bf
+Mae: Wow. Du hast das Leben viel besser durchdacht #line:5a80ca
+Mae: als ich es in deinem Alter hatte. #line:754cae
+Lori: wirklich? #line:eed0fd
+Lori: was hast du damals gemacht? #line:641301
+    ->an wirklich peinlichen Orten online rumhaengen #line:e29218
+    ->mein Leben ruiniert #line:5ce82c
+        Lori: oh #line:5a4eaf
+        Lori: Tut mir leid, dass ich es erwaehne! #line:f1b46f
+        Mae: oh ist schon gut. nur eine Sache die passiert ist #line:ce33e9
+        Lori: ach ja, die Sache. #line:716627
+        Mae: ja. das ist mein Rat.  #line:7675ea
+        Mae: versuch, kein Ding zu haben. #line:009639
+        Lori: ok. #line:2e3877
+Mae: jep. #line:0aba7a
+Lori: Tschuess! #line:071c02
+Mae: spaeter! #line:f9bcf2
+//lori walks left offscreen//
+===
+title: A2D4.Emoticon
+tags: temp
+colorID: 3
+position: 3529,1982
+---
+Lori: {emote=Grabstein} #line:6f0178
+===
+title: A3D1.0
+tags:
+colorID: 4
+position: 1533,2803
+---
+Lori: Warst du auf dem Harfest? #line:a49505
+Mae: Ja. aeh. #line:d3d976
+Mae: landete in einem Theaterstueck #line:55e06f
+Mae: weil meine Freundin Bea es vermasselt hat #line:b24205
+Lori: cool. Ich habe Pizza gegessen und Bloodgorgon gesehen. #line:6c0aac
+        ->cool #line:553d7c
+        ->Bloodgorgon? #line:2380b3
+            Lori: italienischer Film von 1980 #line:99af02
+            Lori: viel Blut, aber es ist wie im Kino #line:fea9d4
+            Lori: und so #line:ed9cce
+            Lori: Maedcheninternat #line:f3245d
+            Lori: ein Haufen Geister, die sie entfuehren #line:46c016
+            Lori: bringen sie zu den- #line:46f692
+            Mae: zum Blutgorgon? #line:9832e4
+            Lori: jep. #line:da0b8b
+Mae: ... #line:3dbbce
+Lori: Stimmt etwas nicht? #line:7bd9ef
+Mae: nein. nur. #line:146e3a
+Mae: ich glaube, ich habe letzte Nacht einen Geist oder so gesehen #line:c7efd8
+Mae: ugh ich bin mir nicht sicher #line:6c693e
+Lori: das klingt irgendwie geil? #line:c10068
+Mae: es war so ziemlich das Gegenteil von toll. #line:52ee9d
+Lori: Oh. Entschuldigung. #line:5835bc
+Mae: Ist schon gut. Wir sehen uns spaeter. #line:b57536
+Lori: viel Glueck mit deinem Geisterproblem! #line:d4ede3
+Mae: danke. #line:3db907
+<<set $can_do_lori_friendship_quest to 1>>
+<<if $knows_mural and $talked_to_lori_about_mural is 0>>
+    [[TalkAboutMural]]
+<<endif>>
+===
+title: A3D1.Emoticon
+tags: temp
+colorID: 4
+position: 1765,2796
+---
+Lori: {emote=crossbones} #line:554170
+===
+title: A3D2.0
+tags:
+colorID: 4
+position: 2006,2794
+---
+Mae: zeichnest du etwas? #line:2f6cff
+Lori: ja, ich zeichne einen Boesewicht fuer einen Film #line:69e12f
+    <<close>>
+    <<sit>>
+    <<wait 2>>
+Mae: hast du jemals etwas gefilmt? #line:a373ae
+Lori: ich habe einen kleinen Film mit meinem Telefon gemacht #line:7fc347
+Lori: und ich habe einige Filmprogramme raubkopiert #line:a673d9
+Lori: es ist wirklich schlimm #line:515335
+    ->wovon handelt es? #line:c37520
+        Lori: aehm #line:3d4768
+        Lori: Dame findet ein Fenster in ihrer Wand #line:7af500
+        Lori: das war vorher nicht da #line:dd4eb9
+        Lori: und es ist, als wuerde man auf ihren Garten schauen #line:ee761d
+        Lori: aber es ist immer Sonnenuntergang #line:200f32
+        Lori: und da steht ein Typ, den sie nicht richtig sehen kann #line:cb504a
+        Mae: herrje. das ist eigentlich ziemlich gruselig #line:ca63ff
+        Lori: wirklich??? #line:e3e844
+        Mae: mir ist es unheimlich. #line:6f4b5e
+        Lori: oh danke #line:672a51
+        Lori: ich fand's scheisse #line:aaf458
+            ->Woher kam die Idee? #line:873d57
+                Lori: ich mag eine Menge Horrorfilme, die wirklich blutig sind #line:9c6a5f
+                Lori: aber blutig ist nicht immer gruselig #line:c2da6a
+                Lori: also habe ich ueberlegt, was gruselig ist #line:b25e87
+                Lori: und ich weiss es nicht #line:f64c40
+                Lori: du bist zu Hause, aber da ist etwas Neues #line:3f2c29
+                Lori: oder vielleicht hast du es nur noch nie bemerkt #line:8d53b4
+                Lori: und da ist jemand Seltsames ganz in der Naehe #line:ae010f
+                Lori: und... ich weiss nicht #line:51a668
+                Mae: ... #line:7ba3b9
+                Lori: was? #line:a06b38
+                Mae: nichts. gruselig. #line:dd5422
+            ->so wie hast du das gefilmt? #line:d93342
+                Lori: ich habe es bei mir zu Hause gedreht #line:2e51a5
+                Lori: ich habe beide Teile gespielt #line:fffc0b
+                Lori: und einiges davon habe ich am Computer animiert #line:f413b4
+                Lori: es ist extrem schlecht! #line:2fcdd2
+                Mae: Ich will es sehen! #line:5b3626
+                Lori: niemand wird es je sehen. #line:6dd986
+                Mae: hast du es noch? #line:4cb084
+                Lori: Ja, ich behalte es wie ein geheimes Schandmal. #line:f56ce1
+                Mae: das sollte der Titel sein. #line:838171
+                Lori: verdammt. #line:b047ab
+    ->Ich spiele wirklich schlecht Bass. #line:e7eb39
+        Lori: wie lange spielst du denn schon? #line:9cc422
+        Mae: genug, um wirklich, wirklich schlecht zu sein. #line:c2c6ce
+<<jump>>
+Mae: in Ordnung! ich bin weg. #line:9e8b35
+Lori: Wir sehen uns! #line:25f81c
+Mae: spaeter! #line:a7e0a6
+<<set $can_do_lori_friendship_quest to 1>>
+<<if $knows_mural and $talked_to_lori_about_mural is 0>>
+    [[TalkAboutMural]]
+<<endif>>
+===
+title: A3D3.0
+tags:
+colorID: 4
+position: 2465,2795
+---
+Mae: Hey Kleiner. Was hast du vor? #line:a118f4
+Lori: Hey Erwachsene. Nix. #line:f69c69
+Mae: Klingt gut. #line:6f0659
+<<if $can_do_lori_friendship_quest>>
+    Lori: wollte runter zu den Gleisen gehen #line:e8ea5e
+    Lori: wolltest du mitkommen? #line:4e4ae5
+    -> Klingt gut, eigentlich. #line:29f98a
+        Lori: oh gut gut gut #line:7c0e2e
+        Lori: lass uns gehen #line:9302a0
+        Mae: auf jeden Fall, lass uns #line:a706c5
+        <<irisOut 1 wait>>
+        <<scene Tracks>>
+    -> Eigentlich kann ich nicht #line:b67baf
+        Mae: Ich bin gerade so... muede. #line:f11526
+        Lori: gerade jetzt? #line:897706
+        Mae: Wie an diesem Punkt in meinem Leben. #line:6747af
+        Mae: vielleicht ein anderes Mal. #line:c3ff80
+        Lori: es ist cool. #line:157411
+        Mae: Man sieht sich! #line:9644d1
+        Lori: tschuess! #line:c1a3af
+<<else>>
+    Lori: Ich werde an den Gleisen abhaengen. #line:da89c7
+    Mae: Lasst euch nicht ueberfahren oder so. #line:fffa97
+    Lori: ich habe mein ganzes Leben neben den Gleisen gewohnt #line:c02478
+    Lori: Nur Deppen und Betrunkene werden von Zuegen ueberfahren. #line:201326
+    Mae: Das ist... hart. #line:d73c95
+    Lori: Es ist eine harte Welt #line:9a962d
+    Mae: ... #line:88b21e
+    Mae: na dann, man sieht sich! #line:0171d7
+    Lori: tschuess! #line:1a79cc
+<<endif>>
+===
+title: A3D2.Emoticon
+tags: temp
+colorID: 4
+position: 2236,2793
+---
+Lori: {emote=Grabstein} #line:b58777
+===
+title: A3D3.Emoticon
+tags: temp
+colorID: 4
+position: 2707,2797
+---
+Lori: {emote=Kreuzknochen} #line:03bbe6
+===
+title: A3D4.0
+tags:
+colorID: 4
+position: 2933,2796
+---
+Lori: Bist du okay? #line:28eb97
+<<close>>
+<<sit>>
+Mae: Jaaaa. #line:ffa63c
+Mae: Ich bin wie #line:00139c
+Mae: nur halb hier im Moment #line:13d351
+Mae: ich bin nur... muede. #line:d05424
+Lori: bist du krank oder so #line:974b83
+Mae: ich weiss nicht mal mehr #line:ec3ac0
+Lori: du solltest etwas Erkaeltungsmedizin besorgen #line:b764a5
+Lori: und ein paar Cracker und Ginger Ale #line:e2a00f
+Lori: und im Bett liegen und schlechte Filme gucken. #line:92b95b
+    ->danke fuer den Rat, Doc #line:522053
+        Lori: erwaehne es nicht. #line:77d5f5
+    ->ich habe das Gefuehl, dass das hier nicht hilft #line:b35a97
+        Lori: einmal bekam ich eine Lungenentzuendung #line:83eddd
+        Lori: und ich musste trotzdem zur Schule gehen #line:611114
+        Mae: ist das nicht ansteckend oder so? #line:88c70c
+        Lori: ich weiss nicht. #line:6a20ff
+Mae: =_= #line:e46280
+//trigger hud2 drunk cam//
+Mae: hhmmm hmmmmm hmmm #line:e568d5
+Mae: hmmmmmm mmm mmmmm #line:316d60
+Mae: -_- #line:6e0d60
+Lori: Mae? bist du ok? #line:1a02da
+Mae: mm mmmm mmmmm #line:db2073
+Lori: MAE!!! #line:e83d07
+//fade out//
+Mae: o_o #line:9e909e
+Mae: ugh. tut mir leid. war kurz weggetreten. #line:65d3a3
+Lori: du solltest wie #line:87cd7f
+Lori: einen Arzt aufsuchen #line:c9dc5e
+Mae: ich komme schon noch dazu. #line:5c063c
+Mae: danke. #line:e6543a
+Lori: aeh... kein Problem... #line:e77886
+<<jump>>
+Mae: in Ordnung, gut #line:33d118
+Mae: ich werde dich wahrscheinlich spaeter sehen. #line:747213
+Lori: wahrscheinlich? #line:b2bfc9
+Mae: nichts ist sicher, denke ich #line:532296
+Lori: ...ok #line:935c63
+Mae: bis dann #line:a6f329
+===
+title: A3D4.Emoticon
+tags: temp
+colorID: 4
+position: 3148,2790
+---
+Lori: {emote=Grabstein} #line:dd41d4
+===
+title: A4D3.0
+tags:
+colorID: 6
+position: 3413,2792
+---
+Lori: Hey! #line:b922e2
+Lori: Bist du ok? #line:cffc2c
+<<close>>
+<<sit>>
+Mae: Hey. #line:d7c4c0
+Lori: Ich habe gehoert, du warst im Krankenhaus oder so? #line:5e0f6b
+Mae: ha ha. ja. #line:b3a4c2
+Lori: Weshalb? #line:2eea53
+Mae: in eine Schlucht gefallen, als ich nachts durch den Wald lief #line:886973
+Lori: warum? #line:4c9fff
+Mae: aehm. gejagt von einem Todeskult von konservativen Onkeln. #line:484e83
+Lori: Schon gut, du musst es mir nicht sagen. #line:9c2549
+<<if $did_lori_friendship_quest_1>>
+    <<wait 2>>
+    Lori: Also geht es dir wirklich gut? #line:762b81
+    Mae: Ja. Es waren nur ein paar seltsame Tage. #line:11cf20
+    Lori: ok. Ich habe mir Sorgen gemacht. #line:1e911e
+    Mae: aw. ich bin super zaeh. #line:1d0f57
+    Mae: nichts wird mich in naechster Zeit erwischen. #line:3510f6
+    Lori: oh gut. das ist gut. #line:841a16
+    <<wait 2>>
+    <<if $did_lori_friendship_quest_2>>
+        <<if $knows_mural>>
+            Mae: Ich frage mich, ob sie jemals herausfinden werden, wer die Kerle vermoebelt hat. #line:95ae86
+            Lori: die Kerle? #line:0ee8bd
+            Mae: Das Wandgemaelde. Im Tunnel. #line:2485c9
+            Lori: oh, das war ich #line:17d694
+        <<else>>
+            Lori: Also sind wir Freunde, richtig? #line:7542b3
+            Mae: Ja. #line:6a8080
+            Lori: ok. #line:0f7e03
+            Lori: ich habe die Wandmalerei versaut. #line:225e61
+        <<endif>>
+        Mae: WAS?! :( #line:5b5e69
+        Mae: Warum? #line:fc4bd4
+        Lori: Ich weiss es nicht! #line:ab40d4
+        Mae: DAS IST KEIN GRUND?! #line:1e4f3b
+        Lori: Warum kuemmert dich das so sehr? #line:3ee884
+            ->Es sind die Dudes! #line:c5162c
+                Mae: So legt man sich nicht mit den Dudes an! #line:cdb4b0
+            ->Die Kerle! die Kerle sind heilig! #line:30cb46
+                Lori: Warum? #line:e1d3e3
+        Mae: Sie sind wie ein Teil von diesem Ort! :| #line:8cdf2b
+        Lori: Dieser ganze Ort ist ein einziges Durcheinander! #line:2b3f9d
+        Lori: Und keinen kuemmert's! #line:156ca9
+        Lori: Ich wollte, dass jemand merkt, dass etwas nicht in Ordnung ist. #line:59a8a0
+        Lori: Diese Stadt ist wie ein Horrorfilm, der nie aufhoert #line:0ffdf4
+        Lori: und es ist nicht mal ein guter! #line:665e18
+        Mae: ja, es koennte aetzend sein! #line:ac361f
+        Mae: aber es ist /unser/ Horrorfilm #line:5fd393
+            ->und das ist doch irgendwie cool, oder? #line:51f09e
+                Lori: Ja, aber... #line:eba835
+                <<wait 2>>
+                Mae: Ja, ich weiss. #line:53b0dc
+                Mae: ich habe das gleiche Ding in mir #line:4a371c
+                Lori: das Ding #line:c7c31c
+                Mae: die Sache #line:ca692f
+                Lori: ich habe das Gefuehl, dass es niemanden interessiert #line:fec021
+                Lori: alles ist einfach... fuer immer scheisse. #line:f057fc
+                Lori: da ist das Ding, das auf uns zukommt #line:1d1142
+                Lori: es passiert uns #line:4439d9
+                Mae: ja, aber wie #line:6ed69a
+                Mae: das ist kein guter Rat, den ich gerne annehme, aber #line:8f1c94
+                Mae: manchmal sind die Dinge gross genug und schlimm genug #line:67ff21
+                Mae: dass sie nicht zu toeten sind #line:4ea261
+                Mae: aber, weisst du, das Leben geht weiter #line:c07e28
+                Lori: ja. das ist nicht wirklich troestlich. #line:b5665f
+                Mae: heh heh. #line:02b102
+                Mae: naja, ich arbeite auch noch an einer besseren Aufmunterung fuer mich selbst #line:b758ed
+                Lori: ha ha ha. Schon gut. #line:83a97f
+            ->Welche Art von Film soll es denn sein? #line:1d8520
+                Lori: Ich weiss es nicht. #line:6a1a38
+                Lori: Romantische Komoedie. #line:0db77b
+                Lori: Alle leben dort in sauberen, glaenzenden Haeusern #line:833857
+                Lori: und sie sind alle huebsch #line:6b5a03
+                Lori: und sie kuessen sich. #line:a876d1
+                Mae: Aber es ist furchtbar, sich das anzusehen. #line:2ffb3c
+                Mae: und am Ende hasst man jede Person auf dem Bildschirm #line:91b1f3
+                Lori: ... #line:f1cfb9
+                Lori: ...ja. #line:1fa44d
+                Lori: sie sind immer ziemlich hassenswert. #line:2a7176
+                Mae: es ist ok, sie zu hassen #line:85b091
+                Mae: sie sind keine echten Menschen #line:a88aa4
+                Lori: Ja. Fiktiven Menschen macht das nichts aus. #line:784fa9
+                Mae: Ich meinte die Schauspieler. #line:b80301
+                Lori: Ich auch. #line:235214
+        Mae: Du weisst schon #line:4cfb60
+        Mae: Macht deine Familie was in den Ferien? #line:23d5cd
+        Lori: Mein Vater ist normalerweise an Thanksgiving verreist #line:cead84
+        Lori: aber er ist zu Hause fuer die laengste Nacht. #line:11274c
+        Mae: Du solltest an Thanksgiving zu mir nach Hause kommen #line:3488b8
+        Lori: Oh nein. Nein, nein, nein. #line:e0d7a4
+        Mae: Komm schon. #line:1f8f19
+        Mae: Wir haben 4 Stuehle und wir sind nur zu dritt. #line:4e9087
+        Mae: Auf dem anderen Stuhl liegt normalerweise nur Muell. #line:a804e9
+        Lori: Nein, nein, nein. Ich kann nicht. #line:ec916c
+        Mae: Warum nicht?  #line:5ede16
+        Lori: *huff huff* #line:52b74f
+        Lori: Ist schon in Ordnung. #line:24e009
+        //Lori goes into panic attack mode//
+        Lori:{width=8} itsfineitsfineitsfineitsfineitsfine #line:dc9d3c
+        Mae: hey hey ok. wir koennen spaeter darueber reden. #line:54ee80
+        Lori: *huff huff huff* #line:a44241
+        Lori: Danke *huff* du *huff* #line:0d4cf2
+        Mae: You ok? Can I do anything? #line:af052a
+        Lori: Nein es ist *huff* cool ich muss nur *huff* hier sitzen und sein #line:288ca0
+        Lori: *huff* #line:f5b95b
+        Lori: ruhig fuer eine Weile. #line:443923
+        Mae: Ok. Dann lasse ich dich in Ruhe! #line:9a4cc9
+        Mae: Wir sehen uns wahrscheinlich morgen. #line:804e32
+        Lori: Mae? #line:ab3a0b
+        Mae: Jep! #line:1a3be0
+        Lori: Danke, dass du *huff* mit mir rumhaengst. #line:361128
+        Mae: Kein Problem, Kleine. #line:d89976
+        Mae: versuch, in der Zwischenzeit nicht irgendwas abzufackeln. #line:df1bd4
+        Lori: ha ha ha #line:c5e686
+        Lori: *huff* #line:9760b1
+        Mae: Wir sehen uns! #line:9baf35
+        <<unlockAchievement Horrorshow>>
+    <<endif>>
+    <<jump>>
+    <<wait 1>>
+<<else>>
+    <<wait 3>>
+    Lori: du... willst du irgendwann mal abhaengen? #line:f686f1
+    Mae: ist es nicht das, was wir tun? #line:d71992
+    Lori: ich meine, wir koennten uns Horrorfilme ansehen #line:44ad0c
+    Lori: du koenntest meine Schwester kennenlernen #line:01a701
+    Lori: sie ist fast so alt wie du #line:9ca85a
+        ->Wie heisst sie? Ich kenne sie wahrscheinlich aus der Schule. #line:e6b8da
+            Lori: Stevie Meyers. Aber du kennst sie nicht. #line:82d035
+            Lori: Sie hat jemanden verpruegelt und musste auf eine andere Schule gehen. #line:a2d1da
+            Mae: oh cool. wir koennten uns verstehen. #line:4a8b1e
+            Lori: ha ha wahrscheinlich. #line:bf26f3
+            Lori: sie ist manchmal fies, aber sie ist cool. #line:db336d
+            Mae: Klingt gut. #line:7ec896
+        ->ich glaube nicht, dass ich sie kenne #line:f189b5
+            Lori: Du kennst sie nicht. #line:4998ba
+            Lori: sie ist nicht die ganze Zeit zu Hause #line:dd43ec
+            Lori: aber ich kann... es planen #line:6cd1e9
+            Lori: es kann eine Party werden #line:15327d
+            Lori: es wird grossartig sein es wird grossartig sein es wird grossartig sein #line:cab5cc
+            Mae: klingt, als wuerde es grossartig werden #line:862f35
+    <<jump>>
+    Mae: Ich muss jetzt los. #line:78639e
+    Mae: Es waren ein paar merkwuerdige Tage. #line:f9857a
+    Lori: Seltsam ist gut. #line:4fc309
+    Mae: Ich denke schon. Seltsam ist nur, was passiert. #line:c249a5
+    Lori: Man sieht sich. #line:df18f0
+    Mae: Spaeter, Junge. #line:b2ae97
+    Lori: spaeter, Killer. #line:a3879a
+<<endif>>
+===
+title: A4D3.Emoticon
+tags: temp
+colorID: 6
+position: 3676,2793
+---
+Lori: {emote=crossbones} #line:237379
+===
+title: TalkAboutMural
+tags:
+colorID: 0
+position: 3125,2268
+---
+Mae: Hast du gesehen, dass jemand das Wandgemaelde im Tunnel versaut hat? #line:f6eb6c
+Lori: ja ha ha ziemlich lustig #line:fe778f
+Mae: ... #line:083e2e
+Lori: ich meine sehr seltsam und schlecht #line:407345
+Mae: irgendeine Idee, wer das getan hat? #line:88aa00
+Lori: nee. #line:10a437
+Lori: aber viele Verdaechtige #line:50e237
+Mae: ja... die ganze Stadt voller Verdaechtiger #line:685724
+<<set $talked_to_lori_about_mural to 1>>
+===
+title: A1.Emoticon
+tags: temp
+colorID: 0
+position: 1715,1779
+---
+Lori: {emote=Grabstein} #line:7b9dbc
+===
+title: EnterTowneCentreEastFromTracks_A2D3
+tags:
+colorID: 0
+position: 2828,2240
+---
+Lori: seeeeeeyaaaaa! #line:e032fd
+===
+title: EnterTowneCentreEastFromTracks_A3D3
+tags:
+colorID: 0
+position: 2442,3033
+---
+Lori: laaaaaaateerrrrrrrrrssssss{width=8} #line:daf63a
+===
+title: LoriDemo2_00
+tags: demo2
+colorID: 2
+position: 1129,1828
+---
+Lori: Hey Killer. #line:11cc47
+Mae: Ugh. Nenn mich nicht so. =_= #line:7742cb
+Mae: Wer bist du denn? #line:e3f2a8
+Lori: Lori M. #line:642058
+Mae: Woher weisst du ueberhaupt von dieser "Killer"-Sache? #line:83c4ea
+Lori: Es war eine grosse Sache, sogar fuer uns Mittelschueler. #line:5fc494
+[[Ja, das ist lange her.|Lori_LongTimeAgo]] #line:fc9fb2
+[[Und was haben die Mittelschueler gesagt?|Lori_MiddleSchoolers]] #line:b83ed9
+===
+title: Lori_LongTimeAgo
+tags: demo2
+colorID: 2
+position: 917,2152
+---
+Lori: Warum hast du es getan? #line:0ca106
+Mae: Ich weiss es nicht. #line:aee15b
+Lori: Hatte er es verdient? #line:c2bfab
+Mae: Nein. #line:74bbd1
+Lori: Unsere Muetter haben uns gesagt, wir sollen nicht mit dir reden. #line:9894b1
+Lori: Weil niemand wusste, wann du es wieder tun wuerdest. #line:55ea64
+[[Lori_00_End]]
+===
+title: Lori_MiddleSchoolers
+tags: demo2
+colorID: 2
+position: 1246,2143
+---
+Lori: Du hast ihn ins Krankenhaus gebracht. #line:f7a0d8
+Lori: Und niemand weiss warum. #line:6bac83
+Lori: Hat er es irgendwie verdient oder so? #line:b7fe54
+Mae: Nein. #line:74f6ce
+Lori: Unsere Muetter haben uns gesagt, wir sollen nicht mit dir reden. #line:3c8295
+Lori: Weil niemand wusste, wann du es wieder tun wuerdest. #line:09aa43
+[[Lori_00_End]]
+===
+title: Lori_00_End
+tags: demo2
+colorID: 2
+position: 1118,2447
+---
+Mae: Nun, gruess deine Mutter von mir. Sie klingt reizend. #line:c80d1a
+Lori: Mach ich. #line:f0cd56
+Mae: Yeesh. :\ #line:021c81
+Mae: :| o_o #line:9522f9
+===
+title: LoriDemo2_01
+tags: demo2
+colorID: 3
+position: 440,1788
+---
+Mae: Ich werde mich setzen. Meine Beine sind muede. #line:970a9d
+Lori: Ja, es ist eine Wanderung, um hier hoch zu kommen, nicht wahr? #line:71f0f4
+Mae: Ich werde einfach alt. 20 Jahre. #line:dc84ab
+Lori: Du bist so alt wie der ganze Weg. #line:8808ac
+Mae: Wie alt bist du? :| #line:83d25d
+Lori: 16 im Februar. #line:a73c78
+<<close>>
+<<sit>>
+Mae: Ich habe hier immer nach der Schule rumgehangen. #line:ba5b6d
+Lori: Wirklich? Die meisten Kinder kommen nicht den ganzen Weg hierher. #line:cca6f6
+Mae: Ha ha. Deshalb ist es ja so schoen :) =_= #line:2db058
+Lori: Besser, als zu Hause zu sein! #line:c3b44c
+Mae: o_o :| #line:e9eae9
+Mae: Wo wohnst du denn? #line:8448e0
+Lori: Chestnut street. #line:2e0b44
+Mae: Oh ok. Draussen bei den Gleisen. #line:889080
+Lori: Ja... ich schaetze, ich bin nicht wirklich "Stadt". #line:0c9148
+Lori: Ich bin wie #line:455e76
+Lori: "Spuren". #line:ca56ab
+Mae: Ich wohne unten auf Maple. #line:0aa43c
+Lori: Ooh! Die reiche Nachbarschaft! #line:43988c
+Mae: {emote=interrobang} #line:293c04
+<<close>>
+    ->Was? #line:33a308
+    ->Um...nein. #line:648086
+Lori: Oh sorry. #line:635a37
+Lori: Ich meinte nur, es ist schoen... #line:4ed887
+Lori: Macht nichts, ist schon gut, tut mir leid, tut mir leid #line:5bbbe8
+Mae: :( #line:ffc8b9
+Mae: Ist schon gut! Beruhige dich! #line:ed8b26
+Lori: Es tut mir leid, dass ich manchmal so komisch bin, es tut mir leid #line:54352d
+Mae: Ich vergebe dir, wenn du aufhoerst, dich zu entschuldigen! #line:1b52fb
+Lori: ok. #line:20fef1
+Mae: :| #line:752649
+Mae: Die Strecken sind cool. Ich war schon lange nicht mehr da draussen. #line:4ecfaf
+Lori: Der Zug ruettelt nachts an meinem Zimmer. #line:5b0586
+Mae: Ja, im Winter kann ich ihn hoeren :) #line:b671d7
+Mae: Eines meiner Lieblingsgeraeusche. #line:c8b9f6
+Lori: Nun, du musst nicht mit Teilen der Decke auf dir aufwachen. #line:8aaebe
+Mae: Gutes Argument. :| #line:dbba2d
+Mae: In Ordnung #line:849859
+<<jump>>
+Mae: Ich bin raus! Es war nett zu plaudern! #line:2b0efd
+Lori: Ich bin fast jeden Tag hier. #line:1b8333
+Mae: Cool #line:ba6063
+<<if $knows_mural is 1 and $asked_lori_mural is 0>>
+    Mae: Wo wir gerade von nichts sprechen, hast du gesehen, dass der Tunnel aufgerissen wurde? #line:cbedba
+    Lori: Ja, komisch oder? #line:283a0c
+    Lori: Der Stadtrat und dieser Bulle haben vorhin so ziemlich jeden rausgejagt. #line:33ec8c
+    Mae: Ich habe mich schon gefragt, wo die ganzen Kinder sind. #line:81c19a
+    Lori: Ha heh. Sie sind alle aelter als ich. #line:33b574
+    Lori: Meine Schwester haengt mit ihnen ab. #line:46eb89
+    Mae: <o> -_- #line:b3f214
+        ->Vielleicht sollte ich deine Schwester danach fragen. #line:fd18fa
+            Lori: Ich glaube nicht, dass sie etwas weiss. #line:2676aa
+            Mae: Ja, du hast wahrscheinlich recht. #line:f77845
+            Mae: Hast du eine Ahnung, wo sie sich rumtreibt? #line:518a6c
+            Lori: aehm... sie ist oft im Tunnel... #line:dfdecd
+            Lori: wenn nicht gerade ein Polizist da rumhaengt. #line:99b00a
+            Mae: Schoen. #line:328a17
+        ->Eine Ahnung, wer es war? #line:82aea3
+            Lori: Vielleicht dieser eine Typ? Steve? #line:0e96bc
+            Mae: Steve? #line:8dac24
+            Lori: Ja. Er ist nicht mehr in der Schule #line:2c4cc4
+            Lori: aber er kommt immer noch zu Schulpartys. #line:8409a4
+            Lori: Macht sich an Maedchen in meiner Klasse ran. #line:b9b151
+            Mae: =_= _o_ #line:66263f
+            Mae: Oh Gott. Steve Scriggins. #line:b153fa
+             <<set $suspect_steve to 1>>
+            Lori: Ja. Er. #line:0cb166
+            Mae: Ok. Das macht Sinn. #line:4e8e02
+            Lori: Irgendeine Idee, wo er sich rumtreibt? #line:9b1b39
+            Mae: Ich weiss es nicht. Ich bin erst vor ein paar Tagen wieder in die Stadt gekommen. #line:294359
+    Mae: Danke, Junge. o_o #line:77996d
+    <<set $asked_lori_mural to 1>>
+<<endif>>
+Mae: See ya later! o/ #line:bfd689
+Lori: Wir sehen uns als Killer. #line:81e28a
+Mae: Ugh. =_= _o_ #line:69a449
+Mae: o_o #line:45be52
+<<unlockDoodle LoriM>>
+===
+title: LoriDemo2_02
+tags: demo2
+colorID: 3
+position: 681,1852
+---
+Lori: {emote=Musik} #line:df953e
+===

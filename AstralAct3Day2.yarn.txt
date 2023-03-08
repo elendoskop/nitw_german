@@ -1,0 +1,127 @@
+title: Trigger
+tags:
+colorID: 0
+position: 371,228
+---
+<<playMusic cat_god 10>>
+Mae: Hallo? #line617119
+<<close>>
+<<wait 4>>
+Mae: Kannst du sprechen? #lineabb223
+CatGod: Ja. #line7e9b95
+Mae: Aus irgendeinem Grund bist du die erste Person hier, mit der ich mich unterhalten moechte. #line08a27c
+<<close>>
+<<wait 4>>
+Mae: Bist du... Gott? #line544736
+CatGod: Nein... #line0f206f
+Mae: oh #line52f1ad
+<<close>>
+<<wait 2>>
+Mae: Also, #line110df2
+CatGod: Vor Sekunden kommen kleine Kreaturen  #lined1c652
+CatGod: und sie fragen, ob ich Gott bin  #linee20d2b
+CatGod: und ich frage, was Gott ist  #line80720d
+CatGod: und sie sagen mir #line3ac4ac
+CatGod: und ich bin nicht dieser Gott #lineec8ecf
+CatGod: und dieser Gott ist nirgendwo #line335e0f
+->nun, du kannst Gott nicht sehen #line08accd
+CatGod: du siehst, was du dir wuenschst, kleine Kreatur #lineec83da
+->Tja, da kommt der Glaube ins Spiel, denke ich #line11b5f0
+CatGod: kleine Wesen erklaeren den Glauben #line597117
+CatGod: und der Augenblick ist der Anfang #line413c34
+CatGod: und ich bin hier, damals und hier, jetzt  #lined3c5f9
+CatGod: und es gibt keinen Ort, an dem Gott sich verstecken koennte #linedc50a2
+Mae: ... #lineff78f8
+Mae: also was mache ich hier? #line11809d
+CatGod: monstroese Existenz #line218285
+Mae: Nein, ich meine, was mache ich *hier*? #line632300
+Mae: Was bist du? Was sind das fuer andere riesige Tiere? #line00e9f5
+Mae: habe ich Geister gesehen? #line2d454d
+Mae: Es gab so etwas wie Teile der Welt... #linee764b2
+Mae: ich glaube, ich war in einem Zug, aber es war wie eine Stadt?  #lineef5d89
+Mae: es ist alles- #line549554
+Mae: Igitt. Ich habe es verloren. #lineedcc03
+<<close>>
+<<wait 2>>
+Mae: Ok, also- #linead50b3
+CatGod: Ein grosses Ungeheuer geht durch den Sand #line20b41d
+CatGod: und sie steigen in die Luft #line361d5f
+CatGod: und jetzt machen sie eine Traene #line64b96d
+CatGod: und jetzt sind sie weg #line081e7c
+CatGod: und jetzt bist du hier #line403260
+->Was? #linec0f98a
+->a... reissen? #line525915
+CatGod: Mit ihren Hufen #linedd4fcc
+CatGod: sie machen eine Traene #linee3036c
+CatGod: kleine Kreaturen wandern durch die Luft #line0b2d7b
+CatGod: und sie ziehen an Orten und Echos von Leben #line87d756
+CatGod: und sie fragen mich nach Gott #linef062e7
+Mae: mein Kopf tut weh #line9d9ad4
+CatGod: ich werde dir etwas sagen, kleine Kreatur #line0eefdb
+CatGod: du schwimmst immer weiter aufs Meer hinaus #line9495bd
+CatGod: und dahinter sind Dinge blind und schrecklich #linef267fe
+CatGod: und ich zeige es dir jetzt #linee8cb49
+<<close>>
+<<playMusic unknowable 6>>
+//flash to horrifying things//
+<<trigger AstralAct3Day2 BeyondThings>>
+<<wait 9>>
+<<fadeOutMusic 3>>
+<<wait 3>>
+<<playMusic cat_god 10>>
+Mae: aaagh #linef27b40
+Mae: Oh Gott. Oh Gott. #linebb6ef4
+CatGod: sie sind blind, aber sie sehen dich #line98af44
+CatGod: und du kommst zu ihnen #line795b10
+CatGod: danach wirst du nicht mehr hierher zurueckkehren  #line1d6510
+CatGod: ich steige in die Luft #line90d58a
+CatGod: und schliesst den Himmel #line61f820
+->Warum? #line9a3186
+CatGod: Ich bin es leid, mit kleinen Kreaturen zu sprechen  #linea57f7c
+CatGod: Ich bin es leid, von Gott zu sprechen  #line535d41
+->Schliessen des Himmels?  #line5d1910
+CatGod: ja #linee1db21
+Mae: ok... #line6b8cfb
+CatGod: Ich werde dir eine zweite Sache sagen #line21b069
+CatGod: Es gibt ein Loch im Zentrum von allem #line7d30fe
+CatGod: und es wird immer groesser #linef44127
+CatGod: zwischen den Sternen sehe ich es  #lined32159
+CatGod: es wird kommen #line1a108e
+CatGod: und du entkommst nicht #lineb6716f
+CatGod: und das Universum vergisst dich #linecea4a2
+CatGod: und das Universum wird vergessen #line008e51
+CatGod: und es gibt nichts, um sich daran zu erinnern  #lined18390
+CatGod: nicht einmal die Dinge im Jenseits  #line2b8a50
+CatGod: und jetzt gibt es nur noch das Loch  #line071802
+Mae: also... bedeutet irgendetwas irgendetwas? #line63ec68
+CatGod: diese Frage ist es nicht wert, beantwortet zu werden #line:f0c28d
+-> Was ist mit meinem Zuhause? Was ist mit meinen Freunden?  #lined12326
+CatGod: bald werden sie sterben #line211db5
+CatGod: bald werden sie verrotten #line83e7b0
+-> Was ist mit den Baeumen im Herbst? Was ist mit den Blaettern?  #line77a1a2
+CatGod: blosse Existenz, bedeutet nichts  #line543324
+CatGod: ihr seid Atome #line6c5437
+//Beginn der verschwommenen UEberblendung auf Schwarz///
+CatGod: und deine Atome kuemmern sich nicht darum, ob du existierst  #line3add4e
+CatGod: deine Atome sind monstroese Existenz  #linefe9968
+Mae: Warum bin ich dann hier, verdammt noch mal? Warum wurde ich auserwaehlt, das alles zu sehen? #linefce248
+Mae: wo fuehrt das hin? #line99265f
+CatGod: kleine Kreatur, du bist nicht auserwaehlt  #line551cbe
+CatGod: es gibt niemanden, der dich erwaehlt #line33f5a3
+CatGod: das fuehrt zu nichts  #line034f0c
+CatGod: wir werden uns nicht wiedersehen #linea547d5
+//voellig schwarz jetzt///
+CatGod: und das Universum vergisst dich #line02c14c
+CatGod: und ich erinnere mich an dich #line6decf6
+CatGod: aber nicht, weil ich mich kuemmere  #linee3194f
+CatGod: der Anfang ist Augenblicke her  #line1b7a0e
+CatGod: das Ende ist Augenblicke entfernt #linefefbd3
+CatGod: es gibt keine Zeit zu vergessen #linefb74aa
+CatGod: bevor alles vergessen ist #line777671
+CatGod: auf Wiedersehen, kleine Kreatur  #linee97d11
+<<close>>
+<<fadeOutMusic 5>>
+<<fadeOut 5 wait>>
+<<wait 5>>
+<<endDay>>
+===

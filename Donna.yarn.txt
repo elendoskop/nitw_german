@@ -1,0 +1,82 @@
+title: Donna
+tags:
+colorID: 0
+position: 181,170
+---
+<<if $donna_sequence is 0>>
+	<<if $donna is 0>>
+		[[Donna_00]]
+	<<elseif $donna is 1>>
+		[[DonnaSorry]]
+	<<elseif $donna is 2>>
+		[[DonnaBreak]]
+	<<endif>>
+<<endif>>
+===
+title: DonnaBreak
+tags:
+colorID: 0
+position: 177,466
+---
+Donna: Noch 10 Minuten. #line:9bf3d6
+===
+title: DonnaSorry
+tags:
+colorID: 0
+position: 471,342
+---
+<<set $donna to 2>>
+Donna: Tut mir leid, dass ich dich so ueberfallen habe. #line:5cefff
+Mae: Nee, ist schon gut. #line:68b572
+Mae: Brauchst du eine Umarmung? /o\ :) #line:377f7a
+Donna: Ich werde passen. #line:b6cbb1
+Mae: _o_ :| #line:eb7fa2
+===
+title: Donna_00
+tags:
+colorID: 0
+position: 709,106
+---
+<<set $donna to 1>>
+Mae: Hey! Donna, richtig? #line:3f1d22
+Mae: Du hast frueher auf mich aufgepasst, weisst du noch? #line:a5803c
+Donna: Ja. #line:832f44
+Mae: Das ist ein suesser Mantel, Donna. #line:69eb0b
+Donna: Das ist mein schoenstes Outfit. #line:f0a00d
+Mae: Sieht gut aus! :) #line:49e4ec
+Donna: Ich habe es in der Fort Lucenne Mall gekauft. #line:de129d
+Donna: Ich trage es nur zur Arbeit. #line:9fcd8c
+Mae: Ich trage dieses Outfit die ganze Zeit. #line:1c50de
+Mae: Das ist meine Visitenkarte. #line:e72877
+Donna: Ich kann das nirgendwo anders tragen. #line:dc9763
+[[Geniesse deine Pause!|DonnaEnd]] #line:1348de
+[[Mein Shirt ist cool, weil es mehrere Bedeutungen hat.|Donna30]] #line:0d1ea9
+
+===
+title: DonnaEnd
+tags:
+colorID: 0
+position: 764,476
+---
+<<set $donna to 2>>
+Donna: Man sieht sich, Mae. #line:c5dd04
+Mae: :| #line:84b8bf
+===
+title: Donna30
+tags:
+colorID: 0
+position: 996,215
+---
+Donna: Ich trage dieses Outfit #line:8d442f
+Donna: zu einem Job #line:25b3e6
+Donna: wo die Leute nur meine Stimme hoeren koennen. #line:f305ea
+Mae: Dieses Hemd habe ich auch selbst genaeht! #line:e4290b
+Donna: Ich werde naechste Woche 30. #line:a1e398
+Mae: in Hauswirtschaft. Darin war ich wirklich gut. #line:3f1ed1
+Donna: Ich werde in dieser Stadt sterben. #line:982133
+Donna: Und sie werden mich in diesem Outfit begraben. #line:5c86ba
+Mae: Ich hoffe, sie begraben mich in diesem Hemd. /o\ #line:7e84f9
+Donna: Das ist ein sehr schoenes Hemd, Mae. #line:18a035
+Mae: [wave]Danke!!![/wave] #line:e83612
+Mae: :| _o_ #line:c3781c
+===

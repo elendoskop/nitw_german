@@ -1,0 +1,252 @@
+title: TreeCat_A1D3.1
+tags:
+colorID: 0
+position: 781,86
+---
+<<speechBubbleDistanceOverride 1.5>>
+Adina: Hey Katze. Dachte mir, dass ich dich hier sehen wuerde. #line:df5945
+TreeCat: Da hast du richtig gedacht. #line:62c2a6
+Adina: Du hast falsch gedacht. #line:1276fb
+TreeCat: Wie ist das? #line:62cb99
+Adina: Ich bin da drin nicht gestorben. #line:9955cf
+TreeCat: Also bist du nicht gestorben. #line:fabc52
+TreeCat: Aber andererseits bin ich auch noch nie da drin gestorben. #line:d4cda4
+TreeCat: Also verzeih mir, wenn ich nicht sonderlich beeindruckt bin, dass du es einmal geschafft hast. #line:8e9f06
+Adina: Du bist so ein Arsch. #line:b963df
+TreeCat: Du hast heute Abend sicherlich eine Menge Aerger verursacht. #line:efd792
+Adina: Das wollte ich nicht. Ich war nur auf der Durchreise. #line:9b7b82
+TreeCat: Ist das nicht immer so. #line:e2de1f
+[[Ich muss jetzt gehen.|GoodbyeTreeCat]] #line:9269b6
+[[Wer bist du eigentlich?|WhoIsTreeCat]] #line:533a55
+
+===
+title: Astronomer
+tags:
+colorID: 0
+position: 1378,198
+---
+//<<trackAllSpeechBubblesToCharacters 1>>
+//<<speechBubbleSizeOverride 1.75>>
+//<<speechBubbleDistanceOverride 2>>
+<<speechBubbleMaxOpenTimeOverride 2.5>>
+<<holdInput 1 0>>
+<<playerRunSpeedOverride 2>>
+//<<musicDialogueFaderOverride 1>>
+<<show Astronomer 1>>
+<<wait 2>>
+<<tell Music to Play>>
+Astronomer: Weisst du, ich habe bezweifelt, dass du es schaffen wuerdest. #line:822279
+Adina: Ein Versprechen ist ein Versprechen. #line:c77fd2
+Astronomer: Wie ist es zu Hause? #line:674ff6
+Adina: Genauso wie immer. Natuerlich ist es jetzt kaelter. #line:bab937
+Adina: Die Schafe haben am Abend der laengsten Nacht wieder die 5th Street Bridge gesperrt. #line:3352eb
+Astronomer: Ha ha ha! #line:4db8e8
+Adina: Die Bauern waren den ganzen Tag da und haben versucht, sie abzuziehen. #line:8902d1
+Astronomer: Haben sie herausgefunden, warum sie das immer wieder tun? #line:91423f
+Adina: Keiner hat eine Ahnung. #line:da15d1
+Astronomer: Hm. #line:b207f4
+Adina: Ich weiss, du kannst nicht lange bleiben. #line:1402bc
+Astronomer: Ich kann es nicht. Dann fragen Sie. #line:cafb9a
+Adina: Ok, hast du den Geisterstern gefunden? #line:12c4a5
+Astronomer: Habe ich, in meiner ersten toten Nacht. #line:64612d
+<<close>>
+<<waitForPlayerPastX 33>>
+<<holdInput 0 0>>
+<<speechBubbleMaxOpenTimeOverride 0>>
+Astronomer: Es ist da. #line:05f816
+<<show LostConstellation 3>>
+<<wait 3>>
+Adina: Oh mein Gott. #line:5483bf
+Astronomer: So aehnlich. #line:7a6be8
+Astronomer: Kannst du dich erinnern, wo das ist? #line:b0307d
+Adina: Ja. #line:11fa2f
+<<close>>
+<<wait 2>>
+Adina: Das ist lustig. #line:32ff6f
+Astronomer: Was ist das? #line:32ce9c
+Adina: Es war schon immer da. #line:8d6331
+Adina: Ich hatte nur keine Moeglichkeit, es zu sehen. #line:14ae17
+Astronomer: Das kannst du immer noch nicht, nicht wirklich. #line:8ead87
+Astronomer: Aber man kann aufzeichnen, wo es ist. #line:741b68
+Astronomer: Das ist wenigstens etwas. #line:a8757e
+Adina: Wow. #line:0d0fae
+Adina: Ich habe das Gefuehl, nur ein paar Meter entfernt #line:b9278d
+Adina: da ist dieses Ding, groesser als ich es mir vorstellen kann, #line:de33f7
+Adina: brennt weg. Explodiert. #line:ae627f
+Adina: Und zwischen uns ist dieses schwarze Blatt. #line:2e9ed6
+Adina: Und wenn ich daran denke, habe ich das Gefuehl, dass ich ueberlaufen werde. #line:aff355
+Astronomer: Daran denke ich in letzter Zeit oft. #line:f87dcf
+Astronomer: Wir widmen uns einer Sache, die wir kaum verstehen, #line:f2da82
+Astronomer: etwas, das wir nie beruehren koennen. #line:14577e
+Astronomer: Wir geben ihm einen Namen, und wir geben uns selbst einen Namen, weil wir das tun. #line:c43958
+Astronomer: All das schafft diese Verbindung. #line:2dfa2e
+Astronomer: Und diese Verbindung, die wird zu dem, was wir beruehren koennen. #line:d29526
+Astronomer: Man schaetzt diese Verbindungen noch mehr, nachdem man gestorben ist. #line:d487b9
+Adina: Ich werde dich jetzt schon wieder vermissen. #line:c8f772
+Astronomer: Nun, das Gute ist, dass du einen Stern bekommen hast. #line:53a20e
+Adina: Das ist wenigstens etwas. #line:4e1705
+Astronomer: Ha ha ha. #line:88acd5
+Astronomer: Ziemlich erstaunlich, wenigstens etwas zu sein. #line:606f07
+Adina: Ja. #line:4ec8dc
+Astronomer: Auf Wiedersehen, Astronomer. #line:ce5a35
+Adina: Auf Wiedersehen, Astronom. #line:e7f7ad
+<<close>>
+<<fadeOut 5 0 0 0>>
+<<wait 3>>
+<<fadeOutAllSounds 4>>
+<<wait 2>>
+//<<trackAllSpeechBubblesToCharacters 0>>
+//<<speechBubbleSizeOverride 0>>
+//<<speechBubbleDistanceOverride 0>>
+//<<musicDialogueFaderOverride 0>>
+<<speechBubbleMaxOpenTimeOverride 0>>
+<<showTalkingHeads>>
+Granddad: Das Ende. #line:706c76
+Mae: Welche Konstellation war es? #line:88a6f0
+Granddad: Keiner weiss es. Es ist fuer die Geschichte verloren. #line:64e01f
+Mae: Ist das wirklich passiert? #line:756baa
+Granddad: Ist es wichtig, ob es wirklich passiert ist? #line:eb4b05
+Mae: Ich glaube, das tut es. #line:d0e3ef
+Granddad: Nun, wir werden es nie erfahren. #line:5f6a47
+Granddad: Aber zu hoeren, dass es dir passiert ist. #line:206bb9
+Granddad: Und das ist etwas. #line:f4bf47
+Mae: Etwas etwas etwas etwas. #line:b2d1ba
+Mae: Ich will diese Konstellation finden. #line:d8a26e
+Granddad: Geh eines Nachts nach draussen und finde es. #line:469dce
+Granddad: und sag mir, wo es ist, ok? #line:8add6c
+Mae: *gaehn* #line:40a939
+Granddad: Du siehst erschoepft aus, Junge. #line:cfdb43
+Mae: Bin ich auch. #line:b30e47
+Granddad: Ich werde dich in Ruhe lassen. #line:2bb351
+<<fadeOutMusic 4>>
+Granddad: Suesse Traeume, Kleiner. #line:83691d
+Mae: zzz #line:640f67
+<<hideTalkingHeads>>
+<<wait 4>>
+<<scene LN2_End>>
+
+===
+title: GoodbyeTreeCat
+tags:
+colorID: 0
+position: 549,339
+---
+TreeCat: Die Huncherin, ihr Kind, der Waldgott - das geht dich nichts an. #line:d27dca
+Adina: Ich weiss. #line:1fea23
+TreeCat: Lass das alles hier. Du warst in ihrem Wald. #line:5009af
+Adina: Ich bin eine Astronomin. #line:41bebd
+Adina: Es mag ihr Wald sein, aber er ist unter meinem Himmel. #line:268991
+TreeCat: ha ha ha. Ich wette, das hat sich in deinem Kopf toll angehoert. #line:a7d6c1
+Adina: Es hat sich toll angehoert, als ich es gesagt habe, Arschkatze. #line:dba8c3
+TreeCat: Auf Wiedersehen, Adina die Astronomin. Viel Glueck. #line:4902bd
+Adina: Auf Wiedersehen, Katze. Froehliche laengste Nacht. #line:df5d60
+
+===
+title: WhoIsTreeCat
+tags:
+colorID: 0
+position: 546,87
+---
+TreeCat: Wie bitte? #line:e4b796
+Adina: Bist du eine magische Katze? Katzengott? Ein Katzenzauberer? Irgendwas? #line:04b65c
+TreeCat: Ich bin nur eine Katze. #line:b43f10
+TreeCat: Ich lebe in der Naehe des Waldes. #line:3fe4ab
+TreeCat: Ich mag glaenzende Dinge. #line:a5c133
+TreeCat: Und ich hoere zu. #line:c07dd1
+Adina: Oh. #line:9ca337
+TreeCat: Du bist dran. Wer bist du denn? #line:30809d
+[[Ich bin ein Astronom.|ImAnAstronomer]] #line:7953d8
+[[Ich bin ein Survivor.|ImASurvivor]] #line:38f6d5
+
+===
+title: ImAnAstronomer
+tags:
+colorID: 0
+position: 312,337
+---
+Adina: Ich bin hier, weil am Himmel etwas fehlt. #line:4353d1
+Adina: Und das ist der Ort, wo ich es finden werde. #line:df0f65
+TreeCat: Bist du sicher? #line:991388
+Adina: Zu diesem Zeitpunkt bin ich so erschoepft und kalt #line:d26ec8
+Adina: dass ich es mir nicht leisten kann, nicht sicher zu sein. #line:1f9836
+TreeCat: Das ist entweder sehr traurig oder sehr schoen. #line:11679e
+Adina: Es ist sehr wahr. #line:5557bf
+Adina: Ich bin eiskalt. #line:8bf758
+TreeCat: [speed=.5][wave]Prrrrr.[/all] #line:49aa4c
+[[GoodbyeTreeCat]]
+
+===
+title: ImASurvivor
+tags:
+colorID: 0
+position: 311,90
+---
+Adina: Wo ich herkomme, wo ich heute Nacht war. #line:884e38
+Adina: Ich habe ueberlebt. #line:83c6cb
+TreeCat: Ueberleben ist gut. #line:9b08be
+TreeCat: Alles stehlen. Niemals erwischt werden. #line:5cf983
+TreeCat: Ratten fressen. Finde die waermste Scheune. #line:dd05ea
+Adina: So wuerde ich es nicht ausdruecken, aber ja. #line:eab974
+TreeCat: Wie wuerdest du es ausdruecken? #line:fbdc6b
+Adina: Geh einfach durch den verdammten Wald. #line:c80d8a
+<<close>>
+<<wait 2>>
+Adina: Ich mag die Sterne. Sie haengen da draussen in Schwarz. #line:2062c7
+Adina: Ruehrselig, ja. #line:46e832
+Adina: Je dunkler es wird... #line:3e568d
+TreeCat: [speed=.5][wave]Prrrr.[/all] #line:cd94e8
+[[GoodbyeTreeCat]]
+
+===
+title: TreeCat_A1D3.2
+tags:
+colorID: 0
+position: 785,339
+---
+TreeCat: [speed=.5][wave]Prrrr.[/all] #line:0fa241
+===
+title: AstronomerA
+tags:
+colorID: 0
+position: 1210,604
+---
+Adina: Travis?!? Was machst *du* denn hier? #line:87e132
+Astronomer: Woher weisst du ueberhaupt, wer ich bin? #line:800ce7
+<<showTalkingHeads>>
+Mae: Und dann hat Travis mit ihr geschimpft... #line:3bb422
+Granddad: Wer ist Travis? #line:f008eb
+Mae: Dieser wirklich nervige Junge aus der Schule. #line:fe92aa
+Granddad: Warum sollte diese Travis-Figur in der Vergangenheit existieren? #line:98bdc3
+Mae: Weil er eine Zeitmaschine gestohlen hat. #line:a0dc9b
+Granddad: Richtig, richtig. #line:ca5f9b
+Mae: Wie auch immer, also dann sagte Travis... #line:a40602
+<<hideTalkingHeads>>
+Astronomer: ...ich habe eine Zeitmaschine gestohlen und deshalb bin ich hier, um dich zu aergern. #line:9f5aa5
+Adina: O-okay. #line:39ba6f
+Astronomer: So. Du solltest veraergert sein. #line:f2bc7c
+Adina: Ja. Du bist ziemlich nervig. #line:40154b
+<<close>>
+<<wait 1>>
+Adina: Naja. #line:850001
+Astronomer: Schoenen Tag noch. #line:396a41
+Adina: Bis spaeter #line:4d7b5a
+===
+title: TreeCat
+tags:
+colorID: 0
+position: -57,-49
+---
+TreeCat: Sprich wieder mit mir. #line:307178
+<<set $day to 3>>
+<<set $act to 1>>
+
+
+===
+title: InitLevel
+tags:
+colorID: 0
+position: 1041,-119
+---
+<<hide Astronomer>>
+<<hide LostConstellation>>
+===

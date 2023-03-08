@@ -1,0 +1,484 @@
+title: InitLevel
+tags:
+colorID: 4
+position: -1855,651
+---
+<<if $bea_party is 0>>
+<<endif>>
+
+<<hide Collision:Left>>
+===
+title: EnterLevel
+tags:
+colorID: 4
+position: -1605,795
+---
+<<if $bea_party is 0>>
+    <<wait .1>>
+    <<walk Mae Mae1 wait>>
+    <<show Collision:Left>>
+    [[Dialogue1]]
+<<endif>>
+
+===
+title: Dialogue1
+tags:
+colorID: 4
+position: -1327,664
+---
+<<cameraLookAt CameraConvo 2>>
+Jackie: deshalb musst du es ernst nehmen #line:5bdc78
+Jackie: gib Gas #line:184094
+<<setAnimInt Jackie point 1>>
+<<setTalkAnimType Jackie 2>>
+Jackie: keine Faschisten auf dieser Party! #line:a46535
+<<setAnimInt Jackie point 0>>
+BeaPartyGuy1: ha ha ha richtig. O_O :) #line:979a84
+Jackie: man redet diese Scheisse nicht aus #line:b74675
+Jackie: du schlaegst den Scheiss raus. #line:eab349
+BeaPartyGuy1: denkst du das ist das Beste?  #line:eb1d38
+Jackie: aeh ja. #line:c31b67
+Jackie: trage ein Messer und lerne, wie man einen Schlag ausfuehrt #line:ce3dfc
+Jackie: wir koennen bei dieser Scheisse keinen Sinn fuer Humor haben! #line:274831
+Bea: Pfefferspray funktioniert auch. #line:0e18ca
+Jackie: Traenengas gegen Faschisten!!! #line:5de738
+Bea: ha ha. #line:51d7ff
+<<lookAt Mae BeaPartyGuy2>>
+Mae: Hey! :) o/ #line:ad1678
+Bea: Hey, das ist Mae. #line:9a2106
+<<lookRight Bea>>
+<<lookNearest Mae>>
+Mae: _o_ #line:b85123
+BeaPartyGuy2: hey mae. #line:009f21
+<<lookAt Bea BeaPartyGuy2>>
+Jackie: jep. das ist mae. #line:c2263a
+Bea: Und woher kommt ihr? #line:f6ac4f
+BeaPartyGuy1: Vorort Bright Harbor #line:5206b2
+BeaPartyGuy2: ein Paar a' geborene und gezuechtete Hafenratten! #line:80b1c6
+Jackie: wow. was machst du denn hier draussen? #line:a5fb7b
+BeaPartyGuy1: lange Geschichte, fuer uns beide. #line:dbed86
+Bea: Ich habe... Zeit... #line:c17eea
+BeaPartyGuy2: warte, wir werden den DJ ganz schnell anschreien #line:e1000c
+BeaPartyGuy1: wir kennen ihn. er ist ein totaler Trottel. #line:0f6e27
+Bea: ok! ich werde hier sein! #line:4d52f9
+Jackie: tschuess Jungs! #line:dd59a3
+<<close>>
+<<walk BeaPartyGuy1 BeaPartyGuy1BehindStairs>>
+<<walk BeaPartyGuy2 BeaPartyGuy2BehindStairs>>
+<<wait 4>>
+Bea: o_o :| #line:b4ca62
+<<lookRight Mae>>
+Mae: Sie scheinen nett zu sein! #line:c6106b
+<<lookNearest Mae>>
+Mae: Das ist sehr cool! #line:c641de
+Bea: NICHT TRINKEN, MAE. #line:355dc5
+<<lookNearest Bea>>
+Mae: ok gut :\ #line:7c0e50
+Jackie: Wollt ihr tanzen? #line:5da581
+Mae: ja! :) #line:98a580
+Bea: Kannst du tanzen, Mae? #line:f79e9c
+Mae: O_o #line:580b03
+Mae: Kann eigentlich jeder hier tanzen? #line:1d115e
+Mae: o_o :| #line:5a7e77
+<<close>>
+<<cameraFollowPlayer 2>>
+//<<walk Jackie Jackie2 wait>>
+//<<flip Jackie -1>>
+<<walk Bea BeaDance>>
+<<walk Jackie JackieDance>>
+<<walk Mae MaeDance wait>>
+<<waitForMove Bea>>
+<<fadeOutMusic 4>>
+<<wait 4>>
+<<playMusic bea_dance_close 4>>
+<<setAnimInt Jackie dancing 1>>
+<<tell DanceBrain DanceWithBeaAndJackie>>
+===
+title: AfterFirstDance
+tags:
+colorID: 4
+position: -1052,631
+---
+<<setAnimInt Jackie dancing 0>>
+<<flip Jackie -1>>
+Jackie: Hey, ich glaube, die Typen sind wieder da drueben! #line:0724f4
+Bea: Ooh... ja... #line:abfba6
+Bea: Sollen wir mit ihnen reden gehen? #line:746b95
+Jackie: JA WIR SOLLTEN!! #line:7550ef
+Mae: Ich kann tanzen! Das wusste ich gar nicht! #line:8da80d
+Mae: Ich werde weiter tanzen! #line:a56063
+Bea: Aeh... bist du sicher? #line:9973b3
+Mae: Ja! Ich glaube, ich habe noch nie auf einer Party getanzt! #line:d8a23e
+Bea: Ok, wir werden ungefaehr 10 Fuss entfernt sein. #line:5e078b
+Bea: In Sichtweite. #line:a34683
+Bea: Und ich werde dich beobachten. #line:3d3221
+Bea: Trinke nichts, was dir jemand gibt #line:3ce1ec
+Mae: BEA. ICH WEISS. #line:41b98d
+Bea: Nein, ernsthaft. Wenn jemand- #line:8ac43b
+Mae: BEA. I'LL BE FINE. #line:c15c86
+Jackie: Lass uns gehen! Sie wird es schon schaffen. #line:af59f3
+Bea: ok ok ok #line:b5e0fd
+
+//they walk away. And you’re free to walk around or dance until you go talk to Bea again.
+//How do we want to continue dancing?
+//Is it like an interact spot?
+//Otherwise you can wander and look at stuff
+<<close>>
+<<walk Bea Bea3 1>>
+<<walk Jackie Jackie3 1>>
+<<warp BeaPartyGuy1 BeaPartyGuy1Original>>
+<<warp BeaPartyGuy2 BeaPartyGuy2Original>>
+<<flip BeaPartyGuy1 -1>>
+<<flip BeaPartyGuy2 -1>>
+<<wait 1>>
+<<tell DanceBrain DanceAfterBeaAndJackie>>
+===
+title: AfterSecondDance
+tags:
+colorID: 4
+position: -785,618
+---
+Mae: Tanzen ist einfach! Was soll das ganze Getue? #line:3c530e
+<<close>>
+===
+title: Bea
+tags:
+colorID: 4
+position: 590,572
+---
+Mae: HEY BEA! #line:e2e64a
+Bea: Oh hey, Mae. Das ist Chris. #line:b69a77
+<<lookAt Mae BeaPartyGuy2>>
+Mae: o/ #line:a7d84d
+Mae: Hey Chris. #line:9d6050
+<<lookNearest Mae>>
+BeaPartyGuy2: Hey! #line:0dc395
+Mae: _o_ #line:0e5105
+BeaPartyGuy2: Deine Freundin Bea ist ziemlich cool. #line:082d91
+Mae: :) #line:610652
+Mae: AAAAW sie ist ok. #line:d8bb05
+<<if $did_bea_investigation_quest>>
+	Mae: hat sie dir erzaehlt, dass wir letzte Nacht ein Skelett gesehen haben? #line:e1d8e8
+	BeaPartyGuy2: Whoa! #line:f4327e
+	Bea: Ja. ha ha. #line:1470f7
+	BeaPartyGuy2: Wie memento mori und so. #line:a2826a
+	    ->Was ist das? #line:604620
+            Jackie: denk dran du wirst sterben #line:67a7c3
+            Mae: Meine Guete. Braucht jemand Hilfe dabei? #line:ef875a
+        ->yeah yeah sick transit glorya nerd #line:e38dc2
+<<endif>>
+<<lookAt BeaPartyGuy1 Bea>>
+Bea: ha ha ha #line:a60b0c
+<<lookAt BeaPartyGuy1 Mae>>
+Mae: :| O_o #line:0c4631
+Mae: Du lachst ja ganz schoen viel. #line:30aa8b
+<<lookAt BeaPartyGuy1 Bea>>
+Bea: ha ha ha ha #line:4e4578
+Mae: o_o #line:1c1e87
+BeaPartyGuy2: BE-AH-TRISS #line:478c59
+BeaPartyGuy2: das ist wie ein alter Name #line:36cbe8
+BeaPartyGuy2: wie ein Buch, das man in der zweiten Klasse gelesen hat. #line:ef4b6d
+Bea: ha ha. naja. ein buch das du mochtest? #line:3a131f
+<<lookAt Mae BeaPartyGuy2>>
+<<lookAt BeaPartyGuy1 Mae>>
+    ->Ich mochte Geistergeschichten! #line:779840
+        Mae: mein Grossvater ist gestorben #line:848851
+        Mae: und hinterliess mir eine Apfelkiste voll! #line:aa9989
+    ->Ich war mal ein grosser Leser! #line:892e7e
+        Mae: dann wurde mir langweilig mit Buechern #line:bab1c9
+        Mae: mein Grossvater hat mir immer vorgelesen #line:ae4b8d
+        Mae: bevor er an Demenz erkrankte und starb! #line:e2c483
+<<wait 2>>
+<<lookNearest Mae>>
+<<lookAt BeaPartyGuy1 Bea>>
+Bea: ha ha ha #line:bb4b8d
+<<lookAt BeaPartyGuy1 Mae>>
+BeaPartyGuy2: das mit deinem Grossvater tut mir leid #line:7524b9
+Mae: Ist schon gut! Es ist Jahre her. #line:6676e6
+Mae: Bea's Mutter ist auch tot. #line:b2a629
+<<lookAt BeaPartyGuy1 Bea>>
+Bea: ha ha ha ha ha ha #line:69c4a4
+Bea: mae. mae. stop. #line:9e3811
+<<lookAt BeaPartyGuy1 Mae>>
+Mae: ich bin sicher, jeder hier kennt jemanden, der gestorben ist! #line:661a8f
+BeaPartyGuy1: mein Hund ist letzten Fruehling gestorben. #line:6d235e
+BeaPartyGuy1: als mein Haus explodierte. #line:2ca1ba
+BeaPartyGuy1: weil es ein Gasleck gab #line:cca55e
+BeaPartyGuy1: als mein Vater eine Leitung traf #line:b79acb
+BeaPartyGuy1: beim Versuch, den Hund auszugraben, den wir vorher hatten #line:e46fc0
+BeaPartyGuy1: weil wir umziehen wollten #line:499693
+BeaPartyGuy1: und Dad sagte, er muesse mit uns kommen. #line:00c419
+<<wait 3>>
+<<lookAt BeaPartyGuy1 Jackie>>
+Jackie: wow. #line:dcec01
+<<lookAt BeaPartyGuy1 Bea>>
+Bea: Also Chris, was ist dein Hauptfach? #line:595429
+BeaPartyGuy2: Poli Sci. #line:da11c9
+Bea: Oh, das ist cool. #line:9b3ce1
+Bea: gibt es da viele Jobs? #line:1b517a
+BeaPartyGuy2: oh ich weiss nicht. #line:a313c2
+BeaPartyGuy2: ich finde es einfach interessant. #line:853671
+BeaPartyGuy2: ich habe das Gefuehl, dass man ziemlich materialistisch sein muss #line:ee0d95
+BeaPartyGuy2: um aufs College zu gehen, nur damit man danach einen Job bekommt. #line:c6c7c3
+Bea: Das ist interessant, weil- #line:6f0e1e
+<<lookAt BeaPartyGuy1 Mae>>
+Mae: :) =_= #line:710c65
+<<lookAt Mae BeaPartyGuy2>>
+Mae: HA HA WHOA. WHOA. #line:ae14e3
+Mae: o> #line:d3b075
+Mae: Seht euch das reiche Kind hier an! #line:96b8c4
+Mae: zahlt zig Millionen Dollar, um aufs College zu gehen #line:7eff12
+Mae: nur weil etwas "interessant" ist. #line:dc7e01
+Mae: Bea. Bea. Sieh dir diesen Kerl an. #line:2e217b
+Mae: Hast du jemals einen Tag in deinem Leben gearbeitet, Chaz? #line:27271e
+<<lookNearest Mae>>
+BeaPartyGuy2: Ich habe ein Praktikum in der Firma meines Onkels gemacht, ja. #line:45e6f0
+Mae: also *ich* habe Lebensmittel eingetuetet. #line:31ac74
+BeaPartyGuy2: ok. #line:e736dd
+<<lookAt BeaPartyGuy1 Bea>>
+Bea: ha ha ha mae willst du noch etwas tanzen #line:eb2167
+<<lookAt BeaPartyGuy1 Mae>>
+    ->sure! #line:7d16db
+        <<lookAt BeaPartyGuy1 Bea>>
+        Bea: du solltest tanzen gehen #line:85c2b6
+    ->Nein, mir geht's gut. #line:b5019a
+        <<lookAt BeaPartyGuy1 Bea>>
+        Bea: bist du sicher, dass du nicht tanzen gehen willst? #line:07d2fa
+BeaPartyGuy2: ja, meine Eltern haben ihr eigenes Geschaeft, also- #line:a62ba1
+Bea: ooh! erzaehl mir davon? #line:c3872d
+Bea: Ich weiss ein bisschen darueber, wie man ein kleines Unternehmen fuehrt. #line:21a3be
+BeaPartyGuy2: Wollen wir ueber die Strasse gehen und eine Pizza holen? #line:4f7928
+Bea: Ich koennte essen. Und es ist ein kleines Geschaeft! #line:8ff18d
+BeaPartyGuy2: du sprichst ihre Sprache und besorgst uns Gratis-Scheiben. #line:525c27
+<<lookAt BeaPartyGuy1 Mae>>
+Mae: :| o_o _o_ #line:a5b4d9
+Mae: Bea mag keine verwoehnten reichen Kinder, Chuck. #line:394f06
+<<lookAt BeaPartyGuy1 Bea>>
+Jackie: Ich werde mitkommen, wenn das ok ist, Bea? #line:9aac3e
+Bea: yeah! let's go! #line:2fda55
+BeaPartyGuy2: ok #line:aa7687
+<<lookAt BeaPartyGuy1 Mae>>
+    ->Bea weiss *alles* ueber Geschaefte #line:0f5ca8
+    ->Hey Cody, ich erzaehl dir mal was ueber Beatrice Santello #line:9f604f
+Mae: sie ist super auf dem neuesten Stand der Dinge. #line:0b37ca
+Mae: superschlau und verantwortungsbewusst. #line:5d8e11
+Mae: sie fuehrt den groessten Laden in Possum Springs. #line:cd3df7
+<<lookAt BeaPartyGuy1 Bea>>
+Bea: ha ha ha ha mae nein #line:ae5cf5
+BeaPartyGuy1: was ist ueberhaupt Possum Springs? #line:f768c8
+BeaPartyGuy2: es ist im Westen. in den Bergen. #line:4199c3
+<<lookAt BeaPartyGuy1 Mae>>
+Mae: waehrend das reiche Kind hier drueben Politik studiert oder so #line:bbafc0
+Mae: Bea ist draussen in der realen Welt. #line:ca879b
+Mae: nicht wie ihr College-Kids. #line:cf61ca
+<<lookAt BeaPartyGuy1 Jackie>>
+Jackie: MAE! #line:ee244b
+BeaPartyGuy2: Was? #line:5023b8
+<<lookAt BeaPartyGuy1 Bea>>
+Bea: ha ha ha ha ha #line:9e83e2
+<<lookAt Mae BeaPartyGuy2>>
+<<lookAt BeaPartyGuy1 Mae>>
+Mae: =_= :) o> #line:9073ac
+Mae: Ich bin auch irgendwie ueber die ganze College-Sache hinweg. #line:9e88d0
+Mae: Bea und ich leiten im Grunde Possum Springs. #line:17ea1e
+Mae: :| o_o _o_ #line:198d3c
+Mae: ausser dass es dort einen Geist oder so gibt. #line:f1ca9a
+<<lookNearest Mae>>
+BeaPartyGuy1: Ihr zwei lebt in Possum Springs? #line:dc3d4e
+Mae: =_= #line:25102f
+Mae: Ja! Hast du ein Problem damit? #line:157a2b
+BeaPartyGuy2: Wow, du bist den ganzen Weg von Deep Hollow County hierher gefahren? #line:137e7f
+BeaPartyGuy2: Ist das nicht etwa 2 Stunden entfernt? #line:fce821
+<<lookAt BeaPartyGuy1 Bea>>
+Bea: Nein, ich... aeh... #line:c1af44
+BeaPartyGuy2: Warum solltest du das tun? #line:cc69d7
+BeaPartyGuy2: Hey Rick! Bea hier ist von Deep Hollow hergefahren! #line:774e9a
+Jackie: ... #line:df1c90
+BeaPartyGuy1: Bist du nicht ein Student? #line:1eb03d
+Bea: Ja! #line:086009
+<<lookAt BeaPartyGuy1 Mae>>
+Mae: :| o_o _o_ #line:9a616f
+Mae: Was? #line:fc0c85
+<<lookAt BeaPartyGuy1 Bea>>
+Bea: Ja! Das bin ich! Ich bin...ha ha... #line:4f24bd
+<<close>>
+<<wait 2>>
+<<cameraLookAt CameraBeaLeft 2>>
+<<lookLeft BeaPartyGuy1>>
+<<run Bea ExitLeft>>
+<<wait 0.5>>
+<<flip Jackie -1>>
+<<wait 1.0>>
+Jackie: BEA! WAIT! #line:32077a
+<<close>>
+//Jackie runs up stairs//
+<<run Jackie ExitLeft>>
+<<wait 2.5>>
+<<lookAt BeaPartyGuy1 Mae>>
+BeaPartyGuy1: Was sollte das denn? #line:1ec4d3
+BeaPartyGuy2: Ich glaube, sie geht hier nicht hin. #line:87c6cf
+BeaPartyGuy1: Und? #line:3aaf26
+BeaPartyGuy2: Mann, ich weiss es nicht einmal. #line:d41e63
+<<set $bea_party_block_right to 1>>
+//you can freerun now until you leave up the stairs//
+<<close>>
+<<lookNearest BeaPartyGuy1>>
+<<set $bea_town to 1>>
+<<hide Collision:Left>>
+<<hide CoolPartyGirl>>
+===
+title: DanceAgain
+tags:
+colorID: 4
+position: -516,609
+---
+<<tell DanceBrain DanceAgain>>
+===
+title: AfterDanceAgain
+tags:
+colorID: 4
+position: -265,603
+---
+Mae: Ich hab's noch drauf! :) \o/ #line:19f8e5
+Mae: _o_ #line:3cc471
+<<close>>
+===
+title: CoolPartyGirl
+tags:
+colorID: 4
+position: 11,603
+---
+<<if $cool_party_girl is 0>>
+    <<set $cool_party_girl += 1>>
+    <<setCanInteract CoolPartyGirl 0>>
+    <<animationTrigger CoolPartyGirl ArmUp>>
+    CoolPartyGirl: Hey du. #line:85ae12
+    Mae: Hey... du. #line:7367d6
+    Mae: Kenne ich dich? #line:ca12f5
+    CoolPartyGirl: Noe. #line:3d4b5f
+    <<animationTrigger CoolPartyGirl ArmDown>>
+    CoolPartyGirl: Wie ist dein Name? #line:d6c9d6
+    ->Mae Borowski #line:d562e1
+        <<set $party_girl_mae to 1>>
+        CoolPartyGirl: Brrrrrowski. #line:b0f546
+        CoolPartyGirl: schoen. #line:ff7de1
+        CoolPartyGirl: klingt so hart. #line:b3d357
+        Mae: Ich bin extrem hart. #line:8dcaba
+        Mae: Ich werde mit jedem ringen. #line:1fc1ca
+    ->Samantha Stevenson #line:d18005
+        <<set $party_girl_sam to 1>>
+        CoolPartyGirl: Sa-man-tha. #line:a8e1a4
+        CoolPartyGirl: Ich mag es #line:539d06
+        CoolPartyGirl: es klingt wie ein Zauberspruch. #line:856657
+        Mae: du hast mich ertappt. es war Magie. #line:f9e27d
+        Mae: jetzt bist du gut und verhext. #line:8be1d0
+    CoolPartyGirl: Woooow. #line:0e4fa9
+    <<if $party_girl_mae is 1>>
+        CoolPartyGirl: Also, was ist deine Geschichte, Mae Borowski? #line:9bdecc
+    <<else>>
+        CoolPartyGirl: Also, was ist deine Geschichte, Samantha Stevenson? #line:00d420
+    <<endif>>
+    -> Ich bin eine Doktorandin, die... aeh... Vampire studiert... und ich spiele Bass. #line:370e5a
+        CoolPartyGirl: wow! das ist interessant. #line:22e985
+        ->ich meine, es ist nur eine normale Bassgitarre #line:b34fb6
+            CoolPartyGirl: nichts besonderes daran? #line:d35545
+            Mae: habe sie zu meinem 16. Geburtstag bekommen #line:9eff8e
+            Mae: es ist mein Blut drauf. #line:1e1c3e
+            CoolPartyGirl: ist das ein Problem? mit den Vampiren? #line:7fbf0e
+            Mae: ja, die sind total scharf auf den Scheiss. #line:08acdd
+        ->jep. Vampirwissenschaft. #line:30262c
+            CoolPartyGirl: was bedeutet das denn? #line:63d9a9
+            Mae: Reisszahnmessung #line:43cbbb
+            Mae: die ganze Nacht aufbleiben #line:ff9456
+            Mae: auf eine Menge Grufti-Partys gehen #line:b50628
+            Mae: deshalb bin ich heute Abend hier #line:568f3b
+            CoolPartyGirl: es gibt nicht viele Gruftis hier #line:b1a858
+            Mae: ich weiss. totaler Reinfall. #line:4b6735
+        CoolPartyGirl: das ist ziemlich cool. #line:d6331f
+        Mae: ha ha ich denke schon! #line:261e4a
+        Mae: ich schaetze ich bin so an geile Sachen gewoehnt #line:ec4c62
+        Mae: dass ich in den meisten Situationen ziemlich cool bin #line:fae9d1
+        CoolPartyGirl: oh wirklich? #line:c65954
+    -> Ich bin ein Studienabbrecher, ein Geist jagt mich, und ich habe kuerzlich Gott getroffen. #line:184c37
+        Mae: Ich hatte diese Traeume, bei denen ich mir nicht sicher bin, ob es Traeume waren #line:df9eaf
+        Mae: in denen ich durch durcheinander gewuerfelte Teile der Geschichte oder so lief #line:6adce6
+        Mae: als waere das alles ein Haarballen, der im Duschabfluss feststeckt #line:7a954f
+        Mae: Und ja, es gibt einen Geist #line:7a9fa4
+        Mae: und ich bin mir ziemlich sicher, dass es jemanden an Halloween entfuehrt hat #line:532ae1
+        Mae: ziemlich sicher, dass ich mir das nicht eingebildet habe #line:fb87b6
+        Mae: und meine Freunde glauben mir das nicht so ganz #line:aca122
+        Mae: und ich habe diese Sache in meinem Kopf #line:24e256
+        Mae: und ich habe das College abgebrochen und ich will mich nicht einmal damit befassen #line:fbe4ff
+        Mae: und alles was ich wollte, war nach Hause zu kommen und dass die Dinge normal sind #line:2c5f7c
+        Mae: und das klappt nicht wirklich #line:383f97
+        Mae: und ich habe heute Abend herausgefunden, dass ich tanzen kann und dann habe ich dich gesehen #line:1924c4
+        <<wait 2>>
+        Mae: ich habe noch nie all das auf einmal aufgezaehlt. #line:05b617
+        CoolPartyGirl: Wow. #line:6d61da
+        CoolPartyGirl: Ich habe deine Lebensgeschichte gestohlen. #line:507e50
+        Mae: ha ha schaetze ich. #line:16c33e
+    CoolPartyGirl: Hey, gib mir deine Hand #line:0d2533
+    Mae: oh... in Ordnung #line:037491
+    <<close>>
+    <<tell PentagramHandshakeBrain Go>>
+<<endif>>
+===
+title: AfterPentagramHandshake
+tags:
+colorID: 4
+position: 311,577
+---
+Mae: oh wow. #line:366353
+CoolPartyGirl: geheimer Haendedruck. #line:b363c7
+Mae: wow. #line:313637
+CoolPartyGirl: ha ha #line:f6d103
+Mae: -_- :) #line:4ff9ad
+Mae: wooooow. #line:49feff
+CoolPartyGirl: es hat funktioniert. #line:202d73
+Mae: wow. ok. #line:f3db7c
+Mae: o_o :| #line:fd0dca
+Mae: ok, ich sollte meine Freundin suchen gehen #line:d3bdfe
+Mae: lass sie wissen, dass ich hier bin. #line:ae7b47
+<<if $party_girl_mae is 1>>
+    CoolPartyGirl: das ist eine gute Idee #line:b5aeb0
+    CoolPartyGirl: Brrrrrrrrowski. #line:e8315e
+    Mae: ha ha #line:af9269
+    CoolPartyGirl: das ist ein guter Name. #line:05ea4f
+    CoolPartyGirl: klingt #line:70b506
+    CoolPartyGirl: hart #line:38ad88
+    Mae: mmmmmmmmokay #line:b80c9f
+    Mae: muss sagen #line:38ba67
+    Mae: Freund #line:b58687
+    Mae: lo c a tion #line:802a63
+<<else>>
+    CoolPartyGirl: oh ja das solltest du #line:a377d7
+    CoolPartyGirl: Sa-man-tha. #line:717b1b
+    Mae: haaaaa. wieder verhext. #line:5adcb8
+    Mae: BOOM. #line:0cc7de
+<<endif>>
+CoolPartyGirl: ha ha. #line:377a2d
+CoolPartyGirl: Ich werde hier sein. #line:0b8c24
+Mae: wow. ok. #line:e66f92
+Mae: bin gleich wieder da. #line:af5011
+<<if $pentagram_quest>>
+    <<set $found_pentagrams += 1>>
+    <<unlockPentagramDoodle>>
+<<endif>>
+===
+title: MichelleCzajkowski
+tags:
+colorID: 0
+position: -1412,1146
+---
+MichelleCzajkowski: *psst!* #line:e92d60
+Mae: hey da. #line:612a08
+MichelleCzajkowski: "Das weise Kaetzchen konzentriert sich nicht auf das, was verloren ist, sondern auf das, was bleibt." #line:34a3f6
+<<wait 2>>
+Mae: ok wow #line:c90dec
+Mae: du haengst einfach hinten in der Party rum #line:22a9b9
+Mae: Weisheiten austeilen? #line:b5e90f
+<<wait 2>>
+Mae: na gut, ich werde es mir merken! #line:47860a
+Mae: Schoenen Tag noch! #line:95231c
+<<set $michelle_czajkowski_done to 1>>
+===

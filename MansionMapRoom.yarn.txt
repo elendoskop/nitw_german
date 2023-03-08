@@ -1,0 +1,229 @@
+title: Switch00
+tags:
+colorID: 4
+position: -478,437
+---
+<<playOneShot event:/mansion/switch_on Mae>>
+<<trigger Map Button1>>
+<<set $map_switch_0_done to 1>>
+<<set $map_switches += 1>>
+Gregg: oh hey, das ist meine Nachbarschaft. #line:1183d0
+Mae: und der Highway. #line:9db910
+Mae: aber kein Schinkenpanther. #line:038f5b
+Gregg: muss alt sein. #line:e9d9b6
+[[CheckSwitches]]
+===
+title: Switch01
+tags:
+colorID: 4
+position: -258,439
+---
+<<playOneShot event:/mansion/switch_on Mae>>
+<<trigger Map Button2>>
+<<set $map_switch_1_done to 1>>
+<<set $map_switches += 1>>
+Mae: da ist der Friedhof #line:a58efa
+Gregg: und das Gebaeude, in dem wir JETZT sind. #line:d8d5eb
+Mae: gruselig. #line:460d3d
+Mae: als ob wir beobachtet werden. #line:fa2703
+[[CheckSwitches]]
+===
+title: Switch02
+tags:
+colorID: 4
+position: -27,432
+---
+<<playOneShot event:/mansion/switch_on Mae>>
+<<trigger Map Button3>>
+<<set $map_switch_2_done to 1>>
+<<set $map_switches += 1>>
+Mae: hey, das ist meine Nachbarschaft! #line:eac498
+Gregg: wow, ich wette, da ist ein kleines Du drin. #line:4cde74
+Mae: whoa. das ist... #line:e42ab9
+Mae: tut mir leid, das hat mich schwindelig gemacht. #line:7f0001
+Gregg: ich bin gefaehrlich. #line:7364b4
+[[CheckSwitches]]
+===
+title: Switch03
+tags:
+colorID: 4
+position: 197,449
+---
+<<playOneShot event:/mansion/switch_on Mae>>
+<<trigger Map Button4>>
+<<set $map_switch_3_done to 1>>
+<<set $map_switches += 1>>
+Gregg: guter alter Towny Centry. #line:552caf
+Mae: Stadtzentrum, das Zentrum unserer Stadt. #line:312f34
+Gregg: ziemlich. #line:c39ab7
+[[CheckSwitches]]
+===
+title: Switch04
+tags:
+colorID: 4
+position: 426,453
+---
+<<playOneShot event:/mansion/switch_on Mae>>
+<<trigger Map Button5>>
+<<set $map_switch_4_done to 1>>
+<<set $map_switches += 1>>
+Mae: Ach, ich glaube, das ist der alte Essensesel. #line:d67ee8
+Gregg: und der Wald, in den dein Geistertyp gerannt ist? #line:90f2b1
+Mae: jep. #line:4fc402
+Gregg: fuer einen toten Kerl kommt er ganz schoen rum. #line:fc4a06
+Mae: das tut er. #line:97f1bf
+[[CheckSwitches]]
+===
+title: Statue
+tags:
+colorID: 4
+position: 789,420
+---
+<<lookAt Mae Character>>
+<<lookAt Gregg Character>>
+<<trigger MansionRobot ComeToLife>>
+<<wait 4>>
+Mae: Augh es lebt! #line:c8961b
+Gregg: Mann, ist das Ding haesslich. #line:b22367
+Mae: Nun, das war wohl die Quelle des Laerms, schaetze ich. #line:953afe
+Gregg: Raetsel geloest. #line:2d4de5
+Gregg: warte #line:42785e
+Gregg: nein #line:c55875
+Gregg: wenn es dieses Geraeusch gemacht hat, bedeutet das #line:db8ff7
+Gregg: dass jemand hier drin war #line:c54978
+Gregg: waehrend wir herumliefen. #line:1595bf
+<<lookAt Mae Gregg>>
+<<lookAt Gregg Mae>>
+Mae: ohhhh #line:8274c0
+Mae: Scheisse. #line:d4ede4
+Gregg: ja, lass uns vielleicht gehen. #line:44aca5
+Mae: nein! wir muessen... Sachen finden! #line:3206d9
+Gregg: oh, Sachen? #line:42f060
+Gregg: Kumpel, wir werden getasert oder so #line:a5789f
+Gregg: von einem grossen, dicken, aeh... #line:d93aa4
+Mae: Mitarbeiter der historischen Gesellschaft. #line:64c2d4
+Gregg: wie auch immer. ich gebe dir die Schuld, wenn das schief geht. #line:e2de2d
+Mae: schoen! #line:5d0465
+Gregg: gut! #line:097cf5
+<<wait 2>>
+Gregg: es tut mir leid, Alter. #line:c8f953
+Mae: mir auch. #line:c55f12
+Gregg: ich wuerde dich nie verraten. #line:4b1897
+Mae: ich auch nicht. #line:9c66a8
+Gregg: Verbrechen. #line:d70254
+Mae: Verbrechen. #line:e32d78
+<<lookNearest Mae>>
+<<lookNearest Gregg>>
+<<set $mansion_checked_robot to 1>>
+[[CheckCanLeave]]
+===
+title: Toolbox
+tags:
+colorID: 4
+position: 1134,426
+---
+<<lookAt Mae ToolboxCharacter>>
+<<lookAt Gregg ToolboxCharacter>>
+Mae: Hey, sieh dir das an! Werkzeugkasten. #line:1397c4
+Gregg: Der Reparateur muss nach der Haelfte der Reparaturzeit gegangen sein. #line:b61c69
+Mae: Und hey- eine Zange! #line:3a9605
+Gregg: Oh, cool, cool, cool #line:09a1c3
+Gregg: Ich dachte schon, wir wuerden sie nie finden und einfach so #line:d2fe9c
+Gregg: hier drin verhungern #line:2558dc
+Mae: ... #line:9f8703
+Mae: Morgen frueh werden Leute hier sein. #line:b4940c
+Gregg: Oh richtig. #line:48edb4
+<<lookAt Gregg Mae>>
+<<lookAt Mae Gregg>>
+<<if $has_paperclip>>
+	Gregg: In Ordnung, wir haben das Zeug. #line:eb95a9
+	Gregg: Lass uns den Aufzug oeffnen und sehen, was oben ist. #line:6e545c
+	Mae: Ich schaetze mal, es sind 12 weitere Aufzuege #line:bc8bd1
+<<else>>
+	Gregg: Sooo... wir brauchen eine Bueroklammer. #line:63169c
+	<<if $visited_mansion_office>>
+		Mae: lass uns das langweilige Buero ueberpruefen #line:137d75
+		Mae: fuer die langweilige Bueroklammer #line:6a7d45
+		Mae: wahrscheinlich nur 7 weitere Aufzuege finden #line:34dd8a
+	<<else>>
+		Mae: ich bin sicher, dass es hier irgendwo eine Bueroklammer gibt #line:d52ed9
+		Mae: die haben wahrscheinlich so was wie #line:ca69b3
+		Mae: ein Buero oder so? #line:0f3cd5
+		Gregg: wahrscheinlich mit ungefaehr 9 Aufzuegen #line:3a535b
+	<<endif>>
+<<endif>>
+<<lookNearest Mae>>
+<<lookNearest Gregg>>
+<<set $has_pliers to 1>>
+[[CheckCanLeave]]
+===
+title: InitLevel
+tags:
+colorID: 4
+position: -1021,399
+---
+<<generateFollowPoints Mae Gregg>>
+<<follow Gregg Mae>>
+<<setCanInteract Gregg 0>>
+<<flip Gregg -1>>
+<<flip Mae -1>>
+===
+title: CheckSwitches
+tags:
+colorID: 0
+position: 26,747
+---
+<<if $map_switches is 1>>
+    <<tell _AmbientSFX:map_buzz_loop Play>>
+    Mae: Oh, warte. #line:415ddb
+    Mae: Wir sind im Kartenraum. #line:123c4e
+    Gregg: Nun, lass uns besonders vorsichtig sein. #line:8bb694
+    Mae: ok. #line:ea6013
+    Mae: Verbrechen. #line:71bc13
+    Gregg: Verbrechen. #line:ae1483
+<<endif>>
+<<if $map_switches >= 5 and $did_mansion_map_room_train is 0>>
+    <<set $did_mansion_map_room_train to 1>>
+    <<flipTo Mae CameraMap>>
+    <<flipTo Gregg CameraMap>>
+    <<close>>
+    <<lookAt Mae MapCharacter>>
+    <<lookAt Gregg MapCharacter>>
+    <<cameraLookAt CameraMap 2>>
+    <<fadeOutMusic 4>>
+    <<wait 4>>
+    <<playMusic mansion_train>>
+    <<trigger Map MapDance>>
+    <<wait 16>>
+    <<playOneShot event:/mansion/creepy_noise_inroom SfxNoise>>
+    <<trigger CornerLight Go>>
+    <<wait 5>>
+    <<lookNearest Mae>>
+    <<lookNearest Gregg>>
+    Mae: Wieder dieses unheimliche Geraeusch. #line:f2bf9c
+    Gregg: In diesem Raum. #line:f2cd11
+    <<cameraFollowPlayer 1>>
+    <<set $mansion_gotta_check_robot to 1>>
+<<endif>>
+===
+title: ExitLevel
+tags:
+colorID: 4
+position: -819,631
+---
+//<<set $map_switch_0_done to 0>>
+//<<set $map_switch_1_done to 0>>
+//<<set $map_switch_2_done to 0>>
+//<<set $map_switch_3_done to 0>>
+//<<set $map_switch_4_done to 0>>
+//<<set $map_switches to 0>>
+===
+title: CheckCanLeave
+tags:
+colorID: 0
+position: 984,722
+---
+<<if $mansion_checked_robot and $has_pliers>>
+    <<set $mansion_gotta_check_robot to 0>>
+<<endif>>
+===

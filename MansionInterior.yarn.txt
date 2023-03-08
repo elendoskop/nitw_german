@@ -1,0 +1,697 @@
+title: EnterLevel
+tags:
+colorID: 4
+position: 152,-552
+---
+<<setCanInteract Gregg 0>>
+
+<<if $gregg_iq_mansion is 0>>
+    <<follow Gregg Mae 1>>
+    <<set $gregg_iq_mansion to 1>>
+    [[BasementIntro]]
+<<else>>
+    <<warp Gregg Mae>>
+    <<follow Gregg Mae 1>>
+<<endif>>
+===
+title: Locked00
+tags: elevator8-9
+colorID: 4
+position: 1472,-44
+---
+<<if $mansion_cellar_door_done>>
+    [[ItsLocked]]
+<<elseif $mansion_checked_locked_elevator>>
+    Gregg: Mal sehen, ob wir durch die Hintertuer rauskommen! #line:4809b0
+<<elseif $has_paperclip and $has_pliers>>
+    Gregg: ok, ich muss nur noch das hier nehmen #line:56083d
+    <<close>>
+    <<castToSurface Gregg 0>>
+    <<run Gregg GreggLockPick2 wait>>
+    <<flip Gregg -1>>
+    <<setAnimBool Gregg lockPicking 1>>
+    Gregg: ...im Dunkeln... #line:833104
+    Mae: Oje. Entschuldigung. #line:f1d8d9
+    Gregg: ist schon gut, ich- #line:749b19
+    <<close>>
+    <<cameraLookAt CameraElevatorGoingBack 2>>
+    <<wait 1>>
+    <<playOneShot event:/mansion/elevator_bell BasementElevatorSFX>>
+    <<wait 1>>
+    Mae: SHIT. #line:a338f2
+    Gregg: Ich werde weiter pfluecken #line:cf67ad
+    Gregg: Sieh zu, dass wir hinten rauskommen #line:7f4d90
+    <<close>>
+    <<cameraFollowPlayer 1>>
+    <<stopFollowing Gregg>>
+    <<createLocatorAt Mae MaeByElevator8>>
+    <<set $mansion_checked_locked_elevator to 1>>
+<<else>>
+    Mae: Verschlossen! #line:31b641
+    Gregg: VERDAMMT! #line:57a453
+<<endif>>
+
+===
+title: Locked01
+tags:
+colorID: 4
+position: 1748,-56
+---
+<<if $has_paperclip and $has_pliers>>
+    <<set $mansion_unlock_01 to 1>>
+    Mae: Alles klar, koennen wir los? #line:194063
+    Gregg: Ja, sicher. #line:588a62
+    Gregg: werde mich an die Arbeit machen #line:ec05d8
+    Gregg: ich werde moegen #line:33b2b7
+    Gregg: eines Tages aus dem Bezirksgefaengnis ausbrechen #line:d2dd34
+    Gregg: mit diesen Faehigkeiten? #line:cf97ba
+    Mae: Kumpel, wofuer gehst du in den Knast? #line:721695
+    Gregg: wahrscheinlich so etwas wie das hier, ehrlich gesagt. #line:b843d5
+    <<close>>
+    <<castToSurface Gregg 0>>
+    <<walk Gregg GreggLockPick1 wait>>
+    <<flip Gregg -1>>
+    <<setAnimBool Gregg lockPicking true>>
+    <<wait 1>>
+    <<playOneShot event:/mansion/footsteps_01>>
+    <<wait 5>>
+    Mae: Aeh, Alter... #line:0ef83f
+    Mae: du musst dich beeilen #line:20b199
+    Gregg: Was? #line:c7754e
+    <<playMusic spooky_mansion_intense 10>>
+    Mae: Da kommt jemand. #line:592fdd
+    Mae: Sie sind unten im Korridor... #line:5c4041
+    Gregg: Verdammt. Mae: Ok. Ich werde es fertig haben in... #line:71dd9e
+    <<close>>
+    <<wait 2>>
+    <<playOneShot event:/mansion/footsteps_02>>
+    <<wait 2>>
+    <<playOneShot event:/mansion/elevator_bell SceneLink4>>
+    <<cameraLookAt CameraToElevator4 3>>
+    Mae: Oh Gott #line:1930d0
+    Mae: Aeh, Alter #line:e77413
+    Mae: der Aufzug #line:98096c
+    Gregg: Scheisse #line:a845e7
+    Gregg: scheiiiiisse #line:dc9613
+    Mae: EILIG!!! #line:a8a71d
+    <<cameraFollowPlayer 3>>
+    <<setAnimBool Gregg lockPicking false>>
+    Gregg: Da habe ich es! #line:214592
+    <<close>>
+    <<tell SceneLink6 Open>>
+    <<wait 1>>
+    Mae: GO!!! #line:27ccca
+    //they get in and they zoom down to the basement//
+    <<tell SceneLink6 Activate>>
+<<elseif $has_paperclip>>
+    Mae: ok ok ok wir haben die Bueroklammer #line:c357fa
+    Gregg: Ich brauche nur die Zange. #line:18bb24
+<<elseif $has_pliers>>
+    Mae: ok ok ok wir haben die Zange #line:8cc8e7
+    Gregg: Ich brauche nur eine Bueroklammer. #line:2bf730
+<<elseif $looking_for_lockpick>>
+    Gregg: Brauche eine Bueroklammer und eine Zange. Kriminelles Zeug. #line:8e534c
+<<endif>>
+===
+title: Elevator
+tags:
+colorID: 4
+position: 2000,-59
+---
+-> Geht nach oben! #line:4769be
+    <<set $elevator_choice to 0>>
+-> Es geht abwaerts! #line:f18de1
+    <<set $elevator_choice to 1>>
+===
+title: Office
+tags:
+colorID: 4
+position: 2385,-549
+---
+Mae: Huh. Es ist ein Buero. #line:7bbc3a
+Gregg: Das ist langweilig. #line:0363e2
+Mae: Gibt es hier etwas Interessantes? #line:d9a628
+Gregg: Bueromaterial. #line:92e06d
+Gregg: Da ist ein Kalender. #line:1d1a2f
+Mae: Sieht aus wie ueberdachte Bruecken. #line:f73494
+Gregg: Auf der da drueben sind beruehmte Katastrophen. #line:99598e
+Mae: Das ist der Schreibtisch der coolen Person. #line:7c8c69
+Mae: Die andere Person ist langweilig. #line:222c60
+Gregg: Ich frage mich, ob sie Freunde sind #line:43cb8d
+Gregg: Ich meine, man kann mit jemandem arbeiten und nicht befreundet sein. #line:d99daa
+Mae: Hm ja. #line:4858aa
+Gregg: Vielleicht ist dieser Raum doch nicht so langweilig. #line:103359
+Mae: Nein, das ist er definitiv. #line:3a2d8e
+<<set $mansion_office_done to 1>>
+<<set $visited_mansion_office to 1>>
+===
+title: PaperClip
+tags:
+colorID: 4
+position: 2541,-1
+---
+Mae: GEFUNDEN! #line:de3d42
+<<if $has_pliers>>
+	Gregg: In Ordnung, wir haben das Zeug. #line:452217
+	Gregg: Lass uns den Aufzug oeffnen und sehen, was oben ist. #line:eed9d3
+	Mae: Ich schaetze mal, es sind 12 weitere Aufzuege #line:f9c7fb
+<<else>>
+	Mae: Nun, das ist der einfache Teil, schaetze ich. #line:115365
+	Gregg: Ja... die Zange wird ein bisschen schwieriger zu finden sein. #line:d8a808
+	Mae: Hmm... #line:8d2706
+	Mae: Nun, lass uns wieder nach oben gehen. #line:0b2f85
+<<endif>>
+<<set $has_paperclip to 1>>
+===
+title: Office00
+tags:
+colorID: 4
+position: 2845,-45
+---
+Mae: Kaugummi! #line:2721c5
+<<set $office_00_done to 1>>
+===
+title: Office01
+tags:
+colorID: 4
+position: 3078,-38
+---
+Mae: Notizkarten! #line:a2b77d
+<<set $office_01_done to 1>>
+===
+title: Office02
+tags:
+colorID: 4
+position: 3337,-26
+---
+Mae: Anstecknadeln! #line:890f23
+<<set $office_02_done to 1>>
+===
+title: Office03
+tags:
+colorID: 4
+position: 3579,-29
+---
+Mae: Handy-Ladegeraet! #line:365ec0
+<<set $office_03_done to 1>>
+===
+title: Office04
+tags:
+colorID: 4
+position: 3821,-38
+---
+Mae: eins von diesen kleinen Hula-Maedchen! #line:f17398
+<<set $office_04_done to 1>>
+===
+title: Office05
+tags:
+colorID: 4
+position: 4069,-32
+---
+Mae: Bild von ein paar verdammten Kindern! #line:953268
+<<set $office_05_done to 1>>
+===
+title: Office06
+tags:
+colorID: 4
+position: 4319,-34
+---
+Mae: Bild von einem verdammten Jagdhund! #line:d34ab3
+<<set $office_06_done to 1>>
+===
+title: Office07
+tags:
+colorID: 4
+position: 4555,-35
+---
+Mae: donut wolf rezept! #line:a6e9d0
+Mae: reite den Wagen, Nancy. #line:a6e604
+<<set $office_07_done to 1>>
+===
+title: Office08
+tags:
+colorID: 4
+position: 4812,-28
+---
+Mae: Grossarschiger Tacker! #line:41446d
+<<set $office_08_done to 1>>
+===
+title: Locked01b
+tags:
+colorID: 4
+position: 1747,-268
+---
+Mae: Verschlossen! #line:2aacd7
+Gregg: UGH. #line:c6b5f4
+===
+title: WeirdArt
+tags:
+colorID: 4
+position: 2284,272
+---
+Mae: Oh mein Gott #line:933c05
+Mae: was *ist* das fuer ein Ort? #line:1d4db7
+Gregg: Verbotene Zone. #line:edcf26
+<<close>>
+<<cameraLookAt WeirdArt 3>>
+<<lookAt Mae WeirdArtCharacter>>
+<<lookAt Gregg WeirdArtCharacter>>
+<<wait 2>>
+<<playAmbientSFX _AmbientSFX:amb_ibon 8>>
+Mae: machen die da ein seltsames Kunstmuseum auf? #line:c64f70
+Gregg: Das ist schlechte Kunst. #line:3f2611
+Mae: Das ist seltsam. #line:7aa909
+Gregg: Das ist Kunst, Kumpel. #line:7fd741
+Mae: was zum... #line:6ae7a9
+Mae: nein, das ist vertraut #line:75dd0c
+Mae: woher kenne ich das? #line:647a5a
+<<close>>
+// elevator sound! it's going down
+<<playAmbientSFX _AmbientSFX:elevator_run_other>>
+<<fadeOutAmbientSFX _AmbientSFX:elevator_run_other 10>>
+<<lookLeft Gregg>>
+<<wait 3>>
+Gregg: Scheisse, Kumpel!  #line:02f868
+Gregg: Der Aufzug! #line:604e73
+Mae: Warum kenne ich dieses Bild? #line:111239
+<<close>>
+<<flip Gregg -1>>
+<<run Gregg OffLeft>>
+<<wait 1>>
+Gregg: DUDE! COME ON!!! #line:ed9f3b
+<<close>>
+<<wait 2>>
+// window breaking sound
+<<playAmbientSFX _AmbientSFX:window_smash>>
+<<wait 3>>
+Gregg: DER AUFZUG KOMMT WIEDER HOCH!!! #line:e51ab8
+<<playAmbientSFX _AmbientSFX:elevator_run_other 10>>
+<<wait 2>>
+
+<<set $mansion_wall_left_top_done to 1>>
+<<stopFollowing Gregg>>
+<<run Mae OffLeft>>
+
+<<fadeOutMusic 2>>
+<<wait 1>>
+<<irisOut 1 wait>>
+<<scene MansionFireEscape -1>>
+===
+title: BasementIntro
+tags: bikeCrash
+colorID: 4
+position: 405,-370
+---
+//Mae and Gregg are laying on the floor, having fallen down the stairs//
+Gregg: VERDAMMT noch mal #line:d3990d
+Gregg: Eule! #line:9def13
+Mae: Bist du ok? #line:322f34
+Gregg: Ich glaube schon. #line:7cffe7
+Gregg: Das war gefaehrlich! #line:6ec1b5
+Mae: Ich wusste nicht, dass Eulen so angreifen! #line:6466db
+Mae: Was hat er nur getan? #line:708cb5
+//Gregg: You ok?
+//Mae: Hurt my knee falling off the bike.
+//Mae: reeeeally looking forward to all the stairs we’re gonna have to climb in here...
+//Gregg: Alright well.
+//both get up//
+<<wait 2>>
+<<lookRight Mae>>
+<<wait 1>>
+Mae: Wir sind also im Keller. #line:dc421c
+<<lookNearest Mae>>
+Gregg: Wonach suchen wir eigentlich, nebenbei bemerkt? #line:36eeaa
+Mae: In dem Ding, das ich gelesen habe, stand, dass manchmal, wenn jemand lange bleibt #line:09d149
+Mae: Sie hoeren seltsame Dinge. #line:e6bb6f
+Mae: In etwas, das man den Kartenraum nennt #line:05c0fb
+Mae: und in irgendeinem verbotenen Bereich? #line:042726
+Gregg: Technisch gesehen ist das alles im Moment Sperrgebiet. #line:a941b6
+Mae: Stimmt, Kumpel. Stimmt. #line:7b4290
+
+===
+title: BetweenElevators
+tags:
+colorID: 4
+position: 1204,-526
+---
+<<set $looked_between_elevators to 1>>
+Gregg: Kumpel, sind das etwa... zwei Aufzuege? #line:9ce589
+Gregg: Und nicht etwa alte. #line:98593d
+Gregg: Auch verschlossen. #line:1dabd2
+Mae: Oje. Vielleicht gibt es hier nur Aufzuege. #line:497d64
+Gregg: Seltsam. Warum solltest du zwei haben? #line:a6f189
+Mae: Einer fuer die Geister, einer fuer die Normalos. #line:c0ef8a
+Gregg: Private Geisterparty auf dem Dach. #line:5752f1
+Mae: mit einem Geisterpool. #line:288a62
+Gregg: ich hoffe du wirst vom Aufzug zerquetscht. #line:baa1ea
+Mae: ich hoffe, dein Kopf bleibt in der Tuer stecken #line:96aa5b
+Mae: und abgehackt wird. #line:58d0c7
+Gregg: ich hoffe, du faellst in einen Aufzugsschacht. #line:223f5c
+Mae: ich hoffe, du wirst in einem dunklen Aufzug gefangen #line:955279
+Mae: gefuellt mit Wasser #line:c2a76b
+Mae: und ein wuetender Hai. #line:9fbf15
+Gregg: heilige Scheisse, Alter, das ist... #line:28c0b0
+Gregg: *Gaensehaut* #line:254c86
+===
+title: Stairs
+tags:
+colorID: 4
+position: 1488,-490
+---
+Mae: "Aus Versicherungsgruenden geschlossen" #line:03d45c
+Gregg: "Vorsicht: Treppe nicht zum Klettern geeignet" #line:b017b0
+Mae: "Diese Treppe gehoert urspruenglich zum Haus #line:ffb1a5
+Mae: And Are Not Functional At This Time." #line:08fabc
+Gregg: Was zum Teufel sind "nicht funktionierende" Treppen? #line:74b6cf
+Mae: Sollen wir einfach so... #line:c44486
+Gregg: Schweben? #line:bbeb21
+Mae: Hm. #line:624f19
+<<set $mansion_stairs_done to 1>>
+===
+title: Elevator1-2
+tags:
+colorID: 4
+position: 2002,-325
+---
+<<if $looked_between_elevators>>
+	Mae: Oh, sieh dir das an. #line:22af4f
+	Gregg: Aufzug Nummer 3 #line:410b9b
+	Mae: Sieht aus, als waere er auch nicht verschlossen. #line:b6e07b
+	Gregg: Aufzuege fuer Meilen, Kumpel. #line:bc7e26
+	Mae: Ja. Das ist seltsam. #line:586aa2
+<<else>>
+	Mae: Hey. Das ist ein Aufzug. #line:74e80e
+	Gregg: In Ordnung. #line:7bb01b
+	Mae: Ja, das wird auf jeden Fall einfacher sein als die Treppe. #line:c1a5f2
+<<endif>>
+<<set $elevator_1_2_done to 1>>
+===
+title: SecondFloor
+tags:
+colorID: 4
+position: 1801,-533
+---
+<<walk Mae MaeWalkOut1 wait>>
+<<wait 3>>
+Mae: Wirst du gehen? #line:fa9a7b
+Gregg: wirst *du* gehen? #line:c794d1
+Mae: warum muss ich zuerst gehen? #line:6a9f2b
+Gregg: es ist dein Geist! #line:42a2a0
+Mae: ok gut #line:c794d4
+Gregg: ...es ist nicht mal real... #line:46adb2
+Mae: ...was? #line:242b2d
+<<fadeOutMusic 2>>
+Mae: Kumpel, r- #line:7c461c
+<<wait 1>>
+<<playOneShot event:/mansion/muffled_thump CreepyNoise1>>
+//interrupted by distant creepy noise (does it close the text window when it happens?). This noise is the animatronic guy upstairs (RUNNING GREGG THEME!) but we don’t know that yet, so it’s this distant muffled indistinct voice/thump that is spooky. Not like a scream or anything, just like a WMMWAAHMMWWAAAMUHHMUHH voice and then a BUMP. Shouldn’t come off as robotic until we’re in the same room as it, which will be in the Map Room//
+<<wait 2>>
+Mae: ... #line:7564b0
+Gregg: Was #line:778d4a
+Gregg: zum Teufel #line:e6558b
+Gregg: war das? #line:15f0ee
+Mae: Ich weiss es nicht. #line:42277e
+Mae: Ist jemand hier? #line:db3a3c
+Gregg: Nein! Lichter aus, Tueren verschlossen, keine Autos draussen! #line:199ab1
+Mae: ok, also... #line:972f95
+Gregg: Willst du zurueckgehen? #line:e11099
+->Hast du dein Messer? #line:c16ee8
+	Gregg: Ja. #line:540f76
+	Mae: Ok. #line:a99010
+	Gregg: Warte, ist die Annahme, dass ich jemanden abstechen werde?! #line:7247d3
+	Gregg: Ist das jetzt der Plan?! #line:282eb9
+	Mae: Nein, ich meine nur fuer den Fall. #line:d414b7
+	Mae: Ich meine, #line:61c0b0
+->Nein. #line:01ec9e
+	Mae: Und ueberhaupt #line:e72e4b
+Mae: die Kellertuer hinter uns verschlossen. #line:844239
+Gregg: Ach ja. So ein Mist. #line:7fe3ef
+Mae: Wir muessen auch einen anderen Weg nach draussen finden. #line:a07275
+Gregg: Warte, lass mich das auf die Liste setzen #line:6c0c3b
+Gregg: Kartenraum, Verbotene Zone, Finde einen Ausweg #line:623748
+Mae: Das ist kompliziert. #line:21c24d
+Gregg: Verbrechen. #line:dd20ac
+Mae: Verbrechen. #line:60996a
+<<playMusic spooky_mansion>>
+===
+title: FirstFloor
+tags:
+colorID: 4
+position: 959,-547
+---
+<<stopMoving Mae>>
+<<stopFollowing Gregg>>
+<<warp Gregg GreggFirstFloor>>
+<<warp Mae MaeFirstFloor>>
+<<flip Mae -1>>
+<<flip Gregg -1>>
+<<follow Gregg Mae>>
+<<fadeInInternal 1 wait>>
+<<set $mansion_floor_chunk to 1>>
+Gregg: sieht ziemlich leer aus #line:9ab7fd
+Mae: und dunkel #line:fb1299
+Gregg: hey, wo ist die Taschenlampe? #line:351fe9
+Mae: Mist #line:e61e0f
+Mae: Ich habe sie draussen gelassen. #line:5db7b1
+Gregg: Kumpel. #line:bd26aa
+Mae: DU WURDEST VON EINER ELE angegriffen!!!! #line:8bec82
+Gregg: Also gut #line:836b89
+Gregg: Ich kann sehen, ok #line:93960b
+Mae: Ich auch. Schauen wir uns um. #line:fd2985
+<<set $mansion_basement_done to 1>>
+<<playMusic spooky_mansion>>
+===
+title: Attic
+tags:
+colorID: 4
+position: 2013,266
+---
+<<castToSurface Gregg 1>>
+<<fadeOutMusic 10>>
+<<walk Mae MaeWalkOut4 wait>>
+Mae: Sie haben einen Aufzug, der vom Keller bis zum Dachboden faehrt #line:ddeefa
+Mae: ohne Zwischenstopps. #line:a5fa33
+Mae: was soll der Scheiss eigentlich? #line:20279b
+Gregg: schnell, lass uns einen Weg nach draussen finden #line:477513
+<<close>>
+<<createLocatorAt Gregg GreggReturn>>
+<<stopFollowing Gregg>>
+//Gregg runs to the left, waits for a sec and then runs back to you//
+<<run Gregg OffLeft wait>>
+<<playAmbientSFX _AmbientSFX:attic_window_locked>>
+<<wait 1>>
+<<run Gregg GreggRunBack wait>>
+Gregg: ICH HABE EIN FENSTER GEFUNDEN! #line:2770e9
+Gregg: ICH GLAUBE, DASS ES EINEN FEUERAUSFLUG GIBT! #line:1fb0e5
+Gregg: Das Fenster laesst sich aber nicht oeffnen... #line:db6d8d
+//you are free to run into the weird room//
+<<generateFollowPoints Mae Gregg>>
+<<follow Gregg Mae>>
+===
+title: OfficeForLockpick
+tags:
+colorID: 4
+position: 2676,-556
+---
+<<walk Mae MaeWalkOut2 wait>>
+Mae: Andere Leute gehen auf seltsame Geisterjagd-Abenteuer #line:96fbb9
+Mae: und sie suchen so was wie cooles Zeug... #line:72fb6f
+<<if $did_bea_investigation_quest>>
+	Mae: Ich glaube, ich habe letzte Nacht eine uralte Skelettleiche gefunden... #line:27a0a5
+	Gregg: Ja, Alter #line:1815e1
+	Gregg: Wenigstens haben wir noch keinen Toten getroffen #line:8852a8
+<<endif>>
+//muffled soft noise below//
+Gregg: Ok gut #line:9f6617
+Mae: Ja, lass uns eine Bueroklammer finden. #line:968a74
+===
+title: Elevator3
+tags:
+colorID: 4
+position: 2241,-307
+---
+<<fadeOutMusic 5>>
+<<if $looked_between_elevators>>
+	Mae: Heiliger Bimbam, ist das der Aufzug Nummer 4? #line:e0e1f0
+	Gregg: Wie? #line:e06689
+	Gregg: Warum? #line:c26b78
+	Mae: Grossvater wuerde sich jetzt ueber die Steuergelder beschweren. #line:a4473e
+<<else>>
+	Mae: Hey... ist das ein anderer Aufzug? #line:dbd3a6
+	Gregg: Huh. Seltsam. #line:095874
+<<endif>>
+<<close>>
+<<playOneShot event:/mansion/creepy_noise_02 CreepyNoise2>>
+<<wait 3>>
+Mae: AAAGH. #line:155601
+Gregg: Das ist... nicht cool. #line:c4933e
+Mae: Vielleicht ist es wie #line:38d042
+Mae: jemand hat ein Telefon hier gelassen und das ist... aeh #line:e18e14
+Gregg: wahrscheinlich das. #line:40823e
+Mae: wahrscheinlich. #line:1e8817
+Gregg: wahrscheinlich. #line:620fab
+Mae: Verbrechen. #line:faf28a
+Gregg: Verbrechen. #line:63b736
+<<set $elevator_3_done to 1>>
+<<playMusic spooky_mansion>>
+===
+title: Elevator6-7
+tags:
+colorID: 4
+position: 2485,-315
+---
+<<if $looked_between_elevators>>
+	Gregg: Du verarschst mich doch. #line:44c5f4
+	Mae: Aufzug Nummer 5. #line:c822f3
+<<else>>
+	Mae: Sie haben aeh... #line:262487
+	Mae: Die haben eine Menge Aufzuege hier drin. #line:deb1c7
+	Gregg: Das ist wirklich seltsam. #line:2b0533
+<<endif>>
+Gregg: Hm. #line:f625bc
+Gregg: Gesperrt.  #line:bbc67c
+Mae: Ich glaube, hoeher koennen wir nicht gehen, ohne ein paar Schloesser zu knacken, also #line:c706af
+Gregg: AW, CRAP #line:3ccd25
+Mae: Du verarschst mich doch. #line:587305
+Gregg: Hat das Dietrich-Zeug hinten fallen lassen. #line:80c190
+Mae: Du verarschst mich *KIDDING*. #line:909eae
+Gregg: ICH WURDE VON EINER EIWEISE ANGESTRICHEN!!! #line:cb3b8e
+<<wait 2>>
+Mae: Ok. #line:aec6dd
+Mae: Entschuldigung. #line:b58007
+Mae: Kannst du irgendwie improvisieren? #line:488388
+Gregg: Aehm. Ich brauche eine Zange... #line:126554
+Gregg: und... #line:5bac81
+Gregg: hast du eine Bueroklammer? #line:9e9575
+Mae: Aeh, nein. Wer traegt denn heute noch eine Bueroklammer mit sich herum? #line:053c1e
+<<if $visited_office>>
+	Mae: Hey! Ich wette, das Buero hat eine! #line:7d5127
+	Gregg: ich wette, die benutzen Papier und muessen es #line:fabb31
+    Gregg: den Scheiss ausschneiden? #line:e7a543
+	Mae: schoen schoen schoen. #line:a797e2
+<<else>>
+	Gregg: Niemand. #line:8a3d96
+<<endif>>
+Mae: so wie, ok, nur damit ich das jetzt richtig verstehe... #line:e7d383
+Gregg: schiessen #line:195bbc
+Mae: Kartenraum, Verbotene Zone, Finde einen Ausweg, Finde Zange, Finde Bueroklammer #line:6d29f1
+<<fadeOutMusic 5>>
+Gregg: Ich glaube, das war's #line:3e9987
+Mae: DAS IST SO DUMM!!! #line:06f2d4
+Mae: Das ist wie Arbeit! Das ist alles Arbeit! #line:08e8d2
+<<close>>
+<<playOneShot event:/mansion/creepy_noise SfxMuffledThump>>
+<<wait 3>>
+Gregg: Hast du das gehoert? #line:bda139
+Mae: Ja... #line:e07b03
+Mae: hoerte sich nicht wie ein Mensch an #line:334483
+Gregg: Ja. Ich weiss nicht, was das war. #line:2e357b
+Mae: ok gut, lass uns beeilen. #line:5f7db1
+<<set $looking_for_lockpick to 1>>
+<<playMusic spooky_mansion>>
+===
+title: Basement
+tags:
+colorID: 4
+position: 2247,-50
+---
+<<castToSurface Gregg 1>>
+<<walk Mae MaeWalkOut3 wait>>
+Mae: Heilige Scheisse, sind wir im Keller? #line:f1f15a
+Gregg: Oh ok. #line:a9a0e0
+<<if $looked_between_elevators>>
+	Mae: Oh hey! Dahin fuehrt der Aufzug? #line:7460e4
+	Gregg: Dieser Aufzug. #line:a064b7
+<<else>>
+	Mae: heilige Scheisse, das habe ich gar nicht bemerkt, als wir reinkamen? #line:251b73
+	Gregg: huh. Da drueben ist auch noch einer. #line:195fda
+<<endif>>
+Mae: Ja, also... #line:859e53
+Gregg: das macht nicht viel Sinn #line:4bd439
+Mae: Vielleicht wie #line:5b1216
+Mae: dieser Aufzug ist zum Verladen von Sachen fuer den Kartenraum? #line:78b9c6
+Mae: und wie... sie benutzen den anderen, um die Treppe zu vermeiden... #line:4a1a73
+Mae: aber selbst dann, #line:15cc60
+Gregg: Alter, das macht alles keinen Sinn. #line:83503b
+<<close>>
+<<lookUp Gregg>>
+<<wait 1>>
+<<lookUp Mae>>
+<<wait 2>>
+Gregg: Es sieht nicht so aus, als ob das, was auch immer das ist, uns hier runter folgt. #line:990a8c
+<<lookRight Mae>>
+Mae: "was auch immer?" nicht "wer auch immer?" #line:2e1ce9
+<<lookNearest Gregg>>
+Gregg: wer auch immer #line:c2db95
+Mae: kommst du mit dieser Geistersache klar? #line:c37a36
+Gregg: Geister benutzen keine Aufzuege #line:f5b66b
+Mae: Warum? Damit ein Geist die Treppe hochgehen kann oder so #line:e6660e
+Mae: aber Aufzuege kommen nicht in Frage? #line:4a0ac2
+Gregg: ... #line:e07db0
+Gregg: also die Frage, die ich habe, ist #line:7e8ca5
+//camera pans over to other elevator//
+<<lookLeft Mae>>
+<<cameraLookAt CameraOtherElevator 2>>
+Gregg: wo kommt das hin? #line:547430
+<<close>>
+<<wait 2>>
+<<lookRight Mae>>
+Mae: ok #line:4331b0
+Gregg: Verbrechen? #line:dcc9ff
+Mae: Verbrechen. #line:4e9c8b
+<<lookNearest Mae>>
+<<cameraFollowPlayer 1>>
+// delete SceneLink for elevator
+<<destroy SceneLink7>>
+===
+title: AutoStairs
+tags:
+colorID: 4
+position: 673,-557
+---
+Mae: ok #line:886d28
+Gregg: los geht's #line:35da50
+<<close>>
+<<walk Mae MaeUpStairs>>
+<<fadeOutInternal 1 wait>>
+[[FirstFloor]]
+===
+title: ItsLocked
+tags:
+colorID: 4
+position: 1543,202
+---
+<<set $mansion_unlock_00 to 1>>
+Mae: Es ist abgeschlossen!!!! Irgendetwas hat es verschlossen!! #line:4f8a32
+Gregg: Irgendjemand. #line:c32056
+Mae: Koennen wir wieder nach oben gehen? #line:b023aa
+Mae: Eigentlich nicht, wir werden nur im Kreis herum gejagt #line:97f70b
+Mae: von was auch immer es ist. #line:809161
+Gregg: Wer auch immer es ist. #line:560255
+Mae: DUDE. #line:56922d
+<<close>>
+<<generateFollowPoints Mae Gregg>>
+<<follow Gregg Mae>>
+//other elevator is now returning//
+Gregg: aaaaaaund... #line:68c474
+<<setAnimBool Gregg lockPicking 0>>
+Gregg: Ich hab's! #line:e74b9d
+<<tell SceneLink8 Open>>
+Mae: Wir wissen nicht, wohin das fuehren wird. #line:fe30bd
+Gregg: Hast du eine bessere Idee? #line:e020ab
+Mae: DUDE. Offensichtlich nicht. #line:63f14d
+<<fadeOutMusic 6>>
+<<tell SceneLink8 Activate>>
+===
+title: CellarDoor
+tags:
+colorID: 4
+position: 1256,204
+---
+<<playAmbientSFX _AmbientSFX:basement_door_locked>>
+<<wait 2>>
+Mae: Festgefahren! #line:751cde
+Mae: wir sind so am Arsch! #line:9bd10a
+Gregg: Ich arbeite, ich arbeite! #line:4c85cb
+<<set $mansion_cellar_door_done to 1>>
+===

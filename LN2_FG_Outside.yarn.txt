@@ -1,0 +1,1614 @@
+title: CliffJump
+tags:
+colorID: 0
+position: -2432,275
+---
+<<freezePlayer>>
+<<showTalkingHeads>>
+<<animate Adina LNGatorFallLeft>>
+<<setCameraMode Stationary>>
+<<if $cliff_jumps is 0>>
+	Mae: ...und dann ist sie von der Klippe gesprungen! #line:a54281
+	Granddad: Was? Nein, ist sie nicht! #line:a8cd05
+	<<set $cliff_jumps += 1>>
+<<elseif $cliff_jumps is 1>>
+	Mae: ...und dann ist sie noch einmal von der Klippe gesprungen! #line:453e21
+	Granddad: Nein, das hat sie nicht getan. #line:0ca3a1
+	<<set $cliff_jumps += 1>>
+<<elseif $cliff_jumps is 2>>
+	Mae: ...und dann ist sie gesprungen!! #line:144259
+	Granddad: Siehst du, deshalb lese ich dir Charity Bearity vor. #line:1a3985
+	<<set $cliff_jumps += 1>>
+<<elseif $cliff_jumps is 3>>
+	Mae: Spring!!! #line:0a4d5a
+	Granddad: *aehem* #line:e4d890
+	Granddad: "Charity Bearity lernt zu teilen" #line:d0cbf5
+	<<set $cliff_jumps += 1>>
+<<elseif $cliff_jumps is 4>>
+	Mae: Jumpa-jumpa-jump!! #line:91feaf
+	Granddad: "In der Stadt Careity lebte ein kleiner Baer #line:e499b8
+	Granddad: namens Charity Bearity." #line:60a171
+	<<set $cliff_jumps += 1>>
+<<elseif $cliff_jumps is 5>>
+	Mae: Juuuuuump! #line:ae8da3
+	Granddad: "Charity Bearity hat ihr Spielzeug nie gerne geteilt." #line:8e18a5
+	<<set $cliff_jumps += 1>>
+<<elseif $cliff_jumps is 6>>
+	Mae: Oh nein, sie ist schon wieder gesprungen! #line:0c0557
+	Granddad: "Sie wollte sie nicht mit den Maedchen teilen, sie wollte sie nicht mit den Jungen teilen." #line:a5ddca
+	<<set $cliff_jumps += 1>>
+<<elseif $cliff_jumps is 7>>
+	Mae: Sie ist gesprungen, weil sie Charity Bearity hasst! #line:ddd514
+	Granddad: Ugh, ich werde ein paar Seiten ueberspringen... #line:d8ac4b
+	Granddad: "Nein, sie hat geweint, ich teile nicht gerne!" #line:34a034
+	Granddad: "Mich zum Teilen zu zwingen, heisst zu sagen, sie gehoeren mir nicht!" #line:e3bc5c
+	<<set $cliff_jumps += 1>>
+<<elseif $cliff_jumps is 8>>
+	Mae: Sie sprang, weil sie einen Baeren sah, auf dem sie landen konnte! #line:b376dd
+	Granddad: War es Charity Bearity? #line:c90569
+	Mae: Ja! Sie hat ihre Wohnung zerquetscht! #line:95c889
+	<<set $cliff_jumps += 1>>
+<<elseif $cliff_jumps is 9>>
+	Mae: Springt, springt, springt! #line:726131
+	Granddad: "...und so hat Charity Bearity gelernt zu teilen" #line:5a4a0e
+	Granddad: "...ity." #line:142eb4
+	Granddad: Igitt. #line:e86f8b
+	<<set $cliff_jumps += 1>>
+<<elseif $cliff_jumps is 10>>
+	Mae: Juuuuuuuuuuuuump! #line:daf19c
+	Granddad: Das kann gar nicht mehr lustig sein. Wirst du denn nicht muede! #line:22505a
+	Mae: Ich hasse Charity Bearity! #line:fe4216
+	Granddad: In dieser Geschichte geht es gar nicht um Charity Bearity! #line:64abc4
+	<<set $cliff_jumps += 1>>
+<<elseif $cliff_jumps is 11>>
+	Mae: Dann hat sie... #line:4f6677
+	Granddad: Nein. Nein, hat sie nicht. #line:2b6b57
+	Granddad: Sie ist nie gesprungen. #line:d8c927
+	Granddad: Willst du diese Geschichte hoeren oder nicht? #line:eb76b1
+	Mae: ...ja... #line:957142
+	Granddad: Ich verspreche, sie wird dir gefallen. #line:46947f
+	Mae: *gaehn* Ok. #line:790e55
+	<<set $cliff_jumps += 1>>
+	<<set $fall_blocker to 1>>
+<<endif>>
+<<hideTalkingHeads>>
+<<fadeOut 1 wait>>
+<<warp Player FallReset>>
+<<flip Player -1>>
+<<setCameraMode FollowPlayer>>
+<<wait 1>>
+<<unfreezePlayer>>
+<<fadeIn 1>>
+
+
+===
+title: RingSnowBell
+tags:
+colorID: 0
+position: 493,196
+---
+<<if $forest_god > 0>>
+	[[RingBellDoNothing]]
+<<elseif $snow_bridge > 0>>
+	[[RingBellWhenBridgeIsDone]]
+<<else>>
+    <<walk Player AdinaEdge wait>>
+    <<playerFace -1>>
+    <<if $godtender_present is 0>>
+    	<<set $godtender_present to 1>>
+    	<<wait 2>>
+    	GodtenderBrown: Hallo? #line:e7f8c8
+    	<<close>>
+    	<<show GodtenderBrown 2>>
+    	<<wait 2.5>>
+    	<<walk GodtenderBrown Ledge wait>>
+    <<endif>>
+    <<if $snowman10HasBody is 1 and $snowman11HasBody is 1 and $snowman10HasFace is 1 and $snowman11HasFace is 1>>
+    	<<if $snowdrunk is 1 and $snowthief is 1>>
+    		[[SnowdrunkAndSnowthief]]
+    	<<elseif $snowdrunk is 1 and $snowblow is 1>>
+    		[[SnowdrunkAndSnowblow]]
+    	<<elseif $snowdrunk is 1 and $snowdog is 1>>
+    		[[SnowdrunkAndSnowdog]]
+    	<<elseif $snowthief is 1 and $snowblow is 1>>
+    		[[SnowthiefAndSnowblow]]
+    	<<elseif $snowthief is 1 and $snowdog is 1>>
+    		[[SnowthiefAndSnowdog]]
+    	<<elseif $snowblow is 1 and $snowdog is 1>>
+    		[[SnowblowAndSnowdog]]
+    	<<else>>
+    		[[MissingSnowmenCombination]]
+    	<<endif>>
+    <<else>>
+    	[[GodtenderFail]]
+    <<endif>>
+<<endif>>
+
+
+===
+title: InitLevel
+tags:
+colorID: 0
+position: -2538,4
+---
+<<if $snow_bridge < 1 and $day <= 1>>
+	<<hide GodtenderBrown>>
+	<<set $godtender_present to 0>>
+<<else>>
+	<<warp GodtenderBrown Ledge>>
+	<<set $godtender_present to 1>>
+<<endif>>
+
+===
+title: GodtenderBrown_A1D1.1
+tags:
+colorID: 0
+position: -2369,930
+---
+GodtenderBrown: Warte! #line:73d872
+Adina: Ja? #line:bfb5b0
+GodtenderBrown: Es tut mir aufrichtig leid, aber ihr koennt den Waldgott in dieser laengsten Nacht nicht sehen. #line:b15b86
+Adina: Warum nicht? Ich- #line:4ba8d9
+Adina: aeh... wir... #line:d52a73
+Adina: sind schon so weit gekommen fuer eine Audienz! #line:1077d8
+GodtenderBrown: Die Wahrheit ist, und das musst du geheim halten, aber... #line:36c0c6
+GodtenderBrown: aber... #line:2974e0
+GodtenderBrown: Der Waldgott ist krank. Sie sind alt und liegen im Sterben. #line:3c8622
+GodtenderBrown: Und sie koennen dich nicht sehen. Es koennte sie aufregen, und das koennen wir nicht riskieren. #line:1acbd5
+[[Krank?|FGSick]] #line:2ccb03
+[[Sterbend?|FGSterbend]] #line:9ea2c9
+
+===
+title: GodtenderBrown_A1D2.2
+tags:
+colorID: 0
+position: -1824,591
+---
+GodtenderBrown: Das ist die schlimmste laengste Nacht aller Zeiten. #line:683bc2
+===
+title: NeedKeyItem
+tags:
+colorID: 0
+position: -2105,276
+---
+Adina: Hm... ich muss etwas Besonderes fuer dieses Gesicht finden... #line:1dc71f
+Adina: ... wahrscheinlich eher im Wald, wuerde ich vermuten... #line:41da29
+===
+title: SnowdrunkAndSnowthief
+tags:
+colorID: 0
+position: -1246,514
+---
+GodtenderBrown: Hallo Reisende! #line:b473a0
+Adina: Reisende! #line:dc3d17
+Adina: Wir suchen eine Audienz beim Waldgott! #line:13047b
+GodtenderBrown: Ich bin Godtender Brown. Wer bist du jetzt? #line:d2dcf0
+Adina: Ich bin Kaiserin Astra. Das ist mein kaiserlicher Berater Eimhin #line:b25992
+Snowthief: Hallo, hallo! #line:0013a4
+Adina: und unser Erzbischof Williams. #line:31c9f9
+Snowdrunk: Hallllllo. #line:2f5bbd
+Adina: Wir sind lange durch die Nacht gereist, um hier zu sein, duerfen wir durch? #line:c28836
+GodtenderBrown: Kaiserin Astra, sagt Ihr? Ich glaube nicht, dass ich mit Eurer kaiserlichen Majestaet vertraut bin! #line:d289df
+[[Wir kommen von weit her, von jenseits des westlichen Ozeans|WesternOcean]] #line:2d52ea
+[[Wir kommen aus dem Sueden, jenseits dieses und des naechsten Waldes|BeyondThisForest]] #line:953340
+
+===
+title: EndSnowmenChat
+tags:
+colorID: 0
+position: 487,1707
+---
+GodtenderBrown: Erlaubt mir! #line:35361a
+<<close>>
+<<set $godtender to 20>>
+<<set $fall_blocker to 0>>
+<<set $snow_bridge to 1>>
+<<wait 1>>
+GodtenderBrown: Geht auf den Heiligen Berg! #line:d5c47c
+
+===
+title: SnowdrunkAndSnowblow
+tags:
+colorID: 0
+position: -642,767
+---
+GodtenderBrown: Hallo Reisende! #line:a2a1f3
+Adina: Reisende! #line:769415
+Adina: Wir suchen eine Audienz bei dem Waldgott! #line:5f494b
+GodtenderBrown: Ich bin Godtender Brown. Wer bist du jetzt? #line:64c6bf
+Adina: Ich bin Kaiserin Astra und dies ist mein kaiserlicher Berater Williams #line:f0b382
+Snowdrunk: Seid gegruesst! #line:c0c7c1
+Adina: Und mein Herold, aehm... Harold! #line:2406ac
+Snowdrunk: Sehr schoen. #line:021b57
+Schneegestoeber: *HONK!* #line:7d5c90
+GodtenderBrown: Ist das ein Glundinhorn? #line:c09e15
+Adina: Ein was jetzt? #line:61e959
+GodtenderBrown: Ich habe in meiner Schulzeit Glundinhorn gespielt! #line:238947
+Adina: Na, so ein Zufall! #line:eab9d3
+GodtenderBrown: Ist der auch verflucht? #line:abe969
+[[Was?|HornWhat]] #line:c025c6
+[[Nein ernsthaft, was?|HornWhat]] #line:f58556
+
+===
+title: SnowdrunkAndSnowdog
+tags:
+colorID: 0
+position: 161,536
+---
+GodtenderBrown: Hallo Reisende! #line:5f9f4c
+Adina: Reisende! #line:fc7002
+Adina: Wir suchen eine Audienz bei dem Waldgott! #line:319f57
+GodtenderBrown: Ich bin Godtender Brown. Wer bist du jetzt? #line:e9912d
+Adina: Ich bin Kaiserin Astra und dies ist mein kaiserlicher Berater Williams #line:245586
+Snowdrunk: Seid gegruesst! #line:0f3999
+Adina: Und mein Erzbischof, Clancy! #line:826cc6
+Snowdog: *arf!* #line:73b78f
+Adina: Wir sind lange durch die Nacht gereist, um hier zu sein, duerfen wir hindurchgehen? #line:c6b4c2
+GodtenderBrown: Ihr habt einen *HUND* als Erzbischof? #line:e7e524
+[[Er ist extrem scharfsinnig, nicht wahr Williams?|FGPerceptive]] #line:420e79
+[[Das ist kein Hund! Erzbischof Clancy spricht die Sprache der Tiere!|FGBeastLanguage]] #line:9059f2
+===
+title: SnowthiefAndSnowblow
+tags:
+colorID: 0
+position: 754,534
+---
+GodtenderBrown: Hallo Reisende! #line:eed34f
+Adina: Reisende! #line:791ef9
+Adina: Wir suchen eine Audienz bei dem Waldgott! #line:a7d788
+GodtenderBrown: Ich bin Godtender Brown. Wer bist du jetzt? #line:7b4497
+Adina: Ich bin Kaiserin Astra und dies ist mein kaiserlicher Berater Eimhin. #line:018aac
+SnowThief: Seid gegruesst! #line:53b064
+Adina: Und mein Herold, aehm... Harold. #line:99e42e
+Adina: ugh #line:a437c0
+SnowThief: Brillant. #line:cd81b7
+Snowblow: *HONK!* #line:39dc0a
+GodtenderBrown: Ist das ein Glundinhorn? #line:778840
+Adina: Ein was jetzt? #line:5cff5d
+GodtenderBrown: Ich habe in meiner Schulzeit Glundinhorn gespielt! #line:1dd37d
+Adina: Na, so ein Zufall! #line:b25848
+GodtenderBrown: Ist der auch verflucht? #line:5ee087
+[[Was?|HornWhat2]] #line:526666
+[[Nein ernsthaft, was?|HornWas2]] #line:70f396
+
+===
+title: SnowthiefAndSnowdog
+tags:
+colorID: 0
+position: 1276,527
+---
+GodtenderBrown: Hallo Reisende! #line:8ed04a
+Adina: Reisende! #line:1559d0
+Adina: Wir suchen eine Audienz bei dem Waldgott! #line:85e08f
+GodtenderBrown: Ich bin Godtender Brown. Wer bist du jetzt? #line:6f35f7
+Adina: Ich bin Kaiserin Astra und dies ist mein kaiserlicher Berater Eimhin #line:cd02e0
+Snowthief: Heeeeeeeeeeey. #line:72ea92
+Adina: Und mein Erzbischof, Clancy! #line:30e2e8
+Snowdog: *arf!* #line:6393e9
+Adina: Wir sind lange durch die Nacht gereist, um hier zu sein, duerfen wir hindurchgehen? #line:4ba4ec
+GodtenderBrown: Ihr habt einen *HUND* als Erzbischof? #line:b16ef5
+[Er ist extrem scharfsinnig, nicht wahr Clancy?|FGPerceptive2]] #line:93685a
+[Das ist kein Hund! Erzbischof Clancy spricht die Sprache der Tiere!|FGBeastLanguage2]] #line:f4274e
+===
+title: SnowblowAndSnowdog
+tags:
+colorID: 0
+position: 1989,518
+---
+GodtenderBrown: Hallo Reisende! #line:eb91bc
+Adina: Reisende! #line:9e11fc
+Adina: Wir suchen eine Audienz bei dem Waldgott! #line:08ce5e
+GodtenderBrown: Ich bin Godtender Brown. Wer bist du jetzt? #line:7eb948
+Adina: Ich bin Kaiserin Astra und dies ist mein Herold. #line:93acb9
+Schneegestoeber: *HONK!* #line:134808
+Adina: Und mein kaiserlicher Berater, Clancy. #line:043d96
+Snowdog: *Farf!* #line:18c68c
+GodtenderBrown: Ist das ein Glundinhorn? #line:e6a4c1
+GodtenderBrown: Dein Leibwaechter ist ein Hund? #line:21fe9b
+[[Wie erkenne ich, ob es ein Gludinhorn ist?|HowHorn]] #line:97096f
+[[Ja, und Clancy ist ausgezeichnet in seinem Job.|BodyDog]] #line:12053b
+===
+title: MissingSnowmenCombination
+tags:
+colorID: 0
+position: 486,690
+---
+Adina: Uh oh. #line:1bee06
+Adina: Wir haben nicht damit gerechnet, dass du diese Kombination von Schneemaennern haben wuerdest. #line:28039f
+Adina: Also... aeh... das tut uns leid? #line:25c342
+[[EndSnowmenChat]]
+===
+title: Snowdog
+tags:
+colorID: 0
+position: 2689,725
+---
+<<if $snow_bridge is 1 or $talked_to_snowdog is 1>>
+	Snowdog: *ARF!* #line:84e7c1
+<<else>>
+	Adina: Hallo du. #line:d49ff9
+	Snowdog: *arf!* #line:cbbdb0
+	Adina: Ach, du bist ein Hund! #line:71fd3e
+	Snowdog: *wuff!* #line:b05911
+	Adina: Ich bin mir nicht sicher, ob das wirklich hilfreich ist, aber ok. #line:300660
+	Snowdog: *huestel* *huestel* *huestel* #line:02c3f8
+	Adina: Auf deinem Halsband steht "Clancy". Ist das dein Name? #line:37e478
+	Snowdog: *arf!* *arf!* *arf!* #line:d28b53
+	Adina: Ich hoffe, du vermasselst mir das nicht, Clancy! #line:bc2dea
+	Adina: Aber ich hoffe, du wirst bald weiterziehen koennen #line:2123fb
+	Adina: dorthin, wo tote Hunde hingehen. #line:21d06f
+	Snowdog: *arf!* #line:063466
+	Adina: Ok Junge, folge meiner Fuehrung! #line:76f4a0
+	<<set $talked_to_snowdog to 1>>
+<<endif>>
+
+===
+title: Snowthief_A1D1
+tags:
+colorID: 0
+position: 2701,203
+---
+<<if $snow_bridge is 1>>
+	Snowthief: Na, das ging ja gut. #line:17b0ae
+<<elseif $talked_to_snowthief is 1>>
+	Snowthief: Machen wir das? #line:b5e5c0
+<<else>>
+	Adina: Hallo du. #line:a2416f
+	Snowthief: Igitt. Was wollt ihr denn? #line:067bd3
+	Adina: Entschuldige die Stoerung, aber ich brauche deine Hilfe. #line:b01071
+	Snowthief: Oh, Mist. Ich bin gestorben, nicht wahr? #line:e1effb
+	Snowthief: Das ist so typisch. #line:9bca0d
+	Adina: Hoer zu, indem ich dich hierher gebracht habe #line:6eb9e2
+	Adina: Ich denke, du wirst es schaffen, aus diesem Wald herauszukommen #line:de4615
+	Adina: und tun, was tote Menschen tun. #line:8a26c3
+	Snowthief: Ist das etwas, was ich will? #line:9f1040
+	Adina: Ich habe keine Ahnung. #line:5aa2f0
+	Snowthief: Ok, wie auch immer. #line:399fd9
+	Adina: Folgt meinem Beispiel. #line:8a4ed5
+	<<set $talked_to_snowthief to 1>>
+<<endif>>
+
+===
+title: Snowblow
+tags:
+colorID: 0
+position: 2702,451
+---
+<<if $snow_bridge is 1 or $talked_to_snowblow is 1>>
+	Schneegestoeber: *HONK!* #line:6cd1af
+<<else>>
+	Adina: Hallo du. #line:7e5061
+	Schneegestoeber: *HONK!* #line:73db53
+	Adina: Ok wow, bist du nur ein Horn? #line:5347f1
+	Snowblow: *HOOOOOONK!* #line:a4ff40
+	Adina: Versuchen wir das mal - einmal hupen fuer ja und zweimal fuer nein. Habt ihr das verstanden? #line:4d274f
+	Schneegestoeber: *HONK!* #line:abfb26
+	Adina: Bist du nur ein Horngeist oder so was? #line:8ef3ef
+	Snowblow: *HONK! HONK!* #line:7fe73c
+	Adina: Bist du die Person, die dieses Horn gespielt hat? #line:3f71b6
+	Schneegestoeber: *HONK!* #line:e30f49
+	Adina: Hoer zu, indem ich dich zurueckbringe #line:c420ee
+	Adina: glaube ich, dass du aus diesem Wald herauskommen kannst #line:e8cdc3
+	Adina: und das tun, was tote Menschen tun. #line:662d83
+	Adina: Hoert sich das gut an? #line:36430b
+	Schneegestoeber: *HOOOOOONK!* #line:c28b5e
+	Adina: Ok, super! Folgt meinem Beispiel. #line:7288be
+	<<set $talked_to_snowblow to 1>>
+<<endif>>
+===
+title: Snowdrunk_A1D1
+tags:
+colorID: 0
+position: 2713,-49
+---
+<<if $snow_bridge is 1>>
+	Snowdrunk: Ich kann nicht glauben, dass ich die ganze Zeit, die ich tot war, nuechtern war. #line:f17799
+<<elseif $talked_to_snowdrunk is 1>>
+	Snowdrunk: Lass es uns tun. Ich werde nicht weniger tot sein. #line:fe0930
+<<else>>
+	Adina: Hallo du. #line:a1d1ec
+	Snowdrunk: ...hallo? #line:cef413
+	Adina: Entschuldige, dass ich so schroff bin, aber ich brauche deine Hilfe. #line:6c18db
+	Snowdrunk: Warte, wo bin ich? #line:f4c800
+	Adina: Du bist auf dem Berg des Waldgottes. #line:0b8968
+	Snowdunk: Oh! Werden wir den Waldgott sehen? #line:6bdd94
+	Snowdrunk: Weil ich zum Gefrorenen See gehe. #line:4613a3
+	Adina: Ich auch! #line:89f935
+	Adina: Bist du nicht. #line:162ddf
+	Snowdrunk: Oh! #line:f659e4
+	Snowdrunk: ...oh. #line:4196ed
+	Adina: Hoer zu, indem ich dich hierher bringe #line:d2ecfd
+	Adina: Ich denke, du wirst aus diesem Wald herauskommen koennen #line:55b620
+	Adina: und das tun, was tote Menschen tun. #line:f66686
+	Snowdrunk: Ok, das klingt genauso wahrscheinlich wie alles andere, was hier passiert. #line:787523
+	Adina: Ok, folge meinem Beispiel. #line:cb12c9
+	<<set $talked_to_snowdrunk to 1>>
+<<endif>>
+
+===
+title: GodtenderBrown_A1D2.1
+tags:
+colorID: 0
+position: -2063,588
+---
+GodtenderBrown: Oh Kaiserin, der Waldgott ist immer noch krank. #line:543af1
+Adina: Es tut mir so leid. #line:485296
+GodtenderBrown: Wenn ich nur wuesste, warum, und ob sie wieder gesund werden. #line:cddc0a
+GodtenderBrown: Ich danke euch, dass ihr eure Gefaehrten bei mir gelassen habt, denn sie waren ein grosser Trost. #line:7cd12e
+Adina: Kein Problem. Ich vertraue sie eurer Obhut an. #line:b90d16
+===
+title: GodtenderBrown_A1D3
+tags:
+colorID: 0
+position: -2311,587
+---
+<<if $forest_god_poison is 1>>
+	Adina: Godtender Brown! #line:caf979
+	GoettergatteBraun: Kaiserin! Es ist schon so spaet! Warum bist du noch hier? #line:88bcbe
+	Adina: Hoer zu, es ist sehr wichtig. #line:35fe83
+	Adina: Ich weiss, warum dein Gott stirbt. #line:62cfb8
+	GodtenderBrown: W-was? #line:236c8a
+	Adina: Siehst du, ich sah- #line:ebef83
+	GodtenderBrown: Nein, du musst es ihnen sagen. #line:f92237
+	Adina: Was denn? Und warum? #line:359c8a
+	GodtenderBrown: Ich bin es nicht wert, von ihren Schwaechen zu hoeren. #line:3876d7
+	GodtenderBrown: Ich verdiene den Frieden nicht, den ich hier gefunden habe #line:1bbab7
+	GodtenderBrown: und ich muss sie so gut ehren, wie es mein zerbrechliches Selbst zulaesst. #line:179e04
+	Adina: Das ist wirklich etwas. #line:ad98a7
+	GodtenderBrown: Komm mit mir. JETZT! #line:5c99c0
+	<<fadeOut 1>>
+	<<wait 1>>
+	<<scene LN2_FG_Interior>>
+<<else>>
+	GodtenderBrown: Das ist die schlimmste Laengste Nacht aller Zeiten. #line:97cded
+	GodtenderBrown: Auf bessere Tage. #line:bb5ac1
+<<endif>>
+
+===
+title: FGSick
+tags:
+colorID: 0
+position: -2376,1165
+---
+Adina: Wie kann ein Gott krank sein? #line:00b8d3
+GodtenderBrown: Ich weiss es nicht. #line:898861
+GodtenderBrown: [shake=.02]Wenn ich nur wuesste was passiert!!!![/shake] #line:6851eb
+GodtenderBrown: Wir Paten haben die Aufgabe, uns um den Waldgott zu kuemmern. #line:e76a5c
+GodtenderBrown: Aber diese Krankheit, die haben wir noch nie gesehen. #line:5eeb9d
+GodtenderBrown: Nicht in den 700 Jahren der Aufzeichnungen, die gefuehrt wurden, seit Saint Cecil begann, Gott zu hueten. #line:c32e1a
+Adina: Oh nein. #line:95cd47
+GodtenderBrown: Wir dachten, wenn der Frieden kommt, wuerde alles gut werden. #line:989a0b
+Adina: Der Frieden? #line:3e504f
+GodtenderBrown: Aber Jahrhunderte des Konflikts mit ihr haben sie geschwaecht. #line:6c84b9
+GodtenderBrown: Und nicht lange danach wurden sie krank. #line:8d5928
+Adina: [shake=.01]Sie?[/shake] Meint Ihr [size=1.1][speed=.25][color=aaaaaa][shake=.01]Die Huncher?[/all] #line:cdba67
+GodtenderBrown:{angryWobble=5} SAG HIER NICHT IHREN NAMEN. #line:7058a0
+GodtenderBrown:{angryWobble=0} Mein Herz ist gebrochen. Mein Gott ist krank und alt. #line:9b1aba
+GodtenderBrown: Ich wuesste nicht, was mein Leben ohne sie waere. #line:e20819
+Adina: Es tut mir leid, Godtender. #line:7a38c7
+GodtenderBrown: Es gibt nichts, was du tun kannst, Kaiserin. #line:a4acb4
+GodtenderBrown: Als Vertreter des Waldthrons, #line:74a66a
+GodtenderBrown: Ich sage, dass keine Macht des Waldgottes Euch in dieser Langen Nacht den Weg versperren wird. #line:44fc1a
+GodtenderBrown: Was [speed=.5][shake=.01]Sie[/all] betrifft, so seid Ihr der Gnade #line:d6d873
+GodtenderBrown: der gefaehrlichsten Kreatur des Waldes. #line:463755
+Adina: Danke, Godtender Brown. #line:361a57
+GodtenderBrown: Geh, und nimm einen Segen mit. #line:91f847
+[[EndDay1]]
+
+===
+title: FGDying
+tags:
+colorID: 0
+position: -2614,1170
+---
+Adina: Wie kann ein Gott im Sterben liegen? #line:e81cdd
+GodtenderBrown: Ich gebe nicht vor, die Wege solcher Dinge zu kennen. #line:7fee10
+GodtenderBrown: [shake=.02]Wenn ich nur wuesste, was passiert!!!![/shake] #line:4cf16b
+GodtenderBrown: Wir Godtender haben die Aufgabe, fuer den Waldgott zu sorgen. #line:545caa
+GodtenderBrown: Aber dies, dieser Tod, wir haben so etwas noch nie gesehen. #line:ddb708
+GodtenderBrown: Nicht in den 700 Jahren der Aufzeichnungen, die gefuehrt wurden, seit Saint Cecil begann, Gott zu hueten. #line:da9f2d
+Adina: Oh nein. #line:29f8e8
+GodtenderBrown: Wir dachten, wenn der Frieden kommt, wuerde alles gut werden. #line:255456
+Adina: Der Frieden? #line:f91c5f
+GodtenderBrown: Aber Jahrhunderte des Konflikts mit ihr haben sie geschwaecht. #line:5e9899
+GodtenderBrown: Und nicht lange danach wurden sie krank. #line:bd1a62
+Adina: [shake=.01]Sie?[/shake] Meint Ihr [size=1.1][speed=.25][color=aaaaaa][shake=.01]Die Huncher?[/all] #line:ca59f5
+GodtenderBrown:{angryWobble=5} SAG HIER NICHT IHREN NAMEN. #line:cab290
+GodtenderBrown: Mein Herz ist gebrochen. Mein Gott liegt im Sterben. #line:e000aa
+GodtenderBrown: Ich weiss nicht, was mein Leben ohne sie sein wuerde. #line:e671ad
+Adina: Es tut mir leid, Godtender. #line:1de590
+GodtenderBrown: Es gibt nichts, was du tun kannst, Kaiserin. #line:f5defb
+GodtenderBrown: Als Vertreter des Waldthrons, #line:352c32
+GodtenderBrown: Ich sage, dass keine Macht des Waldgottes Euch in dieser Langen Nacht den Weg versperren wird. #line:f022b3
+GodtenderBrown: Was [shake=.01]Sie[/shake] betrifft, so seid Ihr der Gnade #line:f7ae34
+GodtenderBrown: der gefaehrlichsten Kreatur des Waldes. #line:f64aff
+Adina: Danke, Godtender Brown. #line:961361
+GodtenderBrown: Geh, und nimm einen Segen mit. #line:1e351b
+[[EndDay1]]
+===
+title: FGBeastLanguage
+tags:
+colorID: 0
+position: 162,775
+---
+GodtenderBrown: ZEICHEN UND WUNDER!!!! #line:88c997
+Adina: Als Clancy noch ein Kind war #line:9a81d0
+Adina: Er sehnte sich danach, den Tieren auf dem Feld Frieden zu bringen. #line:566ebd
+Snowdrunk: Das tat er auch! #line:a181ef
+Snowdog: *arf!* #line:72f150
+Adina: Und er war mit der Faehigkeit gesegnet, mit ihnen zu sprechen. #line:38f23c
+GodtenderBrown: Warum spricht er nicht zu uns? #line:179da6
+Adina: aehm... #line:c0f57a
+Snowdrunk: hm. #line:75236c
+[[Er hat vergessen, wie das geht, so engagiert ist er|FGForgotten]] #line:ca9e7c
+[[Er spricht gerade mit unserem kaiserlichen Hund, Dart.|FGDart]] #line:f79019
+===
+title: FGPerceptive
+tags:
+colorID: 0
+position: -79,768
+---
+Snowdrunk: ... #line:80350d
+Adina: Williams??? #line:677c4c
+Snowdrunk: Ja, dieser Hund hat eine gerade Linie bis zum Himmel. #line:11fa31
+Snowdog: *arf!* #line:6ed170
+Adina: Er wurde mit einem Ohr geboren, das weiss wie Schnee war #line:b8163e
+Adina: und das ist das Ohr, mit dem er die himmlischen Gefilde hoert. #line:bdfade
+GodtenderBrown: Erstaunlich! #line:145766
+Snowdog: *arf!* #line:473062
+Snowdrunk: Ja, wir sind ziemlich- #line:943cc8
+Snowdog: *arf!* *arf!* #line:6f21ce
+Snowdrunk: -gegrummelt im Lichte von- #line:b33e3e
+Snowdog: *arf!* *arf!* *woof!* *bark!* *woof!* *arf!* *woof!* *arf!* *bark!* #line:d0c0c4
+Snowdrunk: lieber Gott entweder bring den Hund zum Schweigen oder schick mich zurueck in den Tod #line:175589
+GodtenderBrown: Was ist das? #line:9a381c
+[[Williams hatte gerade eine Eingebung!|FGIntuition]] #line:be3b07
+[[Clancy empfaengt in diesem Moment eine Vision!|FGVision]] #line:56c0da
+
+===
+title: FGDart
+tags:
+colorID: 0
+position: 368,1019
+---
+GodtenderBrown: Oh, du hast auch noch einen Hund dabei! Ich liebe Hunde! #line:4f1d1e
+GodtenderBrown: Dart! Sprich, Dart! #line:a1ac40
+Snowdog: *arf!* #line:5614a2
+GodtenderBrown: Ja Erzbischof Clancy, ich moechte mit Ihrem Hund sprechen! #line:3e6c22
+Adina: Williams! Vielleicht koenntet Ihr... Dart bitten, zu sprechen? #line:9bad48
+Snowdrunk: Oh Gott. #line:52097b
+GodtenderBrown: Sprich, Dart! #line:61b8f5
+Snowdrunk: Wuff. #line:c427d4
+Snowdog: *arf!* #line:b9dada
+Snowdrunk: Bellen. #line:87484a
+GodtenderBrown: So ein Geist! #line:391d3d
+Snowdog: *wuff!* #line:b70798
+Snowdrunk: Arf. #line:ec6219
+GodtenderBrown: Und doch hoere ich das Gewicht vieler Gin-getraenkter Jahre in ihm. #line:e17eb9
+Adina: Du bist scharfsinnig, Godtender! #line:9da31f
+Snowdog: *arf!* #line:47f6f5
+Adina: Clancy hilft dem armen Dart, sein Leben zu aendern! #line:ffbb79
+Snowdrunk: Ich hasse euch alle. #line:d32276
+GodtenderBrown: Was ist das? #line:5fcb9d
+Adina: Die Luft ist sehr kalt, duerfen wir durchgehen? #line:7ef561
+GodtenderBrown: Jeder mit einem so gutherzigen, tugendhaften Erzbischof #line:0beb5f
+GodtenderBrown: und einem Hund von solcher moralischen Staerke und Tapferkeit #line:870d8b
+GodtenderBrown: muss einer Inspektion durch den Waldgott wuerdig sein. #line:7d15f3
+Adina: Danke, Godtender! #line:3227d4
+[[EndSnowmenChat]]
+
+===
+title: FGForgotten
+tags:
+colorID: 0
+position: 141,1015
+---
+GodtenderBrown: WHAT DEVOTION! #line:e356cd
+Adina: Er ist ein Kandidat fuer die Heiligkeit, wo wir herkommen. #line:af1a9c
+Snowdrunk: Er ist erstaunlich, Godtender. #line:01d699
+GodtenderBrown: Seligsprechung, solange er noch lebt? #line:af134c
+GodtenderBrown: Wer hat jemals von so etwas gehoert? #line:d58b59
+[[Es ist ein besonderer Umstand|FGCUmstand]] #line:c9c10b
+[[Er lebt nicht, er ist ein Geist|FGGhostDog]] #line:3f1934
+
+===
+title: FgCircumstance
+tags:
+colorID: 0
+position: 142,1262
+---
+Adina: Er ist der heimliche Sohn des Koenigs. #line:0749d2
+Snowdog: *arf!* #line:b4b648
+Adina: Also wird er im Eiltempo zur Heiligkeit erhoben. #line:e23162
+Snowdrunk: Das ist alles so korrupt. #line:c88087
+GodtenderBrown: Das ist unanstaendig! #line:1f4939
+Adina: Hey, du brauchst mich nicht zu ueberzeugen! #line:1f0ec9
+Snowdrunk: Aber es ist nicht seine Schuld. #line:8c3259
+Adina: Er ist einfach ein netter, lieber Kerl #line:5be2d1
+Snowdrunk: Der Tiere anbellt #line:2e2b91
+Adina: ...und ist somit mein Erzbischof? #line:05c356
+Snowdrunk: Das war eine gute Idee. #line:4dd25d
+Adina: Koennen wir jetzt gehen? #line:b4f695
+GodtenderBrown: Eure Hingabe an diesen einen bellenden heiligen Mann in eurem Reich #line:30cdf3
+GodtenderBrown: hat mich ueberzeugt, dass dein Herz ehrfuerchtig und rein ist. #line:84dda0
+GodtenderBrown: Ihr duerft passieren. #line:5d4fce
+Adina: Ich danke dir so sehr! #line:5ace48
+[[EndSnowmenChat]]
+
+===
+title: FgGhostDog
+tags:
+colorID: 0
+position: 364,1261
+---
+GodtenderBrown: A GHOST?!?!? #line:b2be0f
+GodtenderBrown: Es tut mir leid, aber das ist mir zu gruselig. #line:d17eaf
+<<close>>
+<<walk GodtenderBrown Offscreen>>
+<<wait 1>>
+Adina: Nein, geh nicht! #line:6b4748
+Adina: Verdammt noch mal! #line:d1054a
+Snowdrunk: Gute Arbeit! #line:443313
+Snowdog: *arf!* #line:3a6c7f
+Adina: HALTET ALLE DIE KLAPPE! #line:3f45a6
+Adina: Godtender Brown, bist du da? #line:4ad57a
+GodtenderBrown: Ja? #line:c80f93
+Adina: Hast du Angst vor einem kleinen, heiligen Geist? #line:24964d
+GodtenderBrown: Ja? #line:23eccd
+Adina: Oh, willst du nicht zurueckkommen und uns durchlassen? #line:5b1554
+GodtenderBrown: Kannst du mir versprechen, dass dein Geist mich nicht erschrecken wird? #line:ec92ab
+Adina: Was denkst du, Williams? #line:5032e2
+Snowdrunk: Ich glaube, wir koennen es schaffen, Kaiserin! #line:b2a5a8
+Snowdog: *arf!* #line:ee9c7b
+<<close>>
+<<walk GodtenderBrown Ledge wait>>
+GodtenderBrown: Ich werde euch passieren lassen, unter der Bedingung, dass niemand erschreckt wird. #line:f019ce
+Adina: Danke, Godtender! #line:482f16
+[[EndSnowmenChat]]
+
+===
+title: FgIntuition
+tags:
+colorID: 0
+position: -321,1015
+---
+GodtenderBrown: Erzaehl doch mal, Williams! #line:31d36b
+Snowdrunk: Der Erzbischof hat einen Segen ueber Euch gesprochen #line:02514f
+Snowdrunk: dafuer, dass du der Kaiserin eine Audienz beim Waldgott gewaehrt hast. #line:0a30b7
+GodtenderBrown: Aber ich habe dich noch nicht passieren lassen! #line:18fe31
+Adina: Ja, aber der Erzbischof ist von Weitsicht besessen! #line:7e59e5
+Snowdog: *arf!* #line:28e82b
+Adina: Er ist sehr intuitiv! #line:73891f
+GodtenderBrown: Aber woher weiss er, dass die Zukunft sicher ist? #line:773fa4
+Adina: Er sieht alle Moeglichkeiten und weiss, welche es sein wird! #line:31a00b
+Snowdog: *arf!* #line:79320a
+GodtenderBrown: Habe ich denn wirklich eine Wahl? #line:be1901
+Snowdrunk: Klar! #line:d216f5
+Adina: SHHH! #line:4c47ff
+Adina: Nein, es ist schicksalhaft, dass du uns vorbeilassen wirst. #line:ad4a34
+GodtenderBrown: Ich habe jetzt das Gefuehl, dass alles, was passiert, unvermeidlich ist. #line:8606ff
+Adina: Aber du hast einen Segen daraus gemacht! #line:544c53
+GodtenderBrown: Ich hoffe, der Segen wird mir helfen, diese beunruhigende Idee zu verstehen. #line:4f188a
+Adina: Duerfen wir weitergehen? #line:dd949c
+GodtenderBrown: Die Intuition eurer Gefaehrten hat mich ueberzeugt, dass ihr wuerdig seid, zu passieren. #line:6a4410
+Adina: Ich danke Euch, Godtender! #line:f8bbc1
+[[EndSnowmenChat]]
+
+===
+title: FGVision
+tags:
+colorID: 0
+position: -91,1014
+---
+GodtenderBrown: Erzbischof Clancy, sagt uns, was ihr seht! #line:fae620
+Snowdrunk: aeh #line:ccdd52
+Snowdog: *arf!* #line:7570a2
+Adina: Williams, willst du uebersetzen? #line:975be7
+Snowdrunk: aeh... #line:0070f4
+Snowdog: *arf!* #line:fab2eb
+Snowdrunk: "Dieser Baer mit den verbundenen Augen" #line:fb21fc
+GodtenderBrown: Das bin ich! #line:311d04
+Snowdog: *arf!* #line:6f5025
+Snowdrunk: "sollte die Kaiserin passieren lassen" #line:ddf8af
+GodtenderBrown: Das kann ich machen! #line:531dad
+Adina: Ausgezeichnet! Ich danke dir! #line:5f35e2
+Snowdog: *arf!* #line:c4dcc7
+GodtenderBrown: Die Vision geht weiter! #line:e89edd
+Adina: aehm #line:530a35
+Snowdrunk: "Hast du Schnaps?" #line:5afe7f
+Adina: nein. stop. #line:509d91
+GodtenderBrown: "Was? #line:99bfdd
+Snowdog: *arf!* #line:5324c9
+Snowdrunk: Meine begrenzten Faehigkeiten koennen nicht mehr uebersetzen. #line:425f1c
+Adina: Wir muessen solche Wunder den Bestien ueberlassen. #line:5d7c2b
+Adina: Den Dachsen. Den Hermelinen. Die Meisen. Die Baerenkinder. #line:ccf36e
+GodtenderBrown: Amen. #line:08cc74
+GodtenderBrown: Wir waren Zeugen eines Wunders, in der laengsten Nacht, nicht weniger. #line:c6139b
+GodtenderBrown: Ihr seid sehr gesegnet, Kaiserin. #line:8cbc78
+GodtenderBrown: Ihr koennt gehen, und ich bitte Euch, etwas von diesem Segen hier zu lassen. #line:f5f89d
+[[EndSnowmenChat]]
+
+===
+title: BeyondThisForest
+tags:
+colorID: 0
+position: -886,764
+---
+GodtenderBrown: Erstaunlich! Gibt es noch andere Waelder wie diesen? #line:d84e4d
+Adina: Nun, nicht genau so wie dieser... #line:76a299
+GodtenderBrown: Gibt es Baeume? #line:d50e55
+Adina: Ja. Es waere schwer, es einen Wald zu nennen, wenn es keine Baeume gaebe. #line:984658
+Snowthief: Sie haben Waelder unter Wasser. #line:011a58
+Snowdrunk: Was ist das? #line:d5110c
+Snowthief: Aus Seegras. #line:84586a
+Snowthief: Ich habe einen Mann ertrinken sehen. #line:f75e0d
+Snowthief: Das Seegras hat ihn gepackt wie das Haar eines ertrunkenen Geistes. #line:4d48f5
+Snowthief: Zog ihn hinab. #line:64f618
+Snowdrunk: Ok. #line:8ce0ac
+Adina: Wie auch immer, #line:72d4cf
+GodtenderBrown: Oooh! Ich bin jetzt gut und erschrocken! #line:188d3d
+[[]Wir sind lange gereist, vorbei an vielen Geisterozeanen|GhostOcean]] #line:83a6fa
+[[Hoer mal, so etwas gibt es nicht.|DoesntExist]] #line:2dc62f
+
+===
+title: WesternOcean
+tags:
+colorID: 0
+position: -1122,789
+---
+GodtenderBrown: Mein Vater war von jenseits des westlichen Ozeans. #line:426c1a
+SnowThief: Das bin ich auch! Die Welt ist klein. #line:07ef7f
+GodtenderBrown: ...oder doch? #line:53a75c
+SnowThief: Was? #line:26145d
+GodtenderBrown: Ich dachte, ich haette die Stimme erkannt. #line:5ee31f
+SnowThief: Nein. #line:0d3a2e
+GodtenderBrown: DADDY! #line:63a922
+Adina: Nein, er ist nicht dein Vater. #line:5a3ffe
+GodtenderBrown: DADDY IST ZURUeCKGEKOMMEN! #line:2b087f
+[[Nein, er ist wirklich nicht dein Vater!|NoDad]] #line:03aec1
+[[Aeh, Erzbischof Williams, wuerden Sie diesen verwirrten Mann beraten?|HelpDad]] #line:b558ac
+
+===
+title: DoesntExist
+tags:
+colorID: 0
+position: -1071,1022
+---
+SnowThief: Willst du damit sagen, dass es keinen Seetang gibt? #line:8a6fd3
+Adina: Ja, das wollte ich natuerlich damit sagen. #line:27e4f4
+SnowThief: Na gut, dann bist du der Experte fuer das, was existiert. #line:9b3f96
+GodtenderBrown: Es tut mir leid, aber wir erlauben keinen Sarkasmus auf dem Heiligen Berg. #line:2df2b2
+Snowdrunk: Grossartig. #line:c410de
+GodtenderBrown: Was fuer ein zynisches Reich, aus dem du kommen musst. #line:af5d06
+Adina: Hoert zu, wenn wir unseren Sarkasmus, unseren Zynismus, unsere Ironie ablegen #line:0a9f6e
+Adina: koennen wir hinuebergehen, um den Waldgott zu sehen? #line:0a7856
+GodtenderBrown: Bringt kein einziges Wort der Unaufrichtigkeit hierher! #line:22649d
+GodtenderBrown: Und ihr duerft passieren. Aber nimm dich in Acht. #line:847f62
+Adina: Danke Godtender! #line:5c0eaf
+[[EndSnowmenChat]]
+
+===
+title: GhostOcean
+tags:
+colorID: 0
+position: -814,1013
+---
+GodtenderBrown: Ich habe Angst vor Geistern #line:d709cd
+GodtenderBrown: und dem Meer #line:dcde56
+GodtenderBrown: und vor Pferden, aber ich denke, das ist hier nicht relevant. #line:7e0ca1
+Adina: Na gut. Das sind alles beaengstigende Dinge. #line:dadd77
+Adina: Selbst in meinen Pflichten als Kaiserin, #line:cd7eb9
+Adina: Die Schrecken der Geister, das Meer und Pferde. #line:9b55e7
+Snowthief: Die grossen Drei. #line:ee141c
+Snowdrunk: Schrecklich. #line:ce1dd2
+Adina: Duerfen wir passieren? #line:ddc8c2
+GodtenderBrown: Ihr habt viele Schrecken auf Euren Reisen ertragen, #line:8132a0
+GodtenderBrown: aber unsere gemeinsamen Aengste koennen uns nicht schaden #line:cf7dcf
+GodtenderBrown: im Reich des Waldgottes. #line:1498ed
+GodtenderBrown: Ihr duerft passieren. #line:1b1010
+Adina: Danke, Godtender! #line:c503ef
+[[EndSnowmenChat]]
+
+===
+title: HelpDad
+tags:
+colorID: 0
+position: -1302,1020
+---
+Snowdrunk: Warum bist du so bereit, einen Fremden fuer deinen Vater zu halten? #line:b52517
+Snowdrunk: Es scheint, als gaebe es da etwas, mit dem du dich befassen musst. #line:9fff3e
+GodtenderBrown: Seit Daddy von diesem Pferd in den Kopf getreten wurde #line:2dd959
+Snowthief: Was jetzt tun? #line:e8be6f
+GodtenderBrown: Daddy war schon immer ein Betrueger #line:74a52b
+GodtenderBrown: also ist er vielleicht doch nicht tot, und dies ist nur der laengste Scherz, den er je gemacht hat. #line:1c629a
+Adina: ... #line:aa05d6
+Snowthief: Das ist Engagement. #line:949796
+GodtenderBrown: Aber du hast recht. #line:4bc1ab
+GodtenderBrown: Und all die Jahre des Wartens, des Hoffens und des Hasses auf alle Pferde... #line:4aa138
+Adina: Ich habe das Gefuehl, wir haben heute Abend alle etwas gelernt. #line:5c7376
+Snowdrunk: Gesegnet seid ihr, meine Kinder. #line:5c1e77
+Adina: Duerfen wir passieren? #line:1f5643
+GodtenderBrown: Ihr seid ein weiser Mann, Erzbischof Williams #line:a0e539
+GodtenderBrown: und Ihr seid eine verstaendnisvolle Kaiserin, Astra. #line:dd83a6
+GodtenderBrown: Ihr duerft passieren. #line:683560
+Adina: Ich danke dir, Godtender! #line:0e14e6
+[[EndSnowmenChat]]
+
+===
+title: NoDad
+tags:
+colorID: 0
+position: -1349,792
+---
+GodtenderBrown: Daddy war so ein Trickser. #line:61425c
+GodtenderBrown: Seit dem Tag, an dem er von diesem Pferd in den Kopf getreten wurde #line:a946cc
+GodtenderBrown: Ich habe gehofft, dass dies nur ein sehr, sehr langer Scherz war. #line:e65d6b
+Snowthief: Du machst Witze! #line:30e5b1
+GodtenderBrown: Naiv, ich weiss... #line:76c905
+Snowthief: Nein, ich meine, meine Mutter wurde von einem Pferd in den Kopf getreten! #line:a807bb
+GodtenderBrown: huh! #line:8405a7
+Adina: Leute, meine Schwester wurde von einem Pferd in den Kopf getreten. #line:3fbb74
+GodtenderBrown: Wow! #line:c8533b
+Snowdrunk: Mein Onkel wurde getoetet, als eine Statue eines Dachses auf ihn fiel! #line:6c2be1
+Snowdrunk: Aber ich schaetze, das ist hier nicht relevant. #line:5ceaac
+Adina: Wir haben alle so viel wegen der Pferde verloren. #line:25e5ff
+GodtenderBrown: Wir sind dadurch miteinander verbunden. #line:34260c
+Adina: Duerfen wir passieren? #line:baf203
+GodtenderBrown: Dieser Moment, den wir geteilt haben, ist kostbar fuer mich. #line:134c07
+GodtenderBrown: Und ich habe das Gefuehl, dass ihr gute Menschen seid, die Pferde hassen. #line:802f85
+GodtenderBrown: Ihr duerft passieren. #line:68eec3
+Adina: Danke, Godtender! #line:0eebc7
+[[EndSnowmenChat]]
+
+===
+title: HornWhat
+tags:
+colorID: 0
+position: -559,1011
+---
+GodtenderBrown: Glundinhoerner bergen den Fluch des endgueltigen Todes fuer alle, die sie spielen. #line:0f5dc7
+Adina: Wow! #line:dcc615
+GodtenderBrown: und extremes Unglueck fuer alle, die sie hoeren. #line:21b9e7
+Schneegestoeber: *Hoooooooooonk.* #line:adbf72
+Snowdrunk: Eindeutig. #line:681cc8
+[[Und das darf man in der Schule spielen?|PlaySchool1]] #line:b208d9
+[[Aber du bist noch am Leben?|StillAlive1]] #line:427236
+===
+title: PlaySchool1
+tags:
+colorID: 0
+position: -682,1262
+---
+GodTenderBrown: Sie entdeckten den Fluch erst, nachdem ich die Weisheit erlangt hatte. #line:911caa
+GodTenderBrown: Das Jahr, in dem sie den Gludinhorn-Midsummer-Choral auffuehrten. #line:336b68
+GottZartBraun: Und die Schule fiel in die Erde. #line:7e6a01
+Adina: Oh mein Gott! #line:716042
+Schneegestoeber: *HONK!!!* #line:7bffa3
+Snowdrunk: Ja, das wird ein Fluch sein, in der Tat. #line:4d2ee3
+GodtenderBrown: Und jetzt bist du verflucht, denn du hast das Gludinhorn gehoert! #line:f09a2c
+GodtenderBrown: Und euer armer Herold ist mit dem Tod verflucht! #line:759361
+Snowdrunk: Oh nein. Nicht das. #line:731db9
+Snowblow: *Hooooooooooonk.* #line:6e3b73
+GodtenderBrown: Oh Stanislaus Glundin! Der Schmerz, den dein Horn verursacht hat! #line:6b5220
+Adina: Bitte erlaubt uns, die Weisheit des Waldgottes zu suchen #line:34b2a4
+Adina: in Bezug auf das verfluchte Unglueck, das ich und der kaiserliche Berater Willaims nun erwarten. #line:941e3d
+GodtenderBrown: Wir teilen einen Fluch. Wie koennte ich das ablehnen. #line:3e5c11
+Adina: Danke, Godtender! #line:f7f783
+[[EndSnowmenChat]]
+
+===
+title: StillAlive1
+tags:
+colorID: 0
+position: -442,1260
+---
+GodtenderBrown: Der Fluch ist der schliessliche Tod. Meine Tage sind gezaehlt. #line:a9d3b1
+Adina: Aber das ist... #line:a902fb
+Snowdrunk: Das ist einfach sterblich zu sein. #line:ac51ef
+Snowblow: *Honk!* #line:b036b8
+GodtenderBrown: Ja, jetzt werde ich niemals unsterblich sein. #line:4d1b29
+Adina: War das vorher eine Moeglichkeit? #line:6eb196
+GodtenderBrown: Wer weiss, wie diese Dinge funktionieren? #line:179b9f
+Snowdrunk: ... #line:8faf35
+GodtenderBrown: Der Junge, der im Ensemble vor mir sass #line:49276f
+GodtenderBrown: Er hoerte mein Glundinhorn dreimal woechentlich. #line:dbeef1
+GodtenderBrown: Er erlitt grosses Unglueck, als sein Pferd meinen Vater in den Kopf trat. #line:b66780
+Adina: Guter Gott! #line:91f972
+GodtenderBrown: Mein Vater hatte das GlundinHorn vor mir gespielt. #line:ce25de
+GodtenderBrown: Oh Stanislaus Glundin! Welchen Schmerz hat dein Horn verursacht! #line:8b6f4b
+Adina: Bitte erlaubt uns, die Weisheit des Waldgottes zu suchen #line:ec5aff
+Adina: in Bezug auf das verfluchte Unglueck, das ich und der kaiserliche Berater Willaims nun erwarten. #line:b382e9
+GodtenderBrown: Wir teilen einen Fluch. Wie koennte ich das ablehnen. #line:412a04
+Adina: Danke, Godtender! #line:345492
+[[EndSnowmenChat]]
+
+===
+title: HornWhat2
+tags:
+colorID: 0
+position: 761,770
+---
+GodtenderBrown: Auf Glundinhoernern liegt der Fluch des endgueltigen Todes fuer alle, die sie spielen. #line:ee737a
+Adina: Really? #line:e5ac5a
+GodtenderBrown: und extremes Unglueck fuer alle, die sie hoeren. #line:749c52
+Schneegestoeber: *Hoooooooooooonk.* #line:059ba6
+Snowthief: Schockierend. #line:ce5b31
+[[Ja, du machst Witze, richtig?|HornKidding]] #line:4c5397
+[[Aber du bist noch am Leben?|StillAlive2]] #line:1efcfe
+
+===
+title: HornKidding
+tags:
+colorID: 0
+position: 609,1019
+---
+GodtenderBrown: Ich wuerde nie ueber den Fluch scherzen, der mir meinen Papa genommen hat. #line:6c507f
+Snowthief: ugh... "Daddy" #line:b0529d
+Adina: Es tut mir leid, vom Tod deines Vaters zu hoeren, Godtender! #line:c10852
+GodtenderBrown: Es war sein Gludinhorn, das ich gespielt habe. #line:4cb690
+GodtenderBrown: Wir teilten das Verhaengnis eines moeglichen Todes, was in der Tat etwas ist, das man teilen sollte. #line:a7f9e6
+Snowblow: *Hoooooonk.* #line:4b7ce0
+GodtenderBrown: Aber gelobt sei der Waldgott. In der Kirche habe ich eine neue Familie gefunden. #line:d4d085
+Schneegestoeber: *Honk!* #line:d08fb5
+Adina: Das ist schoen. #line:176644
+GodtenderBrown: Ich versuche nicht, meinen Vater zu ersetzen, aber ich habe so viele Freunde gefunden. #line:32f264
+GodtenderBrown: Vater Karmel, Vater Perpa, Vater Patience Vergiss-Nicht-Gott... #line:78b6eb
+<<if $talked_to_shrine_mouse>>
+	Adina: *urk* #line:016d83
+<<endif>>
+Snowthief: Es tut mir leid, koennen wir darueber reden, dass niemand das Wort "Papa" benutzen sollte? #line:b7e60f
+Adina: Godtender, in Anerkennung der Familie, die du findest, wenn deine Familie weg ist, #line:64edaf
+Adina: duerfen wir Sorgen und Flueche dem Waldgott vortragen? #line:d3c09f
+GodtenderBrown: Wir teilen den Fluch dieses Horns, das so viel genommen hat, #line:79810b
+GodtenderBrown: und noch mehr nehmen wird. #line:a3bc33
+GodtenderBrown: Ihr koennt passieren. #line:354292
+Adina: Danke, Godtender! #line:957151
+[[EndSnowmenChat]]
+
+===
+title: StillAlive2
+tags:
+colorID: 0
+position: 843,1017
+---
+GodtenderBrown: Der schreckliche Fluch des Gludinhorns ist der allgegenwaertige Schatten des Todes #line:c59823
+GodtenderBrown: und eines Tages, vielleicht morgen, vielleicht wenn du alt bist #line:bb3570
+GodtenderBrown: es wird dich finden. #line:22744e
+SnowThief: Wie unnatuerlich. #line:ea2416
+SnowHorn: *Hoooooonk.* #line:86c2ba
+Adina: Das ist nicht wirklich ein Fluch im klassischen Sinne. #line:bab889
+GodtenderBrown: Es bringt dich um! Wie viel schlimmer kann es sein? #line:2a281b
+Adina: Hast du erwartet, dass du ewig leben wuerdest, bevor du das Horn gespielt hast? #line:005e12
+GodtenderBrown: Wer weiss, nichts ist sicher. #line:a5aac2
+SnowThief: Nun, zumindest eine Sache ist es. #line:58afb7
+GodtenderBrown: Eines Tages muessen wir alle das Horn hoeren, wir, die wir das Horn gehoert haben. #line:835b30
+Adina: Godtender, duerfen wir unsere Sorgen und Flueche dem Waldgott vortragen? #line:a4380b
+GodtenderBrown: Wir alle teilen ein Verhaengnis. Ein Horn-Schicksal. #line:daa7c9
+GodtenderBrown: Wie kann ich meine Schicksalsgefaehrten verleugnen? #line:5ffe58
+Adina: Danke, Godtender! #line:9139ba
+[[EndSnowmenChat]]
+
+===
+title: HowHorn
+tags:
+colorID: 0
+position: 1991,766
+---
+GodtenderBrown: Messing? Herumgedreht? In ein Ende geblasen? #line:e0caaa
+Adina: Das ist bei den meisten Hoernern so, glaube ich. #line:be5ef8
+GodtenderBrown: Naja, das kann man im Nachhinein sagen, denn GludinHoerner sind verflucht. #line:56934c
+Schneehorn: *HONK?!* #line:42f8a5
+Adina: Was?! #line:a12d88
+GodtenderBrown: Das Gludinhorn verflucht alle, die es hoeren, zum Unglueck, #line:907210
+GodtenderBrown: und diejenigen, die es spielen, zum endgueltigen Tod. #line:e196fa
+Schneehorn: *Hooooooooonk.* #line:c169bd
+Adina: Ich denke nicht, dass das hier ein Problem sein wird. #line:b6bf99
+Snowdog: *Hooooooowl!* #line:587ce7
+GodtenderBrown: Mein Vater war ein Gludinhorn-Spieler, genau wie ich #line:73a413
+GodtenderBrown: Und nun liegt der Tod in meiner Zukunft. #line:b21566
+Adina: Ist das nicht bei uns allen der Fall? #line:8943f5
+GodtenderBrown: Wer weiss schon, was dann passiert waere. #line:cf66e3
+Adina: Ich muss sagen, wahrscheinlich der Tod. #line:1ab2da
+GodtenderBrown: Wer weiss das schon. #line:6c2b4f
+Adina: Duerfen wir passieren? #line:d0e01f
+GodtenderBrown: Wir haben so viel gemeinsam. #line:d05913
+GodtenderBrown: Wir sind alle kalt, und wir alle werden eines Tages sterben #line:38e9e0
+GodtenderBrown: oder in deinem Fall, grosses Unglueck erleiden. #line:86bb73
+GodtenderBrown: Ihr koennt passieren. #line:63c78e
+Adina: Danke, Godtender! #line:49dc30
+[[EndSnowmenChat]]
+
+===
+title: BodyDog
+tags:
+colorID: 0
+position: 2233,764
+---
+GodtenderBrown: Wie funktioniert diese Beziehung? #line:c62e87
+Adina: Er ist sehr intuitiv. #line:3a4597
+Schneehorn: *HONK!* #line:91fe06
+Snowdog: *arf!* #line:7dd1ca
+Adina: Nein, er bellt einmal fuer ja, und zweimal fuer nein. #line:4b1ece
+GodtenderBrown: Oh! Stell ihm eine Frage!!!! #line:2f25c2
+Adina: Aehm... #line:77dffd
+Adina: Clancy, wird Godtender Brown uns die Durchreise erlauben? #line:940b14
+Snowdog: *arf!* #line:8eba58
+Adina: Hey, sieh mal!  #line:9e0f21
+GodtenderBrown: Erstaunlich! #line:a16f2b
+Snowdog: *arf!* *arf!* #line:26ac55
+GodtenderBrown: Was hat das zu bedeuten? #line:842304
+Adina: Er ist nur aufgeregt. #line:1561a7
+GodtenderBrown: Das ist verstaendlich. #line:22edbe
+GodtenderBrown: Bist du aufgeregt, den Waldgott zu treffen, Clancy? #line:60c38e
+Snowdog: *arf!* *arf!* #line:94150a
+GodtenderBrown: Warte, das war zweimal fuer nein, richtig? #line:04ff40
+Snowblow: *HONK!* #line:e40129
+Snowdog: *arf!* *arf!* #line:f9cbb2
+Adina: Ich glaube, das macht es zu einer doppelten Verneinung. #line:6bb4b4
+GodtenderBrown: Ist er nicht aufgeregt, den Waldgott zu treffen? #line:91a72f
+GodtenderBrown: Dann lasse ich dich nicht nicht nicht vorbeilassen! #line:131ea6
+Adina: Das ist also... ein Dreifacher... #line:08a323
+GodtenderBrown: Nein, ich meinte nicht nicht nicht nicht. Vierfaches! #line:a0e426
+Snowdog: *arf!* #line:30f72f
+Adina: Koennen wir passen? #line:8af7e7
+GodtenderBrown: Eure Bereitschaft, sogar unter den Bestien um Rat zu fragen #line:ec8467
+GodtenderBrown: spricht Baende ueber deine Weisheit und Hingabe an dein Volk. #line:b27b10
+GodtenderBrown: Ihr duerft passieren. #line:d3def7
+Adina: Danke, Godtender! #line:a1bde9
+[[EndSnowmenChat]]
+
+===
+title: RingBellWhenBridgeIsDone
+tags:
+colorID: 0
+position: 922,105
+---
+<<if $godtender_present is 0>>
+	<<set $godtender_present to 1>>
+	<<wait 1>>
+	GodtenderBrown: Hallo? #line:d942e4
+	<<close>>
+	<<show GodtenderBrown .5>>
+	<<wait .5>>
+	<<walk GodtenderBrown Ledge wait>>
+<<elseif $day is 1>>
+	GodtenderBrown: Bitte laeuten Sie nicht unnoetig die rote Glocke! #line:2d722b
+<<endif>>
+===
+title: GodtenderFail
+tags:
+colorID: 0
+position: -94,109
+---
+<<if $godtender is 0>>
+	Adina: Hallo! #line:96ee79
+	GodtenderBrown: Hallo Reisende! #line:f83071
+	GodtenderBrown: Und wer bist du? #line:1c4db5
+	Adina: Adina! Eine Astronomin! Ich suche eine Audienz beim Waldgott! #line:b0fa9e
+	GodtenderBrown: Es tut mir leid, Adina, aber der Waldgott wird dich nicht empfangen. #line:235bbd
+	GoetterboteBraun: Koenige, Kaiser, hochgestellte Persoenlichkeiten #line:455342
+	GodtenderBrown: nur diese darf ich durchlassen. #line:b27137
+	Adina: Aber ich bin wichtig! Ich bin eine... Kaiserin! #line:4989bf
+	GodtenderBrown: Ich trage vielleicht eine Augenbinde, aber ich kann hoeren, dass du allein bist. #line:22b485
+	GodtenderBrown: Und keine Kaiserin wuerde allein reisen. #line:c9c28e
+	GodtenderBrown: Das ist hoechst unpassend. #line:d594f1
+	Adina: Das ist hoechst aergerlich. #line:10a63b
+	GodtenderBrown: Wenn Ihr tatsaechlich eine Kaiserin seid, bringt Euer Gefolge her #line:62979f
+	GodtenderBrown: und wir werden die Situation besprechen. #line:4b43de
+	GodtenderBrown: Bis dahin wuensche ich euch eine angenehme Laengste Nacht! #line:055133
+	Adina: ...danke... #line:493d90
+	<<set $godtender to 1>>
+<<elseif $godtender is 1>>
+	GodtenderBrown: Ich kann deine Gefaehrten immer noch nicht hoeren. #line:701c91
+	Adina: O-oh, sie werden gleich da sein... #line:3c4409
+<<endif>>
+
+===
+title: FGPerceptive2
+tags:
+colorID: 0
+position: 1196,773
+---
+Snowdrunk: ... #line:33ea9f
+Adina: Eimhin??? #line:a2ba4a
+Snowthief: Oh ja, dieser Hund bellt Gott direkt an. #line:69fbdb
+Snowdog: *arf!* #line:de277b
+Adina: Er wurde mit einem Ohr geboren, das weiss wie Schnee war #line:348758
+Adina: und das ist das Ohr, mit dem er die himmlischen Gefilde hoert. #line:2726f0
+GodtenderBrown: Erstaunlich! #line:895ae2
+Snowdog: *arf!* #line:dceda3
+Snowthief: Ja, er ist ziemlich- #line:1a279f
+Snowdog: *arf!* *arf!* #line:a42dda
+Snowdrunk: -grossartig fuer einen- #line:8b5b95
+Snowdog: *arf!* *arf!* *woof!* *bark!* *woof!* *arf!* *woof!* *arf!* *bark!* #line:e19003
+Snowthief: Ich werde diesen Koeter direkt von dieser Klippe stossen. #line:badb61
+GodtenderBrown: Was ist das? #line:fc5138
+[[Eimhin hatte gerade eine Eingebung!|FGIntuition2]] #line:c82c46
+[[Clancy empfaengt in diesem Moment eine Vision!|FGVision2]] #line:f93a29
+===
+title: FGBeastLanguage2
+tags:
+colorID: 0
+position: 1425,772
+---
+GodtenderBrown: ZEICHEN UND WUNDER!!!! #line:ed348b
+Adina: Als Clancy noch ein Kind war #line:1d3135
+Adina: Er sehnte sich danach, den Tieren auf dem Feld Frieden zu bringen. #line:06a009
+Snowthief: Jepp. Den Tieren des Feldes. Das ist es, was er getan hat. #line:afc8ef
+Snowdog: *arf!* #line:70b94c
+Adina: Und er war mit der Faehigkeit gesegnet, mit ihnen zu sprechen. #line:bfabfe
+GodtenderBrown: Warum spricht er nicht zu uns? #line:318ff1
+Snowthief: Ist er zutiefst dumm? #line:b041f2
+Adina: Dumm mit Weisheit, das ist er! #line:49002f
+GodtenderBrown: Was ist das? #line:c7e4a1
+[[Er hat vergessen, wie man spricht, so gross ist seine Hingabe |FGForgotten2]] #line:3d89b5
+[[Er spricht gerade mit unserem kaiserlichen Jagdhund, Dart.|FGDart2]] #line:f7fce8
+
+===
+title: FGForgotten2
+tags:
+colorID: 0
+position: 1539,1009
+---
+GodtenderBrown: WELCHE HINGABE! #line:3e4c87
+Adina: Er ist ein Anwaerter auf die Heiligkeit, wo wir herkommen. #line:e5b350
+Snowthief: Das ist eine sehr niedrige Huerde, die es zu nehmen gilt. #line:85a6b4
+GodtenderBrown: Seligsprechung, solange er noch lebt? #line:a346d7
+GodtenderBrown: Wer hat jemals von so etwas gehoert? #line:425e7f
+[[Es ist ein besonderer Umstand|FGCircumstance2]] #line:979aed
+[[Er lebt nicht, er ist ein Geist|FGGhostDog2]] #line:6dd349
+===
+title: FGDart2
+tags:
+colorID: 0
+position: 1777,1009
+---
+GodtenderBrown: Oh, du hast auch noch einen Hund dabei! Ich liebe Hunde! #line:368899
+GodtenderBrown: Dart! Sprich, Dart! #line:c3764f
+Snowdog: *arf!* #line:b8c6fd
+GodtenderBrown: Ja, Erzbischof Clancy, ich moechte mit Ihrem Hund sprechen! #line:c3a919
+Adina: Eimhin! Vielleicht koenntet Ihr... Dart bitten, zu sprechen? #line:f526c4
+Snowthief: Uuuuuuuuugghhhh. #line:279fbc
+GodtenderBrown: Sprich, Dart! #line:466e19
+Snowthief: Wuff. #line:2b2ba3
+Snowdog: *arf!* #line:0e435d
+Snowthief: Bellen. #line:be2e29
+GodtenderBrown: So ein Geist! #line:412482
+Snowdog: *wuff!* #line:0ee72d
+Snowthief: Arf. #line:d943b8
+GodtenderBrown: Und doch hoere ich einen unverdienten Zynismus in seiner Stimme. #line:4879f4
+Adina: Du bist scharfsinnig, Godtender! #line:695d75
+Snowdog: *arf!* #line:5e0f53
+Adina: Clancy hilft dem armen Dart, sein Leben zu aendern! #line:e81ffe
+Snowthief: Ich hatte so einen tollen Tag, tot zu sein... #line:429d86
+GodtenderBrown: Was ist das? #line:c053a2
+Adina: Die Luft ist sehr kalt, duerfen wir durchgehen? #line:cb8abc
+GodtenderBrown: Wer einen so gutherzigen, tugendhaften Erzbischof hat #line:743ea1
+GodtenderBrown: und einem Hund von solcher moralischen Staerke und Tapferkeit #line:712a59
+GodtenderBrown: muss einer Inspektion durch den Waldgott wuerdig sein. #line:b9b9e8
+Adina: Danke, Godtender! #line:95274c
+[[EndSnowmenChat]]
+===
+title: FGIntuition2
+tags:
+colorID: 0
+position: 1069,1011
+---
+GodtenderBrown: Erzaehl doch mal, Eimhin! #line:6ca2b7
+Snowthief: Der Erzbischof sagt: "Gut gemacht, dass ihr uns durchgelassen habt. #line:e99d3b
+GodtenderBrown: Aber ich habe es noch nicht getan! #line:915df9
+Adina: Ja, aber der Erzbischof ist von Weitsicht besessen! #line:9ea11c
+Snowdog: *arf!* #line:34744e
+Adina: Er ist sehr intuitiv! #line:1e8726
+GodtenderBrown: Aber woher weiss er, dass die Zukunft sicher ist? #line:e814be
+Adina: Er sieht alle Moeglichkeiten und weiss, welche es sein wird! #line:9f3184
+Snowdog: *arf!* #line:234073
+Adina: es ist Schicksal, dass du uns vorbeilassen wirst. #line:8e7def
+GodtenderBrown: Ich habe jetzt das Gefuehl, dass alles, was passiert, unvermeidlich ist. #line:91a3ac
+Adina: Aber du hast einen "guten Job" daraus gemacht! #line:35c3d9
+GodtenderBrown: Ich hoffe, dieser Segen wird mir helfen, diese beunruhigende Idee zu verstehen. #line:346d8d
+Snowthief: Ueberanstrengen Sie sich nicht. #line:59881c
+Adina: Duerfen wir passieren? #line:117945
+GodtenderBrown: Die Intuition eurer Gefaehrten hat mich ueberzeugt, dass ihr wuerdig seid, zu bestehen. #line:882933
+Adina: Ich danke Euch, Godtender! #line:2a4b32
+[[EndSnowmenChat]]
+
+===
+title: FGVision2
+tags:
+colorID: 0
+position: 1303,1009
+---
+GodtenderBrown: Erzbischof Clancy, sagen Sie uns, welche Dinge Sie sehen! #line:94805b
+Snowthief: aeh #line:234c94
+Snowdog: *arf!* #line:f213c9
+Adina: Eimhin, willst du uebersetzen? #line:07dbad
+Snowthief: Gerne. #line:b8fd73
+Snowdog: *arf!* #line:6445fc
+Snowthief: "Dieser blindwuetige Trottel" #line:af82f3
+GodtenderBrown: Das bin ich! Ich bin so ein Trottel! #line:d4ef11
+Snowdog: *arf!* #line:87a3fd
+Snowthief: "sollte die Kaiserin passieren lassen" #line:9d86b5
+GodtenderBrown: Das kann ich machen! #line:60a951
+Adina: Ausgezeichnet! Danke schoen! #line:820add
+Snowdog: *arf!* #line:cc1031
+GodtenderBrown: Die Vision geht weiter! #line:f994a7
+Adina: aehm #line:c55e40
+Snowthief: "Huete dich vor dem Horn, huete dich vor dem Pferd"? #line:09bc67
+Adina: Was ist das? #line:239fb0
+GodtenderBrown: Was!? #line:570662
+Snowdog: *arf!* #line:0b8988
+Snowthief: Ich glaube, ich hatte da fuer einen Moment tatsaechlich etwas. #line:9641c2
+Adina: Wir muessen solche Wunder den Bestien ueberlassen. #line:a7ccfd
+Adina: Den Dachsen. Den Hermelinen. Die Meisen. Die Baerenkinder. #line:f6b754
+GodtenderBrown: Amen. #line:efbc36
+GodtenderBrown: Wir waren Zeuge eines Wunders, und das in der laengsten Nacht. #line:d6196b
+GodtenderBrown: Ihr seid sehr gesegnet, Kaiserin. #line:a1f2fd
+GodtenderBrown: Ihr koennt gehen, und ich bitte Euch, etwas von diesem Segen hier zu lassen. #line:eba6b9
+[[EndSnowmenChat]]
+===
+title: FGGhostDog2
+tags:
+colorID: 0
+position: 1532,1252
+---
+GodtenderBrown: A GHOST?!?!? #line:4ac5c9
+GodtenderBrown: Es tut mir leid, aber das ist mir zu gruselig. #line:b6d647
+<<close>>
+<<walk GodtenderBrown Offscreen>>
+<<wait 1>>
+Adina: Nein, geh nicht! #line:33999c
+Adina: Verdammt noch mal! #line:29a1c5
+Snowthief: Wow. Was fuer ein Weichei. #line:8e97e1
+Snowthief: Hey, das hast du ja wirklich vermasselt! #line:312440
+Snowdog: *arf!* #line:382a6f
+Adina: HALTET ALLE DIE KLAPPE! #line:a13f89
+Adina: Godtender Brown, bist du da? #line:dfbe46
+GodtenderBrown: Ja? #line:4dddc4
+Adina: Hast du Angst vor einem kleinen, heiligen Geist? #line:c7a61f
+GodtenderBrown: Ja? #line:8d4b9f
+Adina: Oh, willst du nicht zurueckkommen und uns durchlassen? #line:b3a543
+GodtenderBrown: Kannst du mir versprechen, dass dein Geist mich nicht erschrecken wird? #line:85573f
+Adina: Was denkst du, Eimhin? #line:e1db06
+SnowthiefBrown: Ja, ich habe meinen Anti-Spuk-Hut auf oder so. #line:c9b20a
+Snowdog: *arf!* #line:acd050
+<<close>>
+<<walk GodtenderBrown Ledge wait>>
+GodtenderBrown: Ich werde dich passieren lassen, unter der Bedingung, dass niemand erschreckt wird. #line:810070
+Adina: Danke, Godtender! #line:876b6d
+[[EndSnowmenChat]]
+
+===
+title: FGCircumstance2
+tags:
+colorID: 0
+position: 1304,1252
+---
+Adina: Er ist der heimliche Sohn des Koenigs. #line:1d26a7
+Snowdog: *arf!* #line:573042
+Adina: Also wird er im Eiltempo zur Heiligkeit erhoben. #line:94e947
+Snowthief: Ernsthaft. Voellig durchgeknallt. #line:cc456b
+GodtenderBrown: Das ist unverschaemt! #line:2c0772
+Adina: Hey, du brauchst mich nicht zu ueberzeugen! #line:10cddc
+Snowthief: Aber hoer zu, es ist nicht seine Schuld. #line:0281ba
+Adina: Er ist einfach ein netter, lieber Kerl #line:05efbd
+Snowthief: Der Tiere anbellt #line:f1e770
+Adina: ...und ist somit mein Erzbischof? #line:827e35
+Snowthief: *seufz* #line:9dc906
+Adina: Koennen wir jetzt gehen? #line:33905e
+GodtenderBrown: Eure Hingabe an diesen einen bellenden heiligen Mann in Eurem Reich #line:1bfa5d
+GodtenderBrown: hat mich ueberzeugt, dass dein Herz ehrfuerchtig und rein ist. #line:65e8af
+GodtenderBrown: Ihr duerft passieren. #line:cd56ba
+Adina: Ich danke dir so sehr! #line:198032
+[[EndSnowmenChat]]
+===
+title: GodtenderBrown_A1D1.3
+tags:
+colorID: 0
+position: -1879,934
+---
+Adina: Das ist eine Augenbinde, richtig? #line:f8acac
+GodtenderBrown: Das ist eine Augenbinde. #line:a15575
+Adina: Warum traegst du sie? #line:5e0237
+GodtenderBrown: Jemand koennte das Bild des Waldgottes stehlen #line:0eeed4
+GodtenderBrown: von dort, wo es sich in meinen Augen spiegelte #line:2f8510
+GodtenderBrown: und es waere eine Blasphemie, so etwas zu tun. #line:49e06d
+[[Ist das ein allgemeines Problem?|CommonProblem]] #line:2ad0a7
+[[Hast du keine Angst, von diesem Berg zu fallen?|FallingMountain]] #line:19d661
+===
+title: FallingMountain
+tags:
+colorID: 0
+position: -1631,1157
+---
+GodtenderBrown: Ich wandle im Glauben, und meine Schritte sind sicher durch den Waldgott. #line:77807c
+Adina: Nun, ich schaetze, du bist immer noch hier. #line:421647
+GodtenderBrown: Siehst du? #line:965411
+===
+title: CommonProblem
+tags:
+colorID: 0
+position: -1882,1168
+---
+GodtenderBrown: Ein Winddaemon stahl einst das Spiegelbild aus den Augen eines Waechters. #line:a3611e
+GodtenderBrown: Und legte es auf die Oberflaeche eines Spiegels. #line:863249
+GodtenderBrown: Um einen Koenig zu ueberzeugen, dass er ein Gott ist. #line:b466bc
+Adina: Und warum? #line:de1af2
+GodtenderBrown: Der Koenig sprang von einem hohen Turm, weil er dachte, er koenne fliegen. #line:49e703
+GodtenderBrown: Und der Daemon drang in seinen gebrochenen Koerper ein #line:6ebbc5
+GodtenderBrown: Und regierte sein Koenigreich 99 Jahre lang #line:4eadfe
+GodtenderBrown: bis er von der heiligen Balfa und der verzauberten Ziege vertrieben wurde. #line:84cc56
+Adina: Dann war der Winddaemon also nur ein Idiot. #line:947677
+GodtenderBrown: Es ist ein Daemon. Was wollt ihr tun? #line:b5dc81
+
+===
+title: GodtenderBrown_A1D1.2
+tags:
+colorID: 0
+position: -2131,1165
+---
+Adina: Wo sind denn alle? #line:ea90dc
+GodtenderBrown: Sie sind in den Huegeln und halten den Gottesdienst der laengsten Nacht ab. #line:079229
+GodtenderBrown: Sie werden bei Tagesanbruch zurueck sein. #line:18d3e9
+Adina: Warum bist du nicht bei ihnen? #line:8c1627
+GodtenderBrown: Oh, ich habe keine Gemeinde. #line:2b3483
+GodtenderBrown: Es ist meine Aufgabe, die Pilger am Abgrund zu treffen. #line:4642fe
+Adina: Godtender, kann ich eine persoenliche Frage stellen? #line:1ec154
+GodtenderBrown: Aber natuerlich. #line:41f53f
+[[Was bringt dir das alles?|DoForYou]] #line:1a4d66
+[[Ist dir nicht sehr, sehr, sehr kalt?|VeryVeryCold]] #line:ababc2
+===
+title: EndDay1
+tags:
+colorID: 0
+position: -2516,1493
+---
+<<set $day to 2>>
+<<playOneShot event:/lost_constellation/teleport Adina>>
+<<fadeOut 1 1 1 1>>
+<<wait 1>>
+<<scene LN2_LostWoods>>
+===
+title: StevensonHead.1
+tags:
+colorID: 0
+position: -1800,137
+---
+<<set $found_stevenson_head to 1>>
+<<speechBubbleSizeOverride 1>>
+Adina: Oh nein. Armer Stevenson... #line:2762ef
+Adina: Sieht aus, als haette dieses Ding eine Tracht Pruegel von etwas Grossem bekommen, also... #line:e64e88
+Adina: Ich frage mich, ob da ein Kopf drin ist? #line:6bd70c
+Adina: ... #line:e92e59
+Adina: Nicht nachsehen. #line:285c95
+<<speechBubbleSizeOverride 0>>
+<<showTalkingHeads>>
+Mae: Warum sollte sie nicht nachsehen? #line:4ece18
+Mae: Ich wuerde. #line:72119c
+Granddad: Das wuerde ich auch. #line:57e65c
+Mae: Wenn ich jemals ein Koerperteil auf dem Boden finde #line:d34639
+Mae: werde ich es mit einem Stock anstupsen. #line:2c5f9a
+Granddad: Da kann ich dir nicht widersprechen. #line:7b12e6
+
+===
+title: StevensonHead.2
+tags:
+colorID: 0
+position: -1500,161
+---
+<<speechBubbleSizeOverride 1>>
+Adina: Armer Stevenson. #line:54c4ef
+<<speechBubbleSizeOverride 0>>
+
+===
+title: RingBellDoNothing
+tags:
+colorID: 0
+position: 263,-100
+---
+
+===
+title: Snowdrunk_A1D2.1
+tags:
+colorID: 0
+position: 2967,-49
+---
+Snowdrunk: Oh hallo. #line:e9f12a
+Adina: Hey! Danke, dass du mir vorhin geholfen hast! #line:7a79cb
+Snowdrunk: Danke, dass du mir geholfen hast, hier rauszukommen. #line:5f209b
+Adina: Wie bist du eigentlich hier gelandet? #line:7fbd74
+Snowdrunk: Er war tot. #line:3d80b4
+Snowdrunk: Ich war betrunken. #line:a46343
+Snowdrunk: Der zugefrorene See war im Osten. #line:53e202
+Snowdrunk: Und dann war ich auch tot. #line:c4d498
+Adina: Oh. #line:cd4c5f
+
+===
+title: Snowdrunk_A1D2.2
+tags:
+colorID: 0
+position: 3213,-55
+---
+Snowdrunk: Ziemlich nett hier oben. Friedlich. #line:e11c59
+===
+title: Snowdrunk_A1D3.1
+tags:
+colorID: 0
+position: 3765,-89
+---
+Snowdrunk: ... #line:38e042
+Adina: Oh, du bist schon weg, hm? #line:63a3b1
+Snowdrunk: ... #line:0e1bcf
+Adina: Ich hoffe, du gehst an einen besseren Ort. #line:99c34c
+===
+title: Snowdrunk_A1D3.2
+tags:
+colorID: 0
+position: 4018,-106
+---
+Adina: Danke. #line:452e4e
+===
+title: Snowthief_A1D2.1
+tags:
+colorID: 0
+position: 2961,203
+---
+Adina: Hey du! #line:82d8ac
+Snowthief: Hey DU! #line:04508c
+Adina: Also, wer bist du? #line:039d6f
+Snowthief: Ich war ein aussergewoehnlicher Dieb. #line:0c0f52
+Adina: Wie bist du in den Wald gekommen? #line:d7e121
+Snowthief: Ich wollte den Huncher ausrauben. #line:5d3315
+Snowthief: Sie ist schon ewig da. #line:966a85
+Snowthief: Sie muss eine Menge unbezahlbaren Mist haben. #line:6ef121
+Adina: Wie ist das gelaufen? #line:bd1295
+Snowthief: Ich weiss noch, wie ich nach oben griff und versuchte, die Sonne zu greifen #line:1a5b3c
+Snowthief: als der Schnee mich bedeckte. #line:cb3862
+Snowthief: Man macht dumme Sachen im Halbschlaf, wenn man stirbt. #line:b5be5d
+Adina: Huh. #line:fb18eb
+Snowthief: Da hast du deinen tiefen Einblick in den Sterbeprozess. #line:fcaa28
+Adina: Ich weiss es zu schaetzen. #line:f6c7a1
+<<set $knowarm to 1>>
+
+
+===
+title: Snowthief_A1D2.2
+tags:
+colorID: 0
+position: 3213,207
+---
+Snowthief: Ich bin gelangweilt. #line:b1861d
+===
+title: Snowthief_A1D3.1
+tags:
+colorID: 0
+position: 3767,177
+---
+Snowthief: ...sie hat es... #line:6816dc
+Adina: Sie hat was? #line:3ac99b
+Snowthief: Es war ein Schloss und ein Schluessel. Es gibt nur ein Set wie sie. #line:95cbec
+Adina: Ja? #line:1da0fe
+Snowthief: ... #line:9e5a1d
+Adina: Hallo? #line:2cf58b
+Snowthief: ... #line:ab770f
+===
+title: Snowthief_A1D3.2
+tags:
+colorID: 0
+position: 4043,181
+---
+<<if $knowarm is 0>>
+	Adina: Danke, Diebin. #line:08c24a
+<<elseif $knowarm is 1>>
+	Adina: ich habe nie gesagt- danke fuer den Arm. #line:7a5e11
+<<endif>>
+===
+title: GodtenderBrown_A1D1.4
+tags:
+colorID: 0
+position: -1647,936
+---
+GodtenderBrown: Der Segen des Waldgottes geht mit dir. #line:ee133c
+===
+title: DoForYou
+tags:
+colorID: 0
+position: -2633,602
+---
+GodtenderBrown: Hm. #line:5578ce
+Adina: Entschuldigung, ist das eine seltsame Frage? #line:de5f62
+GodtenderBrown: Nein, ganz und gar nicht. #line:464696
+GodtenderBrown: Ich denke, es gibt mir eine Wahrheit, die ich nirgendwo anders finden kann. #line:ad6e46
+GodtenderBrown: Und eine, die ich jeden Tag finden muss, wenn ich aufwache. #line:08335b
+GodtenderBrown: Es ist zwar da, aber ich habe keine Karte dafuer. #line:db1289
+GodtenderBrown: und wenn ich danach suche, finde ich alles andere. #line:8e9949
+Adina: Moment, aber ist der Waldgott nicht gerade da drin? #line:099fca
+Adina: Wo ist das Geheimnisvolle an dem, wonach du suchst? #line:ef38f0
+GodtenderBrown: Der Waldgott verhaelt sich nicht so, wie ich es immer erwarte #line:5395d0
+GodtenderBrown: und der Unterschied zwischen meinen Erwartungen und der Realitaet #line:cfa8c9
+GodtenderBrown: ist Geheimnis genug. #line:205048
+Adina: Na gut. Ich danke dir. #line:a331c4
+GodtenderBrown: Sie sind herzlich willkommen. #line:f791da
+GodtenderBrown: Ich kann nur hoffen, dass der Waldgott heilen kann. #line:5386a5
+===
+title: VeryVeryCold
+tags:
+colorID: 0
+position: -2868,802
+---
+GodtenderBrown: ha ha ha ha ha! #line:0b88a9
+GodtenderBrown: Ich bin aus dem Land der Giganten! #line:a20e05
+GodtenderBrown: Ich trage den dicksten aller Maentel #line:656237
+GodtenderBrown: und die waermste unserer Godtender-Muetzen. #line:724852
+GodtenderBrown: es gibt keine Kaelte, die frostig genug ist, um diese Knochen zu beruehren. #line:eea4e6
+Adina: ha ha ha. ok. #line:58c917
+GodtenderBrown: Ist dir nicht kalt? #line:c82a6f
+Adina: Ja. Eiskalt. Danke. #line:d684bd
+
+===
+title: CliffSkiJump
+tags:
+colorID: 0
+position: -2728,302
+---
+<<showTalkingHeads>>
+<<if $cliff_ski_jumps is 0>>
+	Mae: Und dann ist sie ueber den Kazm gesprungen! #line:2f963b
+	Granddad: Es heisst "Abgrund", und nein, das ist sie nicht. #line:d0c965
+	Mae: Warum denn nicht? #line:28da15
+	Granddad: Die Luecke war zu gross. Sie haette es nie geschafft. #line:784fe3
+	Mae: Aber sie haette es auf jeden Fall... #line:7c224d
+	Granddad: So ist es nicht gewesen. #line:a6d430
+	<<set $cliff_ski_jumps += 1>>
+<<elseif $cliff_ski_jumps is 1>>
+	Mae: Sie ist ruebergesprungen! #line:55e320
+	Granddad: Nein, ist sie nicht. #line:58d97d
+	Mae: Sie war eine erfahrene Skispringerin. Sie haette es mit Leichtigkeit rueber geschafft! #line:fadb25
+	Granddad: War sie aber nicht. Damals gab es noch kein Skifahren. #line:91b141
+	Mae: Was hatten sie denn? #line:e9cde5
+	Granddad: Slidey-Schneeschuhe. #line:07ba47
+	<<set $cliff_ski_jumps += 1>>
+<<elseif $cliff_ski_jumps is 2>>
+	Mae: Sie ist mit ihren Gleit-Schneeschuhen ruebergesprungen! #line:b80b22
+	Granddad: Mae. #line:28aa8a
+	Mae: Grossvater. #line:0fa44f
+	Granddad: Wie auch immer... #line:1227e1
+	<<set $cliff_ski_jumps += 1>>
+<<elseif $cliff_ski_jumps is 3>>
+	Mae: Sie ist trotzdem ruebergesprungen! #line:f025d8
+	Granddad: Nein, der Spalt war zu breit. #line:272513
+	Mae: Nein, war er nicht! Ich kann es sehen. #line:f17920
+	Granddad: Nun, ich kann es auch sehen und es ist meine Geschichte. #line:0d7138
+	Mae: Wenn du sagen kannst, sie konnte nicht, kann ich sagen, sie konnte! #line:a331d1
+	Granddad: Ugggggh... #line:e1dd53
+	<<set $cliff_ski_jumps += 1>>
+<<elseif $cliff_ski_jumps is 4>>
+	Mae: Sie ist gesprungen, weil es jetzt meine Geschichte ist! #line:47c694
+	Granddad: Also gut. Sie ist ruebergesprungen #line:9797d6
+	Granddad: und ich weiss nicht, was danach passiert ist. #line:9e3a12
+	Mae: Oh. #line:ca1a59
+	Granddad: Ich dachte, das waere jetzt deine Geschichte? #line:92d174
+	Mae: Na ja... #line:8ae786
+	Granddad: Vielleicht ist die Geschichte von uns beiden? #line:4614d8
+	Mae: Das klingt gut. #line:9679f8
+	Granddad: Wie waere es, wenn wir zusammenarbeiten? #line:8bb92b
+	Mae: Ok. #line:954a25
+	Granddad: Also, jedenfalls konnte sie nicht ueber die Klippe springen... #line:8d4e5e
+	Mae: FIIIIIIIIIIINE. #line:07daa5
+	<<set $cliff_ski_jumps += 1>>
+<<elseif $cliff_ski_jumps is 5>>
+	Mae: Und dann... ach ja. Sie ist nicht gesprungen. #line:16b05b
+	Granddad: Ich danke dir, Mae. #line:dca4e0
+	<<set $cliff_ski_jumps += 1>>
+	<<set $fall_blocker to 1>>
+<<endif>>
+<<hideTalkingHeads>>
+<<fadeOut 1 wait>>
+<<warp Player FallReset>>
+<<flip Player -1>>
+<<setCameraMode FollowPlayer>>
+<<wait 1>>
+<<unfreezePlayer>>
+<<fadeIn 1>>
+
+===

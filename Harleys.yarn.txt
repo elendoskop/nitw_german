@@ -1,0 +1,72 @@
+title: Harleys
+tags:
+colorID: 2
+position: 516,878
+---
+<<setInvolvedCharacters Mae Harley1 Harley2 Harley3>>
+<<if $harleys_sequence is 0>>
+    <<if $harleys is 0>>
+        <<set $harleys += 1>>
+        <<set $harleys_done to 1>>
+        [[Harleys_00_00]]
+    <<endif>>
+<<endif>>
+===
+title: Harley1
+tags:
+colorID: 2
+position: 146,552
+---
+[[Harleys]]
+===
+title: Harley2
+tags:
+colorID: 2
+position: 523,498
+---
+[[Harleys]]
+===
+title: Harley3
+tags:
+colorID: 2
+position: 926,603
+---
+[[Harleys]]
+===
+title: Harleys_00_00
+tags:
+colorID: 2
+position: 519,1205
+---
+Mae: Hey, es sind die Harleys! Was macht ihr denn da? #line:1519db
+Harley2: Little Joe du bist verhaftet #line:2afbec
+Mae: Oh wow. Reden die Kinder immer noch ueber Little Joe? #line:7c504d
+Harley3: Wir haben deine DNA benutzt #line:c1f21a
+-> Wisst ihr Kinder, was DNA ist? #line:2d8d78
+    Harley3: Ja, das ist Zeug, mit dem man Verbrechen aufklaert #line:07ddfb
+    Harley2: Wie ein Koerperteil, aber wirklich klein. #line:6d6dda
+    Harley1: Aber Geister haben keine Teile. #line:ecb1b2
+    Mae: Ja Harley, Harley hat recht. #line:a71ec9
+    Harley3: Hey Lady, gehst du wohl weg? #line:dadc58
+    Mae: Lady?! #line:c6a634
+-> Geister haben keine DNA #line:c98ae7
+    Harley1: Ja, Geister haben keine DNA #line:6058a8
+    Harley3: Hey Lady koennen Sie uns in Ruhe lassen? #line:ac8388
+    Harley2: Ja, lassen Sie uns in Ruhe, Lady. #line:e89d66
+    Mae: Lady?! #line:eed325
+===
+title: Harley1InitLevel
+tags:
+colorID: 0
+position: 858,139
+---
+<<if $act is 1 and $day is 1 and $Underhill is 1>>
+    <<show Harley1>>
+    <<show Harley2>>
+    <<show Harley3>>
+<<else>>
+    <<hide Harley1>>
+    <<hide Harley2>>
+    <<hide Harley3>>
+<<endif>>
+===

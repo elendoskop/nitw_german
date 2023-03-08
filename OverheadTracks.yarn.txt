@@ -1,0 +1,189 @@
+title: EnterLevel
+tags:
+colorID: 0
+position: 621,68
+---
+<<if $did_lori_friendship_quest_1 is 0>>
+    [[Tracks1]]
+<<else>>
+    [[Tracks2]]
+<<endif>>
+===
+title: Tracks2
+tags:
+colorID: 4
+position: 805,431
+---
+<<freezePlayer>>
+<<wait 4>>
+Lori: Weisst du, was wir hier nicht haben? #line:7f646f
+Mae: einen Taco-Laden. #line:fd6546
+Lori: Serienmoerder. #line:431d74
+Mae: oh ja. hm. #line:105797
+Mae: ich meine, ich wuerde dafuer stimmen, dass wir zuerst einen Taco-Laden bekommen, aber #line:215aef
+Mae: ja, wir sind nie dazu gekommen, uns einen eigenen Serienkiller zuzulegen #line:a0745b
+Lori: hast du jemals daran gedacht, jemanden zu ermorden? #line:4e2613
+Lori: wie ok so #line:d1336c
+Lori: vor ein paar langen Naechten war ich mit meiner Tante und meiner Cousine in Bright Harbor #line:119ced
+Lori: und wir fuhren mit der U-Bahn #line:4c69a9
+Lori: und es gibt kein Gelaender da unten ueber den Gleisen #line:3db6d2
+Lori: und ich hatte diesen ploetzlichen Drang, jemanden runterzuschubsen? #line:0d50f5
+Lori: es war komisch und ich fuehlte mich lange Zeit schuldig deswegen #line:63c992
+Lori: aber ich habe es nicht wirklich getan, also #line:54610a
+Lori: ich meine ist das normal? #line:04a34e
+Mae: ich denke das ist ziemlich normal #line:87856d
+Lori: ich schaetze, du hast tatsaechlich *versucht*, jemanden zu toeten #line:061ab8
+    -> das war anders #line:d961d1
+        Lori: wie? #line:fd094b
+        Mae: das war irgendwie... nicht geplant #line:1b7898
+    -> nein habe ich nicht #line:96abb3
+        Lori: eine Menge Leute denken so #line:d2c452
+        Mae: ja nun #line:834f70
+        Mae: eine Menge Leute sind wirklich dumm #line:3fb47d
+Mae: und ich habe nicht versucht, ihn zu toeten #line:f888f4
+Mae: es war einfach eine Sache, die passiert ist #line:873965
+Mae: also ja #line:4b5a0a
+Mae: es war nicht wie mein erster Schritt #line:68d528
+Mae: auf dem Weg zum Serienkiller-Dasein #line:03bd3f
+<<wait 2>>
+Lori: Entschuldigung. #line:e69332
+<<setAnimInt Lori laying 2>>
+<<playOneShot event:/lori_quest/legs_move Lori>>
+<<wait 1>>
+<<setAnimInt Mae laying 2>>
+<<playOneShot event:/lori_quest/legs_move Mae>>
+<<wait 1>>
+//mae pulls her feet in as the train passes//
+<<trigger OverheadTracks TrainPassBottom>>
+<<wait 13>>
+<<setAnimInt Lori laying 1>>
+<<playOneShot event:/lori_quest/legs_move Lori>>
+<<wait 1>>
+<<setAnimInt Mae laying 3>>
+<<playOneShot event:/lori_quest/legs_move Mae>>
+<<wait 1>>
+Mae: ist schon gut. #line:ed0e58
+Lori: weisst du, was ich mag? #line:8e6d8f
+Mae: Tacos #line:015d7b
+Lori: Bilder von dem Meteor, der die Dinosaurier getoetet hat #line:322cd0
+Lori: wo die Dinosaurier ihn am Himmel beobachten #line:4680fa
+Mae: oh ja #line:c9b2a1
+Mae: das ist wie jedes einzelne Bild von diesem Meteor #line:322827
+Mae: seltsam #line:1bdcb4
+Lori: ich frage mich, ob sie es wussten #line:e2b920
+//lori pulls her feet in as the train passes//
+<<setAnimInt Lori laying 2>>
+<<playOneShot event:/lori_quest/legs_move Lori>>
+<<wait 1>>
+<<setAnimInt Mae laying 2>>
+<<playOneShot event:/lori_quest/legs_move Mae>>
+<<wait 1>>
+<<trigger OverheadTracks TrainPassBoth>>
+<<wait 13>>
+Lori: ok ok ok ok #line:ec29ff
+Lori: lass uns sehen, was wir haben! #line:91f04b
+<<irisOut 1 wait>>
+<<scene Tracks>>
+===
+title: Tracks1
+tags:
+colorID: 3
+position: 486,431
+---
+<<freezePlayer>>
+<<wait 4>>
+Lori: Ich komme manchmal nachts hier raus #line:bbe2c1
+Lori: und schlafe zwischen den Gleisen ein #line:8e5e9b
+	->Das klingt gefaehrlich #line:570446
+	-> warum? #line:96fcd6
+		Lori: Ich weiss es nicht. #line:9e74c3
+Lori: Ich bin aufgeregt und ich kann schlafen #line:7f047d
+Lori: hast du das jemals #line:ba219b
+Lori: wo du so aufgeregt bist, dass du einschlaefst? #line:873512
+	->Kaffee macht mich schlaefrig #line:c404a6
+		Lori: ha ha. Weichei. #line:b09735
+		Mae: schuldig. #line:220eb2
+	->Ich habe Stresstraeume, wenn ich zu aufgedreht bin #line:8202c8
+		Lori: Ich erinnere mich nicht an meine Traeume #line:ba3997
+//train noise in the distance to the right//
+<<tell _AmbientSFX:train_whistle Play>>
+<<close>>
+<<wait 4>>
+Lori: manchmal schlafe ich fuer 5 Minuten ein #line:730089
+Lori: aber manchmal ist es fuer eine Stunde #line:aca01d
+Mae: das ist eine riskante Angelegenheit #line:7a15d5
+<<close>>
+<<setAnimInt Lori laying 2>>
+<<playOneShot event:/lori_quest/legs_move Lori>>
+<<wait 1>>
+<<setAnimInt Mae laying 2>>
+<<playOneShot event:/lori_quest/legs_move Mae>>
+<<wait 1>>
+//train flies past//
+<<trigger OverheadTracks TrainPassBottom>>
+<<wait 13>>
+//after train passes//
+<<setAnimInt Lori laying 1>>
+<<playOneShot event:/lori_quest/legs_move Lori>>
+<<wait 1>>
+<<setAnimInt Mae laying 3>>
+<<playOneShot event:/lori_quest/legs_move Mae>>
+<<wait 1>>
+Lori: Ich habe seltsame Gedanken #line:0368f6
+Lori: wie manchmal moechte ich im Wald schlafen #line:17cea3
+Lori: oder tagsueber im Keller eines verlassenen Hauses #line:9a2189
+Lori: und nur nachts rauskommen #line:551a51
+Lori: und wie ein Monster sein #line:e550eb
+Lori: und, wie, schoen. #line:cd762d
+	->Ich kenne das Gefuehl #line:2b09bb
+		Mae: Ich moechte manchmal Menschen essen #line:af4943
+		Lori: Wirklich??? #line:0bf379
+		Mae: So ziemlich, sobald ich jemanden treffe #line:319cc2
+		Mae: Ich frage mich, wie sie wohl schmecken #line:0de00f
+		Lori: Ich habe das Gefuehl, die Welt ist voll von schlechten Menschen #line:3af0ac
+		Lori: die gut zu essen waeren #line:555d46
+		Mae: Mmmmmmmhmm. #line:ea3e03
+	->Das sind wirklich erreichbare Traeume #line:5f5b51
+		Lori: oh ha ha #line:f6a8b0
+		Lori: ich bin nicht schoen #line:aa81b3
+		Mae: oh du bist schoen #line:6b1900
+		Mae: niemand in deinem Alter mag, wie er aussieht #line:5f95d7
+		Lori: ich bin objektiv ekelhaft #line:4465b7
+		Mae: viel weniger eklig als ich war #line:2c4b2a
+		Lori: denkst du? #line:a8b7a6
+		Mae: garantiert #line:5a1430
+<<close>>
+<<setAnimInt Lori laying 2>>
+<<playOneShot event:/lori_quest/legs_move Lori>>
+<<wait 1>>
+<<setAnimInt Mae laying 2>>
+<<playOneShot event:/lori_quest/legs_move Mae>>
+<<wait 1>>
+//train flies past going other direction//
+<<trigger OverheadTracks TrainPassBoth>>
+<<wait 13>>
+Lori: ok ok ok ok #line:0834e8
+Lori: mal sehen, was wir haben #line:91386f
+<<irisOut 1 wait>>
+<<scene Tracks>>
+===
+title: InitLevel
+tags:
+colorID: 0
+position: 299,16
+---
+<<playerFace -1>>
+<<if $did_lori_friendship_quest_1 is 0>>
+    <<setAnimInt Lori laying 1>>
+    <<setAnimInt Mae laying 1>>
+<<else>>
+    <<warp Lori Lori2>>
+    <<warp Mae Mae2>>
+    <<toggleUpdateTargetNormal 0>>
+    <<rotate Mae -180>>
+    <<setAnimInt Lori laying 1>>
+    <<setAnimInt Mae laying 1>>
+<<endif>>
+===
+
+

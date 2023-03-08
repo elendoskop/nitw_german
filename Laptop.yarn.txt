@@ -1,0 +1,1171 @@
+title: GreggMessages_A2D1
+tags: demo2
+colorID: 3
+position: -3796,16077
+---
+<<set $gregg_laptop to 1>>
+GreggLaptop: HEY DUde #line:f39c37
+GreggLaptop: Geht's gut? #line:cf1fe6
+GreggLaptop: Letzte Nacht war p intensiv #line:998f31
+GreggLaptop: Bea hat gesagt du bist ok #line:d2bcb2
+GreggLaptop: Ich bin den ganzen Tag ein Snack-Falke #line:4ce5df
+GreggLaptop: komm vorbei wenn du nicht tot bist #line:7f5ba1
+GreggLaptop: Mit freundlichen Gruessen, #line:60f8d9
+GreggLaptop: Greggory #line:9a6218
+GreggLaptop: PS- BAND JAM SPAeTER OMG #line:2aee85
+GreggLaptop: das Ende #line:14d377
+===
+title: GreggLaptop_A1D2
+tags: temp
+colorID: 2
+position: -5043,15968
+---
+<<set $gregg_laptop to 2>>
+GreggLaptop: hey, nimm den Porno von deinem Laptop???? #line:40a3ae
+GreggLaptop: ich habe gehoert, dass du ihn mit sooo vielen Pornos kaputt gemacht hast. #line:795e57
+-> habe ich nicht #line:369f24
+    GreggLaptop: ich kann deine Luegen riechen #line:f528b8
+    GreggLaptop: warum musst du das Internet in eine Hoehle der Luegen verwandeln #line:dbcf63
+    Mae: ich leugne alles!!!!!! #line:66a96b
+-> dude du weisst es #line:38893b
+    GreggLaptop: rick rekkage hat mir erzaehlt, dass man vor dem Internet Pornos in einem hohlen Baumstamm im Wald versteckt hat #line:68437f
+    Mae: ja das war ein Ding oder? #line:291e7c
+    GreggLaptop: waere peinlich, wenn du zu den Pornos wandern wuerdest #line:22bb88
+    GreggLaptop: und irgendein Typ war schon da und du sagst: "Super Typ" #line:ab6e57
+    GreggLaptop: ich schaetze, wir waren beide wegen der Pornos hier #line:f3a854
+    Mae: ich wette, das ist passiert. du weisst, dass es passiert ist. ich wette, sie wurden Freunde #line:2353e1
+    GreggLaptop: pornlogbros4ever #line:29422e
+    <<set $porn_log to 1>>
+GreggLaptop: Also, Alter, du kommst morgen Abend zu der Party, richtig????? #line:08c451
+Mae: welche party????? #line:3826de
+GreggLaptop: oben im Staatsforst! viele Leute sind dieses Wochenende von der Schule zurueck und so #line:bb442e
+GreggLaptop: coole Leute, das grosse Feuer, die Snakcs, die Biere #line:7521c7
+-> Maedchen du weisst ich werde #line:f7a353
+    GreggLaptop: Maedchen ich bin so aufgeregt #line:61320d
+    GreggLaptop: Waelder sind so lustig bei Nacht #line:9b90d2
+    GreggLaptop: ich werde so besoffen sein #line:bfd88b
+    GreggLaptop: es gibt keine Gesetze in den Waeldern #line:839040
+-> wolltest du Snacks oder Snakes schreiben #line:ed1795
+    GreggLaptop: beides, Alter #line:e76737
+    GreggLaptop: beides #line:008369
+GreggLaptop: cool, du solltest Bea fragen, ob sie uns fahren kann #line:cf034c
+Mae: was nein ich glaube sie mag mich nicht #line:ea5dad
+GreggLaptop: nein Alter, sie ist cool, sie faehrt uns die ganze Zeit und laesst uns ihr Auto ausleihen #line:e02d8a
+GreggLaptop: komm morgen in ihrem Laden vorbei und frag ok pleeeeeeeeeeease????? #line:c22145
+Mae: ok na gut #line:b4c032
+GreggLaptop: {width=400}yaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaay!!!!! #line:0405a2
+
+===
+title: AngusLaptop_A1D2
+tags: temp
+colorID: 2
+position: -5042,16233
+---
+<<set $angus_laptop to 2>>
+AngusLaptop: Ich schaetze, dann ist es gut ausgegangen? Dein Computer? #line:1e479c
+Mae: ja, ist es, danke!!!! #line:8b2daf
+AngusLaptop: Ich habe etwas anderes auf das Laufwerk gelegt! Erinnerst du dich an Demontower? #line:2715b1
+<<if $demontower_plays > 0>>
+    // if player has played demontower already
+    Mae: Ja, ich habe es gerade gespielt! #line:1d3433
+    AngusLaptop: Oh suess #line:be8626
+    AngusLaptop: Ich habe auch schon wieder gespielt. Sie haben es immer wieder geupdatet. #line:f1b13b
+    AngusLaptop: Wir koennen ja mal ueber Demontower reden. Es ist immer noch richtig cool! #line:5a9163
+    Mae: aw danke angus!!!! #line:c24261
+    AngusLaptop: *Tippt den Hut* #line:fcd8c2
+<<else>>
+    // if player hasn't played demontower yet
+    Mae: oh wow, ja das habe ich vor 10 Jahren die ganze Zeit gespielt #line:d04815
+    AngusLaptop: Ich habe wieder gespielt. Sie haben es immer wieder geupdatet. #line:94289e
+    AngusLaptop: Du kannst dein altes Spiel von ihrem Server holen und genau da anfangen, wo du aufgehoert hast :) #line:c22b5b
+    Mae: oooo cool #line:f5cb7e
+    AngusLaptop: Du solltest es dir ansehen, und wir koennen irgendwann mal ueber Demontower reden. Es ist immer noch richtig cool! #line:8fc800
+    Mae: ich werde das auf jeden Fall tun!!!!! aw danke angus!!!! #line:3df85a
+    AngusLaptop: *zueckt den Hut* #line:b0ec15
+<<endif>>
+[[GreggLaptop_A1D2]]
+
+===
+title: GreggMessages_A1D3
+tags: temp
+colorID: 2
+position: -4681,15964
+---
+<<set $gregg_laptop to 1>>
+GreggLaptop: oh btw bea arbeitet bei der alten Spitzhacke, also kannst du dort hingehen #line:2b2eda
+GreggLaptop: besorg dir Werkzeug lol #line:91ce93
+GreggLaptop: grosse Axt und auf einen Amoklauf gehen lol #line:0449e1
+===
+title: GreggLaptop_A2D1
+tags: temp
+colorID: 3
+position: -3531,16373
+---
+<<set $gregg_laptop to 2>>
+<<if $did_bea_friendship_quest_1>>
+    Mae: hey hey dude. was hat udo2nite #line:d3e53f
+    GreggLaptop: nicht viel #line:30f64d
+    GreggLaptop: etwas gestohlen #line:ff3294
+    GreggLaptop: Fuer Angus #line:d26db1
+    GreggLaptop: (es ist eine Ueberraschung)! #line:a512db
+    Mae: wow was ist es? #line:b985cb
+    GreggLaptop: warte mal eine Sekunde #line:b30ee4
+    GreggLaptop: oh Mist, ich muss los, ttyl #line:512203
+    Mae: ok weirdo bist OK #line:f4a54f
+    <<set $gregg_ttyl to 1>>
+<<else>>
+    Mae: hey dude meine ganzen Muskeln werden dich 4ever hassen #line:0ccc16
+    Mae: 5 + 6je Vorabend #line:7c4bbd
+    GreggLaptop: DUDE meine Muskeln hassen mich genug fuer BEIDE von uns #line:8815f4
+    Mae: ich bin so wuetend auf die Schwerkraft rn #line:66fd37
+    GreggLaptop: lasst uns die Schwerkraft toeten #line:6dfb55
+    Mae: was hat die Schwerkraft in letzter Zeit fuer mich getan #line:a768b5
+    GreggLaptop: alle unsere Muskeln verletzen #line:d560b7
+    Mae: ok ich werde mich jetzt auf mein Bett legen und wahrscheinlich sterben #line:982631
+    GreggLaptop: ich bin schon tot, das ist der Roboterkopf, der spricht #line:022c7d
+    Mae: omg #line:eb901d
+    GreggLaptop: ich weiss wo du wohnst und was du gesagt hast #line:79a0b7
+    Mae: omg2scared #line:c992f2
+    GreggLaptop: ok gn8 #line:1a9063
+<<endif>>
+===
+title: PlayDemonTower
+tags:
+colorID: 0
+position: -3016,16110
+---
+Mae: DEMONTOWER!!!!!! #line:3560f2
+<<irisOut 1 wait>>
+<<scene Demontower>>
+===
+title: BeaMessages_A2D1
+tags: demo2
+colorID: 3
+position: -3826,16362
+---
+<<set $bea_laptop to 1>>
+BeaLaptop: Hey! #line:4fd1f0
+BeaLaptop: Tut mir leid wegen letzter Nacht. #line:8d9301
+BeaLaptop: Ich hoffe, es geht dir gut. #line:f40f20
+BeaLaptop: Aehm. #line:b421c9
+BeaLaptop: Jep. #line:9b8685
+BeaLaptop: Ich bin den ganzen Tag in der Pickaxe. #line:4ee566
+BeaLaptop: Wenn du mal vorbeikommen willst. #line:70baaf
+===
+title: BeaLaptop_A2D1
+tags: temp
+colorID: 3
+position: -3503,16081
+---
+<<set $bea_laptop to 2>>
+<<if $did_bea_friendship_quest_1>>
+    Mae: hey. cooles Einkaufszentrum mal #line:f03ed2
+    BeaLaptop: Ziemlich coole Zeiten im Einkaufszentrum, ja. #line:90e9f7
+    Mae: ich hoffe, wir haben nicht zu viel Unordnung gemacht #line:076834
+    Mae: mit dem Springbrunnen #line:fdad2f
+    BeaLaptop: Wer ist "wir"? #line:8dc4c1
+    BeaLaptop: Ich sass nur da, als ich mit MALL-WASSER ASSAULTIERT wurde. #line:579f37
+    Mae: ich werde nicht ruhen, bis dieser Brunnen zur Rechenschaft gezogen wird #line:c28b0e
+    BeaLaptop: Erzaehl der Welt meine Geschichte. #line:1e1737
+    BeaLaptop: Sie muessen es wissen. #line:bf2ed3
+    Mae: ok ich gehe schlafen ich hoffe die Albtraeume sind nicht 2schrecklich #line:4e5ef6
+    BeaLaptop: Es ist ein Trauma, das ich fuer immer ertragen werde #line:bdd763
+<<else>>
+    Mae: hey! was hast du denn 2Naechte lang gemacht #line:e0daf3
+    BeaLaptop: Ein Drittel einer Staffel von Bleak Dominion geschaut. #line:d30f54
+    <<set $bleak_dominion to 1>>
+    Mae: oh wow ich mag die Serie #line:1f1508
+    BeaLaptop: Ich schaue sie zum ersten Mal. #line:b8bffd
+    Mae: niiiice. ich habe so ziemlich alles gesehen #line:8202d5
+    BeaLaptop: Verderben Sie es nicht. #line:63ae67
+    Mae: bei welcher Folge bist du? #line:0b7742
+    BeaLaptop: Staffel 1, Folge 4. #line:a08f38
+    Mae: oh Mist #line:65ec14
+    Mae: ok #line:b5764a
+    Mae: wir werden spaeter darueber reden #line:808d04
+    BeaLaptop: Klingt gut. Ich werde es mir jetzt wieder ansehen. #line:483221
+    Mae: geniesse!!!!! #line:2d2b66
+    BeaLaptop: Gute Nacht. #line:543006
+<<endif>>
+===
+title: EnterLevel_A1D2
+tags: temp
+colorID: 0
+position: -5041,15688
+---
+<<if $night is 0>>
+    <<if $need_to_fix_laptop is 0>>
+        <<wait 2>>
+        MaeNotLaptop: AAAAGH NEEEEEIN!!! #line:4e62c9
+        MaeNotLaptop: Was ist los mit dir? #line:ba6749
+        MaeNotLaptop: VERDAMMT! #line:a5d228
+        MaeNotLaptop: Ich wette, Angus weiss, wie man das repariert. #line:aebf97
+        MaeNotLaptop: Er ist ein richtiger Computermensch. #line:3f9ebd
+        MaeNotLaptop: Denke ich. #line:182ddc
+        MaeNotLaptop: Aber ich kann nicht... ihn das sehen lassen... #line:3ab6ef
+        MaeNotLaptop: Wo arbeitet er noch mal? #line:b954db
+        <<set $need_to_fix_laptop to 1>>
+    <<endif>>
+<<else>>
+    <<if $talked_about_fixed_laptop is 0>>
+        MaeNotLaptop: Omg es ist repariert! #line:fb955b
+        <<set $talked_about_fixed_laptop to 1>>
+		[[AngusLaptop_A1D2]]
+    <<endif>>
+<<endif>>
+
+===
+title: ChattrBox_A2D1
+tags:
+colorID: 3
+position: -3744,15180
+---
+ChattrBox: Techonomy Today - Wirtschaftswissenschaftler Pete Corgly: Robustes Jobwachstum in Niedriglohnsektoren, also ist das eine Art Waschgang, schaetze ich #line:0ef3c1
+
+===
+title: EnterLevel_A4D2
+tags:
+colorID: 5
+position: 3204,15790
+---
+<<if $laptop_vignettes is 0>>
+    [[StartLaptopVignettes]]
+<<else>>
+    [[EndLaptopVignettes]]
+<<endif>>
+===
+title: StartLaptopVignettes
+tags:
+colorID: 5
+position: 3060,16142
+---
+<<fadeIn 1>>
+<<playAmbientSFX AmbientSFXLaptopVignettes 1>>
+<<wait 1>>
+<<set $laptop_vignettes to 1>>
+Mae: hey Leute #line:4183b9
+Mae: aeh #line:9daaa7
+Mae: seid ihr da #line:bbd89c
+<<close>>
+<<wait 2>>
+Mae: irgendjemand? #line:254a23
+<<close>>
+<<wait 2>>
+Mae: ok ich werde trotzdem tippen #line:f982cc
+<<playMusic laptop_vignettes 20>>
+Mae: schwer fuer mich, irgendetwas Kluges darueber zu sagen, was zum Teufel gerade passiert ist #line:321a40
+Mae: es ist einfacher fuer mich, das alles hier rauszulassen #line:eeb4df
+Mae: und ich muss reden #line:bd1cea
+Mae: auch wenn ihr Idioten was auch immer macht #line:39b6fd
+<<fadeOut 1 wait>>
+
+<<overrideLoadingScreenType Blank>>
+<<if $dom_friend_bea>>
+    <<scene BeaApartment>>
+<<else>>
+    <<scene GreggAngusApartment>>
+<<endif>>
+===
+title: EndLaptopVignettes
+tags:
+colorID: 5
+position: 3375,16139
+---
+<<fadeIn 1 wait>>
+<<if $dom_friend_bea>>
+    Mae: Bea, du bist definitiv etwas Besonderes. #line:a925d3
+    Mae: Es tut mir so leid, was du alles durchmachen musstest. #line:8d2061
+    Mae: Ich verstehe nicht einmal alle deine Probleme #line:d45960
+    Mae: aber wenn ich koennte, wuerde ich sie loesen. #line:b64baf
+    Mae: Ich wuerde alles in Ordnung bringen. #line:df6633
+    Mae: Und ich wuerde die Werkzeuge dafuer in deinem Laden kaufen. #line:8029a8
+    Mae: oder sie zumindest ausleihen. #line:87e1b5
+    Mae: Ein besserer Freund wuerde kaufen, aber ich bin das, was du hast. #line:6e2975
+    Mae: Und ich bin froh. #line:2903b9
+<<else>>
+    Mae: Ich glaube, ich liebe Gregg so ziemlich mehr als jeden anderen. #line:b4a44e
+    Mae: Ich weiss nicht, ob es bessere Freunde gibt. #line:7feaa7
+    Mae: Wir sind wie alte Schuhe, die zueinander passen. #line:6fb1ce
+    Mae: Es tut mir leid, dass ich ein Drama zwischen dir und Angus verursacht habe, Mann. #line:48b7d6
+    Mae: Angus, ich gebe dir Gregg. Als ein Geschenk. #line:da3ccd
+    Mae: Vergiss nicht, ihn zu traenken und zu fuettern. #line:a97d29
+    Mae: Wenn du ihm jemals weh tust, werde ich deinen Arsch in den Boden treten. #line:3f61f7
+    Mae: er gehoerte zuerst mir. #line:9d37ed
+<<endif>>
+<<fadeOutMusic 8>>
+Mae: jep. Da ist es. #line:1cb8e6
+Mae: nooooow ich werde das jetzt einfach alles loeschen. #line:6f579f
+<<wait 2>>
+Mae: Oh Scheisse. #line:7f9016
+Mae: ha ha jungs ich habe nur scherze gemacht ueber vieles. #line:36311a
+Mae: ich bin wirklich muede, ich weiss nicht, was ich sage. #line:832073
+Mae: melde dich ab, Mae. #line:278617
+Mae: melde dich abfff. #line:d779f8
+<<fadeOutAmbientSFX AmbientSFXLaptopVignettes 1>>
+<<fadeOut 1 wait>>
+<<fadeOutMusic 2>>
+<<wait 3>>
+<<endDay>>
+===
+title: InitLevel_A4D2
+tags:
+colorID: 5
+position: 3201,15559
+---
+
+===
+title: GreggLaptop_A1D3
+tags: temp
+colorID: 2
+position: -4377,15974
+---
+<<set $gregg_laptop to 2>>
+GreggLaptop: hey, vergiss die Party heute Abend nicht! #line:102147
+Mae: Habe ich nicht! #line:773c44
+GreggLaptop: was machst du dann an deinem Laptop! mach dich schon mal fertig! #line:e4582d
+Mae: Oje! ok! #line:a7d5cb
+GreggLaptop: :D #line:e62d1eGreggLaptop: :D #line:e62d1e
+===
+title: BeaLaptop_A1D3
+tags: temp
+colorID: 2
+position: -4375,16233
+---
+<<set $bea_laptop to 2>>
+Mae: omg party time. bist du bereit bea? #line:a70c6c
+BeaLaptop: Ich bin bereit, bist *Du* bereit? #line:33d1d4
+Mae: oh... vielleicht sollte ich mich fertig machen. #line:c6c16a
+BeaLaptop: Ja. Vielleicht. #line:c3701a
+===
+title: GreggMessages_A2D2
+tags:
+colorID: 3
+position: -2215,15798
+---
+<<set $gregg_laptop to 1>>
+GreggLaptop: MORGEN #line:0e7b23
+<<if $did_gregg_friendship_quest_1>>
+    GreggLaptop: ICH BIN NOCH MEHR GESUND #line:840592
+    GreggLaptop: DAS IST BULLSHIT #line:c70fa4
+<<endif>>
+GreggLaptop: ICH ARBEIT ZWEI TAGE #line:7a0968
+GreggLaptop: ANGUS IST AUS DER STADT UND ICH BIN EINSAM #line:041b9a
+GreggLaptop: OK BYE #line:c66bf4
+GreggLaptop: Mit freundlichen Gruessen, greggorry #line:2e95ee
+===
+title: BeaMessages_A2D2
+tags:
+colorID: 3
+position: -2228,16045
+---
+<<set $bea_laptop to 1>>
+BeaLaptop: Hey! #line:b7bd07
+<<if $did_bea_friendship_quest_1>>
+	BeaLaptop: Mir ist von dem Essen im Einkaufszentrum schlecht geworden. #line:aa0466
+	BeaLaptop: Es war kein gutes Einkaufszentrum-Essen. #line:11b336
+<<endif>>
+BeaLaptop: Ich arbeite heute, wenn du hallo sagen willst. #line:04b08d
+BeaLaptop: Jupp. Das ist mein Leben, genau da. #line:7baab4
+===
+title: GreggLaptop_A2D2
+tags:
+colorID: 3
+position: -1899,15790
+---
+<<set $gregg_laptop to 2>>
+<<if $did_gregg_friendship_quest_2>>
+	Mae: hey punk #line:9f41f3
+	GreggLaptop: Bist du immer noch elektrisch? #line:f8cbe3
+	Mae: Nein, ich glaube, der ist jetzt weg. #line:c36dd9
+	Mae: Warte, lass mich etwas aus Metall anfassen. #line:125b72
+	<<wait 3>>
+	Mae: Ok, ich habe meinen Futonrahmen beruehrt und alles ist gut. #line:e5e82b
+	GreggLaptop: gute Arbeit Dr. Wissenschaft #line:5c4ade
+	Mae: Mag Angus den Roboter? #line:15615a
+	GreggLaptop: ich glaube schon #line:7f5d40
+	GreggLaptop: er schaut ihn nur irgendwie an. #line:3d8cd3
+	GreggLaptop: warte mal, ich werde ihn fragen #line:0385e2
+	<<wait 3>>
+	GreggLaptop: ok er sagt, ich soll mich bedanken #line:260560
+	GreggLaptop: also denke ich, dass das bedeutet, dass er es mag. #line:659a49
+	Mae: in Ordnung Mann ich gehe ins Bett #line:fcdf68
+	GreggLaptop: me 2 #line:a62a68
+	GreggLaptop: C U L8r #line:6829ef
+<<else>>
+    GreggLaptop: Hey Punk was geht #line:9bd17b
+    Mae: in einem Keller gefangen #line:e00be9
+    Mae: einen Ofen vermoebelt #line:87fc57
+    GreggLaptop: genau richtig Mann #line:81f74c
+    GreggLaptop: Nacht Nacht #line:80d279
+<<endif>>
+===
+title: AngusLaptop_A2D2
+tags:
+colorID: 3
+position: -1917,16065
+---
+<<set $angus_laptop to 2>>
+<<if $did_gregg_friendship_quest_2>>
+    AngusLaptop: Hey Mae. Alles in Ordnung? #line:b9293c
+    AngusLaptop: Ich hatte Angst, dass du wirklich verletzt bist. #line:ac41b3
+    AngusLaptop: Und du bist so schnell gegangen. #line:3a3cb2
+    Mae: Mir geht's gut, grosser Junge. #line:56373a
+    AngusLaptop: ok. Wollte nur sichergehen. #line:e26d85
+    Mae: aw. Ich weiss das zu schaetzen. #line:c5588e
+    AngusLaptop: versuche, heute Abend nicht mehr fast zu sterben. #line:991c53
+    Mae: keine Versprechungen. #line:564cf1
+<<endif>>
+===
+title: BeaLaptop_A2D2
+tags:
+colorID: 3
+position: -1902,16299
+---
+<<set $bea_laptop to 2>>
+<<if $did_bea_friendship_quest_2>>
+	Mae: hey! Das hat Spass gemacht!  #line:40c1b0
+	Mae: Das sollten wir mal wieder machen! #line:c7d30e
+	BeaLaptop: du bist ziemlich geschickt, wenn es darum geht, Sachen kaputt zu machen #line:8c2cb4
+	Mae: ich bin sicher, da ist irgendwo ein Job drin #line:716d3d
+	BeaLaptop: Ja. Man nennt es Abbruch. #line:22d58a
+	BeaLaptop: man kann tatsaechlich einen Job dafuer bekommen #line:5bcf43
+	Mae: heilige Scheisse! Ich habe meine Berufung gefunden. #line:70df53
+	BeaLaptop: ich bin froh, dass ich helfen konnte, dies zu ermoeglichen #line:7e7061
+	BeaLaptop: ach so, ich habe nachgeschaut "Menschen, die Insekten anziehen" #line:20ea54
+	BeaLaptop: scheint viel mit Hitze und verschiedenen Geruechen zu tun zu haben #line:957a58
+	Mae: davon koennen sie nicht genug bekommen #line:0044f2
+	BeaLaptop: ich glaube nicht #line:4ac18e
+	BeaLaptop: gute nacht mae #line:1e707a
+	Mae: Nacht #line:47642a
+<<else>>
+    BeaLaptop: hey mae. Bist Du wach? #line:85e346
+    Mae: sicher bin ich das! #line:0af540
+    Mae: was ist los? #line:5e0032
+    BeaLaptop: nichts. Ich schaue fern. #line:61755a
+    Mae: was schaust du? #line:7d2a00
+    BeaLaptop: eine Serie ueber wahre Verbrechen #line:5df132
+    Mae: ist sie gut? #line:5e4205
+    BeaLaptop: nein. die Wiederholungen sind schrecklich #line:92c473
+    BeaLaptop: aber wenn sie gut waeren, wuerde ich tatsaechlich Mitleid mit ihnen haben #line:d7b11e
+    BeaLaptop: so wie es ist, ist es einfach wie schlechte lokale kommerzielle Schauspieler #line:22080f
+    BeaLaptop: vorgeben zu morden oder ermordet zu werden #line:8fbbe9
+    Mae: ich liebe diese Sendungen #line:83de14
+    BeaLaptop: sie sind die besten #line:c28178
+<<endif>>
+===
+title: GreggMessages_A2D3
+tags:
+colorID: 3
+position: -1317,15842
+---
+<<set $gregg_laptop to 1>>
+<<if $did_gregg_friendship_quest_2>>
+	GreggLaptop: Update: the robot smells a little weird. #line:f3003f
+	GreggLaptop: not sure what we missed there. #line:be8f30
+	GreggLaptop: anyway #line:6d369e
+<<endif>>
+GreggLaptop: hey boyo #line:2feded
+GreggLaptop: den ganzen Tag auf der Arbeit #line:208f9c
+GreggLaptop: sehr gelangweilt #line:c32e8a
+GreggLaptop: Arbeit ist scheisse #line:bf1469
+GreggLaptop: scheiss Falke eher #line:3e9b90
+===
+title: BeaMessages_A2D3
+tags:
+colorID: 3
+position: -1310,16094
+---
+<<set $bea_laptop to 1>>
+BeaLaptop: hey	 #line:75b9c5
+<<if $did_bea_friendship_quest_2>>
+	BeaLaptop: bekam einen Anruf von Mrs. Miranda #line:77592e
+	BeaLaptop: anscheinend ist sie veraergert, dass wir ihren Keller versaut haben #line:b49822
+	BeaLaptop: wie auch immer. sie hat uns nicht fuers Aufraeumen bezahlt. #line:42c4bf
+<<endif>>
+BeaLaptop: Ich bin den ganzen Tag auf der Arbeit. #line:a11024
+BeaLaptop: Ich wollte nur sagen. Wenn du hallo sagen willst. #line:354b14
+BeaLaptop: ich bin hier um gegruesst zu werden #line:e9b98e
+===
+title: GreggLaptop_A2D3
+tags:
+colorID: 3
+position: -999,15851
+---
+<<set $gregg_laptop to 2>>
+Mae: hey kiiiid #line:7ae726
+GreggLaptop: heyoooooo #line:4a9190
+<<if $did_gregg_friendship_quest_3>>
+	GreggLaptop: danke fuers Rumhaengen vorhin #line:87b764
+	Mae: kein Problem, Alter #line:3735bd
+	<<if $won_knife_fight is 0>>
+		GreggLaptop: wie geht es deinen Messerwunden #line:6261ff
+		Mae: ich habe sie unter Wasser gehalten #line:71c512
+		Mae: ich denke, das wird sie heilen #line:265e6c
+		GreggLaptop: klingt gut #line:2f4772
+    <<else>>
+		Mae: wie geht's deiner aufgespiessten Hand? #line:f83707
+		GreggLaptop: ich werde es ueberleben. #line:80f82a
+		GreggLaptop: Angus hat mich repariert. #line:482e8e
+		Mae: aw. Guter Freund. #line:3b2b21
+		GreggLaptop: ja, sehr behuetend. #line:f80aeb
+    <<endif>>
+	GreggLaptop: tut mir leid, dass ich am Ende ein Spielverderber war #line:adfd3c
+	Mae: ist schon gut, Alter. Ganz im Ernst. #line:f021f0
+	GreggLaptop: ich habe nur... ja. #line:6a24a5
+	Mae: schlaf ein bisschen Mann #line:e1b153
+	GreggLaptop: werde ich tun. #line:9ef776
+	GreggLaptop: Nacht brah #line:994dcb
+<<else>>
+    Mae: was hast du vor #line:7ddf14
+    GreggLaptop: nichts. Irgendwie deprimiert heute Abend. #line:bfe130
+    Mae: aw. warum? #line:b3b3b5
+    GreggLaptop: Kein Grund. Passiert einfach. #line:658c6b
+    Mae: muss sich herumsprechen #line:dfb556
+    Mae: ich hatte gerade einen Streit mit Bea #line:879304
+    GreggLaptop: Oh nein! Worueber denn? #line:5f5c11
+    Mae: Ich weiss es nicht einmal. Ich glaube, ich bin einfach ein Arschloch. #line:08c89a
+    GreggLaptop: du und ich #line:102981
+    Mae: die Arschloch-Zwillinge #line:939c12
+    GreggLaptop: wir koennen uns passende Jacken besorgen, mit dem da auf dem Ruecken #line:a96810
+    Mae: Uniformjacken #line:1eb09a
+    Mae: mit riesigen Arschloch-Aufnaehern auf den Aermeln. #line:dc19db
+    GreggLaptop: ha ha ha #line:28a61d
+    Mae: Schon gut, Alter. Ich kassiere fuer den Tag ab. #line:748877
+    GreggLaptop: bis dann, Mann #line:17dd4c
+<<endif>>
+===
+title: BeaLaptop_A2D3
+tags:
+colorID: 3
+position: -1002,16103
+---
+<<set $bea_laptop to 2>>
+Mae: hey bea. Bist du da? #line:8d1f8d
+<<if $did_bea_friendship_quest_3>>
+	<<wait 4>>
+	BeaLaptop: jep. #line:9a50ab
+	Mae: ich weiss wirklich nicht, wie ich das vermasselt habe, aber es tut mir leid #line:58862b
+	BeaLaptop: ist schon in Ordnung. Ich gehe jetzt schlafen. Wir sehen uns spaeter. #line:217c14
+	Mae: ok. #line:50bc65
+<<else>>
+    BeaLaptop: Jawohl. #line:cca1d2
+    Mae: Was hast du vor? #line:8f47be
+    BeaLaptop: Budgetsachen fuer den Laden machen und Musikvideos aus den 80ern ansehen #line:74ff96
+    Mae: das sind genau die Dinge, die du tun wuerdest, wenn du 20 Jahre aelter waerst als du bist #line:aef5c3
+    BeaLaptop: nun, jemand musste fuer meine Mutter einspringen. #line:d8610e
+    BeaLaptop: Ich bin nur gruendlich. #line:880369
+    Mae: nun, du machst einen guten Job #line:c7097d
+    BeaLaptop: danke #line:909e53
+    BeaLaptop: werde wieder an die Arbeit gehen #line:8597d5
+    Mae: Nacht Nacht #line:0d3488
+<<endif>>
+===
+title: GreggMessages_A2D4
+tags:
+colorID: 3
+position: -566,15852
+---
+<<set $gregg_laptop to 1>>
+GreggLaptop: HAPPY HALLOWEEN DUDE #line:d2e6ce
+GreggLaptop: ERSCHRECKEN ODER SAURES #line:a3cd49
+===
+title: BeaMessages_A2D4
+tags:
+colorID: 3
+position: -552,16092
+---
+<<set $bea_laptop to 1>>
+BeaLaptop: -abwesende Nachricht- ANNUAL HARFEST PLAY TONIGHT AT THE OL PICKAXE! KOMM RAUS UND SIEH DIR DIE SPUKGESCHICHTE VON POSSUM SPRINGS AN! #line:07c258
+===
+title: GreggMessages_A3D1
+tags:
+colorID: 4
+position: -114,15856
+---
+<<set $gregg_laptop to 1>>
+GreggLaptop: hey dude sorry konnte nicht abhaengen gestern #line:b76c00
+GreggLaptop: angus sagt, ihm tuts auch leid #line:29d85d
+GreggLaptop: band proben hetue!!!! Weil ich das Sagen habe und ich sage es #line:c73371
+GreggLaptop: binaufarbeit tschoe #line:e50525
+===
+title: BeaMessages_A3D1
+tags:
+colorID: 4
+position: -114,16112
+---
+<<set $bea_laptop to 1>>
+BeaLaptop: hey mae! Vielen Dank fuer deine Hilfe gestern Abend. #line:a8020d
+BeaLaptop: bin aufgewacht und habe gemerkt, dass ich mich komplett aufgedraengt habe. #line:afa2b9
+BeaLaptop: Danke. Ich weiss das wirklich zu schaetzen. #line:0305ed
+BeaLaptop: Ich bin auf der Arbeit und raeume nach der letzten Nacht auf, wenn du Hallo sagen willst #line:68fc78
+===
+title: GreggLaptop_A3D1
+tags:
+colorID: 4
+position: 192,15866
+---
+<<set $gregg_laptop to 2>>
+GreggLaptop: yo ich habe die historische Gesellschaft im Internet nachgeschlagen #line:1634eb
+GreggLaptop: es ist wirklich alt, aber dann haben sie viel renoviert #line:9bab5f
+Mae: also wirklich #line:4ecef7
+GreggLaptop: ich meine, hoer zu, ich sage nicht, dass es einen Geist gibt, aber #line:624790
+GreggLaptop: altes Zeug, das gerade zerrissen wurde, scheint die Geisterzentrale zu sein #line:6c14b3
+Mae: wie das #line:128503
+GreggLaptop: du bist ein Geist, der in einem alten Haus herumhaengt #line:838274
+GreggLaptop: und dann legt jemand einen Pool hinein, in dem du gestorben bist oder so #line:961ff0
+Mae: spukende Pools waeren wirklich gruselig #line:630262
+GreggLaptop: ich bin erschrocken. Ich gehe ins Bett #line:cfd3fa
+===
+title: BeaLaptop_A3D1
+tags: 
+colorID: 4
+position: 185,16110
+---
+<<set $bea_laptop to 2>>
+BeaLaptop: Hey, sag mir Bescheid, wenn du auf den Friedhof willst. #line:892b28
+BeaLaptop: ich sollte diese Woche fast jeden Abend da sein. #line:7d7b61
+Mae: Ich weiss nicht. Danke Bea #line:489165
+BeaLaptop: danke mir nicht zu sehr #line:b13d41
+BeaLaptop: ich gehe sowieso dorthin und es ist gleich die Strasse runter #line:309972
+Mae: du ruinierst das #line:3eb41e
+BeaLaptop: oh, in diesem Fall- #line:b696a8
+BeaLaptop: du bist so unglaublich willkommen und ausserdem vergisst du besser diesen grossen Gefallen nicht. #line:075447
+Mae: das ist schon besser. #line:ff8f9a
+BeaLaptop: ich schlafe jetzt ein. Hatte viel Spass heute Abend. Tut mir leid, wenn ich muerrisch war, es ist einfach so,. #line:985294
+Mae: ist schon gut. #line:782a46
+<<wait 1>>
+Mae: warte, bist du eingeschlafen? #line:8a91ab
+<<wait 1>>
+Mae: lol #line:866789
+===
+title: AngusLaptop_A3D1
+tags:
+colorID: 4
+position: 193,16350
+---
+<<set $angus_laptop to 2>>
+AngusLaptop: Hey Mae. #line:d68142
+AngusLaptop: Sag mir Bescheid, wenn du in den Park gehen willst. #line:7ae350
+AngusLaptop: Ich habe auf einer Karte nachgesehen und es ist ein ziemlich direkter Weg zum Possum Jump. #line:d45783
+Mae: ok toll! wir haben nie wirklich eine Chance, etwas zu unternehmen #line:713a1d
+AngusLaptop: Das wird lustig, denke ich! #line:4ab019
+AngusLaptop: ok ich gehe schlafen #line:50a9db
+Mae: Nacht Sir. #line:a81a67
+AngusLaptop: *zieht den Hut* #line:f24e9d
+===
+title: GreggMessages_A3D2
+tags:
+colorID: 4
+position: 639,15919
+---
+<<set $gregg_laptop to 1>>
+GreggLaptop: Alter, mein Mund schmeckt heute Morgen komisch #line:a8e371
+GreggLaptop: wie ein Reifen #line:1e7627
+GreggLaptop: Ich werde bei der Arbeit sein und versuchen, es mit dem zu waschen, was in der Kuehlbox ist #line:e7bfed
+===
+title: AngusMessages_A3D2
+tags:
+colorID: 4
+position: 660,16171
+---
+<<set $angus_laptop to 1>>
+AngusLaptop: -Abwesenheitsnachricht- "Planeten sind zu bemitleiden, da sie nicht wissen koennen, wie gross und cool sie sind" - Dr. Cathy Conklin, Nationale Astronomiebehoerde #line:b66ce6
+===
+title: BeaMessages_A3D2
+tags:
+colorID: 4
+position: 653,16428
+---
+<<set $bea_laptop to 1>>
+BeaLaptop: letzte Nacht hat mich inspiriert #line:f39c5e
+BeaLaptop: fuer die laengste Nacht schenke ich dir einen Bibliotheksausweis #line:26309f
+BeaLaptop: gern geschehen. #line:4cae32
+===
+title: GreggMessages_A4D3
+tags:
+colorID: 5
+position: 3935,15828
+---
+<<set $gregg_laptop to 1>>
+GreggLaptop: Hey Mann.  #line:6c4c5b
+GreggLaptop: nette Nachrichten letzte Nacht #line:757e65
+GreggLaptop: ich meine wie... wirklich #line:438708
+GreggLaptop: du riesiger Depp lol #line:fa7e62
+GreggLaptop: Bandprobe heute #line:229572
+GreggLaptop: weil ich das Gefuehl habe, dass wir etwas Normales machen muessen #line:3d608e
+GreggLaptop: ich bin im Snalcon #line:49bba6
+GreggLaptop: hoffe es geht dir gut #line:2651e8
+GreggLaptop: aufrichtig, greggory #line:bf30f2
+===
+title: AngusMessages_A4D3
+tags:
+colorID: 5
+position: 3942,16090
+---
+<<set $angus_laptop to 1>>
+AngusLaptop: -abwesende Nachricht- es ist gut, heute Morgen am Leben zu sein. Das war's schon. #line:062ebe
+===
+title: BeaMessages_A4D3
+tags:
+colorID: 5
+position: 3940,16360
+---
+<<set $bea_laptop to 1>>
+BeaLaptop: Hey Mae. #line:f93eea
+BeaLaptop: Geht es dir heute Morgen gut? #line:887f52
+BeaLaptop: Ich werde die Spitzhacke heute nicht oeffnen. #line:2e6e7d
+BeaLaptop: Gregg teilt mir mit, dass wir trotzdem mit der Band ueben werden. #line:a0adc5
+BeaLaptop: Ich werde dich dort sehen. #line:b0131e
+======= #line:6ab359
+title: Node46 #line:f0d231
+tags: empty #line:8ba340
+colorID: 0 #line:1543d6
+position: -2421,16462 #line:784db5
+--- #line:e7643f
+Empty Text #line:97bd30
+===
+title: ChattrBox_A1D2
+tags:
+colorID: 2
+position: -3744,14930
+---
+ChattrBox: Bright Harbor Gazette - Bildungsministerin: "Oeffentliche Schulen zu haben ist wie oeffentliche Hamburger zu haben. That's insane. Jeder sollte seine eigenen Hamburger kaufen." #line:a14ae5
+===
+title: ChattrBox_A2D2
+tags:
+colorID: 3
+position: -3497,15178
+---
+ChattrBox: SCIENCE BEAT - Jobs koennen nicht seelenzerfetzend sein, weil es keinen Beweis fuer die Existenz von Seelen gibt. #line:38d25b
+===
+title: ChattrBox_A1D3
+tags:
+colorID: 2
+position: -3495,14932
+---
+ChattrBox: Tipps fuer den Schulanfang: TextBuecher in Alufolie verpacken. Tu es einfach. #line:457614
+===
+title: ChattrBox_A4D3
+tags:
+colorID: 6
+position: -3755,15723
+---
+ChattrBox: WEATHER SERVICE - Schnee in der Vorhersage! Sind Sie bereit fuer das, was auf Sie zukommen wird? #line:bae7fa#line:bae7fa
+===
+title: ChattrBox_A2D3
+tags:
+colorID: 3
+position: -3249,15183
+---
+ChattrBox: Home Dome - Hat die Hypothek Sie erwischt? Neue App erlaubt es Ihnen, Ihr Badezimmer als oeffentliche Toilette zu vermieten! #line:dd855d
+===
+title: ChattrBox_A2D4
+tags:
+colorID: 3
+position: -2981,15184
+---
+ChattrBox: Geisterkuerbis: Der weltgroesste Kuerbis "Brock" fuehrt zu den Toten? #line:e047b6
+===
+title: ChattrBox_A3D1
+tags:
+colorID: 5
+position: -3752,15447
+---
+ChattrBox: Bright Harbor Post - Bringt der Herbst Sie heimlich um? #line:5f0539
+===
+title: ChattrBox_A3D2
+tags:
+colorID: 5
+position: -3492,15445
+---
+ChattrBox: Wissenschaftler: "Steigender Meeresspiegel wird die Haeufigkeit von Haiangriffen aus offensichtlichen Gruenden erhoehen" #line:60d177
+===
+title: ChattrBox_A3D3
+tags:
+colorID: 5
+position: -3247,15451
+---
+ChattrBox: Techonomy Today: TurnUP-Gruender Mike Eggplant will Postdienst kaufen #line:fad05a
+===
+title: ChattrBox_A3D4
+tags:
+colorID: 5
+position: -2989,15452
+---
+ChattrBox: SCIENCE BEAT - Neue Forschung zeigt, dass die Dinge nicht notwendigerweise so schlecht sein muessen, wie sie sind #line:3cfd14
+===
+title: EnterLevel_A2D2
+tags:
+colorID: 3
+position: -2047,15511
+---
+<<if $night>>
+    <<if $did_gregg_friendship_quest_2 is 0>>
+        <<set $angus_laptop to 2>>
+    <<endif>>
+<<endif>>
+===
+title: GreggLaptop_A3D2
+tags: temp
+colorID: 4
+position: 928,15931
+---
+<<set $gregg_laptop to 2>>
+Mae: hey hey hey #line:18837f
+GreggLaptop: yo yo yo #line:69e875
+<<if $did_gregg_investigation_quest_on_a3d2>>
+	Mae: Wie geht es deinen Schienbeinen? #line:9b07ec
+	GreggLaptop: oh, denen geht's gut. Ich springe die ganze Zeit von Feuerleitern im zweiten Stock. #line:8a1135
+	GreggLaptop: nein, eigentlich tun sie hoellisch weh #line:54cb8b
+	GreggLaptop: hast du eigentlich gefunden, wonach du gesucht hast? #line:7dabe3
+    	->uh. Ich glaube, er hat uns gefunden. #line:67fc38
+    	->Mann wir haben eine Menge gefunden #line:4906fb
+    		Mae: das Kartending, der gruselige Roboter #line:8cc59c
+    		Mae: die seltsame schlechte Kunst auf dem Dachboden #line:549167
+    		Mae: die verrueckte Menge an Aufzuegen #line:152690
+    		Mae: und! Der! Geist! #line:6b0b5f
+	GreggLaptop: der Hausmeister, der an diesem historischen Robotertyp gearbeitet hat? #line:51712e
+	Mae: Greggggggggggor #line:c82a88
+	GreggLaptop: hoer zu, ich weiss, dass Hausmeister existieren, also #line:79abea
+	GreggLaptop: das bedeutet, es gibt eine zillion Prozent mehr Chance #line:51a0d7
+	GreggLaptop: es war ein Hausmeister und kein Geist. #line:f8d052
+	Mae: Ich *fuehlte* es, Alter. #line:b3c2cd
+	//No more owl
+	//GreggLaptop: well I felt getting attacked by an owl
+	//GreggLaptop: maybe the owl was stalking us inside there
+	GreggLaptop: ich frage Angus, ob das passieren konnte #line:f6edbc
+	<<wait 3>>
+	GreggLaptop: Er antwortet nicht. #line:2ac9a6
+	Mae: in Ordnung, ich werde jetzt etwas schlafen. #line:de5887
+	Mae: Danke, dass du mich heute Abend begleitest. #line:ade2ea
+	GreggLaptop: Verbrechen, Mann. #line:6549f3
+	Mae: Verbrechen. #line:d48f2b
+<<elseif $did_angus_investigation_quest_on_a3d2>>
+	Mae: Hey hey #line:d4337f
+	GreggLaptop: Hatten du und Angus eine gute Zeit?????? #line:0ab4ad
+		->hat er dir nicht davon erzaehlt? #line:b5084e
+			GreggLaptop: Ja, hat er. #line:5fdb31
+		->Ja, es war toll, bis es super gruselig war!!! #line:67ad77
+	GreggLaptop: ihr habt einen komischen Creepo gesehen, hm #line:6973ef
+	Mae: Ja. Es war wieder der verdammte Geist!!! #line:c74cae
+	GreggLaptop: warte mal #line:5e5f7a
+	<<wait 2>>
+	GreggLaptop: Angus denkt, es war ein Jaeger. Die Jagdsaison beginnt in etwa 2 Tagen #line:0b5e64
+	Mae: ach was soll's #line:bc41d6
+	Mae: mach ihn an #line:6ffbd3
+	GreggLaptop: kkkkk #line:c48608
+	<<wait 4>>
+	GreggLaptop: Hey Mae. Angus hier. #line:05a5d9
+	Mae: ALTER! DU HAST IHN MIT DEINEN EIGENEN AUGEN GESEHEN! #line:2601e9
+	GreggLaptop: Ich meine, wir haben einen Kerl gesehen, der sich seltsam benommen hat. #line:15e7ce
+	GreggLaptop: Aber es gibt Leute, die leben da oben im Park #line:73264d
+	GreggLaptop: und es gibt Jagdcamps und so. #line:23a707
+	<<set $angus_laptop to 1>>
+	GreggLaptop: Also war es hoechstwahrscheinlich ein Typ, der frueh auf Bockjagd war. #line:cc3cdb
+	Mae: Mann. Ich mag /felt/ es. #line:eb8819
+	GreggLaptop: Ich weiss. Ich weiss nicht, was ich dazu sagen soll. #line:92d2d7
+	GreggLaptop: Ich glaube, wir haben uns alle drei erschrocken. #line:82969f
+	Mae: Okay, gut. Danke, dass du hingehst und mutig bist und so. #line:363f86
+	GreggLaptop: Jederzeit. Ich hatte Spass! #line:e7612c
+	Mae: du kannst Gregg wieder einschalten. #line:7d4b8c
+	<<wait 3>>
+	GreggLaptop: hey hey hey Mann. #line:413c10
+	GreggLaptop: ich bin ein Kuenstler #line:8be485
+	Mae: hast du gerade Kunst gemacht #line:e77763
+    GreggLaptop: klar doch #line:ab426c
+    GreggLaptop: na gut, ab ins Bett #line:69e3bb
+    Mae: Nacht, Mann. #line:d006b4
+<<else>>
+	Mae: Alter #line:5ea48c
+	GreggLaptop: hey hey hey #line:6aa095
+	GreggLaptop: wie war deine gruselige Nacht #line:049e81
+	Mae: Mann, wir waren auf dem Friedhof #line:c678c1
+	Mae: und wir haben aus Versehen einen Sarg geoeffnet #line:b5ddb5
+	Mae: es war total wie die Leiche des Geistes #line:4a16dd
+	Mae: oder... du weisst, was ich meine #line:c8a395
+	GreggLaptop: WHOOOAAA!!! #line:004ec0
+    Mae: und es war wie verdammt verrueckt #line:e92bc9
+	GreggLaptop: Hast du deinen Geist gesehen! #line:2351ac
+	Mae: ICH HABE ES TAT!!! #line:8d44b9
+	Mae: muss auf der richtigen Spur sein #line:b6c715
+	GreggLaptop: der Typ ist wahrscheinlich sauer, dass du an seinem Grab rumgepfuscht hast #line:5facfa
+	Mae: oof. Du hast ja recht. #line:952f58
+	Mae: wie auch immer. #line:582eb5
+	GreggLaptop: ok ich gehe ins Bett. #line:b525e2
+	GreggLaptop: gute Arbeit bei... all dem. #line:4bfafe
+	Mae: du weisst es, Mann #line:d2ce69
+	GreggLaptop: verdammt gute Nacht brah #line:9ddaff
+	Mae: verdammt gute Nacht #line:83c76f
+<<endif>>
+===
+title: AngusLaptop_A3D2
+tags:
+colorID: 4
+position: 931,16219
+---
+<<set $angus_laptop to 2>>
+AngusLaptop: hey mae hier ist gregg #line:07229e
+AngusLaptop: du und Angus reden auf meinem Computer #line:121bac
+AngusLaptop: oh hey ich bin Angus ich bin so schlau und habe einen tollen Arsch #line:c25ad0
+AngusLaptop: blah blah blah ihr 2 redet zu viel #line:d2771c
+AngusLaptop: warte ich zeichne ihm eine schmutzige Nachricht in das Malprogramm #line:51f88b
+AngusLaptop: es ist ein Schwanz mit seinem Hut drauf und einem Smiley #line:9df3f9
+AngusLaptop: ich weiss nicht, was es ueberhaupt bedeutet #line:235381
+AngusLaptop: sieht so aus, als wuerdet ihr 2 einpacken #line:37bcc1
+AngusLaptop: Friede sei mit euch #line:267167
+AngusLaptop: Hey Mae, ich bin's, Angus. #line:d3f6ab
+AngusLaptop: Du und Gregg unterhaltet euch. #line:81fc8b
+AngusLaptop: Ich kann bestaetigen, dass dieses Bild irgendwie verblueffend ist. #line:1c0a42
+AngusLaptop: Gute Nacht. #line:f47bbf
+===
+title: EnterLevel_A3D2
+tags:
+colorID: 4
+position: 885,15679
+---
+<<if $night>>
+    <<set $angus_laptop to 2>>
+<<endif>>
+===
+title: BeaLaptop_A3D2
+tags:
+colorID: 4
+position: 917,16505
+---
+<<set $bea_laptop to 2>>
+Mae: Hey Bea. bist du wach? #line:3b57af
+BeaLaptop: Bin ich sehr wohl. #line:5d9d49
+BeaLaptop: macht Rechnungen und isst einen gegrillten Kaese. #line:055b3e
+BeaLaptop: was ist los? #line:bfe786
+<<if $did_bea_investigation_quest_on_a3d2>>
+	Mae: Hey, tut mir leid, dass ich den Friedhof irgendwie ruiniert habe #line:3f2d17
+	Mae: Ich weiss, das ist nichts, was du normalerweise tun wuerdest #line:702434
+	BeaLaptop: ist schon gut. Ich weiss, du wolltest es nicht. #line:cbd0f0
+	BeaLaptop: ich meine, was ist schon eine Grabschaendung oder zwei #line:aa82b7
+	Mae: wie waere es mit diesem Geist ↪So???? #line:235846
+	BeaLaptop: mae ernsthaft, es war der Hausmeister. #line:e31111
+		-> !!!! #line:c8366c
+			Mae: BEA! #line:cbcf8a
+			BeaLaptop: was? #line:d6928b
+			Mae: er war GERADE DA! #line:5231d4
+			Mae: es war genau derselbe Kerl wie neulich Abend! #line:251cd7
+			BeaLaptop: es war ein ganz normaler Kerl! #line:8c162d
+		-> !?!?!? #line:058e1e
+			Mae: Ich dachte du glaubst an Geister! #line:3fe987
+			BeaLaptop: Tue ich auch! Irgendwie! Denke ich! #line:14a8fa
+			Mae: warum kann das nicht ein Geist gewesen sein? #line:0d676d
+			BeaLaptop: ich nehme einfach nicht an, dass jede Person ein Geist ist! #line:e61c4b
+			Mae: jeder koennte ein Geist sein! #line:c8e415
+			BeaLaptop: bin ich ein Geist, Mae? #line:4c88e0
+			Mae: oh, das wuerde dir gefallen, nicht wahr. #line:a845c4
+			Mae: verfolgt mich einfach fuer immer. #line:322765
+			BeaLaptop: ich wuerde dich zumindest zwingen, fahren zu lernen. #line:748036
+			BeaLaptop: Aber trotzdem- #line:17e9bc
+	BeaLaptop: Wie konntest du ihn denn ueberhaupt erkennen? Es war so neblig! #line:26c35c
+	Mae: Ich konnte es erkennen, ok. Ich konnte es /fuehlen/. #line:90e6d4
+	BeaLaptop: ehrlich gesagt hatten wir Glueck, dass es so neblig war #line:d9dd58
+	BeaLaptop: sonst haette er uns bei der Polizei identifizieren koennen #line:15351e
+	Mae: AAAAAAAAAAAAAAAAAAAGH!!!! #line:a15520
+	Mae: schoen und gut. #line:713a76
+	BeaLaptop: es tut mir leid, dass ich dich wuetend gemacht habe!! #line:c24b55
+	Mae: ist schon gut. Es ist in Ordnung. #line:24554b
+	Mae: danke, dass du mit mir gehst. #line:37920e
+	BeaLaptop: Ich bin gefahren. Du bist mit mir gekommen. #line:52d376
+	Mae: Ok, danke fuers Mitnehmen. #line:f53e5c
+	BeaLaptop: Gern geschehen. #line:0ccde6
+	BeaLaptop: Schlafen Sie etwas. Du hast es noetig. #line:62aa35
+	Mae: das brauche ich wirklich. #line:d20a0e
+	Mae: Nacht Mann #line:d944b8
+	BeaLaptop: gute Nacht! #line:e3ca58
+<<elseif $did_gregg_investigation_quest_on_a3d2>>
+	Mae: war bei der historischen Gesellschaft #line:2f0a9a
+	BeaLaptop: oh, wie war's? #line:fa2464
+	Mae: aeh wir wurden definitiv von einem Geist gejagt #line:cce8fd
+	BeaLaptop: wirklich? #line:862900
+	BeaLaptop: warte, ich schreibe Gregg eine SMS, um das zu bestaetigen. #line:c7616d
+	Mae: warum musst du es bestaetigen! Vertraust du mir nicht??? #line:d121ac
+	BeaLaptop: sorry, ich brauche eine zweite Meinung. #line:129fea
+	<<wait 4>>
+	BeaLaptop: Gregg sagt, es war wahrscheinlich ein Hausmeister oder so. #line:9a5b3a
+	Mae: UUUUUUUUGH. #line:940d23
+	Mae: ok. Ich gehe ins Bett. #line:6d5391
+	BeaLaptop: geh nicht wuetend ins Bett. Du wirst schlechte Traeume haben. #line:0ea2d5
+	Mae: Danke. #line:0e5f74
+	BeaLaptop: Gute Nacht, Mae. #line:72739a
+<<else>>
+    // angus IQ
+	Mae: ging mit Angus in den Park #line:111469
+	BeaLaptop: wie ist es gelaufen? #line:5d157a
+	Mae: es war lustig, bis es gruselig wurde. #line:8dc021
+	BeaLaptop: wie das? #line:caace0
+	Mae: wir haben auf jeden Fall den Geist im Wald gesehen. #line:583a77
+	BeaLaptop: WIRKLICH? Angus hat das gesehen? #line:a50d94
+	Mae: hat er! #line:199be2
+	BeaLaptop: wow ok. Warte mal. Ich schreibe Angus eine SMS. #line:497aed
+	Mae: warum? #line:cddbf3
+	BeaLaptop: Angus ist ein aergerlich schriller Atheist. #line:26e14b
+	BeaLaptop: er glaubt nicht an Geister. #line:9453a7
+	Mae: warum kannst du mich nicht einfach beim Wort nehmen. #line:098434
+	BeaLaptop: warte mal #line:b23d40
+	<<wait 4>>
+	BeaLaptop: er sagte, es war wahrscheinlich ein Jaeger #line:1a9fc5
+	Mae: AAAAAAAAAAAGH. #line:d24960
+	Mae: ok was auch immer. #line:96d7d1
+	BeaLaptop: Entschuldigung. Wenn du mich fragst, ich glaube dir *nicht*. #line:331ba0
+	Mae: Danke. #line:b1fec5
+	BeaLaptop: hattest du sonst eine gute Zeit? #line:3b5d5e
+	Mae: ja. Habe eine Menge ueber Angus gelernt. #line:0cd793
+	Mae: er hat ein ziemlich hartes Leben gehabt? #line:e519bc
+	BeaLaptop: oh ja. Das hat er definitiv. #line:1d7e45
+	Mae: warte, woher weisst du das? #line:ae215f
+	BeaLaptop: aeh, weil Angus und ich schon seit der 8. Klasse befreundet sind? #line:653e67
+	Mae: Oh ja. Hatte ich vergessen. #line:ee5735
+	BeaLaptop: Du bist nicht der Klebstoff, der uns alle zusammenhaelt. Angus ist es irgendwie. #line:50884e
+	BeaLaptop: er ist der gemeinsame Nenner. Ich und Gregg haengen nicht zusammen rum. #line:55a1af
+	Mae: hm. Angus ist gut. #line:7e46ea
+	BeaLaptop: ist er. #line:3f821e
+	Mae: ok ich werde schlafen gehen. #line:8127fa
+	BeaLaptop: ttyl #line:34018f
+<<endif>>
+===
+title: GreggMessages_A3D3
+tags:
+colorID: 4
+position: 1442,15953
+---
+<<set $gregg_laptop to 1>>
+GreggLaptop: hey dude #line:6297a1
+GreggLaptop: beim alten Snalcon #line:b3ebe1
+GreggLaptop: komm und rette mich vor der obersten Langeweile #line:b1e1b0
+GreggLaptop: aufrichtig, greggory #line:267da5
+===
+title: AngusMessages_A3D3
+tags:
+colorID: 4
+position: 1449,16230
+---
+<<set $angus_laptop to 1>>
+AngusLaptop: -Abwesenheitsnachricht- "Planeten sind zu bemitleiden, da sie nicht wissen koennen, wie gross und cool sie sind" - Dr. Cathy Conklin, Nationale Astronomiebehoerde #line:f5bdfc
+===
+title: BeaMessages_A3D3
+tags:
+colorID: 4
+position: 1448,16491
+---
+<<set $bea_laptop to 1>>
+BeaLaptop: Morgen. An der Spitzhacke, wenn Sie heute in der Stadtmitte sind. #line:677e3b
+BeaLaptop: Ich weiss nicht einmal, warum ich das sage. Du bist doch jeden Tag im Stadtzentrum. #line:422105
+BeaLaptop: Egal. Wir sehen uns spaeter. #line:0a6fbd
+===
+title: GreggLaptop_A3D3
+tags:
+colorID: 4
+position: 1733,15951
+---
+<<set $gregg_laptop to 2>>
+<<if $did_gregg_friendship_quest_4>>
+	Mae: hey mann #line:2cfc79
+	GreggLaptop: hey #line:bfa8d5
+	Mae: tut mir alles leid #line:9a4f6a
+	GreggLaptop: entschuldigen wir uns immer noch? #line:612ea7
+	GreggLaptop: koennen wir diesen Teil hinter uns lassen? #line:d34318
+	Mae: ha ha sorry #line:389556
+	Mae: ich meine #line:7ca4cb
+	Mae: du weisst schon #line:15242d
+	GreggLaptop: ha ha ha ha ha ah #line:b681e6
+	GreggLaptop: Nacht Mann #line:405689
+	Mae: Nacht #line:038369
+<<else>>
+    Mae: hey kiiiid #line:60f182
+    Mae: ging zu einer Party #line:bb54cb
+    Mae: tanzte auf einer Party #line:d34576
+    Mae: lief im Regen herum #line:0187e0
+    <<if $cool_party_girl>>
+    	Mae: traf ein heisses Maedchen #line:8d59dd
+    	Mae: hab ihre Nummer nicht gekriegt #line:f39623
+    	Mae: sie ist eine Sexbombe #line:aef41a
+    <<endif>>
+    GreggLaptop: wow. Klingt nach einer tollen Nacht #line:2881b9
+    Mae: es war eine gemischte Tuete #line:dc55ab
+    Mae: aber alles in allem wuerde ich wieder feiern #line:07b229
+    GreggLaptop: wir muessen 2 weitere Partys machen #line:4f6be5
+    Mae: du hast sehr recht #line:9b54f8
+    Mae: na gut, ich gehe ins Bett #line:09f8cf
+    GreggLaptop: bis spaeta #line:4cb3f9
+<<endif>>
+===
+title: BeaLaptop_A3D3
+tags:
+colorID: 4
+position: 1725,16232
+---
+<<set $bea_laptop to 2>>
+<<if $did_gregg_friendship_quest_4>>
+	Mae: Hey hey bea. Bist du wach? #line:f2dfbc
+	BeaLaptop: Ja Ma'am. #line:31bc06
+	BeaLaptop: was ist los? #line:559853
+	Mae: nichts. #line:005b90
+	Mae: ein bisschen krank vom Donut-Wolf #line:f42220
+	BeaLaptop: ja, deshalb gehe ich da nicht hin. #line:dc8b63
+	Mae: es ist so gut #line:2f5996
+	Mae: wie kann es so gut sein und so... gemein zu dir #line:f0fa9b
+	BeaLaptop: es ist eine wilde Welt, Mae. #line:a78f07
+	Mae: jedenfalls habe ich gekotzt und dann haben wir einen Roboter in den Wald geworfen. #line:0e60e4
+	BeaLaptop: ok. Ich bin zu muede, um das zu entziffern. #line:4d2ebd
+	Mae: geh schlafen #line:4aca52
+	BeaLaptop: ich werde schlafen gehen #line:bc4f9d
+<<else>>
+    Mae: hey du #line:dade47
+    BeaLaptop: hallo ich. #line:2ca911
+    Mae: Ich bin so muede von heute Abend. #line:71b269
+    BeaLaptop: Darauf wette ich. Bist du den ganzen Weg zum Fluss gelaufen? #line:3b6421
+    Mae: Ja. Auf den Daechern und so. #line:9f1fc8
+    Mae: das und das Tanzen haben dich ganz schoen mitgenommen. #line:3df060
+    BeaLaptop: das ist wirklich #line:3bfeb5
+    BeaLaptop: das ist wirklich schoen, Mae. #line:203677
+    BeaLaptop: dass du das gemacht hast. #line:78acc4
+    Mae: aw. Es war nicht nichts #line:8f522a
+    BeaLaptop: geh und schlaf ein bisschen. #line:b26400
+    Mae: ok. Das werde ich tun. #line:2487d2
+    BeaLaptop: danke, dass du mir nachgelaufen bist. #line:32e781
+    Mae: oh ich gehe nie weg. Du wirst mich nie loswerden. #line:46c9e2
+    <<wait 2>>
+    BeaLaptop: I can think of worse fates. #line:3efc81
+<<endif>>
+===
+title: GreggMessages_A3D4
+tags:
+colorID: 4
+position: 2195,15966
+---
+<<set $gregg_laptop to 1>>
+GreggLaptop: hey kid #line:65cb5a
+GreggLaptop: Snack Falkenjagd #line:02bd94
+GreggLaptop: Arbeit Arbeit Arbeit #line:dd9094
+GreggLaptop: bis ich sterbe sterbe sterbe #line:2453dc
+===
+title: AngusMessages_A3D4
+tags:
+colorID: 4
+position: 2200,16198
+---
+<<set $angus_laptop to 1>>
+AngusLaptop: -Abwesenheitsnachricht- “Come pick your fight/ give arrows flight/ you mess with me/ you mess with all of us” - Sehe die Blanktones naechste Woche!!!!!! #line:90569b
+===
+title: BeaMessages_A3D4
+tags:
+colorID: 4
+position: 2202,16412
+---
+<<set $bea_laptop to 1>>
+BeaLaptop: Hallo Mae. #line:147aae
+BeaLaptop: Spitzhacke. Dabei. Ich. #line:e0635c
+BeaLaptop: Du weisst, wie es laeuft. #line:06d950
+===
+title: CaseyAwayMessage
+tags:
+colorID: 0
+position: -4247,17116
+---
+CaseyLaptop: -Abwesenheitsnachricht- | Born 2 Lose| Country Trash Proud| drummer| Sk8 and Destroy| Sk8 2 Cre8| bound for glory #line:270c78
+===

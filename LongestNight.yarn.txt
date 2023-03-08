@@ -1,0 +1,516 @@
+title: Intro
+tags:
+colorID: 0
+position: 79,208
+---
+<<wait 2>>
+<<speechBubbleSizeOverride .75>>
+Mae: Warum ist mir nicht kalt? #line:0b0a25
+Gregg: Feuer. Wir haben ein Feuer. #line:6ae5cb
+Angus: Wir haben diese Stufe als Zivilisation erreicht. #line:177b30
+Mae: Oh. #line:0049f1
+Mae: Ich bin booooooored. Fuehlt sich an, als waeren wir schon ewig hier gewesen. #line:67a6a3
+Bea: Oh! Wir sollten das mit der Longest Night Konstellation machen! #line:645c5d
+Mae: Wow! Echt jetzt? #line:8234b9
+Gregg: Das habe ich nicht mehr gemacht, seit ich etwa 6 war. #line:f5ad4e
+Mae: Niemand hat das getan, seit er 6 Jahre alt war. #line:4f8080
+Bea: Nun, ich kann mich nicht daran erinnern, 6 gewesen zu sein. #line:dc8c0a
+Mae: Wirklich? #line:a2596e
+Gregg: Wirklich? #line:6cc063
+Bea: Ja, ich erinnere mich nicht an viel vor 8 und halb. #line:273e4a
+Angus: Das ist sehr spezifisch. #line:a5bcbf
+Gregg: Bea ist eine synthetische Lebensform, die im Alter von 8,5 Jahren erschaffen wurde. #line:9a90a5
+Mae: Das macht so viel Sinn. #line:0bd1d0
+Mae: **Beep boop, Bea.** #line:7103d1
+Gregg: **EINE EINS NULL EINE EINS ok was auch immer ich bin fertig #line:1a6f0a
+Bea: Koennen wir das Ding einfach machen? #line:54ee2d
+Gregg: Keiner von uns weiss genug ueber die Konstellationen, um es ueberhaupt zu machen, BEA. #line:8690ca
+Mae: Ja, BEA. #line:96276f
+<<close>>
+<<wait 2>>
+Angus: Ich weiss es. #line:33b99d
+Gregg: Seit wann? #line:c8c140
+Angus: Seit immer. #line:d78e0f
+Angus: Hoert zu ihr Dummkoepfe, wir gehen zur Schule. #line:983376
+Bea: Weltraumschule! #line:63c209
+<<close>>
+<<tell ConstellationWheel to ZoomOut>>
+<<wait 4>>
+<<speechBubbleSizeOverride 0>>
+Bea: Ich kann nichts sehen. #line:344078
+Angus: Wir sind Muster-Sucher. Finde ein paar Muster! #line:786245
+<<close>>
+<<tell ConstellationWheel to ShowStars>>
+===
+title: End
+tags:
+colorID: 0
+position: 480,99
+---
+Angus: Nun, das sind alle 13 von ihnen. #line:e9ccb9
+Bea: Juhu! Danke Angus! #line:767867
+Mae: Das war ziemlich toll! #line:664bb4
+Gregg: Du bist ein grosser Nerd, Cap'n. #line:d05243
+Angus: Ja. #line:03ec2e
+Angus: Ja, das bin ich. #line:730692
+Gregg: Du solltest ein Professor sein. #line:ce11e8
+Angus: Ich denke, dass ich diese Rolle in der Videothek ausfuelle. #line:ddfb03
+Bea: Nun, ich sollte wahrscheinlich nach Hause gehen. #line:5f9d82
+Mae: Warte. #line:9e5811
+Mae: Mir ist gerade klar geworden, dass ich seit Jahren nichts mehr mit dir unternommen habe, Bea. #line:e556b5
+Bea: Was ist? #line:ff5bc0
+[Ja, nicht seit der 7. Klasse? #line:b81d59
+[Wir hatten einen riesigen Streit, als wir 12 waren!|Kampf]] #line:06565a
+===
+title: Grade
+tags:
+colorID: 0
+position: 798,377
+---
+Bea: Ich erinnere mich. Ich war dabei. Du warst ein riesiger Idiot. #line:ab7085
+Mae: Aber warum bin ich mit dir bei einem Lagerfeuer der laengsten Nacht? #line:1bb040
+Bea: Weil du mich einfach so sehr vermisst hast. #line:aa25d2
+[[TheVeryEnd]]
+===
+title: Fight
+tags:
+colorID: 0
+position: 480,378
+---
+Bea: Ich erinnere mich eher daran, dass du nicht mehr mit mir zu Mittag gegessen hast #line:3eb766
+Bea: oder meine Telefonanrufe beantwortest #line:8af59e
+Bea: oder auf Nachrichten zu antworten. #line:f258f8
+Bea: Immer mit Gregg, zu cool fuer mich. #line:4a4b3e
+Gregg: Tut mir leid, Bea. Wollte nicht die Freundschaft zerstoeren. #line:5d5281
+Bea: Ist schon gut, Gregg, das ist schon ewig her. #line:fbb863
+[[TheVeryEnd]]
+===
+title: TheVeryEnd
+tags:
+colorID: 0
+position: 700,625
+---
+Mae: Warte mal. Sind wir tatsaechlich im Weltraum? #line:ac0714
+Angus: ... #line:57b04e
+Mae: Aber mir ist warm. Und atme? #line:022882
+Mae: Worauf sitze ich denn? #line:0ddee9
+Angus: Tyrannosaurus-Muster. #line:d75088
+Mae: Was? #line:a2248b
+Mae: Oh Gott... Ich habe Gregg und Angus seit eineinhalb Jahren nicht mehr gesehen. #line:3fed20
+Gregg: Bedauern und Leere! #line:68167b
+Mae: Ich bin fuer die laengste Nacht nicht nach Hause gegangen. #line:03e499
+Bea: Waeschetag! #line:301be4
+Gregg: Apfelsaftgeschmack von vorhin, als du dich uebergeben hast. #line:09d274
+Bea: Du musst zu Hause anrufen. #line:0be094
+Gregg: Du willst nicht zu Hause anrufen. #line:d90818
+Angus: Es ist zu spaet, um den Bus zu nehmen. #line:764055
+Bea: Warum hast du heute an mich gedacht? #line:d2072b
+Gregg: Du willst doch nicht den Bus nehmen. Das ist dein neues Leben. #line:68d435
+Bea: Ist es nach eineinhalb Jahren immer noch neu? #line:b437b7
+Angus: Unterwaesche anpassen! #line:d7aad6
+Gregg: Naechstes Jahr wird sie wieder neu sein. #line:bc95a2
+Bea: Naechstes wirst du wieder neu sein. #line:ac344e
+Angus: Beine strecken! #line:d2abbf
+Mae: Oh COME ON, das wird langsam bloed. Bin ich ernsthaft #line:351855
+<<close>>
+<<tell LongestNight to End>>
+===
+title: MaeAlarm
+tags:
+colorID: 0
+position: 687,907
+---
+Mae: Nun, das Haus wird sich nicht selbst anrufen... #line:55926c
+===
+title: ConstellationAngelGator
+tags:
+colorID: 0
+position: 1230,160
+---
+Angus: Harmonium, das Oberhaupt der singenden Engelsorden. #line:ce7371
+Bea: Igitt. Das hier. #line:8fd115
+Bea: Meine Mutter hat immer gesagt, ich saehe aus wie die hier. #line:884918
+Mae: Ich kann es sehen! #line:ad10ff
+Bea: Ich kann es sicher nicht. #line:2d683d
+Mae: So viele schrullige Engel zu fuehren #line:597c0f
+Bea: ... #line:d8cc6b
+Mae: heftig grummelnd #line:41e77f
+Bea: ... #line:2e1706
+Mae: ueber den Himmel. #line:8c7a37
+Bea: ok. #line:7ac003
+Angus: Mooooooving on... #line:ba44a0
+===
+title: ConstellationBearKing
+tags:
+colorID: 0
+position: 1486,163
+---
+Angus: Marmanodes, der kleine Koenig. #line:78a1f4
+Angus: Er war... aehm... ein Koenig, der klein war? #line:01c3ab
+Angus: Ich weiss nichts ueber ihn. #line:6527a9
+Bea: Anscheinend war ein kleiner Koenig damals eine grosse Neuigkeit. #line:f6c160
+Bea: Ich glaube nicht, dass er ueberhaupt so klein sein sollte. #line:3bd677
+Angus: "Stop the presses!" #line:1fb061
+Bea: "Also gibt es diesen Koenig, richtig?" #line:364196
+Bea: "Aber hoer dir das an - er ist etwas kleiner als du erwarten wuerdest." #line:e1721c
+Angus: "Er traegt kleine Schuhe! Lass uns ihn im Nachthimmel verewigen!" #line:cf3fdb
+Mae: Ich bin ein bisschen klein! #line:ae4ae4
+Gregg: Mae Borowski: Sternbild. #line:fa75c5
+Bea: Naw. #line:d2686c
+Bea: Jeder, der die Konstellationen gewaehlt hat, ist jetzt tot. #line:a56feb
+===
+title: ConstellationBell
+tags:
+colorID: 0
+position: 1755,167
+---
+Angus: Tollmetron. #line:d81ea7
+Angus: Es klingelt am Ende der Welt #line:d5e330
+Angus: und Mundy schuettelt alles von ihrem Ruecken #line:d6bde6
+Angus: und ich glaube, es faengt auch alles Feuer. #line:1aae22
+Gregg: Damals hat das alles noch Sinn gemacht. #line:8db59c
+Mae: Damals, als die Leute noch verdammt dumm waren. #line:b11e33
+Bea: Ja, ich will nicht wie ein Idiot klingen, aber die Leute waren damals super dumm. #line:290ca4
+Angus: Das ist alles relativ. #line:76eebe
+Mae: Und voll von dummen Menschen. #line:021de2
+Angus: Schoene, dumme Menschen. #line:33b511
+===
+title: ConstellationBirdPope
+tags:
+colorID: 0
+position: 2048,162
+---
+Angus: Rubello, Papst irgendwann in den 1400ern. Verrueckte Zeiten. #line:7e0dd4
+Bea: Oh Gott, ich liebe das hier. #line:4f0770
+Angus: Es gab zwei rivalisierende Paepste #line:f5138c
+Angus: und Rubello gewann, indem er seinen Mund oeffnete #line:1284e3
+Angus: und sie mit Feuer verzehrte. #line:0e9a6b
+Angus: und dann ass er sie. #line:2b182d
+Mae: WAS #line:ee3464
+Bea: BWAAAAAAAAAH #line:dbbb6d
+Gregg: Das wusste ich doch! #line:7f665d
+Mae: Das ist erstaunlich. #line:5e4815
+Angus: Ich meine historisch gesehen hat seine Grossfamilie einen vergiftet #line:bbfbb5
+Angus: und den anderen erstochen, bevor er in einen Kanal geworfen wurde #line:596536
+Bea: Aber er hat sie gegessen. #line:671089
+Angus: Er hat sie gegessen, ja. #line:4f100e
+Mae: Das ist das Tollste, was ich je gehoert habe. #line:e0e976
+Bea: CHOMP CHOMP hoppla, ich habe dich gegessen. Jetzt bin ich der Papst. #line:80bf2a
+===
+title: ConstellationBrokenSnake
+tags:
+colorID: 0
+position: 2326,189
+---
+Angus: Die Gebrochene Schlange, das erste Ding, das gesprochen hat. #line:8c83ed
+Bea: Diese Geschichte hat mich immer so genervt. #line:9c6a28
+Mae: Ich war genau das Kind in der Sonntagsschule, das wegen dieser Geschichte einen Anfall bekam. #line:53a639
+Bea: Oh mein Gott ich erinnere mich daran! #line:865291
+Bea: Du wurdest in die Erwachsenenkirche geschickt, um bei deinen Eltern zu sitzen! #line:20288c
+Mae: Kein Punsch und Kekse fuer mich! #line:955b4f
+Gregg: Wow, das habe ich wohl alles verpasst. #line:b5e0ab
+Angus: Oh Mann, du hast nicht mal. #line:07a114
+===
+title: ConstellationCatBurglar
+tags:
+colorID: 0
+position: 2650,155
+---
+Angus: Corvin, der Dieb. #line:554996
+Angus: Hat den Diamanten aus der Krone von Rubello, dem feuerspeienden Papst, gestohlen. #line:8398df
+Angus: Wurde etwa 200 Fuss vom Palast entfernt mit einem Pfeil zu Tode geschossen. #line:020e84
+Mae: Also wurde er nicht zum Sternbild, weil er ein grosser Dieb war. #line:27395d
+Bea: Hat er nicht. #line:a0616a
+Gregg: Scheiss auf den Mann. Stiehl ihre Diamanten. #line:db5c04
+ALLE: Scheiss auf den Mann. #line:51b35f
+Bea: Ah ja, der revolutionaere Eifer von Kindern aus den Vorstaedten. #line:4355e1
+Mae: Possum Springs ist nicht die Vorstadt! #line:768412
+Angus: Ja, man braucht eine Stadt, um Vorstaedte zu haben. #line:ce0e9a
+Mae: Wir sind in der Mitte von Nirgendwo. #line:e719d4
+Mae: Es ist eine 40-minuetige Fahrt, wenn du Schuhe kaufen willst. #line:a7b9ef
+Angus: Ausserdem bin ich 21! Ich bin kein Kind mehr! Ich glaube, du bist juenger als ich! #line:46c2eb
+Gregg: Ich bin auch 21. Wir haben beide Vollzeitjobs. #line:0d2b7e
+Angus: Na ja, so gut wie Vollzeit, wie es geht #line:27a72b
+Angus: bevor sie anfangen muessen, uns eine Krankenversicherung zu geben. #line:b659ee
+Mae: Ich werde in etwa 4 Monaten 20! #line:e10b76
+Bea: Ok FINE. Ihr seid alle sehr ernsthafte Erwachsene. #line:d28f76
+Angus: Dankeschoen. #line:7b0f68
+Gregg: Ja, ich danke dir. #line:742057
+===
+title: ConstellationCatKing
+tags:
+colorID: 0
+position: 1523,462
+---
+Angus: Harmonium, das Oberhaupt der singenden Engelsorden. #line:e97435
+Bea: Nett von ihnen, uns einen Knochen zuzuwerfen. #line:7eb970
+Bea: Ein wirklich herablassender, langweiliger Knochen. #line:6ed2a7
+Angus: Ja, weiter geht's... #line:87add8
+===
+title: ConstellationDeadFox
+tags:
+colorID: 0
+position: 2768,682
+---
+Angus: Lucio! #line:39c4ac
+Gregg: Oh ja! #line:0cf671
+[[Wer?|FoxWho]] #line:249a45
+[[Was?|FoxWhat]] #line:8ca27b
+===
+title: ConstellationFish
+tags:
+colorID: 0
+position: 2400,675
+---
+Angus: Ein Fisch. #line:234885
+Mae: ...und? #line:7bcb51
+Angus: Nur ein Fisch. Ziemlich selbsterklaerend. #line:138c84
+Bea: Huh. #line:e8b284
+Angus: Spassfakt: Fisch ist mein Zeichen. #line:9926c5
+[[Ich glaube, das bedeutet, dass du anpassungsfaehig bist und stinkst.|FishAdaptable]] #line:ed7277
+[[Ich denke, das bedeutet, dass du in allen Dingen ein Versager bist.|FishFailure]] #line:bd3b4d
+===
+title: ConstellationFluteBird
+tags:
+colorID: 0
+position: 1903,845
+---
+Angus: Invenerus, der Erfinder der Musik. #line:8b018c
+Bea: Schoener Schnabel. Erinnert mich an Germ. #line:2909a9
+Angus: Ha ha. #line:c6fb07
+Gregg: Germ ist nicht mal musikalisch. Ueberhaupt nicht. #line:3b5a03
+[[Who?|BirdWho]] #line:a40a59
+[[Germ?|BirdGerm]] #line:0c94b5
+===
+title: ConstellationGatorHead
+tags:
+colorID: 0
+position: 2107,1481
+---
+Angus: Aehm... Quinona. Hingerichtet von irgendeinem Koenig irgendwo. #line:78a5d4
+Angus: Ihr Kopf hat noch jahrelang gegen ihre Moerder gesprochen. #line:e2e123
+Mae: Das ist ziemlich suess. #line:9901ee
+Bea: Ugh. Das sollte man meinen, oder? #line:67f639
+Bea: Aber in der Geschichte wird sie als nervig dargestellt. #line:392f86
+Bea: als waere sie eine Maertyrerin #line:39fc3f
+Bea: um buchstaeblich zum Maertyrer zu werden. #line:7f586f
+Bea: Schliesslich steckten sie ihren Kopf in eine Truhe und warfen ihn in einen Fluss. #line:74c2fd
+[[Geez!|GatorHeadGeez]] #line:9d4c4b
+[[Was hat sie getan?|GatorHeadWhatDidSheDo]] #line:a5471a
+===
+title: ConstellationGoat
+tags:
+colorID: 0
+position: 2953,1721
+---
+Angus: Ibon, die erste Saengerin. #line:4d9916
+Bea: Hast du die Oper gesehen, die darauf basiert? #line:1a4be7
+[[Nein?|GoatNo]] #line:41c054
+[[Oh yeah!|GoatOhYeah]] #line:1e2cde
+===
+title: ConstellationMouseWriters
+tags:
+colorID: 0
+position: 3615,1682
+---
+Angus: Die Maeuse-Schriftsteller, Erfinder der geschriebenen Sprache. #line:d69025
+Bea: Sollte es nicht Tausende von ihnen geben? #line:14c638
+Mae: Hoer zu, es gibt nur so viel Himmel. #line:7a60ac
+Gregg: Die Maeuseschreiber sind mein Zeichen. #line:ed74b1
+[[Ich denke, das bedeutet, dass ihr tausende von Genies seid.|MouseWritersGeniuses]] #line:936af8
+[[Ich glaube, das bedeutet, dass du am Arsch bist.|MouseWritersScrewed]] #line:b6c1be
+===
+title: ConstellationWhale
+tags:
+colorID: 0
+position: 1741,1448
+---
+Angus: Mundy, der Weltfisch. Damals dachte man, Wale seien Fische. #line:c510e3
+Angus: Und du weisst, dass die Welt auf der Eins war. #line:200d5b
+Mae: Mundy ist mein Zeichen. #line:fab8c1
+Bea: Oh Gott. #line:ba8216
+Bea: Natuerlich ist es das. #line:fe6750
+Mae: Hey! Was soll das bedeuten? #line:0e932a
+Gregg: Uuuuuuhm! Wuuuuuuuuuuhm! #line:595073
+Mae: Nun, wenn irgendetwas davon etwas bedeuten wuerde #line:4ff031
+Mae: dann koennte es etwas bedeuten, aber das tut es nicht, also #line:9ca59f
+Mae: ...bedeutet es nicht. #line:8d5044
+Gregg: Uuuuuuuuuhm? Wuuuuuuuuuuuhm? #line:1a106f
+Bea: Uuuuuhmmhm!!! Wuuuuuumhmhmhmhm! #line:973572
+Mae: Was machst du denn da? #line:d7050e
+Gregg: Walgeraeusche. #line:678ba1
+===
+title: FoxWho
+tags:
+colorID: 0
+position: 3063,974
+---
+Gregg: Lucio! Der Fuchs! #line:70ce61
+Gregg: Sie mussten ihn aufspiessen, um ihn am Boden zu halten! #line:9bd84d
+Mae: Warte, ihn am Boden halten? Wie das? #line:d5d0b8
+Gregg: Du weisst schon, ganz allgemein! #line:1fb79e
+[[FoxEnd]]
+===
+title: FoxWhat
+tags:
+colorID: 0
+position: 2765,978
+---
+Gregg: Lucio der Fuchs! #line:009525
+Angus: Die Geissel der franzoesischen Landschaft! #line:d2fa32
+Gregg: Ja, total franzoesisch. Eine totale Geissel. #line:a541d6
+Mae: Warum hat er einen Speer durch ihn hindurch? #line:17df7e
+Gregg: Die Kerze, die doppelt so hell brennt, wird durch die Eingeweide gespiesst! #line:85fc39
+Angus: Wunderschoen. #line:d68436
+[[FoxEnd]]
+===
+title: FoxEnd
+tags:
+colorID: 0
+position: 2767,1275
+---
+Angus: Du kannst sehen, warum dieser so beliebt ist. #line:c5f36e
+===
+title: FishAdaptable
+tags:
+colorID: 0
+position: 2243,1051
+---
+Gregg: Da hast du aber einen richtig erwischt, was, Kaept'n? #line:ce669d
+Angus: Ich habe hier einen maennlichen Moschus. #line:576670
+Gregg: Du riechst wie das Zeug, das ich dir besorgt habe, *Endgueltig*. #line:cf4599
+Gregg: Eisbussard. Da ist ein Bild von einem Eisfalken drauf. #line:e6ab27
+Angus: Ich rieche ziemlich maennlich. #line:763b54
+Gregg: Wie ein Eisbussard. #line:aea8fd
+Bea: Ich finde, du riechst gut, Angus. #line:d98655
+Angus: Danke #line:a7ef0b
+Mae: Was ist ein Eisfalke? #line:ed489b
+===
+title: FishFailure
+tags:
+colorID: 0
+position: 2481,1048
+---
+Angus: ... #line:4783d2
+Angus: ... #line:589878
+Gregg: Ach Cap, du bist nicht mal. #line:e82862
+Mae: Oh mein Gott du bist wirklich traurig ich habe es nicht so gemeint es tut mir leid weine nicht Angus! #line:de7fd8
+Bea: Angus, du bist wirklich nett und klug und so. #line:698ee9
+Gregg: Hoer nicht auf Mae. Sie ist dauernd wuetend. #line:2a9c5c
+Mae: Ok, es tut mir leid, ich werde gehen. #line:e0abcb
+<<close>>
+<<wait 2>>
+Mae: Warum kann ich nicht gehen? Und wieso friere ich nicht? #line:2f683e
+Angus: Ist schon gut, Mae. Ich hatte nur ein langes Jahr, das ist alles. #line:d81d5e
+Gregg: Oh Mann, naechstes Jahr wird's besser. #line:0ffc06
+Mae: Los Angus! Ich bin im Team Angus! #line:8b36aa
+Gregg: Ich auch! Ich bin Teamkapitaen und designierter Knutschpartner! #line:b663a3
+Bea: Ich auch! Aber nicht der Teil mit dem Knutschen. Ich bin... Schatzmeisterin des Teams? #line:4346d8
+Angus: Kann ich das Maskottchen sein? #line:da34b2
+===
+title: BirdWho
+tags:
+colorID: 0
+position: 1761,1110
+---
+Gregg: Was? Keim! Keim, der rumhaengt! Keim! #line:ad5e7c
+Bea: Wo ist Germ? #line:3ab7d8
+Gregg: Macht Gott weiss was mit seiner seltsamen Familie. #line:3ef57f
+Bea: Ich stelle mir vor, dass er insgeheim eine Art Trickster-Zauberer ist... #line:5aa90d
+Bea: ...der eine verblueffende Gestalt angenommen hat. #line:ecdf8c
+Mae: Ich habe keine Ahnung, von wem du sprichst. #line:c070c5
+Gregg: Oh nein, Mae hat die Weltraumkrankheit! Es hat ihr das Gedaechtnis genommen! #line:117fe7
+Angus: Schmeisst sie aus der Luftschleuse! #line:ad3165
+Bea: Ernsthaft Mae. Er ist Germ. Du kennst Germ. #line:9a1122
+Mae: Moment, sind wir im Weltraum? Warum ist mir nicht kalt? #line:24348a
+===
+title: BirdGerm
+tags:
+colorID: 0
+position: 1981,1100
+---
+Mae: Wie Germ? Weird Germ? #line:f48ea8
+Gregg: ...ja? #line:3000b2
+Mae: Woher weisst du... #line:b72cb9
+Bea: Ich glaube, Mae wird muede. #line:8a0ada
+===
+title: GatorHeadGeez
+tags:
+colorID: 0
+position: 2106,1783
+---
+Bea: Ich weiss, nicht wahr? #line:694509
+[[GatorHeadEnd]]
+===
+title: GatorHeadWhatDidSheDo
+tags:
+colorID: 0
+position: 2534,1760
+---
+Bea: Geredet. Laut. In der Oeffentlichkeit.	 #line:266a4b
+Mae: Oh, ist das alles? #line:dea747
+Bea: Das war anscheinend genug! #line:408a19
+[[GatorHeadEnd]]
+===
+title: GatorHeadEnd
+tags:
+colorID: 0
+position: 2307,2036
+---
+Angus: Angeblich, wenn du deinen Kopf in einem Fluss in Italien unter Wasser haeltst #line:ef4667
+Angus: sie wird dir von ihrem Mord erzaehlen. #line:e9bc73
+Angus: Sie haben ihn in "Fluss der Schuld" umbenannt. #line:2007cf
+Bea: Aber nicht wie die Schuld ihrer Moerder #line:1835e9
+Bea: Eher so, als ob sie dir ein schlechtes Gewissen einreden will oder so was Dummes. #line:b3afea
+Mae: Diese Konstellation ist Schrott. #line:f750df
+Bea: Hack mir den Kopf ab, dann beiss ich deinen ab! #line:b628b4
+Gregg: Froehliche laengste Nacht, alle! #line:d5f8c8
+Angus: Moooooving on... #line:f24e67
+===
+title: GoatNo
+tags:
+colorID: 0
+position: 2952,2005
+---
+Bea: Oh, es ist brillant. #line:75d998
+Bea: Es ist ungefaehr 21 Stunden lang #line:3fc21f
+Bea: und wie vor 100 Jahren, als es in Bright Harbor gespielt wurde #line:760033
+Bea: Die Buehne ist an der Stelle explodiert, an der Ibon seinen Ballon in den Wyrld Wyrm stuerzt. #line:4b4d8b
+Gregg: Sweeeeeet. #line:0f8fca
+Mae: Wurde jemand getoetet? #line:8b1fc4
+Bea: Eine ganze Menge Leute! #line:7d31bd
+Angus: Oh. #line:21e71d
+Bea: Hoer zu, wenn du darueber nicht lachen kannst, habe ich schlechte Nachrichten ueber den Rest der Geschichte. #line:abf34f
+===
+title: GoatOhYeah
+tags:
+colorID: 0
+position: 3207,2005
+---
+Mae: Wir haben es gesehen, als Mr. Olmers diese zwei Wochen krank war. #line:3745d4
+Mae: Er ist super lang! #line:53ffef
+Bea: Es gibt eine tolle Stelle, wo Ibon den Ozean trinkt, um die Fische zum Weinen zu bringen, #line:eca6c9
+Bea: damit er endlich ihre Stimmen hoeren und ihnen das Singen beibringen kann. #line:e77e45
+Gregg: Das ist das Duemmste, was ich je gehoert habe. #line:dbc8b3
+Bea: Ja, aber es ist die gute Art von dumm. #line:9a526c
+Bea: Die Oper ist irgendwie ueberall so. #line:be8755
+===
+title: MouseWritersScrewed
+tags:
+colorID: 0
+position: 3894,1979
+---
+Gregg: Was?! #line:c3f3d7
+Mae: Maeuse sind der Snackkuchen der Natur. #line:e9f130
+Mae: Wenn man die Nahrungskette bis ganz nach unten verfolgt #line:398e37
+Mae: wirst du Maeuse finden. #line:736fa2
+Mae: Es tut mir leid, Greggory, aber deine Tage sind gezaehlt. #line:56a0f1
+Gregg: Auf keinen Fall, Mann. Ich bin fuer immer! #line:c62334
+===
+title: MouseWritersGeniuses
+tags:
+colorID: 0
+position: 3543,2001
+---
+Gregg: Stimmt genau. #line:b1b312
+===

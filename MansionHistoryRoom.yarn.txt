@@ -1,0 +1,85 @@
+title: EnterLevel
+tags:
+colorID: 4
+position: 514,315
+---
+
+===
+title: LeaveRoom
+tags:
+colorID: 4
+position: 785,321
+---
+Mae: Nun gut. Nichts Seltsames hier. #line:65d03c
+Gregg: Lehrreich, sogar. #line:270701
+Mae: ich habe das Gefuehl, wir werden schlauer. #line:058399
+Gregg: mein Gehirn ist schon zu gross, Kumpel. #line:fced9b
+Gregg: wird platzen. #line:c4a16e
+Mae: Wenn das passiert, lasse ich deine kopflose Leiche hier liegen. #line:912177
+Gregg: ha ha ha, da werden sie morgen frueh aber ganz schoen ausrasten. #line:8e5657
+Mae: niiiiiiiiiiiice. #line:051908
+Gregg: "Oh, Ronald, ich werde diesen Raum fuer den Tag oeffnen" #line:94cc9e
+Mae:{width=8} "aaaaaaaaaaaaaaaaaaaaaaagh!" #line:416115
+Gregg: "Ich sage, das Gehirn dieses Kerls scheint geplatzt zu sein!" #line:8a32fb
+Mae: "Bring den Wischmopp mit, ja, Ronald?" #line:1ad139
+<<set $mansion_history_room_done to 1>>
+===
+title: LookAtThing
+tags:
+colorID: 4
+position: 1083,322
+---
+Mae: oh hey. #line:115863
+Mae: Opossum-Massaker. #line:08854f
+Gregg: oh schoen. #line:54dca2
+Gregg: du erinnerst dich daran, oder? #line:e11c0b
+    ->sorta? #line:ab592d
+        Mae: aber wirklich cool. #line:2ded6c
+        Mae: genau wie die ganze Streiksache #line:f37d29
+        Mae: und wie andere Leute sich ihnen angeschlossen haben #line:206908
+        Mae: und selbst als die Bosse Soldaten schickten #line:1dc68b
+        Mae: waren sie sich alle einig #line:d0fec4
+        Mae: und konnten sich einen Dreck scheren. #line:825295
+        Gregg: ja, das ist die beste Geschichte, Alter. #line:0b14c2
+        Mae: macht mich immer noch wie #line:500655
+        Mae: stolz und wuetend. #line:ede885
+        Gregg: Chefs sind schlimm, Alter. #line:beeea9
+        Mae: Bosse sind schlecht. #line:85cb77
+    ->nicht super gut. #line:1e6cd0
+        Gregg: ja, da war diese grosse Explosion in einer der alten Minen #line:63165d
+        Gregg: und sie haette vermieden werden koennen oder so #line:e9bcc2
+        Gregg: und dann haben die Bergleute gestreikt #line:70f298
+        Gregg: weil sie verarscht und getoetet wurden #line:c246d6
+        Gregg: und das ging eine ganze Weile so #line:25528a
+        Gregg: und andere Minen und Orte schlossen sich an #line:d4d297
+        Gregg: so nach dem Motto "ihr habt uns alle verarscht" #line:81ff6d
+        Mae: das ist grossartig. #line:118450
+        Gregg: ja die Bosse und der Gouverneur #line:394297
+        Gregg: sie haben Soldaten geschickt und so? #line:6628fa
+        Gregg: weil sie Arschloecher sind? #line:1ef52c
+        Gregg: und irgendein Kind oder so hat einen von ihnen mit einem Stein beworfen #line:d2cb8f
+        Gregg: und die Soldaten haben das Feuer eroeffnet! #line:58f3b9
+        Mae: heilige Scheisse? #line:c496ae
+        Mae: wo ist das passiert? #line:74be83
+        Gregg: nordwestliches Ende der Stadt. #line:1074f7
+        Gregg: es gibt eine Art Markierung dafuer. #line:f1e3f1
+        Mae: ugh. das ist ja furchtbar. #line:689241
+        Gregg: Chefs sind schlimm. #line:55df18
+        Mae: Bosse sind schlecht. #line:16a8c2
+Mae: seltsam, wie wir alle zu #line:a93564 aufschauen sollen.
+Mae: wie, Chefs. #line:ba6f3f
+Mae: ganz allgemein. #line:c8772f
+Mae: wie auch schlechte. #line:4925cd
+Gregg: ja ich lehne ab. #line:feeedb
+Mae: extrem dito. #line:0c9766
+<<set $mansion_history_room_will_leave to 1>>
+===
+title: InitLevel
+tags:
+colorID: 4
+position: 261,310
+---
+<<playerFace 1>>
+<<follow Gregg Mae>>
+<<setCanInteract Gregg 0>>
+===

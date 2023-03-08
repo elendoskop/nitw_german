@@ -1,0 +1,230 @@
+title: Fight
+tags:
+colorID: 3
+position: 607,237
+---
+<<warp Bea BeaLayRig>>
+<<setAltBodyRig Bea BeaLayRig>>
+<<lookUp Bea>>
+<<warp Mae MaeEnter>>
+<<set $bea_friendship_quest_3 to 1>>
+Mae: Seid ihr gerade eingezogen? #line:e8cdac
+Bea: Vor 10 Monaten. #line:1ae338
+Mae: Warum bist du noch nicht ausgepackt? #line:309650
+<<close>>
+<<wait 2>>
+-> Ziemlich cooler Plattenspieler. #line:5a7230
+    Mae: :) #line:fe79ec
+    Mae: soweit es Plattenspieler betrifft. #line:d8e324
+    Bea: Es war der von meiner Mutter. #line:76670e
+    Mae: :| #line:46364e
+    Mae: Ich habe keine Aufzeichnungen. #line:442e1d
+    Mae: Ich bekomme keine Aufzeichnungen. #line:88ad2d
+    Bea: Meine Mutter hat sich fuer sie interessiert. #line:133a75
+    Bea: Ha ha. Als sie so alt war wie ich, waren sie retro. #line:950111
+    Mae: Jetzt sind sie retro. #line:34b452
+    Bea: So ist das mit dem Retro. #line:9871b1
+-> Dein altes Zimmer war wie... #line:5f4f65
+    Bea: Groesser? #line:de08d6
+    Mae: Unordentlich. Wirklich unordentlich. #line:579eab
+    Bea: Eh. Ich war als Kind eine Schlampe. #line:834a2d
+    Mae: Ich schaetze, die Kisten sind das Problem los. #line:92eb7c
+    Bea: Nein, Mom hat es aus mir herausgeschrien. #line:41e8ab
+    Mae: :) #line:d6597f
+    Mae: MOMS, amirite? #line:ea0924
+    Bea: U are rite. #line:187f80
+<<close>>
+<<wait 2>>
+Mae: :| #line:3e72da
+Mae: Also ich habe eine Frage. #line:39bde1
+Bea: Mmhmm. #line:448b6a
+-> Was genau *macht* dein Vater im Laden? #line:13e069
+    Bea: Heutzutage? Nicht viel. #line:79d750
+    Bea: Aeh. Etwas Verwaltungskram. #line:eca0c3
+    Bea: Er stellt die Reparaturleute ein... #line:c587a5
+    Bea: Er geht manchmal auf Auftraege aus. #line:f9a95a
+    Bea: Das ist so ziemlich sein ganzes Gebiet. #line:be6444
+    Bea: Aber das war's auch schon. #line:db91e9
+-> Dein Vater ist ziemlich auf und ab, was? #line:7293f6
+    Bea: Er hat gute Tage und schlechte Tage. #line:4fdfdc
+    Bea: Oft an ein und demselben Tag. #line:9d2966
+    Mae: ha ha. Gregg ist auch schon immer so gewesen. #line:082417
+    Mae: nur etwas... aeh... verrueckter dabei. #line:5b1456
+    Bea: nun, Gregg ist wahrscheinlich bipolar #line:20dafe
+    Mae: na danke, Doktor Bea. #line:a4fdea
+    Bea: waehrend mein Vater einen jahrelangen Zusammenbruch hat. #line:9897f7
+    Mae: Du leitest jetzt den ganzen Laden, richtig? #line:e475a9
+    Bea: Mehr oder weniger. #line:c6918f
+Mae: Ja, aber es steht immer noch sein Name auf allem. #line:f34c0f
+Bea: Yep. #line:82def7
+Mae: Und in der Zwischenzeit hast du im Grunde alles im Griff. #line:d3351c
+Bea: Yep. #line:1a4f00
+Bea: Und! Und! Ich arbeite auch jeden Tag dort. #line:b4790e
+Bea: Jepp. #line:c8b856
+Mae: Ich denke nur, du solltest es nicht tun. #line:569b20
+Bea: Ok. #line:716f40
+    ->Ich denke nur, dass du dich selbst verkaufst. #line:9f5f8b
+        Bea: Tut mir leid, was? #line:059d5e
+    ->Ich wuerde wahrscheinlich einfach kuendigen. #line:22fd92
+        Mae: oder den Laden uebernehmen. #line:bec99d
+Mae: Wenn du nichts dagegen unternimmst, verstaerkt das nur... #line:fec487
+<<lookNearest Bea>>
+<<dilate Bea .85 .01>>
+Bea: Ist das wirklich der Weg, den du damit einschlagen willst? #line:0263b8
+    ->Ich sage, du solltest fuer dich selbst einstehen oder einfach... aufhoeren! #line:f22375
+        Bea: "Kuendigen"? #line:1ac3fa
+        Bea: Wirklich? Einfach kuendigen. #line:ea9982
+        Bea: Du bist wirklich von der Realitaet abgehoben. #line:664f2d
+    ->Ich will damit sagen, dass es nicht richtig ist, dass du es einfach so hinnimmst. #line:20b44f
+        Bea: "Es hinnehmen?" #line:fc8fbe
+        //shake text here//
+        Bea: "HINNEHMEN"?!?!?! #line:59958b
+Mae: Du machst die ganze Arbeit und er bekommt die ganze Anerkennung! #line:7ea678
+Bea: oh, fahr zur Hoelle. #line:8f03d3
+Mae: :( #line:54d630
+    ->WHAT?! #line:b96f27
+        Bea: du hast mich gehoert. #line:fb484a
+    ->WARUM?! #line:e4d476
+        Bea: RAAAAAAGH. #line:d5e4bf
+Mae: was ist dein Problem? #line:fc8a54
+Bea: hier ist etwas Realitaet fuer dich: #line:626f2f
+Bea: Du kennst Creek? Den Reparateur Creek aus der Werkstatt? #line:eded91
+Mae: :| #line:a950b4
+    -> Nein? #line:f1e3d5
+        Bea: Du hast ihn gesehen. #line:253370
+        Bea: Redet viel. Arbeitet seit Ewigkeiten fuer uns. #line:bb93e3
+    -> ...ja? #line:237794
+        Bea: ja, du hast ihn kennengelernt, als wir Kinder waren. #line:6688c4
+Bea: Als ich 15 war, hat er meinen Vater gefragt, ob er mir das Autofahren beibringen kann. #line:2a3c6a
+Bea: Und mein Vater sagte nein, und sagte mir dann, ich solle nicht mit ihm allein sein. #line:5f675b
+    -> Was zum? #line:a9dba0
+        Bea: Ja. Ja, genau. #line:7b3182
+    -> Kann ich nicht nachvollziehen. #line:233c30
+        Bea: er ist ein Widerling, Mae. #line:262819
+Bea: Und weisst du was? ER arbeitet immer noch fuer uns. #line:d6abc7
+Mae: :( #line:b8c6e6
+Mae: !!! #line:1cc84b
+Mae: Warum hast du ihn nicht gefeuert?!? #line:511b54
+<<fadeOutAmbientSFX _AmbientSFX:music 10>>
+<<playAmbientSFX _AmbientSFX:record_static 10>>
+Bea: Ich kann die Leute nicht feuern! #line:9ac5ae
+Bea: Und selbst wenn ich es koennte, er gehoert zur Besatzung. #line:1600a2
+Bea: Und offen gesagt ist er unser bester Mann. Er ist praktisch der Leiter des Reparaturteams. #line:3a6007
+Bea: Da mein Vater kaum noch was macht! #line:061703
+Bea: Und Creek hat eine Familie. Und er braucht die Arbeit. #line:ba6468
+-> Das ist ekelhaft! #line:3248ca
+    Mae: \o/ #line:6cfc04
+    Mae: Es ist nicht deine Verantwortung zu- #line:74a597
+    Bea: I KNOW! #line:f3db23
+    Bea: GLAUBST DU NICHT, DASS ICH DAS WEISS?! #line:7e5eec
+    Mae: _o_ #line:60dfd8
+-> mir wird schlecht. #line:e7e5eb
+    Bea: YEAH! ME TOO! #line:cfa497
+    Bea: ICH KENNE DIESES GEFUEHL SEHR GUT. #line:cd700c
+Mae: :| #line:80b660
+Mae: Ich sage nur, wenn du diese Kerle weiter vom Haken laesst- #line:74e4ec
+Bea: OFF THE HOOK?! #line:3cf05c
+Mae: Du bist doch staerker als das, Bea. #line:351001
+Mae: Du bist so... knallhart und so. #line:5c4ca9
+Bea: D-DU... #line:cce5c8
+<<close>>
+<<animationTrigger BeaLayRig GetUp>>
+<<dilate Bea 1 .01>>
+<<wait 2>>
+Bea: "KNALLHART?" #line:db4cf3
+Bea: DER TOD MEINER MUTTER WAR NICHT SEHR "KNALLHART". #line:dd3047
+Bea: DASS ICH JETZT IN DIESEM RAUM SITZE, IST NICHT SEHR "KNALLHART". #line:368f91
+Mae: ok sorry, ich- #line:ba2b8a
+Bea: Du bist so ein Scheisskerl, weisst du das? #line:f08790
+Mae: :( #line:8b3226
+    -> Aaaaargh! #line:bc738c
+        Bea: "Aaaaargh?" "Aaaaargh" was?! #line:de6408
+    -> Was zum Teufel? #line:d9538d
+       Bea: "uuughhuhuhg was zur Hoelle?!" #line:587e5e
+Bea: Oft koennen sich die Leute nicht einfach "entscheiden", etwas zu tun #line:b8580b
+Bea: was auch immer du als das Richtige erachtest! #line:9c0f4a
+Bea: Oftmals tun die Leute das, was sie tun #line:9ca6dc
+Bea: weil sie nichts anderes tun koennen! #line:93b922
+Mae: :| #line:60829c
+    -> Du hast IMMER eine Wahl. #line:bfe41d
+        Bea: sagt die Kind-Frau ohne Job #line:5c582b
+        Bea: keine Miete #line:338929
+        Bea: keine Verantwortung #line:7707ea
+        Bea: und keine Konsequenzen fuer deine dummen Handlungen #line:09fdea
+    -> Du kannst IMMER waehlen. #line:c22a4c
+        Bea: was waehlen? #line:b67b8f
+        Bea: Ehrlich, sag es mir. #line:b08dd9
+        Bea: was ist meine Wahl hier? #line:c7b8bf
+            ->Du kannst einfach gehen! ich weiss es nicht! #line:e829d8
+                Bea: I... I... #line:8fc2c4
+                Bea: du-du #line:dc6b94
+            ->Sag deinem Vater, dass du das nicht hinnehmen wirst! #line:c95c91
+                Bea: sag ihm was???? #line:a285cf
+                Bea: was ist deine magische Loesung #line:064c96
+                Bea: das *ich* tun muss #line:e937bc
+Bea: Ich werde dir ernsthaft deine gottverdammten Lichter auspusten. #line:a19bc5
+Mae: :( #line:5c7a3c
+Bea: Du kommst hier rein und faengst an, mir zu erzaehlen, wie *ich* alles versaue? #line:4fe283
+Bea: Du willst hier rein kommen und sagen #line:75ce61
+Bea: "ach ja, schwaenze einfach deinen Vater, #line:bd9566
+Bea: die beide alt geworden sind #line:df7110
+Bea: UND die Haelfte der Zeit kaum von der Couch aufstehen kann?" #line:80347d
+<<if $grocery_quality is 1>>
+    Bea: [wave]Oh, aber "gutes Essen", Mae![/wave] #line:158f73
+<<endif>>
+Bea: Du willst hier reinkommen und sagen #line:2f3241
+Bea: "Oh ja, fang einfach dieses grosse Drama an #line:75d53d
+Bea: und dein Leben noch viel stressiger machen?" #line:0e925d
+-> Es ist einfach nicht richtig, was ich damit sagen will! #line:8e97fc
+    Bea: Ja. Ist es nicht. Nichts ist richtig. #line:3b8317
+    Bea: Die ganze verdammte Welt ist nicht in Ordnung. #line:e24fa1
+-> Das ist NICHT, was ich sage! #line:1c2738
+    Bea: Oh, was willst du dann sagen? #line:c438fb
+    Mae: AAAARGH Ich weiss es nicht mehr! #line:3beb75
+Bea: als ob Gregg wahrscheinlich gerade Gott weiss was fuer eine verrueckte Scheisse macht #line:6ced6f
+Bea: ich bin hier und mache Abendessen und die Lohnabrechnung. #line:c0d243
+Bea: Du weisst so gut wie *nichts* ueber mein Leben. #line:b2ba9f
+Bea: Du weisst nur, was ich tun "sollte". #line:e09831
+Bea: Und du bist der letzte Mensch, den ich um Rat fragen wuerde. #line:0186d8
+Mae: :| #line:e544bf
+Mae: Ok ok es tut mir leid. #line:c2e7dd
+Bea: Ja, es tut dir leid. Allen tut es leid. #line:24d163
+Bea: Aber du verstehst es nicht. #line:2ca26e
+<<if $did_bea_friendship_quest_1 is 1 and $did_bea_friendship_quest_2 is 1>>
+    Mae: Ich dachte, wir haetten Spass! #line:6ed6d1
+    Mae: Wir waren im Einkaufszentrum! Wir sassen in einem Keller fest! #line:d201b1
+    Bea: Ja, und das war ALLES, was ihr damals gemacht habt. #line:272afe
+    Bea: Ich habe gute 6 Stunden gearbeitet, bevor du ueberhaupt aufgewacht bist #line:fb6f62
+    Bea: und kam jeden Abend nach Hause, nachdem du und ich fertig waren #line:e007f8
+    Bea: um Rechnungen zu bezahlen und herauszufinden, wie wir die naechste Gehaltsabrechnung machen #line:36cdbd
+    Bea: Waehrend Dad auf der Couch schlief. #line:d81772
+    Bea: Das ist nicht lustig. #line:6f46a1
+<<elseif $did_bea_friendship_quest_1 is 1>>
+    Bea: Du bist genau wie neulich Abend, nur immer wieder. #line:16bc46
+    Bea: Du rennst herum, legst dich mit Leuten an und nimmst dir, was du willst. #line:3f950d
+    Bea: Waehrend das ganze Einkaufszentrum um dich herum auseinanderfaellt. #line:4cc459
+    Mae: Ich dachte, du haettest dich amuesiert! #line:1deac1
+    Bea: ... #line:a2ed36
+<<elseif $did_bea_friendship_quest_2 is 1>>
+    Bea: Es ist wie letzte Nacht #line:e0730c
+    Bea: du kannst im Muell rumspielen und Sachen kaputt machen und alles wird gut. #line:41f5cf
+    Bea: Waehrend ich in der Ecke stehe und den Ofen repariere. #line:46c8b8
+    Mae: Aber ich habe geholfen! #line:0456e7
+    Bea: ... #line:0132ad
+<<endif>>
+<<close>>
+<<wait 2>>
+Mae: Ich sollte gehen. #line:fb6b8c
+Bea: Du solltest gehen. #line:27e393
+<<set $bea_dad_done to 0>>
+<<set $bea_friendship_quest_3 to 1>>
+<<irisOut 1 wait>>
+<<scene BeaApartment>>
+===
+title: EnterLevel
+tags:
+colorID: 0
+position: 355,219
+---
+[[Fight]]
+===

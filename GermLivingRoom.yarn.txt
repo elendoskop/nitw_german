@@ -1,0 +1,106 @@
+title: EnterLevel
+tags:
+colorID: 0
+position: 47,294
+---
+[[HomeQuest]]
+===
+title: HomeQuest
+tags:
+colorID: 0
+position: 324,330
+---
+<<hide Collision:Right>>
+
+<<warp Mae Mae0>>
+<<warp Germ Germ0>>
+
+<<walk Mae Mae1>>
+<<walk Germ Germ1>>
+
+<<waitForMove Mae>>
+Germ: Oh, hier ist sie. #line:cc0fc3
+<<close>>
+<<wait 2>>
+GermGramma: Starkes Maedchen. #line:d3026e
+Mae: ... #line:d0d6d8
+Mae: Das hat mein Grossvater gesagt. #line:1b4c30
+Mae: Hast du... #line:8fe183
+Germ: Das ist Oma. #line:33cc24
+<<lookAt Mae GermGramma>>
+Mae: Hallo. #line:cf6307
+GermGramma: Mmhmm. #line:b2e759
+<<wait 2>>
+<<lookAt Mae Germ>>
+Germ: ok, also, man sieht sich! #line:0c0ebf
+<<walk Germ Germ0>>
+Mae: Warte, was? #line:ce993e
+<<close>>
+<<walk Germ Germ0>>
+<<wait 2>>
+<<lookAt Mae GermGramma>>
+<<wait 1>>
+Mae: Du schaust mich an. #line:f64841
+GermGramma: Sturdy ist ein gutes Wort fuer dich. #line:907318
+GermGramma: Grosse Knochen. Kraeftig. #line:5789db
+Mae: Jep. #line:7c2152
+<<wait 2>>
+Mae: Soooo... war's das? #line:808162
+GermGramma: Oh, das tut mir leid. #line:ebb8f1
+GermGramma: habe ich dich veraergert? #line:3a6dea
+Mae: nein. #line:cca65d
+GermGramma: zu schade. du musst veraergert sein. #line:d4b345
+GermGramma: was auf dich zukommt, kleines Maedchen #line:3b34d5
+GermGramma: ist dreimal mehr AErger als du verdienst #line:820ff5
+GermGramma: du wirst hart zu Boden gehen #line:bf8c48
+GermGramma: nicht weit von hier #line:53611c
+GermGramma: du wirst untergehen #line:87dcf3
+GermGramma: in diesen Waeldern. #line:eba622
+Mae: sagst du mir etwa die Zukunft voraus? #line:2fa34b
+<<wait 2>>
+GermGramma: kleines Maedchen, ich weiss nicht, was du getan hast #line:49f491
+GermGramma: du hast einen dunklen Fleck in dir #line:4e5c9e
+GermGramma: die eines Tages ein Leben nehmen wird. #line:43580e
+GermGramma: koennte das von jemand anderem sein. oder es koennte deines sein. #line:d4362e
+<<wait 2>>
+GermGramma: Merk dir meine Worte. #line:b625f2
+GermGramma: Du bist verdammt. #line:e09cdd
+<<wait 2>>
+Mae: ok. ich werde aeh... versuchen, daran zu denken. #line:ad5d52
+Mae: o> O_o :\ #line:484aa0
+Mae: oder eigentlich? nein. das ist bloed. #line:3181ac
+Mae: du kennst mich nicht. #line:cfdc64
+Mae: was auch immer mit mir los ist? #line:5cee35
+Mae: ja ich bin nicht nur eine verdammte Huelle #line:760ab1
+Mae: fuer meine Probleme, um darin herumzulaufen. #line:b24e84
+Mae: "uuuh uuuh du hast einen dunklen Fleck auf dir" #line:c5ada1
+Mae: Was zum Teufel weisst du ueberhaupt ueber mich?!? #line:86f2a4
+<<wait 2>>
+GermGramma: ich kann nicht aufhalten, was kommt #line:1d9dfa
+GermGramma: aber dir eine Frage stellen, die du nicht beantworten kannst #line:ac5d10
+GermGramma: kannst du ein Spukhaus aufloesen? #line:470fef
+Mae: :| #line:69457f
+Mae: ich... ich... was? #line:844391
+<<wait 2>>
+GermGramma: heh heh heh #line:2886f7
+GermGramma: hatte dich fuer eine Sekunde im Visier #line:b31981
+Mae: was? #line:54f9dd
+GermGramma: ich verarsche dich nur #line:0b98c7
+GermGramma: ich habe meinen Spass #line:4d9ec4
+Mae: o_o :\ _o_ #line:682a97
+Mae: was ist los mit dir?!?! #line:cf0235
+Mae: das war echt beschissen!! #line:e1a96e
+GermGramma: hee hee hee #line:0806d6
+GermGramma: du bist ein guter Sportsmann. #line:0c837a
+GermGramma: du gehst jetzt raus, Liebes! #line:7fa152
+GermGramma: lass Oma auf Richterin Janice aufpassen #line:48f9e4
+Mae: :| #line:2fa60d
+Mae: ok... aeh... man sieht sich! #line:603e38
+GermGramma: unwahrscheinlich. #line:e9d792
+<<wait 2>>
+GermGramma: kleines Maedchen. #line:810669
+<<close>>
+
+<<irisOut 1 wait>>
+<<scene GermHouse left>>
+===

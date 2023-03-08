@@ -1,0 +1,200 @@
+title: EnterLevel
+tags:
+colorID: 0
+position: 79,276
+---
+<<setCanInteract Mom 0>>
+<<flip Mom -1>>
+<<flip Mae -1>>
+Mae: Ich glaube, ich war noch nie hier oben. #line:a4b1d9
+Mom: Wir waren frueher staendig hier oben. #line:a23177
+Mae: Waren wir das? #line:fda458
+Mom: Nein, wir wie in "meine Freunde und ich, als wir in deinem Alter waren". #line:01a5c7
+Mae: Oh ok. Ich bin es nicht gewohnt, dass du ein anderes "wir" benutzt. #line:2c6347
+Mom: Ob du es glaubst oder nicht, ich hatte schon mehrere Wirs. #line:705319
+Mae: Hm. #line:7ed2dd
+<<close>>
+<<walk Mom HillPoint_1>>
+===
+title: Jenny
+tags:
+colorID: 0
+position: 636,399
+---
+Mae: Was ist das denn fuer ein Ort? #line:f25efd
+Mom: Jenny's Field. Schon mal davon gehoert? #line:9bf76c
+Mae: Nein? Ich glaube nicht? #line:b45c06
+Mom: Damals in den 30ern #line:fe36f4
+Mom: da war diese Frau und ihre Tochter #line:568b0c
+Mom: hierher gehend... #line:9b988a
+Mom: und die Tochter der Frau steht vor ihr #line:83509f
+Mom: und dann ist sie einfach weg. Einfach verschwunden. #line:cab3d5
+Mae: Was ist passiert? #line:361eee
+Mom: Es hat sich herausgestellt, dass sich ein Sinkloch aufgetan hat #line:bfb545
+Mom: als eine Saeule in den Minen im Berg zusammenbrach. #line:c11221
+Mae: Oje. #line:3954a7
+Mom: Jep. Keiner konnte es sehen, wegen des Grases. #line:6952c2
+Mom: Ihr Name war Jenny. Das ist Jennys Feld. #line:8d4371
+Mom: Sie haben sie nie gefunden. #line:8488a8
+Mom: Nur. #line:7b0094
+Mom: *wwssssp!* #line:afef02
+Mom: Vorbei. #line:bb80d7
+Mae: Also... warte, warum sind wir hier? #line:1cf04a
+Mom: Was, bist du nicht bereit, ein kleines Risiko einzugehen? #line:9448d7
+Mae: ... #line:b85bba
+<<close>>
+<<walk Mom Furnace_Mom1>>
+===
+title: Hillstop
+tags:
+colorID: 0
+position: 357,273
+---
+Mae: Das ist schoen. #line:01382d
+Mom: Frueher gab es hier oben viel mehr Baeume. #line:3b0120
+Mom: Sie wurden abgeholzt, als sie die Tuerme gebaut haben. #line:956911
+Mae: Daran kann ich mich nicht erinnern. #line:0cd04a
+Mom: Weisst du, alle moeglichen Dinge sind passiert, bevor du geboren wurdest. #line:9261e7
+Mae: WAS?!?! #line:c2e21e
+Mom: Einige kleine Teile der Geschichte haben stattgefunden, ja. #line:50bd38
+<<close>>
+<<walk Mom JennyPoint_1>>
+===
+title: Hole
+tags:
+colorID: 0
+position: 641,147
+---
+<<playOneShot event:/mom_quest/mae_fall_meadow Mae>>
+Mae: AAAAGH!!! #line:0a9a9f
+Mom: Was ist denn los? #line:45e907
+Mae: Ich dachte, es waere ein... Sinkloch-Ding... #line:6cf80a
+Mom: Hm. Wie waere es damit. #line:7a513e
+Mae: ... #line:ebb39e
+===
+title: Furnace1
+tags:
+colorID: 0
+position: 880,254
+---
+Mae: Ok... was ist das? #line:2cf8dd
+Mom: Aus irgendeinem Grund, bevor Unified abzog #line:4d3261
+Mom: haben sie diesen alten Kalkofen auf den Berg gebracht. #line:6db21b
+Mae: Und warum? #line:3420f2
+Mom: Wer weiss. Unified hat viele Dinge getan. #line:10093a
+Mae: Sieht aus, als waere es schon immer hier gewesen. #line:41d042
+Mom: Es ist nur sehr tief in den Boden gesunken. #line:2e3fb5
+Mae: Wie Jenny! #line:353afe
+Mom: Aber langsamer. #line:6ec2ee
+Mom: Wir sind da immer hochgeklettert. #line:47ed50
+Mae: Willst du es versuchen? #line:c7e4eb
+Mom: Ha ha ha. Oh Suesse. #line:3de8bf
+Mom: Ich hatte dich und auch viele Geburtstage und Donuts seither. #line:a7098a
+Mom: Und nicht viel Klettern. #line:be515a
+===
+title: FurnaceTop
+tags:
+colorID: 0
+position: 874,471
+---
+Mae: Also... aeh... #line:f0ccad
+<<lookAt Mom Mae>>
+Mae: Gut, dass der Schornstein hier oben dicht ist! #line:202930
+Mom: Ha ha ha. Ja, gute Sache. #line:2730e2
+Mom: Was kannst du da oben sehen? #line:4db556
+Mom: Es ist schon eine Weile her. #line:4624ef
+Mae: Aeh... #line:0f72fd
+    -> Possum Springs und der groesste Teil des Tals! #line:dc0a41
+        Mom: Wie sieht es denn aus? #line:f126cf
+            -> Eine Steppdecke? #line:60f64b
+                Mom: Nun, es ist ein gemuetliches Tal. #line:f166aa
+            -> Als haette jemand ein paar Bloecke ausgekippt? #line:1ef2f5
+                Mom: Ha ha. Klingt ungefaehr richtig. #line:c42924
+    -> Der Highway! #line:c67722
+        Mom: Wie sieht sie denn aus? #line:d8b66c
+            -> Ein Fluss? Aber wie aus Beton? Mit Autos? #line:329366
+                Mom: [Welle]Immer vorbei, der Fluss.[/Welle] #line:f035e6
+                Mom: [winke]Oh, dieser Fluss. Er ist gross.[/Welle] #line:52bd3a
+                Mae: Singst du...? #line:46c0e3
+                Mom: Ja, es ist aus einem Musical? #line:4da109
+                Mom: Vielleicht? #line:3c59e4
+                Mae: :) \o/ #line:401110
+                Mae: [wave]ES IST NOOOOOOOOW!!!![/wave] #line:16d68d
+                Mom: Sehr schoen. #line:46dfa1
+            -> Eine Schlange? Aber wie aus Beton? Mit Autos? #line:c01936
+                <<if $eels is 1>>
+                    Mom: Ha, ha, ha. Ein Aal vielleicht? #line:9fe5c8
+                    Mae: Oh mein Gott, ja. Ein riesiger Aal. #line:79b094
+                    Mom: Aale, Schatz. #line:eeb095
+                    Mae: Aale, Mama. #line:5f0dd9
+                    Mae: Was ist eigentlich mit dem Aalkind passiert? #line:4998cc
+                    Mom: Irgendjemand hat ihn schliesslich da unten bemerkt #line:b94add
+                    Mom: und die Rettungskraefte haben ihn aus dem Brunnen gezogen. #line:731c34
+                    Mom: Und Jahre spaeter schrieb er ein Buch darueber #line:578051
+                    Mom: und wurde reich! #line:65c6bf
+                    Mae: Haben die Aale einen Anteil daran bekommen? #line:d4108d
+                    Mom: Das glaube ich nicht. #line:d21571
+                    Mae: Das ist ein Verbrechen. #line:309408
+                    Mom: Denkt denn niemand an die armen Aale? #line:e369bc
+                <<else>>
+                    Mom: Grosse Schlange. #line:f833b1
+                    Mae: Grosse Schlange. #line:26d31b
+                    Mom: Ich wurde hier oben schon einmal von einer Schlange gebissen, wirklich! #line:6ade41
+                    Mae: Diese Geschichte habe ich noch nicht gehoert. #line:0fa95d
+                    Mom: Ja, es war eine Kupferschlange. Sie sprang unter einem Baumstamm hervor. #line:6681bb
+                    Mom: Mein damaliger Freund, Charlie, er war so ein Suesser #line:5c0b91
+                    Mom: hat versucht, das Schlangengift aus dem Biss an meinem Bein zu saugen. #line:0cbbcf
+                    Mae: Wow. Das ist ein guter Freund. #line:152dfd
+                    Mom: Sein Mund ist taub geworden und er hat einige Gewebeschaeden erlitten. #line:1ea290
+                    Mom: Und ich musste trotzdem ins Krankenhaus gehen. #line:7da71e
+                    Mae: Oh wow. #line:558949
+                    Mom: Lutsche kein Gift von Schlangenbissen, Suesse. #line:02a798
+                    Mae: Richtig. #line:aea9b7
+                    Mom: Es funktioniert nicht. #line:7527b1
+                    Mae: Zur Kenntnis genommen. #line:f727dc
+                <<endif>>
+Mae: _o_ :| #line:596881
+Mom: Ich erinnere mich, dass ich nicht sagen konnte, ob ich da oben war #line:81f776
+Mom: fuehlte sich alles groesser oder kleiner an. #line:b0bb9d
+Mom: Es ist ein seltsames Gefuehl. #line:0952a2
+Mae: Ja, das kenne ich. #line:e05140
+Mom: Ich hatte einen Traum, als ich in deinem Alter war. #line:adcf8d
+Mom: Ich war auf dem grossen Parkplatz bei den Gleisen #line:cc745a
+Mom: und ich fing an zu rennen, aber es gab immer mehr Parkplaetze. #line:20c267
+Mae: Hm. #line:7cfc68
+Mom: Was denkst du, was das bedeutet? #line:7cde56
+Mae: Ich weiss es nicht. Es fuehlt sich komisch an, dir zu sagen, was deine Traeume bedeuten. #line:37dbf2
+Mom: Und warum? #line:edda17
+Mae: Du bist meine Mutter. #line:c772a3
+Mom: ... #line:8b9fea
+Mom: Schoen. #line:f01897
+Mae: Warum sind wir heute hier heraufgekommen? #line:06a0fa
+Mom: Nun, ich hatte gehofft, dass du in ein Erdloch faellst, offensichtlich. #line:01ff5e
+Mae: Das hat nicht geklappt. #line:dcaf79
+Mom: Verflixt. #line:f80234
+Mom: Ich schaetze, ich muss dich einfach behalten. #line:2bea1e
+<<close>>
+<<wait 1>>
+Mae: Ich konnte nicht sehen, wie dein Gesichtsausdruck war, als du das gesagt hast. #line:dbe2a2
+Mom: Musst du das? #line:3df7ab
+<<close>>
+<<wait 1>>
+Mae: :) #line:d5d829
+Mae: Nein. #line:e4057e
+<<close>>
+<<wait 2>>
+<<walk Mom MomWalkOff>>
+Mom: Also, wir sehen uns zu Hause! #line:0a1abe
+Mae: :( #line:31b1a4
+Mae: HEY! #line:814338
+<<unlockAchievement Jenny's_Field>>
+<<wait 1>>
+<<unlockDoodle JennysField>>
+<<wait 1>>
+<<close>>
+<<set $did_mom_friendship_quest to 1>>
+<<fadeOut 1 wait>>
+<<scene ChurchHill>>
+===
+
+

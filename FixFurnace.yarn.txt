@@ -1,0 +1,464 @@
+title: EnterLevel
+tags:
+colorID: 0
+position: 423,-24
+---
+Mae: Also... ich habe einen Zwerg, eine Angelrute, einen Federballschlaeger und einen Ventilator. #line:e9c9c8
+Mae: Ich habe zwei Raeder und ein... drehbares Ding... ohne Rad. #line:0b6f84
+Mae: Wahrscheinlich muss man nur das drehbare Ding drehen... #line:9a1389
+-> ...um die Waermerohre zu oeffnen. #line:22a47e
+    Mae: Clanky hat wahrscheinlich eine Menge Hitze, aber sie kann nicht raus. #line:b8cfe2
+-> ...um das Feuer aufzudrehen. #line:b5bd4b
+    Mae: Clanky hat wahrscheinlich ein kleines Feuer am Laufen und koennte Hilfe gebrauchen. #line:d95dc0
+    Mae: Das haben wir alle schon erlebt! Armer Clanky. #line:b81038
+Mae: um Clanky heiss und boese zu machen. #line:d02dcc
+Mae: Wir werden Clanky lehren zu lieben. #line:820874
+Mae: Ich wette, ich koennte... hm... #line:2d6325
+[[Ich glaube, Gnomey koennte auf das drehende Ding beissen, wo das Rad war.|GnomeyBite]] #line:8e477d
+[[Koennte Schlaeger als Griff benutzen.|RacketHandle]] #line:796054
+===
+title: DoneSetup
+tags:
+colorID: 0
+position: 362,2421
+---
+<<set $miranda_basement to 2>>
+<<irisOut 1 wait>>
+<<scene MirandaBasement>>
+===
+title: GnomeyBite
+tags:
+colorID: 0
+position: 1416,254
+---
+Mae: Ok, ja. Das ist der Stoff. #line:5fa811
+Mae: Wahrscheinlich koennte man ihn... ziehen? #line:7fd69d
+[[Aber wir werden nicht immer hier sein, um ihn zu ziehen...|NotAlwaysGoingToBeHereToPull]] #line:43ed1d
+[[Ich denke, ein guter, harter Zug sollte genug sein.|OneGoodHardPull2]] #line:7ed2f5
+===
+title: RacketHandle
+tags:
+colorID: 0
+position: -369,308
+---
+Mae: Ja, das wuerde funktionieren. #line:02931f
+[[Obwohl wir nicht immer hier sein werden, um es zu ziehen...|NotAlwaysHereToPullIt]] #line:f63942
+[[Ein guter, harter Zug sollte genuegen.|OneGoodHardPull]] #line:25c1c6
+===
+title: NotAlwaysHereToPullIt
+tags:
+colorID: 0
+position: -1002,673
+---
+Mae: Das Geblaese koennte an bleiben, und wenn das kaputt geht, muss man nur das Geblaese ersetzen... #line:60f381
+Mae: Es sollte auch gut fuer die Umwelt sein. Das ist sehr wichtig. #line:ba11a0
+Mae: Wie die Turbinen auf dem Berg bei Fort Lucenne. #line:3e22d8
+Mae: Gott, ich erinnere mich, wie alle so wuetend darueber waren #line:66a6c1
+Mae: "Sie werden die Aussicht ruinieren! Es wird Voegel toeten!" #line:a4b90b
+Mae: Weisst du, was noch die Aussicht und die Voegel ruinieren wird? #line:fa0bad
+Mae: Wenn ein Meteor die Erde trifft, weil sie zu heiss wird. #line:3568aa
+Mae: Das ist mit den Dinosauriern passiert. #line:28b184
+Mae: ok, wo war ich? #line:e9ed85
+[[Dinosaurier waren verdammt geil.|DinosWereRad1]] #line:e90f62
+[[Aus einem Badmintonschlaeger eine Kellerturbine machen.|BasementTurbineOutOfARacket]] #line:4d33ab
+===
+title: OneGoodHardPull
+tags:
+colorID: 0
+position: -402,652
+---
+Mae: ok, konzentrier dich. mach das klar Mae Borowski. #line:a8a843
+[[Ich habe Hunger.|ImHungry]] #line:f71040
+[[Ich frage mich, wie es ist, in einer Hoehle festzusitzen.|StuckInACave]] #line:4c56b3
+
+===
+title: NotAlwaysGoingToBeHereToPull
+tags:
+colorID: 0
+position: 1902,759
+---
+Mae: Der Luefter koennte anbleiben, und wenn der kaputt geht, muss man nur den Luefter ersetzen... #line:cf6bca
+Mae: Es sollte auch gut fuer die Umwelt sein. Das ist sehr wichtig. #line:73a79f
+Mae: Wie die Turbinen auf dem Berg bei Fort Lucenne. #line:fbaeaa
+Mae: Gott, ich erinnere mich, wie alle so wuetend darueber waren #line:2ec2c6
+Mae: "Sie werden die Aussicht ruinieren! Es wird die Voegel toeten!" #line:6e8cfd
+Mae: Weisst du, was noch die Aussicht und die Voegel verderben wird? #line:345f1f
+Mae: Wenn ein Meteor die Erde trifft, weil sie zu heiss wird. #line:c3acd1
+Mae: Das ist auch mit den Dinosauriern passiert. #line:4c5fbd
+Mae: Ok, wo war ich? #line:ab0e4c
+[[Dinosaurier waren verdammt geil.|DinosWereRad2]] #line:b86c9a
+[[Aus einem Gartenzwerg eine Kellerturbine machen.|BasementTurbineOutOfAGardenGnome]] #line:b67a91
+===
+title: DinosWereRad2
+tags:
+colorID: 0
+position: 1929,1065
+---
+Mae: Es gab auch Dinosaurier im Meer! #line:74a210
+Mae: Ich bin froh, dass ich damals noch kein Fisch war. #line:f13cc5
+Mae: Hatten sie Fische? Waren sie wie Dinosaurier-Fische? #line:bf70f0
+[[Nein. Fische sind Fische, Mae. Reiss dich zusammen.|FishAreFish2]] #line:60e2a4
+[[Ich meine, es muessten Dinosaurierfische sein, oder?|DinosaurFish2]] #line:f4e4e2
+===
+title: OneGoodHardPull2
+tags:
+colorID: 0
+position: 1028,433
+---
+Mae: Ok, also... hm... #line:faab7c
+Mae: Wieviel Platz haben wir hier unten? #line:036304
+[[Sieht nicht nach viel aus.|LooksLikeNotMuch]] #line:7c8ba3
+[[Wir haben viel Platz.|WeGotPlentyOfRoom]] #line:e58c6b
+===
+title: Join2
+tags:
+colorID: 0
+position: 1752,1904
+---
+Mae: Also hier unten ist nicht viel Wind, aber wie #line:092f2f
+Mae: Koennte den Ventilator auf Gnomey's Hintern stellen #line:2fb828
+Mae: Und das wuerde ihn zum Drehen bringen... #line:cd4cab
+Mae: Schlaeger fuer das andere Flossenteil. #line:336cc7
+Mae: Binde alles mit der Angelschnur zusammen und WOW #line:7deb73
+<<close>>
+<<set $furnace_contraption to 5>>
+<<animationTrigger Contraption_E_GnomeTurbine Build>>
+<<wait 4>>
+Mae: Ich sollte eine Firma gruenden #line:bbb19e
+Mae: NACHHALTIGE MUELLTURBINE!!! #line:836737
+Bea: Ok fertig! #line:b0ac3b
+Mae: Was?! #line:ce22b2
+[[DoneSetup]]
+===
+title: BasementTurbineOutOfAGardenGnome
+tags:
+colorID: 0
+position: 1596,1222
+---
+Mae: Genau. #line:e71e69
+[[Join2]]
+===
+title: DinosWereRad1
+tags:
+colorID: 0
+position: -1239,965
+---
+Mae: Die hatten auch Dinosaurier im Meer! #line:34d4c8
+Mae: Ich bin froh, dass ich damals noch kein Fisch war. #line:84bae1
+Mae: Hatten sie Fische? Waren sie wie Dinosaurierfische? #line:97373d
+[[Nein. Fische sind Fische, Mae. Reiss dich zusammen.|FishAreFish1]] #line:2d09a0
+[[Ich meine, es muessten Dinosaurierfische sein, oder?|DinosaurFish1]] #line:903c46
+===
+title: Join1
+tags:
+colorID: 0
+position: -915,1697
+---
+Mae: Also hier unten ist nicht viel Wind, aber wie #line:0c2efe
+Mae: ok wir stecken Gnomey in den Boden #line:483e73
+Mae: tut mir leid Gnomey #line:50102f
+Mae: leg den Ventilator auf seinen flachen Tisch-Hintern #line:940621
+Mae: Ich fuehle diesen Schmerz, Gnomey. Ich habe auch einen. #line:c1da23
+Mae: Und binde den Schlaeger so an... #line:6214f4
+<<close>>
+<<set $furnace_contraption to 3>>
+<<animationTrigger Contraption_C_RacketTurbine Build>>
+<<wait 4>>
+Mae: Hey alright! #line:1493c3
+Mae: Ich sollte sozusagen eine Firma gruenden #line:0f0353
+Mae: NACHHALTIGE MUELLTURBINE!!! #line:85b63d
+Bea: Ok, fertig! #line:b02c30
+Mae: Was?! #line:3016fb
+[[DoneSetup]]
+===
+title: ImHungry
+tags:
+colorID: 0
+position: -575,979
+---
+Mae: Koennte etwas von diesem Wolf vertragen. #line:08cee8
+Mae: Dieser D-D-Donut Wolf. #line:75f7ba
+Mae: Da ist dieses Video online von ihrer Slammercake-Maschine #line:c7cedf
+Mae: wenn ich das sah, schlief ich die Haelfte der Naechte in der Schule ein. #line:f508a3
+Mae: Grosse komplizierte Maschine, die leckere Kuchen-ums macht. #line:ee63e5
+Mae: Ich kann mir nicht vorstellen, wie jemand so etwas gebaut hat #line:49d0a7
+Mae: Alles funktioniert perfekt, aber es sieht so seltsam aus #line:2c1ca0
+Mae: Als haette es sich jemand einfach so ausgedacht #line:1183d4
+Mae: und irgendwie Perfektion geschaffen hat. #line:432784
+[[WingThisToo]]
+===
+title: StuckInACave
+tags:
+colorID: 0
+position: -278,969
+---
+Mae: Ich habe im Fernsehen etwas ueber Leute gesehen, die in Hoehlen tauchen. #line:9fb3a1
+Mae: Was meiner Meinung nach wirklich dumm ist. #line:a65af3
+Mae: Wie beim normalen Schwimmen kann man ertrinken #line:c841e2
+Mae: aber du bist nicht in einer Hoehle, mit Pferden und so. #line:b0d752
+Mae: "Pferde?" Ich meinte Schlaeuche. #line:b2db5f
+Mae: Warum denke ich an Pferde? #line:b0f7e7
+Mae: OMG. #line:130095
+Mae: CAVE HORSES. #line:7e3d0a
+Mae: Was waere, wenn du von einem Hoehlenpferd gefangen worden waerst? #line:c3efe2
+Mae: Ich frage mich, wie sie dich herausziehen wuerden? #line:8397d2
+Mae: Wahrscheinlich muessen sie einfach improvisieren, ein grosses kompliziertes Ding machen #line:31bfaf
+Mae: Ich kann mir nicht vorstellen, dass es eine Maschine gibt, die nur dafuer gemacht ist, Taucher von Hoehlenpferden wegzuziehen... #line:dd6ad3
+Mae: Obwohl, wer weiss schon, was da unten passiert? #line:c43324
+Mae: Aaaagh! Konzentrier dich, Mae! #line:2f34a9
+[[WingThisToo]]
+===
+title: WingThisToo
+tags:
+colorID: 0
+position: -380,1527
+---
+Mae: Vielleicht sollte ich das auch einfach befluegeln? Es einfach schnell machen, damit ich nicht zu viel nachdenke? #line:54b3a5
+Mae: OK, LASS ES UNS TUN! #line:aca66f
+Mae: ok, binde den Schlaeger an das drehbare Ding und dann DAS an den Ventilator, aber warte #line:aa9b4d
+Mae: wie verhindere ich, dass sich der Faecher aufrollt wie ein grosser Faecherfisch #line:6f5ce2
+Mae: ok sorry gnomey ich muss dich auf den Kopf stellen wie einen Vampir #line:bab180
+Mae: ich glaube, man hat Vampire frueher kopfueber begraben, damit sie, wenn sie versuchten, sich auszugraben #line:837777
+Mae: aus ihren Saergen auszugraben, weil ha ha ha ha dummer Vampir #line:f49b6b
+Mae: jetzt bist du in der Mitte der Erde und du bist gestorben. #line:20b4d5
+Mae: wieder. #line:47966d
+<<close>>
+<<set $furnace_contraption to 2>>
+<<animationTrigger Contraption_B_CaveHorse Build>>
+<<wait 4>>
+Mae: Hey, das sieht toll aus! #line:834097
+Mae: Ich bin wie... ein Ingenieur! #line:4dd478
+Mae: Oder jemand, der Maschinen baut! #line:b2e2b5
+Mae: Ein Maschinenbauer? #line:0d6f7c
+Mae: Na gut, dann wollen wir das Baby mal ausprobieren... #line:e8dd5b
+Bea: Ok, fertig! #line:d91a0f
+Mae: Was?! #line:f8ba84
+[[DoneSetup]]
+===
+title: BasementTurbineOutOfARacket
+tags:
+colorID: 0
+position: -871,1022
+---
+Mae: Genau. #line:eb0421
+[[Join1]]
+===
+title: FishAreFish2
+tags:
+colorID: 0
+position: 2190,1400
+---
+Mae: Fische waren wahrscheinlich wie aw man was zum HELL. #line:589e40
+Mae: "Ich kann nicht glauben, dass zukuenftige Fische sich nicht mit diesem Mist befassen muessen." #line:85b368
+Mae: "Haie? Heh. Holen Sie sich eine Ladung Piranha Nessie mit Tollwut hierher." #line:e9e21c
+Mae: Der Dokumentarfilmer ist ganz wie #line:f088a5
+Mae: "Vor Millionen von Jahren waren die Meere voll von Piranha-Robies-Nessies." #line:65d40a
+Mae: Ok FOCUS Mae. #line:7ffc90
+Mae: Eine Turbine bauen. #line:9f38dc
+[[Join2]]
+===
+title: DinosaurFish2
+tags:
+colorID: 0
+position: 1817,1357
+---
+Mae: Ja, ich meine, damals gab es Dinosaurierkaefer, Dinosaurierbaeume und Dinosaurierkacke. #line:e12ac1
+Mae: Ich wuerde gerne mal einen Dinosaurier-Elch sehen. Ich wette, das waere ziemlich toll gewesen. #line:10e23b
+Mae: Ok FOCUS Mae. #line:4f145f
+Mae: Eine Turbine bauen. #line:9656b8
+[[Join2]]
+===
+title: FishAreFish1
+tags:
+colorID: 0
+position: -1410,1272
+---
+Mae: Fische waren wahrscheinlich wie aw man was zum HELL. #line:4b1370
+Mae: "Ich kann nicht glauben, dass zukuenftige Fische sich nicht mit diesem Mist beschaeftigen muessen." #line:021e6b
+Mae: "Haie? Heh. Holen Sie sich eine Ladung Piranha Nessie mit Tollwut hierher." #line:7e6c80
+Mae: Der Dokumentarfilm-Typ ist ganz wie #line:52ac27
+Mae: "Vor Millionen von Jahren waren die Meere voll von Piranha-Robies-Nessies." #line:449bc3
+Mae: Ok FOCUS Mae. #line:46c311
+Mae: Ich mache eine Turbine. #line:731b3a
+[[Join1]]
+===
+title: DinosaurFish1
+tags:
+colorID: 0
+position: -1088,1275
+---
+Mae: Ja, ich meine, damals gab es Dinosaurierkaefer, Dinosaurierbaeume und Dinosaurierkacke. #line:486234
+Mae: Ich wuerde gerne mal einen Dinosaurier-Elch sehen. Ich wette, das waere ziemlich toll gewesen. #line:43c898
+Mae: Ok FOCUS Mae. #line:da73c4
+Mae: Eine Turbine bauen. #line:716b1f
+[[Join1]]
+===
+title: LooksLikeNotMuch
+tags:
+colorID: 0
+position: 622,672
+---
+Mae: Ok, also etwas kompaktes. #line:8e0c5d
+Mae: Denke Mae... #line:4e8c18
+[[Ich frage mich, was Gregg vorhat?|WhatGreggsUpTo]] #line:7efecc
+[[Wie hiess doch gleich der eine Film?|NameOfThatOneMovie]] #line:5ec486
+===
+title: WeGotPlentyOfRoom
+tags:
+colorID: 0
+position: 1287,732
+---
+Mae: hm... Konzentration, Mae. #line:45014b
+[[Ich frage mich, ob ich jemals dieses Motorrad bekommen werde.|GetThatMotorcycle]] #line:6302da
+[[Ich frage mich, was mit Caseys Boot passiert ist?|CaseysBoat]] #line:fff8aa
+===
+title: StopFan
+tags:
+colorID: 0
+position: 358,1809
+---
+Mae: Oh warte, was wird den Ventilator davon abhalten, sich zu bewegen? #line:a3886a
+Mae: RACKET!!! #line:2a2339
+<<close>>
+<<set $furnace_contraption to 1>>
+<<animationTrigger Contraption_A_CorpseDriver Build>>
+<<wait 4>>
+Mae: Alles klar, das sieht perfekt aus! #line:a522fb
+Mae: Habe Gnomey als Griff, #line:cb355e
+Mae: der Ventilator als Abzieher, #line:9893b0
+Mae: die Schnur, die sie verbindet, #line:d9216f
+Mae: und der Schlaeger, der den Ventilator in Position haelt. #line:57b76a
+Mae: Das ist erstaunlich! #line:da5108
+Bea: Ok fertig! #line:3eac03
+Mae: Was?! #line:eedf9a
+[[DoneSetup]]
+===
+title: WhatGreggsUpTo
+tags:
+colorID: 0
+position: 293,803
+---
+Mae: Ich frage mich, ob er dieses Ding herausgefunden hat... #line:2ca9de
+Mae: Ich erinnere mich, als Casey diesen Job im BurgBear draussen bei Briddle hatte. #line:0b6271
+Mae: Und er liess uns hinter die Theke, damit wir machen konnten, was wir wollten #line:8e3221
+Mae: aber dann kam Jeff, der Manager, herein und wir mussten aus dem Durchfahrtsfenster springen #line:a9cf44
+Mae: und Greggs Bein verfing sich in einer Art Kabel #line:346317
+[[und ein Auto hat ihn fast ueberfahren|CarAlmostRanOverHim]] #line:5e44b3
+[[und er kotzte|AndHePuked]] #line:d5a165
+===
+title: NameOfThatOneMovie
+tags:
+colorID: 0
+position: 738,1127
+---
+Mae: Die, wo der Typ von dem anderen Typen an die Maschine gefesselt wurde. #line:457801
+Mae: Und wie er in zwei Haelften gerissen wurde? #line:04d416
+Mae: Das war ziemlich cool, auch wenn es faaaake aussah. #line:fb2850
+Mae: Ich erinnere mich, als er explodierte, da waren ungefaehr #line:6e46f1
+Mae: doppelt so viele Knochen, wie da haetten sein sollen. #line:c6ac6b
+[[Ich frage mich, wie das an ihnen vorbeigeschluepft ist?|WonderHowThatSlippedPastThem]] #line:75c221
+[[Na gut, KONZENTRATION Mae.|FocusMae]] #line:90b7db
+
+===
+title: GetThatMotorcycle
+tags:
+colorID: 0
+position: 1126,994
+---
+Mae: Ein cooles Fahrrad, das nicht dumm und laut ist, denn das tut meinen Ohren weh #line:b4f1eb
+Mae: Drag-Racing. #line:10905c
+Mae: Kann man mit Fahrraedern Drag-Rennen fahren? #line:e73321
+Mae: Oder ist das so ein Auto-Ding? #line:f7a70b
+Mae: Dieser eine alte Film hatte den Monstertyp mit dem Monster-Drag-Racer. #line:9b5604
+Mae: Und er hatte einen coolen Helm und coole Stiefel und es war das coolste Ding ueberhaupt. #line:7189d9
+Mae: Hm... koennte Gnomey ziehen... #line:070f84
+Mae: Den Ventilator als Rad benutzen? #line:3afb45
+[[RevItUp]]
+===
+title: CaseysBoat
+tags:
+colorID: 0
+position: 1401,1004
+---
+Mae: Er hatte so etwas wie ein Boot. #line:3c3601
+Mae: Ich glaube, es gehoerte seinem Vater, bevor er starb. #line:e13216
+Mae: Verliere einen wirklich beschissenen Vater, besorge dir ein Boot! #line:6d59d0
+Mae: Waehrend der Flut in dem Jahr, als Opa starb, fuhr er damit durch die Gegend #line:24f125
+Mae: was eines der coolsten Dinge war, die ich je gesehen habe. #line:f133bd
+Mae: aber er haette fast diesen schwimmenden Hund mit dem Propeller getroffen #line:7fde11
+Mae: das Leben auf dem Meer ist gefaehrlich #linen:698aba
+Mae: ...hm... koennte den Ventilator als Propeller benutzen... Rad... Ding... #line:a54b11
+[[RevItUp]]
+===
+title: RevItUp
+tags:
+colorID: 0
+position: 1238,1730
+---
+Mae: aufdrehen und Gnomey ziehen lassen? #line:faf4bd
+Mae: Binde Gnomey an den Schlaeger, binde den Schlaeger an den Ventilator... #line:6a4abb
+<<close>>
+<<set $furnace_contraption to 4>>
+<<animationTrigger Contraption_D_DragRacer Build>>
+<<wait 4>>
+Mae: Ja Mae. Das ist der Stoff. #line:08170d
+Mae: Das ist genial. Ich bin ein Genie. #line:843b9f
+Mae: Also gut, versuchen wir's mal - #line:1bb856
+Bea: Ok fertig! #line:386627
+Mae: Was?! #line:4c41a2
+[[DoneSetup]]
+===
+title: CarAlmostRanOverHim
+tags:
+colorID: 0
+position: 31,1141
+---
+Mae: aber Jeff hat uns nie erwischt! #line:c79bdb
+[[HadToPullHimOut]]
+===
+title: AndHePuked
+tags:
+colorID: 0
+position: 331,1123
+---
+Mae: wie, auf den Kopf gestellt #line:59a945
+Mae: und er hat wie... in die Nase gekotzt? #line:f04764
+Mae: und dann hat er wieder gekotzt und es war wie #line:a95d66
+Mae: immerwaehrendes Kotzen fuer ein paar Sekunden #line:194c84
+[[HadToPullHimOut]]
+===
+title: HadToPullHimOut
+tags:
+colorID: 0
+position: 192,1479
+---
+Mae: und ich musste ihn herausziehen... #line:402d35
+Mae: und wir konnten nicht aufhoeren zu lachen... #line:67da8a
+Mae: ...konnte Gnomie an den Ventilator binden... #line:91b1b9
+Mae: Zu Ehren von Gregg. #line:dcdbff
+[[StopFan]]
+===
+title: WonderHowThatSlippedPastThem
+tags:
+colorID: 0
+position: 521,1393
+---
+Mae: Vielleicht haben bessere Filme einen Knochenbetreuer #line:b46117
+Mae: Damit solche Dinge nicht passieren. #line:146b20
+[[FocusMae]]
+===
+title: FocusMae
+tags:
+colorID: 0
+position: 693,1646
+---
+Mae: Ok, dann wollen wir Gnomey mal an den Ventilator binden... #line:164373
+Mae: Mit der Angelschnur #line:880353
+Mae: Und DAS koennte ihn ziehen? #line:f1ee4d
+Mae: Aber es wird ihn nicht in zwei Teile reissen. #line:60105f
+Mae: Gnomey hat nicht einmal Knochen. #line:3efb04
+Mae: CORPSEDRIVER!  #line:cd222a
+Mae: Wie hiess der Film noch gleich? #line:e7d016
+Mae: Ich werde meine Maschine Corpsedriver nennen. #line:f1ae98
+[[StopFan]]
+===
