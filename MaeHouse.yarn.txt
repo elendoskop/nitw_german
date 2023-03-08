@@ -14,27 +14,27 @@ position: -2503,485
     <<set $door_blocker to 1>>
     Mae: HEY! ERINNERST DU DICH AN MICH? #line:b84625
     Dad: AAAAAAAAAAAAAAGH! #line:bd8966
-    Papa: Mae! Du hast mir einen Herzinfarkt beschert! #line:1bc33d
+    Dad: Mae! Du hast mir einen Herzinfarkt beschert! #line:1bc33d
     Mae: GUT! /o\ #line:2c34f5
-    Papa: Was machst du da- #line:85bac5
+    Dad: Was machst du hier- #line:85bac5
     <<wait 2>>
-    Papa: Ooooooh. #line:ab2e3d
+    Dad: Ooooooh. #line:ab2e3d
     Mae: _o_ #line:851230
-    Dad: Mae Schatz, wir dachten, du wuerdest morgen Abend kommen! #line:bf195b
-    Mae: DU HAST FALSCH GEDACHT! \o/ #line:01859c
+    Dad: Mae Schatz, wir dachten, du wuerdest erst morgen Abend kommen! #line:bf195b
+    Mae: DA HABT IHR FALSCH GEDACHT! \o/ #line:01859c
     Mae: \o/ #line:61a150
     Dad: Wie bist du hierher gekommen? #line:3cf7f3
-    Mae: I WALKED UNTIL I GOT GESTARRT #line:c93f3e
-    Mae: Von Tante MALL COP. :\ #line:c366f8
+    Mae: BIN GELAUFEN BIS ICH VERHAFTET WURDE #line:c93f3e
+    Mae: VON TANTE KAUFHAUSCOP. :\ #line:c366f8
     Dad: Oh hast du Molly von mir gegruesst? #line:146607
     Mae: NEIN! :( #line:3fb751
-    Mae: Ich sage Hallo fuer niemanden! #line:1efd12
-    Mae: EFF THE COPS! #line:a229ba
-    Mae: ICH GEHE ZU BETTEN! #line:a6c3e8
+    Mae: Ich richte niemandem Gruesse aus! #line:1efd12
+    Mae: F' DIE COPS! #line:a229ba
+    Mae: ICH GEHE INS BETT! #line:a6c3e8
     Mae: IST MEIN BETT NOCH HIER? :o #line:14cfed
     Mae: ODER WARTEN WIR DAMIT AUCH BIS MORGEN ABEND? #line:65941b
-    Papa: Ah Mae. Es tut so gut, diese Stimme wieder zu hoeren. #line:4ef869
-    Mae: Gute Nacht! #line:f920c0
+    Dad: Ah Mae. Es tut so gut, diese Stimme wieder zu hoeren. #line:4ef869
+    Mae: GUTNACHT! #line:f920c0
     Mae: _o_ #line:c34560
     <<set $dad_done to 1>>
     <<unlockDoodle DadOlder>>
@@ -86,22 +86,22 @@ tags:
 colorID: 3
 position: -914,1466
 ---
-Papa: Was hast du heute Abend gemacht? #line:8c9eec
+Dad: Was hast du heute Abend gemacht? #line:8c9eec
 <<if $did_gregg_friendship_quest_1 is 1>>
     Mae: Aehm. #line:3a3c42
     Mae: Ich habe Gregg geholfen, ein paar Sachen zu transportieren. #line:126fa6
-    Papa: Schau, was fuer ein guter Freund du bist. #line:c8a5ce
-    Papa: Jemandem beim Umzug zu helfen ist eine schoene Geste. #line:5ca061
+    Dad: Schau, was fuer ein guter Freund du bist. #line:c8a5ce
+    Dad: Jemandem beim Umzug zu helfen ist eine schoene Geste. #line:5ca061
     Mae: Nun, wir sind die besten Freunde seit #line:cd5084
     Mae: fuer immer. #line:ca0843
     Mae: Also, ich glaube, wir sind ueber diesen Punkt hinaus. #line:171b68
     Mae: Ich bin aber wirklich, wirklich sauer. #line:5a06c0
-    Papa: Manchmal muss man sich fuer Freunde weh tun. #line:f3953c
+    Dad: Manchmal muss man sich fuer Freunde weh tun. #line:f3953c
 <<elseif $did_bea_friendship_quest_1 is 1>>
 	Mae: Bin mit Bea ausgegangen. #line:a201fe
-	Papa: Hast du dich amuesiert? #line:c1d228
+	Dad: Hast du dich amuesiert? #line:c1d228
 	Mae: Ja. Sie ist irgendwie... ich weiss nicht. #line:b9f378
-	Papa: ? #line:353851
+	Dad: ? #line:353851
 	Mae: Also, sie ist aelter. Wie, viel aelter. #line:44d735
 	Mae: Und irgendwie... traurig? #line:2c0d3d
 	Dad: Na ja, sie hat eine Menge durchgemacht. #line:48f2af
@@ -271,7 +271,7 @@ tags:
 colorID: 2
 position: -2383,1085
 ---
-Papa: Hey Kaetzchen. #line:66cdcf
+Dad: Hey Kaetzchen. #line:66cdcf
 Mae: *ROWR* #line:7a9ee2
 Dad: Hoer mal Mae, es tut mir leid wegen gestern Abend. #line:8bfdd0
 Dad: Ich dachte wirklich, du wuerdest heute Nacht nach Hause kommen. #line:bf2565
@@ -285,10 +285,10 @@ position: -2387,1327
 ---
 Mae: Ich bin durch die Schlucht bei der alten Muehle gegangen. #line:a7dc4f
 Mae: Fast gestorben. #line:eb2719
-Papa: Was? #line:a11663
+Dad: Was? #line:a11663
 Mae: Ja, die Protokolle haben mich fast umgebracht. #line:4e953d
 Mae: Normales Zeug. #line:f48a25
-Papa: Nun, ich verspreche dir, dass ich dich nie wieder im Stich lassen werde. #line:d39f3c
+Dad: Nun, ich verspreche dir, dass ich dich nie wieder im Stich lassen werde. #line:d39f3c
 [[Dad_A1D1_Continue]]
 ===
 title: Dad_A1D1_Continue
@@ -301,14 +301,14 @@ Mae: Wie waere es, wenn wir so tun, als ob ich heute Abend nach Hause gekommen w
 Mae: Und wir sind gerade vom Busbahnhof zurueckgekommen. #line:3ca052
 Dad: Noch mal von vorne anfangen? #line:892ab6
 Mae: Ja. #line:01f660
-Papa: Ok. #line:771182
+Dad: Ok. #line:771182
 Mae: Hey Dad. #line:c25cb1
-Papa: Hey Mae. #line:d4d936
+Dad: Hey Mae. #line:d4d936
 Mae: Danke, dass du mich abgeholt hast. #line:dcbba4
 Dad: Willkommen zu Hause, Mae. #line:fdb484
 Mae: Ich denke, ich werde schlafen gehen. #line:0b8d5a
-Papa: Nun, du hattest einen grossen Tag. #line:5b632d
-Papa: Gute Nacht, Kaetzchen. #line:571ec1
+Dad: Nun, du hattest einen grossen Tag. #line:5b632d
+Dad: Gute Nacht, Kaetzchen. #line:571ec1
 <<unlockDoodle DadStillFunny>>
 ===
 title: Dad_A1D1_ItsOkIGuess
@@ -316,7 +316,7 @@ tags:
 colorID: 2
 position: -2102,1317
 ---
-Papa: Du kennst mich doch. Mit dem schlechten Gedaechtnis. #line:017338
+Dad: Du kennst mich doch. Mit dem schlechten Gedaechtnis. #line:017338
 Mae: Ja, ich erinnere mich. #line:40aacf
 Mae: Ich meine, du bist ziemlich gut. #line:4f2054
 Dad: Ja, ich erinnere mich daran, zu essen und zu atmen. #line:55bc76
@@ -332,16 +332,16 @@ position: -2110,1087
 Mae: OH WAIT! ICH HABE VERGESSEN, ES DIR ZU SAGEN! #line:d8e810
 Dad: Was? #line:7f2de2
 Mae: WIR HABEN HEUTE EINEN ARM AUF DEM BODEN GEFUNDEN! #line:1fae59
-Papa: Tun wir immer noch so, als sei es gestern gewesen? #line:fad85f
+Dad: Tun wir immer noch so, als sei es gestern gewesen? #line:fad85f
 Mae: Nein! Wir kamen aus dem Clik Clak und da war ein Arm! #line:120009
-Papa: Genau wie... ein Arm? #line:ae3e71
-Papa: Wie? #line:534a41
+Dad: Genau wie... ein Arm? #line:ae3e71
+Dad: Wie? #line:534a41
 Mae: Tante Mall Cop war da und so! #line:ce61c8
-Papa: Oh mein Gott. Das ist wirklich... seltsam. #line:3b7b6c
+Dad: Oh mein Gott. Das ist wirklich... seltsam. #line:3b7b6c
 Mae: Ich habe ihn mit einem Stock gestochen! #line:257435
-Papa: Ok, Mae stochert nicht mit Stoecken in toten Koerperteilen herum. #line:dee129
+Dad: Ok, Mae stochert nicht mit Stoecken in toten Koerperteilen herum. #line:dee129
 Mae: Zu spaet! #line:760504
-Papa: Wow. Ich werde Molly eine E-Mail schicken muessen. #line:0b7183
+Dad: Wow. Ich werde Molly eine E-Mail schicken muessen. #line:0b7183
 Mae: Also dann, gute Nacht, wirklich! #line:ff0b17
 
 ===
@@ -350,14 +350,14 @@ tags:
 colorID: 2
 position: -1335,1500
 ---
-Mama: Hey Suesse! #line:ce62c1
-Papa: Sieh mal, wer zu Hause ist! #line:41726d
+Mom: Hey Suesse! #line:ce62c1
+Dad: Sieh mal, wer zu Hause ist! #line:41726d
 Mae: Hey, die Eltern. #line:dea1b4
-Mama: Ich habe Tacos gemacht. #line:f897fe
-Papa: Entschuldigung, WIR haben Tacos gemacht. #line:bbac7f
+Mom: Ich habe Tacos gemacht. #line:f897fe
+Dad: Entschuldigung, WIR haben Tacos gemacht. #line:bbac7f
 Mae: Tacos? #line:2a16dd
-Mama: Tacos! #line:d1e12d
-Papa: Willst du Tacos? #line:2f4a74
+Mom: Tacos! #line:d1e12d
+Dad: Willst du Tacos? #line:2f4a74
 [[Ich will Tacos. Jeden Tag. Den ganzen Tag.|Mom_A1D3_IWantTacos]] #line:d9df46
 [[Nein, ich werde es spaeter auf der Party vernaschen.|Mom_A1D3_NoGonnaSnackItUp]] #line:e4d797
 ===
@@ -366,13 +366,13 @@ tags:
 colorID: 2
 position: -1433,1860
 ---
-Papa: Die Familie, die zusammen tacos, rockt zusammen. #line:69194a
+Dad: Die Familie, die zusammen tacos, rockt zusammen. #line:69194a
 Mae: ... #line:6f1187
-Mama: Schatz nein. #line:309aa3
-Papa: Was? #line:6806a4
+Mom: Schatz nein. #line:309aa3
+Dad: Was? #line:6806a4
 Mae: Ich bin im Moment so wuetend. #line:f8d0cd
 Dad: Ihr habt euch alle gegen mich gewendet. #line:e07a25
-Mama: Mae Schatz, willst du saure Sahne auf deinen Taco? #line:58bbfb
+Mom: Mae Schatz, willst du saure Sahne auf deinen Taco? #line:58bbfb
 Mae: Ich. #line:956aa3
 Mae: Will. #line:c30bc8
 Mae: Alles. #line:610afa
@@ -387,16 +387,16 @@ tags:
 colorID: 2
 position: -1107,1851
 ---
-Papa: Meinst du eine Schlange? #line:1ba214
-Mama: Nimm dich vor Schlangen in Acht, Schatz. #line:54715a
+Dad: Meinst du eine Schlange? #line:1ba214
+Mom: Nimm dich vor Schlangen in Acht, Schatz. #line:54715a
 Mae: Leute, es wird ein Feuer geben und Menschen. #line:60b161
 Mae: Schlangen werden in Angst und Schrecken rennen. #line:e07964
-Papa: Schlangen rennen nicht, Kaetzchen. #line:2aa048
-Mama: Kannst du dir Schlangen mit Beinen vorstellen? #line:daec44
-Mama: *zitter* #line:aeac1f
+Dad: Schlangen rennen nicht, Kaetzchen. #line:2aa048
+Mom: Kannst du dir Schlangen mit Beinen vorstellen? #line:daec44
+Mom: *zitter* #line:aeac1f
 Mae: Das sind Eidechsen, Mama. #line:a8afb9
-Mama: Dann huete dich vor Eidechsen. #line:86e145
-Papa: Sie werden dich erwischen. #line:af6500
+Mom: Dann huete dich vor Eidechsen. #line:86e145
+Dad: Sie werden dich erwischen. #line:af6500
 <<close>>
 <<set $night to 1>>
 <<fadeOut 1 wait>>
@@ -505,11 +505,11 @@ tags: demo
 colorID: 0
 position: -1630,-508
 ---
-Mama: {align=middle,locator=momstairs} ...Mae? #line:fe284f
+Mom: {align=middle,locator=momstairs} ...Mae? #line:fe284f
 Mae: Ja? #line:cdf7b5
 Mom: {align=middle,locator=momstairs} Gehst du aus? #line:e0c03b
 Mae: Ja! #line:7b6abd
-Mama: {align=middle,locator=momstairs} [wave]Komm mal kurz zurueck in die Kueche![/wave] #line:293173
+Mom: {align=middle,locator=momstairs} [wave]Komm mal kurz zurueck in die Kueche![/wave] #line:293173
 ===
 title: Dad_A1D1
 tags:
@@ -567,7 +567,7 @@ Mae: Ein bisschen mit Angus rumgehangen. Erinnerst du dich an ihn? #line:e169ca
 Dad: Oh ja! Ich mag Angus. Er ist klug. #line:6ef5b0
 Dad: Frueher habe ich mit seinem Vater gearbeitet. #line:d4428c
 Dad: Ich weiss, dass sie schwere Zeiten durchgemacht haben, nachdem wir alle entlassen wurden. #line:df4aa4
-Papa: Ich habe ihn immer in der Bar gesehen... #line:38d001
+Dad: Ich habe ihn immer in der Bar gesehen... #line:38d001
 Mae: Ja. #line:7e7109
 Dad: Nachdem ich aufgehoert habe zu trinken, habe ich ihn nicht mehr so oft gesehen. #line:0233a5
 Dad: Ich frage mich, wie es ihm geht. #line:fb5aac
@@ -579,7 +579,7 @@ tags:
 colorID: 2
 position: -1609,1114
 ---
-Papa: Haben sie etwas ueber den Arm herausgefunden? #line:0f180a
+Dad: Haben sie etwas ueber den Arm herausgefunden? #line:0f180a
 Mae: Nicht dass ich wuesste. #line:4561e5
 Dad: Hm. Nun, sei vorsichtig da draussen. #line:720477
 Mae: Vielleicht sollte ich Pfefferspray oder Schlagringe oder so etwas tragen. #line:af22be
@@ -588,11 +588,11 @@ Dad: und unbewaffnet waerst. #line:4eba4f
 Mae: Nein, ich denke, ich komme schon zurecht. #line:87b1c6
 Dad: ... #line:5d4876
 Mae: Was ist? #line:c36882
-Papa: ... #line:d31ebe
+Dad: ... #line:d31ebe
 Mae: HA HA HA HA HA ok ich hab's verstanden. #line:2bdffd
-Papa: UN-ARMED??? EH?? #line:e2acc6
+Dad: UN-ARMED??? EH?? #line:e2acc6
 Mae: Ich gehe jetzt ins Bett. #line:b463f4
-Papa: Gute Nacht Buergermeisterkaetzchen. #line:d4b644
+Dad: Gute Nacht Buergermeisterkaetzchen. #line:d4b644
 Mae: Gute Nacht! #line:55b54e
 <<unlockDoodle DadStillFunny>>
 ===
@@ -802,12 +802,12 @@ position: -545,1699
         Dad: Na, was hast du denn in letzter Zeit fuer mich getan? #line:9cc0f9
         -> Warst eine ausgezeichnete Tochter. #line:dc903e
         -> Warst eine Zierde fuer die Familie. #line:ca8494
-        Papa: Das zaehlt nicht. #line:4e1bd9
-        Papa: Wuerdest du dann mit mir fernsehen? #line:a3e131
+        Dad: Das zaehlt nicht. #line:4e1bd9
+        Dad: Wuerdest du dann mit mir fernsehen? #line:a3e131
     <<elseif $watched_tv_with_dad is 1>>
         Mae: Aehm... was ist mit den Kisten, nach denen ich gefragt habe? Im Kriechkeller? #line:6504a3
-        Papa: Hmm. Ich denke darueber nach. #line:71648a
-        Papa: Schaust du mit mir fern? #line:cacea9
+        Dad: Hmm. Ich denke darueber nach. #line:71648a
+        Dad: Schaust du mit mir fern? #line:cacea9
     <<else>>
         <<set $dad_will_move_boxes to 1>>
         Mae: Und was ist mit den Krabbelkisten? #line:bae66b
@@ -815,7 +815,7 @@ position: -545,1699
         Dad: Fernsehzeit? #line:4645ef
     <<endif>>
 <<else>>
-    Papa: Bleibst du auf? #line:8377c5
+    Dad: Bleibst du auf? #line:8377c5
 <<endif>>
 [[Ja, fuer ein kleines bisschen.|YeahForALittleBit]] #line:b8023a
 [[Nein, ich gehe ins Bett.|NawImHeadingToBed]] #line:5612b4
@@ -829,7 +829,7 @@ position: -396,2059
 <<if $watched_tv_with_dad is 0>>
     Dad: Huepf rauf. Ich schaue Garbo und Malloy. #line:7c8930
 <<elseif $watched_tv_with_dad is 1>>
-    Papa: Perfektes Timing, Garbo und Malloy faengt gerade an. #line:47cd7f
+    Dad: Perfektes Timing, Garbo und Malloy faengt gerade an. #line:47cd7f
 <<endif>>
 
 <<if $player_y * 10 > -14>>
@@ -874,14 +874,14 @@ position: -95,1330
 Mae: Wie laeuft's bei der Arbeit? #line:5b5378
 Dad: Du weisst schon. Besser als in der Glasfabrik! #line:d0800b
 Mae: Ist es das? #line:599042
-Papa: Ich habe Bergbau betrieben, ich habe Maschinen bedient, #line:1a903c
-Papa: aber jetzt darf ich Steaks schneiden #line:79a304
-Papa: und Salamis hacken. #line:420af1
+Dad: Ich habe Bergbau betrieben, ich habe Maschinen bedient, #line:1a903c
+Dad: aber jetzt darf ich Steaks schneiden #line:79a304
+Dad: und Salamis hacken. #line:420af1
 Dad: Ich meine, es ist einfacher fuer den Ruecken, das ist sicher. #line:d68f09
 Mae: Aber magst du es denn? #line:52ea43
 Dad: Ich mag es, einen Gehaltsscheck zu haben! #line:70d00a
 Mae: Schoen. #line:344e67
-Papa: Gehaltsschecks: das suesseste Fleisch von allen. #line:d200fb
+Dad: Gehaltsschecks: das suesseste Fleisch von allen. #line:d200fb
 <<unlockDoodle DadStillFunny>>
 ===
 title: Dad_A2D2
@@ -920,18 +920,18 @@ tags:
 colorID: 3
 position: 332,956
 ---
-Papa: Oof. #line:078a89
+Dad: Oof. #line:078a89
 Mae: Wie geht's? #line:43fbef
-Papa: Langer Tag. #line:245954
+Dad: Langer Tag. #line:245954
 Mae: Ja, ich auch. #line:b472cd
 Dad: Wie ist es mit der Geselligkeit? #line:424ab1
 Mae: Erstaunlich anstrengend manchmal. #line:35d7f5
 Dad: Ja. Deshalb mache ich auch nicht viel davon! #line:8086c6
 <<if $did_bea_friendship_quest_3 is 1>>
-	Papa: Angenehme Ueberraschung, dich heute Abend bei der Arbeit zu sehen #line:9c64ed
+	Dad: Angenehme Ueberraschung, dich heute Abend bei der Arbeit zu sehen #line:9c64ed
 	Mae: Ja! Ich kann nicht glauben, dass ich dich noch nicht besucht habe. #line:84ab3c
 	Dad: Nun, du bist noch nicht lange zurueck. #line:3306d7
-	Papa: Und du lauerst normalerweise nicht auf den Ham Panther. #line:21407b
+	Dad: Und du lauerst normalerweise nicht auf den Ham Panther. #line:21407b
 	Mae: Wer sagt denn, dass ich das nicht tue? #line:a3a1c4
 	Dad: Nun, es war trotzdem schoen, dich zu sehen. #line:1ab86f
 	Mae: Lurk lurk. #line:4e0dc9
@@ -945,22 +945,22 @@ position: 553,954
 ---
 <<if $mom > 0 or $mom_church > 0>>
 	Mae: Irgendeine Idee, was heute mit Mama los war? #line:3b78ec
-	Papa: Oh, sie ist nur gestresst. #line:4330b7
+	Dad: Oh, sie ist nur gestresst. #line:4330b7
 <<else>>
 	Mae: Du scheinst heute Abend ein wenig gestresst zu sein. #line:c20001
-	Papa: Jaaaa. Ein bisschen gestresst. #line:50e18f
+	Dad: Jaaaa. Ein bisschen gestresst. #line:50e18f
 	Mae: Gestresst wegen... #line:0c10e7
-	Papa: Ach, nur Sachen. #line:cd5227
+	Dad: Ach, nur Sachen. #line:cd5227
 <<endif>>
 Mae: Das ist vage. #line:121a5f
-Papa: Ha ha, na ja. #line:009480
+Dad: Ha ha, na ja. #line:009480
 Dad: Ich hasse es, derjenige zu sein, der es dir sagen muss #line:968041
 Dad: aber du verbringst einen Grossteil des Erwachsenenalters damit, vage gestresst zu sein. #line:e8e56f
 Mae: Ach verdammt. #line:1108fa
 Mae: Ich dachte, die Betonung wuerde zumindest spezifischer werden. #line:f28cfa
-Papa: Oh nein, das wirst du auch haben. #line:cf9090
+Dad: Oh nein, das wirst du auch haben. #line:cf9090
 Mae: hrm. #line:0092b0
-Papa: Kopf hoch, Kindchen. Es ist nur das Leben. #line:1fb4ef
+Dad: Kopf hoch, Kindchen. Es ist nur das Leben. #line:1fb4ef
 Mae: Mensch, danke Papa. #line:2d3971
 
 ===
@@ -989,22 +989,22 @@ position: 781,873
 	Mae: Urgh. #line:cc510e
 	Dad: Urgh? #line:dbde72
 	Mae: Ich fuehle mich heute Abend ziemlich fertig. #line:288fb6
-	Papa: Ach, arme Mae. Kann ich irgendetwas tun? #line:53c8ef
+	Dad: Ach, arme Mae. Kann ich irgendetwas tun? #line:53c8ef
 	Mae: Ich... #line:8c841c
 	Mae: nein. #line:3536ee
 	Mae: Ich weiss es nicht. #line:661d6e
-	Papa: Nun, wenn du es herausfindest, lass es mich wissen. #line:375853
+	Dad: Nun, wenn du es herausfindest, lass es mich wissen. #line:375853
 	Mae: Danke, Dad. #line:0c32fb
     Mae: o_o #line:560842
 <<else>>
     Mae: =_= #line:b68556
     Mae: Urgh #line:ec24cd
 	Dad: Ja, das scheint die Runde zu machen. #line:014790
-	Papa: Das Urgh. #line:b0c080
+	Dad: Das Urgh. #line:b0c080
 	Mae: Yeppers. #line:fac340
 	Dad: Also... aeh... du und Mama hattet gestern einen kleinen Streit, ja? #line:390085
 	Mae: Ja. #line:65d96b
-	Papa: Ich dachte, ihr zwei habt euch vertragen? #line:7bf69d
+	Dad: Ich dachte, ihr zwei habt euch vertragen? #line:7bf69d
     Mae: o_o #line:f32d0d
         ->wurden wir #line:8d4fbe
             Mae: aber wir haben darueber gesprochen. #line:5a3732
@@ -1019,9 +1019,9 @@ position: 781,873
 		Mae: Wir haben also Geldprobleme? #line:4fbdb7
         Dad: Was? Nein. Uns geht es gut. #line:664765
         Mae: Papa. #line:7ff416
-        Papa: Mae. Es ist alles in Ordnung. #line:7caffd
+        Dad: Mae. Es ist alles in Ordnung. #line:7caffd
 		Mae: Es ist in Ordnung. Ich bin 20. Ich kann damit umgehen. #line:5771cb
-        Papa: Nichts, womit man umgehen kann. #line:036189
+        Dad: Nichts, womit man umgehen kann. #line:036189
         Mae: ok. #line:54ef6d
     <<endif>>
 <<endif>>
@@ -1055,10 +1055,10 @@ position: 1312,917
 ---
 Mae: =_= #line:fa44da
 Mae: Hey Dad. #line:aef4d0
-Papa: Hey du. #line:0df9c9
-Papa: Bist du okay? #line:5be292
+Dad: Hey du. #line:0df9c9
+Dad: Bist du okay? #line:5be292
 Mae: Ja. Komische Nacht. #line:19893c
-Papa: Du siehst wirklich erschoepft aus. #line:ffddec
+Dad: Du siehst wirklich erschoepft aus. #line:ffddec
 Mae: Ja... #line:7749e5
 Mae: o_o #line:5b9509
 ===
@@ -1067,15 +1067,15 @@ tags:
 colorID: 4
 position: 1553,913
 ---
-Papa: Oje. Ich bin heute Abend sauer. #line:146fb2
-Papa: Ich brauche eine Rueckenstuetze oder so. #line:9538b1
-Papa: Wie machst du das? #line:3824ef
+Dad: Oje. Ich bin heute Abend sauer. #line:146fb2
+Dad: Ich brauche eine Rueckenstuetze oder so. #line:9538b1
+Dad: Wie machst du das? #line:3824ef
 Mae: Was tun? #line:1645b9
-Papa: Immer rennen und herumspringen wie verrueckt #line:b98c75
+Dad: Immer rennen und herumspringen wie verrueckt #line:b98c75
 Mae: Ich weiss es nicht. Ich meine, ich bin wirklich aus der Form. #line:69b725
 Mae: Ich glaube nicht, dass ich jemals *in* Form war. #line:849c12
 Dad: Ich war es mal, aber das lag an meinem Job. #line:2c87e2
-Papa: Der neue Job verlangt nicht viel davon. #line:9fe9b2
+Dad: Der neue Job verlangt nicht viel davon. #line:9fe9b2
 Mae: Ja. #line:685eab
 <<wait 2>>
 <<if $did_mom_friendship_quest is 1>>
@@ -1086,10 +1086,10 @@ Mae: Ja. #line:685eab
     Dad: Du solltest, du weisst schon, mal zum Abendessen zu Hause sein. #line:df086f
     Mae: :| #line:f9c309
     Mae: Ja. #line:c2b39b
-    Papa: Ja? #line:e79a9c
+    Dad: Ja? #line:e79a9c
     Mae: Ja. #line:a5eb96
 <<endif>>
-Papa: Ok, geh ins Bett, du. #line:d6142c
+Dad: Ok, geh ins Bett, du. #line:d6142c
 Mae: Mach ich. #line:39d558
 ===
 title: Dad_A3D2
@@ -1114,8 +1114,8 @@ position: 1983,845
 <<toggleSitSwings Mae 0>>
 Mae: =_= #line:94b302
 Mae: Hallo. #line:fde606
-Papa: Hallo. #line:5bd112
-Papa: Oh wow. Geht es dir gut? #line:32ffee
+Dad: Hallo. #line:5bd112
+Dad: Oh wow. Geht es dir gut? #line:32ffee
 Mae: Nein. #line:46d7cb
 Mae: o_o #line:6b9491
 <<close>>
@@ -1126,21 +1126,21 @@ Mae: o_o #line:6b9491
 <<waitForMove Mae>>
 <<cameraLookAt CameraTV 1>>
 <<sit>>
-Papa: Ok #line:cd01cc
-Papa: Also, was ist hier los? #line:e53344
+Dad: Ok #line:cd01cc
+Dad: Also, was ist hier los? #line:e53344
 Mae: Ich glaube, ich kann nicht darueber reden. #line:316d2b
 Dad: Irgendwann musst du anfangen zu reden, Kaetzchen. #line:adbd65
 Mae: Ich wuenschte, ich koennte. #line:5a5946
-Papa: Warum kannst du es nicht? #line:ec3906
+Dad: Warum kannst du es nicht? #line:ec3906
     ->Ich weiss es nicht einmal. #line:830142
-        Papa: so ist es manchmal #line:1842fb
-        Papa: aber es ist nicht immer ein guter Grund. #line:034ef5
+        Dad: so ist es manchmal #line:1842fb
+        Dad: aber es ist nicht immer ein guter Grund. #line:034ef5
         Mae: Ich weiss. #line:8d2419
     ->wo soll man ueberhaupt anfangen? #line:f28656
 Mae: es ist nur #line:963142
 Mae: ich habe diese Traeume gehabt #line:fc903f
 Mae: und ich denke immer, ich sehe einen Geist #line:fb5803
-Papa: einen Geist? #line:50281b
+Dad: einen Geist? #line:50281b
 Mae: und ich hatte diese schrecklichen Albtraeume #line:b78818
 Mae: die sich wirklich real anfuehlen #line:9b02de
 Mae: und ich glaube, etwas wirklich Schlimmes wird passieren #line:e2d592
@@ -1153,27 +1153,27 @@ Mae: -_- :( #line:992ef6
 Mae: jeder ist auf dem Weg irgendwo anders hin #line:31ee9f
 <<if $big_fight>>
 	Mae: und ich hatte diesen grossen Streit mit Mama. #line:59f255
-    Papa: Kaetzchen, ist schon gut. #line:a135b8
+    Dad: Kaetzchen, ist schon gut. #line:a135b8
 <<endif>>
 <<if $money_trouble>>
 	Mae: und da sind die Geldprobleme noch gar nicht mitgerechnet. #line:21bfb0
-	Papa: Ja. #line:7fbcb0
-    Papa: Geldprobleme machen alles schlimmer. Ich weiss es. #line:9752ab
+	Dad: Ja. #line:7fbcb0
+    Dad: Geldprobleme machen alles schlimmer. Ich weiss es. #line:9752ab
     Mae: und ich kann nichts dagegen tun #line:dc53dc
     Mae: ich weiss nicht einmal, ob ich einen Job behalten koennte #line:e345cb
     Mae: und wie soll ich jemals ueberleben #line:72b4a9
 <<endif>>
 Mae: und- und- und #line:fe2294
-Papa: schhhhh, Kaetzchen #line:b79a46
-Papa: atme mal durch. #line:47549d
+Dad: schhhhh, Kaetzchen #line:b79a46
+Dad: atme mal durch. #line:47549d
 Mae: ok. ok. ok. #line:6e7c87
 Mae: o_o :( #line:baa145
 <<wait 4>>
-Papa: Warum schlaefst du nicht ein bisschen? #line:17c094
+Dad: Warum schlaefst du nicht ein bisschen? #line:17c094
 Mae: ... #line:8c2280
 Mae: Kann ich einfach ein bisschen hier unten bleiben? #line:c6f827
 <<wait 3>>
-Papa: So lange du willst. #line:5a4c8f
+Dad: So lange du willst. #line:5a4c8f
 Mae: :| #line:c6c573
 <<close>>
 <<wait 2>>
@@ -1207,12 +1207,12 @@ position: -3049,563
 <<if $act is 1 and $day is 1>>
     Mom: Schatz? #line:f67413
     Mae: Ja? #line:358f82
-    Mama: Komm zu mir in die Kueche, bevor du gehst! #line:51695a
+    Mom: Komm zu mir in die Kueche, bevor du gehst! #line:51695a
     Mae: Okay! #line:a95b57
 <<elseif $act is 1 and $day is 2>>
-    Mama: Hey Schatz. #line:dabc28
+    Mom: Hey Schatz. #line:dabc28
     Mae: Ja? #line:e9ad3d
-    Mama: Komm und sag Hallo. #line:dd2ae9
+    Mom: Komm und sag Hallo. #line:dd2ae9
 <<elseif $act is 2 and $day is 1>>
     [[MomStairsA2D1]]
 <<elseif $act is 3 and $day is 1>>
@@ -1220,12 +1220,12 @@ position: -3049,563
     Mae: Ja? #line:78fb80
     Mom: Komm und sag hallo, ja? #line:e39823
 <<elseif $act is 4 and $day is 2>>
-    Mama: Du warst im Koma! Komm und rede mit mir. #line:9ea87b
+    Mom: Du warst im Koma! Komm und rede mit mir. #line:9ea87b
 <<elseif $act is 4 and $day is 3>>
-    Mama: Mae Schatz? Bist du das? #line:be229c
+    Mom: Mae Schatz? Bist du das? #line:be229c
     Mae: Ja! #line:fd156b
-    Mama: Ich bin wieder in der Kueche #line:d0fc84
-    Mama: wenn du reden willst... #line:983e34
+    Mom: Ich bin wieder in der Kueche #line:d0fc84
+    Mom: wenn du reden willst... #line:983e34
 <<endif>>
 ===
 title: EndTV
@@ -1636,7 +1636,7 @@ position: -2790,568
 ---
 Mom: Mae? #line:7b3670
 Mae: Ja? #line:190a5a
-Mama: Komm und sag Hallo! #line:e0b858
+Mom: Komm und sag Hallo! #line:e0b858
 Mae: Okay! #line:17e307
 ===
 title: BirdCage_A1D2
