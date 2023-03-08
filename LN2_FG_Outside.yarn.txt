@@ -220,7 +220,7 @@ Adina: Ich bin Kaiserin Astra und dies ist mein kaiserlicher Berater Williams #l
 Snowdrunk: Seid gegruesst! #line:c0c7c1
 Adina: Und mein Herold, aehm... Harold! #line:2406ac
 Snowdrunk: Sehr schoen. #line:021b57
-Schneegestoeber: *HONK!* #line:7d5c90
+Snowblow: *HONK!* #line:7d5c90
 GodtenderBrown: Ist das ein Glundinhorn? #line:c09e15
 Adina: Ein was jetzt? #line:61e959
 GodtenderBrown: Ich habe in meiner Schulzeit Glundinhorn gespielt! #line:238947
@@ -287,7 +287,7 @@ Adina: Und mein Erzbischof, Clancy! #line:30e2e8
 Snowdog: *arf!* #line:6393e9
 Adina: Wir sind lange durch die Nacht gereist, um hier zu sein, duerfen wir hindurchgehen? #line:4ba4ec
 GodtenderBrown: Ihr habt einen *HUND* als Erzbischof? #line:b16ef5
-[Er ist extrem scharfsinnig, nicht wahr Clancy?|FGPerceptive2]] #line:93685a
+[[Er ist extrem scharfsinnig, nicht wahr Clancy?|FGPerceptive2]] #line:93685a
 [Das ist kein Hund! Erzbischof Clancy spricht die Sprache der Tiere!|FGBeastLanguage2]] #line:f4274e
 ===
 title: SnowblowAndSnowdog
@@ -300,7 +300,7 @@ Adina: Reisende! #line:9e11fc
 Adina: Wir suchen eine Audienz bei dem Waldgott! #line:08ce5e
 GodtenderBrown: Ich bin Godtender Brown. Wer bist du jetzt? #line:7eb948
 Adina: Ich bin Kaiserin Astra und dies ist mein Herold. #line:93acb9
-Schneegestoeber: *HONK!* #line:134808
+Snowblow: *HONK!* #line:134808
 Adina: Und mein kaiserlicher Berater, Clancy. #line:043d96
 Snowdog: *Farf!* #line:18c68c
 GodtenderBrown: Ist das ein Glundinhorn? #line:e6a4c1
@@ -375,23 +375,23 @@ colorID: 0
 position: 2702,451
 ---
 <<if $snow_bridge is 1 or $talked_to_snowblow is 1>>
-	Schneegestoeber: *HONK!* #line:6cd1af
+	Snowblow: *HONK!* #line:6cd1af
 <<else>>
 	Adina: Hallo du. #line:7e5061
-	Schneegestoeber: *HONK!* #line:73db53
+	Snowblow: *HONK!* #line:73db53
 	Adina: Ok wow, bist du nur ein Horn? #line:5347f1
 	Snowblow: *HOOOOOONK!* #line:a4ff40
 	Adina: Versuchen wir das mal - einmal hupen fuer ja und zweimal fuer nein. Habt ihr das verstanden? #line:4d274f
-	Schneegestoeber: *HONK!* #line:abfb26
+	Snowblow: *HONK!* #line:abfb26
 	Adina: Bist du nur ein Horngeist oder so was? #line:8ef3ef
 	Snowblow: *HONK! HONK!* #line:7fe73c
 	Adina: Bist du die Person, die dieses Horn gespielt hat? #line:3f71b6
-	Schneegestoeber: *HONK!* #line:e30f49
+	Snowblow: *HONK!* #line:e30f49
 	Adina: Hoer zu, indem ich dich zurueckbringe #line:c420ee
 	Adina: glaube ich, dass du aus diesem Wald herauskommen kannst #line:e8cdc3
 	Adina: und das tun, was tote Menschen tun. #line:662d83
 	Adina: Hoert sich das gut an? #line:36430b
-	Schneegestoeber: *HOOOOOONK!* #line:c28b5e
+	Snowblow: *HOOOOOONK!* #line:c28b5e
 	Adina: Ok, super! Folgt meinem Beispiel. #line:7288be
 	<<set $talked_to_snowblow to 1>>
 <<endif>>
@@ -747,7 +747,7 @@ Snowthief: Zog ihn hinab. #line:64f618
 Snowdrunk: Ok. #line:8ce0ac
 Adina: Wie auch immer, #line:72d4cf
 GodtenderBrown: Oooh! Ich bin jetzt gut und erschrocken! #line:188d3d
-[[]Wir sind lange gereist, vorbei an vielen Geisterozeanen|GhostOcean]] #line:83a6fa
+[[Wir sind lange gereist, vorbei an vielen Geisterozeanen|GhostOcean]] #line:83a6fa
 [[Hoer mal, so etwas gibt es nicht.|DoesntExist]] #line:2dc62f
 
 ===
@@ -869,7 +869,7 @@ position: -559,1011
 GodtenderBrown: Glundinhoerner bergen den Fluch des endgueltigen Todes fuer alle, die sie spielen. #line:0f5dc7
 Adina: Wow! #line:dcc615
 GodtenderBrown: und extremes Unglueck fuer alle, die sie hoeren. #line:21b9e7
-Schneegestoeber: *Hoooooooooonk.* #line:adbf72
+Snowblow: *Hoooooooooonk.* #line:adbf72
 Snowdrunk: Eindeutig. #line:681cc8
 [[Und das darf man in der Schule spielen?|PlaySchool1]] #line:b208d9
 [[Aber du bist noch am Leben?|StillAlive1]] #line:427236
@@ -883,7 +883,7 @@ GodTenderBrown: Sie entdeckten den Fluch erst, nachdem ich die Weisheit erlangt 
 GodTenderBrown: Das Jahr, in dem sie den Gludinhorn-Midsummer-Choral auffuehrten. #line:336b68
 GottZartBraun: Und die Schule fiel in die Erde. #line:7e6a01
 Adina: Oh mein Gott! #line:716042
-Schneegestoeber: *HONK!!!* #line:7bffa3
+Snowblow: *HONK!!!* #line:7bffa3
 Snowdrunk: Ja, das wird ein Fluch sein, in der Tat. #line:4d2ee3
 GodtenderBrown: Und jetzt bist du verflucht, denn du hast das Gludinhorn gehoert! #line:f09a2c
 GodtenderBrown: Und euer armer Herold ist mit dem Tod verflucht! #line:759361
@@ -931,7 +931,7 @@ position: 761,770
 GodtenderBrown: Auf Glundinhoernern liegt der Fluch des endgueltigen Todes fuer alle, die sie spielen. #line:ee737a
 Adina: Really? #line:e5ac5a
 GodtenderBrown: und extremes Unglueck fuer alle, die sie hoeren. #line:749c52
-Schneegestoeber: *Hoooooooooooonk.* #line:059ba6
+Snowblow: *Hoooooooooooonk.* #line:059ba6
 Snowthief: Schockierend. #line:ce5b31
 [[Ja, du machst Witze, richtig?|HornKidding]] #line:4c5397
 [[Aber du bist noch am Leben?|StillAlive2]] #line:1efcfe
@@ -949,7 +949,7 @@ GodtenderBrown: Es war sein Gludinhorn, das ich gespielt habe. #line:4cb690
 GodtenderBrown: Wir teilten das Verhaengnis eines moeglichen Todes, was in der Tat etwas ist, das man teilen sollte. #line:a7f9e6
 Snowblow: *Hoooooonk.* #line:4b7ce0
 GodtenderBrown: Aber gelobt sei der Waldgott. In der Kirche habe ich eine neue Familie gefunden. #line:d4d085
-Schneegestoeber: *Honk!* #line:d08fb5
+Snowblow: *Honk!* #line:d08fb5
 Adina: Das ist schoen. #line:176644
 GodtenderBrown: Ich versuche nicht, meinen Vater zu ersetzen, aber ich habe so viele Freunde gefunden. #line:32f264
 GodtenderBrown: Vater Karmel, Vater Perpa, Vater Patience Vergiss-Nicht-Gott... #line:78b6eb
@@ -997,11 +997,11 @@ position: 1991,766
 GodtenderBrown: Messing? Herumgedreht? In ein Ende geblasen? #line:e0caaa
 Adina: Das ist bei den meisten Hoernern so, glaube ich. #line:be5ef8
 GodtenderBrown: Naja, das kann man im Nachhinein sagen, denn GludinHoerner sind verflucht. #line:56934c
-Schneehorn: *HONK?!* #line:42f8a5
+Snowhorn: *HONK?!* #line:42f8a5
 Adina: Was?! #line:a12d88
 GodtenderBrown: Das Gludinhorn verflucht alle, die es hoeren, zum Unglueck, #line:907210
 GodtenderBrown: und diejenigen, die es spielen, zum endgueltigen Tod. #line:e196fa
-Schneehorn: *Hooooooooonk.* #line:c169bd
+Snowhorn: *Hooooooooonk.* #line:c169bd
 Adina: Ich denke nicht, dass das hier ein Problem sein wird. #line:b6bf99
 Snowdog: *Hooooooowl!* #line:587ce7
 GodtenderBrown: Mein Vater war ein Gludinhorn-Spieler, genau wie ich #line:73a413
@@ -1026,7 +1026,7 @@ position: 2233,764
 ---
 GodtenderBrown: Wie funktioniert diese Beziehung? #line:c62e87
 Adina: Er ist sehr intuitiv. #line:3a4597
-Schneehorn: *HONK!* #line:91fe06
+Snowhorn: *HONK!* #line:91fe06
 Snowdog: *arf!* #line:7dd1ca
 Adina: Nein, er bellt einmal fuer ja, und zweimal fuer nein. #line:4b1ece
 GodtenderBrown: Oh! Stell ihm eine Frage!!!! #line:2f25c2
