@@ -1,0 +1,98 @@
+title: EnterLevel
+tags:
+colorID: 0
+position: 540,260
+---
+<<fadeIn 5 wait>>
+<<setOptionsCharacter Sharkle>>
+<<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
+Sharkle: [wave]Sharkle![/wave] #line:b4fdb4
+Mae: Hey Sharkle. #line:bfc627
+Mae: Was machst du denn hier? #line:ad0c54
+    ->Du warst immer ein guter Freund, Mae. #line:8a9d3f
+        <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
+        Sharkle: Jeden Tag hast du mich besucht. #line:9e9b3c
+        <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
+        Sharkle: Du wuerdest daran denken, mich zu klicken. #line:66f922
+        <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
+        Sharkle: Nur um Hallo zu sagen. #line:e77d64
+        Mae: Ja. Ich bin ein ausgezeichneter Freund. #line:8540bd
+    ->Wir haben schon so viel zusammen durchgemacht, Mae. #line:11f6ca
+        <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
+		Sharkle: Die guten Zeiten, die schlechten Zeiten, #line:4f9474
+        <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
+		Sharkle: das Porno-Adware-Fiasko, #line:25dd0c
+        <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
+		Sharkle: das Wochenende, an dem du versucht hast, das Betriebssystem zu aendern. #line:1a3713
+		Mae: Du hast recht. Wir haben eine Menge zusammen durchgemacht. #line:11b10a
+Mae: Sharkle... bin ich tot? #line:931e3e
+    ->Ja #line:9bcc49
+        Mae: Bist du hier, um mich auf die andere Seite zu bringen? #line:946ed9
+        <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
+        Sharkle: [wave]Ja, wie in den alten Legenden.[/wave] #line:1aef55
+        <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
+        Sharkle: [wave]Deine Seele wurde gegen deine Verfehlungen abgewogen.[/wave] #line:a4567a
+        Mae: Oh. Wie ist das denn ausgegangen? #line:687e56
+            ->[wave]Heute Nacht wirst du zu deinen Vorfahren zu den Sternen gehen.[/wave] #line:0b0c6d
+                Mae: Oh. Das ist schoen. #line:ab4ef0
+                <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
+                Sharkle: Ja. Ja, das ist schoen. #line:c817ae
+                Mae: Also wie alle meine Vorfahren? #line:b366f8
+                <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
+                Sharkle: Ja. Alle von ihnen. #line:cee85d
+                Mae: Wie damals bei den Fischen und Dinosauriern? #line:c54b37
+                Mae: weil die Evolution? #line:83f4d4
+                <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
+                Sharkle: Ja. Wahrscheinlich. #line:cb6be2
+                Mae: Das ist klasse. #line:99e8e5
+            ->Uh... haette besser laufen koennen. #line:9584a7
+                Mae: Aw frig. #line:1c02e2
+                <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
+                Sharkle: Es tut mir leid, aber fuer dich geht's ab in die Hoelle. #line:5e799b
+                Mae: Verdammt. #line:b88052
+                <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
+                Sharkle: Mae Borowski, ich erklaere dich fuer verdammt. #line:dfeda6
+                Mae: Ach so. #line:8f8021
+                <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
+                Sharkle: Du bist in guter Gesellschaft. #line:820baf
+                <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
+                Sharkle: Eine Menge Leute wurden verdammt. #line:76cb89
+                Mae: Ich bereue nichts. #line:856bf5
+    ->No. #line:d776e7
+        Mae: Oh. Das ist gut. #line:7ecd0f
+	    Mae: Ich habe Dinge zu erledigen. #line:9f99d6
+        <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
+	    Sharkle: [wave]Du musst zurueckgehen. Du bist fuer grosse Dinge bestimmt.[/wave] #line:3bd3e7
+	    Mae: [/wave] Wirklich? #line:8f9694
+		    -> Ja. #line:92116f
+			    Mae: Wow. #line:dbf0d0
+                <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
+                Sharkle: Ja. #line:435a86
+                Mae: Kannst du noch etwas genauer sein? #line:dc5639
+                <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
+                Sharkle: Noe. #line:85c6c8
+                Mae: Ok. #line:b745e4
+		    -> Nicht wirklich, nein. #line:8ae8ab
+                Mae: Oh. #line:bf2aae
+                <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
+                Sharkle: Ja, ich werde hier nicht luegen. #line:d42496
+                Mae: Ich weiss das zu schaetzen. #line:fa87f7
+                <<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
+                Sharkle: Das ist peinlich. #line:b0d3f1
+                Mae: Mach dir nichts draus, Sharkle. #line:92756b
+<<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
+Sharkle: Heh heh. #line:4fc608
+Mae: Was? #line:1f790c
+<<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
+Sharkle: Ha ha ha. #line:147737
+Mae: Kumpel. #line:e4f4a5
+<<playOneShot event:/sharkle_dream/sharkle_speak Sharkle>>
+Sharkle: HA HA HA HA HA HA HA HA HA HA HA HA HA #line:d73646
+<<setOptionsCharacter Mae>>
+<<musicFadeOut .3>>
+<<fadeOut .3 wait>>
+<<overrideLoadingScreenType Blank>>
+<<scene GreggAngusParkingLot>>
+===
+
+

@@ -1,0 +1,173 @@
+title: EnterLevel
+tags:
+colorID: 4
+position: -150,-17
+---
+[[FQ400]]
+===
+title: FQ400
+tags:
+colorID: 4
+position: 195,36
+---
+<<cameraLookAt CameraArgument>>
+Angus: weil es eine Wohnung ist. #line:7d2b14
+Angus: man faehrt nicht auf einer Ebene. #line:137de4
+Gregg: warum? #line:85e3fa
+Mae: ja warum? #line:b2c504
+Angus: ... #line:0b28c4
+Angus: tu's einfach nicht! es bringt das Rad durcheinander oder so! #line:c283ca
+Mae: woher weisst du so viel ueber Autos? #line:f3c485
+Gregg: wir koennen es reparieren! #line:17c62d
+Angus: womit?  #line:516eb3
+Angus: besorgen wir uns ein paar Stoecke? #line:88e77d
+Mae: das ist dumm. #line:4f1e29
+Gregg: nein, ich meine... #line:0c3423
+Gregg: Leute reparieren Reifen! #line:932ae2
+Gregg: das ist eine Sache, die Leute machen! #line:6bd2a2
+Angus: das machen die Leute so #line:a3e08d
+Angus: wenn sie einen gottverdammten Reifen haben! #line:7f21e3
+Mae: Leute, #line:c1ff08
+Gregg: warum bist du so ein Arsch? #line:3a4f5c
+Angus: warum bin ich derjenige #line:a61c58
+Angus: das muss der Verantwortliche sein! #line:d1d173
+Mae: Leute! #line:cb189c
+Angus: WAS, MAE!?!?!? #line:51a06a
+Gregg: Schrei Mae nicht an!!! #line:ec0d48
+Mae: AAAAgh Ich werde wandern. #line:2309c4
+Angus: Fein! #line:df23fb
+Gregg: Gut! #line:29028f
+Mae: OK AAAGH #line:4d0691
+<<cameraFollowPlayer 1>>
+//now free to wander and stuff. Look around and then talk to Gregg and Angus,
+// who are having some sort of auto-rolling argument or emoticon convo or something
+<<runDialogue BackgroundDialogue ArgumentLoop>>
+===
+title: FQ401
+tags:
+colorID: 4
+position: 596,35
+---
+<<stopDialogue BackgroundDialogue>>
+Mae: Und was machen wir jetzt? #line:83ba23
+Angus: Nun, ich versuche herauszufinden, was wir tun werden. #line:ba739f
+Gregg: Wir koennten... jemanden anrufen? #line:435d33
+Angus: Oh, haben wir ploetzlich Telefone dabei? #line:0ee32e
+Angus: weil es jetzt magischen Empfang gibt? #line:2fc761
+Angus: in dieser Scheissstadt? #line:bfd8cd
+Gregg: Herrje! #line:cde30f
+Mae: Ok. Also. #line:1c7bb4
+<<set $roadside_trunk to 1>>
+<<setCanInteract Gregg 0>>
+<<setCanInteract Angus 0>>
+<<runDialogue BackgroundDialogue ArgumentLoop>>
+===
+title: Trunk
+tags:
+colorID: 4
+position: 1016,47
+---
+<<stopDialogue BackgroundDialogue>>
+<<cameraLookAt CameraArgument 1>>
+<<closeAll>>
+Mae: Hey ihr Trottel! #line:c41286
+<<close>>
+<<wait 1>>
+<<runNextLinesTogether 2>>
+Gregg: WAS #line:d4e133
+Angus: WAS #line:24fb7f
+Mae: Hier hinten ist ein Ersatzreifen. #line:8a1668
+Gregg: Oh! Oh schoen! #line:98f4fb
+Angus: Das ist eine gute Sache. #line:8d130e
+Mae: Weiss jemand, wie man #line:12596c
+Mae: den Reifen machen? #line:29b8db
+Angus: Ja. #line:b92377
+Mae: Kann ich helfen? #line:4836d8
+Angus: Nein. #line:89ab1f
+Gregg: Kumpel. #line:4ed365
+Angus: Mae, du bist kein schlechter Mensch #line:bd2824
+Angus: aber ich vertraue dir keinen Teil dieses Prozesses an. #line:2d4638
+<<close>>
+<<wait 2>>
+Mae: Oje, Mann. #line:e2cf49
+Gregg: Herrje. #line:a12e8a
+<<close>>
+<<wait 4>>
+<<irisOut 1 wait>>
+<<scene DonutWolfInterior>>
+===
+title: Gregg
+tags:
+colorID: 4
+position: 464,-256
+---
+[[FQ401]]
+===
+title: Angus
+tags:
+colorID: 4
+position: 705,-252
+---
+[[FQ401]]
+===
+title: ArgumentLoop
+tags:
+colorID: 4
+position: 361,272
+---
+Angus:{emote=cloud_lightning} #line:1424b6
+Gregg:{emote=spiral} #line:d472fc
+Angus:{Anmerkung=Herz} #line:b7632b
+Gregg:{emote=Herzensbrecher} #line:f72d6c
+Angus:{emote=Augenaufschlag} #line:2b8aa9
+<<wait 1>>
+[[ArgumentLoop]]
+===
+title: LeftOfCar.1
+tags:
+colorID: 4
+position: 1408,76
+---
+Mae: Oje. #line:27709c
+Mae: schau dir diese Waelder an. #line:62da35
+Mae: das ist der perfekte Ort, um eine Leiche abzuladen. #line:d3a108
+Mae: das ist schwer zu finden. #line:e22634
+Mae: gute Leichenverbrennungswaelder. #line:757d38
+===
+title: LeftOfCar.2
+tags:
+colorID: 4
+position: 1680,78
+---
+Mae: koennte nachsehen, ob es dort irgendwelche Leichen gibt. #line:700a61
+<<wait 2>>
+Mae: eh. #line:5d528d
+<<end>>
+===
+title: RightOfCar.1
+tags:
+colorID: 4
+position: 1405,350
+---
+Mae: ok was kann einen platten Reifen reparieren #line:0e117f
+Mae: aeh. #line:7a044f
+Mae: Stoecke #line:1f56c8
+Mae: Felsen #line:4c5b56
+Mae: Blaetter #line:c547d3
+Mae: Holz #line:4f56ee
+Mae: Schmutz #line:dfce07
+Mae: vielleicht kann ich einen Schraubenschluessel aus einem Baumstamm schnitzen #line:aa40b0
+===
+title: RightOfCar.2
+tags:
+colorID: 4
+position: 1679,355
+---
+Mae: ich frage mich, ob ich #line:9d0389
+Mae: eine Eule dressieren #line:b038f4
+Mae: Eulentricks machen. #line:0d275c
+Mae: nein! Konzentrier dich, Mae! #line:44be65
+<<end>>
+===
+
+

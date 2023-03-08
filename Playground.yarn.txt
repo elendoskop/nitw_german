@@ -1,0 +1,269 @@
+title: Molly
+tags: 
+colorID: 0
+position: 159,578
+---
+<<set $act to 1>>
+<<set $day to 0>>
+<<trackAllSpeechBubblesToCharacters 0>>
+<<fadeOutMusic .25>>
+<<wait 1>>
+<<setAnimBool Molly flashlight 1>>
+<<playOneShot event:/playground/flashlight_on MollyFlashlightSound>> 
+Mae: -_- #line:6fe5bc
+Molly: Hallo Mae. Ist schon eine Weile her. #line:b17506
+Mae: Hey. Was machst du denn hier draussen? Hast du nichts Besseres zu tun? #line:7837da
+Molly: Ich habe hier draussen meine Runden gedreht und dich auf dem verbotenen Spielplatz gesehen. #line:8773c7
+Mae: Und? :\ #line:0a6724
+<<setAnimBool Molly hip 1>>
+Molly: Steig ins Auto, Mae. #line:95f681
+Mae: Nein. :-line:954d55
+Molly: Willst du deine erste Nacht wieder im Knast verbringen, Mae? #line:ac8356
+<<close>>
+<<wait 2>>
+Mae: Nein. :( #line:abb682
+<<set $night to 1>>
+<<set $act to 1>>
+<<set $day to 0>>
+<<fadeOut 1 wait>>
+<<scene MaeHouse left>>
+
+===
+title: TowerTop
+tags: 
+colorID: 0
+position: 306,141
+---
+<<freezePlayer>>
+Mae: Es ist erst 2 Jahre her, seit ich hier gelebt habe. #line:28bef4
+Mae: Nicht auf diesem Spielplatz, ich meine Possum Springs. #line:b7e70d
+Mae: Das wird alles durcheinander gebracht. Ich sollte es aufschreiben. #line:078aae
+<<close>>
+//journal time!//
+<<close>>
+<<unlockDoodle Intro>>
+<<unlockDoodle RipGranddad>>
+<<openJournal>>
+<<end>>
+
+===
+title: Branch
+tags: 
+colorID: 0
+position: 657,628
+---
+<<if $playground_branch is 0>>
+	Mae: Hey wow! Ok! #line:0a840e
+	Mae: Jetzt auf die Spitze des Turms #line:584f5c
+	Mae: und ich kann das Kabel direkt in die Stadt nehmen! #line:8c0d38
+	<<set $playground_branch to 1>>
+<<else>>
+	Mae: Ich hoffe, niemand hat den Baum vor dem Haus gefaellt. #line:0f3849
+	Mae: Ich habe Mr. Penderson immer so wuetend gemacht #line:55af68
+	Mae: sprang ueberall herum und lief auf den Stromleitungen. #line:c30542
+	Mae: Wie auch immer, jeder macht das. #line:165351
+	Mae: Praktisch ein anderer Buergersteig. #line:ea9a33
+<<endif>>
+
+===
+title: BoatTop
+tags: temp
+colorID: 0
+position: 28,925
+---
+<<if $playground_boat_top is 0>>
+    <<lookUp Mae>>
+    Mae: Sieht aus, als ob die Leiter weg ist. #line:c5bef9
+    Mae: Wenn ich nur an die Spitze von diesem Ding kommen koennte... #line:7016fc
+    Mae: Igitt. #line:a8986a
+    <<wait 1>>​ #line:7bcefc
+    <<lookDirection Mae .5 .5>>
+    Mae: <o> #line:59827c
+    <<cameraLookAt LookAtTree 1.5>>
+    <<wait 1>>
+    Mae: Ich habe es als Kind nie auf den Baum geschafft. #line:9c568a
+    Mae: Die Zahlenstaemme haben mich verhoehnt. #line:6f111b
+    Mae: Die Baumstaemme und die anderen Kinder. #line:4923ba
+    <<wait 1>>
+    Mae: Mal sehen, ob ich mir das vorstellen kann... #line:f59071
+    <<tell TripleJumpVisualization Show>>
+    <<wait 2>>
+    Mae: Mmhmm. Mmhmm. #line:c5dfbf
+    Mae: Ich kann nicht aufhoeren zu rennen, waehrend ich das tue. Nicht einmal fuer eine Sekunde. #line:107bdd
+    Mae: Ich muss genug Schwung haben. #line:f0223b
+    Mae: Ich glaube, ich kann es schaffen. #line:be5445
+    Mae: Lauft und springt, springt, springt! \o/ #line:322c91
+    <<lookNearest Mae>>
+    Mae: _o_ #line:e01304
+    <<cameraFollowPlayer 1>>
+    <<tell TripleJumpVisualization Hide>>
+    <<set $playground_boat_top += 1>>
+<<else>>
+    <<lookDirection Mae .5 .5>>
+    <<if $playground_boat_top is 1>>
+        Mae: Vielleicht sollte ich einfach aufgeben, ohne es wirklich zu versuchen? #line:04bf34
+        <<set $playground_boat_top += 1>>
+    <<endif>>
+    Mae: Hmm. #line:c1da68
+    -> Ok, lass uns das mit dem Laufen und Springen-Springen-Springen noch einmal versuchen. #line:ae91fd
+        <<lookNearest Mae>>
+    -> Warte, was muss ich noch mal machen? #line:2a0d97
+        Mae: <o> #line:552de5
+        <<cameraLookAt LookAtTree 1.5>>
+        <<wait 1>>
+        <<tell TripleJumpVisualization Show>>
+        <<wait 2>>
+        Mae: Ich kann nicht aufhoeren zu rennen, waehrend ich das tue. Nicht einmal fuer eine Sekunde. #line:f0a03f
+        Mae: Lauf und spring, spring, spring! \o/ #line:fa2a90
+        <<lookNearest Mae>>
+        Mae: _o_ #line:5075bb
+        <<cameraFollowPlayer 1>>
+        <<tell TripleJumpVisualization Hide>>
+    -> Vergiss es. Ich hasse das. #line:a98d50
+        Mae: Warte, vielleicht wenn ich es mit geschlossenen Augen versuche... #line:e4b395
+        Mae: U_U #line:9bdec9
+        <<close>>
+        <<fadeOut 1 wait>>
+        <<warp Mae MaeInTree>>
+        <<flip Mae -1>>
+        Mae: \o/ o_o #line:45cd63
+        <<wait .5>>
+        <<playOneShot event:/mae/footsteps/log/footstep_log_jump Jump1>>
+        <<wait .5>>
+        <<playOneShot event:/mae/footsteps/log/footstep_log_land Jump2>>
+        <<wait .1>>
+        <<playOneShot event:/mae/footsteps/log/footstep_log_jump Jump2>>
+        <<wait .5>>
+        <<playOneShot event:/mae/footsteps/log/footstep_log_land Jump2>>
+        <<wait .1>>
+        <<playOneShot event:/mae/footsteps/log/footstep_log_jump Jump3>>
+        <<playOneShot event:/vo/mae/jump Jump3>>
+        <<wait 1>>
+        <<clearPlayerOnGround>>
+        <<waitForPlayerFallToGround>>
+        <<playOneShot event:/mae/footsteps/branch/footstep_branch_land MaeInTree>>
+        <<lookNearest Mae>>
+        <<fadeIn 1>>
+        <<if $playground_warp is 0>>
+            <<wait 1>>
+            Mae: Faaaaaaaaaaaantastisch! #line:295af7
+            Mae: Ich sollte das immer machen! #line:adc15e
+            Mae: Vielleicht kann ich jetzt meinen Fuehrerschein machen! #line:d4d2ff
+            Mae: _o_ #line:7902ec
+            <<set $playground_warp to 1>>
+        <<else>>
+            Mae: _o_ #line:09f040
+        <<endif>>
+<<endif>>
+===
+title: BoatWheel.1
+tags: 
+colorID: 0
+position: -186,1339
+---
+Mae: Ahoi! #line:206119
+===
+title: BoatWheel.2
+tags: 
+colorID: 0
+position: 46,1378
+---
+Mae: Ich erinnere mich genau, dass ich kaum die Spitze des Rades erreicht habe. #line:801ee5
+Mae: Ich erinnere mich definitiv, dass ich seitdem kaum gewachsen bin. #line:e3b124
+<<end>>
+===
+title: X_BoatWheel.3
+tags: 
+colorID: 0
+position: 533,1542
+---
+Mae: Da war mal so ein sich drehendes Block-Tic-Tac-Toe-Ding. #line:ffcebf
+Mae: Weil man deshalb zu einer riesigen Schiffsburg kommt. #line:08dc9c
+Mae: Um ein dummes Spiel auf die duemmste Weise zu spielen. #line:fc68de
+<<end>>
+===
+title: Fence.1
+tags: 
+colorID: 0
+position: 1006,430
+---
+Mae: OH COME ON. #line:2df14a
+Mae: Ich glaube nicht, dass ich die Kraft fuer den Oberkoerper habe, um das zu erklimmen... #line:6e109a
+
+===
+title: Fence.2
+tags: 
+colorID: 0
+position: 1257,425
+---
+Mae: Du kannst mich nicht aufhalten, Possum Springs. #line:26e566
+Mae: Ich bin die Koenigin von dir. #line:4c299b
+Mae: ... #line:b6f2e5
+Mae: ...koennte wahrscheinlich einfach von diesem Telefonmast springen... #line:e5d6c2
+<<end>>
+===
+title: BeneathTree
+tags: 
+colorID: 0
+position: 1600,579
+---
+Mae: Wow. Ich war seit vielleicht 10 Jahren nicht mehr hier. #line:184317
+Mae: Und anscheinend war auch sonst niemand hier. #line:c7c4d2
+<<end>>
+===
+title: BoatBottom.1
+tags: 
+colorID: 0
+position: 1038,896
+---
+Mae: Ich weiss nicht, was sie hier vorhatten. #line:493668
+Mae: Eine Art von Bootsburg? #line:d8577d
+Mae: Das meiste davon ist jetzt weg. #line:783c57
+Mae: Nur ein Ding fuer seltsame Tiere, die darin fressen und Babys bekommen. #line:874e03
+===
+title: BoatBottom.2
+tags: 
+colorID: 0
+position: 1315,973
+---
+Mae: Ich frage mich, was fuer seltsame Tiere da drin ihre Babys bekommen? #line:4d5de0
+Mae: Schmutzige Opossums. Nachtschlangen. Mysterioese Biester in allen Formen. #line:a71d6a
+===
+title: BoatBottom.3
+tags: 
+colorID: 0
+position: 1570,1019
+---
+Mae: Ich erinnere mich, dass Cathy Damincos Freund sie hierher mitgenommen hat #line:98f7aa
+Mae: um zu knutschen und dann Schluss zu machen.	 #line:6cc600
+Mae: Und am naechsten Tag hat Cathy dann Cindy Clarks Nasenring rausgezogen #line:956c4e
+Mae: in der Fort Lucenne Mall. #line:d51eba
+Mae: Diese ganze Gegend ist so voll von Romantik. #line:75ec6c
+// would be funny if two rats scurried out of the boat just then//
+
+===
+title: BoatBottom.4
+tags: 
+colorID: 0
+position: 1819,1103
+---
+Mae: Hey! Man kann immer noch Mr. Snorkles darauf sehen! #line:5822ae
+<<end>>
+===
+title: TowerTopB
+tags: 
+colorID: 0
+position: 620,232
+---
+Mae: Hier ist eine Stromleitung. #line:971b67
+Mae: Lass uns nach Hause gehen. #line:bda3b3
+===
+title: EnterLevel
+tags: 
+colorID: 0
+position: 35,7
+---
+<<lookAt Molly Mae>>
+<<hide Molly>>
+<<hide CopCarNight>>
+===

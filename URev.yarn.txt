@@ -1,0 +1,510 @@
+title: EnterLevel
+tags:
+colorID: 0
+position: 1138,620
+---
+<<if $urev is 0>>
+    [[URevStart]]
+<<elseif $fort_lucenne_mall is 5>>
+    [[ReturnGoods]]
+<<elseif $fort_lucenne_mall is 2>>
+    [[StealingPart2]]
+<<elseif $urev is 1>>
+    <<warp Bea NearSteal>>
+    <<warp Mae Steal>>
+    [[AfterFirstSteal]]
+<<else>>
+    <<warp Bea Mae>>
+    <<follow Bea Mae>>
+<<endif>>
+===
+title: StealingPart2
+tags: demo2
+colorID: 0
+position: 1291,896
+---
+<<set $urev_collision_right to 0>>
+<<playerFace -1>>
+Mae: Also gut, ich werde mich einmischen, waehrend du dein Ding machst. #line:99fe84
+Bea: Wie meinst du das? #line:6c24ea
+Mae: Ich werde den Angestellten ablenken. Ich kann das machen. #line:58d5d9
+Bea: Ok, ich gebe zu, dass du ein Talent hast, Aufmerksamkeit zu erregen. #line:24c0a6
+Mae: Ich bin gut in Verbrechen. #line:3d7858
+Bea: Aber was ist, wenn ich erwischt werde? #line:57a92d
+Mae: Das wirst du nicht. Ich werde einfach anfangen zu schreien, wenn ich muss. #line:47fead
+<<close>>
+<<wait 1>>
+Bea: Wieso ist das eine gute Idee? #line:02ac8f
+Mae: Los geht's. #line:642ad0
+Bea: Ok, aber wenn das schief geht, gebe ich dir die Schuld. #line:4a5d22
+Mae: Willkommen im Club. #line:d657e9
+<<close>>
+<<cameraLookAt CameraBeaSteal 3>>
+<<walk Bea Steal>>
+<<walk Mae NearCounter wait>>
+<<set $urev_collision_right to 1>>
+[[Distract1]]
+===
+title: Steal
+tags: demo2
+colorID: 0
+position: 1639,622
+---
+Mae: hmmm... #line:0ba1f5
+Bea: Wow. Ich habe schon lange keine Guertelschnallen mehr gesehen. #line:676d4d
+Bea: Zumindest keine modischen. #line:e755ed
+Bea: Mike im Laden hat einen mit einer Klapperschlange, die einen Sattelschlepper faehrt. #line:a0cae4
+Mae: ok. Ich werde das tun. #line:5b2cff
+Bea: Was tun? #line:397ecd
+Mae: Mich zudecken. Ich werde mir eine schnappen. #line:95d568
+Bea: WAS?! NEIN!!! #line:89aae1
+Mae: SHHHH!!! #line:52cd2b
+Bea: Du wirst das *NICHT* tun. #line:c1689b
+<<if $urev is 0>>
+    <<set $urev to 1>>
+<<endif>>
+<<irisOut 1 wait>>
+<<scene PawsModeStealing>>
+===
+title: AfterFirstSteal
+tags: demo2
+colorID: 0
+position: 1017,902
+---
+<<set $urev_collision_right to 0>>
+<<if $urev_theft is 0>>
+    Mae: Ich habe versaeumt zu stehlen. #line:e9aba5
+<<else>>
+    Bea: Ok bist du fertig? #line:84f5a8
+    Mae: aaaaaaaw ja #line:587bcb
+<<endif>>
+Bea: Halt die Klappe und lass uns hier verschwinden. #line:3a7c09
+<<walk Bea Exit>>
+<<walk Mae Exit>>
+<<irisOut 1 wait>>
+<<scene FortLucenneMall>>
+===
+title: Distract1
+tags: demo2
+colorID: 0
+position: 2445,706
+---
+Mae: Heyyyyyyy. #line:f7c752
+URevClerk: Uh huh. #line:fae9b5
+Mae: Ich habe eine Frage. #line:0994e8
+URevClerk: T-Shirts sind 20 Prozent billiger. #line:3a1fbc
+Mae: Ja, habe ich gesehen. Ich habe mich ueber etwas anderes gewundert... #line:f0c310
+<<waitForMove Bea>>
+<<tell BeaStealPaw Show>>
+URevClerk: Ok. #line:d98240
+Mae: Der Name dieses Ladens... #line:551577
+<<tell BeaStealPaw Neutral>>
+URevClerk: Ja? #line:5e5a4a
+Mae: Ha ha. Du bekommst diese Frage wahrscheinlich oft #line:4a7c28
+URevClerk: Versuch's mal mit mir. #line:362740
+<<shuffleNextOptions>>
+[[Ist es wie DU-Revolution, oder wie DU-Revolution|Distract1_1]] #line:c01574
+[[Also... wann hast du nachher Schluss?|Distract1_2]] #line:8a64f4
+===
+title: Distract1_1
+tags: demo2
+colorID: 0
+position: 2106,932
+---
+<<tell BeaStealPaw Distracted>>
+URevClerk: Weisst du, niemand fragt das jemals, aber ich denke die ganze Zeit daran. #line:b93e8c
+Mae: Darauf wette ich! #line:af7c7d
+URevClerk: *Gott* #line:cd15bf
+URevClerk: Weisst du, wie der offizielle Firmenname auf unseren Schecks lautet? #line:3fc35c
+URevClerk: UREVOLUTION: RADICAL "UTH" CULTURE UPRISING INC #line:ebaf14
+<<shuffleNextOptions>>
+[[Das ist wirklich dumm.|Distract1_1_1]] #line:1cb285
+[[Ziemlich cooler Ort zum Arbeiten, was?|Distract1_1_2]] #line:0a87d7
+===
+title: Distract1_1_2
+tags: demo2
+colorID: 0
+position: 2180,1219
+---
+<<tell BeaStealPaw Neutral>>
+URevClerk: Nicht wirklich. Wie auch immer, wolltest du etwas? #line:68ebee
+Mae: Aeh... ok...  #line:d5ebd4
+URevClerk: Geht es dir gut? #line:777eb3
+<<shuffleNextOptions>>
+[[Schon mal was Cooles geklaut?|Distract1_1_2_1]] #line:35bf5b
+[[Ich denke, es ist ein cooler Ort und du solltest froh sein, dass du ueberhaupt einen Job hast.|Distract1_1_2_2]] #line:f6a68d
+===
+title: Distract1_1_1
+tags: demo2
+colorID: 0
+position: 1693,1501
+---
+URevClerk: Oh Gott, ich WEISS. #line:8c42d7
+URevClerk: Koennen wir nicht einfach ein Laden sein, der coolen Scheiss an Teenager verkauft? #line:26f1cd
+Mae: Ja. Teenager sind verrueckt nach diesem Scheiss. #line:d89951
+URevClerk: Der Mitarbeiterrabatt ist auch ziemlich toll. #line:757437
+Mae: Ich hatte mal einen Job. #line:4d6e74
+Mae: Hatte einen 100 Prozent Rabatt. #line:9ce7a9
+URevClerk: Uh huh. #line:b052de
+Mae: [wave]Wenn ich STOOOOOLE SHIIIIIIT![/wave] #line:e72f42
+URevClerk: Nein, ich habe verstanden, was du beim ersten Mal gemeint hast. #line:005a0e
+Mae: Ich wette, du schnappst dir die ganze Zeit Sachen. #line:ea449c
+URevClerk: Nun, sie sind hier sehr darauf bedacht, das Gesetz in vollem Umfang zu verfolgen, also- #line:45b106
+[[Success]]
+===
+title: Success
+tags: demo2
+colorID: 0
+position: 2612,2266
+---
+<<tell BeaStealPaw Hide>>
+Bea: Ok ich bin fertig mit suchen, lass uns gehen #line:5cbf77
+<<walk Bea OutsideStore>>
+Mae: OKITWASNICETALKINGTOYOUBYENOW{width=200} #line:3e69c5
+<<walk Mae OutsideStore>>
+URevClerk: aeh... man sieht sich #line:c88cd2
+<<set $urev to 2>>
+<<irisOut 1>>
+<<scene FortLucenneMall>>
+===
+title: Distract1_1_2_1
+tags: demo2
+colorID: 0
+position: 2018,1508
+---
+<<tell BeaStealPaw Distracted>>
+URevClerk: Bist du einer von diesen Undercover-Einkaeufern?  #line:7367c0
+Mae: Sehe ich so aus, als waere ich ein Undercover-Einkaeufer? #line:70dae2
+URevClerk: Das haben wir auch manchmal. Ich schaue nach uns. #line:814271
+Mae: Um sicherzugehen, dass du nichts stiehlst. #line:ad47aa
+URevClerk: Ja, sie sind sehr darauf bedacht, mit dem vollen Ausmass des Gesetzes zu verfolgen #line:1cf124
+[[Success]]
+===
+title: Distract1_1_2_2
+tags: demo2
+colorID: 0
+position: 2261,1498
+---
+<<tell BeaStealPaw Alert>>
+URevClerk: Was? #line:b12eac
+Mae: Ich habe keine Ahnung. #line:e0b570
+URevClerk: Sag mir Bescheid, wenn du etwas brauchst. #line:d0c80b
+[[SecondAttempt]]
+===
+title: SecondAttempt
+tags: demo2
+colorID: 0
+position: 3662,1123
+---
+Mae: Also, #line:804041
+Bea: hrrrrrrrrrrrngh #line:e658ea
+Mae: aeh... #line:bc9521
+<<shuffleNextOptions>>
+[[Weisst du was? Fick dich selbst.|SecondAttempt_1]] #line:1309ce
+[[Ich werde fuer eine Weile schreien.|SecondAttempt_2]] #line:d5b986
+===
+title: Distract1_2
+tags: demo2
+colorID: 0
+position: 2663,997
+---
+URevClerk: Aeh... flirtest du mit mir? #line:ccf91f
+Mae: Aehm. #line:7a6dd0
+<<shuffleNextOptions>>
+[[Sorry, ich bin nicht sehr gut darin...|Distract1_2_1]] #line:ef8fdd
+[[Vielleicht ja, vielleicht nein... Ich spiele hart um zu bekommen... aber ich spiele hart?|Distract1_2_2]] #line:649035
+===
+title: Distract1_2_1
+tags: demo2
+colorID: 0
+position: 2531,1286
+---
+<<tell BeaStealPaw Distracted>>
+URevClerk: Oh, ist schon gut. Ich kann dich verstehen. #line:80489e
+<<shuffleNextOptions>>
+[[Awkwardness amirite|Distract1_2_1_1]] #line:c52a5a
+[[Oh, siehst du, ich *dachte*, ich haette etwas gespuert, als ich reinkam|Distract1_2_1_2]] #line:12ee5a
+===
+title: Distract1_2_2
+tags: demo2
+colorID: 0
+position: 2868,1259
+---
+<<tell BeaStealPaw Alert>>
+URevClerk: Ma'am, ich habe zu arbeiten. #line:addce5
+Mae: Verdammt. #line:c9d143
+[[SecondAttempt]]
+===
+title: Distract1_2_1_1
+tags: demo2
+colorID: 0
+position: 2519,1552
+---
+<<tell BeaStealPaw Distracted>>
+URevClerk: Ist schon okay. Ich war wirklich unbeholfen, bis ich Dennis traf. #line:00e8ee
+Mae: "Dennis"? #line:dfa13f
+URevClerk: Ja, er arbeitet in diesem Gefaengnis in Briddle. #line:10ebd6
+URevClerk: Er kam immer rein, um Stecker zu holen. #line:ad947f
+URevClerk: Eines Tages werden wir heiraten. #line:85d462
+Mae: Warte, Dennis Durham? Aus Possum Springs? #line:d8e632
+URevClerk: Aeh... ja, woher wusstest du das? #line:8a0ae6
+Mae: Ich glaube, er war mit einem Maedchen verheiratet, das ich kenne. #line:cef9ef
+Mae: Vielleicht ist er tatsaechlich noch verheiratet? Ich kenne ihre Situation nicht. #line:69cb76
+URevClerk: WAS?! #line:705648
+[[Success]]
+===
+title: Distract1_2_1_2
+tags: demo2
+colorID: 0
+position: 2815,1548
+---
+<<tell BeaStealPaw Neutral>>
+URevClerk: Aeh. Ok. #line:015997
+Mae: Verdammt noch mal. #line:232242
+<<shuffleNextOptions>>
+[[Sorry, dass ich das so komisch gemacht habe.|Distract1_2_1_2_1]] #line:a94ac4
+[[Warum bist du so komisch?|Distract1_2_1_2_2]] #line:99acf5
+===
+title: Distract1_2_1_2_1
+tags: demo2
+colorID: 0
+position: 2673,1814
+---
+<<tell BeaStealPaw Distracted>>
+URevClerk: Weisst du was? Das ist schon in Ordnung. #line:e7a97c
+Mae: oh gut. #line:28a429
+URevClerk: Ja. #line:5a8d8e
+URevClerk: Zuerst warst du mir unheimlich, aber jetzt frage ich mich, warum das nicht schon frueher passiert ist. #line:8490ae
+Mae: Ich bin sicher, eines Tages wird dich der richtige Kunde belaestigen. #line:15f11d
+URevClerk: Ich glaube, du hast es nicht einmal bis zur Belaestigung geschafft. #line:bb7acb
+Mae: Ja, das hat sich ziemlich schnell erledigt. #line:a6b18b
+[[Success]]
+===
+title: Distract1_2_1_2_2
+tags: demo2
+colorID: 0
+position: 3099,1579
+---
+<<tell BeaStealPaw Alert>>
+URevClerk: Worueber? #line:f24066
+Mae: Du bist ein suesser Kerl! #line:b8df16
+Mae: Lass uns in den Food Court gehen! #line:3a64a5
+Mae: Lass uns den Mitarbeiterrabatt sehen! #line:c72e22
+URevClerk: Ist... ist das die Art, wie du normalerweise zu flirten versuchst? #line:e359be
+Mae: ...ja. #line:6cc171
+URevClerk: Daran solltest du arbeiten. #line:10ca30
+Mae: Eh. #line:85b467
+[[SecondAttempt]]
+===
+title: SecondAttempt_1
+tags: demo2
+colorID: 0
+position: 3554,1446
+---
+URevClerk: Na gut, wo kommt das denn her? #line:c56868
+<<shuffleNextOptions>>
+[[Wie kannst Du so ruhig sein, ich habe Dir doch gerade gesagt, dass Du Dich verpissen sollst!|SecondAttempt_1_1]] #line:97951d
+[[Mein verdammtes Gehirn, das ist wo.|SecondAttempt_1_2]] #line:2b7b6a
+===
+title: SecondAttempt_2
+tags: demo2
+colorID: 0
+position: 4260,1453
+---
+Mae: AAAAAAAAAAAAAAAAAGH!!!!{width=400} #line:1aafec
+URevClerk: aeh... #line:a9967d
+<<shuffleNextOptions>>
+[[AAAAAAAAAAAAAAAAAAAAAAAAAGH!!!!{width=400}|SecondAttempt_2_1]] #line:6ff1f3
+[[AAAAAAAAAAAAAAAAAAAAAAAAGH?!?!?!{width=400}|SecondAttempt_2_1]] #line:a1a132
+===
+title: SecondAttempt_1_1
+tags: demo2
+colorID: 0
+position: 3414,1740
+---
+<<tell BeaStealPaw Neutral>>
+URevClerk: Hast du... hast du Probleme? #line:9c5bd3
+Mae: Nein, aber DU verdammt noch mal schon. #line:6f5ca5
+<<tell BeaStealPaw Distracted>>
+URevClerk: Ok, schau, ich meine, ich hatte auch ein paar Probleme. #line:2b5a4a
+URevClerk: Aber ich habe eine Menge Frieden in Gott gefunden. #line:07cf3d
+Mae: Oh gut. URevClerk: Gut. Das ist es, was ich brauche. #line:46bd25
+URevClerk: Brauchst du etwas? #line:b14651
+Mae: ... #line:7c8d73
+Mae: Ich weiss es nicht... #line:4c3ed9
+Mae: Mein Leben hatte bis vor kurzem einen Sinn #line:11b037
+Mae: Aber jetzt ist es total verkorkst. #line:b29744
+URevClerk: Kann ich fuer dich beten? #line:23ae5a
+[[Success]]
+===
+title: SecondAttempt_1_2
+tags: demo2
+colorID: 0
+position: 3703,1734
+---
+<<tell BeaStealPaw Neutral>>
+URevClerk: Ok, hast du Probleme? #line:e0c0db
+URevClerk: Soll ich jemanden anrufen? #line:07e660
+Mae: Wechseln Sie nicht das Thema! #line:3bec0b
+<<tell BeaStealPaw Distracted>>
+Mae: Ich werde dich fertig machen! #line:25bb0f
+URevClerk: Was ist dein Problem?! #line:4099ab
+Mae: Ich weiss es nicht! So weit bin ich noch nicht gekommen! #line:fcfd3c
+URevClerk: Was?! #line:f26219
+[[Success]]
+===
+title: SecondAttempt_2_1
+tags: demo2
+colorID: 0
+position: 4068,1778
+---
+<<tell BeaStealPaw Neutral>>
+URevClerk: Aeh ok, ich werde den Sicherheitsdienst rufen. #line:231fb7
+Mae: AAAAAAAAAAAAAAAAAAAAAAGHGHG!!!!{width=300} #line:0ea888
+<<tell BeaStealPaw Distracted>>
+URevClerk: Ok, wir haben keinen Sicherheitsdienst, aber ich rufe die Polizei. #line:26c229
+Mae: NO DON'T DO THAT I LL STOP #line:d68731
+URevClerk: Was ist los mit dir?!? #line:e6665d
+[[Success]]
+===
+title: SecondAttempt_2_2
+tags: demo2
+colorID: 0
+position: 4378,1756
+---
+<<tell BeaStealPaw Neutral>>
+URevClerk: Weder Engel noch unser oberster Herr konnten mich dazu ueberreden, weiter als bis zur Neutralitaet zu gehen! #line:a27aa3
+Mae: Nay, nay! Ich befehle es dir mit der Autoritaet des Himmels! #line:6c24c0
+<<tell BeaStealPaw Distracted>>
+URevClerk: Horch! Was ist das fuer eine Ablenkung? #line:7940b5
+Mae: Wir segnen dich, Herr, dass du die Gebete deines demuetigen Dieners erhoerst. #line:494588
+URevClerk: Welcher Zauber wurde auf mein armes Hirn gelegt? #line:a4630e
+[[Success]]
+===
+title: ReturnGoods
+tags: demo2
+colorID: 0
+position: 1465,315
+---
+<<set $urev_collision_right to 0>>
+Bea: ...denn es ist nicht "es dem Manne zu zeigen" #line:d8c12a
+Bea: "der Mann" hat hier nichts zu verlieren. #line:d5de2c
+Bea: Aber sie wird eine Menge Aerger bekommen. #line:087255
+Mae: Sie ist nur ein Raedchen in einer viel groesseren Maschine, hm? #line:ffb447
+Bea: Klar. Wie auch immer. Gib den Scheiss zurueck. #line:29bb01
+Mae: Ok ok ich geh ja schon. #line:46084a
+<<close>>
+<<walk Mae MaeEndOfCounter wait>>
+Mae: Hallo. #line:8c4855
+Bea: Hallo. #line:eb30e9
+URevClerk: Du bist wieder da. #line:593664
+Mae: Ja, wir haben ein bisschen was geklaut. #line:0e21e0
+Mae: Hier ist der Scheiss. #line:74bda6
+Mae: Wir wollen nicht, dass du Aerger mit deinem Chef bekommst. #line:f56b39
+Mae: Es ist nicht deine Schuld, dass die Welt so ist, wie sie ist. #line:75b2f2
+URevClerk: Was? Du hast das gestohlen? #line:6ca03c
+Mae: Du bist nur ein Raedchen in einer viel groesseren Maschine. #line:28b46e
+Mae: Dich zu beschuldigen waere so, als wuerde man ein Ding in einem ganzen Ding beschuldigen. #line:1496de
+<<close>>
+<<wait 2>>
+URevClerk: Du gibst also gestohlene Ware zurueck? #line:bfab63
+Mae: Eines Tages werden Leute wie du das ganze Ding umstuerzen. #line:8c0096
+URevClerk: Welche ganze Sache? #line:08e3d0
+Mae: DAS. GANZE. DING. #line:49c85b
+<<lookAt Mae URevClerk>>
+Bea: Wir gehen jetzt. #line:9fad59
+Mae: Bleib stark du schoene Traeumerin. Du hast nichts zu verlieren als deine Ketten. #line:56fb71
+//<<walk Bea Exit>>
+<<walk Mae Exit>>
+URevClerk: Was ist? #line:2e7e2d
+<<set $fort_lucenne_mall to 6>>
+<<irisOut 1 wait>>
+<<scene FortLucenneMall>>
+===
+title: URevClerk
+tags: demo2
+colorID: 0
+position: 692,475
+---
+<<set $urev_clerk_done to 1>>
+URevClerk: Hey Ladies. #line:284dd2
+Mae: :) o/ #line:8676c6
+Mae: Helllloooooooo Lady. #line:61496b
+Mae: _o_ #line:7adf08
+URevClerk: Nur damit du es weisst, wir haben 20 Prozent Rabatt auf ausgewaehlte T-Shirts. #line:c5d4a2
+Mae: Oooh! Tshirts! #line:88f647
+URevClerk: Yep. #line:88dfa6
+Mae: Danke vielmals! #line:9baa7c
+URevClerk: Ok. #line:cd7c6f
+Mae: Wir sehen uns spaeter! o/ #line:6800c9
+URevClerk: Alles klar. #line:d82a65
+Mae: _o_ #line:737dae
+===
+title: URevStart
+tags: demo2
+colorID: 0
+position: 710,691
+---
+<<set $urev_collision_right to 0>>
+<<walk Mae MaeEndOfCounter>>
+<<walk Bea BeaEndOfCounter>>
+Bea: Oh, um Himmels willen. #line:3bd20a
+Mae: HO =_= :) #line:aa24ee
+Mae: LEE #line:23fa13
+Mae: CRAP #line:b705da
+Mae: <o> #line:c1de15
+Mae: Ich bin wieder 14. #line:afa3b5
+Bea: Yep. Ziemlich verrueckt hier drin. #line:3a8a25
+Mae: _o_ o_o #line:e76347
+<<close>>
+<<pointAt Mae Shirt>>
+<<wait .5>>
+Mae: Hey ist das nicht- #line:eedb5c
+Mae: =_= #line:7da473
+<<lookRight Mae>>
+<<wait .5>>
+Bea: Halts Maul. #line:2db47d
+<<pointAt Mae>>
+<<lookNearest Mae>>
+Mae: o_o #line:98f595
+<<generateFollowPoints Mae Bea>>
+<<follow Bea Mae>>
+<<set $urev_collision_right to 1>>
+===
+title: CounterStuff
+tags: demo2
+colorID: 0
+position: 711,1166
+---
+Mae: Ha ha NIIIIICE. #line:ba21ec
+Bea: Dead Party Boys Aufkleber? Im Jahr 2017? #line:add2c3
+Mae: Ich glaube, die sind wieder in. #line:d1cf7f
+Bea: Hm. Das ist ja cool. #line:e2cf3f
+Mae: Ich wette, du hoerst ihnen zu. #line:e0242a
+Bea: Aehm. Mae: Ja. Die sind gut. #line:705ce4
+Mae: Ja, wenn du 30 Jahre alt und traurig bist. #line:ff7d2c
+Bea: Ich bin dabei. #line:04b5b4
+<<end>>
+===
+title: Witchdagger
+tags: demo2
+colorID: 0
+position: 951,1172
+---
+Mae: Die haben hier nicht einmal Witchdagger-Sachen. #line:81c5b8
+Mae: Die haben nur Sachen, die cool sind fuer #line:a75ffe
+Mae: 13 Jahre alte Leute. #line:e02483
+Bea: Ist das nicht ein Witchdagger-Schwarzlicht-Poster? #line:793d81
+Mae: Oh. Aha. #line:c87195
+Bea: Sieht aus, als haetten sie ein paar davon. #line:cb2942
+Bea: Ich glaube, ich habe auf dem Weg hierher ein ganzes Witchdagger-Ding gesehen. #line:c673b3
+Mae: ok, ok. #line:623aa2
+Bea: Du solltest mit den 13-Jaehrigen rumhaengen. #line:d056bd
+Mae: Hoer auf damit. #line:727763
+Bea: Ihr habt so viele Gemeinsamkeiten. #line:a74136
+Mae: Ich schwoere, ich werde dein Auto stehlen und dich hier lassen. #line:8d6a70
+Bea: heh heh. als ob du ueberhaupt wissen wuerdest wie man faehrt. #line:9d888c
+<<end>>
+===
+
+
