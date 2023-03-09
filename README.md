@@ -15,7 +15,7 @@ Unfortunately, the German vowels Ä, Ö, Ü and the sharp S "ß" cannot be mappe
 
 Please don't hestitate in opening issues or pull requests for improving this repo.
 
-## More links
+## Further links
+- If you're interested in the adventure game Night In The Woods, buy it on [GOG](https://www.gog.com/en/game/night_in_the_woods) or [Steam](https://store.steampowered.com/app/481510/Night_in_the_Woods/) - it's still worth every penny to support the creators!
 - a [Python tool](https://github.com/vadimfedulov035/nitw-helpilo) by [Veotri](https://github.com/vadimfedulov035) based on the Dialogue Tool for more accurate working on translating the content
-- If you're interested in this adventure game, buy it on [GOG](https://www.gog.com/en/game/night_in_the_woods) or [Steam](https://store.steampowered.com/app/481510/Night_in_the_Woods/) - it's still worth every penny to support the creators!
 - Here's a very funny attempt from [Jello](https://www.youtube.com/@JelloPlaysVideoGames) for a fully voice-acting of the game by doing a big [Let's Play with nice people](https://www.youtube.com/watch?v=9hVzG5sU5TE&list=PLjneAxn7bEer7GAgxBFzhZFBV5OAm_yMG).
