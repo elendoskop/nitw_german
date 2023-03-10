@@ -71,7 +71,7 @@ position: 3789,1092
     [[Bed]]
 <<else>>
     Mae: Schlafenszeit? #line:6bed1b
-    [[No|NoBed]] #line:af024e
+    [[Nein|NoBed]] #line:af024e
     [[Ja|Bed]] #line:0633e1
 <<endif>>
 ===
@@ -101,7 +101,7 @@ position: 4063,1090
         <<runBandPractice 3>>
     -> Irgendwo anders sterben <<if $actdaynight >= 01015>> #line:fb9c84
         <<runBandPractice 0>>
-    -> Zyklen <<if $did_gregg_friendship_quest_3 oder $did_bea_friendship_quest_4>> #line:2e4016
+    -> Zyklen <<if $did_gregg_friendship_quest_3 or $did_bea_friendship_quest_4>> #line:2e4016
         <<if $did_bass_practice_cycles_intro is 0>>
             <<set $did_bass_practice_cycles_intro to 1>>
             Mae: Dieses Lied. Ihr wisst schon. Das Lied. #line:5e9324
@@ -109,7 +109,7 @@ position: 4063,1090
         <<runBandPractice 4>>
     -> Merkwuerdiger Herbst <<if $actdaynight >= 02015>> #line:255175
         <<runBandPractice 1>>
-    -> Tick Tock <<if $library_charity_bearity >= 0>> #line:439b9a
+    -> Tick Tock <<if $library_charity_bearity > 0>> #line:439b9a
         <<if $did_bass_practice_tick_tock_intro is 0>>
             <<set $did_bass_practice_tick_tock_intro to 1>>
             Mae: Ah ja, Tick Tock. #line:8d3750
@@ -118,9 +118,9 @@ position: 4063,1090
             Mae: Mal sehen, ob ich mich an alle Worte erinnern kann... #line:ef5622
         <<endif>>
         <<runBandPractice 5>>
-    -> Pumpkin Head Guy <<if $actdaynight >= 03015>> #line:33bfe7
+    -> Kürbiskopf-Typ <<if $actdaynight >= 03015>> #line:33bfe7
         <<runBandPractice 2>>
-    -> Go Get Dead, Angel Face <<if $actday > 0103 und $did_get_dead_angel_face_intro ist 0>> #line:f9255e
+    -> Geh und stirb, Engelsgesicht <<if $actday > 0103 and $did_get_dead_angel_face_intro is 0>> #line:f9255e
         <<set $did_get_dead_angel_face_intro to 1>>
         Mae: Whoa, nein. :( -_- #line:6aaaed
         Mae: Nein. #line:c95744
@@ -315,7 +315,7 @@ Bea: Ich blieb hier und wurde aelter #line:91603e
 Bea: waehrend du weggingst und derselbe geblieben bist. #line:9d4919
 Mae: zzz #line:a7865a
 Bea: *seufz* #line:503330
-Bea: G'night Mayday. #line:0ea5b1
+Bea: Gutnacht Mayday. #line:0ea5b1
 <<close>>
 [[EndSleep]]
 ===
