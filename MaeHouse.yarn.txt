@@ -394,7 +394,7 @@ Mae: Schlangen werden in Angst und Schrecken rennen. #line:e07964
 Dad: Schlangen rennen nicht, Kaetzchen. #line:2aa048
 Mom: Kannst du dir Schlangen mit Beinen vorstellen? #line:daec44
 Mom: *zitter* #line:aeac1f
-Mae: Das sind Eidechsen, Mama. #line:a8afb9
+Mae: Das sind Eidechsen, Mom. #line:a8afb9
 Mom: Dann huete dich vor Eidechsen. #line:86e145
 Dad: Sie werden dich erwischen. #line:af6500
 <<close>>
@@ -452,7 +452,7 @@ position: -634,-173
 ---
 Mae: {align=middle,locator=clock} Dieses Ding geht jeden Monat oder so zufaellig los. #line:62091b
 Mae: {align=middle,locator=clock} Eine kleine hoelzerne Ente springt heraus. Macht die seltsamsten Geraeusche. #line:568855
-Mae: {align=middle,locator=clock} Erschreckt Papa jedes Mal halb zu Tode. #line:9a0ff6
+Mae: {align=middle,locator=clock} Erschreckt Dad jedes Mal halb zu Tode. #line:9a0ff6
 Mae: {align=middle,locator=clock} Hat immer gescherzt, dass es Grossvater war, der sich mit ihm aus dem Grab heraus raechte. #line:b3f3be
 <<set $mae_house_clock to 2>>
 ===
@@ -480,7 +480,7 @@ colorID: 0
 position: 186,-625
 ---
 <<if $mae_house_door_2 is 0>>
-	Mae: Ich glaube, ich war nur einmal im Zimmer von Mama und Papa. #line:7da3ce
+	Mae: Ich glaube, ich war nur einmal im Zimmer von Mom und Dad. #line:7da3ce
 	Mae: Warte mal. Das kann nicht richtig sein. #line:eb439c
 	Mae: Woran kann ich mich ueberhaupt erinnern? #line:d590fb
 	<<set $mae_house_door_2 += 1>>
@@ -496,7 +496,7 @@ position: 186,-625
 	Mae: Was ist eine Mitgift? #line:79f167
 	<<set $mae_house_door_2 += 1>>
 <<elseif $mae_house_door_2 is 3>>
-	Mae: Ich ueberlasse das Zimmer von Mama und Papa noch ein wenig der Phantasie. #line:e0c10b
+	Mae: Ich ueberlasse das Zimmer von Mom und Dad noch ein wenig der Phantasie. #line:e0c10b
 <<endif>>
 
 ===
@@ -944,7 +944,7 @@ colorID: 3
 position: 553,954
 ---
 <<if $mom > 0 or $mom_church > 0>>
-	Mae: Irgendeine Idee, was heute mit Mama los war? #line:3b78ec
+	Mae: Irgendeine Idee, was heute mit Mom los war? #line:3b78ec
 	Dad: Oh, sie ist nur gestresst. #line:4330b7
 <<else>>
 	Mae: Du scheinst heute Abend ein wenig gestresst zu sein. #line:c20001
@@ -961,7 +961,7 @@ Mae: Ich dachte, die Betonung wuerde zumindest spezifischer werden. #line:f28cfa
 Dad: Oh nein, das wirst du auch haben. #line:cf9090
 Mae: hrm. #line:0092b0
 Dad: Kopf hoch, Kindchen. Es ist nur das Leben. #line:1fb4ef
-Mae: Mensch, danke Papa. #line:2d3971
+Mae: Mensch, danke Dad. #line:2d3971
 
 ===
 title: Dad_A2D3
@@ -1002,7 +1002,7 @@ position: 781,873
 	Dad: Ja, das scheint die Runde zu machen. #line:014790
 	Dad: Das Urgh. #line:b0c080
 	Mae: Yeppers. #line:fac340
-	Dad: Also... aeh... du und Mama hattet gestern einen kleinen Streit, ja? #line:390085
+	Dad: Also... aeh... du und Mom hattet gestern einen kleinen Streit, ja? #line:390085
 	Mae: Ja. #line:65d96b
 	Dad: Ich dachte, ihr zwei habt euch vertragen? #line:7bf69d
     Mae: o_o #line:f32d0d
@@ -1018,7 +1018,7 @@ position: 781,873
     <<if $money_trouble is 1>>
 		Mae: Wir haben also Geldprobleme? #line:4fbdb7
         Dad: Was? Nein. Uns geht es gut. #line:664765
-        Mae: Papa. #line:7ff416
+        Mae: Dad. #line:7ff416
         Dad: Mae. Es ist alles in Ordnung. #line:7caffd
 		Mae: Es ist in Ordnung. Ich bin 20. Ich kann damit umgehen. #line:5771cb
         Dad: Nichts, womit man umgehen kann. #line:036189
@@ -1152,7 +1152,7 @@ Mae: aber wie #line:1436bf
 Mae: -_- :( #line:992ef6
 Mae: jeder ist auf dem Weg irgendwo anders hin #line:31ee9f
 <<if $big_fight>>
-	Mae: und ich hatte diesen grossen Streit mit Mama. #line:59f255
+	Mae: und ich hatte diesen grossen Streit mit Mom. #line:59f255
     Dad: Kaetzchen, ist schon gut. #line:a135b8
 <<endif>>
 <<if $money_trouble>>
@@ -1807,14 +1807,14 @@ tags:
 colorID: 2
 position: -1943,-2205
 ---
-Mae: Mama hat alle ihre gruseligen Buecher #line:d0fb7e
+Mae: Mom hat alle ihre gruseligen Buecher #line:d0fb7e
 Mae: ueber gruselige Verbrechen und traurige Kinder #line:bb46af
 Mae: auf einem gruseligen, traurigen Regal in ihrem Zimmer. #line:412e0d
 Mae: Oh, sieht aus, als haette es eines von Moms Buechern hierher geschafft. #line:d4aa19
 Mae: ... #line:d5a804
 Mae: "Und wir assen sogar die Pferde" #line:95f9ab
 Mae: "Das grausame Farmleben einer Familie in den 1880er Jahren" #line:5e2e17
-Mae: Oje, Mama. #line:44ef10
+Mae: Oje, Mom. #line:44ef10
 ===
 title: BookshelfAct1.3
 tags:
@@ -1963,7 +1963,7 @@ position: -1945,-1344
 ---
 Mae: {align=middle,locator=clock} Dieses Ding geht jeden Monat oder so zufaellig los. #line:161453
 Mae: {align=middle,locator=clock} Eine kleine hoelzerne Ente springt heraus. Macht die seltsamsten Geraeusche. #line:d69296
-Mae: {align=middle,locator=clock} Erschreckt Papa jedes Mal halb zu Tode. #line:89d927
+Mae: {align=middle,locator=clock} Erschreckt Dad jedes Mal halb zu Tode. #line:89d927
 Mae: {align=middle,locator=clock} Wir haben immer gescherzt, dass es Grossvater war, der sich mit ihm aus dem Jenseits geraecht hat. #line:9cfbe5
 <<end>>
 ===

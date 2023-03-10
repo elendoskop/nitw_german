@@ -355,7 +355,7 @@ Mae: ich schaetze, es wird einfach hier rumliegen #line:7c966c
 Mae: bis jemand dazu kommt, das alles wegzuschmeissen? #line:fc6c71
 Mae: ich sollte wie #line:7d9497
 Mae: das gute Zeug stehlen. #line:a99fdb
-Mae: sehen was Mama und Papa denken. #line:b78978
+Mae: sehen was Mom und Dad denken. #line:b78978
 Mae: ich bin sicher, sie werden es lieben. #line:80138a
 Mae: dekoriere das Wohnzimmer neu! #line:f20a40
 <<set $mallard_decorations += 1>>

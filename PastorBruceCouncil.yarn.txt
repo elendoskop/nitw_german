@@ -347,7 +347,7 @@ Bruce: werde aus dem Zug steigen #line:fed97a
 Bruce: meine Kinder werden dort sein #line:472e4f
 Bruce: sie werden ein Schild haben, das sie gemacht haben #line:32c50e
 Bruce: nichts Ausgefallenes, Plakatkarton und Stifte #line:506e64
-Bruce: "Willkommen zu Hause Papa". #line:258ac7
+Bruce: "Willkommen zu Hause Dad". #line:258ac7
 Bruce: und ich werde zu Hause sein. #line:a724c4
 Mae: das klingt toll, Bruce! #line:91ad8f
 Bruce: jep jep. #line:07a973

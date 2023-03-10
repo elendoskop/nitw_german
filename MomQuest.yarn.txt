@@ -126,7 +126,7 @@ Mae: Aeh... #line:0f72fd
                     Mom: Ha, ha, ha. Ein Aal vielleicht? #line:9fe5c8
                     Mae: Oh mein Gott, ja. Ein riesiger Aal. #line:79b094
                     Mom: Aale, Schatz. #line:eeb095
-                    Mae: Aale, Mama. #line:5f0dd9
+                    Mae: Aale, Mom. #line:5f0dd9
                     Mae: Was ist eigentlich mit dem Aalkind passiert? #line:4998cc
                     Mom: Irgendjemand hat ihn schliesslich da unten bemerkt #line:b94add
                     Mom: und die Rettungskraefte haben ihn aus dem Brunnen gezogen. #line:731c34

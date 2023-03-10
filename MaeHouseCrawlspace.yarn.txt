@@ -14,7 +14,7 @@ position: 539,260
     <<set $knows_crawlspace_boxes to 1>>
 <<else>>
     Mae: Ja. Ich wette, Dad hat sie hier hingestellt. #line:52bffb
-    Mae: Papa sollte sie wegbringen. #line:ecfa12
+    Mae: Dad sollte sie wegbringen. #line:ecfa12
     Mae: das ist nur fair!| #line:26c23c
 <<endif>>
 ===

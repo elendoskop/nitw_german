@@ -486,7 +486,7 @@ position: -7184,1435
 		Gregg: Sag nie wieder "Daddy"! #line:0bc76f
 		<<if $stop_saying_daddy is 1>>
 			Gregg: Du sagst "Vati"! #line:c00569
-			Gregg: Der Trottel spielt ein Lied ueber den "Papa" von jemandem! #line:bd0e82
+			Gregg: Der Trottel spielt ein Lied ueber den "Dad" von jemandem! #line:bd0e82
 			Gregg: Ich kann damit nicht umgehen! #line:f31b75
             Gregg: Meine Haut krabbelt von meinem Skelett! #line:514c0a
 		<<endif>>

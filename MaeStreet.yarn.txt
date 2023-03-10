@@ -665,7 +665,7 @@ Dad: aber hier... #line:b417bc
 	Dad: Kommst du mit uns auf die Strasse, wenn wir rausgehen? #line:cc3e49
 	Mae: ich werde Feuer speien, Dad. #line:9a024d
 	Dad: Hab dich lieb, Kaetzchen. #line:2eb904
-	Mae: bin spaeter wieder da, Papa. #line:6805f0
+	Mae: bin spaeter wieder da, Dad. #line:6805f0
     Mae: :| #line:b193f2
     <<unlockAchievement Clock_Quest>>
     <<set $did_clock_quest to 1>>
@@ -673,7 +673,7 @@ Dad: aber hier... #line:b417bc
 	//if don’t have tooth or know what it is//
 	Mae: hoer zu, ich werde heute Abend zum Essen da sein #line:8ca77f
 	Dad: wow! Was ist der Anlass? #line:1aed69
-	Mae: nun, Mama hat gesagt, wir koennten Fruehstueck machen #line:3d8eb6
+	Mae: nun, Mom hat gesagt, wir koennten Fruehstueck machen #line:3d8eb6
 	Dad: oooh! Klingt gut! #line:d8f3b5
 	Mae: ich wollte ueber ein paar...Sachen reden. #line:d9472b
 	Dad: ok #line:d13417

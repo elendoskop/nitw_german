@@ -1039,9 +1039,9 @@ position: -30399,15358
 //Mae is talking to her mom on an actual land line in the kitchen! A LAND LINE! Mom’s responses come from receiver and hang out on a node opposite Mae?
 <<lookAt Mae Mom>>
 Mae: -_- #line:90688d
-Mae: Entschuldigung Mama. #line:98ced2
+Mae: Entschuldigung Mom. #line:98ced2
 Mom: Du hast uns zu Tode erschreckt, Schatz. #line:9dada7
-Mae: Entschuldigung Mama. #line:539726
+Mae: Entschuldigung Mom. #line:539726
 Mom: wir werden dich abholen kommen. #line:29aafa
 Mae: Nein, ist schon gut. Ich werde einfach hier schlafen. #line:29fca9
 Mom: Bea ist da? #line:acc339
@@ -1055,7 +1055,7 @@ Mom: Mae... #line:0d6c75
 Mae: Ich weiss. #line:3459fa
 Mom: ruf uns an, wenn du nach Hause kommen musst. #line:66580b
 Mae: Das werde ich. #line:aac6b8
-Mae: Hab dich lieb, Mama. #line:1baea4
+Mae: Hab dich lieb, Mom. #line:1baea4
 Mom: Hab dich lieb, mein Schatz. #line:34c263
 <<close>>
 <<fadeOut 1 wait>>

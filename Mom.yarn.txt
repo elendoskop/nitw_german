@@ -24,12 +24,12 @@ tags:
 colorID: 2
 position: 4680,3374
 ---
-Mae: Hallo Mama! #line:797649
+Mae: Hallo Mom! #line:797649
 Mom: Willkommen zu Hause, mein Schatz! #line:eaada6
 Mae: Danke, dass du die Schloesser nicht ausgewechselt hast! #line:e92e74
 Mom: Tut mir leid, dass wir den Tag verwechselt haben, an dem du zurueckkommst #line:f83d1a
 Mom: Das war so kurzfristig! #line:655bf4
-Mae: Ist schon gut, Mama. #line:51354c
+Mae: Ist schon gut, Mom. #line:51354c
 Mom: Mae Schatz? #line:3a50cb
 Mae: Ja? #line:8430cc
 Mom: Ist alles in Ordnung? #line:300a04
@@ -42,14 +42,14 @@ tags:
 colorID: 2
 position: 4663,3762
 ---
-Mae: Ja Mama, alles ist gut. #line:e2e2bc
+Mae: Ja Mom, alles ist gut. #line:e2e2bc
 Mom: Nun, ich meine, es war ein bisschen beunruhigend fuer deinen Vater und mich, als du angerufen hast. #line:d8ddd6
 Mom: Ich habe angenommen, dass etwas nicht stimmt. #line:f7e093
 Mae: Nein, es hat nur in der Schule nicht geklappt. #line:c8c659
 Mom: Was soll das heissen, Schatz? #line:d6d3bb
 Mae: Koennen wir ein anderes Mal darueber reden? #line:18332e
 Mom: Sicher, Schatz. #line:b40757
-Mae: Danke, Mama. #line:2710da
+Mae: Danke, Mom. #line:2710da
 [[WheresGregg]]
 
 
@@ -65,10 +65,10 @@ Mom: Nun Suesse, ich denke, du kannst meine Sorge verstehen... #line:c3a6db
 Mom: Das ist normalerweise nichts, was eine Studentin im zweiten Semester einfach so tut... #line:0fe0f0
 Mae: Ich weiss. #line:b4e62b
 Mom: Schatz, du kannst mir sagen, wenn etwas passiert ist. #line:a51b78
-Mae: Mama, mir geht es gut. Wirklich. #line:4be09c
+Mae: Mom, mir geht es gut. Wirklich. #line:4be09c
 Mae: Koennen wir ein andermal darueber reden? #line:48a410
 Mom: Sicher, Schatz. Es ist in Ordnung. #line:bdeb2e
-Mae: Danke, Mama. #line:fccef9
+Mae: Danke, Mom. #line:fccef9
 [[WheresGregg]]
 
 ===
@@ -177,7 +177,7 @@ position: 7292,3149
     Mom: Guten Morgen! Hast du es letzte Nacht gespuert? #line:7b2dac
         ->nein? #line:a144f3
             Mom: aber du weisst, wovon ich spreche, oder? #line:f9113b
-            Mae: Spuck's aus, Mama. #line:6f833d
+            Mae: Spuck's aus, Mom. #line:6f833d
         ->Was? #line:01c3d9
     Mom: da war ein grosses Sinkloch 2 Strassen weiter! #line:1243d5
     <<set $knows_sinkholes to 1>>
@@ -188,7 +188,7 @@ position: 7292,3149
     Mom: Ich will nicht, dass du da drueben rumschnueffelst. #line:8aa66c
     Mae: Ich garantiere dir, das werde ich nicht. Ich habe Senkgruben gesehen. #line:482efe
     Mom: ueberhaupt kein Interesse? #line:5ded2b
-    Mae: Mama, das sind doch nur Loecher im Boden. #line:5b9766
+    Mae: Mom, das sind doch nur Loecher im Boden. #line:5b9766
     Mae: melde dich wieder, wenn einer ein Haus verschluckt oder so. #line:45bf21
     Mom: wir werden zusammen nachsehen, wenn das passiert. #line:33fd77
     Mae: abgemacht. #line:0f65da
@@ -212,7 +212,7 @@ position: 7292,3149
     <<endif>>
     //after you jump down//
     Mom: na ja, schau mal bei der Kirche vorbei, wenn du in der Gegend bist! #line:8b72a2
-    Mae: mach ich, Mama #line:3a7571
+    Mae: mach ich, Mom #line:3a7571
     Mae: wir sehen uns! #line:5f9f09
     Mom: mmhmm. tschuess Suesse. #line:930356
     <<set $mom += 1>>
@@ -220,7 +220,7 @@ position: 7292,3149
     Mom: jetzt, wo du schon ein paar Tage zu Hause bist #line:515dc8
     Mae: ja? #line:206a1c
     Mom: hast du darueber nachgedacht, dir einen J- #line:990dfe
-    Mae: Nun, ich muss los, Mama! #line:6a21c7
+    Mae: Nun, ich muss los, Mom! #line:6a21c7
     Mom: heh heh. #line:8127c1
     Mom: tschuess Suesse. #line:9bcea7
     <<set $mom += 1>>
@@ -384,8 +384,8 @@ tags:
 colorID: 2
 position: 5777,3439
 ---
-Mae: Morgen Mama. #line:ca74e1
-Mom: Noe, ich bin 24 Stunden am Tag Mama. #line:756be7
+Mae: Morgen Mom. #line:ca74e1
+Mom: Noe, ich bin 24 Stunden am Tag Mom. #line:756be7
 Mae: Har har har. #line:fd741b
 Mom: Ausserdem ist es 16 Uhr, Suesse. #line:f3459b
 Mae: Nun, ich gehe Angus suchen. #line:df5322
@@ -397,7 +397,7 @@ Mom: Das sollte er besser, Suesse. Du kannst es dir nicht leisten, einen neuen z
 Mae: Warte, kennst du Angus ueberhaupt? #line:da24a9
 Mom: Kennst du ihn? #line:e6b1f7
 [[Kinda?|A1D2_0_Kinda]] #line:e1a161
-[[Mama wir sind zusammen in einer Band. Irgendwie.|A1D2_0_band]] #line:3a9ab7
+[[Mom wir sind zusammen in einer Band. Irgendwie.|A1D2_0_band]] #line:3a9ab7
 ===
 title: Mom_A1D2_1
 tags:
@@ -416,7 +416,7 @@ Mom: Gruselige Dinge. #line:68db97
 Mae: Ja, ich denke schon. #line:8e1d6c
 Mom: Schatz, ich weiss, dass wir hier zu Hause sind #line:996d78
 Mom: aber bitte sei vorsichtig da draussen. #line:5cb6ff
-Mae: Das werde ich, Mama. #line:e489d4
+Mae: Das werde ich, Mom. #line:e489d4
 Mom: Und komm nach Hause, bevor es dunkel wird, es sei denn, du bist mit jemandem zusammen #line:d57165
 Mom: zumindest bis sie herausgefunden haben, was passiert ist. #line:4b3171
 Mae: Ok. #line:175e4e
@@ -446,7 +446,7 @@ colorID: 2
 position: 5779,3666
 ---
 Mom: Na ja, was nicht ist, kann ja noch werden. #line:9da023
-Mae: Danke, 24-Stunden-Mama. #line:c13edd
+Mae: Danke, 24-Stunden-Mom. #line:c13edd
 Mom: 7 Tage die Woche. #line:751096
 ===
 title: A1D2_0_band
@@ -464,7 +464,7 @@ Mom: Du klingst nicht sehr gluecklich darueber. #line:b3c1dc
 Mae: eh. #line:05e7df
 Mae: Nun, ich gehe jetzt Angus suchen! #line:07d502
 Mom: Viel Spass, Tochter! #line:b35428
-Mae: Danke, 24-Stunden-Mama. #line:6d534c
+Mae: Danke, 24-Stunden-Mom. #line:6d534c
 Mom: 7 Tage die Woche. #line:fa3783
 ===
 title: Mom_A1D2_2
@@ -533,7 +533,7 @@ position: 7031,3144
     Mae: Super! #line:74de51
     Mom: Schatz, ich will *NICHT*, dass du auf diesen Dingern stehst. #line:2577a3
     Mae: =_= :| #line:66e269
-    Mae: Mama, ich bin 20. #line:1a4840
+    Mae: Mom, ich bin 20. #line:1a4840
     Mom: Aha. Das bedeutet, dass du dafuer ins Gefaengnis kommst. #line:c92853
     ->Niemand kommt ins Gefaengnis, wenn er auf den Stromleitungen herumlaeuft. #line:eee3b0
         Mom: Das kommt vor. #line:4041ce
@@ -554,12 +554,12 @@ position: 7031,3144
     <<unlockDoodle EffTheCops>>
     Mom: Und ausserdem ist es gefaehrlich. #line:ab0ae8
     Mom: Erinnerst du dich an Susie Kushner? #line:9ac360
-    Mae: Mensch Mama, das weiss ich sicher nicht. #line:dc2274
+    Mae: Mensch Mom, das weiss ich sicher nicht. #line:dc2274
     Mae: Ich habe diese Geschichte bestimmt noch nicht 1000 Mal gehoert. #line:6b3a81
     Mom: Gebraten, Schatz. In der Zeitung stand das Wort FRIED. #line:5a5868
     Mom: Jetzt kann sie keine Adjektive mehr verwenden. #line:fc0495
     Mom: Sie hat einen ganzen Teil der Sprache verloren! #line:902150
-    Mae: Mensch Mama, das ist ja furchtbar. #line:124019
+    Mae: Mensch Mom, das ist ja furchtbar. #line:124019
     Mom: Siehst du, das ist genau die Art von Satz, die Susie nicht formulieren kann. #line:1437ac
     Mae: ... #line:88564e
     Mom: Und was hast du heute vor? #line:76f90c
@@ -754,7 +754,7 @@ colorID: 2
 position: 6537,3249
 ---
 Mae: Morning mom! #line:a5ad72
-Mom: Den ganzen Tag Mom. Jeden Tag Mama. #line:f0e44d
+Mom: Den ganzen Tag Mom. Jeden Tag Mom. #line:f0e44d
 Mom: Was hast du heute vor? #line:1dfe6c
 Mae: Gregg und Angus und Bea gehen auf eine Party #line:ca3da8
 Mae: also gehe ich vielleicht mit ihnen aus. #line:b37c35
@@ -791,7 +791,7 @@ Mae: Das werde ich! Wir sehen uns spaeter! #line:f4a1a3
     Mae: Was ist? #line:fdd9bf
     Mom: Aale, Schatz. #line:99b672
     Mae: :) #line:4c7297
-    Mae: Eeeeeeeeels, Mama. #line:de2bc9
+    Mae: Eeeeeeeeels, Mom. #line:de2bc9
     Mae: o_o :| #line:f59d1c
 <<endif>>
 <<set $mom_done to 1>>
@@ -846,7 +846,7 @@ position: 7060,3836
     Mae: wusste ich nicht! #line:2050cb
     Mom: ich habe mir Online-Tutorials fuer das Programm, das wir gerade bekommen haben, angesehen #line:6ecb92
     Mom: aber ich wurde gerade von Videos ueber wahre Verbrechen abgelenkt. #line:0bf6ff
-    Mae: Mama, ich erklaere - du laesst die Arbeit schleifen! #line:a471b6
+    Mae: Mom, ich erklaere - du laesst die Arbeit schleifen! #line:a471b6
     Mom: Gott wird mir verzeihen. #line:3fd2a3
     <<if $knows_mural>>
     	Mae: Hey, hast du von den Kerlen gehoert? #line:d4a08b
@@ -859,7 +859,7 @@ position: 7060,3836
     	Mom: oh nein!!! das ist ja furchtbar! #line:df72d3
         Mae: das ist historisch wertvoll! #line:e7bcc4
         Mom: ja, ist es! oh, was fuer eine Tragoedie. #line:8b4461
-        Mae: was fuer eine Welt, Mama. #line:327740
+        Mae: was fuer eine Welt, Mom. #line:327740
         Mom: was fuer eine Welt. #line:10e127
     <<endif>>
     <<set $mom_church += 1>>
@@ -875,7 +875,7 @@ position: 7304,3839
 ---
 <<if $paster is 0>>
     <<if $mom_church is 0>>
-        Mae: Hey Mama! #line:8cce37
+        Mae: Hey Mom! #line:8cce37
         Mom: Hey Suesse. #line:c71350
         Mae: ich habe voellig vergessen, wo das Heiligtum ist. #line:3e25c8
         Mom: aehm du bist auf dem Weg hierher an der Tuer vorbeigekommen. #line:a1b958
@@ -954,7 +954,7 @@ position: 8558,3865
 	Mom: ... #line:5ed95e
     Mom: Ich bin beschaeftigt. #line:2931c2
 <<else>>
-    Mae: Hey Mama. #line:ff1f4a
+    Mae: Hey Mom. #line:ff1f4a
     Mom: mmhmm #line:c39ee6
     Mae: aehm. #line:5dfd8b
     ->Sind Sie ok? #line:052f9a
@@ -978,12 +978,12 @@ position: 8558,3865
     Mom: warum du beschlossen hast, aufzustehen und aufzugeben #line:48fd38
     Mom: all die Plaene, die wir als Familie gemacht haben #line:3364ef
     Mae: :\ #line:b0e493
-    Mae: Mensch, Mama! #line:7b487e
+    Mae: Mensch, Mom! #line:7b487e
     Mae: wo kommt das denn her? #line:802f1f
     Mom: du weisst, dass du die f- #line:422827
     Mae: :| =_= #line:31bdc5
     Mae: "der erste Borowski, der aufs College geht!" #line:5c5749
-    Mae: ja Mama ich weiss #line:512d45
+    Mae: ja Mom ich weiss #line:512d45
     Mae: ich habe das erst gehoert, als ich ungefaehr 6 war #line:a19f31
     Mom: na ja, Schatz, wir haben es geplant, seit du geboren wurdest #line:1b5d06
     Mom: gut 18 Jahre lang #line:6b61bb
@@ -1003,7 +1003,7 @@ position: 8558,3865
     Mae: WAS?! #line:929eb0
     Mae: Was passiert mit dem Haus??? #line:34f1cd
     Mom: Vielleicht ist es einfach "nicht da, wo wir sein sollten". #line:022018
-        ->Mama. Das ist nicht lustig. #line:a35ed4
+        ->Mom. Das ist nicht lustig. #line:a35ed4
             Mom: Mach dir keine Sorgen #line:8c80be
             Mom: mach dir keine Sorgen #line:b767e3
             Mom: warum jetzt damit anfangen? #line:afd8c4
@@ -1128,12 +1128,12 @@ Mom: ich brenne wirklich darauf, es herauszufinden #line:fa0bc4
 Mom: warum du beschlossen hast, aufzustehen und aufzugeben #line:a54c09
 Mom: all die Plaene, die wir als Familie gemacht hatten #line:424df1
 Mae: :\ #line:295fa2
-Mae: Meine Guete, Mama! #line:eb0c7c
+Mae: Meine Guete, Mom! #line:eb0c7c
 Mae: wo kommt das denn her? #line:9bfc85
 Mom: du weisst, dass du die f- #line:b0cc22
 Mae: :| =_= #line:c52676
 Mae: "der erste Borowski, der aufs College geht!" #line:aea200
-Mae: ja Mama ich weiss #line:995187
+Mae: ja Mom ich weiss #line:995187
 Mae: ich habe das erst gehoert, als ich ungefaehr 6 war #line:90e34f
 Mom: na ja, Schatz, wir haben es geplant, seit du geboren wurdest #line:7ad4f6
 Mom: gut 18 Jahre lang #line:fc7e0f
@@ -1158,7 +1158,7 @@ Mae: O_O :| #line:a93e6f
 Mae: WAS?! #line:493d77
 Mae: Was passiert mit dem Haus??? #line:fd78d5
 Mom: Vielleicht ist es einfach "nicht da, wo wir sein sollten". #line:e5f2b7
-    ->Mama. Das ist nicht lustig. #line:6eccf5
+    ->Mom. Das ist nicht lustig. #line:6eccf5
         Mom: Mach dir keine Sorgen #line:40c465
         Mom: mach dir ueber nichts Sorgen #line:56a959
         Mom: warum jetzt damit anfangen? #line:dedcef
@@ -1205,7 +1205,7 @@ Mom: Morgen. Lange Nacht? #line:834e16
 	Mae: ja #line:b3534d
 	Mae: ich bin mit Bea zur Arbeit gegangen. #line:df33be
 	Mom: oh, wirst du dort arbeiten? #line:3fd50b
-	Mae: Nein, Mama. Ich bin nur mitgegangen. #line:6575ee
+	Mae: Nein, Mom. Ich bin nur mitgegangen. #line:6575ee
 	Mae: obwohl ich wirklich nuetzlich war. #line:501ee9
 	Mom: mmhmm. #line:242b9d
 	Mae: es war ein neues und aufregendes Gefuehl. #line:1da120
@@ -1296,7 +1296,7 @@ position: 10387,3556
 ---
 Mom: wenn es ein Junge waere, koenntest du ihn Calvin nennen. #line:92a89a
 Mae: =_= #line:cd86d6
-Mae: oh Gott Mama #line:cd436c
+Mae: oh Gott Mom #line:cd436c
 Mom: wenn es ein Maedchen waere, koenntest du sie...  #line:88148b
 Mae: :) #line:25a149
 Mae: trashbaby? #line:b57d95
@@ -1354,13 +1354,13 @@ Mom: da ist mein kleiner Sonnenschein Daisy! #line:6989ef
 Mom: Geht es dir besser als neulich? #line:4329bb
 Mae: schlaeft viel, aber fuehlt sich schlechter? #line:ac5f37
 Mom: ok, ich werde dir einen Termin bei Dr. Hank machen #line:d1b976
-Mae: Oh je, Mama. Das ist schon in Ordnung. #line:614583
+Mae: Oh je, Mom. Das ist schon in Ordnung. #line:614583
 Mom: Es ist ganz und gar nicht in Ordnung, Schatz. #line:daa907
 Mae: Ich bin erwachsen! Ich kann diese Entscheidung treffen. #line:890fc3
 Mom: wenn du hier bist, bist du immer noch mein Baby. #line:fac509
 Mom: und ich mache dir einen Termin. #line:b5faf3
 Mom: Mae, Schatz... ich mache mir Sorgen um dich. #line:75296b
-Mae: Mir geht's gut, Mama. #line:86853a
+Mae: Mir geht's gut, Mom. #line:86853a
 <<if $money_trouble is 1>>
 	Mae: Hoer zu, ich denke staendig ueber die Geldprobleme nach #line:6dcfcc
 	Mae: und das Haus #line:173c17
@@ -1404,9 +1404,9 @@ Mom: Schatz... du bist... du weisst schon... #line:6f6699
 Mae: :| #line:0223f4
 Mae: kurz? #line:283585
 Mom: die Haelfte waere gut. #line:5d86c8
-Mae: das ist in Ordnung, Mama. #line:fcada0
+Mae: das ist in Ordnung, Mom. #line:fcada0
 Mom: ok! Sag mir Bescheid, wenn ich dir helfen kann! #line:b7da37
-Mae: Danke, Mama. #line:98eed5
+Mae: Danke, Mom. #line:98eed5
 ===
 title: MomChurch_A3D4
 tags:
@@ -1443,28 +1443,28 @@ colorID: 6
 position: 13188,3488
 ---
 Mom: Hey Suesse! #line:c6480b
-Mae: Hey Mama. #line:2fdc0e
+Mae: Hey Mom. #line:2fdc0e
 Mom: wie geht es dir? #line:054ea7
 <<sit>>
 Mae: gut genug, um hier hoch zu springen. #line:a10fa9
 Mom: kannst du mir einen Gefallen tun und heute Abend zu Hause bleiben? #line:0bdd27
-	->sicher, Mama. #line:084806
+	->sicher, Mom. #line:084806
 	->Warum? #line:6db2fa
 		Mom: es ist... ich habe gerade... #line:79a249
 Mom: ich... du bist ein Erwachsener #line:de2352
 Mom: und du kannst tun, was du willst #line:8671d7
 Mom: aber du wohnst doch hier #line:49d99b
 Mom: Und du bist immer noch mein Baby. #line:88fc35
-Mae: Ach Mama. #line:fdcb2c
+Mae: Ach Mom. #line:fdcb2c
 Mom: wir muessen ein paar Grundregeln aufstellen #line:791a02
 Mom: nur weil #line:cd633a
 Mom: Schatz, du haettest neulich Nacht sterben koennen #line:63a8fe
 Mom: und dann bist du einfach weggegangen, um mit deinen Freunden abzuhaengen??? #line:6f4b2c
 Mae: Ich #line:3670e3
 Mae: Ich #line:64361e
-Mae: Es tut mir so leid, Mama. #line:3ae1b7
+Mae: Es tut mir so leid, Mom. #line:3ae1b7
 Mom: Suesse, was ist los mit dir? #line:bd0a90
-	->ich hatte ein wirklich hartes Jahr, Mama #line:4f2a60
+	->ich hatte ein wirklich hartes Jahr, Mom #line:4f2a60
 		Mom: Schatz, du hattest eine harte *Woche* #line:caa9c8
 		Mom: das hatten wir alle. #line:1f7b2e
 		Mae: ja, aber- #line:ea1e45
@@ -1479,13 +1479,13 @@ Mom: Nein, ich und dein Vater haben heute beide frei. #line:206f16
 Mae: Ich werde heute Abend da sein. Dann koennen wir darueber reden? #line:43ef04
 Mom: sicher. #line:49adb5
 Mom: wir koennen Fruehstueck zum Abendessen machen, wie wir es immer gemacht haben. #line:fd85c1
-Mae: Papa kann die Pfannkuchen in der Luft wenden!!! :) #line:4d034d
+Mae: Dad kann die Pfannkuchen in der Luft wenden!!! :) #line:4d034d
 Mom: ha ha ha. Ja, klar. #line:64ce95
 <<wait 2>>
 Mom: gehst du heute aus? #line:44372f
 Mae: Ja. #line:0151a7
 Mom: kannst du bitte in der Stadt bleiben? In der Naehe? #line:6ea765
-Mae: Ja Mama. :| #line:d2515c
+Mae: Ja Mom. :| #line:d2515c
 Mom: ich glaube, sie holen ein paar der Dekorationen fuer die laengste Nacht raus. #line:be8643
 Mae: oh wow. #line:87d467
 Mom: wir haben auch Schnee angesagt. #line:26849a
@@ -1499,7 +1499,7 @@ Mae: na ja. #line:b8ea59
 <<jump>>
 Mae: ich bin weg. #line:2715e5
 Mom: Ich liebe dich, Suesse. #line:987782
-Mae: ich hab dich auch lieb, Mama. #line:7cf87f
+Mae: ich hab dich auch lieb, Mom. #line:7cf87f
 ===
 title: MomHome_A4D3_Loop
 tags:
@@ -1568,7 +1568,7 @@ position: 8887,3543
     <<sit>>
     Mae: =_= #line:22784e
 	Mom: Hey Schatz. #line:821722
-    Mae: Hallo Mama. #line:6d21c0
+    Mae: Hallo Mom. #line:6d21c0
     Mom: Du siehst wirklich muede aus. #line:4672c4
 	Mae: Du aber auch. #line:1d33d4
     Mae: :\ #line:c9c926
@@ -1589,7 +1589,7 @@ position: 8887,3543
     Mom: Ich will nicht, dass wir aufhoeren zu reden. #line:967fb1
     Mom: Ich will nur... nicht, dass sich das von vor ein paar Jahren wiederholt. #line:e03ad6
     Mae: ... #line:c10917
-    Mae: Es tut mir wirklich leid, Mama. #line:6a3857
+    Mae: Es tut mir wirklich leid, Mom. #line:6a3857
     Mae: ueber all das. #line:375bad
 	//mae jumps down//
     <<jump>>
@@ -1631,7 +1631,7 @@ position: 9138,3583
     Mae: Worueber bist du gestresst? #line:f2b869
 	Mom: Nun, ich denke, du bist jetzt erwachsen. #line:76dfad
     Mae: =_= #line:ec167c
-    Mae: Spuck's einfach aus, Mama. #line:08dd0c
+    Mae: Spuck's einfach aus, Mom. #line:08dd0c
     Mom: Nach deinem Vorfall vor ein paar Jahren #line:7bdebc
     Mae: o_o #line:02ff43
     Mom: wie du weisst, haben wir uns verschuldet, um das wieder auszugleichen. #line:616f36
@@ -1731,12 +1731,12 @@ Mom: Willst du einen echten Scherz hoeren? #line:244338
 	Mom: arbeiten immer fuer Verbrechensbekaempfer! #line:f7b88d
 	Mae: in Ordnung, ich werde jetzt gehen. #line:b5ed48
 	Mom: Hab dich lieb, Detektivtochter! #line:66c188
-	Mae: dich auch, Inspektor Mama! #line:75b991
+	Mae: dich auch, Inspektor Mom! #line:75b991
     <<unlockDoodle MomMurder>>
 ->nicht jetzt, muss jetten. #line:c8ee8a
 	Mom: oh ok! #line:3cc29a
 	Mom: wir machen spaeter eins. #line:4ae4ef
-	Mae: klingt toll Mama. #line:32e409
+	Mae: klingt toll Mom. #line:32e409
 ===
 title: MomHome_A3D2_01
 tags:
@@ -1753,7 +1753,7 @@ Mae: die sonne ist manchmal zu hell. ich brauche ein paar wolken. #line:70a55b
 <<if $eels>>
     Mom: duesterer kleiner Aal bist du. #line:71a36a
     Mae: :) #line:5e92bd
-    Mae: eeeeels, Mama. #line:48bff9
+    Mae: eeeeels, Mom. #line:48bff9
     Mom: [wave]EEEEEEEEEEEELS, HONEY[/wave] #line:eb6570
 <<endif>>
 Mae: o_o :| #line:109111
@@ -1817,7 +1817,7 @@ Mom: aber es ist schoen und ruhig und friedlich. #line:7e0c3f
 Mae: ok, das werde ich vielleicht tun. #line:879a31
 Mom: Die Tuer da hinten ist jetzt offen, also leg los. #line:fefae1
 Mom: Ich warte hier draussen. #line:e05e32
-Mae: Danke Mama. #line:27a41c
+Mae: Danke Mom. #line:27a41c
 Mom: Kein Problem, Suesse. #line:7e101e
 <<set $can_church_nap to 1>>
 ===

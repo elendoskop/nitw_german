@@ -942,7 +942,7 @@ tags:
 colorID: 0
 position: 609,1019
 ---
-GodtenderBrown: Ich wuerde nie ueber den Fluch scherzen, der mir meinen Papa genommen hat. #line:6c507f
+GodtenderBrown: Ich wuerde nie ueber den Fluch scherzen, der mir meinen Dad genommen hat. #line:6c507f
 Snowthief: ugh... "Daddy" #line:b0529d
 Adina: Es tut mir leid, vom Tod deines Vaters zu hoeren, Godtender! #line:c10852
 GodtenderBrown: Es war sein Gludinhorn, das ich gespielt habe. #line:4cb690
@@ -956,7 +956,7 @@ GodtenderBrown: Vater Karmel, Vater Perpa, Vater Patience Vergiss-Nicht-Gott... 
 <<if $talked_to_shrine_mouse>>
 	Adina: *urk* #line:016d83
 <<endif>>
-Snowthief: Es tut mir leid, koennen wir darueber reden, dass niemand das Wort "Papa" benutzen sollte? #line:b7e60f
+Snowthief: Es tut mir leid, koennen wir darueber reden, dass niemand das Wort "Dad" benutzen sollte? #line:b7e60f
 Adina: Godtender, in Anerkennung der Familie, die du findest, wenn deine Familie weg ist, #line:64edaf
 Adina: duerfen wir Sorgen und Flueche dem Waldgott vortragen? #line:d3c09f
 GodtenderBrown: Wir teilen den Fluch dieses Horns, das so viel genommen hat, #line:79810b

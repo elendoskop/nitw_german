@@ -982,7 +982,7 @@ position: 6468,-8865
         Mae: Hey ihr beiden. #line:5fdac2
         TunnelTeen2: Ja? #line:f99c5e
         Mae: Pass auf dich auf, ja? #line:14328f
-        TunnelTeen3: wow. Danke Mama. #line:e71046
+        TunnelTeen3: wow. Danke Mom. #line:e71046
         TunnelTeen4: bist du unsere neue Mutter? #line:e08973
         Mae: anscheinend. #line:986caa
         Mae: das Leben, Mann. es geht. #line:2483fc
@@ -1002,7 +1002,7 @@ position: 10930,-11012
     //Mae: My precious rat babies have left the nest! no need for Momma to feed 'em anymore.
     //Mae: ...they grow up so fast...
 <<elseif $rats_fed_today is 1 >>
-    Mae: Meine Babies sind alle gefuettert. Mama braucht heute nicht zu stehlen. #line:fd69b8
+    Mae: Meine Babies sind alle gefuettert. Mom braucht heute nicht zu stehlen. #line:fd69b8
 <<elseif $paws_mode_mallard is 0>>
     Mae: Leckere Brezeln... #line:1570f6
 <<elseif $paws_mode_mallard is 1 and $pretzel is 0 and $pretzel_steal_attempt is 0>>
@@ -1160,14 +1160,14 @@ position: 6270,-8527
         Mae: Wozu wollt ihr ueberhaupt Bier? #line:65a829
         Mae: Bier ist eklig. #line:1a33ed
         Mae: Es ist ueberhaupt nicht lecker. #line:5847c2
-        TunnelTeen1: Das Leben ist nicht immer lecker, Mama. #line:f4d04b
+        TunnelTeen1: Das Leben ist nicht immer lecker, Mom. #line:f4d04b
         TunnelTeen2: Ich dachte, das wuesstest du inzwischen. #line:e82d3b
         Mae: Das hat doch gar nichts mit dem hier zu tun. #line:112cf4
         Mae: Ich habe gehoert, es gibt tatsaechlich gut schmeckenden Alkohol da draussen. #line:01b4a1
         Mae: Ich weiss es nicht. Fruchtpunsch, der dich Dinge tun laesst, die du bereust. #line:164807
         TunnelTeen3: Richtig. #line:e828e9
         Mae: Bin ich schon wieder uncool? #line:312f8a
-        TunnelTeen4: Du warst nie cool, Mama. #line:e62e78
+        TunnelTeen4: Du warst nie cool, Mom. #line:e62e78
         Mae: Verdammt. #line:853117
         TunnelTeen1: Aber das Leben ist nicht immer cool. #line:c773ab
         TunnelTeen2: Das Leben ist Muell. #line:a258af
@@ -1353,7 +1353,7 @@ position: 7460,-9339
 Mae: Hey Leute. #line:a064da
 TunnelTeen2: Ja? #line:d9fef9
 Mae: Pass auf dich auf, ja? #line:b096d7
-TunnelTeen3: wow. Danke Mama. #line:840142
+TunnelTeen3: wow. Danke Mom. #line:840142
 TunnelTeen4: bist du unsere neue Mutter? #line:642fad
 Mae: anscheinend. #line:ef8502
 Mae: das Leben, Mann. es geht. #line:543b34
