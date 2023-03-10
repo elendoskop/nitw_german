@@ -222,7 +222,7 @@ Angus: Wurde etwa 200 Fuss vom Palast entfernt mit einem Pfeil zu Tode geschosse
 Mae: Also wurde er nicht zum Sternbild, weil er ein grosser Dieb war. #line:27395d
 Bea: Hat er nicht. #line:a0616a
 Gregg: Scheiss auf den Mann. Stiehl ihre Diamanten. #line:db5c04
-ALLE: Scheiss auf den Mann. #line:51b35f
+ALL: Scheiss auf den Mann. #line:51b35f
 Bea: Ah ja, der revolutionaere Eifer von Kindern aus den Vorstaedten. #line:4355e1
 Mae: Possum Springs ist nicht die Vorstadt! #line:768412
 Angus: Ja, man braucht eine Stadt, um Vorstaedte zu haben. #line:ce0e9a

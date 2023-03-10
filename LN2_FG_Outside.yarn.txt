@@ -444,7 +444,7 @@ position: -2311,587
 ---
 <<if $forest_god_poison is 1>>
 	Adina: Godtender Brown! #line:caf979
-	GoettergatteBraun: Kaiserin! Es ist schon so spaet! Warum bist du noch hier? #line:88bcbe
+	GodtenderBrown:: Kaiserin! Es ist schon so spaet! Warum bist du noch hier? #line:88bcbe
 	Adina: Hoer zu, es ist sehr wichtig. #line:35fe83
 	Adina: Ich weiss, warum dein Gott stirbt. #line:62cfb8
 	GodtenderBrown: W-was? #line:236c8a
@@ -881,7 +881,7 @@ position: -682,1262
 ---
 GodTenderBrown: Sie entdeckten den Fluch erst, nachdem ich die Weisheit erlangt hatte. #line:911caa
 GodTenderBrown: Das Jahr, in dem sie den Gludinhorn-Midsummer-Choral auffuehrten. #line:336b68
-GottZartBraun: Und die Schule fiel in die Erde. #line:7e6a01
+GodTenderBrown: Und die Schule fiel in die Erde. #line:7e6a01
 Adina: Oh mein Gott! #line:716042
 Snowblow: *HONK!!!* #line:7bffa3
 Snowdrunk: Ja, das wird ein Fluch sein, in der Tat. #line:4d2ee3

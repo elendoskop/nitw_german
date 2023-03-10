@@ -1453,7 +1453,7 @@ Bea: heh heh ja. #line:191870
 		Mae: und sie sagten mir, ich wuerde einen Haufen Pentagramme sehen. #line:31aced
 		Bea: welche Teens? #line:722b70
 		<<if $did_bea_investigation_quest>>
-			MMae: die, auf die wir auf dem Friedhof gestossen sind #line:aa1706
+			Mae: die, auf die wir auf dem Friedhof gestossen sind #line:aa1706
 			Bea: Oh Gott. Diese Teenager. #line:46dffa
 		<<else>>
 			Mae: habe sie oben am Wasserturm getroffen #line:95c09a

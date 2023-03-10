@@ -428,7 +428,7 @@ Jen: Bist du nicht zur Schule gegangen? Was machst *du* denn hier? #line:f2b6bf
 	Mae: Wie ist das? #line:c9b9f6
 	Jen: gut. Teuer. Aber gut. #line:a41608
 <<wait 2>>
-e: Gehst du immer noch mit der Armbrust jagen? #line:10c0c9
+Mae: Gehst du immer noch mit der Armbrust jagen? #line:10c0c9
 <<if $did_gregg_friendship_quest_3>>
 	Mae: Gregg tut es immer noch. Irgendwie. #line:9915d9
 <<else>>

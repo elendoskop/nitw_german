@@ -67,7 +67,7 @@ position: 536,80
 <<wait 8>>
 Pastor: Gott ist hier. #line:4aed4e
 Pastor: In diesem Raum. #line:a2d95f
-Pfarrer: Ich glaube das. #line:961106
+Pastor: Ich glaube das. #line:961106
 Pastor: in Zeiten wie diesen, koennen wir laut rufen #line:01b6dc
 Pastor: und wissen, dass unsere Schreie gehoert werden #line:abd5a4
 Mom: *schnief* #line:a36390
@@ -88,7 +88,7 @@ Mom: Das waere schoen. #line:faf344
 	Lori: Lori Meyers. #line:7d2d95
 	Pastor: Ich danke dir, Lori. #line:2510fc
 
-	Pfarrer: Sonst noch jemand? #line:9a29ed
+	Pastor: Sonst noch jemand? #line:9a29ed
 <<endif>>
 
 <<if $did_chazokov_star_visits >= 2>>
@@ -103,7 +103,7 @@ Mom: Das waere schoen. #line:faf344
 	Chazokov: I am sorry. #line:c07359
 	Pastor: Es kann schwierig sein. #line:aed254
 
-	Pfarrer: Sonst noch jemand? #line:a0b1c2
+	Pastor: Sonst noch jemand? #line:a0b1c2
 <<endif>>
 
 <<if $saw_selmers_deliver_poem_at_poets_society>>
@@ -117,10 +117,10 @@ Mom: Das waere schoen. #line:faf344
 	Selmers: Wo ist denn da der Gott drin? #line:1b8e28
 	Selmers: Wo ist die hoehere Macht? #line:0710dc
 	Selmers: Das ist alles ein Haufen Bloedsinn. #line:09a6ce
-    Pfarrer: Ich danke dir, Selma. #line:5620fa
+    Pastor: Ich danke dir, Selma. #line:5620fa
 	Mom: ... #line:ce37b4
 	Dad: ... #line:1bbc72
-	Pfarrer: Sonst noch jemand? #line:a99727
+	Pastor: Sonst noch jemand? #line:a99727
 <<endif>>
 
 Penderson: Ich werde etwas sagen #line:da785f

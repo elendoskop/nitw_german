@@ -389,7 +389,7 @@ CarDude: Du wirst nicht auf mein Auto springen. #line:0dab1e
 Mae: Ich werde dich gleich hier auf diesem PIZZA-PARKPLATZ erledigen #line:7e3730
 CarGirl: KUEHLEN SIE SICH AB #line:d98058
 Mae: du verpisst dich #line:3bd1c8
-AutoMaedchen: Sag mir nicht, dass ich mich verpissen soll #line:ff7f3b
+CarGirl: Sag mir nicht, dass ich mich verpissen soll #line:ff7f3b
 Mae: Sag mir nicht, dass ich mich beruhigen soll #line:918d82
 CarDude: Geh weg von meinem verdammten Auto! #line:2bc366
 <<dilate Mae .65 .5>>

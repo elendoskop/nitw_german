@@ -25,7 +25,7 @@ ManOnHill: [color=2B81A9]stellte er sie vor seine eigene Sicherheit.[/color] #li
 ManOnHill: [color=2B81A9]Aber der Gott des Himmels ist der Gott der Tunnel.[/color] #line:ce4e76
 ManOnHill: [color=2B81A9]Und wir duerfen in dem Wissen ruhen[/color] #line:c1f98b
 ManOnHill: [color=2B81A9]Dass Brian jetzt bei Ihm ist.[/color] #line:e85a06
-Die Menge: [color=2B81A9]Amen.[/color] #line:4ca3d3
+Crowd: [color=2B81A9]Amen.[/color] #line:4ca3d3
 ManOnHill: [color=2B81A9]Wir uebergeben Brian in den Staub und in die Obhut des Herrn.[/color] #line:8fd25c
 ===
 title: ManOnFence

@@ -143,11 +143,11 @@ position: -1738,-310
 ---
 <<waitForPlayerFallToGround>>
 <<set $snowman0Intro to 1>>
-Schneemann0:{angryWobble=5} AAAAAAAAAAAAGH! #line:9f3c35
+Snowman0:{angryWobble=5} AAAAAAAAAAAAGH! #line:9f3c35
 Adina: OH MEIN GOTT! #line:1e7fb0
-Schneemann0:{angryWobble=7} WAS BIN ICH?!?!?! #line:cb6a1d
+Snowman0:{angryWobble=7} WAS BIN ICH?!?!?! #line:cb6a1d
 Adina: [shake=.01]WAS GEHT???[/shake] #line:95e537
-Schneemann0:{angryWobble=10} WAS BIN ICH?!?!?!?! #line:1be364
+Snowman0:{angryWobble=10} WAS BIN ICH?!?!?!?! #line:1be364
 Adina: [shake=.05]HILFE!!![/shake] #line:53f9e8
 
 ===
@@ -165,9 +165,9 @@ Snowman0: ich weiss nicht, was alles #line:e17c8a
 Adina: Du weisst nicht zufaellig, wie man den Waldgott findet, oder? #line:47577a
 Snowman0: es gibt nichts an mir, was nicht Wald und Himmel ist #line:ef975f
 Adina: Das ist wie ein Gedicht. #line:73b019
-Schneemann0:{angryWobble=5} WAS BIN I #line:07bfc2
+Snowman0:{angryWobble=5} WAS BIN I #line:07bfc2
 Adina: Du bist wie ein Gedicht! #line:62d4fa
-Schneemann0:{angryWobble=15} AAAAAAAAAAAAAAAAAGH! #line:380a71
+Snowman0:{angryWobble=15} AAAAAAAAAAAAAAAAAGH! #line:380a71
 [[AfterFirstSnowman]]
 
 ===
@@ -556,7 +556,7 @@ colorID: 0
 position: -1137,-771
 ---
 Snowacle: Oh du kleine Heidin! #line:41000c
-Schneekugel: Ein Maedchen ganz nach meinem Geschmack. Eh heh heh. #line:eaba6f
+Snowacle: Ein Maedchen ganz nach meinem Geschmack. Eh heh heh. #line:eaba6f
 Adina: Kennen Sie das? #line:ef9fd8
 Snowacle: "In ihren Fluegeln, in ihren Baeumen" #line:880643
 Snowacle: "Alle Dinge sterben, seid in Frieden!" #line:9d3c78
@@ -1264,7 +1264,7 @@ Snowacle: und die Toten kamen an die Oberflaeche #line:0e21ec
 Snowacle: und sprachen mit den Lebenden? #line:9579f3
 Snowacle: Wie es so schwarz war #line:54f41c
 Snowacle: dass es das Spiegelbild des Mondes frass? #line:a4067c
-Schneekugel: Und wie der Mond, eifersuechtig, #line:d3cf57
+Snowacle: Und wie der Mond, eifersuechtig, #line:d3cf57
 Snowacle: die Sonne ueberredete, dem See den Ruecken zuzukehren #line:43bf01
 Snowacle: damit er fuer immer gefroren bleibt? #line:532c65
 Snowacle: Deshalb kann man die Toten unter dem Eis finden. #line:ab121d

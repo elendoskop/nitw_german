@@ -149,7 +149,7 @@ ForestGod: Dann wird sie es auch nicht. #line:3e3e47
 Adina: Ugh. #line:8bd2a0
 Adina: Du grosses dummes Tier. #line:85b1f6
 <<fadeOutMusic 3>>
-WaldGott:{width=8} BRRRRRRRAAAAAAAAAAAAAAAAAAAARLLLLL!!!!! #line:fc3b22
+ForestGod:{width=8} BRRRRRRRAAAAAAAAAAAAAAAAAAAARLLLLL!!!!! #line:fc3b22
 <<close>>
 <<wait 1>>
 <<tell ForestGodFlyAway to Play>>

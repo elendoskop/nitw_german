@@ -47,7 +47,7 @@ Germ: oh. #line:63fbb3
 Mae: Entschuldigung. Das war seltsam. #line:865f7f
 Germ: Ist schon gut. Viele Leute aus der Stadt kommen nie wieder hierher zurueck. #line:3de5b2
 Mae: haben eine Menge Autos #line:75eaf1
-Germ: meine Onkel sind oft hier #line:556f20
+Germ: meine  sind oft hier #line:556f20
 Germ: sie reparieren Autos mit meinem Vater #line:27c8c1
 Mae: faehrst du Auto? #line:94d870
 Germ: ich fahre Fahrrad. #line:951077
@@ -261,7 +261,7 @@ GermDad: War gar nichts. #line:deeb8c
 GermUncle: Ja, er hat die leichte Arbeit gemacht. #line:e6069a
 GermUncle: Meine Crew klettert ueber die Bruecken in Saltztown #line:acffde
 Mae: Oh, sind sie schon offen? #line:81c5a8
-GermOnkel: Auf keinen Fall! #line:a67550
+GermUncle: Auf keinen Fall! #line:a67550
 GermDad: 's wird der Tag sein. #line:499092
 <<if $austerity_bearity>>
 	Mae: Sparsamkeit Bearity! #line:be1674

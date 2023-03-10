@@ -41,7 +41,7 @@ GermMom: Oh. Ist es das, worum es hier geht? #line:423007
 Mae: Was? #line:f979c6
 Germ: Darf ich? #line:5655ac
 GermMom: Du brauchst meine Erlaubnis nicht. #line:d08553
-GermMutter: Was auch immer passiert, es liegt an dir. #line:b86bcf
+GermMom: Was auch immer passiert, es liegt an dir. #line:b86bcf
 Mae: :| #line:15a92e
 Mae: Was? #line:5f8dc1
 Germ: Komm schon! #line:14b6aa

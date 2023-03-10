@@ -1040,23 +1040,23 @@ position: -30399,15358
 <<lookAt Mae Mom>>
 Mae: -_- #line:90688d
 Mae: Entschuldigung Mama. #line:98ced2
-Mama: Du hast uns zu Tode erschreckt, Schatz. #line:9dada7
+Mom: Du hast uns zu Tode erschreckt, Schatz. #line:9dada7
 Mae: Entschuldigung Mama. #line:539726
-Mama: wir werden dich abholen kommen. #line:29aafa
+Mom: wir werden dich abholen kommen. #line:29aafa
 Mae: Nein, ist schon gut. Ich werde einfach hier schlafen. #line:29fca9
-Mama: Bea ist da? #line:acc339
+Mom: Bea ist da? #line:acc339
 Mae: Bea ist hier. #line:24bab5
-Mama: ok. #line:523f0a
+Mom: ok. #line:523f0a
 Mae: Ich werde morgen frueh zurueck sein. #line:33d599
-Mama: Bea soll dich nach Hause fahren. #line:8ea680
+Mom: Bea soll dich nach Hause fahren. #line:8ea680
 Mae: werde ich. #line:a4ce25
-Mama: Mae... #line:0d6c75
+Mom: Mae... #line:0d6c75
 <<wait 3>>
 Mae: Ich weiss. #line:3459fa
-Mama: ruf uns an, wenn du nach Hause kommen musst. #line:66580b
+Mom: ruf uns an, wenn du nach Hause kommen musst. #line:66580b
 Mae: Das werde ich. #line:aac6b8
 Mae: Hab dich lieb, Mama. #line:1baea4
-Mama: Hab dich lieb, mein Schatz. #line:34c263
+Mom: Hab dich lieb, mein Schatz. #line:34c263
 <<close>>
 <<fadeOut 1 wait>>
 <<lookNearest Mae>>

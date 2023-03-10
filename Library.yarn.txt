@@ -105,13 +105,13 @@ position: 177,417
     <<set $library_desk to 1>>
     <<lookAt Mae Librarian>>
     Bea: Hey! #line:dcc002
-    Bibliothekarin: Wir schliessen in 2 Stunden. #line:da253a
+    Librarian: Wir schliessen in 2 Stunden. #line:da253a
     Bea: Ok cool. #line:67d4e1
     Mae: Irgendeine Idee, wo der Mikrofisch ist? #line:b03f8f
     Bea: Mikrofiche. #line:64e700
     Mae: :) #line:ca6d98
     Mae: Mikrofiche. #line:fe0add
-    Bibliothekar: Dritter Stock. #line:e1f847
+    Librarian: Dritter Stock. #line:e1f847
     Bea: Ok, danke. #line:fba0fb
     Mae: Hoch, hoch, hoch. #line:72b410
     Mae: :| #line:4323d8
@@ -121,11 +121,11 @@ position: 177,417
     <<set $librarian_done to 1>>
     <<lookAt Mae Librarian>>
     Mae: Langsame Nacht? #line:fb2819
-    Bibliothekar: Jep. #line:366f8c
+    Librarian: Jep. #line:366f8c
     Bea: Gruselig hier, so ganz allein? #line:2d4478
     Mae: Ich wuerde mich gruseln. #line:c6ef43
-    Bibliothekar: Eh. #line:c25c81
-    Bibliothekar: Larry irrt hier irgendwo herum. #line:e7fd2c
+    Librarian: Eh. #line:c25c81
+    Librarian: Larry irrt hier irgendwo herum. #line:e7fd2c
     <<loolNearest Mae>>
 <<endif>>
 ===

@@ -145,34 +145,34 @@ colorID: 4
 position: 49,31
 ---
 Mae: Hey. #line:fe326c
-Totengraeber: N'Abend #line:c07543
+Gravedigger: N'Abend #line:c07543
 Mae: Guten Abend. #line:fab7f2
-Totengraeber: Was hast du vor, Mann? #line:a78742
+Gravedigger: Was hast du vor, Mann? #line:a78742
 Mae: nach einem Geist suchen, waehrend meine Freundin das Grab ihrer Mutter besucht. #line:81d441
 Mae: du? #line:5ea877
-Totengraeber: ich bin der Totengraeber, Friedhofswaerter, was auch immer. #line:3c873a
+Gravedigger: ich bin der Totengraeber, Friedhofswaerter, was auch immer. #line:3c873a
 Mae: koennen wir kurz fachsimpeln? #line:47eda9
-Totengraeber: schiess los. #line:76aa6f
+Gravedigger: schiess los. #line:76aa6f
     -> grabt ihr die Graeber mit einer Schaufel? #line:96a546
         Mae: im fahlen Mondlicht? #line:a47a3d
         Mae: wenn die Geister durch die Reihen schleichen? #line:061194
-        Totengraeber: nein. wir haben einen kleinen Bagger. #line:533c5f
-        Totengraeber: vertreibt auch die Geister, denke ich. #line:d58f5f
+        Gravedigger: nein. wir haben einen kleinen Bagger. #line:533c5f
+        Gravedigger: vertreibt auch die Geister, denke ich. #line:d58f5f
     -> wirst du hier draussen ganz alleine gegruselt? #line:b181ec
-        Totengraeber: Nein. Ich arbeite hier. #line:af46ec
-        Totengraeber: neigt dazu, dem Ort den Spuk zu nehmen. #line:67b379
+        Gravedigger: Nein. Ich arbeite hier. #line:af46ec
+        Gravedigger: neigt dazu, dem Ort den Spuk zu nehmen. #line:67b379
 Mae: wird dieser Job gut bezahlt? #line:f9008c
-Totengraeber: denkst du daran, Graeber zu schaufeln? #line:d85362
+Gravedigger: denkst du daran, Graeber zu schaufeln? #line:d85362
 Mae: kommt auf den Lohn an #line:e7df0d
-Totengraeber: nicht viel. #line:d22983
+Gravedigger: nicht viel. #line:d22983
 Mae: oh. #line:0288da
-Totengraeber: Ich bin nebenbei ein Hochzeits-DJ. #line:6c6fde
+Gravedigger: Ich bin nebenbei ein Hochzeits-DJ. #line:6c6fde
 Mae: verdammt suess. #line:b5760a
-Totengraeber: Ich werde dich rocken. Hart. #line:6cf14e
+Gravedigger: Ich werde dich rocken. Hart. #line:6cf14e
 Mae: Klingt toll, mein Mann. #line:68ae8d
 <<wait 2>>
 Mae: na dann, man sieht sich! #line:e2b523
-Totengraeber: viel Glueck beim Finden deines Geistes! #line:a4cd2b
+Gravedigger: viel Glueck beim Finden deines Geistes! #line:a4cd2b
 <<set $gravedigger_done to 1>>
 <<unlockDoodle Gravedigger>>
 ===
