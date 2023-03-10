@@ -174,7 +174,7 @@ Pastor: Ich bin sicher, dass sie- #line:74e6da
 <<wait 7>>
 Janitor: Oh, es tut mir leid. Ich wollte nicht stoeren. #line:0f83ec
 Janitor: Was ist mit dem hier passiert? #line:94156f
-Mutter: Kennen wir dich? #line:ba74fb
+Mom: Kennen wir dich? #line:ba74fb
 Pastor: bist du hier um aufzuraeumen? #line:de0a7c
 Janitor: Nein. Ich sollte eigentlich eine Tuer reparieren. #line:617b38
 Pastor: hier drinnen? #line:aef5e0
