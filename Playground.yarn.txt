@@ -1,5 +1,5 @@
 title: Molly
-tags: 
+tags:
 colorID: 0
 position: 159,578
 ---
@@ -9,7 +9,7 @@ position: 159,578
 <<fadeOutMusic .25>>
 <<wait 1>>
 <<setAnimBool Molly flashlight 1>>
-<<playOneShot event:/playground/flashlight_on MollyFlashlightSound>> 
+<<playOneShot event:/playground/flashlight_on MollyFlashlightSound>>
 Mae: -_- #line:6fe5bc
 Molly: Hallo Mae. Ist schon eine Weile her. #line:b17506
 Mae: Hey. Was machst du denn hier draussen? Hast du nichts Besseres zu tun? #line:7837da
@@ -30,7 +30,7 @@ Mae: Nein. :( #line:abb682
 
 ===
 title: TowerTop
-tags: 
+tags:
 colorID: 0
 position: 306,141
 ---
@@ -48,7 +48,7 @@ Mae: Das gerät langsam alles etwas durcheinander. Ich sollte es aufschreiben. #
 
 ===
 title: Branch
-tags: 
+tags:
 colorID: 0
 position: 657,628
 ---
@@ -157,14 +157,14 @@ position: 28,925
 <<endif>>
 ===
 title: BoatWheel.1
-tags: 
+tags:
 colorID: 0
 position: -186,1339
 ---
 Mae: Ahoi! #line:206119
 ===
 title: BoatWheel.2
-tags: 
+tags:
 colorID: 0
 position: 46,1378
 ---
@@ -173,7 +173,7 @@ Mae: Ich weiß noch genau, dass ich seitdem kaum gewachsen bin. #line:e3b124
 <<end>>
 ===
 title: X_BoatWheel.3
-tags: 
+tags:
 colorID: 0
 position: 533,1542
 ---
@@ -183,7 +183,7 @@ Mae: Um ein dummes Spiel auf die duemmste Weise zu spielen. #line:fc68de
 <<end>>
 ===
 title: Fence.1
-tags: 
+tags:
 colorID: 0
 position: 1006,430
 ---
@@ -192,7 +192,7 @@ Mae: Ich glaube nicht, dass ich die Kraft fuer den Oberkoerper habe, um das zu e
 
 ===
 title: Fence.2
-tags: 
+tags:
 colorID: 0
 position: 1257,425
 ---
@@ -203,7 +203,7 @@ Mae: ...koennte wahrscheinlich einfach von diesem Telefonmast springen... #line:
 <<end>>
 ===
 title: BeneathTree
-tags: 
+tags:
 colorID: 0
 position: 1600,579
 ---
@@ -212,7 +212,7 @@ Mae: Und anscheinend war auch sonst niemand hier. #line:c7c4d2
 <<end>>
 ===
 title: BoatBottom.1
-tags: 
+tags:
 colorID: 0
 position: 1038,896
 ---
@@ -222,7 +222,7 @@ Mae: Das meiste davon ist jetzt weg. #line:783c57
 Mae: Nur ein Ding fuer seltsame Tiere, die darin fressen und Babys bekommen. #line:874e03
 ===
 title: BoatBottom.2
-tags: 
+tags:
 colorID: 0
 position: 1315,973
 ---
@@ -230,7 +230,7 @@ Mae: Ich frage mich, was fuer seltsame Tiere da drin ihre Babys bekommen? #line:
 Mae: Schmutzige Opossums. Nachtschlangen. Mysterioese Biester in allen Formen. #line:a71d6a
 ===
 title: BoatBottom.3
-tags: 
+tags:
 colorID: 0
 position: 1570,1019
 ---
@@ -243,7 +243,7 @@ Mae: Diese ganze Gegend ist so voll von Romantik. #line:75ec6c
 
 ===
 title: BoatBottom.4
-tags: 
+tags:
 colorID: 0
 position: 1819,1103
 ---
@@ -251,7 +251,7 @@ Mae: Hey! Man kann immer noch Mr. Snorkles darauf sehen! #line:5822ae
 <<end>>
 ===
 title: TowerTopB
-tags: 
+tags:
 colorID: 0
 position: 620,232
 ---
@@ -259,7 +259,7 @@ Mae: Hier ist eine Stromleitung. #line:971b67
 Mae: Lass uns nach Hause gehen. #line:bda3b3
 ===
 title: EnterLevel
-tags: 
+tags:
 colorID: 0
 position: 35,7
 ---
