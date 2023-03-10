@@ -124,8 +124,8 @@ position: -3275,-386
 ---
 Mae: Hey Mr. Twigmeyer! #line:058a33
 Twigmeyer: Mae? Bist du das? #line:9f0714
-[[Sicher ist!|Twigmeyer_00_SureIs]] #line:7caad2
-[[Nope!|Twigmeyer_00_Nope]] #line:56ad2f
+[[Sicher!|Twigmeyer_00_SureIs]] #line:7caad2
+[[Nee!|Twigmeyer_00_Nope]] #line:56ad2f
 ===
 title: Twigmeyer_00_SureIs
 tags:
@@ -172,17 +172,17 @@ Twigmeyer: Nun, es sieht aus wie Mae. #line:10432f
 Twigmeyer: Ich wette, es riecht wie Mae. #line:d8401e
 Mae: Ich habe einen Geruch? #line:de870d
 Twigmeyer: Als du ein Kind warst, #line:f910be
-Twigmeyer: Susan hat dich immer einen kleinen Drecksack genannt. #line:af700d
-[[Nun, ich war ein Drecksack.|Twigmeyer_00_IWasADirtball]] #line:18dc4d
-[[Ich war nie ein Drecksack.|Twigmeyer_00_IWasNever]] #line:875539
+Twigmeyer: Susan hat dich immer einen kleinen Schmutzfink genannt. #line:af700d
+[[Nun, ich war ein Schmutzfink.|Twigmeyer_00_IWasADirtball]] #line:18dc4d
+[[Ich war nie ein Schmutzfink.|Twigmeyer_00_IWasNever]] #line:875539
 ===
 title: Twigmeyer_00_IWasADirtball
 tags:
 colorID: 2
 position: -3071,194
 ---
-Twigmeyer: Ich wette, du bist immer noch ein Dreckskerl. #line:9ef0f8
-Mae: Von der Wiege bis zur Bahre. 100 Prozent Drecksack. #line:3ce201
+Twigmeyer: Ich wette, du bist immer noch ein Schmutzfink. #line:9ef0f8
+Mae: Von der Wiege bis zur Bahre. 100 Prozent Schmutzfink. #line:3ce201
 Twigmeyer: Das ist die richtige Einstellung! #line:4e92f9
 Mae: Man sieht sich, Mr. Twigmeyer! #line:cea924
 <<set $twigmeyer_done to 1>>
@@ -195,10 +195,10 @@ position: -2691,181
 Twigmeyer: Ach Mae, du warst unser Schmutzfink. #line:7cb069
 Mae: Der Traum eines jeden Kindes. #line:99fb58
 Twigmeyer: Siehst du? Zaehle jeden deiner Segen. #line:1c4828
-Mae: Nun, du kannst *zaehlen*, dass wir uns morgen wiedersehen. #line:009047
+Mae: Nun, du kannst darauf *zaehlen*, dass wir uns morgen wiedersehen. #line:009047
 Twigmeyer: Du kannst gerne meinen Rasen harken. #line:f6c61b
-Mae: Bezahlst du? #line:cb24f5
-Twigmeyer: Raus hier, Drecksack. #line:c3ca8d
+Mae: Bezahlen Sie mich dafür? #line:cb24f5
+Twigmeyer: Zieh leine, Schmutzfink. #line:c3ca8d
 <<set $twigmeyer_done to 1>>
 ===
 title: InitLevel_A1D1
@@ -219,7 +219,7 @@ Mae: All die Strassenarbeiten, die vor dem Winter eingepfercht werden. #line:ae1
 Mae: Das macht die halbe Stadt unzugaenglich. #line:5ad7a0
 Mae: Es sei denn, man will den langen Weg herumlaufen #line:29a6a9
 Mae: fuer etwa 20 Minuten. #line:05ca88
-Mae: Was, ich meine, nein. #line:1b963f
+Mae: Also nein. #line:1b963f
 <<end>>
 ===
 title: TwigmeyerDemo
@@ -230,7 +230,7 @@ position: -5782,-631
 <<if $twigmeyer is 0>>
     Mae: Hey Mr. Twigmeyer! #line:b4ed74
     Twigmeyer: {align=middle,emote=rake,emoteAlign=middle} #line:515331
-    Mae: Also gut! #line:597a29
+    Mae: Alles klar! #line:597a29
     <<set $twigmeyer to 1>>
 <<else>>
     Mae: Harken Sie sie gut, Herr Twigmeyer! #line:09f820
