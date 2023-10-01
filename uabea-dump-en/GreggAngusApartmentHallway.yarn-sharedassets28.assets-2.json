@@ -1,5 +1,0 @@
-{
-  "m_Name": "GreggAngusApartmentHallway.yarn",
-  "m_Script": "title: Door\ntags: \ncolorID: 0\nposition: 540,260\n---\n<<if $dom_friend_bea>>\n\tBea: oh my god. #line:e56343\n\tMae: ...Beeeea? #line:85094c\n\tBea: Oh my god... Mae? #line:013f2c\n<<else>>\n\tGregg: crap. #line:0dc5e8\n\tMae: ...Greeegg? #line:69a08e\n\tGregg: Holy crap, Mae? #line:3e4e20\n\tGregg: It’s Mae!!! #line:6d4f74\n<<endif>>\n<<close>>\n<<fadeOut 1 wait>>\n<<overrideLoadingScreenType Blank>>\n<<scene GreggAngusApartment>>\n===\ntitle: EnterLevel\ntags: \ncolorID: 0\nposition: 254,156\n---\n<<fadeIn 1>>\n<<wait 1>>\n===\ntitle: InitLevel\ntags: \ncolorID: 0\nposition: -17,125\n---\n<<set $death_walk to 1>>\n<<flip Mae -1>>\n<<playIdleAnimationPlayer>>\n===\n",
-  "m_PathName": ""
-}

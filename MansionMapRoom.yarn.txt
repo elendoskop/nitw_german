@@ -1,5 +1,5 @@
 title: Switch00
-tags:
+tags: 
 colorID: 4
 position: -478,437
 ---
@@ -7,14 +7,14 @@ position: -478,437
 <<trigger Map Button1>>
 <<set $map_switch_0_done to 1>>
 <<set $map_switches += 1>>
-Gregg: oh hey, das ist meine Nachbarschaft. #line:1183d0
-Mae: und der Highway. #line:9db910
-Mae: aber kein Schinkenpanther. #line:038f5b
-Gregg: muss alt sein. #line:e9d9b6
+Gregg: oh hey it's my neighborhood. #line:1183d0
+Mae: and the highway. #line:9db910
+Mae: no ham panther, though. #line:038f5b
+Gregg: must be old. #line:e9d9b6
 [[CheckSwitches]]
 ===
 title: Switch01
-tags:
+tags: 
 colorID: 4
 position: -258,439
 ---
@@ -22,14 +22,14 @@ position: -258,439
 <<trigger Map Button2>>
 <<set $map_switch_1_done to 1>>
 <<set $map_switches += 1>>
-Mae: da ist der Friedhof #line:a58efa
-Gregg: und das Gebaeude, in dem wir JETZT sind. #line:d8d5eb
-Mae: gruselig. #line:460d3d
-Mae: als ob wir beobachtet werden. #line:fa2703
+Mae: there's the graveyard #line:a58efa
+Gregg: and the building we're in RIGHT NOW. #line:d8d5eb
+Mae: spooky. #line:460d3d
+Mae: like we're being watched. #line:fa2703
 [[CheckSwitches]]
 ===
 title: Switch02
-tags:
+tags: 
 colorID: 4
 position: -27,432
 ---
@@ -37,15 +37,15 @@ position: -27,432
 <<trigger Map Button3>>
 <<set $map_switch_2_done to 1>>
 <<set $map_switches += 1>>
-Mae: hey, das ist meine Nachbarschaft! #line:eac498
-Gregg: wow, ich wette, da ist ein kleines Du drin. #line:4cde74
-Mae: whoa. das ist... #line:e42ab9
-Mae: tut mir leid, das hat mich schwindelig gemacht. #line:7f0001
-Gregg: ich bin gefaehrlich. #line:7364b4
+Mae: hey it's my neighborhood! #line:eac498
+Gregg: wow there's a tiny you in there i bet. #line:4cde74
+Mae: whoa. that's... #line:e42ab9
+Mae: sorry, that like made me dizzy. #line:7f0001
+Gregg: i'm dangerous. #line:7364b4
 [[CheckSwitches]]
 ===
 title: Switch03
-tags:
+tags: 
 colorID: 4
 position: 197,449
 ---
@@ -53,13 +53,13 @@ position: 197,449
 <<trigger Map Button4>>
 <<set $map_switch_3_done to 1>>
 <<set $map_switches += 1>>
-Gregg: guter alter Towny Centry. #line:552caf
-Mae: Stadtzentrum, das Zentrum unserer Stadt. #line:312f34
-Gregg: ziemlich. #line:c39ab7
+Gregg: good ol' towny centry. #line:552caf
+Mae: towne centre, the centre of our towne. #line:312f34
+Gregg: quite. #line:c39ab7
 [[CheckSwitches]]
 ===
 title: Switch04
-tags:
+tags: 
 colorID: 4
 position: 426,453
 ---
@@ -67,15 +67,15 @@ position: 426,453
 <<trigger Map Button5>>
 <<set $map_switch_4_done to 1>>
 <<set $map_switches += 1>>
-Mae: Ach, ich glaube, das ist der alte Essensesel. #line:d67ee8
-Gregg: und der Wald, in den dein Geistertyp gerannt ist? #line:90f2b1
-Mae: jep. #line:4fc402
-Gregg: fuer einen toten Kerl kommt er ganz schoen rum. #line:fc4a06
-Mae: das tut er. #line:97f1bf
+Mae: aw. i think that's the old food donkey. #line:d67ee8
+Gregg: and the woods your ghost guy ran into? #line:90f2b1
+Mae: yep. #line:4fc402
+Gregg: he sure gets around for a dead guy. #line:fc4a06
+Mae: that he does. #line:97f1bf
 [[CheckSwitches]]
 ===
 title: Statue
-tags:
+tags: 
 colorID: 4
 position: 789,420
 ---
@@ -83,73 +83,73 @@ position: 789,420
 <<lookAt Gregg Character>>
 <<trigger MansionRobot ComeToLife>>
 <<wait 4>>
-Mae: Augh es lebt! #line:c8961b
-Gregg: Mann, ist das Ding haesslich. #line:b22367
-Mae: Nun, das war wohl die Quelle des Laerms, schaetze ich. #line:953afe
-Gregg: Raetsel geloest. #line:2d4de5
-Gregg: warte #line:42785e
-Gregg: nein #line:c55875
-Gregg: wenn es dieses Geraeusch gemacht hat, bedeutet das #line:db8ff7
-Gregg: dass jemand hier drin war #line:c54978
-Gregg: waehrend wir herumliefen. #line:1595bf
+Mae: Augh it's alive! #line:c8961b
+Gregg: geez that thing's ugly. #line:b22367
+Mae: Well this was the source of the noise I guess. #line:953afe
+Gregg: Mystery solved. #line:2d4de5
+Gregg: wait #line:42785e
+Gregg: no #line:c55875
+Gregg: if it was making that noise that means #line:db8ff7
+Gregg: that someone was in here #line:c54978
+Gregg: while we were walking around. #line:1595bf
 <<lookAt Mae Gregg>>
 <<lookAt Gregg Mae>>
 Mae: ohhhh #line:8274c0
-Mae: Scheisse. #line:d4ede4
-Gregg: ja, lass uns vielleicht gehen. #line:44aca5
-Mae: nein! wir muessen... Sachen finden! #line:3206d9
-Gregg: oh, Sachen? #line:42f060
-Gregg: Kumpel, wir werden getasert oder so #line:a5789f
-Gregg: von einem grossen, dicken, aeh... #line:d93aa4
-Mae: Mitarbeiter der historischen Gesellschaft. #line:64c2d4
-Gregg: wie auch immer. ich gebe dir die Schuld, wenn das schief geht. #line:e2de2d
-Mae: schoen! #line:5d0465
-Gregg: gut! #line:097cf5
+Mae: shit. #line:d4ede4
+Gregg: yeah, let's maybe go. #line:44aca5
+Mae: no! we have to find... stuff! #line:3206d9
+Gregg: oh, stuff? #line:42f060
+Gregg: dude, we're gonna get tasered or something #line:a5789f
+Gregg: by a big bulking uh... #line:d93aa4
+Mae: historical society employee. #line:64c2d4
+Gregg: whatever. i am blaming you if this goes bad. #line:e2de2d
+Mae: fine! #line:5d0465
+Gregg: fine! #line:097cf5
 <<wait 2>>
-Gregg: es tut mir leid, Alter. #line:c8f953
-Mae: mir auch. #line:c55f12
-Gregg: ich wuerde dich nie verraten. #line:4b1897
-Mae: ich auch nicht. #line:9c66a8
-Gregg: Verbrechen. #line:d70254
-Mae: Verbrechen. #line:e32d78
+Gregg: i'm sorry dude. #line:c8f953
+Mae: me too. #line:c55f12
+Gregg: i'd never turn you in. #line:4b1897
+Mae: me either. #line:9c66a8
+Gregg: crimes. #line:d70254
+Mae: crimes. #line:e32d78
 <<lookNearest Mae>>
 <<lookNearest Gregg>>
 <<set $mansion_checked_robot to 1>>
 [[CheckCanLeave]]
 ===
 title: Toolbox
-tags:
+tags: 
 colorID: 4
 position: 1134,426
 ---
 <<lookAt Mae ToolboxCharacter>>
 <<lookAt Gregg ToolboxCharacter>>
-Mae: Hey, sieh dir das an! Werkzeugkasten. #line:1397c4
-Gregg: Der Reparateur muss nach der Haelfte der Reparaturzeit gegangen sein. #line:b61c69
-Mae: Und hey- eine Zange! #line:3a9605
-Gregg: Oh, cool, cool, cool #line:09a1c3
-Gregg: Ich dachte schon, wir wuerden sie nie finden und einfach so #line:d2fe9c
-Gregg: hier drin verhungern #line:2558dc
+Mae: Hey check it out! Toolbox. #line:1397c4
+Gregg: Repair guy musta left for the night halfway through fixing him. #line:b61c69
+Mae: And hey- some pliers! #line:3a9605
+Gregg: Oh cool cool cool #line:09a1c3
+Gregg: I was thinking we’d never find them and just like #line:d2fe9c
+Gregg: starve in here #line:2558dc
 Mae: ... #line:9f8703
-Mae: Morgen frueh werden Leute hier sein. #line:b4940c
-Gregg: Oh richtig. #line:48edb4
+Mae: There’ll be people here in the morning. #line:b4940c
+Gregg: Oh right. #line:48edb4
 <<lookAt Gregg Mae>>
 <<lookAt Mae Gregg>>
 <<if $has_paperclip>>
-	Gregg: In Ordnung, wir haben das Zeug. #line:eb95a9
-	Gregg: Lass uns den Aufzug oeffnen und sehen, was oben ist. #line:6e545c
-	Mae: Ich schaetze mal, es sind 12 weitere Aufzuege #line:bc8bd1
+	Gregg: Alright so we got the stuff. #line:eb95a9
+	Gregg: Let’s get that elevator open and see what’s upstairs. #line:6e545c
+	Mae: Gonna guess it’s like 12 more elevators #line:bc8bd1
 <<else>>
-	Gregg: Sooo... wir brauchen eine Bueroklammer. #line:63169c
+	Gregg: Sooo... we need a paperclip. #line:63169c
 	<<if $visited_mansion_office>>
-		Mae: lass uns das langweilige Buero ueberpruefen #line:137d75
-		Mae: fuer die langweilige Bueroklammer #line:6a7d45
-		Mae: wahrscheinlich nur 7 weitere Aufzuege finden #line:34dd8a
+		Mae: let’s check out the boring office #line:137d75
+		Mae: for the boring paperclip #line:6a7d45
+		Mae: probably just find like 7 more elevators #line:34dd8a
 	<<else>>
-		Mae: ich bin sicher, dass es hier irgendwo eine Bueroklammer gibt #line:d52ed9
-		Mae: die haben wahrscheinlich so was wie #line:ca69b3
-		Mae: ein Buero oder so? #line:0f3cd5
-		Gregg: wahrscheinlich mit ungefaehr 9 Aufzuegen #line:3a535b
+		Mae: i’m sure there’s a paperclip SOMEWHERE in this place #line:d52ed9
+		Mae: they probably have like #line:ca69b3
+		Mae: an office or something? #line:0f3cd5
+		Gregg: probably with like 9 elevators in it #line:3a535b
 	<<endif>>
 <<endif>>
 <<lookNearest Mae>>
@@ -158,7 +158,7 @@ Gregg: Oh richtig. #line:48edb4
 [[CheckCanLeave]]
 ===
 title: InitLevel
-tags:
+tags: 
 colorID: 4
 position: -1021,399
 ---
@@ -169,18 +169,18 @@ position: -1021,399
 <<flip Mae -1>>
 ===
 title: CheckSwitches
-tags:
+tags: 
 colorID: 0
 position: 26,747
 ---
 <<if $map_switches is 1>>
     <<tell _AmbientSFX:map_buzz_loop Play>>
-    Mae: Oh, warte. #line:415ddb
-    Mae: Wir sind im Kartenraum. #line:123c4e
-    Gregg: Nun, lass uns besonders vorsichtig sein. #line:8bb694
+    Mae: Oh wait. #line:415ddb
+    Mae: we're in the map room. #line:123c4e
+    Gregg: well let's be extra careful. #line:8bb694
     Mae: ok. #line:ea6013
-    Mae: Verbrechen. #line:71bc13
-    Gregg: Verbrechen. #line:ae1483
+    Mae: crimes. #line:71bc13
+    Gregg: crimes. #line:ae1483
 <<endif>>
 <<if $map_switches >= 5 and $did_mansion_map_room_train is 0>>
     <<set $did_mansion_map_room_train to 1>>
@@ -200,14 +200,14 @@ position: 26,747
     <<wait 5>>
     <<lookNearest Mae>>
     <<lookNearest Gregg>>
-    Mae: Wieder dieses unheimliche Geraeusch. #line:f2bf9c
-    Gregg: In diesem Raum. #line:f2cd11
+    Mae: That creepy noise again. #line:f2bf9c
+    Gregg: In this room. #line:f2cd11
     <<cameraFollowPlayer 1>>
     <<set $mansion_gotta_check_robot to 1>>
 <<endif>>
 ===
 title: ExitLevel
-tags:
+tags: 
 colorID: 4
 position: -819,631
 ---
@@ -219,7 +219,7 @@ position: -819,631
 //<<set $map_switches to 0>>
 ===
 title: CheckCanLeave
-tags:
+tags: 
 colorID: 0
 position: 984,722
 ---

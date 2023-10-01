@@ -1,5 +1,5 @@
 title: EnterLevel
-tags:
+tags: 
 colorID: 0
 position: 4833,396
 ---
@@ -36,94 +36,94 @@ position: 4833,396
 <<endif>>
 ===
 title: Dialogue1
-tags:
+tags: 
 colorID: 3
 position: 5274,489
 ---
-Mae: Oh Mann, ich liebe gruselige Keller. #line:04b688
-Bea: Und warum solltest du nicht. #line:7cde4e
-Bea: Sieh dir diese ganze... Pracht an. #line:daacb4
-Mae: Mensch, die hat ja eine Menge Schrott. #line:c780cf
-Mae: vielleicht hat sie noch ein paar Ehemaenner in der Ecke gestapelt. #line:503cfd
+Mae: Oh man, I love creepy basements. #line:04b688
+Bea: And why wouldn't you. #line:7cde4e
+Bea: Look at all this... splendor. #line:daacb4
+Mae: geez. she's got a lot of junk. #line:c780cf
+Mae: maybe she's got a few more husbands stacked in the corner. #line:503cfd
 Bea: heh heh. #line:4fdca0
-Bea: Also gut, bringen wir es hinter uns, damit wir nach Hause gehen koennen. #line:19cc1b
+Bea: alright, let's get this done so we can go home. #line:19cc1b
 <<walk Bea Bea3>>
 ===
 title: TriggerBea
-tags:
+tags: 
 colorID: 3
 position: 5567,341
 ---
 <<if $miranda_basement is 0>>
     <<set $miranda_basement to 1>>
-    Mae: ist es nicht verboten, in geschlossenen Raeumen zu rauchen? #line:9b13f9
-    Bea: Ist es. #line:a3284e
+    Mae: isn’t it illegal to smoke indoors? #line:9b13f9
+    Bea: it is. #line:a3284e
     Mae: <o> :) #line:2e9288
-    Mae: na na na, Bea die Verbrecherin. #line:90a9b3
-    Bea: es ist eine Puppe #line:ce4610
-    Bea: ich versuche zu kuendigen. #line:640a26
-    Bea: also kaue ich auf diesem Ding. #line:ba3920
+    Mae: well well well, bea the criminal. #line:90a9b3
+    Bea: it’s a dummy #line:ce4610
+    Bea: i’m trying to quit. #line:640a26
+    Bea: so i chew on this thing. #line:ba3920
     Mae: O_o #line:5598b3
-    Mae: was #line:ae0df6
+    Mae: what #line:ae0df6
     Mae: _o_ #line:9bedaa
-    Bea: merkst du, dass kein Rauch herauskommt? Ueberhaupt kein Rauch? #line:352382
-    Mae: aber so wie ich dich rauchen gesehen habe. #line:f3b770
-    Bea: ja. nicht in geschlossenen Raeumen. #line:f255d4
+    Bea: notice no smoke coming out? No smoke at all? #line:352382
+    Mae: but like i’ve seen you smoke. #line:f3b770
+    Bea: yeah. not indoors. #line:f255d4
     Mae: :| #line:d85aaf
-    Mae: Ich dachte wirklich, es waere echt. #line:f0aee9
-    Bea: was dachtest du, wohin der Rauch geht? #line:ab6441
+    Mae: i totally thought it was real. #line:f0aee9
+    Bea: where did you think the smoke was going? #line:ab6441
     Mae: o_o #line:b3723e
-    Mae: ich dachte du wuerdest... es schlucken? #line:72a99d
-    Bea: Mae weisst du, wie Rauchen funktioniert? #line:1ed2c4
+    Mae: i thought you were… swallowing it? #line:72a99d
+    Bea: Mae do you know how smoking works? #line:1ed2c4
     Mae: :\ #line:8ec755
-    Mae: oh es tut mir leid! ich bin keine rauchende Wissenschaftlerin beatrice! #line:7f24de
-    Bea: guter Gott, was weisst du noch nicht? #line:aa5f78
+    Mae: oh i’m sorry! i’m not a smoking scientist beatrice! #line:7f24de
+    Bea: good lord what else don’t you know? #line:aa5f78
     Mae: :( O_O \o/ #line:8a16a7
-    Mae: tut mir leid, dass ich keinen Abschluss in Zigarettenkunde gemacht habe! #line:659b99
+    Mae: sorry i didn’t get a degree in cigarettology! #line:659b99
     Mae: :| o_o _o_ #line:820951
-    Bea: Was war ueberhaupt dein Hauptfach an der Uni? #line:9411f2
+    Bea: what even was your major in college? #line:9411f2
     Mae: =_= :) o> #line:61cbc6
-    Mae: in den Arsch treten und toll werden #line:3919f9
+    Mae: kicking ass and getting rad #line:3919f9
     <<wait 3>>
     Mae: o_o :| #line:d4af4a
-    Mae: das ist also der Ofen? #line:4698ab
+    Mae: so that's the furnace? #line:4698ab
     <<lookLeft Bea>>
-    Bea: ja, das ist der Ofen. #line:281155
+    Bea: yes that's the furnace. #line:281155
     Mae: :) #line:235cce
-    Mae: ich habe beschlossen, dass sein Name Clanky ist. #line:f6f02e
+    Mae: i've decided his name is clanky. #line:f6f02e
     Bea: ok. #line:65c5fd
-    Bea: du haengst nur rum. #line:f9010a
-    Bea: ich werde das jetzt schnell in Ordnung bringen. #line:8ad3d1
-    Bea: mach nichts kaputt... #line:3f9f9c
+    Bea: you just hang out. #line:f9010a
+    Bea: i'm going to go fix this right quick. #line:8ad3d1
+    Bea: don't like... break anything. #line:3f9f9c
     Mae: :| _o_ #line:1b7fb1
-    Mae: was soll ich denn kaputt machen? #line:fc3116
-    Mae: das ist ein Keller voller Mist! #line:b11e21
+    Mae: what am i gonna break? #line:fc3116
+    Mae: this is a basement full of crap! #line:b11e21
     <<close>>
     <<walk Bea BeaBehindFurnace wait>>
-    Bea: oh je ok. #line:0876f1
-    Bea: sollte nicht lange dauern. #line:f96631
-    Mae: kann ich helfen? #line:2efcf0
-    Bea: noe! #line:4c89f6
-    Mae: warum bin ich dann hier? #line:0c31e8
-    Bea: weil du mitkommen wolltest! #line:05c8bf
-    Bea: einfach... entspannen. #line:6c99e1
+    Bea: oh geez ok. #line:0876f1
+    Bea: shouldn't be long. #line:f96631
+    Mae: can i help? #line:2efcf0
+    Bea: nope! #line:4c89f6
+    Mae: why am i here then? #line:0c31e8
+    Bea: because you wanted to come along! #line:05c8bf
+    Bea: just... chill. #line:6c99e1
     <<tell _AmbientSFX:bea_fix_lp Play1>>
 <<endif>>
 ===
 title: Dialogue2
-tags:
+tags: 
 colorID: 3
 position: 5137,743
 ---
 <<setSortingLayerName Player>>
 <<walk Bea BeaOutFromFurnace>>
-Bea: Ich glaube, ich habe es repariert, mal sehen, was wir hier haben... #line:45ec20
+Bea: I think I fixed it, now let's see what we've got here... #line:45ec20
 <<waitForMove Bea>>
 <<flip Bea -1>>
-Mae: Ja, das haben wir! #line:14079f
-Bea: *Wir?* Was habt ihr getan?! #line:d17a0d
+Mae: Yeah, we did! #line:14079f
+Bea: *We?* What did you do?! #line:d17a0d
 <<close>>
-Mae: Ich habe eine elegante Langzeitloesung entwickelt. \o/ #line:273a76
+Mae: i engineered an elegant long-term solution. \o/ #line:273a76
 <<close>>
 
 <<wait 2>>
@@ -163,133 +163,133 @@ Mae: Ich habe eine elegante Langzeitloesung entwickelt. \o/ #line:273a76
 
 <<wait 3.5>>
 
-Mae: Verdammt noch mal. \o/ #line:54d732
+Mae: goddammit. _o_ #line:54d732
 <<close>>
-Bea: Gut gemacht, Mae. Bitte repariere nie wieder etwas. #line:316a39
-Bea: als ob ich nicht mal ein Haustier haette. #line:c1154b
-Bea: alles, was du pflegen musst. #line:9aa73d
-Mae: Ach verdammte Scheisse!!! #line:f0b481
-Mae: es haette auf jeden Fall funktioniert!!! #line:1911a7
-Mae: das ist so typisch. #line:c8f6ef
-Bea: Ich werde mal den Ausgang ueberpruefen... #line:0ea062
+Bea: Way to go Mae. Please don't fix anything ever again. #line:316a39
+Bea: like, don't even have a pet. #line:c1154b
+Bea: anything you have to maintain. #line:9aa73d
+Mae: aw friggin crap!!! #line:f0b481
+Mae: it was totally gonna work!!! #line:1911a7
+Mae: this is so typical. #line:c8f6ef
+Bea: I'm going to check the exit... #line:0ea062
 <<close>>
 <<walk Mae Mae2>>
 <<flip Bea 1>>
 <<walk Bea Bea2NoCast wait>>
-Bea: Warte hier. #line:3a341d
+Bea: Wait here. #line:3a341d
 <<close>>
 <<walk Bea BeaTryExit wait>>
 <<playAmbientSFX _AmbientSFX:basement_door_locked>>
 <<wait 2>>
-Bea: Verdammt. #line:023e60
+Bea: Dammit. #line:023e60
 <<close>>
 <<flip Bea -1>>
 <<walk Bea BeaHalfwayDownStairs wait>>
 <<wait 1.5>>
-Bea: Nun, wir sind eingeschlossen. #line:811f27
-Bea: aaaaagh ich wusste, dass das passieren wuerde #line:80e968
-Bea: Dumme, dumme Bea. #line:67754a
-    ->sehe ob du schreien kannst? #line:73dc54
-        Bea: das wird nicht funktionieren. #line:fcc742
+Bea: Well, we're locked in. #line:811f27
+Bea: aaaaagh i knew this was gonna happen #line:80e968
+Bea: stupid, stupid bea. #line:67754a
+    ->see if you can yell? #line:73dc54
+        Bea: it's not gonna work. #line:fcc742
         <<wait 2>>
         Bea: MRS. MIRANDAAAAAAAA!!!!!!! #line:8c8fd6
         <<wai 2>>
-        Bea: es hat nicht geklappt. #line:df59a4
-    ->wir koennen ein Loch in den Boden schneiden! #line:11c6b4
-        Bea: womit? #line:65db18
-        Mae: vielleicht hat sie eine alte Saege hier unten! #line:6bc4a4
-        Bea: und wir werden was #line:97f28d
-        Bea: einen Haufen Muell bauen, um darauf zu stehen #line:767886
-        Bea: und sah einen Kreis auf dem Boden #line:6db4a2
-        Bea: wie in einem Zeichentrickfilm? #line:865063
-        Mae: nun, nicht mit *dieser* Einstellung. #line:85beac
-Bea: Nun, dieser Knopf ist wirklich alt und locker. #line:7b6287
-Bea: Vielleicht kann ich... das herausfinden... #line:3d8cb0
-Mae: Ich werde mich auch umsehen! #line:5969b1
-Bea: ja. du siehst dich ein ganzes Buendel um. #line:7c4092
+        Bea: it didn't work. #line:df59a4
+    ->we can cut a hole in the floor! #line:11c6b4
+        Bea: with what? #line:65db18
+        Mae: maybe she has an old saw down here! #line:6bc4a4
+        Bea: and we're gonna what #line:97f28d
+        Bea: build a heap of garbage to stand on #line:767886
+        Bea: and saw a circle in the floor #line:6db4a2
+        Bea: like a cartoon? #line:865063
+        Mae: well, not with *that* attitude. #line:85beac
+Bea: Well, this knob is really old and loose. #line:7b6287
+Bea: Maybe I can like... figure this out... #line:3d8cb0
+Mae: i'll look around too! #line:5969b1
+Bea: yeah. you go look around a whole bunch. #line:7c4092
 <<close>>
 <<flip Bea 1>>
 <<walk Bea BeaTryExit wait>>
 <<playAmbientSFX _AmbientSFX:door_knob_fiddle>>
 ===
 title: TriggerBea2
-tags:
+tags: 
 colorID: 3
 position: 5575,713
 ---
 <<if $miranda_basement is 2>>
     <<if $miranda_furnace is 0>>
         Bea: aaaaaaagh. #line:277810
-        Bea: steckt immer noch fest. #line:1bdfa6
-        Mae: kann ich etwas tun? #line:25125a
-        Bea: ich weiss nicht, Mae. kannst du? #line:03353d
+        Bea: still stuck. #line:1bdfa6
+        Mae: can i do anything? #line:25125a
+        Bea: i dunno, mae. can you? #line:03353d
     <<endif>>
 <<endif>>
 ===
 title: Furnace
-tags:
+tags: 
 colorID: 3
 position: 5921,573
 ---
 <<if $miranda_basement is 2>>
     Mae: Hm. #line:1f5e35
-    Mae: das einzige, was sie hoeren *konnte*, ist dieser Ofen #line:d33a23
-    Mae: als es war... #line:f1f294
-    Mae: kaputt... #line:35dae2
-    Mae: gebrochene Dinge muessen... gebrochen werden... #line:cb1ec0
+    Mae: the one thing she *could* hear is this furnace #line:d33a23
+    Mae: when it was... #line:f1f294
+    Mae: broken... #line:35dae2
+    Mae: broken things need to be... broken... #line:cb1ec0
     <<set $miranda_basement_look_for_bat to 1>>
 <<elseif $has_furnace_item_0 is 1 and $has_furnace_item_1 is 1 and $has_furnace_item_2 is 1 and $has_furnace_item_3 is 1>>
-    Mae: In Ordnung, ich kann also nichts anderes tragen #line:084c89
-    Mae: also werde ich sagen, das ist genug Zeug. #line:71c229
+    Mae: Alright so I can't carry anything else #line:084c89
+    Mae: so i'm gonna say this is enough stuff. #line:71c229
     <<set $miranda_basement to 2>>
     <<irisOut 1 wait>>
     <<scene FixFurnace>>
 <<elseif $num_furnace_items is 3>>
-    Mae: Soll ich noch etwas anderes mitnehmen?  #line:76a8ad
-    Mae: ich sollte mir noch etwas anderes holen. #line:0cdf4e
+    Mae: Should i grab something else?  #line:76a8ad
+    Mae: i should grab something else. #line:0cdf4e
 <<elseif $num_furnace_items is 2>>
-    Mae: Was sieht noch gut aus, was sieht noch gut aus #line:c1fcf8
+    Mae: What else looks good what else looks goooooood #line:c1fcf8
 <<elseif $num_furnace_items is 1>>
-    Mae: Ich frage mich, was ich noch finden kann? #line:aedfc1
+    Mae: Wonder what else I can find? #line:aedfc1
 <<else>>
-    Mae: Ich wette, ich kann etwas aus diesem ganzen... Schrott machen. #line:8757ca
-    Mae: Oje.  #line:787cc8
-    Mae: wer hat schon so viel Geruempel. #line:c787a6
+    Mae: I bet I can make something out of all this... junk. #line:8757ca
+    Mae: Geez.  #line:787cc8
+    Mae: who even would have this much junk. #line:c787a6
     <<set $can_pickup_furnace_items to 1>>
 <<endif>>
 ===
 title: Fan
-tags:
+tags: 
 colorID: 3
 position: 6262,602
 ---
 <<if $can_pickup_furnace_items is 0>>
-    Mae: Mensch, das ist ja ein altmodischer Fan. #line:fa6b33
-    Mae: er ist aus Metall und man koennte sich den Finger abhacken! #line:09017c
+    Mae: Geez. this is one old-ass fan. #line:fa6b33
+    Mae: it's made of metal and you could chop your finger off! #line:09017c
 <<elseif $has_furnace_item_0 is 0>>
     <<set $num_furnace_items += 1>>
-    Mae: Ich koennte mir vorstellen, dass das bei der Ofenreparatur nuetzlich ist. #line:e00a0a
+    Mae: I could see this being useful in furnace fixin'. #line:e00a0a
     <<set $has_furnace_item_0 to 1>>
     <<playOneShot event:/miranda_house/pickup_fan Mae>>
 <<endif>>
 ===
 title: Gnome
-tags:
+tags: 
 colorID: 3
 position: 6518,585
 ---
 <<if $can_pickup_furnace_items is 0>>
-    Mae: Ah, mein alter Erzfeind. #line:66927b
-    Mae: Professor Lucius von Gnomeo. #line:ae2c86
+    Mae: Ah, my old nemesis. #line:66927b
+    Mae: professor Lucius Von Gnomeo. #line:ae2c86
 <<elseif $has_furnace_item_1 is 0>>
     <<set $num_furnace_items += 1>>
-    Mae: Ich brauche Ihr Fachwissen, um diesen bloeden Ofen zu reparieren, Professor. #line:65b568
+    Mae: I need your expertise to fix this stupid furnace, professor. #line:65b568
     <<set $has_furnace_item_1 to 1>>
     <<playOneShot event:/miranda_house/pickup_gnome Mae>>
 <<endif>>
 ===
 title: Racket
-tags:
+tags: 
 colorID: 3
 position: 6777,580
 ---
@@ -297,30 +297,30 @@ position: 6777,580
     Mae: Hmm. Badmitton. #line:8f47e8
     Mae: Bandminton. #line:de5eab
     Mae: Badmittin. #line:c3b597
-    Mae: Schlaeger. #line:3ac4e8
+    Mae: Racket. #line:3ac4e8
 <<elseif $has_furnace_item_2 is 0>>
     <<set $num_furnace_items += 1>>
-    Mae: Ja ok, ich koennte mir vorstellen, dass das nuetzlich sein koennte. #line:14e890
+    Mae: Yeah ok I could see this being useful. #line:14e890
     <<set $has_furnace_item_2 to 1>>
     <<playOneShot event:/miranda_house/pickup_racket Mae>>
 <<endif>>
 ===
 title: Rod
-tags:
+tags: 
 colorID: 3
 position: 7071,567
 ---
 <<if $can_pickup_furnace_items is 0>>
-    Mae: Fisch Fisch fiiiiiiiiiiisch. #line:7551f9
+    Mae: Fish fish fiiiiiiiiish. #line:7551f9
 <<elseif $has_furnace_item_3 is 0>>
     <<set $num_furnace_items += 1>>
-    Mae: Das sieht nuetzlich aus. DAS SIEHT NUeTZLICH AUS! #line:db84f6
+    Mae: This looks useful. THIS LOOKS USEFUL! #line:db84f6
     <<set $has_furnace_item_3 to 1>>
     <<playOneShot event:/miranda_house/pickup_rod Mae>>
 <<endif>>
 ===
 title: Notes
-tags:
+tags: 
 colorID: 0
 position: 5081,178
 ---
@@ -329,18 +329,18 @@ position: 5081,178
 // miranda_basement: 2 = "Fixed" the furnace
 ===
 title: Bat
-tags:
+tags: 
 colorID: 3
 position: 5991,205
 ---
 <<if $miranda_basement_look_for_bat is 1>>
     Mae: Hmmmm. #line:6f8d3d
-    Mae: Nun, es ist das einzige Werkzeug, das ich zu benutzen weiss. #line:925fd0
-    Mae: ein #line:12bc0d
-    Mae: Werkzeug #line:e65eba
-    Mae: fuer #line:5c0ccd
-    Mae: Schlagen #line:7db42b
-    Mae: arsch!!!!!!!!!!!!! #line:481714
+    Mae: well it's the one tool i do know how to use. #line:925fd0
+    Mae: a #line:12bc0d
+    Mae: tool #line:e65eba
+    Mae: for #line:5c0ccd
+    Mae: beating #line:7db42b
+    Mae: ass!!!!!!!!!!!!! #line:481714
     <<getBat>>
     <<playOneShot event:/miranda_house/pickup_bat Mae>>
     <<wait 1>>
@@ -348,7 +348,7 @@ position: 5991,205
 <<endif>>
 ===
 title: FurnaceDefeated
-tags:
+tags: 
 colorID: 3
 position: 5412,95
 ---
@@ -356,13 +356,13 @@ position: 5412,95
 <<fadeOutAmbientSFX _AmbientSFX:door_knob_fiddle 1>>
 <<wait 4>>
 Mae: HA HA HA HA HA HA HA #line:a0a231
-Mae: LECK MICH, DU STUeCK SCHEISS-OFEN. #line:1fd41f
-Bea: wow das ist ziemlich laut #line:c6ec60
+Mae: SUCK IT YOU PIECE OF CRAP FURNACE. #line:1fd41f
+Bea: wow that is pretty loud #line:c6ec60
 Mae: yeah geez. #line:c17116
-Bea: ueberrascht, dass ich das in der Stadt nicht hoeren kann. #line:d70d1a
-Bea: ok cool sie kommt, Gott sei Dank. #line:f418ee
-Mae: aeh, mir danken? wohl eher? #line:f51bf7
-Bea: Hey mrs. miranda! du hast uns eingesperrt! #line:8b133e
+Bea: surprised i can't hear that back in town. #line:d70d1a
+Bea: ok cool she's coming. thank god. #line:f418ee
+Mae: uh, thank me? more like? #line:f51bf7
+Bea: Hey mrs. miranda! you locked us in! #line:8b133e
 <<close>>
 <<fadeOutMusic 1>>
 <<set $miranda_basement to 3>>
@@ -372,7 +372,7 @@ Bea: Hey mrs. miranda! du hast uns eingesperrt! #line:8b133e
 <<scene MirandaYard>>
 ===
 title: InitLevel
-tags:
+tags: 
 colorID: 0
 position: 4760,134
 ---
@@ -390,5 +390,3 @@ position: 4760,134
     <<endif>>
 <<endif>>
 ===
-
-

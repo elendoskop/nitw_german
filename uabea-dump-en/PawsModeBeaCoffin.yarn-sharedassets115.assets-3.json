@@ -1,5 +1,0 @@
-{
-  "m_Name": "PawsModeBeaCoffin.yarn",
-  "m_Script": "title: InitLevel\ntags: \ncolorID: 0\nposition: 208,278\n---\n<<set $paw_shake to 4>>\n===\ntitle: CoffinOpen\ntags: \ncolorID: 0\nposition: 858,275\n---\n<<runNextLinesTogether 2>>\nMae:{width=8} AAAAAAAAGGGHH!!! #line:48a0ae\nBea:{width=8} AAAAAAAAGGGHH!!! #line:f0cd74\n<<close>>\n<<set $did_bea_coffin to 1>>\n<<irisOut 1 wait>>\n<<scene BeaIQOldSection>>\n===\ntitle: EnterLevel\ntags: \ncolorID: 0\nposition: 500,267\n---\n<<fadeOutMusic 10>>\nBea: Ok #line:6bc54b\nMae: Ok #line:07b182\nBea: I’ll count to 3. #line:7e1b6d\nMae: Ok. #line:0a85b0\nBea: 1 #line:473154\nBea: 2 #line:3eea16\nBea: 3!!! #line:14aa0a\n===\n",
-  "m_PathName": ""
-}

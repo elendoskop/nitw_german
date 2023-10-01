@@ -1,5 +1,0 @@
-{
-  "m_Name": "GermVignette.yarn",
-  "m_Script": "title: EnterLevel\ntags: \ncolorID: 0\nposition: 4383,6216\n---\n<<playMusic laptop_vignettes 10>>\n<<cameraLookAt CameraLocator 0>>\n<<extraZoom -4 10>>\n<<fadeIn 1 wait>>\nMaeLaptop: Germ, buddy. #line:6f8f4a\nMaeLaptop: Germ you don't even use messenger. #line:37d890\nMaeLaptop: I guess i'm just typing at you wherever you're at. #line:18734c\n<<if $did_germ_friendship_quest_3>>\n\tMaeLaptop: you're like the most stuck here of anyone i've met #line:15ab64\n\tMaeLaptop: but you're the least trapped. #line:e315c5\n    MaeLaptop: that's some beautiful shit, dude. #line:0f3f3b\n<<endif>>\n<<set $laptop_vignettes to 1>>\n<<fadeOut 1 wait>>\n<<overrideLoadingScreenType Blank>>\n<<scene Laptop>>\n===\n",
-  "m_PathName": ""
-}

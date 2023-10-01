@@ -1,5 +1,5 @@
 title: InitLevel_A0D0
-tags:
+tags: 
 colorID: 0
 position: -3430,4541
 ---
@@ -10,7 +10,7 @@ position: -3430,4541
 <<hide Angus>>
 ===
 title: Intro
-tags:
+tags: 
 colorID: 0
 position: -3438,5018
 ---
@@ -18,66 +18,66 @@ position: -3438,5018
 <<sit>>
 <<if $gnome_tossed is 0>>
 	Gregg:{locator=left} "Gnomeo"? #line:00595e
-	Mae:{locator=right,width=1.5} Professor Lucius von Gnomeo. #line:0705fc
-	Mae:{locator=right,width=1.5} Er ist ein Vampir und ein Wissenschaftler. #line:51329d
-	Mae:{locator=right,width=1.5} Er hat eine Blutrakete erfunden. #line:a9a5e8
-	Gregg:{locator=left,width=2} Wow, du hast ihm auch eine Hintergrundgeschichte gegeben. #line:7010f1
-	Mae:{locator=right,width=2} Sprich nicht ueber den Professor, als ob er nicht hier waere. #line:f63e19
+	Mae:{locator=right,width=1.5} Professor Lucius Von Gnomeo. #line:0705fc
+	Mae:{locator=right,width=1.5} He's a vampire and a scientist. #line:51329d
+	Mae:{locator=right,width=1.5} He invented a blood rocket. #line:a9a5e8
+	Gregg:{locator=left,width=2} Wow, you gave him a backstory too. #line:7010f1
+	Mae:{locator=right,width=2} Don't talk about the professor like he isn't here. #line:f63e19
 	Gregg:{locator=left,width=2}... #line:0021a4
 	[[Hub]]
 <<else>>
-	Gregg:{locator=left,width=1}...Ich vermisse Mr. Gnome. #line:2f7a34
-	Gregg:{locator=left,width=1}Seufz. #line:1c5a23
-	Mae:{locator=right,width=1.5} Ich habe ihm sogar einen Namen gegeben. #line:c9a830
+	Gregg:{locator=left,width=1}...I miss Mr. Gnome. #line:2f7a34
+	Gregg:{locator=left,width=1}Sigh. #line:1c5a23
+	Mae:{locator=right,width=1.5} I even gave him a name. #line:c9a830
 	Mae:{locator=right,width=1.5} Professor Lucius Von Gnomeo. :) #line:355f10
     Mae: :| #line:86524d
-	Gregg:{locator=left,width=1} In kurz gefaellt's mir besser. #line:c2163a
+	Gregg:{locator=left,width=1} Lucky for short. #line:c2163a
 	[[Hub]]
 <<endif>>
 ===
 title: Hub
-tags:
+tags: 
 colorID: 0
 position: -3438,5278
 ---
-[[Erinnert ihr euch an das eine Witchdagger-Lied ueber den Brunnen?|Well]] #line:5584e1
-[[Du und Angus geht also wirklich weg?|Leaving]] #line:b421c2
+[[Do you remember that one Witchdagger song about the well?|Well]] #line:5584e1
+[[So you and Angus are really leaving?|Leaving]] #line:b421c2
 
 ===
 title: Well
-tags:
+tags: 
 colorID: 0
 position: -2920,5490
 ---
 Gregg: D: #line:9c9e18
-Gregg:{align=middle,locator=left}Ja, das [shake=.1]DAH-DAH-DUUUUURGA[/shake] Lied? #line:5b4e87
+Gregg:{align=middle,locator=left}Yeah, the [shake=.1]DAH-DAH-DUUUUURGA[/shake] song? #line:5b4e87
 Gregg: :| #line:140cf9
-Gregg:{locator=left,width=2}Dieser Song ist der absolute Hammer. #line:30c9e6
-Mae:{locator=right,width=1.5}Du weisst, wie die eine Strophe ist #line:ad45d9
-Mae:{locator=right,width=1.5}"[wave]Tiefe Kaelte[/wave] #line:ccbe93
-Mae:{locator=right,width=1.5}[wave]dunkelstes Loch[/wave] #line:eb9aa0
+Gregg:{locator=left,width=2}That song totally slays. #line:30c9e6
+Mae:{locator=right,width=1.5}You know how the one verse is like #line:ad45d9
+Mae:{locator=right,width=1.5}"[wave]Deep cold[/wave] #line:ccbe93
+Mae:{locator=right,width=1.5}[wave]darkest hole[/wave] #line:eb9aa0
 Mae:{locator=right,width=2.5}[wave]in the center of everything[/wave]"? #line:0eafa7
 Gregg: D: #line:373c19
 Gregg:{locator=left}[shake=.2]DAH-DAH-DUUUUURGA!!![/shake] #line:75af87
 Gregg: :| #line:53566e
-Mae:{locator=right,width=3}Ich dachte immer, der Song waere einfach nur krasses Hexenzeug. #line:14e819
-[[Aber neulich Nacht hatte ich einen Traum darueber.|Dream]] #line:ac60d0
-[[Aber jetzt macht es mich nur noch traurig.|Sad]] #line:a6fbee
+Mae:{locator=right,width=3}I used to think that song was just badass witch stuff. #line:14e819
+[[But the other night I had a dream about it.|Dream]] #line:ac60d0
+[[But now it just makes me sad.|Sad]] #line:a6fbee
 ===
 title: Leaving
-tags:
+tags: 
 colorID: 0
 position: -3770,5528
 ---
-Gregg:{locator=left,width=1}Mae, wir muessen. #line:48f981
-Gregg:{locator=left,width=2}Ich bin zu viel fuer diese Stadt #line:04aa4a
-Gregg:{locator=left,width=3}und Angus muss so viel wie moeglich aus der Sonne. #line:514ad6
-Mae:{locator=right,width=2}Du weisst doch, dass sie in Bright Harbor die Sonne haben, oder? #line:0869fb
-Gregg:{locator=left,width=2}Mae, Bright Harbor hat SO VIELE Donut-Woelfe. #line:866cd0
-Gregg:{locator=left,width=1}Und Punk zeigt. #line:ddb93f
-Gregg:{locator=left,width=2}Und Leute, die nicht alle gerade Waffennarren sind. #line:98c78f
-[[Ich glaube, die haben auch Waffen in Bright Harbor|Guns]] #line:cb1e41
-[[Du *HAST* eine Waffe! Wir haben deinen alten Fernseher damit zerschossen!|TV]] #line:3d828f
+Gregg:{locator=left,width=1}Mae, we gotta. #line:48f981
+Gregg:{locator=left,width=2}I'm too much for this town to handle #line:04aa4a
+Gregg:{locator=left,width=3}and Angus needs to be out of the sun as much as possible. #line:514ad6
+Mae:{locator=right,width=2}You know they have the sun in Bright Harbor, right? #line:0869fb
+Gregg:{locator=left,width=2}Mae, Bright Harbor has SO MANY Donut Wolfs. #line:866cd0
+Gregg:{locator=left,width=1}And punk shows. #line:ddb93f
+Gregg:{locator=left,width=2}And people who aren't all straight gun nuts. #line:98c78f
+[[I think they have guns in Bright Harbor too.|Guns]] #line:cb1e41
+[[You *HAVE* a gun! We shot your old tv with it!|TV]] #line:3d828f
 
 
 
@@ -85,41 +85,41 @@ Gregg:{locator=left,width=2}Und Leute, die nicht alle gerade Waffennarren sind. 
 
 ===
 title: Dream
-tags:
+tags: 
 colorID: 0
 position: -2756,5794
 ---
-Gregg:{locator=left,width=1}Welche Art von Traum? #line:6c8671
-Mae:{locator=right,width=3}Ich stand neben diesem Brunnen in der Mitte eines Feldes. #line:1d0ac5
-Mae:{locator=right,width=1.5}Und es war alles regnerisch und neblig. #line:0cfd04
+Gregg:{locator=left,width=1}What kind of dream? #line:6c8671
+Mae:{locator=right,width=3}I was standing beside this well in the middle of some field. #line:1d0ac5
+Mae:{locator=right,width=1.5}And it was all rainy and foggy. #line:0cfd04
 Gregg:{locator=left,width=1.5}Mmhmm? #line:9662d0
-Mae:{locator=right,width=1.5}Und ich habe immer wieder versucht, davor zurueckzuweichen #line:685e9b
-Mae:{locator=right,width=3}aber jedes Mal, wenn ich mich bewegte, rutschte ich im Schlamm aus und landete naeher am Brunnen. #line:c39bff
-Gregg:{locator=left,width=1}Mist. #line:f054d6
-Mae:{locator=right,width=1.5}So musste ich einfach stehen bleiben. #line:6cb39d
-Mae:{locator=right,width=1.5}UEberhaupt nicht bewegen. #line:2212d0
-Gregg:{locator=left,width=1}Das klingt abgefahren, Alter. #line:4c5eb6
-Mae:{locator=right,width=1.5}Und das Schlimmste war #line:8afd0f
-Mae:{locator=right,width=2}Da war etwas tief unten im Brunnen. #line:fb831b
-Mae:{locator=right,width=1.5}Sie sah zu mir auf. #line:013833
+Mae:{locator=right,width=1.5}And I kept trying to back away from it #line:685e9b
+Mae:{locator=right,width=3}but every time I moved I slipped in the mud and ended up closer to the well. #line:c39bff
+Gregg:{locator=left,width=1}Crap. #line:f054d6
+Mae:{locator=right,width=1.5}So I just had to stand still. #line:6cb39d
+Mae:{locator=right,width=1.5}Not move at all. #line:2212d0
+Gregg:{locator=left,width=1}That sounds freaky, dude. #line:4c5eb6
+Mae:{locator=right,width=1.5}And the worst thing was #line:8afd0f
+Mae:{locator=right,width=2}There was something deep down in the well. #line:fb831b
+Mae:{locator=right,width=1.5}Looking up at me. #line:013833
 <<wait= 1>>
-Gregg:{locator=left,width=3}Vielen Dank, Alter, ich werde jetzt Alptraeume haben. #line:6a77ff
+Gregg:{locator=left,width=3}Thanks a lot dude, I'm totally gonna have nightmares now. #line:6a77ff
 [[Entro]]
 ===
 title: TV
-tags:
+tags: 
 colorID: 0
 position: -3576,5803
 ---
-Gregg:{locator=left,width=2}Das war ein Jagdgewehr, das mir mein Vater geschenkt hat. #line:e7d64f
-Gregg:{locator=left,width=1}Das zaehlt nicht. #line:3af038
-Mae:{locator=right,width=1.5}Was sagt dein Vater dazu, dass du gehst? #line:f6b988
-Gregg:{locator=left,width=1}Ich weiss es nicht. #line:14bebd
-Gregg:{locator=left,width=3}Er ist immer zu nett, als dass ich wuesste, was er wirklich denkt. #line:f85655
+Gregg:{locator=left,width=2}That was a hunting rifle my dad gave me. #line:e7d64f
+Gregg:{locator=left,width=1}That doesn't count. #line:3af038
+Mae:{locator=right,width=1.5}What does your dad think about you leaving? #line:f6b988
+Gregg:{locator=left,width=1}I dunno. #line:14bebd
+Gregg:{locator=left,width=3}He's always too nice for me to know what he actually thinks. #line:f85655
 Mae:{locator=right,width=1.5}Hey Gregg? #line:19f684
-Gregg:{locator=Links,width=2}Ja? #line:33f660
-Mae:{locator=right,width=3}Ich werde wirklich traurig sein, wenn du gehst, Arschloch. #line:1cba82
-Gregg:{locator=left,width=2}Ich weiss. #line:e15600
+Gregg:{locator=left,width=2}Yeah? #line:33f660
+Mae:{locator=right,width=3}I'm going to be really sad when you go, asshole. #line:1cba82
+Gregg:{locator=left,width=2}I know. #line:e15600
 [[Entro]]
 
 
@@ -128,16 +128,16 @@ Gregg:{locator=left,width=2}Ich weiss. #line:e15600
 
 ===
 title: Sad
-tags:
+tags: 
 colorID: 0
 position: -3292,5798
 ---
-Gregg:{locator=left,width=1}Warum? #line:53c0d4
-Mae:{locator=right,width=1.5}Ich denke an, wie, ein wirklich tiefes Loch :\ #line:887e45
-Mae:{locator=right,width=1.5}und dass man da nicht mehr rauskommt. #line:d360a2
-Gregg:{locator=left,width=3}Hast du Angst, dass dich jemand in einen Brunnen wirft? #line:c4fde5
-Mae:{locator=rechts,width=1.5}Nein. :| #line:e41439
-Gregg:{locator=left,width=2}Weil ich deinen Arsch auf jeden Fall in einen Brunnen werfen werde. #line:7de851
+Gregg:{locator=left,width=1}Why? #line:53c0d4
+Mae:{locator=right,width=1.5}I think about, like, a really deep hole :\ #line:887e45
+Mae:{locator=right,width=1.5}and not being able to get out. #line:d360a2
+Gregg:{locator=left,width=3}Are you afraid someone is going to throw you down a well? #line:c4fde5
+Mae:{locator=right,width=1.5}No. :| #line:e41439
+Gregg:{locator=left,width=2}Because I am totally gonna chuck your ass down a well. #line:7de851
 Gregg: D: #line:3ba96a
 Gregg:{locator=left,width=5}[size=1.8][shake=.2]DAH-DAH-DUUUUURGA!!![/shake][/size] #line:77cba2
 Gregg: :| #line:1b5a32
@@ -149,63 +149,63 @@ Gregg: :| #line:1b5a32
 
 ===
 title: Guns
-tags:
+tags: 
 colorID: 0
 position: -4074,5826
 ---
-Gregg:{locator=left,width=3}Mae, im Wohnzimmer meines Onkels gibt es 8 verschiedene Waffen in Reichweite der Couch. #line:d17fd6
-Mae:{locator=right,width=1.5}Wow, wirklich? #line:1dcbf8
-Gregg:{locator=left,width=2}Ja, ich glaube, er wartet darauf, dass das FBI ueber den Huegel kommt. #line:a78688
-Mae:{locator=right,width=1.5}Kommt er wegen seiner 8 Waffen? #line:13bf20
-Gregg:{locator=left,width=3}Er ist unsere letzte Verteidigungslinie. #line:a048d5
-Gregg:{locator=left,width=3}Erinnert ihr euch noch an die Zeit in der 9. Klasse, als wir die Bombe aus dem Internet gebaut haben? #line:365bc3
-Mae:{locator=right,width=2}Der Megaboom! Du hast deine Augenbrauen verloren! #line:833c05
-Gregg:{locator=left,width=2}Ein bisschen mehr Benzin und ich wuerde jetzt eine coole Sonnenbrille tragen #line:4b13a7
-Gregg:{locator=left,width=3}um die entsetzliche Ruine meiner verkohlten, leeren Augenhoehlen zu verdecken. #line:46e742
+Gregg:{locator=left,width=3}Mae, in my uncle's living room there are 8 different guns within reach of the couch. #line:d17fd6
+Mae:{locator=right,width=1.5}Wow, really? #line:1dcbf8
+Gregg:{locator=left,width=2}Yeah I think he's waiting for the FBI to come over the hill. #line:a78688
+Mae:{locator=right,width=1.5}Coming for his 8 guns? #line:13bf20
+Gregg:{locator=left,width=3}He's our last line of defense. #line:a048d5
+Gregg:{locator=left,width=3}Hey remember that time in 9th grade when we made that bomb from off the internet? #line:365bc3
+Mae:{locator=right,width=2}The megaboom! You lost your eyebrows! #line:833c05
+Gregg:{locator=left,width=2}A little more gasoline and I'd be wearing cool shades right now #line:4b13a7
+Gregg:{locator=left,width=3}to cover the horrifying ruin of my charred, empty eye sockets. #line:46e742
 Mae:{locator=right,width=1.5}Hey Gregg? #line:08fbe9
-Gregg:{locator=left,width=2}Ja? #line:31439e
-Mae:{locator=right,width=3}Ich werde wirklich traurig sein, wenn du gehst, Arschloch. #line:c88962
-Gregg:{locator=left,width=2}Ich weiss. #line:2163c0
+Gregg:{locator=left,width=2}Yeah? #line:31439e
+Mae:{locator=right,width=3}I'm going to be really sad when you go, asshole. #line:c88962
+Gregg:{locator=left,width=2}I know. #line:2163c0
 [[Entro]]
 ===
 title: Entro
-tags:
+tags: 
 colorID: 0
 position: -3368,6296
 ---
 Mae: :( #line:ab78d3
-Mae:{locator=right,width=2}Ich bin einfach... traurig. Und wuetend. #line:47c14d
-Gregg:{locator=left,width=2}Ja wirklich, Mann. #line:9a324b
-Mae:{locator=right,width=3}Ich komme nach Hause und alle haben schon andere Plaene gemacht. #line:697486
-Mae:{locator=right,width=3}Ich will mich nur an etwas festhalten #line:cd79c3
-Mae:{locator=right,width=3}und wie... #line:8fb347
-Mae:{locator=right,width=3}Alles geht zu Ende, aber ich will mehr. #line:c8fa81
-Gregg:{locator=left,width=3}Mae, wir koennen nicht ewig hier bleiben. #line:a07139
-Mae:{locator=rechts,width=3}... :| #line:b127bd
+Mae:{locator=right,width=2}I'm just... sad. And angry. #line:47c14d
+Gregg:{locator=left,width=2}Yeah for real, dude. #line:9a324b
+Mae:{locator=right,width=3}I come back home and everyone's already made other plans. #line:697486
+Mae:{locator=right,width=3}I just want to hold on to something #line:cd79c3
+Mae:{locator=right,width=3}and like... #line:8fb347
+Mae:{locator=right,width=3}Everything is ending, but I want more. #line:c8fa81
+Gregg:{locator=left,width=3}Mae, we can't stay here forever. #line:a07139
+Mae:{locator=right,width=3}... :| #line:b127bd
 <<wait .5>>
-Mae:{locator=right,width=1}Ich weiss. #line:098c2e
+Mae:{locator=right,width=1}I know. #line:098c2e
 <<if $gnome_tossed is 0>>
-Gregg:{locator=left}Wie waer's mit dir, mir und... #line:4fcbee
+Gregg:{locator=left}How 'bout you, me and... #line:4fcbee
 Mae:{locator=right,width=1.5} Professor Lucius Von Gnomeo. #line:3bb4c5
-Gregg:{locator=left,width=3}Wie waer's, wenn du, ich und der Professor ein paar Gluehbirnen hinter dem Imbiss-Falken kaputt machen? #line:b93c2f
-Mae:{locator=right,width=2}Ja? Offensichtlich? #line:0de48a
-Gregg:{locator=left,width=3}Und Christine gab mir einen Schluessel, wenn ich oeffne, #line:94fdf9
-Gregg:{locator=left,width=3}Das heisst, ihr koennt alle Slushies schluerfen, auf mich! #line:fe9e1a
-Mae:{locator=right,width=2}Das sind die Naechte, an die ich mich erinnern werde, wenn ich 60 bin. #line:0c409c
-Gregg:{locator=left,width=3}Ausserdem habe ich einen Haufen Feuerzeugbenzin gestohlen, damit wir etwas ziemlich Grosses in Brand stecken koennen! #line:eecb4c
-Mae:{locator=rechts,width=4}[size=1.2][shake=.03]AWWOOOOOOOOOOOO![/shake][/size] #line:e66965
+Gregg:{locator=left,width=3}How 'bout you, me and the professor go break some lightbulbs behind the Snack Falcon? #line:b93c2f
+Mae:{locator=right,width=2}Yes? Obviously? #line:0de48a
+Gregg:{locator=left,width=3}And Christine gave me a key for when I open, #line:94fdf9
+Gregg:{locator=left,width=3}Which means all you can slurp slushies, on me! #line:fe9e1a
+Mae:{locator=right,width=2}These are the nights I'll remember when I'm 60. #line:0c409c
+Gregg:{locator=left,width=3}Also I stole a bunch of lighter fluid so we can set something pretty big on fire! #line:eecb4c
+Mae:{locator=right,width=4}[size=1.2][shake=.03]AWWOOOOOOOOOOOO![/shake][/size] #line:e66965
 [[End]]
 <<else>>
-Gregg:{locator=left,width=3}Du weisst, Christine hat mir einen Schluessel gegeben, wenn ich oeffne. #line:d49314
-Gregg:{locator=left,width=3}Das bedeutet: Gratis-Donut-Slushies nach dem Essen! #line:6fa2dd
-Mae:{locator=right,width=2}Ich wuenschte, der Gnom waere noch bei uns. #line:2a0345
-Gregg:{locator=left,width=3}Mae, manche Dinge muss man einfach loslassen. #line:e36c3b
+Gregg:{locator=left,width=3}You know, Christine gave me a key for when I open. #line:d49314
+Gregg:{locator=left,width=3}Which means free post-donut slushies! #line:6fa2dd
+Mae:{locator=right,width=2}I wish that gnome was still with us. #line:2a0345
+Gregg:{locator=left,width=3}Mae, some things you just have to let go. #line:e36c3b
 Mae:{locator=right,width=1}... #line:c2f177
-Mae:{locator=right,width=1}Ja. #line:d4172e
-Gregg:{locator=left,width=3}Komm schon, lass uns meinen Chef beklauen, der mir vertraut hat. #line:9aa762
-Mae:{locator=right,width=2}Das sind die Naechte, an die ich mich erinnern werde, wenn ich 60 bin. #line:c05dc5
-Gregg:{locator=left,width=3}Ausserdem habe ich einen Haufen Feuerzeugbenzin gestohlen, damit wir etwas ziemlich Grosses in Brand stecken koennen! #line:9182b8
-Mae:{locator=rechts,width=4}[size=1.2][shake=.03]AWWOOOOOOOOOOOO![/shake][/size] #line:ad42ae
+Mae:{locator=right,width=1}Yeah. #line:d4172e
+Gregg:{locator=left,width=3}Come on, let's go steal from my boss, who trusted me. #line:9aa762
+Mae:{locator=right,width=2}These are the nights I'll remember when I'm 60. #line:c05dc5
+Gregg:{locator=left,width=3}Also I stole a bunch of lighter fluid so we can set something pretty big on fire! #line:9182b8
+Mae:{locator=right,width=4}[size=1.2][shake=.03]AWWOOOOOOOOOOOO![/shake][/size] #line:ad42ae
 [[End]]
 <<endif>>
 
@@ -217,7 +217,7 @@ Mae:{locator=rechts,width=4}[size=1.2][shake=.03]AWWOOOOOOOOOOOO![/shake][/size]
 
 ===
 title: End
-tags:
+tags: 
 colorID: 0
 position: -3440,6614
 ---
@@ -225,7 +225,7 @@ position: -3440,6614
 <<sectionTitle End ShowJournalDoodles>>
 ===
 title: EnterLevel_A0D0
-tags:
+tags: 
 colorID: 0
 position: -3432,4788
 ---
@@ -233,7 +233,7 @@ position: -3432,4788
 
 ===
 title: EnterLevel_A3D3
-tags:
+tags: 
 colorID: 4
 position: -2460,4820
 ---
@@ -241,183 +241,183 @@ Mae: =_= :( #line:d30f41
 <<sit>>
 <<wait 2>>
 Mae: ugh #line:2afa77
-Mae: es war alles seltsam gefaerbt. #line:eb76e4
-Gregg: Kotze hat normalerweise nicht diese Farbe. #line:18cc9d
-Angus: es war wie #line:325d13
-Angus: mehrere Farben. #line:dd0572
-Gregg: bist du ok, Mae? #line:8b9f54
-    ->yeah. nein. ugh. #line:2acb99
-    ->ich habe einen wirklich schwachen Magen #line:7a9fb3
-        Gregg: ja du kotzt...viel. #line:b06e8e
-        Mae: ich werde kotzig bei #line:abf623
-        Mae: Babynahrung #line:aed121
-        Mae: das Innere von Kuerbissen #line:7ae8f8
-        Mae: jedes Bier #line:205818
-        Mae: zu viele Donuts #line:143fc9
-        Gregg: ich kotze nie. #line:57ba99
-Mae: mein Mund schmeckt wie zerbrochene Traeume. #line:d80a5b
+Mae: it was all weird colored. #line:eb76e4
+Gregg: puke usually isn't that color. #line:18cc9d
+Angus: it was like #line:325d13
+Angus: multiple colors. #line:dd0572
+Gregg: you ok, mae? #line:8b9f54
+    ->yeah. no. ugh. #line:2acb99
+    ->i have a really weak stomach #line:7a9fb3
+        Gregg: yeah you puke a... lot. #line:b06e8e
+        Mae: i get pukey at like #line:abf623
+        Mae: baby food #line:aed121
+        Mae: the inside of pumpkins #line:7ae8f8
+        Mae: any beer #line:205818
+        Mae: too much donuts #line:143fc9
+        Gregg: i never puke. #line:57ba99
+Mae: my mouth tastes like broken dreams. #line:d80a5b
 <<wait 3>>
-Mae: Ich bin wirklich sauer auf euch beide. #line:e70ca5
-Gregg: warum? #line:287738
-Mae: Ich hasse peinliches Schweigen. o_o #line:ee3e0b
-Mae: ruiniere ich etwa euer Leben oder so? #line:4c758d
-Mae: sag mir einfach, ob ich es bin, anstatt was auch immer das ist. #line:3aa6a6
-    ->Magst du mich nicht mehr, Angus? #line:1a309d
-        Angus: was? #line:f3f64d
-        Angus: Nein, Mae. Ich mag dich sehr. #line:b1c0e3
-        Mae: warum bist du dann so komisch? #line:81758d
-    ->am ich mag es, Dinge seltsam zu machen, Gregg? #line:4ada38
-        Gregg: nein! #line:645512
+Mae: I am really mad at you two. #line:e70ca5
+Gregg: why? #line:287738
+Mae: i hate awkward silences. o_o #line:ee3e0b
+Mae: am i like ruining your lives or something? #line:4c758d
+Mae: just tell me if i am instead of whatever this is. #line:3aa6a6
+    ->do you not like me anymore, Angus? #line:1a309d
+        Angus: what? #line:f3f64d
+        Angus: no, mae. i like you fine. #line:b1c0e3
+        Mae: why are you being weird, then? #line:81758d
+    ->am i like making things weird, Gregg? #line:4ada38
+        Gregg: no! #line:645512
         Angus: ... #line:d740d4
-        Gregg: Irgendwie? #line:955d58
-        Angus: aehm. also, #line:32d260
+        Gregg: kinda? #line:955d58
+Angus: um. so, #line:32d260
 <<lookAt Gregg Angus>>
-Gregg: Angus. Ich nehm das. #line:cf5581
-Angus: Danke Schatz. #line:3777c8
+Gregg: Angus. I'll take this. #line:cf5581
+Angus: thanks hon. #line:3777c8
 <<lookAt Gregg Mae>>
-Gregg: Mae, erinnerst du dich an meinen Onkel? #line:f32e8b
-Gregg: Schafsfarm draussen hinter Briddle? draussen an der Interstate? #line:de187c
-Mae: Ja. Irgendwie schon. :| #line:de91b6
-Gregg: als ich ungefaehr 8 war, hatten meine Eltern genug von mir #line:64550a
-Gregg: und liessen mich im Sommer einen Monat dort verbringen. #line:22e827
-Gregg: und ich habe die ganze Zeit damit verbracht, ihm zu folgen. #line:86df1c
-    ->Schafe sind cool. #line:30df18
-        Mae: ich hatte ein ausgestopftes Schaf namens Gordon. #line:d3d280
-    ->Schafe sind nett. #line:095ea5
-        Mae: ich durfte mal eins streicheln. #line:91a0e9
-Gregg: Schafe sind wirklich dumm, das sind sie. #line:3e5cbd
-Gregg: eines Nachmittags vor dem Abendessen liess mich mein Onkel am Pferch zurueck #line:3a7342
-Gregg: und aus irgendeinem Grund habe ich das Tor geoeffnet. #line:25c1f3
-    ->Warum? #line:f4b9e4
-        Gregg: ich habe keine Ahnung. #line:cf2c71
-        Gregg: Kinder sind wie Schafe. #line:6b36dd
-        Gregg: wirklich dumm. #line:fc0cd2
-        Mae: das sind sie auch. #line:b39abc
-    ->Was haben sie getan? #line:09ab2c
-Gregg: also ein paar der Schafe sind im Grunde sofort abgehauen #line:97e68d
-Gregg: und ich bin hinterhergejagt, weil ich so #line:a344ad
-Gregg: DU DUMMES SCHAF! #line:60cd21
+Gregg: Mae, remember my uncle? #line:f32e8b
+Gregg: sheep farm out past Briddle? out by the interstate? #line:de187c
+Mae: yeah. kinda. :| #line:de91b6
+Gregg: when i was like 8 my parents got sick of me #line:64550a
+Gregg: and made me spend like a month there in the summer. #line:22e827
+Gregg: and i spent the whole time following him around. #line:86df1c
+    ->sheep are cool. #line:30df18
+        Mae: i had a stuffed sheep named Gordon. #line:d3d280
+    ->sheep are nice. #line:095ea5
+        Mae: i got to pet one once. #line:91a0e9
+Gregg: sheep are real dumb is what they are. #line:3e5cbd
+Gregg: one afternoon before dinner my uncle left me by the pen #line:3a7342
+Gregg: and for some reason, i opened the gate. #line:25c1f3
+    ->why? #line:f4b9e4
+        Gregg: i have no idea. #line:cf2c71
+        Gregg: kids are like sheep. #line:6b36dd
+        Gregg: real dumb. #line:fc0cd2
+        Mae: they so are. #line:b39abc
+    ->what did they do? #line:09ab2c
+Gregg: so a bunch of the sheep basically immediately bolted #line:97e68d
+Gregg: and i chased after, being all #line:a344ad
+Gregg: YOU DUMBASS SHEEP! #line:60cd21
 <<lookAt Gregg Angus>>
-Angus: Du hast es versucht, Kaefer. #line:98689a
+Angus: you tried, bug. #line:98689a
 <<lookAt Gregg Mae>>
-Gregg: sie rannten ueber das Feld #line:10c9da
-Gregg: und in den Wald #line:a09cac
-Gregg: und da war dieser wirklich steile Huegel #line:24d650
-Gregg: der hinunter zur Interstate fuehrte. #line:809c2f
-Mae: oh...oh nein... #line:5b8fe4
-Mae: was ist passiert? #line:274a41
-Gregg: 4 wurden von einem Sattelschlepper bespritzt #line:538ac5
-Gregg: einige rannten zurueck auf den Huegel #line:e5425b
-Gregg: aber drei schafften es ueber den Mittelstreifen #line:7d9c2d
-Gregg: und hinueber auf die andere Seite. #line:dca0a1
-Gregg: und sie blieben einfach... stehen. #line:775958
-Gregg: und ich kam an den Fuss des Huegels, an die Strasse #line:87ba6d
-Gregg: die mit Schafsdaermen und Teilen bedeckt war #line:423f9c
+Gregg: they ran across the field #line:10c9da
+Gregg: and into the woods #line:a09cac
+Gregg: and there was this really steep hill #line:24d650
+Gregg: that went down to the interstate. #line:809c2f
+Mae: oh... oh no... #line:5b8fe4
+Mae: what happened? #line:274a41
+Gregg: 4 got splattered by a semi truck #line:538ac5
+Gregg: some ran back up the hill #line:e5425b
+Gregg: but three made it over the median #line:7d9c2d
+Gregg: and across to the other side. #line:dca0a1
+Gregg: and they just... stopped. #line:775958
+Gregg: and i got to the bottom of the hill, by the road #line:87ba6d
+Gregg: which was like covered in sheep guts and parts #line:423f9c
 Mae: *urp* #line:35ae13
-Gregg: und wir sahen uns nur ueber die Autobahn an. #line:f3658f
-Gregg: ich winkte mit den Haenden #line:b52234
-Gregg: zwei rannten zurueck, wurden von *einem anderen* LKW angefahren #line:602d89
-    ->Gott. #line:f7981f
-    ->Hielten die Lastwagen an? #line:e4df66
-        Gregg: TATSAECHLICH NICHT! #line:78a30d
-        Mae: das ist wahrscheinlich illegal. #line:a905bd
-Gregg: aber der andere #line:dbd3df
-Gregg: er rannte auf der anderen Seite den Huegel hinunter #line:1066f5
-Gregg: in die Waelder. #line:ce345a
-Gregg: und niemand hat ihn je wieder gesehen. #line:bd06fe
-Mae: Mensch, Mann. #line:77ca61
-    ->hey- dein Tattoo! #line:9528a1
-        Gregg: ja. #line:995085
-        Mae: ha ha. Ich habe die Bedeutung erforscht. #line:7f37a3
-    ->Was ist danach passiert? #line:6c09f6
-        Gregg: ich meine, ich bin weinend zurueck zur Farm gelaufen. #line:376ef4
-        Gregg: mein Onkel schlug mich ein paar Mal. #line:94331b
-        Mae: nein. #line:92616a
-        Gregg: ja. #line:45afe1
-        Gregg: es gab ein paar rechtliche Dinge #line:cdc7dc
-        Gregg: und sie zogen nicht lange danach weg. #line:c3b85e
-Mae: das ist furchtbar fuer dich. #line:fe11d7
-Mae: Arme Schafe. #line:0642ec
-Gregg: aber wenn ich in ihrer Lage gewesen waere, waere ich auch weggelaufen #line:d54f33
-Gregg: und ich moechte derjenige sein, der entkommen ist. #line:e21464
-Gregg: und ich will, dass Angus mit mir kommt. #line:8047ba
-Gregg: Ich mag es, wenn diese Schafe versagen. #line:ac5e8e
-Gregg: genau wie, du weisst schon... alles... uns im Stich gelassen hat. #line:c0c090
-Mae: das ist ein bisschen... #line:5dd2a1
-Gregg: niemand leugnet es ueberhaupt. #line:ae689a
-Gregg: niemand versucht dir auszureden, hier wegzugehen. #line:6cff77
-Gregg: und ja, die einzigen Schwulen in der Stadt zu sein, nervt. #line:c76b8f
-Mae: Ich bin hier! #line:997e5d
-Gregg: Du bist schon einmal gegangen! #line:77d14e
-Mae: aber ich bin... #line:46ea9e
-Mae: zurueck. #line:536d33
-Gregg: Ich kann nicht bleiben. *Wir* koennen nicht bleiben. #line:a04e6d
-Mae: ich denke schon. #line:be6547
-Gregg: und ich liebe Angus. #line:e82a13
+Gregg: and we just looked at each other across the interstate. #line:f3658f
+Gregg: me waving my hands #line:b52234
+Gregg: two ran back, got hit by *another* truck #line:602d89
+    ->god. #line:f7981f
+    ->did the trucks stop? #line:e4df66
+        Gregg: THEY TOTALLY DIDN'T! #line:78a30d
+        Mae: that's probably illegal. #line:a905bd
+Gregg: but the other one #line:dbd3df
+Gregg: he ran down the hill on the other side #line:1066f5
+Gregg: into the woods. #line:ce345a
+Gregg: and no one ever saw him again. #line:bd06fe
+Mae: geez, dude. #line:77ca61
+    ->hey- your tattoo! #line:9528a1
+        Gregg: yeah. #line:995085
+        Mae: ha ha. I sleuthed the meaning. #line:7f37a3
+    ->what happened after that? #line:6c09f6
+        Gregg: i mean i ran back to the farm, crying. #line:376ef4
+        Gregg: my uncle hit me a bunch. #line:94331b
+        Mae: no. #line:92616a
+        Gregg: yeah. #line:45afe1
+        Gregg: there was some legal stuff #line:cdc7dc
+        Gregg: and they moved away not long after. #line:c3b85e
+Mae: that's awful for you. #line:fe11d7
+Mae: poor sheep. #line:0642ec
+Gregg: but if i was in their position, i'd have run too #line:d54f33
+Gregg: and i want to be the one that got away. #line:e21464
+Gregg: and i want angus to come with me. #line:8047ba
+Gregg: I like, failed those sheep. #line:ac5e8e
+Gregg: just like, you know... everything... has failed us. #line:c0c090
+Mae: that's a bit- #line:5dd2a1
+Gregg: no one even denies it. #line:ae689a
+Gregg: no one tries to talk you out of leaving here. #line:6cff77
+Gregg: and yeah, being the only queer people in town sucks. #line:c76b8f
+Mae: i'm here! #line:997e5d
+Gregg: you already left once! #line:77d14e
+Mae: but i'm... #line:46ea9e
+Mae: back. #line:536d33
+Gregg: i can't stay. *WE* can't stay. #line:a04e6d
+Mae: i guess. #line:be6547
+Gregg: and I love Angus. #line:e82a13
 <<lookAt Gregg Angus>>
-Angus: Ich liebe euch beide. #line:ef62dd
-Angus: offensichtlich auf unterschiedliche Weise. #line:34f5fb
+Angus: I love both of you. #line:ef62dd
+Angus: obviously in different ways. #line:34f5fb
 <<lookAt Gregg Mae>>
-Mae: Danke fuer die Klarstellung. #line:9035b6
-Gregg: wir haben einen Plan und wir arbeiten uns den Arsch ab, um ihn zu verwirklichen.
+Mae: thanks for clarifying. #line:9035b6
+Gregg: we have a plan and we're working our asses off to make it happen. #line:56a1f5
 <<lookAt Gregg Angus>>
-Angus: zwei Leute, Vollzeit, Mindestlohn. #line:c39531
-Gregg: Ich muss ein bisschen erwachsen werden. #line:e3c583
-Gregg: ich *habe* ein bisschen erwachsen werden muessen. #line:92219f
+Angus: two guys, full time, minimum wage. #line:c39531
+Gregg: i have to grow up a bit. #line:e3c583
+Gregg: i *did* grow up a bit. #line:92219f
 <<lookAt Gregg Mae>>
 <<wait 2>>
-Gregg: Mae. Du musst mich aendern lassen. #line:e780cf
+Gregg: Mae. You have to let me change. #line:e780cf
 <<wait 4>>
 <<lookAt Gregg Angus>>
-Angus: Tut mir leid, dass ich vorhin so unhoeflich war. #line:4bf1d5
+Angus: sorry i was rude earlier. #line:4bf1d5
 <<lookAt Gregg Mae>>
-Mae: Ist schon gut. #line:fe6489
+Mae: it's ok. #line:fe6489
 <<wait 3>>
-Mae: Weisst du noch, als wir fast die Schule abgebrannt haben? #line:a531ac
+Mae: remember the time we almost burned down the school? #line:a531ac
 Gregg: :) #line:e3263c
-Gregg: ha ha. ja. #line:f55902
+Gregg: ha ha. yeah. #line:f55902
 Mae: :) #line:fc8fba
-Mae: Feuerwerk. Schuelerratsposter einfach *FWOOSH!* #line:67e637
-Gregg: Gott. Das war eine gute Nacht. #line:2fad30
-Gregg: durchnaesst von den Sprinklern #line:b7105d
-Gregg: rennen ueber den Parkplatz #line:59ea9d
-Gregg: lachen uns den Arsch ab. #line:2248ec
-Mae: ha ha oh mein Gott ja. #line:02cb01
+Mae: fireworks. student council poster just *FWOOSH!* #line:67e637
+Gregg: god. that was a good night. #line:2fad30
+Gregg: soaked from the sprinklers #line:b7105d
+Gregg: running through the parking lot #line:59ea9d
+Gregg: laughing our asses off. #line:2248ec
+Mae: ha ha oh my god yeah. #line:02cb01
 Gregg: :| #line:f85b52
 <<wait 3>>
 Mae: :| #line:fca72f
-Mae: das war vielleicht die beste Nacht meines ganzen Lebens. #line:1b134e
-Gregg: es ist einer der besten aller Zeiten. #line:b29454
-Gregg: die Kinder reden immer noch davon. #line:1fcbbf
-Gregg: diese Nacht lebt weiter, Mann. #line:500787
-Mae: na ja #line:b05ed1
-Mae: wir koennen wenigstens Legenden sein. #line:fbaa44
-Gregg: fuer immer. #line:f438a7
+Mae: that was maybe the best night of my entire life. #line:1b134e
+Gregg: it's one of the all time greats. #line:b29454
+Gregg: kids still talk about it. #line:1fcbbf
+Gregg: that night lives on, man. #line:500787
+Mae: well #line:b05ed1
+Mae: we can at least be legends. #line:fbaa44
+Gregg: forever. #line:f438a7
 <<wait 3>>
 Mae: :\ #line:5265e6
-Mae: Nun, der heutige Abend war ein totaler Reinfall. #line:2bca70
-Angus: Es tut mir leid. #line:972087
+Mae: well, tonight was a complete bust. #line:2bca70
+Angus: i'm sorry. #line:972087
 Mae: :) #line:d5cdd4
-Mae: ha ha. Hoer auf dich zu entschuldigen, Angus. #line:aa3756
-Gregg: mir tut es auch leid. #line:564d04
-Mae: ist schon gut. #line:98d1e0
-Mae: und ich habe eine Idee. #line:3382a7
-Gregg: Ach ja? #line:a76fe1
-Mae: bist du bereit fuer ein weiteres grosses Verbrechen? #line:42adbb
-<<schaue Gregg Angus an>>
-Mae: Du kannst dieses Mal mitkommen, Angus. #line:f189b0
-Mae: mach ein Verbrechen mit uns. #line:4ff2c5
+Mae: ha ha. stop apologizing, Angus. #line:aa3756
+Gregg: i'm sorry too. #line:564d04
+Mae: it's cool. #line:98d1e0
+Mae: and I have an idea. #line:3382a7
+Gregg: oh yeah? #line:a76fe1
+Mae: you up for one more big crime? #line:42adbb
+<<lookAt Gregg Angus>>
+Mae: you can come this time, Angus. #line:f189b0
+Mae: do a crime with us. #line:4ff2c5
 Angus: I... #line:98c6eb
 <<wait 2>>
 Angus: ok. #line:606cb8
 Gregg: aw, cap'n. cap'n criminal. #line:c25c06
-Mae: Lass uns gehen. #line:b8a0f4
+Mae: let's go. #line:b8a0f4
 <<close>>
 <<irisOut 1 wait>>
 <<scene RoadsideClearing>>
 ===
 title: InitLevel_A3D3
-tags:
+tags: 
 colorID: 4
 position: -2466,4581
 ---

@@ -1,5 +1,5 @@
 title: GermInitLevel
-tags:
+tags: 
 colorID: 0
 position: -14586,-1905
 ---
@@ -67,15 +67,15 @@ position: -17909,-1171
 Mae: Hey... Jeremy? #line:37c669
 <<set $met_germ to 1>>
 Mae: Jeremy Warton? #line:5543e0
-Germ: Keiner nennt mich so. #line:d6adf9
-Mae: Germ, richtig? #line:b08616
+Germ: No one calls me that. #line:d6adf9
+Mae: Germ, right? #line:b08616
 Germ: Germ Warfare. #line:cba336
-Mae: Oh, das ist haengen geblieben, hm? #line:652231
+Mae: Oh, that stuck, huh? #line:652231
 Germ: Yep. #line:685ff8
-Mae: Das ist ein guter Name. #line:b9b012
-Germ: Dein Name ist Mae. #line:b808e4
-Mae: Jep. #line:989856
-Germ: Das ist ein guter Name. #line:1b2e75
+Mae: That's an ok name. #line:b9b012
+Germ: Your name is Mae. #line:b808e4
+Mae: Yep. #line:989856
+Germ: That's an ok name. #line:1b2e75
 Mae: OK. #line:88a1b0
 <<unlockDoodle Germ1>>
 ===
@@ -84,30 +84,30 @@ tags: demo2
 colorID: 3
 position: -17648,-1138
 ---
-Mae: Du warst etwa ein Jahr hinter mir, richtig? #line:12ed8f
-Germ: 2 Jahre. #line:561a17
-Mae: Du bist also ganz frisch hier, was? #line:9a5831
-Germ: Ich haenge manchmal mit Gregg ab. #line:807f36
-Germ: Wir fahren Fahrrad. #line:5b9b99
-Germ: Ich bin ziemlich gut darin. #line:64bf4c
+Mae: You were like a year behind me right? #line:12ed8f
+Germ: 2 years. #line:561a17
+Mae: So you're fresh out, huh? #line:9a5831
+Germ: I hang out with Gregg sometimes. #line:807f36
+Germ: We ride bikes. #line:5b9b99
+Germ: I'm pretty good at it. #line:64bf4c
 Mae: Ok. #line:f85a65
 Germ: !!! #line:6bf45c
-Mae: Was? #line:e75a44
-Germ: Ich habe neulich ein tollwuetiges Opossum gesehen. #line:7572a2
-Mae: Really? Und wo? #line:9c720f
-Germ: Es kroch ueber die Strasse. #line:822b66
-Mae: War es von einem Auto angefahren worden? #line:0193c4
-Germ: Nee, nur tollwuetig. #line:f688e6
-Mae: Was ist mit ihm passiert? #line:8ec90a
-Germ: Wurde von einem Auto angefahren. #line:b1980e
+Mae: What? #line:e75a44
+Germ: I saw a rabid possum the other day. #line:7572a2
+Mae: Really? Where? #line:9c720f
+Germ: It was crawling across the road. #line:822b66
+Mae: Had it been hit by a car? #line:0193c4
+Germ: Naw, just rabid. #line:f688e6
+Mae: What happened to it? #line:8ec90a
+Germ: Got hit by a car. #line:b1980e
 Mae: Wow. #line:5cb1e1
-Germ: Es war wie... #line:5e3c2a
-Germ: ein Gedicht. #line:ee3ac3
+Germ: It was like... #line:5e3c2a
+Germ: a poem. #line:ee3ac3
 <<set $like_a_poem to 1>>
 Mae: OK. #line:7a7316
 ===
 title: Germ_A2D1
-tags:
+tags: 
 colorID: 3
 position: -17623,-1576
 ---
@@ -121,48 +121,48 @@ position: -17623,-1576
 <<endif>>
 ===
 title: Germ_A2D2_00
-tags:
+tags: 
 colorID: 3
 position: -17080,-1250
 ---
 Mae: Hey Germ. #line:144835
-Mae: Was machst du? #line:fa00d2
+Mae: Whatcha doin? #line:fa00d2
 Germ: Nothin. #line:4d0d75
-Germ: War vorher mit ein paar Krusties unterwegs. #line:cb78b4
-Mae: Was? #line:cc42a3
-Germ: Krustenpunks. Reisende Kinder. #line:e41968
-Mae: Oh ok. Wie aus den Zuegen. #line:0f8bc6
-Germ: Die wissen, dass wir nicht viele Polizisten haben. #line:8dbf91
-Mae: Ich vermisse *alles*, was cool ist. #line:dedf46
-Germ: Einer von ihnen hatte einen Hund. #line:6ae2a7
-Germ: Meistens haben sie manchmal Hunde. #line:41f02a
-Germ: Einmal habe ich eine Kruste gesehen, der ein Fuss fehlte. #line:f37c04
-Mae: Was ist passiert? #line:99cb3d
-Germ: Zuege. Auf- und abspringen und zwischen Waggons fallen und so. #line:c7a314
-Mae: Das ist heftig. #line:853ac5
-Germ: Haende, Knie, Beine, Fuesse, ganze Arme. #line:495df7
-Mae: Wir haben neulich einen Arm gesehen! #line:bdd3b8
-Mae: Glaubst du, er war von einer Kruste? #line:ee0996
+Germ: Was hanging with a couple crusties before. #line:cb78b4
+Mae: What? #line:cc42a3
+Germ: Crust punks. Traveler kids. #line:e41968
+Mae: Oh ok. Like from off the trains. #line:0f8bc6
+Germ: They know we don't got much cops. #line:8dbf91
+Mae: I miss *all* the cool stuff. #line:dedf46
+Germ: One of them had a dog. #line:6ae2a7
+Germ: They mostly have dogs sometimes. #line:41f02a
+Germ: One time I seen a crusty missing a foot. #line:f37c04
+Mae: What happened? #line:99cb3d
+Germ: Trains. Jumping on and off and falling between cars and stuff. #line:c7a314
+Mae: That's intense. #line:853ac5
+Germ: Hands, knees, legs, feet, whole arms. #line:495df7
+Mae: We saw an arm the other day! #line:bdd3b8
+Mae: Do you think it was from a crusty? #line:ee0996
 <<set $crusty_clue to 1>>
-Germ: Nee. #line:52a91d
+Germ: Naw. #line:52a91d
 Germ: I mean. #line:e8b9f5
-Germ: Ich weiss es nicht. #line:0c1f68
+Germ: I dunno. #line:0c1f68
 Mae: Huh. #line:6cb2f6
 ===
 title: Germ_A2D2_01
-tags:
+tags: 
 colorID: 3
 position: -16760,-1293
 ---
-Mae: Also, #line:b6f19f
-Germ: ICH BIN HIER AN VIELEN TAGEN. #line:7e476e
-Mae: Ok, ich wollte sagen- #line:e63fbe
-Germ: Ich muss jetzt gehen. #line:465f4c
-Mae: Tschuess! #line:3bf122
+Mae: So, #line:b6f19f
+Germ: I'M HERE A LOT OF DAYS. #line:7e476e
+Mae: Ok, I was gonna say- #line:e63fbe
+Germ: I have to go now. #line:465f4c
+Mae: Bye! #line:3bf122
 [[WalkGermOut]]
 ===
 title: Germ_A2D2
-tags:
+tags: 
 colorID: 3
 position: -16949,-1563
 ---
@@ -175,79 +175,79 @@ position: -16949,-1563
 <<endif>>
 ===
 title: Germ_A2D3_00
-tags:
+tags: 
 colorID: 3
 position: -16361,-1114
 ---
 Mae: Hey Germ. #line:5084ca
 Germ: Heeeeeey. #line:bfcae6
-Germ: Willst du abhaengen? #line:b1fc23
-Mae: Ich weiss nicht, wollte heute Abend mit Gregg oder Bea abhaengen. #line:744565
-Germ: Mensch, ich verlange ja nicht von dir, dass du weglaeufst und heiratest. #line:19388d
--> Nein #line:82eecf
+Germ: Wanna hang out? #line:b1fc23
+Mae: I dunno, supposed to hang with Gregg or Bea tonight. #line:744565
+Germ: Geez I'm not asking you to run away and get married. #line:19388d
+-> No #line:82eecf
     Germ: Ok bye! #line:5859a0
-    Mae: Tschuess! #line:7c140a
+    Mae: Bye! #line:7c140a
     <<set $germ_done to 1>>
--> Ja #line:ed5183
+-> Yes #line:ed5183
     <<set $germ_friendship_quest_1 to 1>>
-    Mae: Ok, was willst du tun? #line:b79572
-    Germ: Folge mir! #line:e9d4e9
+    Mae: Ok, what do you wanna do? #line:b79572
+    Germ: Follow me! #line:e9d4e9
     <<irisOut 1 wait>>
     <<scene ParkingLot>>
 ===
 title: Germ_A2D4_00
-tags:
+tags: 
 colorID: 3
 position: -15859,-1113
 ---
 Mae: Hey Germ! #line:852beb
-Germ: Hey Mae! #line:6ce945
-Crusty1: Hey! Ich bin Skamz. #line:9b07b5
-Mae: Betrug? #line:31a6bb
-Crusty1: Das ist Jenna. #line:07e5ac
-Crusty2: Hallo! #line:5976d4
-Mae: Hallo! #line:dc0dd7
-OldHobo: Ich bin Bill Don. #line:c0fc32
-Germ: Und ich bin Germ! #line:ca0322
-Mae: Ich bin Mae. #line:edaebd
+Germ: Hey Mae. #line:6ce945
+Crusty1: Hey! I'm Skamz. #line:9b07b5
+Mae: Scams? #line:31a6bb
+Crusty1: That's Jenna. #line:07e5ac
+Crusty2: Hi! #line:5976d4
+Mae: Hi! #line:dc0dd7
+OldHobo: I'm Bill Don. #line:c0fc32
+Germ: And I'm Germ! #line:ca0322
+Mae: I'm Mae. #line:edaebd
 <<close>>
 <<wait 1>>
-Mae: Ich habe voellig vergessen, was ich sagen wollte. #line:dc1f28
+Mae: I completely forgot what I was going to say. #line:dc1f28
 
 ===
 title: Germ_A2D4_01
-tags:
+tags: 
 colorID: 3
 position: -15607,-1088
 ---
-Mae: Hey Germ, kommst du zum Harfest? #line:a4651a
-Germ: Eh. Vielleicht. #line:17a096
-Mae: Wollt ihr gehen? #line:0ab565
-Crusty1: Ja, wir koennten rueberhuepfen #line:ce3da1
-Crusty1: sieh dir mal den Part-Tag an. #line:3f6205
-Crusty1: Ich meine, ihr habt hier wirklich Geister, oder? #line:5437a9
+Mae: Hey Germ, you coming to Harfest? #line:a4651a
+Germ: Eh. Maybe. #line:17a096
+Mae: Are you guys going? #line:0ab565
+Crusty1: Yeah we might hop over #line:ce3da1
+Crusty1: check out the part-tay. #line:3f6205
+Crusty1: I mean, y'all got ghosts here for real, right? #line:5437a9
 <<set $knows_legend_hobo to 1>>
 Germ: Yeah. #line:a7953f
 Mae: What? #line:430f32
-Germ: Little Joe, weisst du? #line:cec606
-Mae: Ja, Mann. Lokale Legende. #line:e538f6
-Crusty1: Mein Mann Tapeworm? #line:85e357
-Crusty1: Draussen in Bright Harbor? #line:a82845
-Crusty1: Er hat mir gesagt, dass er in dieser Stadt nie aussteigt. #line:bf06fb
-Crusty1: Wegen des Geistes! #line:cdf4ab
-OldHobo: Ach, das ist ein Haufen Scheisse. #line:2ce323
-Crusty1: Er schleicht sich in die Raubhoefe und SCHNAPST die Guten und Reinen auf. #line:f69d41
-OldHobo: Na dann habt ihr Kinder ja nichts zu befuerchten. #line:28b79d
-Crusty1: Verdammt Oldtimer, wir sind rein wie die Luft! #line:708d35
-Mae: Na gut, ich denke, ich werde einige von euch dort sehen! #line:ac79b9
-Mae: Schoen, dich kennenzulernen! #line:6f4974
-Crusty1: Gleichfalls, kleine Dame! #line:0926ba
+Germ: Little Joe, you know? #line:cec606
+Mae: Yeah man. Local legend. #line:e538f6
+Crusty1: My man Tapeworm? #line:85e357
+Crusty1: Out in Bright Harbor? #line:a82845
+Crusty1: He told me he never got off in this town. #line:bf06fb
+Crusty1: Because of the ghost! #line:cdf4ab
+OldHobo: Aw that's a load a' crap. #line:2ce323
+Crusty1: He sneaks into railyards and SNATCHES up the good and the pure. #line:f69d41
+OldHobo: Well you kids got nothin' a' fear then. #line:28b79d
+Crusty1: dammit old timer! we're pure as the air! #line:708d35
+Mae: Alright well I guess I'll see some of you there! #line:ac79b9
+Mae: Nice to meet you! #line:6f4974
+Crusty1: Same, little lady! #line:0926ba
 Mae: ... #line:91c885
 Mae: Seeya Germ! #line:d3fecf
 Germ: Seeya. #line:68ddaa
 ===
 title: Germ_A2D4
-tags:
+tags: 
 colorID: 3
 position: -15635,-1447
 ---
@@ -262,7 +262,7 @@ position: -15635,-1447
 <<endif>>
 ===
 title: Germ_A2D4_02
-tags:
+tags: 
 colorID: 3
 position: -15362,-1228
 ---
@@ -272,128 +272,128 @@ Germ:{emote=ghost} #line:4db23f
 <<close>>
 ===
 title: Germ_A3D1_00
-tags:
+tags: 
 colorID: 4
 position: -14926,-1211
 ---
 Mae: Hey. #line:da78ac
-Germ: Was geht ab. #line:64cd4a
-Germ: *schnueffel schnueffel* #line:5d7aca
-Germ: Du riechst komisch. #line:a23997
-<<if $knows_council_ball is 0 and $trigger_molly_a3d1_done is 0>>
-	Mae: Warum ist das Auto meiner Tante hier? #line:25438c
-	Germ: Das ist deine Tante? #line:7c5c29
-	Mae: ...ja... #line:4e4264
-	Germ: Oh seltsam, das macht dich zu einem halben Polizisten? #line:7465a1
-	Germ: DU WIRST MICH NIE HALB FANGEN, HALB BULLEEEEEEEEH!!! #line:1b65cb
+Germ: Sup kid. #line:64cd4a
+Germ: *sniff sniff* #line:5d7aca
+Germ: You smell weird. #line:a23997
+<<if $knows_council_bball is 0 and $trigger_molly_a3d1_done is 0>>
+	Mae: Why is my aunt's car here? #line:25438c
+	Germ: That's your aunt? #line:7c5c29
+	Mae: ...yeah... #line:4e4264
+	Germ: Oh weird that like makes you half cop? #line:7465a1
+	Germ: YOU'LL NEVER HALF CATCH ME, HALF COPPAAAAAH!!! #line:1b65cb
 	Germ: HA HA HA HA HA HA HA HA HA HA #line:9a5b8c
 	Mae: ... #line:699000
-	Germ: Ich weiss nicht, was die da oben machen. #line:4afaeb
-	Mae: Hm. #line:438cc9
+	Germ: I dunno what they're doing up there. #line:4afaeb
+	Mae: Huh. #line:438cc9
 <<endif>>
-Mae: Gehst du zum Harfest? #line:9919d9
-Germ: Nee. Over it. #line:b0c461
-Mae: Cool. Ich hatte eine ziemlich seltsame Zeit. #line:3904d7
-Mae: Eine seltsame, schlechte Zeit, um ehrlich zu sein. #line:e8cf6c
-Germ: Es ist ein garantiert seltsamer schlechter Zeitpunkt. #line:049bf3
-Mae: Ja. #line:ff4894
+Mae: You go to Harfest? #line:9919d9
+Germ: Nah. Over it. #line:b0c461
+Mae: Cool. I had kind of a weird time. #line:3904d7
+Mae: Weird bad time, actually. #line:e8cf6c
+Germ: It's a guaranteed weird bad time. #line:049bf3
+Mae: Yeah. #line:ff4894
 <<if $knows_legend_hobo is 1>>
-	Mae: Sind die Leute von gestern noch hier? #line:c4c0ff
-	Germ: Weiss nicht. #line:dc00ba
-	Germ: Wir sind nicht wie... gute Freunde oder so. #line:63b210
-	Mae: Oh ja. Ich weiss nicht, warum ich dachte, du wuerdest es wissen. #line:db0288
-	Mae: Ich habe mich gefragt, ob sie Casey jemals getroffen haben. #line:62d993
-	Mae: Irgendwo da draussen. #line:b3563a
-	Germ: Ich kann fragen. Ich habe immer gefragt. #line:506efd
-	Mae: Ich hasse es einfach, wenn ich daran denke, dass er da draussen ganz allein ist. #line:1d8968
-	Germ: Ach, Casey ist zaeh. Er wird es schon schaffen. #line:7e6549
-	Germ: Wenn du rausmusst, musst du raus! #line:d2f86e
-	Mae: Ja, ich denke schon #line:129c95
+	Mae: Are those people from yesterday still here? #line:c4c0ff
+	Germ: Dunno. #line:dc00ba
+	Germ: We're not like... good friends or anything. #line:63b210
+	Mae: Oh yeah. I don't know why I thought you'd know. #line:db0288
+	Mae: I was wondering if they ever met Casey. #line:62d993
+	Mae: Out there somewhere. #line:b3563a
+	Germ: I can ask. I used to ask. #line:506efd
+	Mae: I just hate thinking about him out there all by himself. #line:1d8968
+	Germ: Aw, Casey's tough. He'll be fine. #line:7e6549
+	Germ: When you gotta get out, you gotta get out! #line:d2f86e
+	Mae: yeah I guess #line:129c95
 <<endif>>
-Germ: Na ja, wir sehen uns bei der Bandprobe! #line:43a1c7
-Mae: Mal ehrlich: Siehst du uns eigentlich gerne beim Spielen zu? #line:a1d7ba
-Germ: Ja! Ich meine, ihr seid nicht gut, aber ja. #line:e87dc9
-Germ: Nicht mein Stil. #line:f1afc5
-Mae: Was ist dein Stil? #line:79befc
-Germ: Black Metal, aeh Thrash Crossover, Hip Hop. #line:42c7f4
-Mae: Ich mag Witchdagger! Die sind irgendwie Metal. #line:e59467
-Germ: Oh ja, wie dieser Doom-Scheiss, richtig? #line:2c8c6e
+Germ: Welp, see you at band practice! #line:43a1c7
+Mae: Real talk: do you actually like watching us play? #line:a1d7ba
+Germ: Yeah! I mean you're not good but yeah. #line:e87dc9
+Germ: Not my style. #line:f1afc5
+Mae: What is your style? #line:79befc
+Germ: Black metal, uh thrash crossover, hip hop. #line:42c7f4
+Mae: I like Witchdagger! They're kinda metal. #line:e59467
+Germ: Oh yeah like that doom shit, right? #line:2c8c6e
 Germ: DA-DA-DUUUUURGA!!! #line:bff56a
-Mae: Volltreffer! #line:09872d
-Germ: ... #line:59e5e1
-Mae: Was? #line:4aa159
-Germ: Weisst du, einmal ist mir ein Typ nach Hause gefolgt. #line:b28edf
+Mae: Totally! #line:09872d
+Germ: ...  #line:59e5e1
+Mae: What? #line:4aa159
+Germ: You know one time a guy followed me home. #line:b28edf
 <<set $germ_followed to 1>>
-Germ: So ein Typ von den Gleisen. #line:928796
--> Was? Ok, wie auch immer, ich muss los. #line:8d0d41
+Germ: Like, a guy from the tracks. #line:928796
+-> What? Ok whatever, I gotta get going.		 #line:8d0d41
     Germ: Seeya. #line:2d006b
--> Was hast du gemacht? #line:ddbcb1
-    Germ: Es war so eine Nacht damals im Sommer #line:135fdf
-    Germ: und aus dem Augenwinkel konnte ich irgendwie diesen Kerl sehen #line:be8513
-    Germ: diese Kurve vom Parkplatz aus nehmen #line:d021e2
-    Germ: und fange an, den Huegel hinauf zu schleichen #line:a8f919
-    Germ: etwa 50 Fuss zurueck. #line:cf62db
-    Germ: Aber ich wollte nicht direkt zu ihm hinsehen. #line:699516
+-> What did you do? #line:ddbcb1
+    Germ: It was like some night back in the summer #line:135fdf
+    Germ: and out of the corner of my eye I could kinda see this dude #line:be8513
+    Germ: take this turn out of the parking lot #line:d021e2
+    Germ: and start creepin' up the hill #line:a8f919
+    Germ: like 50 feet back. #line:cf62db
+    Germ: But like I didn't want to look right at him. #line:699516
         ->aaagh... #line:20fed8
-        ->aaaaaaaaaaaagh... #line:71b185
-    Germ: Ich habe einen Umweg durch den Wald gemacht und mich auf einen Baum gesetzt. #line:76c69c
-    Germ: Es wurde schon dunkel, aber wie #line:89cac2
-    Germ: Ich konnte ihn direkt an der Strasse stehen sehen #line:faa137
-    Germ: und darauf wartete, dass ich runterkomme. #line:eee35d
-        ->Oh mein Gott. #line:d4d48e
-        ->Heilige Scheisse. #line:5ed2c1
-    Mae: Was hast du getan? #line:cfdd1b
-    Germ: Nachdem es dunkel wurde, bin ich runtergeklettert #line:a16d33
-    Germ: und bin ganz schnell den Huegel hinauf. #line:08c936
+        ->aaaaaaaaaagh... #line:71b185
+    Germ: I took a detour through the woods and sat in a tree. #line:76c69c
+    Germ: It was getting dark but like #line:89cac2
+    Germ: I could see him standing just off the road #line:faa137
+    Germ: waiting for me to come down. #line:eee35d
+        ->Oh my god. #line:d4d48e
+        ->Holy shit. #line:5ed2c1
+    Mae: What did you do? #line:cfdd1b
+    Germ: After it got dark, I climbed down #line:a16d33
+    Germ: and got up the hill real quick. #line:08c936
     Mae: AAAAAAAAGH!!! #line:56b9c5
-    Germ: Ja, es war eine seltsame schlechte Zeit. #line:c7b845
+    Germ: Yeah it was a weird bad time. #line:c7b845
     Mae: aaaaaagh... #line:627d21
-    Mae: Ich bin im Moment so aufgeregt. #line:51dd04
-    Germ: Ha ha Ich weiss, nicht wahr? #line:1f5add
+    Mae: I am so upset right now. #line:51dd04
+    Germ: Ha ha I know right? #line:1f5add
     Germ: Seeya! #line:6dfc6c
     <<set $germ_followed to 2>>
 [[WalkGermOut]]
 ===
 title: Germ_A3D2_00
-tags:
+tags: 
 colorID: 4
 position: -14690,-1187
 ---
 Mae: Hey. #line:53706f
 Germ: Hey... #line:bc42fd
-Mae: Was? #line:44a688
-Germ: Willst du rumhaengen? #line:f5c166
-Mae: Ich habe spaeter was vor... #line:6adb1d
-Germ: Ok, ich glaube nicht, dass du entfuehrt wirst oder so. #line:915f60
--> Nee #line:b12331
+Mae: What? #line:44a688
+Germ: Wanna hang out? #line:f5c166
+Mae: I got plans later... #line:6adb1d
+Germ: Ok well I don't think you're gonna get kidnapped or anything. #line:915f60
+-> Nah #line:b12331
     Germ: Cool cool. #line:d5cc51
     Germ: Seeya! #line:d59988
     <<set $germ_done to 1>>
--> Ja sicher! #line:487af1
-    Germ: Steig auf mein Fahrrad! #line:236e92
-    Mae: Really? Wo ist es denn? #line:0a2988
-    Germ: gefesselt hinter dem Futteresel! #line:bfe035
-    Germ: Ich schaetze, du koenntest hinterherlaufen. #line:02d68b
-    Mae: Ok gut. #line:69a37c
+-> Yeah sure! #line:487af1
+    Germ: Hop on my bike! #line:236e92
+    Mae: Really? Where is it? #line:0a2988
+    Germ: tied up behind the food donkey! #line:bfe035
+    Germ: I guess you could like run behind. #line:02d68b
+    Mae: Ok fine. #line:69a37c
     <<set $germ_friendship_quest_2 to 1>>
     <<irisOut 1 wait>>
     <<scene Bridge>>
 ===
 title: Germ_A3D3_01
-tags:
+tags: 
 colorID: 4
 position: -13941,-1318
 ---
-Mae: wie ist das mit dem Reisen? #line:743eeb
+Mae: what's traveling like? #line:743eeb
 <<lookAt Germ Crusty3>>
-Crusty3: s'gut. s'gut. #line:3842a3
-Crusty3: konnte nie an einem Ort bleiben. #line:c77ef1
+Crusty3: s'good. s'good. #line:3842a3
+Crusty3: never could stay in one spot. #line:c77ef1
 <<lookAt Germ Mae>>
-Mae: ich habe genau das gegenteilige Problem #line:7ffe40
+Mae: i have like the exact opposite problem #line:7ffe40
 <<lookAt Germ Crusty3>>
-Crusty3: Alles klar, Partner. Zeit fuer mich, mich zu verziehen! #line:02f860
-Germ: Bis dann, Angel! #line:b8fd32
-Mae: Pass auf dich auf! #line:eaf330
+Crusty3: alright pardners. time for me to shove off! #line:02f860
+Germ: See ya, Angel! #line:b8fd32
+Mae: Stay safe! #line:eaf330
 Crusty3: adios! #line:3da911
 <<close>>
 <<walk Crusty3 BehindStairs>>
@@ -402,12 +402,12 @@ Crusty3: adios! #line:3da911
 <<set $crusty_3_done to 1>>
 <<lookAt Germ Mae>>
 Germ: Well, that's over. #line:eb20db
-Mae: Kein Spass? #line:aab46b
-Germ: Kein Spass. #line:8a08c6
+Mae: No fun? #line:aab46b
+Germ: No fun. #line:8a08c6
 <<lookNearest Mae>>
 ===
 title: Germ_A3D4
-tags:
+tags: 
 colorID: 4
 position: -13209,-1455
 ---
@@ -418,68 +418,68 @@ position: -13209,-1455
 <<endif>>
 ===
 title: GermEnterParkingLot_A2D3
-tags:
+tags: 
 colorID: 3
 position: -16360,-893
 ---
 <<wait 5>>
-Germ: Wir sind da! #line:a93425
-Mae: Wir sind auf dem Parkplatz. #line:a9c5a8
+Germ: We're here! #line:a93425
+Mae: We're in the parking lot. #line:a9c5a8
 Germ: Yep! #line:3bcdd1
-Mae: Wir sind etwa 15 Sekunden lang gelaufen. o> #line:c554fb
-Germ: Es ist wirklich gross hier. #line:7b3f8f
-Mae: Ich koennte einen Stein werfen und dort treffen, wo wir gerade gestanden haben. #line:db2366
-Germ: Man kann hier den ganzen Himmel sehen. #line:f40502
-Mae: Oh wow, das kannst du #line:5088a7
+Mae: We walked for like 15 seconds. o> #line:c554fb
+Germ: It's like really big here. #line:7b3f8f
+Mae: I could throw a rock and hit where we were just standing. #line:db2366
+Germ: You can see like all of the sky here. #line:f40502
+Mae: oh wow you can #line:5088a7
 <<wait 5>>
-Mae: ok also ernsthaft, wir schauen nur auf den Parkplatz? _o_ #line:7cb173
-Germ: manchmal #line:ecb61b
-Mae: "manchmal"? #line:8abc52
-Germ: manchmal am Morgen #line:73d3af
-Germ: wenn man auf dem Huegel da hinten ist #line:b623ba
-Germ: ein ganzer Haufen Nebel zieht ueber die Grundstuecke #line:e05224
-Germ: und es ist wie ein Ozean #line:c5a36b
-Germ: und da ist eine Herde von Rehen, die durchkommt #line:414fd0
-Germ: und es ist wie Magie. #line:24d4e6
+Mae: ok so seriously we're just looking at the parking lot? _o_ #line:7cb173
+Germ: sometimes #line:ecb61b
+Mae: "sometimes"? #line:8abc52
+Germ: sometimes in the morning #line:73d3af
+Germ: if you're up on the hill back there #line:b623ba
+Germ: a whole buncha fog passes over the lots #line:e05224
+Germ: and it's like an ocean #line:c5a36b
+Germ: and there's a herd of deer that comes through #line:414fd0
+Germ: and it's like magic. #line:24d4e6
 Mae: wow. #line:1949d4
-Germ: warum haben wir jemals so viele Parkplaetze gebraucht? #line:b165fc
-    ->Eisenbahnen #line:54a939
-        Mae: Frueher war hier hinten irgendwo ein grosser Bahnhof. #line:9f25b9
-        Mae: damals, als die Leute noch Zuege nahmen. #line:e27ada
-        Mae: ich meine, ziemlich oft. #line:8f75a2
-        Mae: da war ein Restaurant. #line:9afe30
-    ->Jobs #line:0ffce5
-        Mae: die Leute haben in der Glasfabrik gearbeitet #line:d1dec4
-        Mae: und ich glaube, einige Leute arbeiten immer noch in der Naeherei #line:1c627c
-        Mae: irgendwann gab es hier hinten auch mal eine andere Fabrik. #line:b4ff3a
-    ->Laeden #line:9e96a8
-        Mae: da war der Lebensmittel-Esel #line:687d3f
-        Mae: und der alte Gebrauchtwarenladen #line:7e99eb
-        Mae: und das Schuhgeschaeft #line:5985ad
-        Mae: hier hinten war frueher irgendwo ein Plattenladen. #line:4b0cfb
-Germ: jetzt ist aber alles weg. #line:e0d257
-Mae: jep. nur eine Menge Asphalt, Unkraut und Glasscherben. #line:e82b3a
-Germ: es ist so schoen. ich liebe es. #line:075d88
+Germ: why did we ever need this much parking? #line:b165fc
+    ->railroads #line:54a939
+        Mae: used to be like a big train station back here somewhere. #line:9f25b9
+        Mae: back when people took trains. #line:e27ada
+        Mae: i mean like, pretty often. #line:8f75a2
+        Mae: there was a restaurant. #line:9afe30
+    ->jobs #line:0ffce5
+        Mae: people used to work at the glass factory #line:d1dec4
+        Mae: and i guess some folks still work at the sewing place #line:1c627c
+        Mae: there was some other factory somewhere back here at some point too. #line:b4ff3a
+    ->stores #line:9e96a8
+        Mae: there was the food donkey #line:687d3f
+        Mae: and the old second hand store #line:7e99eb
+        Mae: and the shoe store #line:5985ad
+        Mae: there used to be a record store back here somewhere. #line:4b0cfb
+Germ: all gone now, though. #line:e0d257
+Mae: yep. just a lot of asphalt, weeds, and broken glass. #line:e82b3a
+Germ: it's so pretty. i love it. #line:075d88
 Mae: hm. #line:0cad20
-Germ: weisst du, wenn sie nie etwas damit machen #line:107755
-Germ: in ein paar Jahren wird das wie #line:5a59f9
-Germ: normaler Boden sein. #line:484b2b
+Germ: you know if they never do anything with this #line:107755
+Germ: in a bunch of years this is gonna be like #line:5a59f9
+Germ: regular ground. #line:484b2b
     ->wow. #line:162485
-    ->Was wird mit dem Parkplatz passieren? #line:6f578e
-        Mae: ich meine den Teil des Parkplatzes, der zum Parkplatz gehoert. #line:862518
-Germ: Die Natur ist alt. Sie wartet dich ab. #line:7ced60
-Mae: das ist gruselig. #line:e98298
+    ->what's gonna happen to the parking lot? #line:6f578e
+        Mae: i mean the parking lot part of the parking lot. #line:862518
+Germ: Nature's old. It waits you out. #line:7ced60
+Mae: that's spooky. #line:e98298
 <<wait 3>>
-Germ: ok wir sind fertig! #line:c46ef3
-Mae: was? #line:115b36
-Germ: lass uns gehen! #line:9fac1b
+Germ: ok we're done! #line:c46ef3
+Mae: what? #line:115b36
+Germ: let's go! #line:9fac1b
 //germ starts walking away//
 Mae: hey! #line:3d54f5
 <<irisOut 1 wait>>
 <<scene Outskirts>>
 ===
 title: GermEnterOutskirts_A2D3
-tags:
+tags: 
 colorID: 3
 position: -16363,-684
 ---
@@ -495,7 +495,7 @@ position: -16363,-684
 <<endif>>
 ===
 title: Germ_A2D3
-tags:
+tags: 
 colorID: 3
 position: -16353,-1351
 ---
@@ -506,7 +506,7 @@ position: -16353,-1351
 <<endif>>
 ===
 title: Germ_A3D2
-tags:
+tags: 
 colorID: 4
 position: -14559,-1421
 ---
@@ -518,7 +518,7 @@ position: -14559,-1421
 <<endif>>
 ===
 title: Germ_A3D1
-tags:
+tags: 
 colorID: 4
 position: -14933,-1486
 ---
@@ -528,117 +528,117 @@ position: -14933,-1486
 <<endif>>
 ===
 title: Germ_A3D3_00
-tags:
+tags: 
 colorID: 4
 position: -14178,-1478
 ---
 Mae: Hey. #line:39bade
 <<lookAt Germ Crusty3>>
-Germ: Hey. Angel, das ist meine Freundin Mae. #line:560b32
-Crusty3: 'Ey Mae. Was geht. #line:7a0be0
+Germ: Hey. Angel, this is my friend Mae. #line:560b32
+Crusty3: 'Ey Mae. Whatsup. #line:7a0be0
 <<lookAt Germ Mae>>
-Mae: cooler Name #line:0a9d7d
+Mae: cool name #line:0a9d7d
 <<lookAt Germ Crusty3>>
-Crusty3: gracias, sehr nett #line:0a9fef
+Crusty3: gracias, much obliged #line:0a9fef
 <<lookAt Germ Mae>>
-Germ: Angel ist nur zwischen den Zuegen in der Stadt. #line:5952f7
+Germ: Angel's just in town between trains. #line:5952f7
 <<lookAt Germ Crusty3>>
-Germ: nach Westen, als naechstes? #line:35df59
-Crusty3: Ja, dann nach Sueden fuer den Winter. #line:e0415f
-Crusty3: wie ein dreckiges Voegelchen. #line:0944a2
-Crusty3: runter zum Golf #line:d7a286
-Crusty3: in der Sonne liegen #line:9b896c
-Crusty3: iss mir ein paar Flusskrebse #line:143433
+Germ: going west, next? #line:35df59
+Crusty3: yeah, then south for the winter. #line:e0415f
+Crusty3: like a dirty birdie. #line:0944a2
+Crusty3: down to the gulf #line:d7a286
+Crusty3: lay in the sun #line:9b896c
+Crusty3: eat me some crawfish #line:143433
 <<lookAt Germ Mae>>
-Mae: eigentlich Angel koenntest du eine Frage beantworten: #line:6e1c30
+Mae: actually Angel you might be able to answer a question: #line:6e1c30
 <<lookAt Germ Crusty3>>
-Crusty3: schiess los, bro #line:3136a5
+Crusty3: shoot, bro #line:3136a5
 <<lookAt Germ Mae>>
-    ->Hast du etwas von einem Geist in der Stadt gehoert? #line:28c6b4
-        Germ: Angel hat das in der Tat. #line:f826e9
+    ->have you heard anything about a ghost in town? #line:28c6b4
+        Germ: Angel has indeed. #line:f826e9
         <<lookAt Germ Crusty3>>
-        Crusty3: wir haben gerade darueber geredet, bevor du hierher kamst #line:be45e2
+        Crusty3: we was just talking about it before you got here #line:be45e2
         <<lookAt Germ Mae>>
-        Mae: wirklich? #line:34a2b0
+        Mae: really? #line:34a2b0
         <<lookAt Germ Crusty3>>
-        Crusty3: ja, deswegen haelt hier auch niemand an #line:145d90
-        Crusty3: aber ich bin nicht aberglaeubisch #line:beefdb
-        Crusty3: draussen an der Westkueste, hab ich einen Bullen geschlagen #line:691ad1
-        Crusty3: und seinen Hund abgewehrt #line:3e84b3
-        Crusty3: um eine halbe Pizza zu behalten, die ich gefunden habe #line:a0a557
+        Crusty3: yeah, nobody ever stops here because of it #line:145d90
+        Crusty3: but i ain't superstitious #line:beefdb
+        Crusty3: out on the west coast, i punched a cop #line:691ad1
+        Crusty3: and fought off his dog #line:3e84b3
+        Crusty3: to keep a half pizza i found #line:a0a557
         <<lookAt Germ Mae>>
-        Mae: wow. Pizza finden ist eine Straftat? #line:187190
+        Mae: wow. finding pizza is a criminal offense? #line:187190
         <<lookAt Germ Crusty3>>
-        Crusty3: Bruder, was immer sie sagen, ist eine Straftat, ist eine Straftat #line:223858
-        Crusty3: aber ich schweife ab #line:f8f841
+        Crusty3: bro whatever they say is a criminal offense is a criminal offense #line:223858
+        Crusty3: but i digress #line:f8f841
         <<lookAt Germ Mae>>
-        Mae: Geist? #line:cb06ae
+        Mae: ghost? #line:cb06ae
         <<lookAt Germ Crusty3>>
-        Crusty3: ja, die Dummen sagen, der Geist schnappt sich die guten Leute #line:89a2fa
-        Crusty3: ich bin nicht gut, also habe ich nichts zu befuerchten #line:3232a8
-        Crusty3: fuehlst du mich? #line:df0d87
+        Crusty3: yeah the dumb ones say the ghost grabs the good people #line:89a2fa
+        Crusty3: i ain't good, so i got nothin' to fear #line:3232a8
+        Crusty3: you feel me? #line:df0d87
         <<lookAt Germ Mae>>
-        Mae: ja. #line:3d51d8
+        Mae: yeah. #line:3d51d8
         <<lookAt Germ Crusty3>>
-        Germ: gut nach welchem Massstab? #line:a25ef5
-        Crusty3: Verdammt, wenn ich das wuesste, Bruder. #line:5a3aae
-        Crusty3: aber ich werde folgendes tun: #line:1fcacf
-        Crusty3: ich glaube nicht an Geister, aber ich weiss, dass es einen Gott gibt #line:f501c8
-        Crusty3: da oben, der auf all ihre Kinder hier unten aufpasst #line:66c676
-        Crusty3: und ich werde 7 Gebete fuer dich sprechen #line:dd8dbd
-        Crusty3: und das wird diesen boesen Geist in Schach halten. #line:fcbd99
+        Germ: good by what standard? #line:a25ef5
+        Crusty3: damned if i know, bro. #line:5a3aae
+        Crusty3: but here's what i'll do: #line:1fcacf
+        Crusty3: i don't believe in ghosts, but i know there's a god #line:f501c8
+        Crusty3: up there watching out for all their children down here #line:66c676
+        Crusty3: and i'll say 7 prayers for you #line:dd8dbd
+        Crusty3: and that'll keep that nasty ghost at bay. #line:fcbd99
         <<lookAt Germ Mae>>
-        Mae: Wow. Danke. #line:b35a28
-        Mae: Das ist aufrichtig sehr nett von dir. #line:da97fb
-    ->Hast du draussen auf den Schienen jemanden namens Casey getroffen? #line:d55163
+        Mae: Wow. Thanks. #line:b35a28
+        Mae: That is like, sincerely very kind of you. #line:da97fb
+    ->have you met anyone named Casey out on the rails? #line:d55163
         <<lookAt Germ Crusty3>>
-        Crusty3: hm. lass mich nachdenken. #line:7a1899
-        Crusty3: weisst du, wie er oder sie aussah? #line:3f0688
+        Crusty3: hm. lemme think. #line:7a1899
+        Crusty3: you know what he or she looked like? #line:3f0688
         <<lookAt Germ Mae>>
-        Mae: Er. Er sah ein bisschen aus wie ich. Ein bisschen groesser. Orangefarbene Haare. #line:3e81ff
+        Mae: He. He looked kinda like me. A little taller. Orange-ish hair. #line:3e81ff
         <<lookAt Germ Crusty3>>
-        Crusty3: Nee, Mann. Ich kann mich nicht mehr erinnern. #line:d3ce21
-        Crusty3: Aber ich hab so ungefaehr tausend Typen da draussen gesehen. #line:71f0e4
-        <<Blick auf Germ Mae>>
-        Mae: Es ist ok. #line:0ed130
-        <<lookAt Germ Crusty3>>
-        Crusty3: Ich sag dir was- #line:b84bf3
-        Crusty3: Ich werde herumfragen, und wenn ich ihn finde #line:9ba83f
-        Crusty3: oder jemanden, der ihn gesehen hat, #line:3c09d3
-        Crusty3: Ich werde sagen, dass Mae aus Possum Springs nach ihm sucht. #line:a78532
+        Crusty3: Nah, man. I don't recollect. #line:d3ce21
+        Crusty3: But I seen like, a thousand dudes out there. #line:71f0e4
         <<lookAt Germ Mae>>
-        Mae: Danke. Das bedeutet mir sehr viel. Ich schulde dir was. #line:7f0f12
+        Mae: It's ok. #line:0ed130
+        <<lookAt Germ Crusty3>>
+        Crusty3: I tell you what- #line:b84bf3
+        Crusty3: I'll ask around, and if I find him #line:9ba83f
+        Crusty3: or someone who's seen him, #line:3c09d3
+        Crusty3: I'll say that Mae from Possum Springs is looking for him. #line:a78532
+        <<lookAt Germ Mae>>
+        Mae: Thanks. That means a lot. I owe you. #line:7f0f12
 <<lookAt Germ Crusty3>>
 Crusty3: nah, nah #line:430ab0
-Crusty3: es ist eine kalte Welt #line:b1c0b9
-Crusty3: gefuehrt von den schlimmsten Menschen #line:656f61
-Crusty3: und gute Maenner sterben aus Gott weiss welchem Grund #line:d0a00c
-Crusty3: wir muessen so etwas wie Pflichten fuereinander uebernehmen, verstehst du? #line:17867f
+Crusty3: it's a cold world #line:b1c0b9
+Crusty3: run by the worst people #line:656f61
+Crusty3: and good men die for god knows what reason #line:d0a00c
+Crusty3: we gotta take on, like, duties for one another, ya know? #line:17867f
 <<lookAt Germ Mae>>
-Mae: Ja. #line:d96688
-Mae: danke nochmal. #line:f22bed
+Mae: yeah. #line:d96688
+Mae: thanks again. #line:f22bed
 <<lookNearest Germ>>
 ===
 title: Germ_A3D3_02
-tags:
+tags: 
 colorID: 4
 position: -13665,-1462
 ---
-Germ: Etwas Schlimmes ist im Anmarsch. #line:e86796
-Mae: Ich weiss. #line:605ab5
-Mae: Es ist ein Geist, Germ. Ein echter Geist. #line:6ad8ab
-Germ: Es gibt keine Gespenster. #line:569e65
-Germ: Geister gibt es nicht. #line:d711fa
-Mae: Woher willst du das wissen? #line:f894ff
-Germ: mein Bruder haette mich besucht. #line:5e3793
+Germ: Something bad's coming. #line:e86796
+Mae: I know. #line:605ab5
+Mae: It's a ghost, Germ. A real life ghost. #line:6ad8ab
+Germ: There aren't ghosts. #line:569e65
+Germ: Ghosts aren't a thing. #line:d711fa
+Mae: how do you know? #line:f894ff
+Germ: my brother would have visited. #line:5e3793
 <<wait 2>>
-Mae: Oje. #line:71d53e
-Germ: Puh, Essenszeit! #line:13e181
-Germ: Man sieht sich! #line:116bd5
+Mae: geez. #line:71d53e
+Germ: Welp, dinner time! #line:13e181
+Germ: See ya! #line:116bd5
 [[WalkGermOut]]
 ===
 title: Germ_A3D3
-tags:
+tags: 
 colorID: 4
 position: -13958,-1822
 ---
@@ -653,23 +653,23 @@ position: -13958,-1822
 <<endif>>
 ===
 title: Germ_A3D4_00
-tags:
+tags: 
 colorID: 4
 position: -13196,-1163
 ---
 Mae: Hey Germ. #line:33c4eb
 Germ: Hey Mae. #line:6e8aec
-Germ: Was gibt's denn? #line:1a992c
-Germ: Abgesehen vom Offensichtlichen. #line:c18849
-Germ: Du scheinst auch... etwas zu sein. #line:814887
-Mae: Sehe ich irgendwie anders aus? #line:39c595
-Germ: Fuer mich tust du das. #line:44d741
-Mae: Danke fuer deine Aufmerksamkeit. #line:2a1448
+Germ: Totally what's up? #line:1a992c
+Germ: Other than the obvious. #line:c18849
+Germ: You seem... something too. #line:814887
+Mae: Do I look any different? #line:39c595
+Germ: To me you do. #line:44d741
+Mae: Thanks for your attention. #line:2a1448
 //<<set $germ_done to 1>>
 [[Germ_A3D4_QuestCheck]]
 ===
 title: GermEnterBridge_A3D2
-tags:
+tags: 
 colorID: 4
 position: -14417,-1039
 ---
@@ -678,19 +678,19 @@ position: -14417,-1039
         <<walk Germ GermToBridge>>
         <<walk Mae MaeToBridge>>
         <<cameraLookAt CameraBridgeEdge 6>>
-        Mae: Bist du sicher, dass dein Fahrrad sicher sein wird? #line:0002b3
-        Germ: Ja. Ich glaube, in dem Schuppen war schon seit Jahren niemand mehr #line:ccd736
-        Germ: tut mir leid, dass du runtergefallen bist #line:a680ac
-        Mae: es ist cool. Ich fuehle mich so lebendig. #line:136728
-        Germ: Schrammen sind so cool #line:40ac4d
-        -> ich habe mir den Ellbogen aufgeschuerft #line:2f5e6e
-        	Germ: ich kann dich ins Krankenhaus fahren #line:8aad76
-        	Germ: fuer diese schwere Wunde #line:5ffe74
-            Mae: mach die Sirene an #line:fa4728
-        -> ich habe mir den Kopf ziemlich hart angeschlagen #line:4d9927
-        	Germ: hast du dein Gehirn verletzt? #line:f09e3b
-        	Mae: nee, ich habe einen dicken Schaedel #line:f4cb4c
-        	Germ: das ist cool #line:4f2ac2
+        Mae: you sure your bike’s gonna be safe? #line:0002b3
+        Germ: yeah. I don’t think anyone’s been in that shed for years #line:ccd736
+        Germ: sorry you fell off #line:a680ac
+        Mae: it’s cool. I feel so alive. #line:136728
+        Germ: scrapes are cool like that #line:40ac4d
+        -> i skinned my elbow #line:2f5e6e
+        	Germ: i can like, ride you to the hospital #line:8aad76
+        	Germ: for this serious wound #line:5ffe74
+            Mae: put the siren on #line:fa4728
+        -> i hit my head pretty hard #line:4d9927
+        	Germ: did you hurt your brain? #line:f09e3b
+        	Mae: naw, i got a thick skull #line:f4cb4c
+        	Germ: that’s cool #line:4f2ac2
         <<toggleBlinks Germ 0>>
         <<close>>
         <<walk Germ GermOnBridge>>
@@ -704,29 +704,29 @@ position: -14417,-1039
         <<wait 2>>
         //We’ll need a Germ balancing idle here//
         <<lookAt Mae Germ>>
-        Mae: Was machen wir denn hier? #line:dd7b49
+        Mae: So what are we doing here? #line:dd7b49
         <<lookAt Germ Mae>>
-        Germ: vertraust du mir? #line:8d5fee
-            ->sicher #line:eb61d0
-                Germ: wirklich? #line:52ff73
-                Mae: ja, ich denke schon. #line:6fbf4f
-            ->habe noch nie darueber nachgedacht #line:145602
+        Germ: do you trust me? #line:8d5fee
+            ->sure #line:eb61d0
+                Germ: really? #line:52ff73
+                Mae: yeah. i guess. #line:6fbf4f
+            ->never thought about it before #line:145602
         Germ: ok #line:237a34
         <<lookForward Germ>>
-        Germ: tschuess #line:67f48e
+        Germ: bye #line:67f48e
         <<close>>
         <<wait 1>>
         //Germ jumps off the bridge//
         <<jumpThrough Germ>>
         <<wait 1.5>>
         <<warp Germ GermOnBottom>>
-        Mae: OH MEIN GOTT GEEEERM!!! #line:45ed00
-        Mae: ...oh geez, Alter... #line:75968d
+        Mae: OH MY GOD GEEEERM!!! #line:45ed00
+        Mae: ...oh geez, dude... #line:75968d
         Germ: hey! #line:001ba5
-        Mae: WAS ZUR HOELLE, MANN? #line:faefaf
+        Mae: WHAT THE HELL, MAN? #line:faefaf
         <<resetRig Germ>>
-        Germ: SPRING! Es ist gut! #line:a6e01d
-        Mae: oh wirklich? #line:67e353
+        Germ: JUMP! It’s fine! #line:a6e01d
+        Mae: oh for real? #line:67e353
         //<<trigger Germ Blink>>
         <<toggleBlinks Germ 1>>
         <<flip Germ -1>>
@@ -735,85 +735,85 @@ position: -14417,-1039
 <<endif>>
 ===
 title: Germ_Bridge
-tags:
+tags: 
 colorID: 4
 position: -14547,-731
 ---
 <<if $germ_bridge is 1>>
     Mae: ok so... #line:cd7ee6
-    Germ: Ich habe vor ein paar Monaten angefangen, hierher zu kommen #line:8cec05
-    Germ: um, wie, einfach abzuhaengen #line:bd86c8
+    Germ: I started coming down here a few months ago #line:8cec05
+    Germ: to, like, just hang #line:bd86c8
     Mae: ok #line:c1c228
     <<warp Rabies RabiesTunnelExit>>
     <<walk Rabies RabiesTunnelEnter>>
-    Germ: und ich habe bemerkt- #line:77fb24
+    Germ: and I noticed- #line:77fb24
     <<lookAt Germ Rabies>>
     Germ: oh! hey Rabies! #line:209820
     <<playerFace 1>>
     <<lookForward Mae>>
-    Mae: AAAGH!!! #line:a68bc3
+    Mae: AAAGH!! #line:a68bc3
     <<lookAt Germ Mae>>
-    Germ: Rabies ist mein Kanalisationsfreund #line:1783cb
-    Mae: Es heisst Rabies? #line:0c8f52
-    Germ: ER heisst Rabies. #line:4bab40
+    Germ: Rabies is my sewer friend #line:1783cb
+    Mae: It’s name is Rabies? #line:0c8f52
+    Germ: HIS name is rabies. #line:4bab40
     <<lookAt Mae Rabies>>
-    Mae: Er heisst Rabies? #line:d5006d
+    Mae: His name is Rabies? #line:d5006d
     <<lookAt Germ Rabies>>
-    Germ: Ich habe ihn gefunden, als sie die Leiche hier rausgeholt haben #line:1fae68
-    Germ: nach der grossen Flut vor ein paar Monaten. #line:3b7a3d
-    Mae: oh toll. #line:09053e
-    Germ: Er war traurig und nass und hungrig, also habe ich ihm Chips und Eis mitgebracht #line:4c6483
-    Mae: klingt gut #line:98968a
-    Germ: und ich wollte, dass die anderen Opossums nicht auf ihm herumhacken #line:63f06b
-    Germ: also habe ich ihn nach etwas benannt, wovor sie alle Angst haben #line:813703
-    Mae: Das ist die beste Geschichte aller Zeiten. #line:1f1635
+    Germ: I found him when they pulled that body out of here #line:1fae68
+    Germ: after that big flood a few months ago. #line:3b7a3d
+    Mae: oh neat. #line:09053e
+    Germ: He was sad and wet and hungry so I brought him chips and ice cream #line:4c6483
+    Mae: sounds right #line:98968a
+    Germ: and I wanted the other possums to not pick on him #line:63f06b
+    Germ: so i named him after something they’re all afraid of #line:813703
+    Mae: This is the best story ever. #line:1f1635
     <<lookAt Mae Rabies>>
     <<lookAt Germ Rabies>>
-    Germ: Er ist so toll. #line:c24113
+    Germ: He’s so rad. #line:c24113
     Germ: HEY RABIES! #line:5649a2
-    Germ: SPRECHEN! #line:e12afe
+    Germ: SPEAK! #line:e12afe
     <<playOneShot event:/bridge/possum_speak Rabies>>
-    Rabies: HHHRRRRRRGKK!!! #line:2f375c
-    Mae: oh mein gaaaawd #line:ad3247
-    Germ: Er wird eines Tages ueber diese ganze Schlucht herrschen #line:2e4914
-    Germ: sei nett zu Mae, ok Rabies! #line:ca0645
+    Rabies: HHHRRRRRGKK!!! #line:2f375c
+    Mae: oh my gaaaawd #line:ad3247
+    Germ: He’s gonna rule this whole ravine someday #line:2e4914
+    Germ: you be nice to Mae, ok Rabies! #line:ca0645
     <<close>>
     <<walk Rabies RabiesTunnelExit>>
-    Mae: Ich liebe ihn. #line:215d0c
+    Mae: I love him. #line:215d0c
     <<lookAt Mae Germ>>
     <<lookAt Germ Mae>>
-    Germ: hast du irgendwelche Haustiere? #line:c21fba
+    Germ: you got any pets? #line:c21fba
     <<if $times_fed_rats >= 2>>
-    	Mae: Ich habe ein paar Ratten in der Stadt. #line:ba15b3
-    	Germ: Suess. #line:5740a9
+    	Mae: I got some rats downtown. #line:ba15b3
+    	Germ: sweet. #line:5740a9
     <<else>>
-        Mae: Nicht wirklich... #line:a66506
-        Germ: Du solltest dir eine besorgen. #line:187779
-        Mae: mein Vater hat einen Vogel. #line:99cc2f
-        Germ: das ist ein Muelltier. #line:c77b1a
-        Mae: erzaehl mir davon. #line:801a40
+        Mae: Not really... #line:a66506
+        Germ: you should get one. #line:187779
+        Mae: my dad has a bird. #line:99cc2f
+        Germ: that's a garbage pet. #line:c77b1a
+        Mae: tell me about it. #line:801a40
     <<endif>>
     <<wait 2>>
-    Mae: Also, da ist so ein... komisches Zeug an den Waenden hier drin... #line:fdc170
-    Germ: alte Hoehlenmalereien. #line:a277ac
-    Mae: nicht neu, zumindest. #line:388500
-    Germ: was denkst du, bedeutet das? #line:78a317
-        ->wenn du hier schlaefst, koenntest du ertrinken #line:d4332c
-            Germ: wahr wahr. #line:c5f77d
-            Mae: das ist traurig. #line:80d09b
-            Germ: ja. aber es ist traurig genug, dass #line:9fb68f
-            Germ: es wird zu seltsam, um traurig zu sein. #line:3f5594
-            Mae: schaetze ich. #line:33510a
-            Mae: genau wie #line:344512
-            Mae: es ist scheisse, dass die Leute hier drin schlafen. #line:1a74f6
-            Mae: nicht das wir keine leerstehenden Gebaeude haetten. #line:1b900a
-            Germ: das ist dumm. #line:ad5675
-        ->Rabies ist Muellkoenig #line:a89efe
-            Germ: es ist eine Prophezeiung. #line:11a621
-            Mae: geschrieben von alten Landstreichern. #line:7ee4a2
-    Germ: es gibt so etwas wie #line:dbd97a
-    Germ: alle moeglichen geheimen Orte wie diesen in der Stadt. #line:e49f0a
-    Germ: ich bin die einzige Person, die wirklich eine Karte davon hat... #line:1199b0
+    Mae: so there's like... weird stuff on the walls in here... #line:fdc170
+    Germ: ancient cave paintings. #line:a277ac
+    Mae: not new, at least. #line:388500
+    Germ: what do you think it means? #line:78a317
+        ->if you sleep here you might drown #line:d4332c
+            Germ: true true. #line:c5f77d
+            Mae: that's sad. #line:80d09b
+            Germ: yeah. but it's sad enough that like #line:9fb68f
+            Germ: it gets too weird to be sad. #line:3f5594
+            Mae: i guess. #line:33510a
+            Mae: just like #line:344512
+            Mae: sucks people are sleeping in here. #line:1a74f6
+            Mae: not like we don't got vacant buildings. #line:1b900a
+            Germ: it's dumb. #line:ad5675
+        ->rabies is trash king #line:a89efe
+            Germ: it's a prophecy. #line:11a621
+            Mae: written by ancient hobos. #line:7ee4a2
+    Germ: there's like #line:dbd97a
+    Germ: all kinds of secret places like this around town. #line:e49f0a
+    Germ: i'm like the only person to really map th- #line:1199b0
     <<close>>
     <<trigger Rabies Candy>>
     <<warp Rabies RabiesTunnelExit>>
@@ -821,69 +821,69 @@ position: -14547,-731
     <<wait 2>>
     <<lookAt Germ Rabies>>
     <<lookAt Mae Rabies>>
-    Germ: HEY RABIES!!! WAS HAST DU DA??? #line:ec53e8
+    Germ: HEY RABIES!! WHATCHA GOT THERE??? #line:ec53e8
     <<close>>
     <<waitForMove Rabies>>
     <<trigger Rabies SitUp>>
     <<playerFace 1>>
-    Mae:{width=4} oh mein goooooooooooooott! #line:5db4a9
-    Mae: ist das eine Fiasco-Bar? #line:105481
-    Germ: soll ich das fuer dich auspacken, Mann? #line:937913
+    Mae:{width=4} oh my gaaaaaaaaaaaaaaaawd! #line:5db4a9
+    Mae: is that a Fiasco bar? #line:105481
+    Germ: you want me to unwrap that for you, guy? #line:937913
     <<close>>
     <<trigger Rabies Unwrap>>
     <<wait 1>>
-    Mae: VERDAMMTE SCHEISSE!!! #line:adf4de
-    Germ: ER! IST! DER! BESTE! #line:ff3b14
+    Mae: HOLY EFFING CRAP!!! #line:adf4de
+    Germ: HE! IS! THE! BEST! #line:ff3b14
     <<lookAt Mae Germ>>
     <<lookAt Germ Mae>>
-    Mae: Du solltest ihn mit nach Hause nehmen! #line:e46c09
-    Germ: Auf keinen Fall. Er wuerde alles vollpinkeln #line:5d6e18
-    Germ: und ein Loch in die Wand graben und dort leben. #line:b54ea9
-    Mae: oh ja #line:a54639
+    Mae: You should take him home! #line:e46c09
+    Germ: No way. He’d pee all over everything #line:5d6e18
+    Germ: and dig a hole in the wall and live there. #line:b54ea9
+    Mae: oh yeah #line:a54639
     <<lookAt Germ Rabies>>
-    Germ: Rabies ist wild. Lass ihn wild sein. #line:bc88f4
+    Germ: Rabies is wild. Let him be wild. #line:bc88f4
     <<lookAt Mae Rabies>>
     <<close>>
     <<trigger Rabies Bite>>
     <<wait 2>>
-    Mae: AAAAGGH SCHAU ER FRISST SIE!!! #line:85e238
+    Mae: AAAAGGH LOOK HE’S EATING IT!!! #line:85e238
     [[GermBridgeEnding]]
 <<endif>>
 ===
 title: Landed
-tags:
+tags: 
 colorID: 4
 position: -14298,-814
 ---
 <<flip Mae 1>>
-Mae: Alter du hast mich zu Tode erschreckt! #line:73ff22
-Germ: Warum? Du springst doch dauernd von grossen Sachen runter! #line:88eafd
-Mae: Ja, aber... das ist in der Stadt. Schoener flacher Boden. #line:4ea313
-Mae: nicht so, dass ich einfach von Klippen springen kann und so #line:f61ede
-Germ: oh ja, ich vergass, dass du in der Stadt aufgewachsen bist #line:2b6b6b
-Mae: also was machen wir hier? #line:0893eb
-Germ: ich komme oft hierher. #line:4ae308
-Germ: wollte dir etwas zeigen. #line:19a215
-    ->Du haengst an einem Kanalisationsrohr rum? #line:905225
-        Germ: ich meine, nicht ausschliesslich #line:8f80cc
-    ->Zeigst du mir die Kanalisation? #line:605a62
-        Germ: ich dachte, es wuerde dich interessieren. #line:6ddcb2
-Germ: ich habe hier unten mal 10 Ratten gesehen! #line:faf809
-Mae: ok das ist ziemlich cool #line:95c133
+Mae: dude you scared me to death! #line:73ff22
+Germ: why? You jump off big stuff all the time! #line:88eafd
+Mae: yeah but like... that’s in town. Nice flat ground. #line:4ea313
+Mae: not like i can just go jumping off cliffs and whatever #line:f61ede
+Germ: oh yeah i forgot you grew up in town #line:2b6b6b
+Mae: so what are we doing here? #line:0893eb
+Germ: i come here a lot. #line:4ae308
+Germ: wanted to show you something. #line:19a215
+    ->you hang out at a sewer pipe? #line:905225
+        Germ: i mean, not exclusively #line:8f80cc
+    ->are you showing me the sewer? #line:605a62
+        Germ: i thought you'd be interested. #line:6ddcb2
+Germ: i saw like 10 rats down here once! #line:faf809
+Mae: ok that’s pretty cool #line:95c133
 <<close>>
 <<walk Germ GermInTunnel 1>>
 <<wait 5>>
 <<set $germ_bridge to 1>>
 ===
 title: GermEnterOutskirts_A3D4
-tags:
+tags: 
 colorID: 4
 position: -13197,-912
 ---
 <<if $germ_friendship_quest_3>>
-    Germ: Ich muss jetzt gehen. #line:06e815
+    Germ: Gotta go now. #line:06e815
     <<set $germ_done to 1>>
-    Mae: Tschuess! #line:a68faf
+    Mae: Bye! #line:a68faf
     <<unlockDoodle GermFQ3>>
     <<set $germ_friendship_quest_3 to 0>>
     <<set $did_germ_friendship_quest_3 to 1>>
@@ -892,7 +892,7 @@ position: -13197,-912
 <<endif>>
 ===
 title: WalkGermOut
-tags:
+tags: 
 colorID: 4
 position: -13682,-173
 ---
@@ -901,12 +901,12 @@ position: -13682,-173
 <<set $germ_done to 1>>
 ===
 title: GermEnterOutskirts_A3D2
-tags:
+tags: 
 colorID: 4
 position: -14123,-419
 ---
 <<if $germ_friendship_quest_2>>
-    Germ: Man sieht sich! #line:0cbf3d
+    Germ: See ya! #line:0cbf3d
     <<set $germ_done to 1>>
     <<set $germ_friendship_quest_2 to 0>>
     <<unlockDoodle GermFQ2>>
@@ -915,7 +915,7 @@ position: -14123,-419
 <<endif>>
 ===
 title: GermBridgeEnding
-tags:
+tags: 
 colorID: 4
 position: -14828,-642
 ---
@@ -927,13 +927,13 @@ tags: unused
 colorID: 0
 position: -15079,-638
 ---
-        Mae: glaubst du, dass das auch nur annaehernd richtig ist? #line:459a87
-        Germ: das werden wir nie erfahren #line:278064
-        Mae: ja ich denke schon #line:3c9dfe
-        Germ: das ist wie... eine Menge Leben #line:b52d25
-        Mae: tief. #line:b5e169
-        Mae: also ist hier wirklich jemand gestorben? #line:93c658
-        Germ: ja, es war im Sommer, und- #line:a00cc7
+        Mae: do you think that’s even remotely right? #line:459a87
+        Germ: we’ll never know #line:278064
+        Mae: yeah i guess #line:3c9dfe
+        Germ: that’s like... a lot of life #line:b52d25
+        Mae: deep. #line:b5e169
+        Mae: so like, someone really died in here? #line:93c658
+        Germ: yep, it was in the summer, and- #line:a00cc7
         <<close>>
         <<trigger Rabies Candy>>
         <<warp Rabies RabiesTunnelExit>>
@@ -944,52 +944,52 @@ position: -15079,-638
         <<waitForMove Rabies>>
         <<trigger Rabies SitUp>>
         <<playerFace 1>>
-        Mae:{width=4} oh my gaaaaaaaaaaaaaaaaaawd! #line:a50bec
-        Mae: ist das eine Fiasco-Bar? #line:caae38
-        Germ: soll ich das fuer dich auspacken, Junge? #line:d4f817
+        Mae:{width=4} oh my gaaaaaaaaaaaaaaaawd! #line:a50bec
+        Mae: is that a Fiasco bar? #line:caae38
+        Germ: you want me to unwrap that for you, guy? #line:d4f817
         <<close>>
         <<trigger Rabies Unwrap>>
         <<wait 1>>
-        Mae: VERDAMMTE SCHEISSE!!! #line:c432f5
-        Germ: ER! IST! DER! BESTE! #line:688964
-        Mae: Du solltest ihn mit nach Hause nehmen! #line:cb81f2
-        Germ: Auf keinen Fall. Er wuerde alles vollpinkeln #line:fa7055
-        Germ: und ein Loch in die Wand graben und dort leben. #line:82cc9f
-        Mae: oh ja #line:ad6ed2
-        Germ: Rabies ist wild. Lass ihn wild sein. #line:c045ef
+        Mae: HOLY EFFING CRAP!!! #line:c432f5
+        Germ: HE! IS! THE! BEST! #line:688964
+        Mae: You should take him home! #line:cb81f2
+        Germ: No way. He’d pee all over everything #line:fa7055
+        Germ: and dig a hole in the wall and live there. #line:82cc9f
+        Mae: oh yeah #line:ad6ed2
+        Germ: Rabies is wild. Let him be wild. #line:c045ef
         <<close>>
         <<trigger Rabies Bite>>
         <<wait 2>>
-        Mae: AAAAGGH SCHAU ER FRISST SIE!!! #line:9189f9
+        Mae: AAAAGGH LOOK HE’S EATING IT!!! #line:9189f9
         <<irisOut 1 wait>>
         <<scene Outskirts>>
 ===
 title: Germ_A3D4_QuestCheck
-tags:
+tags: 
 colorID: 4
 position: -12954,-1170
 ---
 <<if $did_germ_friendship_quest_1 and $did_germ_friendship_quest_2>>
-	Germ: Willst du mitkommen? #line:ccecf7
-	Germ: Ich habe ein Trampolin! #line:b73797
+	Germ: Do you want to come? #line:ccecf7
+	Germ: Got a trampoline! #line:b73797
 	-> Oh. Uh. #line:e63ab6
-        Mae: Nee. Ich fuehle mich nicht wirklich gut. #line:90f671
-        Germ: Cool. Man sieht sich! #line:cafcf4
+        Mae: Nah. I'm not really feeling well. #line:90f671
+        Germ: Cool. Seeya! #line:cafcf4
         [[WalkGermOut]]
-	-> Klar! #line:7650b6
-        Germ: Alles klar, gehen wir! #line:81478b
+	-> Sure! #line:7650b6
+        Germ: Alright, let's go! #line:81478b
         <<set $germ_friendship_quest_3 to 1>>
         <<irisOut 1 wait>>
         <<scene GermHouse>>
 <<else>>
     Germ: No prob! #line:8bf985
-    Germ: Ich muss nach Hause. #line:ce33dc
-    Mae: Wo wohnst du denn? #line:a277cf
-    Germ: Auf der anderen Seite des Parkplatzes, den Huegel hinauf. #line:988109
-    Germ: Hinten im Wald. #line:1833aa
-    Mae: Hm. Ich war noch nie da hinten. #line:f852fe
-    Germ: Ich schon! #line:3ddc59
-    Mae: Doch, warst du. #line:50aedb
+    Germ: I gotta get home. #line:ce33dc
+    Mae: Where do you live? #line:a277cf
+    Germ: Across the parking lots, up the hill. #line:988109
+    Germ: back in the woods. #line:1833aa
+    Mae: Huh. I've never been back there. #line:f852fe
+    Germ: I have! #line:3ddc59
+    Mae: Yes you have. #line:50aedb
     Germ: Seeya! #line:6fb421
     [[WalkGermOut]]
 <<endif>>

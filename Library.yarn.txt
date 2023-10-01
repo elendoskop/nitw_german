@@ -1,34 +1,34 @@
 title: Microfiche
-tags:
+tags: 
 colorID: 0
 position: -56,93
 ---
 <<if $microfiche_done is 0>>
-    Bea: Alles klar, da ist sie. #line:14c89c
+    Bea: Alright, there she is. #line:14c89c
     Mae: Cool. #line:c25fc6
     <<fadeOutMusic 7>>
     <<close>>
     <<wait 3>>
-    Bea: Also... #line:63cb26
-    Mae: Ich habe keine Ahnung, wie man es benutzt. #line:d429d3
-    Bea: Wirklich? #line:6ff6e7
-    Mae: Ich kann nicht wissen, wie man alles macht! #line:13c5c3
-    Bea:{width=4} Es tut mir leid, aber welches Fachwissen hast du bis jetzt hier eingebracht? #line:c4e492
+    Bea: So... #line:63cb26
+    Mae: I have no idea how to use it. #line:d429d3
+    Bea: Really? #line:6ff6e7
+    Mae: I can’t know how to do everything! #line:13c5c3
+    Bea:{width=4} I’m sorry but what expertise have you brought to this thus far? #line:c4e492
     Mae: \o/ #line:b45923
-    Mae: Diese ganze Sache war meine Idee! #line:428f8b
-    Bea:{width=4} NEIN. Deine Idee war die Geisterjagd. #line:374685
-    Bea: MEINE Idee ist es, wenigstens ein kleines bisschen darueber zu forschen. #line:d415d2
+    Mae: This whole thing was my idea! #line:428f8b
+    Bea:{width=4} NO. Your idea was ghost hunting. #line:374685
+    Bea: MY idea is to do at least a tiny bit of research on it. #line:d415d2
     Mae: :( #line:fbd8a8
-    Mae: Wenn du es so dumm findest, warum bist du dann hier? #line:6aa341
-    Bea: Weil du mein Freund bist, du Arschloch! #line:cc4e07
+    Mae: If you think it’s so stupid, why are you here? #line:6aa341
+    Bea: Because you’re my friend, you asshole! #line:cc4e07
     <<close>>
     <<wait 2>>
     Mae: _o_ :) #line:b04c1c
     Mae: AAAAAW. #line:5d6498
     Bea: ugh #line:cdfa1a
-    Mae: AW WE FWENDS, BEATWICE?? #line:2c7d81
-    Bea: hier, lass mich das einrichten #line:7a32f8
-    Bea: wir werden die ganze Nacht hier sein, wenn dein dummer Arsch das Sagen hat #line:a269dc
+    Mae: AW WE FWENDS, BEATWICE??? #line:2c7d81
+    Bea: here, let me get this set up #line:7a32f8
+    Bea: we’ll be here all night if your dumb ass is in charge #line:a269dc
     Mae: o_o :| _o_ #line:a33453
     <<set $microfiche_done to 1>>
 <<endif>>
@@ -60,17 +60,17 @@ position: -702,224
 <<endif>>
 ===
 title: Elevator
-tags:
+tags: 
 colorID: 0
 position: -385,81
 ---
--> Es geht aufwaerts! #line:dbd3bd
+-> Going Up! #line:dbd3bd
     <<set $elevator_choice to 0>>
--> Es geht abwaerts! #line:c13a9f
+-> Going Down! #line:c13a9f
     <<set $elevator_choice to 1>>
 ===
 title: Intro
-tags:
+tags: 
 colorID: 0
 position: -828,506
 ---
@@ -80,24 +80,24 @@ position: -828,506
 <<lookAt Bea LookMural>>
 <<setAnimInt Bea headSlant 2>>
 Bea: Look! Jobs! #line:95c181
-Bea: Seltsam wie #line:f05d14
-Bea: als das gemalt wurde, war es wie #line:8b2f40
-Bea: Hey schau aus dem Fenster! #line:a4d173
-Bea: Wir arbeiten alle! Die Dinge sind grossartig! #line:30d04f
-Bea: Jetzt ist es wie #line:28dae1
-Bea: eine der Graffiti-Wandmalereien #line:ba73b6
-Bea: nachdem jemand erschossen oder von einem Auto angefahren wurde. #line:a7d4ef
-Mae: Dieses Wandgemaelde wirkt wirklich auf dich. #line:fa7aeb
+Bea: Weird like #line:f05d14
+Bea: when this was painted it was like #line:8b2f40
+Bea: Hey Look Out The Window! #line:a4d173
+Bea: We’re all working! Things are great! #line:30d04f
+Bea: Now it’s like #line:28dae1
+Bea: one of the graffiti murals #line:ba73b6
+Bea: after someone gets shot or hit by a car. #line:a7d4ef
+Mae: This mural is really affecting you. #line:fa7aeb
 Bea: o_o #line:25cfc1
-Bea: Ich vergesse, dass wir in getrennten Realitaeten leben. #line:4aa5f1
-Mae: Meine ist eindeutig besser. #line:269b84
+Bea: I forget that we live in separate realities. #line:4aa5f1
+Mae: Mine’s clearly better. #line:269b84
 <<cameraFollowPlayer 4>>
 <<lookNearest Bea>>
 <<setAnimInt Bea headSlant 0>>
 <<playMusic investigating>>
 ===
 title: Librarian
-tags:
+tags: 
 colorID: 0
 position: 177,417
 ---
@@ -105,207 +105,207 @@ position: 177,417
     <<set $library_desk to 1>>
     <<lookAt Mae Librarian>>
     Bea: Hey! #line:dcc002
-    Librarian: Wir schliessen in 2 Stunden. #line:da253a
+    Librarian: Closing in 2 hours. #line:da253a
     Bea: Ok cool. #line:67d4e1
-    Mae: Irgendeine Idee, wo der Mikrofisch ist? #line:b03f8f
-    Bea: Mikrofiche. #line:64e700
+    Mae: Any idea where the microfish is? #line:b03f8f
+    Bea: Microfiche. #line:64e700
     Mae: :) #line:ca6d98
-    Mae: Mikrofiche. #line:fe0add
-    Librarian: Dritter Stock. #line:e1f847
-    Bea: Ok, danke. #line:fba0fb
-    Mae: Hoch, hoch, hoch. #line:72b410
+    Mae: Microfeesh. #line:fe0add
+    Librarian: Third floor. #line:e1f847
+    Bea: Ok thanks. #line:fba0fb
+    Mae: Up up up. #line:72b410
     Mae: :| #line:4323d8
     <<loolNearest Mae>>
 <<elseif $library_desk is 1>>
     <<set $library_desk to 2>>
     <<set $librarian_done to 1>>
     <<lookAt Mae Librarian>>
-    Mae: Langsame Nacht? #line:fb2819
-    Librarian: Jep. #line:366f8c
-    Bea: Gruselig hier, so ganz allein? #line:2d4478
-    Mae: Ich wuerde mich gruseln. #line:c6ef43
+    Mae: Slow night? #line:fb2819
+    Librarian: yep. #line:366f8c
+    Bea: Spooky here, all alone? #line:2d4478
+    Mae: I’d be spooked. #line:c6ef43
     Librarian: Eh. #line:c25c81
-    Librarian: Larry irrt hier irgendwo herum. #line:e7fd2c
+    Librarian: Larry’s wandering around here somewhere. #line:e7fd2c
     <<loolNearest Mae>>
 <<endif>>
 ===
 title: DinosaurSkeleton
-tags:
+tags: 
 colorID: 0
 position: -112,406
 ---
-Mae: Woher haben wir das? #line:663064
-Mae: Das scheint... teuer zu sein. #line:646f73
-Bea: Es ist wirklich alt #line:83d825
-Bea: aus den Zeiten der Raubritter #line:38f4df
-Bea: einer von ihnen hat einen Dinosaurier gekauft. #line:012526
-->geil #line:ce09a4
-	Bea: ich will mich nicht streiten #line:e4c7a7
-->sieht komisch aus #line:e3ccbe
-	Mae: Ich glaube nicht, dass es so stand. #line:6ef44f
-	Bea: damals gab es noch keine Dinosaurier #line:941442
-	Mae: kann das wirklich jemand? #line:8b7e41
+Mae: How did we get this? #line:663064
+Mae: This seems... expensive. #line:646f73
+Bea: It’s really old #line:83d825
+Bea: from like the robber baron times #line:38f4df
+Bea: one of 'em bought a dinosaur. #line:012526
+->awesome #line:ce09a4
+	Bea: not gonna argue #line:e4c7a7
+->it looks weird #line:e3ccbe
+	Mae: I don’t think it stood like that. #line:6ef44f
+	Bea: back then they didn’t really get dinosaurs #line:941442
+	Mae: can anyone truly? #line:8b7e41
 <<set $dinosaur_skeleton_done to 1>>
 ===
 title: Computers
-tags:
+tags: 
 colorID: 0
 position: 252,94
 ---
-Mae: sieht so aus, als haette jemand hier etwas offen gelassen #line:881bd4
-Bea: es ist ein Lebenslauf #line:8f7196
+Mae: looks like someone left something open on this one #line:881bd4
+Bea: it’s a resume #line:8f7196
 Mae: Bob Targg #line:d99ae7
-Mae: Geboren 1967 #line:d608e7
-Bea: 50 Jahre alt #line:1ffd4f
-Bea: mal sehen... #line:a5b283
-Bea: Erfahrung: Bergbau, Bauwesen, Brunnenbau #line:d38c19
-Mae: Ich denke nie daran, einen Job zu bekommen, wenn ich alt bin. #line:833f5e
-Bea: 50 ist nicht wirklich alt. #line:662538
-Mae: Ich meine #line:7c3df2
-Mae: du solltest dann Geld haben, oder? #line:154bf7
-Bea: Idealerweise #line:d7fc43
-Mae: Es sollte wie... garantiert sein. #line:a52975
+Mae: Born 1967 #line:d608e7
+Bea: 50 years old #line:1ffd4f
+Bea: let’s see... #line:a5b283
+Bea: experience: mining, construction, well drilling #line:d38c19
+Mae: I never think about getting a job when I’m old. #line:833f5e
+Bea: 50’s not really old. #line:662538
+Mae: I mean #line:7c3df2
+Mae: you should have money then, right? #line:154bf7
+Bea: Ideally #line:d7fc43
+Mae: It should be like... guaranteed. #line:a52975
 Mae: :\ #line:f9db76
-Mae: sollte im Allgemeinen garantiert sein #line:c599a3
+Mae: should be guaranteed in general #line:c599a3
 Mae: :| #line:230d71
-Bea: Machst du bei meiner Chattrbox-Gruppe der Jungsozialisten mit? #line:ad393b
+Bea: You gonna join my young socialists Chattrbox group? #line:ad393b
 <<set $library_computers_done to 1>>
 ===
 title: CharityBearity
-tags:
+tags: 
 colorID: 0
 position: 549,113
 ---
 <<if $library_charity_bearity is 0>>
     <<set $library_charity_bearity += 1>>
-    Mae: Heiliger Bimbam. #line:900726
-    Bea: Was ist? #line:6e61e7
-    Mae: Es ist Charity Bearity. #line:038bd7
-    Bea: Was ist Charity Bearity? #line:61eb9d
+    Mae: Holy crap. #line:900726
+    Bea: What? #line:6e61e7
+    Mae: It’s Charity Bearity. #line:038bd7
+    Bea: What’s Charity Bearity? #line:61eb9d
     Mae: O_o #line:f81735
-    Mae: WIE KANNST DU CHARITY BEARITY NICHT KENNEN?! #line:bfd7c2
-    Bea: Ich nehme an, das ist etwas aus der Schule? #line:944a87
-    Mae: Die Schule, in der man 5 verrueckte Jahre alt ist! #line:c1604d
-    Bea: ...in Ordnung? #line:c6cdcc
-    Bea: Das war also eine Sache, die du als Kind gemocht hast? #line:eda6a5
+    Mae: HOW DO YOU NOT KNOW CHARITY BEARITY?! #line:bfd7c2
+    Bea: I assume this is something from school? #line:944a87
+    Mae: The School Of Being 5 Freaking Years Old! #line:c1604d
+    Bea: ...alright? #line:c6cdcc
+    Bea: So this was a thing you liked as a kid? #line:eda6a5
     Mae: o> #line:db9adb
-    Mae: NEIN! ICH HASSTE WOHLTAeTIGE BAeREN! #line:0c1b95
-    Bea: Es sieht wirklich hassenswert aus. #line:840823
+    Mae: NO! I HATED CHARITY BEARITY! #line:0c1b95
+    Bea: It does look really hateable. #line:840823
     Mae: o_o #line:cb77e7
-    Mae: Es war wie #line:f5f2b0
-	->Sie wurden von einer Sekte entfuehrt #line:365956
-		Mae: und als sie so waren #line:59dc72
-		Mae: dich einer Gehirnwaesche unterzogen #line:6c2f64
-		Mae: anstelle von irgendeinem Sektentyp #line:991928
-		Mae: mit einem gewellten Dolch und einer magischen Maske #line:6d1af1
-		Bea: das ist nicht... ok, ja mach weiter #line:db2aca
-		Mae: stattdessen war es dieser verdammte rosa Albtraum! #line:90bd09
-		Bea: du hattest Angst davor? #line:59b85e
+    Mae: It was like #line:f5f2b0
+	->you were kidnapped by a cult #line:365956
+		Mae: and when they were like #line:59dc72
+		Mae: brainwashing you #line:6c2f64
+		Mae: instead of some cult guy #line:991928
+		Mae: with a wavy dagger and a magic mask #line:6d1af1
+		Bea: that’s not... ok yeah go on #line:db2aca
+		Mae: instead of that it was this effing pink nightmare! #line:90bd09
+		Bea: you were scared of it? #line:59b85e
         <<setAnimint Mae headShaking 1>>
-		Mae:{width=8} nein! Mir war  T O D E S L A N G W E I L I G. #line:43afe4
+		Mae:{width=8} no! I was B O R E D  T O  D E A T H. #line:43afe4
         <<setAnimint Mae headShaking 0>>
-		Mae: es hat ewig darueber geredet, wie man freundlich zu anderen ist #line:5c3749
-        Mae: und wie ich einem alten Nachbarn bei der Motorreparatur helfen kann #line:6bbf3a
-        Bea: das klingt... nett? #line:50e46c
-        Bea: Charity Bearity hilft dem alten Mr. Plonko bei der Reparatur seines Luftkissenfahrzeugs #line:8c7330
-        Mae: ugh nein das ist der schlimmste Teil- es reimt sich IMMER! #line:deaeaf
+		Mae: it was talking forever about like being kind to others #line:5c3749
+        Mae: and like i dunno helping an old neighbor do engine repair #line:6bbf3a
+        Bea: that sounds... nice? #line:50e46c
+        Bea: Charity Bearity Helps Old Mr. Plonko Fix His Hovercraft #line:8c7330
+        Mae: ugh no that’s the worst part- it ALWAYS rhymed! #line:deaeaf
         Bea: Charity Bearity: Pink Nightmarity. #line:3f1969
         Mae: _o_ #line:3b8b83
-        Mae: Charity Bearity: I Just Don't Carity #line:aafc33
-    ->du warst unter einem Fluch #line:728c9b
-		Mae: wo ein suesses Ding dir folgte #line:369383
+        Mae: Charity Bearity: I Just Don’t Carity #line:aafc33
+    ->you were under some curse #line:728c9b
+		Mae: where a cute thing followed you around #line:369383
 		Mae: 24-7 #line:54c080
-		Mae: schreien ueber wie #line:009268
-		Mae: teilen und nicht wegschmeissen #line:90886a
-        Mae: und Steuern zahlen #line:2992a3
-        Bea: Nun, das ist eine wichtige ... aeh ... Faehigkeit. #line:90049e
-        Mae: Ich war 5!!! #line:cf99d3
-        Mae: Ich bin jetzt 20 und habe immer noch keine Steuern gezahlt!!! #line:455060
+		Mae: yelling about like #line:009268
+		Mae: sharing and not littering #line:90886a
+        Mae: and paying taxes #line:2992a3
+        Bea: Well that’s an important... uh... skill. #line:90049e
+        Mae: I WAS 5!!! #line:cf99d3
+        Mae: I’m 20 now and I still haven’t paid taxes!!! #line:455060
         Mae: _o_ #line:14a89a
-        Bea:{width=4} Charity Bearity geht zu einer staatlichen Infrastruktur-Budgetierungssitzung #line:592f83
-        Mae: Ugh ich vergass den schlimmsten Teil- es reimte sich IMMER. #line:b80bde
-        Bea: Charity Bearity: Oh Nein! Austeritaet! #line:f7f13e
+        Bea:{width=4} Charity Bearity Goes To A State Infrastructure Budgeting Meeting #line:592f83
+        Mae: Ugh I forgot the worst part- it ALWAYS rhymed. #line:b80bde
+        Bea: Charity Bearity: Oh No! Austerity! #line:f7f13e
         <<set $austerity_bearity to 1>>
-        Mae: Was ist das? #line:7723c9
-        Bea:{width=4} Grund, dass die beiden Bruecken in und aus Saltztown immer noch gesperrt sind #line:e21d15
-        Mae: Oh wow, du kannst immer noch nicht... nach Saltztown? #line:b0c60a
-        Bea: Du kannst es gerne versuchen! #line:1f5947
+        Mae: What’s that? #line:7723c9
+        Bea:{width=4} Reason the two bridges in and out of Saltztown are still closed #line:e21d15
+        Mae: Oh wow you still can’t like... go to Saltztown? #line:b0c60a
+        Bea: You’re welcome to try! #line:1f5947
 <<elseif $library_charity_bearity is 1>>
     <<set $library_charity_bearity += 1>>
     <<set $library_charity_bearity_done to 1>>
-    Bea: Oje. Die haben wirklich eine Menge dieser Buecher gemacht. #line:a1a2ed
-    Mae: Ich glaube, sie stellen sie immer noch her. #line:329cd9
-    Bea: Der hier sieht ziemlich alt aus. #line:9fff03
-    Mae: Charity Bearity: Gefahr Ueberall-ity #line:596a3e
-    Bea: Das ist vage. Und beunruhigend. #line:89f448
-    Mae: Ich haette das eine Buch einfach weiter aktualisieren koennen #line:401e4a
+    Bea: geez. They sure made a lot of these books. #line:a1a2ed
+    Mae: I think they’re still making them. #line:329cd9
+    Bea: This one looks pretty old. #line:9fff03
+    Mae: Charity Bearity: Danger Everywhere-ity #line:596a3e
+    Bea: That’s vague. And disconcerting. #line:89f448
+    Mae: could’ve just kept updating that one book #line:401e4a
 <<endif>>
 ===
 title: LeaveThirdFloorElevator
-tags:
+tags: 
 colorID: 0
 position: 809,126
 ---
 Bea: *sniff* *sniff* #line:b4dc5c
-Bea: oh wow es ist staubig hier oben #line:dda4de
+Bea: oh wow it’s dusty up here #line:dda4de
 Mae: O_o #line:a9d378
-Mae: Es ist *ALT* hier oben. #line:1e3bb9
-Bea: Sicher ist es das. #line:9bdfec
-Bea: vielleicht ist dein... Geist? hier oben. #line:541888
+Mae: It’s *OLD* up here. #line:1e3bb9
+Bea: sure is. #line:9bdfec
+Bea: maybe your... ghost? is up here. #line:541888
 Mae: o_o #line:43661a
-Mae: jep. Geist. #line:34ed1c
-Mae: oder so. #line:e81f1c
-Mae: was auch immer er war, #line:ae8d3b
-Mae: er ist durch einen Maschendrahtzaun gelaufen #line:a00f58
-Mae: oder flog darueber #line:611f61
-Mae: oder etwas anderes. #line:4d749f
-Mae: *waehrend* er etwas trug. #line:76b766
-Bea: oh richtig, das ist ja noch beeindruckender. #line:f56048
-Mae: also werden wir diesen Kerl suchen gehen. #line:a5d0eb
-Mae: weil er jemanden entfuehrt hat #line:48f9f8
-Mae: und er ist irgendwie mit dieser Sache verbunden, die ich durchgemacht habe #line:c9d7d3
-Mae: und das ist nicht gut. #line:9c9591
+Mae: yep. ghost. #line:34ed1c
+Mae: or something. #line:e81f1c
+Mae: whatever he was, #line:ae8d3b
+Mae: he walked through a chain link fence #line:a00f58
+Mae: or flew over it #line:611f61
+Mae: or something. #line:4d749f
+Mae: *while* carrying something. #line:76b766
+Bea: oh right, well that's even more impressive. #line:f56048
+Mae: so we're gonna go find this guy. #line:a5d0eb
+Mae: because he took someone #line:48f9f8
+Mae: and he's like somehow connected to this thing i've been going through #line:c9d7d3
+Mae: and that's not good. #line:9c9591
 <<wait 2>>
 Mae: :\ #line:53c8c8
-Mae: das klang in meinem Kopf alles viel knallharter. #line:587256
-Bea: es ist ok. es war gut. #line:81fb46
+Mae: that all sounded a lot more bad-ass in my head. #line:587256
+Bea: it's ok. it was fine. #line:81fb46
 Mae: :| #line:d8b12a
 ===
 title: Intro2
-tags:
+tags: 
 colorID: 0
 position: -466,511
 ---
 <<fadeOutMusic 3>>
-Mae: also haben wir ein paar Spuren #line:61c720
-Mae: kann ich diese Woche dein Auto ausleihen? #line:cc8c1b
-Bea: hast du ueberhaupt einen Fuehrerschein? #line:7a1a34
-Bea: Ich meine nein, trotzdem, aber hast du einen? #line:baf92f
-Mae: Noe. #line:318b25
-Mae: kein Fuehrerschein, keine Kreditkarten, glaube nicht an Geld #line:ead042
-Bea: du glaubst nur an die Autos und das Geld anderer Leute #line:ac11d5
-Mae: ich habe mir nicht ausgesucht, in diese Gesellschaft hineingeboren zu werden #line:9f1a66
+Mae: so we’ve got some leads #line:61c720
+Mae: can I borrow your car this week? #line:cc8c1b
+Bea: do you even have a license? #line:7a1a34
+Bea: I mean no, regardless, but do you? #line:baf92f
+Mae: nope. #line:318b25
+Mae: no license, no credit cards, don’t believe in money #line:ead042
+Bea: you just believe in other people’s cars and money #line:ac11d5
+Mae: i didn’t choose to be born into this society #line:9f1a66
 Bea: ... #line:e22144
-Bea: ok, also ich habe, du weisst schon, einen Job #line:2107eb
-Bea: also kann ich dich nicht zu all diesen Orten fahren #line:f67539
-Bea: ich kann vielleicht den Friedhof machen? #line:9fe424
-Bea: ich muss sowieso dorthin gehen. #line:22ed89
+Bea: ok well I have, you know, a job #line:2107eb
+Bea: so i can’t drive you around to all of these spots #line:f67539
+Bea: i can maybe do the graveyard? #line:9fe424
+Bea: i need to go there anyway. #line:22ed89
 Mae: :) #line:e6b4f2
-Mae: cool! Ich werde mal sehen, ob Gregg die anderen beiden machen will. #line:0b56ea
-Bea: weisst du, und ich muss das wahrscheinlich nicht sagen #line:f424b2
+Mae: cool! I’ll see if gregg wants to do the other two. #line:0b56ea
+Bea: you know, like, and i probably don’t have to say this #line:f424b2
 Mae: :| #line:7b814b
-Bea: aber nur weil etwas in der Vergangenheit passiert ist #line:01ea45
-Bea: heisst das nicht, dass es wieder passieren wird. #line:dfbb7d
+Bea: but just because something happened in the past  #line:01ea45
+Bea: doesn’t mean it’s going to happen again. #line:dfbb7d
 Mae: o> #line:711066
-Mae: Hey Nerd, schon mal gehoert, dass sich die Geschichte wiederholt? #line:097ea2
-Mae: Das tut sie. Sie tut das Gleiche immer und immer wieder. #line:57e1e6
-Bea: Wir befinden uns also in einer Schleife, seit wir in Hoehlen leben? #line:160468
+Mae: Hey nerd, ever hear that history repeats? #line:097ea2
+Mae: It does. It does the same thing over and over again. #line:57e1e6
+Bea: So we’ve just been in a loop since we were living in caves? #line:160468
 Mae: _o_ #line:94a875
-Mae: Ja. Das ist Wissenschaft. #line:3a0ea3
-Bea: Oh mein verdammter Gott. #line:29f8ff
+Mae: Yeah. That’s science. #line:3a0ea3
+Bea: oh my freaking god. #line:29f8ff
 ===
 title: PoetSociety
-tags:
+tags: 
 colorID: 0
 position: 751,451
 ---
@@ -313,47 +313,47 @@ position: 751,451
 <<walk Mae MaePoetry>>
 <<walk Bea BeaPoetry wait>>
 <<flip Bea 1>>
-MissQuelcy: Aehem! #line:fbd202
-Mae: Was ist... #line:e9a2e1
+MissQuelcy: Ahem! #line:fbd202
+Mae: What is... #line:e9a2e1
 //Librarian: Shhh!
 Bea: Is that Miss Quelcy? #line:d6272f
-Mae: Oh wow. Ich habe sie seit der Abschlussfeier nicht mehr gesehen. #line:bcd4ad
-Bea: sie war schon immer ein knallharter Typ. #line:362b7f
-Bea: der Schulbezirk hat das Kunstprogramm ueberhaupt nicht finanziert. #line:e7abf3
-Bea: aber sie hat es zum Laufen gebracht #line:32e115
-Bea: sie war eine Art Ueberlebenskuenstlerin unter den Kunstlehrern. #line:04f3b3
-Mae: wow. Das haette ich nie gedacht. #line:480c58
-Bea: Ich glaube, sie bezahlen sie mit Schnurstuecken und leeren Limodosen. #line:51af9d
+Mae: oh wow. Haven’t seen her since graduation. #line:bcd4ad
+Bea: she was always kind of a badass. #line:362b7f
+Bea: school district did not fund that art program at all. #line:e7abf3
+Bea: but she made it work #line:32e115
+Bea: she was like some sort of art teacher survivalist. #line:04f3b3
+Mae: wow. I never realized. #line:480c58
+Bea: I think they pay her in bits of string and empty soda cans. #line:51af9d
 <<if $austerity_bearity>>
-	Mae: Du solltest die Schnur sparen, um die Bruecken nach Saltztown zu reparieren. #line:21c5b8
-	Bea: Da hast du's. #line:991f58
+	Mae: Should be saving that string to repair those bridges into Saltztown. #line:21c5b8
+	Bea: There you go. #line:991f58
 <<endif>>
-MissQuelcy: Danke, dass ihr alle zu diesem zweiten Treffen gekommen seid #line:11daf5
-MissQuelcy: Von der Possum Springs Poetry Society #line:4a1cda
-Bea: Wollt ihr dabei bleiben? #line:3c0d46
+MissQuelcy: Thank you all for coming to this second meeting #line:11daf5
+MissQuelcy: Of the Possum Springs Poetry Society #line:4a1cda
+Bea: Do you want to stick around for this? #line:3c0d46
 ->Naw. #line:0f72d5
     Mae: :\ #line:401775
-	Mae: oeffentliche Poesie-Performance sollte wahrscheinlich verboten werden.  #line:56ff66
-	Bea: wann hast du jemals eine gesehen? #line:d6d342
-	Mae: Schule. alte Mitbewohnerin. #line:d272be
-	Bea: du hast deine alte Mitbewohnerin nie erwaehnt. #line:bf1bf9
-	Mae: sie ist eine ganze Geschichte fuer sich. #line:3da30d
+	Mae: public poetry performance should probably be outlawed.  #line:56ff66
+	Bea: when have you ever seen one? #line:d6d342
+	Mae: school. old roommate. #line:d272be
+	Bea: you’ve never mentioned your old roommate. #line:bf1bf9
+	Mae: she’s an entire story unto herself. #line:3da30d
     Mae: :| #line:d5b321
-	MissQuelcy: Entschuldigung, bleiben Sie beide hier? #line:211445
-	MissQuelcy: Wenn ja, wollt ihr euer Gespraech hier oben fuehren? #line:51de83
+	MissQuelcy: Excuse me, are you two staying? #line:211445
+	MissQuelcy: if so, would you like to have your conversation up here? #line:51de83
     <<walk Mae MaeInFrontOfDoor>>
     <<walk Bea BeaInFrontOfDoor>>
-	Mae: Nein! Auf beides! #line:78b6d9
-	Mae: Wir stehen nicht darauf, alles zu reimen, was wir sagen. #line:10eae0
+	Mae: No! To both! #line:78b6d9
+	Mae: We’re not big into rhyming everything we say. #line:10eae0
     <<close>>
     <<waitForMove Mae>>
     <<waitForMove Bea>>
-	MissQuelcy: Poesie muss sich nicht reimen! #line:cf3288
-	Mae: Das ist das Duemmste, was ich je gehoert habe. #line:09e539
+	MissQuelcy: Poetry doesn’t have to rhyme! #line:cf3288
+	Mae: That is the stupidest thing I have ever heard. #line:09e539
 	<<walk Mae MaeOut>>
     <<walk Bea BeaOut>>
     <<close>>
-->Ja! #line:bdee13
+->Yeah! #line:bdee13
     <<close>>
 	//lights go down
     //Mae hops up on library counter//
@@ -361,149 +361,149 @@ Bea: Wollt ihr dabei bleiben? #line:3c0d46
     <<cameraLookAt CameraPoetry 6>>
     <<playMusic poetry_society>>
     <<wait 1>>
-	MissQuelcy: Heute Abend haben wir neue Gedichte von mir #line:b687b2
-    MissQuelcy: und "Fisherman" Jones #line:e571be
+	MissQuelcy: Tonight we have new poems from myself #line:b687b2
+    MissQuelcy: and "Fisherman" Jones #line:e571be
     <<if $selmers_poet >= 3>>
-        MissQuelcy: und Selma Ann Forrester. #line:80ea8b
+        MissQuelcy: and Selma Ann Forrester. #line:80ea8b
     <<endif>>
-    MissQuelcy: Ich werde uns mit einem meiner eigenen beginnen. #line:079225
-    ->sie ist aus einer grossen Stadt, richtig? #line:eefe3f
-        Bea: ja #line:c8f336
-        Mae: wie ist sie denn hier gelandet? #line:254c96
-        Bea: wer weiss. #line:eadc6c
-    ->sie bezahlen sie nicht wirklich in String, richtig? #line:c26ef4
+    MissQuelcy: I will start us off with one of my own. #line:079225
+    ->she's from some big city, right? #line:eefe3f
+        Bea: yeah #line:c8f336
+        Mae: how'd she end up here? #line:254c96
+        Bea: who knows. #line:eadc6c
+    ->they don't actually pay her in string, right? #line:c26ef4
         Bea: ... #line:0ec945
-        Bea: Ja, Mae. Sie bezahlen sie buchstaeblich in String. #line:6d030e
-        Mae: Ich habe nur einen Scherz gemacht! #line:1df9d6
-        Bea: Richtig. #line:9ea899
-    MissQuelcy: *aehem* #line:b9a74c
-    MissQuelcy: "Brief an meine schlechteste Schuelerin" #line:d25efa
-    MissQuelcy: An meine schlimmste Schuelerin #line:e261f2
-    MissQuelcy: das Thema meiner Geschichten #line:f00f4f
-    MissQuelcy: ich erzaehle Freunden zu Hause #line:959ea3
-    MissQuelcy: wenn sie nach dem Leben fragen #line:35031f
-    MissQuelcy: hier draussen in der Pampa #line:fa0bcc
-    MissQuelcy: du bist es. #line:99f3d2
-    MissQuelcy: Ich mache mir Sorgen #line:d5ecf3
-    MissQuelcy: am Ende meines Lebens #line:3da90e
-    MissQuelcy: du wirst die einzige sein, an die ich mich erinnere #line:633b61
-    MissQuelcy: warum hat #line:578640
-    MissQuelcy: du Schluessel #line:3cb609
-    MissQuelcy: mein Auto #line:abffd4
-    MissQuelcy: ich weiss #line:00740d
-    MissQuelcy: es war #line:9bc068
-    MissQuelcy: du #line:e44cfb
+        Bea: Yes, Mae. They literally pay her in string. #line:6d030e
+        Mae: I was just joking! #line:1df9d6
+        Bea: right. #line:9ea899
+    MissQuelcy: *ahem* #line:b9a74c
+    MissQuelcy: "Letter To My Worst Student" #line:d25efa
+    MissQuelcy: To my Worst Student #line:e261f2
+    MissQuelcy: the subject of my stories #line:f00f4f
+    MissQuelcy: i tell friends back home #line:959ea3
+    MissQuelcy: when they ask about life #line:35031f
+    MissQuelcy: out here in the sticks #line:fa0bcc
+    MissQuelcy: it's you. #line:99f3d2
+    MissQuelcy: I worry #line:d5ecf3
+    MissQuelcy: at the end of my life #line:3da90e
+    MissQuelcy: you will be the only one i remember #line:633b61
+    MissQuelcy: why did #line:578640
+    MissQuelcy: you key #line:3cb609
+    MissQuelcy: my car #line:abffd4
+    MissQuelcy: i know #line:00740d
+    MissQuelcy: it was #line:9bc068
+    MissQuelcy: you #line:e44cfb
     MissQuelcy: Brian. #line:6ef51a
     MissQuelcy: ... #line:21f635
-    MissQuelcy: Danke, alle zusammen! #line:35c12b
-    ->ist das legal? #line:3e271e
-        Bea: Was? #line:3c53f9
-        Mae: so ueber Details ueber Studenten reden? #line:1834cc
-        Bea: sie hat keine Namen genannt. #line:0a48cf
-        Mae: ja, hat sie! #line:5b1e9a
-        Bea: ok, keine *vollstaendigen* Namen. #line:799e52
-    ->Arme Frau Quelcy. #line:9b27eb
-        Bea: Wenigstens laesst sie etwas Dampf ab. #line:467f9e
-    MissQuelcy: Als naechstes, "Fisherman" Jones. #line:98a17c
+    MissQuelcy: Thanks, everyone! #line:35c12b
+    ->is that legal? #line:3e271e
+        Bea: what? #line:3c53f9
+        Mae: talking about details about students like that? #line:1834cc
+        Bea: she didn't name names. #line:0a48cf
+        Mae: yeah she did! #line:5b1e9a
+        Bea: ok, no *full* names. #line:799e52
+    ->poor Ms. Quelcy. #line:9b27eb
+        Bea: at least she's blowing off some steam. #line:467f9e
+    MissQuelcy: Next up, "Fisherman" Jones. #line:98a17c
     //fisherman stands up//
-    MissQuelcy: Fisherman Jones hat ein Gedicht fuer uns... #line:553b08
-    Fisherman: Zwei. Zwei Gedichte. Aber sie sind kurz. #line:483620
-    MissQuelcy: Zwei Gedichte! Nimm sie weg! #line:69d033
-    Fisherman: Aeh... hallo Leute, danke. #line:b478e8
-    Fisherman: Dies heisst "Tunnelaale" #line:20735f
-    Fisherman: Tunnel Aale, Tunnel Aale #line:83fbc0
-    Fisherman: Ich weiss nicht, wie es ist #line:035427
-    Fisherman: Die ganze Zeit in der Dunkelheit zu sein #line:3eb252
-    Fisherman: Im Dreck geboren und im Schlamm aufgewachsen #line:61cf34
-    Fisherman: Aber du kennst auch nicht den Weg, den ich gegangen bin #line:e31835
-    Fisherman: also steht es dir kaum zu, zu urteilen. #line:dbe7c0
+    MissQuelcy: Fisherman Jones has a poem for us- #line:553b08
+    Fisherman: Two. Two poems. They're short, though. #line:483620
+    MissQuelcy: Two poems! Take it away! #line:69d033
+    Fisherman: uh... hi folks. thanks. #line:b478e8
+    Fisherman: This is called "Tunnel eels" #line:20735f
+    Fisherman: Tunnel Eels, Tunnel Eels #line:83fbc0
+    Fisherman: I do not know how it feels #line:035427
+    Fisherman: To be in darkness all the time #line:3eb252
+    Fisherman: Born in muck and raised in slime #line:61cf34
+    Fisherman: But neither d'you know paths I've trudged #line:e31835
+    Fisherman: so it hardly is your place to judge. #line:dbe7c0
     Fisherman: ... #line:d526bb
-    Fisherman: ok das ist ein Gedicht. das naechste ist kuerzer. #line:6ff167
-    Fisherman: Das heisst "Tunnelfroesche" #line:e09abf
-    Fisherman: Tunnelfrosch schwimmt im Dunkeln #line:a7c8af
-    Fisherman: muss denken, es waere eine Lerche #line:1daf2a
-    Fisherman: ein Fischer zu sein wie ich #line:b00be5
-    Fisherman: aber was weisst du schon, Amphibee'? #line:b24836
+    Fisherman: ok that's one poem. the next one is shorter. #line:6ff167
+    Fisherman: This is called "Tunnel frogs" #line:e09abf
+    Fisherman: Tunnel Frog swims in the dark #line:a7c8af
+    Fisherman: must think it would be a lark #line:1daf2a
+    Fisherman: to be a fisherman like me #line:b00be5
+    Fisherman: but what do you know, amphibee'? #line:b24836
     Fisherman: ... #line:166f1f
     //fisherman sits down//
-    Fisherman: das ist es. #line:c87f28
-    MissQuelcy: Das ist grossartig! Danke, "Fischer" Jones! #line:898c2e
+    Fisherman: that's it. #line:c87f28
+    MissQuelcy: That's great! Thank you "Fisherman" Jones! #line:898c2e
     <<if $selmers_poet >= 3>>
-        ->Der alte macht sich wirklich Sorgen darueber, was die Fische denken. #line:068f70
-            Bea: Dieser Tunnel macht mir immer Angst. #line:4b0cd9
-        ->Er spricht definitiv mit den Fischen. #line:9fd42b
-            Bea: oh ganz bestimmt. #line:e838aa
-        MissQuelcy: Endlich, ein Gedicht von Selma Ann Forrester! #line:60817a
+        ->Dude is really worried about what fish think. #line:068f70
+            Bea: that tunnel always spooks me. #line:4b0cd9
+        ->He definitely talks to the actual fish. #line:9fd42b
+            Bea: oh most definitely. #line:e838aa
+        MissQuelcy: Finally, a poem by Selma Ann Forrester! #line:60817a
         //selmers stands up//
         Mae: :) #line:1e7f61
         Mae: YAY SELMERS! #line:960b00
-        Selmers: danke Mae. #line:ca2d26
-        Bea: du kennst sie? #line:e5c67f
+        Selmers: thanks Mae. #line:ca2d26
+        Bea: you know her? #line:e5c67f
         Mae: o_o #line:3a8009
-        Mae: Mann, sie ist wie deine Nachbarin. #line:bb64cd
+        Mae: Dude, she’s like your neighbor. #line:bb64cd
         Bea: oh. #line:b38c2d
-        Mae: sie schreibt diese wirklich lustigen, bescheuerten Kurzgedichte. #line:015255
-        Bea: ich bin fuer etwas Kurzes und Lustiges zu haben! #line:80b1ea
-        Selmers: das nennt man #line:f572ee
-        Selmers: "In Possum Springs gibt es keinen Empfang" #line:f96b2d
+        Mae: she writes these really funny dorky short poems. #line:015255
+        Bea: i'm up for something short and funny! #line:80b1ea
+        Selmers: this is called #line:f572ee
+        Selmers: "There’s no reception in Possum Springs" #line:f96b2d
         Mae: :) #line:a30d58
         Mae: ha ha ha! #line:1c42a9
-        Bea: Sie hat nicht Unrecht! #line:280413
+        Bea: she’s not wrong! #line:280413
         Selmers: *ahrrm ahrrrm* #line:fd1fe6
         Mae: :| #line:5d0e15
         <<fadeOutMusic 5>>
-        Selmers: Nein | Empfang | Hier #line:827dc7
-        Selmers: Ich winke mit meinem schwarzen Telefon #line:8bdce4
-        Selmers: In der Luft wie eine Fackel | wie ein Gebet | aber kein | Empfang #line:460e74
-        Selmers: Ich lese im Internet | Babyface Boy Milliardaer #line:609a6f
-        Selmers: Telefon-App verkauft | mehr Geld an einem Tag gemacht | als meine Familie | ueber 100 Generationen #line:ce35b7
-        Selmers: Mehr als meine ganze Welt je hatte #line:ba8d2c
-        Selmers: Welt, in der Jobs zum Hauskauf | zu mietzahlenden Jobs | zu Jobs zum Leben mit der Familie wurden #line:948b49
-        Selmers: Junge | Milliardaere #line:fa85a2
-        Selmers: Geld ist Zugang | Zugang zu Politikern | Warten auf unseren Tod | Blei in unserem Wasser | Alkohol und Schmerzmittel #line:5a3cea
-        Selmers: ersetze meinen Job durch eine App | ersetze meine Traeume | von einem Haus und einem Garten #line:a8d663
-        Selmers: mit einer Couch | im Keller #line:632f32
-        Selmers: "Die Zukunft gehoert dir!" #line:7e0076
-        Selmers: gezwungene 24-7 Unternehmer. #line:0f154d
-        Selmers: Ich will nur einen Gehaltsscheck | und mein eigenes Leben #line:4eab98
-        Selmers: ich bin auf der Couch | im Keller | sie sind im Haus | und im Hof #line:a861f4
-        Selmers: eines Nachts werde ich einen Bus an die Westkueste nehmen #line:1ec35a
-        Selmers: und ihre Siliziumstadt bis auf den Grund niederbrennen #line:cc403d
+        Selmers: No | Reception | Here #line:827dc7
+        Selmers: I wave my | black phone #line:8bdce4
+        Selmers: In the air like a flare | like a prayer | but no | reception #line:460e74
+        Selmers: I read on the internet | baby face boy billionaire #line:609a6f
+        Selmers: phone app sold | made more money in one day | than my family | over 100 generations #line:ce35b7
+        Selmers: More than my whole world ever has #line:ba8d2c
+        Selmers: world where house-buying jobs | became rent-paying jobs | became living with family jobs #line:948b49
+        Selmers: Boy | billionaires #line:fa85a2
+        Selmers: Money is access | access to politicians | waiting for us to die | lead in our water | alcohol and painkillers #line:5a3cea
+        Selmers: replace my job with an app | replace my dreams | of a house and a yard #line:a8d663
+        Selmers: with a couch | in the basement #line:632f32
+        Selmers: "The future is yours!" #line:7e0076
+        Selmers: forced 24-7 entrepreneurs. #line:0f154d
+        Selmers: I just want a paycheck | and my own life #line:4eab98
+        Selmers: i'm on the couch | in the basement | they're in the house | and the yard #line:a861f4
+        Selmers: some night i will catch | a bus out to | the west coast #line:1ec35a
+        Selmers: and burn their silicon city | to the ground #line:cc403d
         <<set $saw_selmers_deliver_poem_at_poets_society to 1>>
         <<wait 2>>
         <<unlockDoodle SelmersGoodPoet>>
-        Bea: heilige Scheisse #line:bff1e5
-        Mae: wow. verdammt. #line:657c5e
-        Bea: huh. Sie hat "Unternehmer" gereimt #line:6d4926
-        Mae: ich weiss nicht mal, was das Wort bedeutet #line:74852c
-        Selmers: danke an alle #line:7c08b4
-        Bea: ist sie immer so? #line:a8982c
-        Mae: nein #line:2082f3
+        Bea: holy shit #line:bff1e5
+        Mae: wow. damn. #line:657c5e
+        Bea: huh. She rhymed “entrepreneur” #line:6d4926
+        Mae: i don’t even know what that word means #line:74852c
+        Selmers: thanks everyone #line:7c08b4
+        Bea: is she always like this? #line:a8982c
+        Mae: no #line:2082f3
         Mae: wow. #line:219a8d
         Bea: huh #line:6e9f11
-        MissQuelcy: Danke an alle. Wir sehen uns in zwei Wochen. #line:5fe8d5
+        MissQuelcy: thanks everyone. See you in two weeks. #line:5fe8d5
         <<lookAt Mae Selmers>>
         Mae: HEY SELMERS! #line:b255c1
         Selmers: WHAT! #line:2443fd
         Mae: :) #line:0cfe8c
-        Mae: ICH LIKED DEIN SCHRECKLICHES POEM! #line:96058c
-        Selmers: DANKE, ICH HABE ES SELBST GESCHRIEBEN! #line:ee6b0c
-        Bea: warte, war die Annahme, dass sie es *nicht* selbst geschrieben hat- #line:cb5f41
-        Mae: GUTE ARBEIT STINKER! #line:2c7e19
-        Selmers: ICH MAG DIESEN SPITZNAMEN NICHT! #line:8411a9
+        Mae: I LIKED YOUR WEIRD POEM! #line:96058c
+        Selmers: THANKS I WROTE IT MYSELF! #line:ee6b0c
+        Bea: wait, was the assumption that she *didn't* write it hers- #line:cb5f41
+        Mae: NICE WORK SMELLMER! #line:2c7e19
+        Selmers: I DON'T LIKE THAT NICKNAME! #line:8411a9
         Mae: o_o #line:13f747
-        Bea: was bist du zwei- #line:04fe64
+        Bea: what are you two- #line:04fe64
         Mae: SORRY! #line:879e3b
         Selmers: IT'S COOL! #line:924bc3
-        Bea: koennen wir jetzt gehen? #line:63f235
+        Bea: can we go now? #line:63f235
         <<unlockAchievement Poets_of_Possum_Springs>>
     <<else>>
         <<fadeOutMusic 5>>
-        MissQuelcy: Das war's fuer heute Abend, Leute! #line:017fb6
-        MissQuelcy: Wir sehen uns in zwei Wochen! #line:cfa783
-        MissQuelcy: alle sind herzlich eingeladen, sich uns bei Donut Wolf anzuschliessen! #line:8b8994
+        MissQuelcy: That's all for tonight, everyone! #line:017fb6
+        MissQuelcy: See you in two weeks! #line:cfa783
+        MissQuelcy: all are welcome to join us at Donut Wolf! #line:8b8994
         Mae: DONUT WOLF!!!!! #line:91a9a5
-        Bea: Wir gehen nach Hause, Mae. #line:58359a
+        Bea: We're going home, Mae. #line:58359a
         Mae: :( #line:358bb7
         Mae: AWWWWW!!!!!! #line:f23d08
     <<endif>>
@@ -514,7 +514,7 @@ Bea: Wollt ihr dabei bleiben? #line:3c0d46
 <<scene GreggAngusApartment>>
 ===
 title: InitLevel
-tags:
+tags: 
 colorID: 0
 position: -1009,38
 ---

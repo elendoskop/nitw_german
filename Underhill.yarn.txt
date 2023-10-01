@@ -1,5 +1,5 @@
 title: InitLevel
-tags:
+tags: 
 colorID: 0
 position: -1937,10405
 ---
@@ -57,7 +57,7 @@ position: -1937,10405
 <<endif>>
 ===
 title: Rick
-tags:
+tags: 
 colorID: 2
 position: -962,11601
 ---
@@ -74,46 +74,46 @@ position: -962,11601
 <<endif>>
 ===
 title: Rick_00_00
-tags:
+tags: 
 colorID: 2
 position: -1238,11922
 ---
-Mae: Hallo? Bist du tot? #line:f4662f
-Mae: Bist du ueberfahren worden? #line:d53b30
-Rick: Nee, Kleiner, ich bringe sie nur in Ordnung. #line:6b596b
-Mae: Ist es nicht gefaehrlich, an einem Huegel unter einem Auto zu sein? #line:5a298a
-Rick: Ich habe keine Angst vor dem Tod, Junge. #line:22295d
-Mae: Erwachsener. #line:1954e3
-Rick: Der Tod fuerchtet mich. #line:407d31
-Mae: ja ok aber #line:623ef1
-Rick: Ich werde dieses Auto direkt ueber den Sensenmann fahren. #line:e49503
+Mae: Hello? Are you dead? #line:f4662f
+Mae: Did you get run over? #line:d53b30
+Rick: Nah kid I’m just fixin' 'er up. #line:6b596b
+Mae: Isn't it dangerous to be under a car on a hill? #line:5a298a
+Rick: I do not fear death, kid. #line:22295d
+Mae: Adult. #line:1954e3
+Rick: Death fears me. #line:407d31
+Mae: yeah ok but #line:623ef1
+Rick: I'll drive this car right over the grim reaper. #line:e49503
 Mae: ok. #line:df7c2d
 ===
 title: Rick_00_01
-tags:
+tags: 
 colorID: 2
 position: -943,11925
 ---
-Mae: Wohnst du hier oder so? #line:7e7b53
-Rick: Ja, Kleiner, Rekkage Manor ist direkt hinter dir. #line:85c6c7
-Mae: Erwachsener. #line:d61d6b
-Mae: Warte mal - bist du Rick Rekkage? #line:a7f8c3
-Mae: Wie, der schleichende Todesser Rick Rekkage? #line:f78c2a
-Rick: Ja, Junge. Ich bin er. Er ist ich. #line:ae98da
-Mae: Wie geht's der Band? #line:c5542c
-Rick: Grossartig. Spielt draussen. Freibier. #line:a69cc9
-Rick: Komm doch mal in der Bar vorbei und besuch uns! #line:735e8d
-Mae: Ich bin noch nicht 21. #line:d8ba2e
-Rick: Ach, mach dir keine Sorgen, Kind. Du wirst bald ein richtiger Mensch sein. #line:f3f1b5
+Mae: Do you live here or something? #line:7e7b53
+Rick: Yeah kid, Rekkage Manor is right behind you. #line:85c6c7
+Mae: Adult. #line:d61d6b
+Mae: Wait a sec- are you Rick Rekkage? #line:a7f8c3
+Mae: Like, The Creeping Deadlies Rick Rekkage? #line:f78c2a
+Rick: Yeah kid. I’m him. He’s me. #line:ae98da
+Mae: How’s the band? #line:c5542c
+Rick: Great. Playin' out. Free beer. #line:a69cc9
+Rick: Stop by the bar some night and see us! #line:735e8d
+Mae: I’m not 21 yet. #line:d8ba2e
+Rick: Aw don't worry kid. You'll be a real person soon. #line:f3f1b5
 Mae: Adu- #line:920151
-Mae: wie auch immer. #line:7977ae
+Mae: whatever. #line:7977ae
 ===
 title: Rick_00_02
-tags:
+tags: 
 colorID: 2
 position: -635,11920
 ---
-Rick:{emote=Schraubenschluessel} #line:43e205
+Rick:{emote=wrench} #line:43e205
 ===
 title: StoopKid_A0D0
 tags: demo
@@ -123,10 +123,10 @@ position: -3327,11121
 <<if $stoop_kid < 1>>
     <<set $stoop_kid to 1>>
     <<set $stoop_kid_done to 1>>
-    Mae: Hallo Kind. #line:f0018d
-    StoopKid: Was willst du? #line:a553e3
-    [[DeinBlut.|YourBlood]] #line:dc9b81
-    [[Was tust du?|WhatAreYouDoing]] #line:30abbd
+    Mae: Hello child. #line:f0018d
+    StoopKid: What do you want? #line:a553e3
+    [[Your blooooood.|YourBlood]] #line:dc9b81
+    [[What are you doing?|WhatAreYouDoing]] #line:30abbd
 <<endif>>
 ===
 title: WhatAreYouDoing
@@ -134,8 +134,8 @@ tags: demo
 colorID: 0
 position: -3551,11405
 ---
-StoopKid: Ich beobachte Eichhoernchen. Eichhoernchen sind komisch. #line:396d47
-Mae: Sie sind eigentlich nur schicke Ratten. #line:3e6f14
+StoopKid: Watching squirrels. Squirrels are weird. #line:396d47
+Mae: They're really just fancy rats. #line:3e6f14
 [[End]]
 ===
 title: YourBlood
@@ -143,10 +143,10 @@ tags: demo
 colorID: 0
 position: -3094,11390
 ---
-StoopKid: Wie viel davon? #line:2a6e3d
-Mae: Alles davon. Jeden letzten Tropfen suesses, suesses Kinderblut. #line:2bd53d
-StoopKid: Bist du eine Monsterfrau? #line:616bbd
-Mae: Die monstermaessigste aller Damen. #line:ed4479
+StoopKid: How much of it? #line:2a6e3d
+Mae: All of it. Every last drop of sweet, sweet child bloooood. #line:2bd53d
+StoopKid: Are you a monster lady? #line:616bbd
+Mae: The most monster of all ladies. #line:ed4479
 [[End]]
 ===
 title: End
@@ -154,46 +154,46 @@ tags: demo
 colorID: 0
 position: -3327,11697
 ---
-StoopKid: Meine Mutter sagt, ich soll nicht mit dir reden. #line:6fa4fb
-Mae: Warum? #line:3d407f
-StoopKid: Weil du einmal jemandem wehgetan hast und niemand weiss, wann du es wieder tun koenntest. #line:5d0540
-Mae: Das ist schon sehr lange her. #line:5f9ef2
-StoopKid: Sie sagt, du hattest eine Menge zu bieten, aber du hast es in den Muell geworfen. #line:5a47be
-Mae: Deine Mutter klingt grossartig. #line:127f20
-StoopKid: Sie sagt, du hast es nicht einmal versucht, als du aufs College gegangen bist #line:ab3db2
-StoopKid: und jetzt hast du deine einzige Chance vertan, nicht in einem verlassenen Zugwaggon zu leben. #line:d9ee7d
-Mae: Wow, Junge. Wird deine Mutter ein Rundschreiben herausgeben? #line:5adfb7
-StoopKid: Ich werde nicht mit dir reden, wenn das in Ordnung ist. #line:b7d16d
-Mae: Sag deiner Mutter einen Gruss von mir. #line:daf366
+StoopKid: My mom says I'm not supposed to talk to you. #line:6fa4fb
+Mae: Why? #line:3d407f
+StoopKid: Because one time you hurt somebody and no one knows when you might do it again. #line:5d0540
+Mae: That was a long time ago. #line:5f9ef2
+StoopKid: She says you had a lot going for you but you threw it in the garbage. #line:5a47be
+Mae: Your mom sounds great. #line:127f20
+StoopKid: She says you didn't even try when you went to college #line:ab3db2
+StoopKid: and now you've blown your only chance to avoid living in an abandoned train car. #line:d9ee7d
+Mae: Wow, kid. Is your mom going to publish a newsletter? #line:5adfb7
+StoopKid: I'm not going to talk to you if that's ok. #line:b7d16d
+Mae: Tell your mom I said hey. #line:daf366
 <<addToJournal UnderhillStoopKid>>
 ===
 title: Varney_Demo_00
-tags:
+tags: 
 colorID: 0
 position: -1264,11066
 ---
-Varney: Wenn er durch eines meiner Fenster faellt, werde ich nicht zoegern, rechtliche Schritte einzuleiten. #line:f9228e
-Mae: Wen? #line:ece263
-Varney: Er! Da oben auf dem Dach nebenan! #line:6a71ef
-Mae: Wenn er von diesem Dach durch ein Fenster faellt #line:9bb150
-Mae: wirst du dir aussuchen muessen, welchen Teil von ihm du verklagen wirst. #line:d4fabb
-Varney: Welcher Teil auch immer der groesste ist. #line:4705ba
-Chazokov: {align=middle,locator=icanhearyou} Ich kann dich hoeren, weisst du! #line:9a24a6
+Varney: If he falls through one of my windows I will not hesitate to take legal action. #line:f9228e
+Mae: Who? #line:ece263
+Varney: Him! Up there on the roof next door! #line:6a71ef
+Mae: If he falls from that roof through a window #line:9bb150
+Mae: you're going to have to pick which part of him you're going to sue. #line:d4fabb
+Varney: Whichever piece is biggest. #line:4705ba
+Chazokov: {align=middle,locator=icanhearyou} I can hear you, you know! #line:9a24a6
 <<set $varney to 1>>
 ===
 title: Varney_Demo_01
-tags:
+tags: 
 colorID: 0
 position: -1016,11071
 ---
-Varney: Dummer Baer. #line:652333
+Varney: Stupid Bear. #line:652333
 ===
 title: ApplebaumBuilding
 tags: demo demo2
 colorID: 0
 position: -2508,11967
 ---
-Mae: Ich erinnere mich noch daran, als Beas Familie ein Haus hatte und nicht eine winzige, deprimierende Wohnung. #line:aabc92
+Mae: I remember when Bea's family had a house and not a tiny depressing apartment. #line:aabc92
 <<set $applebaum_building_done to 1>>
 ===
 title: ApplebaumStatue
@@ -215,10 +215,10 @@ colorID: 0
 position: -2140,11875
 ---
 Mae:{locator=applebaum}Arnold Applebaum. #line:3fa2d1
-Mae:{locator=applebaum}Besass die Bergbaugesellschaft vor etwa tausend Jahren. #line:aaa95f
-Mae:{locator=applebaum}Vater sagte, er sei ein Gauner, der die Gewerkschaften hasste. #line:58c248
-Mae:{locator=applebaum}Aber wir haben doch eine Bibliothek! #line:c853d5
-Mae:{locator=applebaum}...die in Wohnungen umgewandelt wurde! #line:c0bd1b
+Mae:{locator=applebaum}Owned the mining company like a thousand years ago. #line:aaa95f
+Mae:{locator=applebaum}Dad said he was a crook who hated the unions. #line:58c248
+Mae:{locator=applebaum}But we did get a library! #line:c853d5
+Mae:{locator=applebaum}...that got turned into apartments! #line:c0bd1b
 <<set $applebaum_statue to 1>>
 ===
 title: ApplebaumStatuePlaque
@@ -227,13 +227,13 @@ colorID: 0
 position: -1870,11874
 ---
 <<set $applebaum_statue to 2>>
-Mae:{locator=applebaum}Hm. Ich glaube nicht, dass ich diese Tafel jemals zuvor gelesen habe. #line:1801df
+Mae:{locator=applebaum}Hm. Don't think I've ever read this plaque before. #line:1801df
 Mae:{locator=applebaum}Arnold A. Applebaum. #line:b726c8
-Mae:{locator=applebaum}"Ein Vater aller Arbeiter", #line:a61066
-Mae:{locator=applebaum}"ein Grossvater fuer ihre Kinder", #line:bb8651
-Mae:{locator=applebaum}"ein Urgrossvater fuer die Kinder dieser Kinder..." #line:5d1f8a
-Mae:{locator=applebaum}Es geht eine Weile so weiter. #line:68839c
-Mae:{locator=applebaum}Errichtet 1910. #line:d374b1
+Mae:{locator=applebaum}"A father to all workers," #line:a61066
+Mae:{locator=applebaum}"a grandfather to their children," #line:bb8651
+Mae:{locator=applebaum}"a great-grandfather to those children's children..." #line:5d1f8a
+Mae:{locator=applebaum}It keeps going like that for awhile. #line:68839c
+Mae:{locator=applebaum}Erected 1910. #line:d374b1
 ===
 title: ApplebaumStatueBea
 tags: demo demo2
@@ -241,33 +241,33 @@ colorID: 0
 position: -1609,11867
 ---
 <<set $applebaum_statue to 3>>
-Mae:{locator=applebaum}Bea hat diesen Kerl direkt vor ihrem Fenster. #line:f1b7f5
-Mae:{locator=applebaum}Staendig. #line:94720b
+Mae:{locator=applebaum}Bea has this dude right outside her window. #line:f1b7f5
+Mae:{locator=applebaum}Constantly. #line:94720b
 Mae:{locator=applebaum}Arnold Stalkerbaum. #line:ca006b
 <<unlockDoodle Stalkerbaum>>
 <<set $applebaum_statue_done to 1>>
 ===
 title: TriggerCityCouncil_A1D3
-tags:
+tags: 
 colorID: 2
 position: -1779,10972
 ---
-Council1: und wenn wir nicht *ANFANGEN*, Unternehmen hier anzusiedeln #line:db1a17
-Council1: wird es keine Opossumquellen *SEIN*. #line:dd68ab
-Council1: Also muessen wir alles tun, was wir tun koennen #line:321f84
-Council1: um den Markt auf uns aufmerksam zu machen! #line:b92858
-Council4: koennen wir zum eigentlichen Thema zurueckkehren? #line:0080aa
-Council1: ja, wir stellen also Mittel fuer den Erhalt der Statue von- #line:b6d57f
-Council3: Gary, du hoerst mir nicht zu. #line:ec5f3d
-Council1: Sag mir nicht, dass ich dir nicht zuhoere, Andrew. #line:a10555
-Council3: Es ist NICHT. OF. AUSREICHEND. HISTORISCH. HINWEIS. #line:e17e10
-Council2: Dein Arsch ist nicht von ausreichender historischer Bedeutung!!!! #line:1aaeb0
-Council4: Leute, Leute. Hoert auf damit. #line:6264dd
-Council2: Das ist wieder so ein Ampelkampf wie frueher. #line:5bc381
-Council1: Ach ja? Und weisst du noch, wer damals gewonnen hat? #line:277766
-Council4: Koennen wir weitermachen? #line:6a27fd
-Council1: FEIN. #line:7cd579
-Council2: FEIN. #line:3cb962
+Council1: and if we don't *START* getting businesses in here #line:db1a17
+Council1: there ain't gonna *BE* a possum springs. #line:dd68ab
+Council1: So we gotta do whatever we can do #line:321f84
+Council1: to get the market to notice us! #line:b92858
+Council4: can we get back to the topic at hand? #line:0080aa
+Council1: yeah, so we allocate funds to preserve the statue of- #line:b6d57f
+Council3: Gary, you're not hearing me. #line:ec5f3d
+Council1: Don't tell me I'm not hearing you, Andrew. #line:a10555
+Council3: It's NOT. OF. SUFFICIENT. HISTORICAL. NOTE. #line:e17e10
+Council2: Your ass is not of sufficient historical note!!!! #line:1aaeb0
+Council4: Guys, guys. Stop this. #line:6264dd
+Council2: This is the stoplight fight all over again. #line:5bc381
+Council1: Oh yeah? And remember who won that one? #line:277766
+Council4: Can we move on? #line:6a27fd
+Council1: FINE. #line:7cd579
+Council2: FINE. #line:3cb962
 <<close>>
 <<walk Council1 CouncilOffLeft>>
 <<walk Council2 CouncilOffLeft>>
@@ -279,12 +279,12 @@ Council2: FEIN. #line:3cb962
 <<hide Council4>>
 ===
 title: Varney_A1D1.1
-tags:
+tags: 
 colorID: 2
 position: -327,10693
 ---
-Mae: Hallo. #line:0fd173
-Varney: Was macht er auf meiner Veranda? #line:28d1a9
+Mae: Hello. #line:0fd173
+Varney: Whatcher doin' on my porch? #line:28d1a9
 <<set $varney_done to 1>>
 ===
 title: Varney_A2D1.1
@@ -293,17 +293,17 @@ colorID: 3
 position: -366,10923
 ---
 <<lookAt Varney Chazokov>>
-Varney: Wenn er durch eines meiner Fenster faellt, werde ich nicht zoegern, rechtliche Schritte einzuleiten. #line:cbbe39
-Mae: Wen? #line:53d90d
-Varney: Er! Da oben auf dem Dach nebenan! #line:d1ba8c
+Varney: If he falls through one of my windows I will not hesitate to take legal action. #line:cbbe39
+Mae: Who? #line:53d90d
+Varney: Him! Up there on the roof next door! #line:d1ba8c
 <<lookAt Mae Chazokov>>
 Mae: <o> #line:0f8e1f
-Mae: Wenn er von diesem Dach durch ein Fenster faellt #line:8d9af5
+Mae: If he falls from that roof through a window #line:8d9af5
 Mae: -_- #line:e73b60
-Mae: du wirst dir aussuchen muessen, welchen Teil von ihm du verklagen wirst. #line:ddfcac
-Varney: Welcher Teil auch immer der groesste ist. #line:2de9e5
+Mae: you're going to have to pick which part of him you're going to sue. #line:ddfcac
+Varney: Whichever piece is biggest. #line:2de9e5
 Mae: o_o #line:2c0c05
-Chazokov: {align=middle,locator=icanhearyou} Ich kann dich hoeren, weisst du! #line:312fc9
+Chazokov: {align=middle,locator=icanhearyou} I can hear you, you know! #line:312fc9
 <<lookNearest Mae>>
 Mae: _o_ #line:9c885c
 ===
@@ -313,9 +313,9 @@ colorID: 3
 position: -336,11149
 ---
 <<lookAt Varney Mae>>
-Varney: Ich kann mich nicht erinnern, dich hierher eingeladen zu haben. #line:17fcbc
+Varney: I don't remember inviting you up here. #line:17fcbc
 Mae: Sorry. #line:75a29c
-Varney: Das ist furchtbar vertraut von dir. #line:7620c9
+Varney: This is awful familiar of you. #line:7620c9
 <<lookAt Varney Chazokov>>
 <<set $varney_done to 1>>
 ===
@@ -324,138 +324,138 @@ tags: demo2
 colorID: 2
 position: -3191,10548
 ---
-Mae: Geister. #line:ee9444
+Mae: Ghosts. #line:ee9444
 <<unlockDoodle GhostLaundry>>
 <<set $underhill_laundry_done to 1>>
 ===
 title: Laundry_A2D2
-tags:
+tags: 
 colorID: 3
 position: -2932,10561
 ---
-Mae: Also ich wuerde meine Waesche an Regentagen einfach draussen lassen. #line:a625ef
-Mae: das ist wie eine billige Waesche! #line:b50df0
+Mae: see i'd just leave my laundry out on rainy days. #line:a625ef
+Mae: it's like a cheap wash! #line:b50df0
 <<set $underhill_laundry_done to 1>>
 ===
 title: Laundry_A3D2
-tags:
+tags: 
 colorID: 4
 position: -2690,10561
 ---
-Mae: Ob die Eichhoernchen auch Unterhosen klauen? #line:52a615
+Mae: Wonder if the squirrels ever steal undies? #line:52a615
 <<set $underhill_laundry_done to 1>>
 ===
 title: Laundry_A4D3
-tags:
+tags: 
 colorID: 6
 position: -2444,10557
 ---
-Mae: Ich sollte anfangen, meine eigene Waesche zu waschen. #line:245b0a
+Mae: I should start doing my own laundry. #line:245b0a
 <<wait 2>>
-Mae: Irgendwann. #line:e8d8f1
+Mae: sometime. #line:e8d8f1
 <<set $underhill_laundry_done to 1>>
 ===
 title: Varney_A1D2.1
-tags:
+tags: 
 colorID: 2
 position: -96,10703
 ---
-Varney: Das ist mein Eigentum. #line:3853c7
-Mae: aber es ist meine Strasse! #line:ba4baa
-Varney: Du hast dich nicht veraendert, seit du ein Kind warst. #line:519399
+Varney: This is my property. #line:3853c7
+Mae: but it's myyyyyy street! #line:ba4baa
+Varney: you ain't changed since you was a kid. #line:519399
 <<set $varney_done to 1>>
 ===
 title: Varney_A1D3.1
-tags:
+tags: 
 colorID: 2
 position: 142,10705
 ---
-Varney: Ich kann dich ganz legal erschiessen, weil du hier oben bist, weisst du? #line:65b539
-Mae: ha ha du wuerdest nie #line:4c550b
-Mae: Ich habe auf deine Katze aufgepasst. #line:60df6d
+Varney: I can legally shoot you for being up here, ya know? #line:65b539
+Mae: ha ha you'd never #line:4c550b
+Mae: i used to babysit your cat. #line:60df6d
 Varney: ehhhhhh. #line:2d7c7c
 <<set $varney_done to 1>>
 ===
 title: Varney_A2D2.1
-tags:
+tags: 
 colorID: 3
 position: -115,10931
 ---
-Varney: Meine Katze mag keine Leute auf der Veranda. #line:1a0338
+Varney: My cat don't like folks on the porch. #line:1a0338
 <<set $varney_done to 1>>
 ===
 title: Varney_A2D3.1
-tags:
+tags: 
 colorID: 3
 position: 108,10928
 ---
-Varney: Sie machen meinen Hund unruhig, #line:372199
-Varney: und sie kackt viel, wenn sie aengstlich ist. #line:c1a640
+Varney: Yer gonna make my dog anxious, #line:372199
+Varney: and she poops a lot when she's anxious. #line:c1a640
 <<set $varney_done to 1>>
 ===
 title: Varney_A2D4.1
-tags:
+tags: 
 colorID: 3
 position: 334,10934
 ---
-Varney: Fass meinen Kuerbis nicht an. #line:68ee9e
+Varney: Don't touch my pumpkin. #line:68ee9e
 <<set $varney_done to 1>>
 ===
 title: Varney_A3D1.1
-tags:
+tags: 
 colorID: 4
 position: -367,11381
 ---
-Varney: Die Gattin hat diese Veranda selbst lackiert. #line:14e776
-Varney: Mach nicht alles mit Schlamm voll. #line:c7eb38
+Varney: The missus varnished this porch herself. #line:14e776
+Varney: don't go trackin' mud all over it. #line:c7eb38
 <<set $varney_done to 1>>
 ===
 title: Varney_A3D2.1
-tags:
+tags: 
 colorID: 4
 position: -143,11383
 ---
-Varney: Ich spiele ein fieses Banjo. Clawhammer. #line:aa7bfc
-Mae: Echt jetzt? Ich spiele Bass. #line:778364
-Mae: wir sollten mal zusammen spielen! #line:38ec9d
-Varney: kennst du Long Black Veil? #line:879994
-Mae: jep! #line:3e0f00
-Varney: kennst du Tom Dooley? #line:8acfe8
-Mae: jep! Mein Vater mag das Zeug! #line:7fedac
-Varney: kennst du Willer Garden? #line:d295c9
-Mae: noe! #line:0d401e
+Varney: I play a mean banjo. Clawhammer. #line:aa7bfc
+Mae: Really? I play bass. #line:778364
+Mae: we should play together sometime! #line:38ec9d
+Varney: you know Long Black Veil? #line:879994
+Mae: yep! #line:3e0f00
+Varney: you know Tom Dooley? #line:8acfe8
+Mae: yep! My dad likes that stuff! #line:7fedac
+Varney: you know Willer Garden? #line:d295c9
+Mae: nope! #line:0d401e
 Varney: eh. #line:e17cfe
 <<set $varney_done to 1>>
 ===
 title: Varney_A3D3.1
-tags:
+tags: 
 colorID: 4
 position: 101,11385
 ---
-Varney: Schlechtes Wetter kommt bald. #line:358dda
-Varney: Ich spuere es in meinen Knochen. #line:f576f5
+Varney: Bad weather comin' soon. #line:358dda
+Varney: i feel it in my bones. #line:f576f5
 <<set $varney_done to 1>>
 ===
 title: Varney_A3D4.1
-tags:
+tags: 
 colorID: 4
 position: 352,11380
 ---
-Varney: Es wird frueh kalt dieses Jahr. #line:dd7244
-Varney: das verheisst nichts Gutes. #line:d5c5bd
+Varney: Getting cold early this year. #line:dd7244
+Varney: don't bode well. #line:d5c5bd
 <<set $varney_done to 1>>
 ===
 title: Varney_A4D3.1
-tags:
+tags: 
 colorID: 6
 position: 105,11612
 ---
-Varney: Schnee im Anmarsch. #line:9b6c3e
-Varney: wird schlecht dieses Jahr. #line:b11cd3
+Varney: Snow comin'. #line:9b6c3e
+Varney: gonna be bad this year. #line:b11cd3
 <<set $varney_done to 1>>
 ===
 title: TriggerHarleysA2D3
-tags:
+tags: 
 colorID: 3
 position: -1550,10635
 ---
@@ -473,92 +473,92 @@ position: -1550,10635
 <<setCanInteract Harley3 0>>
 ===
 title: LizChandler
-tags:
+tags: 
 colorID: 0
 position: -1119,10486
 ---
-LizChandler: Hey kleines Maedchen. #line:b4b9c8
-Mae: Ich bin volljaehrig. #line:02c37d
-LizChandler: oh Entschuldigung #line:884d50
-Mae: wer bist du? #line:b6bf0d
-LizChandler: Liz. Ich habe frueher hier gewohnt. #line:f48fb9
-Mae: wo? #line:f9cbbc
-LizChandler: In diesem Gebaeude hier. Bevor du geboren wurdest. #line:fedcad
-Mae: Warum bist du weggezogen? #line:aeed10
-LizChandler: zur Schule gegangen, weggezogen, denke ich. #line:512045
-Mae: gefaellt es dir besser, wo du jetzt wohnst? #line:a00a31
-LizChandler: es ist schoen. #line:4025e8
-LizChandler: Possum Springs ist auch schoen. #line:b40194
-Mae: Ich denke, es ist in Ordnung. #line:00ab77
-LizChandler: Es ist in Ordnung. #line:2b4344
-Mae: Ja. Ziemlich in Ordnung. #line:9a1d40
-LizChandler: Als ich ein Maedchen war #line:be88c8
-LizChandler: ueber deine...  #line:554087
-Mae: Ich bin 20. #line:b4ea41
-LizChandler: ...Groesse... #line:923d65
-LizChandler: Ich lag nachts immer wach #line:984e0f
-LizChandler: besorgt, dass die Statue zum Leben erwachen wuerde #line:efe50c
-LizChandler: und durch mein Fenster klettern wuerde. #line:1e8c5b
-Mae: Oh je. Das ist gruselig. #line:76feef
-LizChandler: Du willst nie, dass jemand vor deinem Fenster rumhaengt. #line:c7d62d
-Mae: Zumindest keine magischen boesen Statuen. #line:a46d5d
-LizChandler: ja, nichts Boeses oder Magisches sollte so nahe kommen. #line:164328
-Mae: Ich wohne auf dem Dachboden. Keiner kommt an mein Fenster ran. #line:2b13a9
-LizChandler: Das ist gut. #line:d8ceac
-Mae: nicht einmal Vampire oder Hexenmeister oder Skelettmaenner. #line:1c05bf
+LizChandler: Hey little girl. #line:b4b9c8
+Mae: I’m a legal adult. #line:02c37d
+LizChandler: oh sorry #line:884d50
+Mae: who are you? #line:b6bf0d
+LizChandler: Liz. I used to live here. #line:f48fb9
+Mae: where? #line:f9cbbc
+LizChandler: this building right here. Before you were born. #line:fedcad
+Mae: Why did you move away? #line:aeed10
+LizChandler: went to school, wandered off I guess. #line:512045
+Mae: do you like it better where you live now? #line:a00a31
+LizChandler: it’s nice. #line:4025e8
+LizChandler: Possum Springs is nice too. #line:b40194
+Mae: I think it’s alright. #line:00ab77
+LizChandler: It’s alright. #line:2b4344
+Mae: yeah. Pretty alright. #line:9a1d40
+LizChandler: When I was a girl #line:be88c8
+LizChandler: about your...  #line:554087
+Mae: I’m 20. #line:b4ea41
+LizChandler: ...height... #line:923d65
+LizChandler: I used to lay awake at night #line:984e0f
+LizChandler: worried that statue would come to life #line:efe50c
+LizChandler: and climb in my window. #line:1e8c5b
+Mae: oh geez. That’s spooky. #line:76feef
+LizChandler: You never want someone hanging around outside your window. #line:c7d62d
+Mae: not magical evil statues at least. #line:a46d5d
+LizChandler: yeah nothing evil or magic should get that close. #line:164328
+Mae: I live in the attic. No one can get to my window. #line:2b13a9
+LizChandler: That’s good. #line:d8ceac
+Mae: not even vampires or warlocks or skeleton men. #line:1c05bf
 <<wait 2>>
-Mae: Ich bin froh, dass wir dieses Gespraech hatten. #line:703e44
-LizChandler: Ich auch. #line:6ee2c7
-Mae: Wir sehen uns! #line:8b19af
+Mae: I’m glad we had this talk. #line:703e44
+LizChandler: Me too. #line:6ee2c7
+Mae: see ya! #line:8b19af
 <<set $liz_chandler_done to 1>>
 ===
 title: TriggerCityCouncil_A4D3
-tags:
+tags: 
 colorID: 6
 position: -1538,10987
 ---
-Council1: ...das beantwortet die Frage nicht wirklich, Colleen. #line:92103d
-Council2: Das beantwortet die Frage sehr wohl. #line:68e664
-Council1: die Menge des Steinsalzes ist nicht das Problem! #line:8267d1
-Council3: wir haben nicht genug verdammte Lastwagen fuer diese Sache! #line:bee2c3
-Council1: Autos rutschen diesen verdammten Huegel rauf und runter! Colleen! #line:e0a14e
-Council4: halb versucht, die Strasse einfach zu sperren, wenn der Sturm kommt #line:5e2868
-Council2: oh ja gut. Lasst uns einfach aufgeben. #line:d35b7f
-Council4: das ist kein Aufgeben Colleen!!! #line:b0b03f
-Council4: Ich habe es satt, dass du mich untergraebst! #line:78a6b6
-Council2: das ist eine schlechte Idee! Das ist keine Unterwanderung! #line:89ff8c
-Council3: es untergraebt. #line:36794e
-Council1: ich bin auf Colleens Seite in dieser Sache #line:9e04ce
-Council4: nun, das ist einfach grossartig! Das ist einfach klasse! #line:4aaa00
-Council2: ok gut, wir werden einfach alle Strassen sperren! #line:cbec18
-Council2: lasst uns die ganze verdammte Stadt sperren! #line:d1ea51
+Council1: ...that doesn’t really answer the question, Colleen. #line:92103d
+Council2: That very much does answer the question. #line:68e664
+Council1: the amount of rock salt isn’t the problem! #line:8267d1
+Council3: we don’t have enough damn trucks for this thing! #line:bee2c3
+Council1: cars slipsliding all up and down this goddamn hill! Colleen! #line:e0a14e
+Council4: half tempted to just close the road when the storm hits #line:5e2868
+Council2: oh yeah good. Let’s just give up. #line:d35b7f
+Council4: it’s not giving up Colleen!!! #line:b0b03f
+Council4: i’m sick of you undermining me! #line:78a6b6
+Council2: it’s a bad idea! That’s not undermining! #line:89ff8c
+Council3: it’s undermining. #line:36794e
+Council1: i’m on Colleen’s side on this one #line:9e04ce
+Council4: well that’s just great! That’s just peachy pie ain’t it! #line:4aaa00
+Council2: ok fine we’ll just close all the roads! #line:cbec18
+Council2: let’s close down the whole damn town! #line:d1ea51
 <<if $water_balloon_toss_percent > 50>>
-    Council2: deine Ideen sind immer die *wichtigsten* #line:e1fcda
-    Council2: und die *besten* Ueberlegungen. #line:475fbd
-    Council4: was zum - #line:770512
-    Council2: machen wir noch ein Wasserballon-Werfen? #line:a0366d
-    Council2: ich bin letztes Mal fast erfroren! #line:288802
-    Council3: Ich habe immer noch Schnupfen. #line:438857
-    Council1: ich denke, wir sind uns alle einig, dass es zu kalt fuer Wasserballons ist. #line:031e2f
-    Council2: Ja, Cathleen. Zu kalt fuer eine weitere dumme Idee. #line:c137c7
+    Council2: your ideas are always the *most* important #line:e1fcda
+    Council2: and the *most* thought out. #line:475fbd
+    Council4: what the - #line:770512
+    Council2: we gonna do another water balloon toss? #line:a0366d
+    Council2: i nearly froze to death last time! #line:288802
+    Council3: i still have the sniffles. #line:438857
+    Council1: i think we can all agree it’s too cold for water balloons. #line:031e2f
+    Council2: yeah Cathleen. Too cold for another stupid idea. #line:c137c7
 <<endif>>
-Council4: Fahr zur Hoelle Colleen!! #line:962d6c
-Council3: wir koennten einfach ein paar private Pfluege anheuern. #line:8bc48d
-Council2: wenn ihr gegen die Gewerkschaft D.O.T. vorgehen wollt, nur zu #line:c07723
-Council2: wir haben Vereinbarungen mit dem Bezirk und dem Staat. #line:1251af
-Council1: Colleen hat auch in diesem Fall recht. #line:de4c90
-Council4: wenn ihr euch so einig seid, warum heiratet ihr dann nicht einfach?!? #line:ceb812
+Council4: go to hell Colleen!! #line:962d6c
+Council3: we could just hire some private plows. #line:8bc48d
+Council2: if you want to go against the D.O.T. union go right ahead #line:c07723
+Council2: we got agreements with the county and state. #line:1251af
+Council1: Colleen’s right on this one too. #line:de4c90
+Council4: if you two agree so much why don’t you just get married already?!? #line:ceb812
 Council2: UGH! #line:260e01
-Council1: Ich wuerde lieber sterben!  #line:92e750
-Council2: Lieber breche ich mir die Oberschenkel mit einem Schlackenblock! #line:e0e201
-Council3: Na gut, jetzt ist das geklaert, was machen wir mit der Strasse? #line:31276a
+Council1: I’d rather die!  #line:92e750
+Council2: I’d rather break my own femurs with a cinder block! #line:e0e201
+Council3: alright well now that’s settled, what are we doing about the road? #line:31276a
 <<wait 2>>
-Council4: Pause fuer Essen? #line:b50c38
-Council1: tolle Idee! #line:21f156
-Council2: ich bin am Verhungern #line:97c513
-Council3: Siehst du, wir koennen immer noch Entscheidungen treffen! #line:a8db72
+Council4: break for food? #line:b50c38
+Council1: great idea! #line:21f156
+Council2: i’m starving #line:97c513
+Council3: see, we can still make decisions! #line:a8db72
 Council1: ha ha ha #line:db3a7d
-Council1: Ausruecken, Truppen! #line:dde779
+Council1: move out, troops! #line:dde779
 <<close>>
 <<walk Council1 CouncilOffLeft>>
 <<walk Council2 CouncilOffLeft>>
@@ -569,5 +569,3 @@ Council1: Ausruecken, Truppen! #line:dde779
 <<hide Council3>>
 <<hide Council4>>
 ===
-
-

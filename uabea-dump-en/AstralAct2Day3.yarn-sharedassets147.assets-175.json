@@ -1,5 +1,0 @@
-{
-  "m_Name": "AstralAct2Day3.yarn",
-  "m_Script": "title: Trigger\ntags: \ncolorID: 0\nposition: 470,230\n---\n<<tell AstralAct2Day3 End>>\n<<wait 21>>\n<<fadeOut 1 wait>>\n<<wait 3>>\n<<endDay>>\n===\n",
-  "m_PathName": ""
-}

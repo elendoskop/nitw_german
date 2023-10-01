@@ -1,5 +1,5 @@
 title: InitLevel
-tags:
+tags: 
 colorID: 5
 position: -1183,-592
 ---
@@ -29,25 +29,25 @@ position: -1183,-592
 
 ===
 title: MineBoardsOff
-tags:
+tags: 
 colorID: 5
 position: -802,-1
 ---
-Angus: ok. na ja. #line:56db02
-Bea: Angus! du hast uns gerettet! #line:28987d
-Angus: aeh ich meine ich habe frische Luft gefunden. #line:9093a1
-Angus: es koennte ein schoener Ort sein, um zu verhungern. #line:9cd5ad
-Mae: irgendwo anders zu sterben als hier drin ist schoen. #line:1a80fc
-Bea: [wave=.05]Ich will einfach irgendwo anders sterben[/wave] #line:15192a
-Mae: schoen. #line:29e11a
-Gregg: schoen. #line:0b40a7
-Angus: schoen. #line:a9de12
+Angus: ok. well. #line:56db02
+Bea: Angus! you saved us! #line:28987d
+Angus: uh i mean i found fresh air. #line:9093a1
+Angus: it might just be a nicer place to starve to death. #line:9cd5ad
+Mae: dying anywhere other than in here is nice. #line:1a80fc
+Bea: [wave=.05]I just wanna die anywhere else[/wave] #line:15192a
+Mae: nice. #line:29e11a
+Gregg: nice. #line:0b40a7
+Angus: nice. #line:a9de12
 <<close>>
 <<irisOut 1 wait>>
 <<scene MineWellTunnel>>
 ===
 title: EnterLevel
-tags:
+tags: 
 colorID: 5
 position: -797,-307
 ---
@@ -58,7 +58,7 @@ position: -797,-307
 <<endif>>
 ===
 title: LookAtElevator
-tags:
+tags: 
 colorID: 5
 position: -1146,10
 ---
@@ -66,23 +66,23 @@ position: -1146,10
 <<flip Angus -1>>
 <<flip Bea -1>>
 <<flip Gregg -1>>
-Angus: sieht aus, als haette er den Fahrstuhl nach unten genommen. #line:80446b
-Angus: so viel zum Ueberraschungsmoment. #line:788dbf
-Angus: er wird uns schon aus einer Meile Entfernung kommen hoeren. #line:884f45
-Bea: sind wir sicher, dass wir das tun wollen? #line:5af88f
-Gregg: Ja, Mae, bist du sicher? #line:1a9301
-Mae: Leute, ich weiss nicht, ob ihr das versteht... #line:65861a
-Mae: *hust* #line:e1b5cb
-Mae: Er ist in meinem Kopf. #line:31226c
-Mae: Ich kann so nicht funktionieren. #line:f4d05c
-Mae: alles stirbt oder ist schon tot. #line:174329
-Mae: Ich... ich weiss nicht, was da unten passieren wird... #line:98a2ff
+Angus: looks like he took the elevator down. #line:80446b
+Angus: so much for the element of surprise. #line:788dbf
+Angus: he’s gonna hear us coming a mile away. #line:884f45
+Bea: we sure we want to do this? #line:5af88f
+Gregg: yeah mae, you sure? #line:1a9301
+Mae: guys, I don’t know if you understand... #line:65861a
+Mae: *cough* #line:e1b5cb
+Mae: He's in my head. #line:31226c
+Mae: I can't function like this. #line:f4d05c
+Mae: everything is dying or dead already. #line:174329
+Mae: I... I don't know what's gonna happen down there... #line:98a2ff
 <<if $dom_friend_bea>>
-	Bea: ok dann #line:9aad73
-	Bea: wir werden da zusammen rauskommen #line:ac3405
+	Bea: ok then #line:9aad73
+	Bea: we’ll come out of this together #line:ac3405
 <<else>>
-	Gregg: also gut. #line:eaca55
-	Gregg: Wir gehen zusammen runter. #line:a5f95a
+	Gregg: alright then. #line:eaca55
+	Gregg: down we go together. #line:a5f95a
 <<endif>>
 <<walk Angus LeverAngus wait>>
 <<fadeOut 0>>
@@ -93,10 +93,10 @@ Mae: Ich... ich weiss nicht, was da unten passieren wird... #line:98a2ff
 <<fadeIn 1>>
 //angus pulls lever. Elevator comes up//
 <<tell MineElevator MoveUpToOriginalPosition>>
-Mae: oof. Das Ding sieht alt aus. #line:b6b740
-Bea: sie haben diese Mine seit... einer Menge Jahren nicht mehr benutzt #line:e13175
-Bea: sogar seit Generationen. #line:382b15
-Gregg: bist du jetzt unser Reiseleiter? #line:b0801e
+Mae: oof. That thing looks old. #line:b6b740
+Bea: they haven’t used this mine in like... a LOT of years #line:e13175
+Bea: generations, even. #line:382b15
+Gregg: are you our tour guide now? #line:b0801e
 <<close>>
 <<destroy BlockElevator>>
 <<stopGroupFollow>>
@@ -116,9 +116,9 @@ Gregg: bist du jetzt unser Reiseleiter? #line:b0801e
 <<waitForMove Bea>>
 <<waitForMove Gregg>>
 <<waitForMove Angus>>
-Bea: wir haben Possum Springs Tourismusbroschueren im Laden #line:4987c2
-Bea: und mir wird langweilig. #line:d4ffa0
-Mae: *das* steht in der Broschuere? #line:7d8e5b
+Bea: we have Possum Springs tourism pamphlets at the shop #line:4987c2
+Bea: and i get bored. #line:d4ffa0
+Mae: *THIS* is in the brochure? #line:7d8e5b
 <<wait 1>>
 //note to self- remember to set up this joke in the intro bus station//
 //elevator descends//
@@ -129,31 +129,31 @@ Mae: *das* steht in der Broschuere? #line:7d8e5b
 <<scene MineBottom1>>
 ===
 title: Intro
-tags:
+tags: 
 colorID: 5
 position: -1173,-243
 ---
 <<if $dom_friend_bea>>
-	Bea: also das ist nicht gefaehrlich oder so #line:d793a4
+	Bea: well this isn’t dangerous or anything #line:d793a4
 	Mae: ha ha. #line:e9b11e
-    Mae: Da unten gibt es nichts, wovor man sich fuerchten muesste. Nur eine Party. #line:f8dfd2
+    Mae: Nothing to be scared of down there. Just a party. #line:f8dfd2
     Bea: :) #line:4609c1
     Bea: heh heh. #line:2b5aa2
-	Bea: nicht zu spaet, um uns stattdessen in den Verkehr zu stuerzen. #line:d8b822
+	Bea: not too late to throw ourselves into traffic instead. #line:d8b822
     Bea: :| #line:8a1d3f
 <<else>>
-	Gregg: Oje. Spooky. #line:4d65f5
-	Mae: Ich glaube nicht, dass wir uns ueber gruselig beschweren duerfen #line:e0fba4
-	Mae: wir haben unseren kostbaren Roboterjungen draussen im Wald gelassen. Das ist gruselig. #line:2f841d
+	Gregg: geez. Spooky. #line:4d65f5
+	Mae: I don’t think we get to complain about spooky #line:e0fba4
+	Mae: we left our precious robot boy out in the woods. That’s spooky. #line:2f841d
     Gregg: :) #line:08c121
-	Gregg: Nee, Alter. Wir haben eine Legende geschaffen. #line:15299c
-	Bea: Worueber redet ihr beiden ueberhaupt? #line:982e33
-	Mae: es waren ein paar merkwuerdige Tage. #line:536725
+	Gregg: nah dude. We created a legend. #line:15299c
+	Bea: what are you two even talking about? #line:982e33
+	Mae: it’s been a weird few days. #line:536725
     Gregg: :| #line:89760e
 <<endif>>
 ===
 title: Elevator
-tags:
+tags: 
 colorID: 5
 position: -477,-3
 ---
@@ -163,7 +163,7 @@ position: -477,-3
 <<walk Angus AngusOffElevator2>>
 <<waitForMove Bea>>
 <<waitForMove Angus>>
-Angus: ok, ich muss dich mal fuer eine Sekunde unterbrechen, ok? #line:fefef1
+Angus: ok I’m gonna have to put you down for a sec, ok? #line:fefef1
 Mae: ok #line:4129e0
 <<close>>
 <<setAmbientSFXFadeWithScreenTransitioner _AmbientSFX 0>>
@@ -178,38 +178,38 @@ Mae: ok #line:4129e0
 <<wait 1>>
 <<fadeIn 1 wait>>
 <<setAmbientSFXFadeWithScreenTransitioner _AmbientSFX 1>>
-Gregg: also, Casey... #line:3305e6
-Bea: ja #line:23a58f
-Gregg: ich... #line:561688
-Bea: ja #line:532cc0
-Gregg: und wofuer #line:5a72dd
-Mae: ich... ich glaube, ich habe es verstanden? #line:19dd6a
-Angus: wow, wirklich? #line:407d58
-Mae: zu muede, um es richtig zu erklaeren, aber #line:aaa6fd
-Mae: wie #line:3dce27
-Mae: sie haben verloren, was sie dachten, was passieren wuerde #line:ea9a47
-Mae: das war, was vor langer Zeit passiert war #line:e61e6d
-Mae: oder wie sie sich daran erinnern oder wie sie es sich vorstellen #line:394f86
-Mae: und was es ihnen gegeben hat... #line:dcee14
-Mae: und so Casey und dieses Kind beim Harfest und... #line:7960fb
+Gregg: so, Casey... #line:3305e6
+Bea: yeah #line:23a58f
+Gregg: i... #line:561688
+Bea: yeah #line:532cc0
+Gregg: and for what #line:5a72dd
+Mae: i... i think i get it? #line:19dd6a
+Angus: wow, really? #line:407d58
+Mae: too tired to explain it right but #line:aaa6fd
+Mae: like #line:3dce27
+Mae: they lost what they thought was gonna happen #line:ea9a47
+Mae: which was what had happened like a long time ago #line:e61e6d
+Mae: or how they remember or like picture it #line:394f86
+Mae: and things it gave them... #line:dcee14
+Mae: and so Casey and that kid at Harfest and... #line:7960fb
 Mae: ... #line:c1b8e4
-Mae: tut mir leid, ich habe den Faden verloren #line:d4de72
-Angus: das ist sinnvoller, als ich es mir vorstellen kann #line:02b610
-Mae: sie sind traurig. #line:a0fa1b
-Mae: es ist alles wirklich traurig. #line:9e9e27
-Gregg: Bist du bereit, wieder zu gehen, Angus? #line:6218bd
+Mae: sorry, i lost it #line:d4de72
+Angus: that’s more sense than I can make of it #line:02b610
+Mae: they’re sad. #line:a0fa1b
+Mae: it’s all really sad. #line:9e9e27
+Gregg: You ready to go again, Angus? #line:6218bd
 Angus: Yep. Sorry. #line:d4893f
-Bea: WARTET. SEID ALLE RUHIG. #line:3a2b77
+Bea: WAIT. EVERYBODY SHUT UP. #line:3a2b77
 <<close>>
 <<playAmbientSFX _AmbientSFX:eide_rock_noise>>
 <<wait 3>>
-Angus: Was? #line:08fda9
-Bea: SHHH. Ich dachte, ich... #line:a7052c
+Angus: what? #line:08fda9
+Bea: SHHH. I thought I... #line:a7052c
 <<close>>
 <<tell EideFightRig Run>>
 ===
 title: AfterEideFight
-tags:
+tags: 
 colorID: 5
 position: -51,-35
 ---
@@ -220,83 +220,81 @@ position: -51,-35
 <<if $dom_friend_bea>>
     <<warp Bea AfterFightDomFriend>>
     <<warp Gregg AfterFightOtherFriend>>
-    Gregg: Heilige Scheisse! #line:a76a66
-	Angus: Sind alle in Ordnung? #line:364784
-	Bea: Mae! Mae! Geht es dir gut? #line:691ee2
+    Gregg: Holy shit! #line:a76a66
+	Angus: is everyone ok? #line:364784
+	Bea: Mae! Mae! Are you ok? #line:691ee2
 	<<close>>
 	<<wait 2>>
-	Bea: Mae!!! Sag doch was!!! #line:91ec52
+	Bea: Mae!! Say something!!! #line:91ec52
 	Mae: heh #line:970a68
 	Mae: heh heh heh #line:529c21
-	Mae: heh heh heh HA HA HA HA HA HA HA HA #line:529234
+	Mae: heh heh heh HA HA HA HA HA HA HA #line:529234
 	Bea: Mae? #line:2d4131
-	Mae: HA HA HA HA HA HA HA HA HA HA HA HA HA HA HA HA HA HA HA HA HA #line:e23284
+	Mae: HA HA HA HA HA HA HA HA HA HA HA HA HA HA HA HA HA HA #line:e23284
 	Mae: HA #line:f70135
 	Mae: heh #line:7d7a38
-	Mae: *schnief* #line:25e233
+	Mae: *sniff* #line:25e233
 	Mae: *sob* #line:7ee918
-	Bea: shhh. Es ist ok. #line:2a619b
-	Bea: Es ist ok. Ich habe dich. #line:7d20c6
-	Bea: er ist jetzt weg. #line:cfd3b3
-	Gregg: Scheisse. Wie sollen wir hier rauskommen. #line:b8627a
-	Bea: shh. Gib ihr eine Minute. #line:9b62c3
+	Bea: shhh. It’s ok. #line:2a619b
+	Bea: it’s ok. I’ve got you. #line:7d20c6
+	Bea: he’s gone now. #line:cfd3b3
+	Gregg: shit. How are we gonna get out of here. #line:b8627a
+	Bea: shh. Give her a minute. #line:9b62c3
 	<<close>>
 	<<wait 4>>
 <<else>>
     <<warp Gregg AfterFightDomFriend>>
     <<warp Bea AfterFightOtherFriend>>
-    Bea: HEILIGER GOTT. #line:ed8c7a
-	Angus: Sind alle in Ordnung? #line:ee1dda
+    Bea: HOLY GOD. #line:ed8c7a
+	Angus: is everyone ok? #line:ee1dda
 	Gregg: Mae! Mae! #line:a3fed2
 	<<close>>
     <<wait 2>>
-	Gregg: Mae!! Sag doch was!!! #line:14166f
+	Gregg: Mae!! Say something!!! #line:14166f
 	Mae: heh #line:040d8f
 	Mae: heh heh heh #line:b62321
-	Mae: heh heh heh HA HA HA HA HA HA HA HA #line:47083c
+	Mae: heh heh heh HA HA HA HA HA HA HA #line:47083c
 	Gregg: HA HA HA HA #line:404b2a
-	Mae: HA HA HA HA HA HA HA HA HA HA HA HA HA HA HA HA HA HA HA HA HA HA #line:957823
-	Gregg: HA HA HA HA HA HA HA HA HA HA #line:b26d0a
-	Bea: Warum lachen wir. #line:ead7e7
+	Mae: HA HA HA HA HA HA HA HA HA HA HA HA HA HA HA HA HA HA #line:957823
+	Gregg: HA HA HA HA HA HA HA HA HA #line:b26d0a
+	Bea: Why are we laughing. #line:ead7e7
     Mae: HA #line:9ce634
 	Mae: heh #line:6ca0a0
-	Mae: *schnief* #line:f8da6e
+	Mae: *sniff* #line:f8da6e
 	Mae: *sob* #line:1aa7e6
-	Gregg: Kumpel. Es ist jetzt in Ordnung. #line:af115b
-	Gregg: Wir haben den Kerl fertig gemacht und er kommt nicht mehr zurueck. #line:abc259
-	Gregg: Du wirst hier rauskommen. #line:242b58
-	Bea: Und wie kommen wir hier wieder raus? #line:b0be88
-	Gregg: Psst. Lass Mae sich ausruhen. #line:ae9105
+	Gregg: Dude. It’s ok now. #line:af115b
+	Gregg: We messed that guy up and he’s not coming back. #line:abc259
+	Gregg: You’re gonna walk out of this. #line:242b58
+	Bea: So how are we getting out of here? #line:b0be88
+	Gregg: Shh. Let Mae rest. #line:ae9105
 	<<close>>
 	<<wait 4>>
 <<endif>>
-Angus: Ich fuehle Luft von irgendwoher kommen #line:139c95
-Angus: sooooo werden wir nicht ersticken! #line:eb3205
-Bea: Ok, das ist eine Erleichterung. #line:980812
-Gregg: Wie kannst du...? #line:b8dd3c
-Angus: Ich war ein Spaeher, Gregg. #line:571d01
-Angus: Ich war ein Pfadfinder. #line:e5ecdf
+Angus: I feel air coming in from somewhere #line:139c95
+Angus: sooooo we’re not gonna suffocate! #line:eb3205
+Bea: Ok well that’s a relief. #line:980812
+Gregg: How do you...? #line:b8dd3c
+Angus: I was a scout, Gregg. #line:571d01
+Angus: I was a scout. #line:e5ecdf
 Gregg: Hey Angus. #line:fbe6c3
-Angus: Ja? #line:9bd6b1
-Gregg: Ich liebe dich. #line:55f55a
-Mae: D'aaaaaaaaaaaw. #line:d85475
-Bea: Willkommen zurueck, Mae. #line:23d954
-Gregg: Bist du okay? #line:ceca73
-Mae: Besser jetzt, wo ich fast ermordet wurde. #line:a9b642
-Mae: Schon wieder. #line:39267b
-Mae: Was... seltsam ist. #line:4c9efc
-Mae: *hust* #line:1adfce
-Mae: Das war ungefaehr das dritte Mal in 2 Tagen? #line:03065a
-Gregg: Aller guten Dinge sind drei. #line:9353f7
-Angus: Leute, die Luft kommt von hier hinten... #line:3239f4
-Mae: In Ordnung, ich bin wach. #line:b2fbc0
-Bea: Bist du sicher? #line:4ae415
-Mae: Ja. Ich glaube, ich kann zumindest laufen. #line:56bf3e
-Angus: Es ist zugenagelt. Ist schon laaaaange her. #line:bd23fe
-Gregg: Koennen wir durchkommen? #line:a02529
-Angus: Lasst es uns herausfinden. #line:426949
+Angus: Yeah? #line:9bd6b1
+Gregg: I love you. #line:55f55a
+Mae: D’aaaaaaaaaw. #line:d85475
+Bea: Welcome back, Mae. #line:23d954
+Gregg: You ok? #line:ceca73
+Mae: Better now that I almost got murdered. #line:a9b642
+Mae: Again. #line:39267b
+Mae: Which is... weird. #line:4c9efc
+Mae: *cough* #line:1adfce
+Mae: That was like the third time in 2 days? #line:03065a
+Gregg: Third time’s the charm. #line:9353f7
+Angus: Guys the air’s coming from back here... #line:3239f4
+Mae: Alright, I’m up. #line:b2fbc0
+Bea: You sure? #line:4ae415
+Mae: yeah. I think I can walk at least. #line:56bf3e
+Angus: It’s boarded up. A looooong time ago. #line:bd23fe
+Gregg: Can we get through? #line:a02529
+Angus: Let’s find out. #line:426949
 <<fadeOut 1 wait>>
 <<scene PawsModeMineBoards>>
 ===
-
-

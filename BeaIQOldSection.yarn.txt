@@ -1,5 +1,5 @@
 title: EnterLevel
-tags:
+tags: 
 colorID: 4
 position: -293,612
 ---
@@ -11,122 +11,122 @@ position: -293,612
 <<endif>>
 ===
 title: Intro
-tags:
+tags: 
 colorID: 4
 position: -34,683
 ---
-Bea: So wie #line:8b612d
-Bea: Geister. #line:8b4301
-Mae: Geister? #line:e3ece4
-Bea: also ich weiss nicht, ob ich an sie glaube, aber #line:8de41b
-Mae: ja? #line:87db0e
-Bea: Weisst du noch, wie du gesagt hast, dass du nachts Geister gesehen hast? #line:10e1f7
-Bea: Ich meine, ich glaube nicht so recht daran, dass es nicht nur Traeume sind. #line:59b9cc
-Bea: denn offensichtlich sind es Traeume. #line:fc5181
-Mae: ok, das ist sicherlich deine Sicht der Dinge. #line:e71220
-Bea: aber wie... #line:2b91ee
-Bea: hast du jemals meine Mutter gesehen? #line:0eed6c
-->ja #line:9ac953
-	Mae: es ist schwer, jemanden zu erkennen #line:c41434
-    Mae: aber man kann ein Gefuehl fuer die Leute bekommen #line:dc7428
-    Mae: und ich aeh ich bin mir ziemlich sicher, dass ich sie gesehen habe #line:70e863
+Bea: So like #line:8b612d
+Bea: ghosts. #line:8b4301
+Mae: ghosts? #line:e3ece4
+Bea: like i dunno if i believe in them but #line:8de41b
+Mae: yeah? #line:87db0e
+Bea: So you know how you said you’ve been seeing ghosts at night? #line:10e1f7
+Bea: I mean I don’t super believe it's not just dreams. #line:59b9cc
+Bea: because obviously it's dreams. #line:fc5181
+Mae: ok that's certainly your take on it. #line:e71220
+Bea: but like... #line:2b91ee
+Bea: did you ever see my mom? #line:0eed6c
+->yes #line:9ac953
+	Mae: it's hard to like recognize anyone #line:c41434
+    Mae: but you can get a sense of people #line:dc7428
+    Mae: and i uh i'm pretty sure i saw her #line:70e863
     Bea: ... #line:4b6332
-    Bea: wirklich? #line:1b0f6d
-    Mae: soweit ich das beurteilen kann. #line:a36e49
-    Bea: Ich will nur... wissen, dass sie irgendwo ist #line:8d5f34
-    Bea: und ok. #line:4c8e73
-    Mae: sie ist irgendwo, Bea. und ok. #line:c965d3
-    Bea: danke. ich weiss nicht, ob du nur luegst #line:c31602
-    Bea: oder du hast es getraeumt #line:509674
-    Bea: oder was. #line:a83996
-    Bea: aber... selbst wenn du dir das alles nur ausgedacht hast #line:0e8df7
-    Bea: das war nett von dir. #line:bb6304
+    Bea: really? #line:1b0f6d
+    Mae: as far as i can tell. #line:a36e49
+    Bea: I just... want to know she's somewhere #line:8d5f34
+    Bea: and ok. #line:4c8e73
+    Mae: she's somewhere, bea. and ok. #line:c965d3
+    Bea: thanks. i don't know if you're just lying #line:c31602
+    Bea: or you dreamed it #line:509674
+    Bea: or what. #line:a83996
+    Bea: but... even if you just made all that up #line:0e8df7
+    Bea: it was nice of you. #line:bb6304
     <<wait 2>>
-->nein #line:2b1572
-	Mae: ich meine, ich kann es nicht wirklich sagen? #line:7e3881
-    Mae: und ich glaube nicht, dass die Geister wie #line:9953bf
-    Mae: Menschen waren? #line:1c833a
-    Mae: als ob sie nicht herum sitzen und Geister sind. #line:51a588
-    Mae: es ist mehr wie #line:380e7f
-    Mae: Echos? #line:7d4840
-    Mae: Echos von Scheisse, die passiert ist und von Leuten, die hier waren? #line:a4fe9b
+->no #line:2b1572
+	Mae: i mean, i can't really tell? #line:7e3881
+    Mae: and i don't think the ghosts were like #line:9953bf
+    Mae: people? #line:1c833a
+    Mae: like they're not sitting around being ghosts. #line:51a588
+    Mae: it's more like #line:380e7f
+    Mae: echoes? #line:7d4840
+    Mae: echoes of shit that happened and people that were here? #line:a4fe9b
     Bea: ... #line:66eb65
     Bea: oh. #line:dd8b5f
-    Mae: glaub mir, keiner der Orte sah nach super viel Spass aus. #line:39b087
-    Mae: deine Mutter war verdammt gut #line:5e0acf
-    Mae: zu toll, um dort abzuhaengen. #line:5e00c5
-    Bea: ha ha. das ist wie... #line:5f826b
-    Bea: ich weiss es zu schaetzen, dass du versuchst, die Sache zu drehen. #line:8837c1
-    Mae: Ich tue mein Bestes, Beatrice. #line:4a6583
-Bea: na gut, wie auch immer #line:74d388
-Bea: also die schlechte Nachricht ist, dass wir ausgesperrt sind. #line:ccb878
-Bea: durch dieses riesige Tor. #line:aea9dd
-Mae: ugh, warum ein riesiges Tor auf einem Friedhof? #line:87762c
-Bea: um Leute wie dich fernzuhalten #line:8299a2
-Bea: und um zu verhindern, was du wahrscheinlich tun wirst. #line:456d4c
-Mae: hm. ja, das werden wir nie mit Sicherheit wissen. #line:444fa8
-Bea: na gut, ich werde nicht klettern. #line:e05635
-Bea: geh und mach dein Ding. #line:06b5b2
-Mae: mein Ding? #line:2d0426
-Bea: du bist gut in solchen Dingen! #line:351ab8
-Bea: rohe Gewalt und so. #line:484bba
-Mae: Meine Guete, ich muss hier alles machen. #line:080755
-Bea: es ist dein Geist! ich bin nur der Fahrer. #line:c1fb59
-Mae: gut. haeng ab. ich bin gleich wieder da. #line:c82cfe
+    Mae: trust me, none of the places looked like super much fun. #line:39b087
+    Mae: your mom was rad as hell #line:5e0acf
+    Mae: too rad to hang there. #line:5e00c5
+    Bea: ha ha. that's like... #line:5f826b
+    Bea: i appreciate you trying to turn this around. #line:8837c1
+    Mae: i'm doing my best, beatrice. #line:4a6583
+Bea: alright anyway #line:74d388
+Bea: so the bad news is that we're locked out. #line:ccb878
+Bea: by that big-ass gate. #line:aea9dd
+Mae: ugh why make a giant gate in a graveyard? #line:87762c
+Bea: um to keep people like you out #line:8299a2
+Bea: and stop what you're probably gonna do. #line:456d4c
+Mae: hm. yeah we'll never know for sure. #line:444fa8
+Bea: alright well i'm not climbing it. #line:e05635
+Bea: go do your thing. #line:06b5b2
+Mae: my thing? #line:2d0426
+Bea: you're good at this kinda thing! #line:351ab8
+Bea: brute force and shit. #line:484bba
+Mae: geez. gotta do everything around here. #line:080755
+Bea: it's your ghost! i'm just the driver. #line:c1fb59
+Mae: fine. hang out. i'll be back. #line:c82cfe
 <<walk Bea BeaByGate>>
 <<setCanInteract Bea 0>>
 ===
 title: GateBreak
-tags:
+tags: 
 colorID: 4
 position: 336,500
 ---
 <<freezePlayer>>
 <<playerCanRun 0>>
 <<playerCanJump 0>>
-Bea: Aeh. #line:935670
-Bea: Ich hoffe, das hat niemand gesehen. #line:e5aa85
-Bea: Wir werden verklagt werden. #line:794d17
-Mae: Ich glaube nicht, dass jemand hier hinten ist. #line:557ef2
-Mae: Und es ist schon spaet. #line:db814b
+Bea: Uh. #line:935670
+Bea: I sure hope nobody saw that. #line:e5aa85
+Bea: We’re gonna get sued. #line:794d17
+Mae: I don’t think anyone’s back here. #line:557ef2
+Mae: And it’s getting late. #line:db814b
 Bea: mmhm. #line:62fdc1
-Mae: UEbrigens, gern geschehen! #line:ca8ee5
-Bea: Ja siehst du? Ich habe dir gesagt, dass du das gut kannst. #line:d9ec66
-Mae: mein Ruecken tut weh. #line:d6deed
-Bea: also was muessen wir tun? #line:1d8113
-Mae: aeh ich werde Little Joes Grab suchen #line:8616d7
-Mae: und wenn er nicht auftaucht #line:5d28ce
-Mae: werde ich daran klopfen, bis er es tut. #line:fee8c8
-Bea: du darfst nichts zerstoeren, Mae. #line:3737dc
-Mae: ok fein! was auch immer! lass uns gehen! #line:ed5863
+Mae: You’re welcome, by the way! #line:ca8ee5
+Bea: Yeah see? I told you you're good at this. #line:d9ec66
+Mae: my back hurts. #line:d6deed
+Bea: so what do we need to do? #line:1d8113
+Mae: uh I'm gonna go find Little Joe's grave #line:8616d7
+Mae: and if he doesn't show up #line:5d28ce
+Mae: i'm gonna knock on it until he does. #line:fee8c8
+Bea: you're not allowed to destroy anything, mae. #line:3737dc
+Mae: ok fine! whatever! let's go! #line:ed5863
 <<set $at_joes_grave_done to 0>>
 <<walk Bea BeaInPit>>
 ===
 title: AtJoesGrave
-tags:
+tags: 
 colorID: 4
 position: 637,541
 ---
 Bea: "Joe Shade" #line:bd0ea8
-Bea: Ja, das ist er. #line:43ebdd
-Bea: Der Boden hier ist ganz sumpfig. #line:052773
-Mae: Igitt. Ekelhaft. #line:0228ef
-Bea: Und was machen wir hier? #line:54924a
-Mae: Aehm. Ich denke, ich werde mich einfach umsehen? #line:f65d8a
-Bea: nach... Geistern? #line:a1ec97
-Mae: ugh, mach das nicht zu einer Sache. #line:20c369
-Bea: es ist kein Ding! es ist cool! #line:8bf454
-Bea: mae, ich bin jetzt fuer *dich* da. #line:75f5b8
-Mae: sorry. du hattest einen Ton. #line:39e8d9
-Bea: Ton verstaut. #line:b8fd8a
-Mae: Dankeschoen. #line:15cd88
+Bea: Yeah, this is him. #line:43ebdd
+Bea: Ground here’s all swampy. #line:052773
+Mae: Ugh. Gross. #line:0228ef
+Bea: So what do we do here? #line:54924a
+Mae: Um. I guess I'm gonna just look around? #line:f65d8a
+Bea: for... ghosts? #line:a1ec97
+Mae: ugh don't make this a thing. #line:20c369
+Bea: it's not a thing! it's cool! #line:8bf454
+Bea: mae, i am here for *you* right now. #line:75f5b8
+Mae: sorry. you had a tone. #line:39e8d9
+Bea: tone stowed. #line:b8fd8a
+Mae: thank you. #line:15cd88
 <<set $at_joes_grave_done to 1>>
 <<set $check_old_section_1_done to 0>>
 <<set $check_old_section_2_done to 0>>
 <<set $check_old_section_3_done to 0>>
 ===
 title: InitLevel
-tags:
+tags: 
 colorID: 4
 position: -628,593
 ---
@@ -149,13 +149,13 @@ position: -628,593
 <<setSpriteLayer Bea CharacterFG>>
 ===
 title: CheckOldSection1
-tags:
+tags: 
 colorID: 4
 position: 934,583
 ---
-Mae: Ich habe ein paar alte Sachen gefunden! #line:24a161
-Bea: was fuer altes Zeug? #line:02f3c6
-Mae: Graeber? #line:34fc85
+Mae: I found some old stuff! #line:24a161
+Bea: what kind of old stuff? #line:02f3c6
+Mae: graves? #line:34fc85
 Bea: wow. #line:9cf745
 <<close>>
 <<set $check_old_section_1_done to 1>>
@@ -167,31 +167,31 @@ tags: temp
 colorID: 4
 position: 1189,643
 ---
-Mae: Dieses Grab ist fuer ein Pferd, glaube ich? #line:a4f00b
-Bea: Ich glaube nicht, dass sie jemals Pferde in Menschengraebern begraben haben. #line:155e60
-Mae: Stell dir den grossen, pferdegrossen Sarg vor. #line:a65a17
-Bea: stell dir vor. #line:786049
+Mae: This grave is for a horse I think? #line:a4f00b
+Bea: I don't think they ever buried horses in people graves. #line:155e60
+Mae: imagine the big horse-sized coffin. #line:a65a17
+Bea: imagine. #line:786049
 <<close>>
 <<set $check_old_section_2_done to 1>>
 <<set $checked_old_section_count += 1>>
 [[CheckOldSectionCount]]
 ===
 title: CheckOldSection3
-tags:
+tags: 
 colorID: 4
 position: 1469,608
 ---
-Bea: irgendwelche Geister da drueben? #line:e4b3ae
-Mae: nein, Bea. #line:0a0378
-Mae: das wuerdest du wissen. #line:acb676
-Mae: Ich wuerde sagen. #line:e767c1
+Bea: any ghosts over there? #line:e4b3ae
+Mae: no, bea. #line:0a0378
+Mae: you'd know. #line:acb676
+Mae: I'd say. #line:e767c1
 Bea: ha ha ok ok #line:aa44a2
 <<set $check_old_section_3_done to 1>>
 <<set $checked_old_section_count += 1>>
 [[CheckOldSectionCount]]
 ===
 title: CheckOldSectionCount
-tags:
+tags: 
 colorID: 4
 position: 1206,940
 ---
@@ -200,34 +200,34 @@ position: 1206,940
 <<endif>>
 ===
 title: Bea
-tags:
+tags: 
 colorID: 4
 position: 1163,1206
 ---
 <<wait 2>>
-Mae: DAS IST DUMM! #line:f2cc12
-Bea: Was hast du denn erwartet? #line:d7caef
-Mae: IRGENDWAS! #line:69f519
-Mae: Es ist einfach... DUMM!!! #line:fc82cb
-Mae: Er ist nicht aus dem Boden gesprungen oder so was! #line:e8447d
-Bea: Ist... ist es das, was du erwartet hast, was passiert? #line:4566df
-Mae: DAS IST DUMM! #line:a91e59
-Mae: Ich werde seinen Scheiss zertruemmern! #line:195d4e
-Bea: aeh whoa Mann warte nicht #line:6ff57e
-Mae: [shake=.05]AUFWACHEN, AUFWACHEN, KLEINER JOE!!![/shake] #line:f12eda
+Mae: THIS IS STUPID! #line:f2cc12
+Bea: What were you expecting? #line:d7caef
+Mae: SOMETHING! #line:69f519
+Mae: It’s just... STUPID!!! #line:fc82cb
+Mae: HE DIDN’T POP OUT OF THE GROUND OR ANYTHING! #line:e8447d
+Bea: Is... is that what you were expecting to happen? #line:4566df
+Mae: THIS IS STUPID! #line:a91e59
+Mae: I’m gonna smash his shit up! #line:195d4e
+Bea: uh whoa dude hold up no #line:6ff57e
+Mae: [shake=.05]WAKEY WAKEY LITTLE JOE!!![/shake] #line:f12eda
 <<playerCanRun 1>>
 <<playerCanJump 1>>
 <<setCanInteract Bea 0>>
 ===
 title: JumpOnJoeGrave
-tags:
+tags: 
 colorID: 4
 position: 1478,1210
 ---
 Bea: ok. that didn’t sound right. #line:432447
 ===
 title: InSinkhole
-tags:
+tags: 
 colorID: 4
 position: 1748,1204
 ---
@@ -237,62 +237,62 @@ position: 1748,1204
 <<warp Mae MaeSinkhole>>
 <<flip Mae -1>>
 <<freezePlayer>>
-Bea: HEILIGE SCHEISSE! #line:05de66
-Mae: HEILIGE SCHEISSE! #line:6d690f
-Bea: WAS HAST DU GETAN? #line:d1cf74
-Mae: Du hattest recht! #line:f169d8
-Bea: Mit was?? Ich habe dir nicht gesagt, dass du das tun sollst? #line:c4e71b
-Mae: Wegen der Senkgruben! #line:ed58c2
-Bea: Wir hatten Glueck, dass es nicht tiefer war. #line:df893a
-Bea: Warte... ist das... #line:a19871
-Mae: Ja. Das ist ein Sarg. #line:aa0037
-Bea: Ach du Scheisse. #line:b4c15d
-Mae: Also, wir werden es... oeffnen... richtig? #line:b54b04
-Bea: nein. wir werden keinen Sarg oeffnen #line:d3eb27
-Bea: mit einer verrottenden Leiche darin. #line:e8848d
-Mae: Bea, es ist schon so lange her. #line:e91f91
-Mae: er verrottet nicht mehr. #line:b838c3
+Bea: HOLY SHIT! #line:05de66
+Mae: HOLY SHIT! #line:6d690f
+Bea: WHAT DID YOU DO??? #line:d1cf74
+Mae: You were right! #line:f169d8
+Bea: About what??? I didn’t tell you to do that? #line:c4e71b
+Mae: About the sinkholes! #line:ed58c2
+Bea: We’re lucky it wasn’t deeper. #line:df893a
+Bea: Wait... is that... #line:a19871
+Mae: Yeah. That’s a coffin. #line:aa0037
+Bea: Oh crap. #line:b4c15d
+Mae: So, we're gonna... open it... right? #line:b54b04
+Bea: no. we're not going to open a coffin #line:d3eb27
+Bea: with a rotting corpse in it. #line:e8848d
+Mae: Bea, it's been a long time. #line:e91f91
+Mae: he's not rotting anymore. #line:b838c3
     <<if $did_bea_friendship_quest_2>>
-        Mae: wir haben hier eher eine Mr. Miranda-Situation vor uns. #line:e98a67
+        Mae: we got more a Mr. Miranda situation going on here. #line:e98a67
     <<endif>>
-Bea: Oh Gott, wir werden das nicht tun, wir gehen #line:90ddc4
-Mae: bist du nicht wenigstens ein bisschen neugierig? #line:74f819
+Bea: geez god we are not doing this we are leaving #line:90ddc4
+Mae: aren't you kinda curious at least? #line:74f819
 Bea: ... #line:d85af9
 Bea: ... #line:39e865
-Bea: ... ja. #line:5870fd
-Mae: ok! lass es uns tun! #line:1ac12d
-Bea: Du tust es. Ich stehe hier. #line:aa4da7
+Bea: ...yeah. #line:5870fd
+Mae: ok! let's do this! #line:1ac12d
+Bea: you're doing it. I'm standing here. #line:aa4da7
 <<close>>
 <<irisOut 1 wait>>
 <<scene PawsModeBeaCoffin>>
 ===
 title: InSinkhole2
-tags:
+tags: 
 colorID: 4
 position: 2004,1203
 ---
-Mae: Also was, Foulspiel? #line:039178
-Bea: wer weiss. #line:ca21a7
-Mae: wir sind Detektive! #line:b6ce50
-Bea: sind wir nicht. wir sind wie #line:8f7189
-Bea: kriminelle Vandalen #line:8db13b
-Bea: oder wie Grabraeuber oder so. #line:f481f9
-Mae: die auch! #line:0fdf30
-Mae: wir sind im Moment eine Menge Dinge. #line:fc7039
+Mae: so what, foul play? #line:039178
+Bea: who knows. #line:ca21a7
+Mae: we're detectives! #line:b6ce50
+Bea: we're not. we're like #line:8f7189
+Bea: criminal vandals #line:8db13b
+Bea: or like graverobbers or something. #line:f481f9
+Mae: those too! #line:0fdf30
+Mae: we're a lot of things right now. #line:fc7039
 Bea: SHH! #line:b4abe3
-Mae: was? #line:11c4ec
+Mae: what? #line:11c4ec
 <<playAmbientSFX _AmbientSFX:amb_ibon 3>>
 <<wait 2>>
-Bea: Da hinten ist also jemand, der uns beobachtet. #line:f1d83e
-Mae: Oh Gott... #line:9718df
-Bea: ich weiss nicht, wo sie hin sind #line:3786fc
-Bea: einfach so #line:438eec
-Bea: aus den Augenwinkeln... #line:b4f03e
-Mae: ist es... #line:b3792e
-Bea: Ich weiss es nicht. Aber wir muessen gehen. JETZT! #line:f75aec
-Mae: es koennte der Geist sein! #line:2a7a3e
-Bea: NEIN! Wir sind weg! Jetzt! #line:0b1e04
-Mae: ok gut geez! #line:3d678a
+Bea: So there’s someone back there watching us. #line:f1d83e
+Mae: Oh god... #line:9718df
+Bea: i don't know where they went #line:3786fc
+Bea: just like #line:438eec
+Bea: out of the corner of my eye... #line:b4f03e
+Mae: is it... #line:b3792e
+Bea: I don’t know. But we need to leave. NOW! #line:f75aec
+Mae: it could be the ghost! #line:2a7a3e
+Bea: NO! We're gone! Now! #line:0b1e04
+Mae: ok fine geez! #line:3d678a
 <<set $graveyard_branch_break to 1>>
 <<close>>
 <<run Mae OffLeft>>
@@ -305,18 +305,18 @@ Mae: ok gut geez! #line:3d678a
 <<scene BeaIQGraveyard left>>
 ===
 title: NeedBea
-tags:
+tags: 
 colorID: 4
 position: 455,1133
 ---
 <<if $graveyard_need_bea is 0>>
-    Mae: Ich werde Bea auf keinen Fall zuruecklassen... #line:f58345
-    Mae: Igitt Beatrice. #line:3d810d
-    Mae: Lerne einfach zu springen. #line:03dfc8
-    Mae: nicht mit diesen duerren Beinen, schaetze ich. #line:81708b
-    Mae: wie kann ich das Tor aufbrechen? #line:136339
+    Mae: There's no way I'm going to leave Bea behind... #line:f58345
+    Mae: Ugh Beatrice. #line:3d810d
+    Mae: just learn to jump. #line:03dfc8
+    Mae: not with those scrawny legs I guess. #line:81708b
+    Mae: how do I break that gate open? #line:136339
     <<set $graveyard_need_bea to 1>>
 <<elseif $graveyard_need_bea is 1>>
-    Mae: Hmm, es muss doch einen Weg geben, das Tor aufzubrechen... #line:300bba
+    Mae: Hmm, there's gotta be a way to break that gate open... #line:300bba
 <<endif>>
 ===

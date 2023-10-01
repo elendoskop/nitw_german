@@ -1,5 +1,5 @@
 title: EnterLevel
-tags:
+tags: 
 colorID: 0
 position: -436,157
 ---
@@ -10,44 +10,44 @@ position: -436,157
 <<endif>>
 ===
 title: CliffEdge
-tags:
+tags: 
 colorID: 0
 position: 205,178
 ---
-Mae: Wow. Wir sind wirklich hoch oben.  #line:568927
-Mae: und wirklich weit draussen! #line:45b623
-Mae: Ich kann die Stadt von hier aus nicht sehen #line:9b625b
-Angus: Sie liegt suedlich von uns, hinter dem Kamm, der das ist. #line:20bd72
+Mae: wow. We’re up really high.  #line:568927
+Mae: and really far out! #line:45b623
+Mae: I can’t see town from here #line:9b625b
+Angus: It’s south of us, behind whatever ridge that is. #line:20bd72
 <<close>>
 <<walk Mae MaeLog wait>>
 <<warpSit>>
 <<allSpeechBubblesToY 2.6>>
-Mae: Also was, sollen wir hier einfach warten und sehen, ob etwas passiert? #line:4cdcd3
-Angus: Sag du es mir! Du bist doch der Experte. #line:068b9c
-Mae: Ich schaetze, wir werden einfach hier warten und sehen, ob etwas passiert. #line:cfc122
+Mae: so what, are we just supposed to wait here and see if anything happens? #line:4cdcd3
+Angus: you tell me! You’re the expert. #line:068b9c
+Mae: i guess we’ll just wait here and see if anything happens. #line:cfc122
 <<close>>
 <<wait 4>>
-Angus: Schoene Nacht. #line:3e3560
-Mae: Ja. #line:4e7b6c
-Mae: Damals in der Schule konnte ich nicht so viele Sterne sehen. #line:e04444
-Mae: Das hat mich immer traurig gemacht. #line:fbe298
-Angus: Oh ja. Sie sind wirklich nett hier oben. #line:c5718a
-Mae: Ich wuenschte, ich wuerde die Konstellationen so gut kennen wie du. #line:80a0b2
-Angus: Was denn? #line:bbfcfd
-Mae: Du kennst all die Namen und die Geschichten und so. #line:82a7ea
-Angus: Schoen waer's. Ich kann mich nie an sie erinnern, ausser... #line:09044a
-Angus: Ich glaube, das da oben ist eine Glocke oder so? #line:39ad59
-Mae: Nein, nein, nein, nein. #line:1453cd
-Mae: Weisst du noch, als wir alle bei dem Lagerfeuer der laengsten Nacht waren? #line:3832a4
-Mae: Und wir haben die Sternbilder zusammen gesehen #line:1ceec3
-Mae: und du hast uns alles ueber sie erzaehlt??? #line:52a860
-Angus: Das ist nicht wirklich passiert. #line:6d75e6
-Mae: Oh wow. Vielleicht war es wie ein Traum oder so. #line:b11e9f
-Mae: Gott, ich kann mich kaum noch erinnern. #line:26735a
-Angus: Ich frage mich, welche falschen Konstellationen und Geschichten du dir ausgedacht hast. #line:87751e
-Mae: Ok, halt mich bei Laune. #line:d1e581
-Mae: Ich werde die Sternbilder finden, du erzaehlst mir davon. #line:70f896
-Angus: ok dann. #line:b39b18
+Angus: Nice night. #line:3e3560
+Mae: Yeah. #line:4e7b6c
+Mae: Back at school I couldn’t see as many stars. #line:e04444
+Mae: That always made me sad. #line:fbe298
+Angus: Oh yeah. They’re really nice up here. #line:c5718a
+Mae: I wish I knew the constellations like you did. #line:80a0b2
+Angus: What? #line:bbfcfd
+Mae: You know all the names and the stories and stuff. #line:82a7ea
+Angus: I wish. I can never remember them other than... #line:09044a
+Angus: I think that one up there is like a bell or something? #line:39ad59
+Mae: No. No no no. #line:1453cd
+Mae: Remember that time we were all at that Longest Night bonfire? #line:3832a4
+Mae: And we spotted the constellations together #line:1ceec3
+Mae: and you told us all about them??? #line:52a860
+Angus: That’s not a thing that happened. #line:6d75e6
+Mae: Oh wow. Maybe it was like a dream or something. #line:b11e9f
+Mae: God, I barely remember now. #line:26735a
+Angus: I wonder what fake constellations and stories you dreamed up. #line:87751e
+Mae: Ok, humor me. #line:d1e581
+Mae: I’ll find the constellations, you tell me about them. #line:70f896
+Angus: ok then. #line:b39b18
 //aperture out//
 <<close>>
 <<wait 1>>
@@ -56,7 +56,7 @@ Angus: ok dann. #line:b39b18
 <<scene AngusConstellations>>
 ===
 title: InitLevel
-tags:
+tags: 
 colorID: 0
 position: -685,134
 ---
@@ -76,100 +76,100 @@ position: -685,134
 <<endif>>
 ===
 title: Graves
-tags:
+tags: 
 colorID: 0
 position: -115,167
 ---
-Mae: Graeber, hm? #line:eab297
-Angus: ja das waren... ich habe es vergessen. #line:0e9269
-Angus: sie waren in das Opossum-Massaker verwickelt. #line:89e253
-Angus: die Sache mit dem Streik #line:b0b9ed
-Angus: das mit den Bergarbeitern gegen die Nationalgarde? #line:654d77
-Angus: ist vor hundert Jahren in der Stadt passiert. #line:704d96
-Mae: warum sind sie hier oben? #line:178772
-Angus: ich glaube, das waren einige der boesen Jungs. #line:e12f42
-Angus: und einige der Bergleute #line:b0c73f
-Angus: wollte nicht, dass sie in der Stadt begraben werden. #line:963573
+Mae: graves, huh? #line:eab297
+Angus: yeah these were... i forget. #line:0e9269
+Angus: they were involved in the possum massacre. #line:89e253
+Angus: that like labor strike thing #line:b0b9ed
+Angus: where it was like the miners vs national guard? #line:654d77
+Angus: happened back in town like a hundred years ago. #line:704d96
+Mae: why are they up here? #line:178772
+Angus: i think these were some of the bad guys. #line:e12f42
+Angus: and some of the miners #line:b0c73f
+Angus: didn't want them buried in town. #line:963573
 Mae: oh. huh. #line:98f9ef
-Angus: es gibt hier oben ein paar alte Friedhoefe aus der #line:11b77a
-Angus: aus der Kolonialzeit. #line:f803af
-Angus: ich schaetze, hier oben gibt es auch irgendwo einen. #line:0b0108
-Mae: na ja. #line:89dc10
-Mae: das ist gruselig. #line:97f813
-Angus: eh. nur Knochen. #line:8b6b6b
-Mae: uralte Haiknochen!!! #line:87ec56
-Angus: ja siehst du? nichts mehr uebrig zum Gruseln. #line:267cb8
+Angus: there's like a few old graveyards up here from like #line:11b77a
+Angus: colonial times. #line:f803af
+Angus: i guess there's one up here somewhere too. #line:0b0108
+Mae: well. #line:89dc10
+Mae: that's spooky. #line:97f813
+Angus: eh. just bones. #line:8b6b6b
+Mae: ancient shark bones!!! #line:87ec56
+Angus: yeah see? nothing left to be scary. #line:267cb8
 <<close>>
 //Angus walks up to the log and sits down. You can wander until you go and talk to him//
 <<walkAndSit Angus AngusLog>>
 ===
 title: Enter01
-tags:
+tags: 
 colorID: 0
 position: -288,498
 ---
 <<allSpeechBubblesToY 2.6>>
-Angus: jep. #line:dcfaad
-Mae: jep. #line:ea1e16
-Mae: ich sollte oefters hierher kommen. #line:8c6804
+Angus: yep. #line:dcfaad
+Mae: yep. #line:ea1e16
+Mae: i should come out here more often. #line:8c6804
 Angus: ha ha ha. #line:9b7160
-Angus: ja. #line:61989e
+Angus: yeah. #line:61989e
 <<toggleSitSwings Mae false>>
 <<musicFadeOut 8>>
 <<playAmbientSFX _AmbientSFX:amb_ibon 8>>
-Angus: Sieh ihn nicht an. #line:1ff00a
-Mae: Wen? #line:7a2ca3
-Angus: Da steht jemand hinter uns. #line:6afb53
+Angus: Don’t look at him. #line:1ff00a
+Mae: Who? #line:7a2ca3
+Angus: There’s someone standing behind us. #line:6afb53
 <<cameraLookAt CameraEide 8>>
-Angus: In den Baeumen. #line:e91340
-Mae: Heilige Scheisse. #line:949784
-Mae: Heilige Scheisse. #line:74ef00
-Mae: Wie sehen die denn aus? #line:994853
-Angus: Gross. Sie tragen eine Art seltsamen Mantel. #line:7af752
-Angus: Wie ein Arbeitsmantel oder so. #line:959306
-Mae: Oh Gott #line:1c2609
-Mae: das ist der Geist #line:5382c9
-Angus: Ich mache mir mehr Sorgen, dass es eine lebende Person ist #line:3fe902
-Angus: steht im Wald und starrt uns an #line:5661f1
-Mae: oh Gott oh Gott #line:4b28aa
-Angus: Nun #line:602412
-Angus: keine Panik #line:10531b
-Angus: folge meinem Beispiel #line:a4758a
+Angus: In the trees. #line:e91340
+Mae: Holy shit. #line:949784
+Mae: Holy shit. #line:74ef00
+Mae: What do they look like? #line:994853
+Angus: Tall. Wearing some kind of weird coat. #line:7af752
+Angus: Like a utility coat or something. #line:959306
+Mae: oh god #line:1c2609
+Mae: that’s the ghost #line:5382c9
+Angus: I’m more worried about it being a living person #line:3fe902
+Angus: standing in the woods, staring at us #line:5661f1
+Mae: oh god oh god #line:4b28aa
+Angus: Well #line:602412
+Angus: don’t panic #line:10531b
+Angus: follow my lead #line:a4758a
 <<close>>
 <<wait 1>>
 <<allSpeechBubblesToY 0>>
 //angus stands up and turns around//
 <<walk Angus AngusTurnAround wait>>
-Angus: hey da #line:a178a7
+Angus: hey there #line:a178a7
 <<close>>
 <<wait 2>>
-Angus: Lust auf eine Wanderung? #line:583d0a
-Angus: schoene Nacht #line:a377e6
+Angus: out for a hike? #line:583d0a
+Angus: nice night #line:a377e6
 <<close>>
 <<wait 2>>
-Angus: er... antwortet... nicht... #line:7b59de
-Mae: das ist ein bisschen feindselig, oder? #line:267b2a
-Angus: das ist definitiv ein wenig feindselig #line:24eb13
+Angus: he’s... not... answering... #line:7b59de
+Mae: that’s a little hostile right? #line:267b2a
+Angus: that’s definitely a little hostile #line:24eb13
 <<close>>
 <<jump>>
 <<wait 1>>
 <<walk Mae MaeTurnAround>>
 Mae: HEY!!! #line:47a757
-Mae: ICH WEISS, WAS DU GETAN HAST!!! #line:e399d5
-Angus: Mae, nein- #line:19268c
-Mae: Ich habe dich gesehen!!! #line:9b07ef
-Angus: ok, wir werden jetzt rennen. #line:ff88c7
-Angus: wir muessen zum Auto gehen #line:ab68c9
-Mae: aber dein Asthma #line:93fde8
+Mae: I KNOW WHAT YOU DID!!! #line:e399d5
+Angus: Mae, no- #line:19268c
+Mae: I SAW YOU!!! #line:9b07ef
+Angus: ok well we’re gonna run now. #line:ff88c7
+Angus: we need to get to the car #line:ab68c9
+Mae: but your asthma #line:93fde8
 //angus does inhaler animation//
-Angus: Ich habe einen Inhalator. #line:c97d02
-Angus: Auch die gute Sorte. #line:5e4a92
-Angus: niemand im Himmel oder auf Erden kann mich aufhalten #line:732109
-Mae: ok ok ok lass uns gehen #line:2849b4
-Angus: Tief durchatmen. #line:90c9e3
-Angus: Rein. #line:eb20d3
-Angus: Aus. #line:055243
-Angus: in Ordnung. #line:2e7431
+Angus: I got an inhaler. #line:c97d02
+Angus: The good kind, too. #line:5e4a92
+Angus: no one in heaven or earth can stop me #line:732109
+Mae: ok ok ok let’s go #line:2849b4
+Angus: Deep breaths. #line:90c9e3
+Angus: In. #line:eb20d3
+Angus: Out. #line:055243
+Angus: alright. #line:2e7431
 <<run Angus AngusOffRight>>
 //Angus begins running to the right.//
 // next plays as he runs until he gets offscreen
@@ -195,7 +195,7 @@ Angus:{width=4}RAAAAAAAAAAAAAAAWR!!! #line:4c97be
 <<scene BeaCar>>
 ===
 title: Enter00
-tags:
+tags: 
 colorID: 0
 position: -578,483
 ---
@@ -205,17 +205,15 @@ position: -578,483
 <<fadeOutMusic 3>>
 <<waitForMove Angus>>
 <<wait 1>>
-Mae: Nun #line:3bd83e
-Mae: Das war eine Wanderung. #line:fced1f
-Angus: Das war viel einfacher als ich 11 war. #line:1e029c
-Angus: Wie viele Tore haben wir auf dem Weg hierher passiert? #line:7c2473
-Mae: Ich habe nicht mehr mitgezaehlt. #line:dbdda6
-Angus: Seltsam. Damals war noch offen. #line:b77e3f
+Mae: Well #line:3bd83e
+Mae: That was a hike. #line:fced1f
+Angus: That was a lot easier when I was 11. #line:1e029c
+Angus: We passed what, 3 gates on the way up here? #line:7c2473
+Mae: I lost count. #line:dbdda6
+Angus: Weird. Used to be open back then. #line:b77e3f
 Mae: Hm. #line:49f30d
-Mae: Bereit zu gehen? #line:419621
-Angus: Nicht mehr weit, nur noch geradeaus. #line:4042c1
+Mae: Ready to go? #line:419621
+Angus: Not far now, just up ahead. #line:4042c1
 <<walk Angus AngusGraves 1>>
 <<show Collision:Right>>
 ===
-
-

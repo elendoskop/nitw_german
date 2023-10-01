@@ -1,5 +1,5 @@
 title: InitLevel
-tags:
+tags: 
 colorID: 0
 position: 114,-168
 ---
@@ -25,14 +25,14 @@ position: 114,-168
     <<else>>
         <<hide Lori>>
     <<endif>>
-
+    
     <<if $did_chazokov_star_visits >= 2>>
         <<show Chazokov>>
         <<setAnimInt Chazokov sad 1>>
     <<else>>
         <<hide Chazokov>>
     <<endif>>
-
+    
     <<if $saw_selmers_deliver_poem_at_poets_society>>
         <<show Selmers>>
     <<else>>
@@ -59,96 +59,96 @@ position: 114,-168
 <<endif>>
 ===
 title: EnterLevel_A4D1
-tags:
+tags: 
 colorID: 5
 position: 536,80
 ---
 <<playMusic church_hospital 10>>
 <<wait 8>>
-Pastor: Gott ist hier. #line:4aed4e
-Pastor: In diesem Raum. #line:a2d95f
-Pastor: Ich glaube das. #line:961106
-Pastor: in Zeiten wie diesen, koennen wir laut rufen #line:01b6dc
-Pastor: und wissen, dass unsere Schreie gehoert werden #line:abd5a4
-Mom: *schnief* #line:a36390
+Pastor: God is here. #line:4aed4e
+Pastor: In this room. #line:a2d95f
+Pastor: I believe that. #line:961106
+Pastor: times like this, we can call out #line:01b6dc
+Pastor: and know that our cries are heard #line:abd5a4
+Mom: *sniff* #line:a36390
 Pastor: ... #line:d80a51
 Dad: ... #line:7052be
-Pastor: Waehrend wir hier sind, moechte vielleicht jemand etwas ueber Mae sagen? #line:59c64e
-Mom: Das waere schoen. #line:faf344
+Pastor: While we’re here, maybe someone would like to say something about Mae? #line:59c64e
+Mom: that’d be nice. #line:faf344
 
 <<if $did_lori_friendship_quest_1 and $did_lori_friendship_quest_2>>
-	Lori: Mae ist... meine Freundin. #line:6e3f5f
-	Lori: Bitte, Gott, lass es Mae gut gehen. #line:bd5a5a
-	Lori: Sie ist wirklich eine nette Person #line:9d07ea
-	Lori: auch wenn sie es nicht weiss. #line:fce766
-	Lori: Ich habe ihr eine Rolle in einem Film angeboten, den ich machen will. #line:afa397
+	Lori: Mae is... my friend. #line:6e3f5f
+	Lori: Please god let Mae be ok. #line:bd5a5a
+	Lori: She’s really a nice person #line:9d07ea
+	Lori: even if she doesn’t know it. #line:fce766
+	Lori: I wrote her a part in a movie I want to make. #line:afa397
 	Lori: Thrill Kill Witch Cult. #line:c185d7
-	Dad: Ich weiss, dass sie das zu schaetzen wuesste. #line:e7b14a
-	Mom: Wer bist du nochmal? #line:b79c32
+	Dad: I know she’d appreciate that. #line:e7b14a
+	Mom: Who are you again? #line:b79c32
 	Lori: Lori Meyers. #line:7d2d95
-	Pastor: Ich danke dir, Lori. #line:2510fc
+	Pastor: Thank you, Lori. #line:2510fc
 
-	Pastor: Sonst noch jemand? #line:9a29ed
+	Pastor: Anyone else? #line:9a29ed
 <<endif>>
 
 <<if $did_chazokov_star_visits >= 2>>
-	Chazokov: Mae ist ein gutes Maedchen. #line:5897ac
-	Chazokov: Sie und ich haben die Sterne erforscht. #line:d36dda
-	Chazokov: Und... und sie liebte es, von ihnen zu hoeren... #line:0bdc2f
-	Chazokov: sie... #line:3bb949
+	Chazokov: Mae is a good girl. #line:5897ac
+	Chazokov: She and I explored the stars. #line:d36dda
+	Chazokov: And... and she loved to hear about them... #line:0bdc2f
+	Chazokov: she... #line:3bb949
     <<close>>
     <<wait .5>>
-    <<setAnimInt Chazokov weint 1>>
+    <<setAnimInt Chazokov crying 1>>
     <<wait .5>>
 	Chazokov: I am sorry. #line:c07359
-	Pastor: Es kann schwierig sein. #line:aed254
+	Pastor: It can be difficult. #line:aed254
 
-	Pastor: Sonst noch jemand? #line:a0b1c2
+	Pastor: Anyone else? #line:a0b1c2
 <<endif>>
 
 <<if $saw_selmers_deliver_poem_at_poets_society>>
-	Selmers: Ich habe Mae immer als das Kind die Strasse runter gekannt. #line:08daa6
-	Selmers: Ein bisschen juenger als ich, aber zaeh. #line:e857fd
-	Selmers: Ich habe es in den letzten paar Jahren durchgemacht. #line:4c2b69
-	Selmers: Sucht, Knast, Reha, Scheidung. #line:954017
-	Selmers: Und... #linen:532d19
-	Selmers: Ich denke nur, es ist nicht fair #line:28210f
-	Selmers: dass ausgerechnet Mae Schwierigkeiten haben sollte. #line:ed6379
-	Selmers: Wo ist denn da der Gott drin? #line:1b8e28
-	Selmers: Wo ist die hoehere Macht? #line:0710dc
-	Selmers: Das ist alles ein Haufen Bloedsinn. #line:09a6ce
-    Pastor: Ich danke dir, Selma. #line:5620fa
+	Selmers: I’ve always known Mae as the kid down the street. #line:08daa6
+	Selmers: A little younger than me, but tough. #line:e857fd
+	Selmers: I been through it in the past couple years. #line:4c2b69
+	Selmers: Addiction, jail, rehab, divorce. #line:954017
+	Selmers: And... #line:532d19
+	Selmers: I just think it’s not fair #line:28210f
+	Selmers: that Mae of all people should have trouble. #line:ed6379
+	Selmers: Where’s the god in that? #line:1b8e28
+	Selmers: Where’s the higher power? #line:0710dc
+	Selmers: this is all a bunch of bullshit. #line:09a6ce
+    Pastor: Thank you, Selma. #line:5620fa
 	Mom: ... #line:ce37b4
 	Dad: ... #line:1bbc72
-	Pastor: Sonst noch jemand? #line:a99727
+	Pastor: Anyone else? #line:a99727
 <<endif>>
 
-Penderson: Ich werde etwas sagen #line:da785f
-Penderson: Mae Borowski war schon immer eine Bedrohung #line:fb58d6
-Penderson: und ich habe mehr als einmal die Polizei wegen ihr gerufen. #line:29fa79
-Penderson: Ich hoffe, sie wacht auf und lernt eine Lektion. #line:17ad25
-Penderson: Das ist alles, was ich zu sagen habe. #line:3b9a94
-Dad: aeh... ok. #line:dc7eb4
-Pastor: ...danke, William. #line:435425
-Twigmeyer: Ich werde lauter sprechen. #line:fd35f9
-Pastor: nur zu #line:c8e728
-Twigmeyer: Mae war eine Tochter fuer uns alle im Block. #line:7483ef
-Penderson: Sprich fuer dich selbst. #line:769e72
-Twigmeyer: Manchmal sind die Leute zur falschen Zeit am falschen Ort. #line:23c570
-Twigmeyer: Ich hoffe, wir finden heraus, was genau mit ihr passiert ist. #line:4b2412
-Mom: Oh, wir wissen es. Ihre Freunde haben es uns erzaehlt. #line:f255a1
-Dad: Ja. Sie waren nachts draussen im Wald #line:cf6b84
-Dad: unten am Ende der Centre Ave #line:8a34d6
-Dad: und jemand war dort draussen und hat illegal gejagt #line:c5fd93
-Dad: und es wurde auf sie geschossen #line:eb624a
-Dad: und Mae fiel und... #line:f4913b
-Mom: sie muss von einer Million Dinge eine Million Mal gefallen sein #line:37588e
-Mom: es genuegt, einmal falsch zu landen... und... #line:677818
+Penderson: I’ll say somethin' #line:da785f
+Penderson: Mae Borowski’s always been a menace #line:fb58d6
+Penderson: and I called the police on her more’n once. #line:29fa79
+Penderson: I hope she wakes up and learns a lesson. #line:17ad25
+Penderson: That’s all I got to say. #line:3b9a94
+Dad: uh... ok. #line:dc7eb4
+Pastor: ...thank you, William. #line:435425
+Twigmeyer: I’ll speak up. #line:fd35f9
+Pastor: go ahead #line:c8e728
+Twigmeyer: Mae was a daughter to all of us on the block. #line:7483ef
+Penderson: Speak for yerself. #line:769e72
+Twigmeyer: Sometimes folks is in the wrong place at the wrong time. #line:23c570
+Twigmeyer: I hope we find out what exactly happened to her. #line:4b2412
+Mom: Oh, we know. Her friends told us. #line:f255a1
+Dad: Yeah. They were out in the woods at night #line:cf6b84
+Dad: down the end of Centre Ave #line:8a34d6
+Dad: and someone was out there hunting illegally #line:c5fd93
+Dad: and they got shot at #line:eb624a
+Dad: and Mae fell and... #line:f4913b
+Mom: she musta fallen off a million things a million times #line:37588e
+Mom: all it takes is landing the wrong way one time... and... #line:677818
 Twigmeyer: Oh. #line:716e51
-Twigmeyer: Na ja. #line:aec7db
-Twigmeyer: Ich hoffe, sie wacht bald auf und erzaehlt uns alles darueber. #line:d8ff47
-Twigmeyer: Mal sehen, ob sie sich erinnert, wer es getan hat. #line:6a2d41
-Pastor: Ich bin sicher, dass sie- #line:74e6da
+Twigmeyer: Well. #line:aec7db
+Twigmeyer: I hope she wakes up soon and tells us allll about it. #line:d8ff47
+Twigmeyer: See if she remembers who done it. #line:6a2d41
+Pastor: I’m sure she- #line:74e6da
 <<close>>
 <<walk Janitor JanitorComa wait>>
 <<playAmbientSFX _AmbientSFX:hospital_fade_in>>
@@ -172,32 +172,32 @@ Pastor: Ich bin sicher, dass sie- #line:74e6da
 //<<playAmbientSFX _AmbientSFX:amb_hospital 7>>
 <<playMusic amb_hospital 7>>
 <<wait 7>>
-Janitor: Oh, es tut mir leid. Ich wollte nicht stoeren. #line:0f83ec
-Janitor: Was ist mit dem hier passiert? #line:94156f
-Mom: Kennen wir dich? #line:ba74fb
-Pastor: bist du hier um aufzuraeumen? #line:de0a7c
-Janitor: Nein. Ich sollte eigentlich eine Tuer reparieren. #line:617b38
-Pastor: hier drinnen? #line:aef5e0
-Janitor: Noe! #line:09548a
-Dad: ok, also- #line:f092c6
-Janitor: Es wird ihr gut gehen. #line:7e1f4d
-Janitor: Jedenfalls fuer heute. #line:d81504
-Mom: Was ist? #line:e1e1b5
-Janitor: Was? #line:240c23
-Dad: Wer bist du? #line:84d8c4
-Janitor: Hausmeister! #line:d253a0
+Janitor: Oh, I’m sorry. I didn’t mean to interrupt. #line:0f83ec
+Janitor: what’s happened to this one? #line:94156f
+Mom: do we know you? #line:ba74fb
+Pastor: are you here to clean up? #line:de0a7c
+Janitor: nah. Supposed to be fixing a door. #line:617b38
+Pastor: in here? #line:aef5e0
+Janitor: nope! #line:09548a
+Dad: ok, so- #line:f092c6
+Janitor: She’s gonna be fine. #line:7e1f4d
+Janitor: For today, leastways. #line:d81504
+Mom: What? #line:e1e1b5
+Janitor: What? #line:240c23
+Dad: who are you? #line:84d8c4
+Janitor: Janitor! #line:d253a0
 <<close>>
 <<walk Janitor JanitorOffRight wait>>
 //mae opens her eyes//
-Mae: das Haus ist weg #line:5d5d9c
+Mae: the house is gone #line:5d5d9c
 Dad: MAE! #line:0ba4ac
-Mom: oh Gott sei Dank #line:1f70d5
-Pastor: was hast du gesagt, Mae? #line:d7a77a
-Mae: es ist tot. #line:1ea1a5
-Mom: was ist tot, Schatz? #line:2f67a8
+Mom: oh thank god #line:1f70d5
+Pastor: what did you say, mae? #line:d7a77a
+Mae: it’s dead. #line:1ea1a5
+Mom: what’s dead, honey? #line:2f67a8
 Mae: ... #line:dcfcfd
-Dad: Mae, Schatz? #line:fb0dd8
-Mae: alles #line:4c22a3
+Dad: Mae, honey? #line:fb0dd8
+Mae: everything #line:4c22a3
 <<close>>
 //<<fadeOutAmbientSFX _AmbientSFX:amb_hospital 1>>
 <<playAmbientSFX _AmbientSFX:hospital_fade_out>>
@@ -207,7 +207,7 @@ Mae: alles #line:4c22a3
 <<endDay>>
 ===
 title: ChurchHospital
-tags:
+tags: 
 colorID: 5
 position: 530,329
 ---

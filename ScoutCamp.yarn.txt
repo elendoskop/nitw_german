@@ -1,5 +1,5 @@
 title: EnterLevel
-tags:
+tags: 
 colorID: 4
 position: -24,-146
 ---
@@ -9,49 +9,49 @@ position: -24,-146
 [[Intro]]
 ===
 title: Intro
-tags:
+tags: 
 colorID: 4
 position: -21,102
 ---
 Angus: wow. #line:72a4c6
 Mae: wow? #line:3e6e3c
-Angus: mein altes Pfadfinderlager #line:03a31b
-Angus: war frueher mit meiner Truppe hier oben #line:f486cb
-Angus: vor etwa einem Jahrzehnt #line:880749
-Mae: Du bist jetzt das alte Seeungeheuer. #line:7e282d
-Angus: sieht so aus. #line:07f70a
+Angus: my old scout camp #line:03a31b
+Angus: used to come up here with my troop #line:f486cb
+Angus: like a decade ago #line:880749
+Mae: you're the ancient sea monster now. #line:7e282d
+Angus: looks like it. #line:07f70a
 <<walk Angus Angus1>>
 ===
 title: AngusSteps
-tags:
+tags: 
 colorID: 4
 position: 303,-145
 ---
-Angus: Wow. Sieht so aus, als ob einige der schwirrenden Noten-Dinger wieder da sind. #line:e59ecb
-Mae: die was? #line:199677
-Angus: aeh, wir haben diese kleinen Windmuehlendinger gemacht #line:85ae37
-Angus: und jeder steckte einen anonymen Zettel hinein #line:6be2d7
-Angus: befestigt an diesem kleinen federgesteuerten Hubschrauber #line:7f45d7
-Angus: und die Idee war, dass wenn der Wind zunimmt #line:c40262
-Angus: die Windmuehle den Hubschrauber aufziehen wuerde #line:43e5b4
-Angus: und der Zettel wuerde wegfliegen. #line:ee9230
-Angus: sieht so aus, als waeren einige von ihnen zurueck geweht. #line:5e65e3
-Mae: das ist... ein erstaunlicher Zufall. #line:432c1d
-Angus: oh nein, das war die Idee. #line:3839b2
-Angus: jedes Jahr haben wir die Notizen vom Vorjahr gelesen. #line:4ba912
-Mae: ich werde mal sehen, ob ich noch mehr finden kann! #line:0848bf
-Angus: ich werde hier hoch wandern. ist schon eine Weile her. #line:e9af98
+Angus: Wow. Looks like some of the whirly note things came back. #line:e59ecb
+Mae: the what? #line:199677
+Angus: uh we made these little windmill things #line:85ae37
+Angus: and each put an anonymous note in them #line:6be2d7
+Angus: attached to this little spring-controlled helicopter #line:7f45d7
+Angus: and the idea was that when the wind would pick up #line:c40262
+Angus: the windmill would wind up the helicopter #line:43e5b4
+Angus: and the note would fly away. #line:ee9230
+Angus: looks like some of them blew back. #line:5e65e3
+Mae: that's... an amazing coincidence. #line:432c1d
+Angus: oh no that was the idea. #line:3839b2
+Angus: each year we'd read notes left from the year before. #line:4ba912
+Mae: i'm gonna see if i can find any more! #line:0848bf
+Angus: i'm gonna hike up here. been a while. #line:e9af98
 <<set $can_get_scout_notes to 1>>
 <<walk Angus AngusOnPlatform>>
 <<set $scout_camp_check_done to 0>>
 ===
 title: Windmill00
-tags:
+tags: 
 colorID: 4
 position: 574,-125
 ---
 <<if $can_get_scout_notes>>
-    Mae: Ich hab einen! #line:27b5b8
+    Mae: Got one! #line:27b5b8
     <<set $windmill_00_done to 1>>
     <<set $windmill_messages_collected += 1>>
     <<playOneShot event:/angus_IQ/windmill_note_interact Mae>>
@@ -60,12 +60,12 @@ position: 574,-125
 <<endif>>
 ===
 title: Windmill01
-tags:
+tags: 
 colorID: 4
 position: 796,-100
 ---
 <<if $can_get_scout_notes>>
-    Mae: Ich habe einen! #line:0c4032
+    Mae: Got one! #line:0c4032
     <<set $windmill_01_done to 1>>
     <<set $windmill_messages_collected += 1>>
     <<playOneShot event:/angus_IQ/windmill_note_interact Mae>>
@@ -74,12 +74,12 @@ position: 796,-100
 <<endif>>
 ===
 title: Windmill02
-tags:
+tags: 
 colorID: 4
 position: 1028,-132
 ---
 <<if $can_get_scout_notes>>
-    Mae: Ich habe einen! #line:b1f2db
+    Mae: Got one! #line:b1f2db
     <<set $windmill_02_done to 1>>
     <<set $windmill_messages_collected += 1>>
     <<playOneShot event:/angus_IQ/windmill_note_interact Mae>>
@@ -88,12 +88,12 @@ position: 1028,-132
 <<endif>>
 ===
 title: Windmill03
-tags:
+tags: 
 colorID: 4
 position: 1261,-110
 ---
 <<if $can_get_scout_notes>>
-    Mae: Ich habe einen! #line:50a398
+    Mae: Got one! #line:50a398
     <<set $windmill_03_done to 1>>
     <<set $windmill_messages_collected += 1>>
     <<playOneShot event:/angus_IQ/windmill_note_interact Mae>>
@@ -102,93 +102,93 @@ position: 1261,-110
 <<endif>>
 ===
 title: Check
-tags:
+tags: 
 colorID: 4
 position: 371,81
 ---
 <<if $windmill_messages_collected >= $windmills_launched>>
-    Angus: Ich glaube du hast sie alle! #line:08fbb9
-    Angus: zumindest von dem was ich erkennen kann. #line:9f15bd
-    Angus: und ich habe den hoechsten Aussichtspunkt. #line:9e03a6
+    Angus: I think you got 'em all! #line:08fbb9
+    Angus: from what i can spot at least. #line:9f15bd
+    Angus: and i got the high vantage point. #line:9e03a6
     [[Notes]]
 <<else>>
-    Angus: Ich glaube, es gibt noch mehr? #line:96d2b5
-    Angus: Ich habe sie entdeckt. #line:9408c4
-    Mae: Oh cool! Ich werde nachsehen. #line:95d0db
+    Angus: I think there are some more? #line:96d2b5
+    Angus: i spotted 'em. #line:9408c4
+    Mae: Oh cool! Gonna look. #line:95d0db
     Angus: Aye-aye. #line:984767
 <<endif>>
 ===
 title: Notes
-tags:
+tags: 
 colorID: 4
 position: 543,379
 ---
-Mae: Lasst sie uns lesen, lasst sie uns lesen! #line:ed4dee
-Mae: warte- sollten wir das wirklich? #line:a81b1e
-Mae: wir muessen sie den Spaehern ueberlassen!!! #line:e9ffb4
-Angus: oh, das ist in Ordnung. #line:d33249
-Angus: die hier oben wuerden den Winter sowieso nicht ueberleben. #line:9ff929
-Mae: ok ok ok ok lass uns eins lesen!!! #line:3dd8f8
+Mae: let's read 'em let's read 'em! #line:ed4dee
+Mae: wait- should we, though? #line:a81b1e
+Mae: we gotta leave 'em for the scouts!!! #line:e9ffb4
+Angus: oh, it's fine. #line:d33249
+Angus: any ones up here wouldn't last the winter anyway. #line:9ff929
+Mae: ok ok ok ok let's read one!!! #line:3dd8f8
 <<if $windmill_00_done>>
-    Angus: ok hier ist eins. #line:037235
-    Angus: "Hi. Ich soll meinen Namen nicht schreiben. #line:2f58a7
-    Angus: und das ist in Ordnung, denn ich bin ein Pfadfinder. #line:afc485
-    Angus: und das ist der einzige Name, den ich brauche." #line:bfd950
-    Mae: Wow. Das ist heftig. #line:64ddad
-    Angus: es geht weiter. #line:f96a15
-    Angus: "Die Pfadfinder gaben mir mehr als nur einen Namen, #line:9af961
-    Angus: sie gaben mir Abzeichen. um meinen Wert zu zeigen." #line:0f6b52
-    Mae: Oje. #line:0a4c14
-    Angus: "Ich wuerde fuer die Pfadfinder toeten." #line:0054e6
-    Angus: das war's. #line:b881ee
-    Mae: wart ihr alle so? #line:5ba302
-    Angus: irgendwie. manchmal. nein. vielleicht. #line:dd9c07
+    Angus: ok here's one. #line:037235
+    Angus: "hi. i'm not supposed to write my name. #line:2f58a7
+    Angus: and that's fine, because i am a scout. #line:afc485
+    Angus: and that is the only name i need." #line:bfd950
+    Mae: wow. that's intense. #line:64ddad
+    Angus: it goes on. #line:f96a15
+    Angus: "the scouts gave me more than a name, #line:9af961
+    Angus: they gave me badges. to show my worth." #line:0f6b52
+    Mae: geez. #line:0a4c14
+    Angus: "i would kill for the scouts." #line:0054e6
+    Angus: that's it. #line:b881ee
+    Mae: were you all like this? #line:5ba302
+    Angus: kinda. sometimes. no. maybe. #line:dd9c07
 <<endif>>
 <<if $windmill_01_done>>
-    Angus: ok lasst uns das hier lesen. #line:4aef0d
-    Mae: leseeeeee es! #line:3ab5ea
-    Angus: ha ha ha. oh je. #line:f762e9
-    Mae: was? #line:00bc21
-    Angus: "Ich bin super, super schwul." #line:d6146e
-    Mae: ha ha ha niiiiiiiiiice #line:65ff1b
-    Mae: Angus hast du das geschrieben? #line:b75371
-    Angus: Mensch, das haette ich tun koennen. #line:c39193
-    Angus: ich glaube, meine Notiz handelte davon, wie stark und gut zu sein. #line:109abd
-    Mae: und verdammt schwul, anscheinend. #line:e69879
-    Angus: ich denke, dass meine totale Schwulheit fuer den aufmerksamen Leser durchkam. #line:cddf30
+    Angus: ok let's read this here. #line:4aef0d
+    Mae: reeeeeeead it! #line:3ab5ea
+    Angus: ha ha ha. oh dear. #line:f762e9
+    Mae: what? #line:00bc21
+    Angus: "i am super, super gay." #line:d6146e
+    Mae: ha ha ha niiiiiiiice #line:65ff1b
+    Mae: angus did you write this one? #line:b75371
+    Angus: geez. i could have. #line:c39193
+    Angus: i think my note was about like being strong and good. #line:109abd
+    Mae: and gay as hell, apparently. #line:e69879
+    Angus: i think my total gayness came through to the discerning reader. #line:cddf30
 <<endif>>
 <<if $windmill_02_done>>
-    Angus: Also gut, lasst uns diese Notiz lesen. #line:e87322
-    Angus: *aehem* #line:2ff99e
-    Angus: "Ich mag es, Pfeile zu schiessen, sie sind cool #line:ae14d9
-    Angus: eigentlich denke ich, wir sollten Pfeile schiessen, statt #line:564ac9
-    Angus: Gewehre, wenn wir in der Armee sind, hat das einen taktischen #line:7117f5
-    Angus: Vorteil, dass es leise ist und auch #line:9b10fe
+    Angus: alright let's read this note. #line:e87322
+    Angus: *ahem* #line:2ff99e
+    Angus: "i like shooting arrows they are cool to shoot #line:ae14d9
+    Angus: in fact i think we should shoot arrows instead of #line:564ac9
+    Angus: guns when we're in the army it has a tactical #line:7117f5
+    Angus: advantage in that it is silent and also #line:9b10fe
     Angus: elegant" #line:4e39fe
     Mae: huh. #line:7876c9
-    Angus: ja. ich habe nichts. #line:684f95
+    Angus: yeah. i got nothing. #line:684f95
 <<endif>>
 <<if $windmill_03_done>>
-    Angus: na gut, das hier wurde irgendwie zerrissen #line:abd6a0
-    Angus: vielleicht hat es ein Vogel erwischt. #line:244383
-    Mae: LIES DIE VOGELNOTIZ. #line:d45fa9
-    Angus: "Ich bin extrem ungluecklich, und du bist die einzige Person, die es weiss." #line:5c7bac
+    Angus: alright this one got kinda torn up #line:abd6a0
+    Angus: maybe a bird got it. #line:244383
+    Mae: READ THE BIRD NOTE. #line:d45fa9
+    Angus: "i am extremely unhappy, and you're the only person who knows." #line:5c7bac
     Mae: oh. #line:33f159
     Angus: ok. #line:4d152d
     <<wait 2>>
 <<endif>>
 Angus: hm. #line:1ebefc
-Mae: was? #line:b5aa36
-Angus: es aendert sich nicht viel. #line:12a1e5
-Angus: haette genauso gut unsere Notizen von vor 10 Jahren sein koennen. #line:feafa4
-Mae: Ja. #line:9ec0d7
-Angus: da ist so eine #line:e581b7
-Angus: Zeitlosigkeit #line:3b2fb2
-Angus: ueber Menschen. #line:b66cbd
-Angus: manche Dinge hoeren einfach nicht auf zu sein #line:4ae1cd
-Angus: was wir sind. #line:5d917c
+Mae: what? #line:b5aa36
+Angus: not much changes. #line:12a1e5
+Angus: coulda just as easily been our notes from 10 years ago. #line:feafa4
+Mae: yeah. #line:9ec0d7
+Angus: there's like a #line:e581b7
+Angus: timelessness #line:3b2fb2
+Angus: about people. #line:b66cbd
+Angus: some things just don't stop being #line:4ae1cd
+Angus: what we are. #line:5d917c
 Mae: hmmm. #line:f5eb05
-Angus: ja. #line:a75efc
+Angus: yeah. #line:a75efc
 Angus: hmmmm. #line:13eb45
 <<wait 3>>
 <<close>>
@@ -196,7 +196,7 @@ Angus: hmmmm. #line:13eb45
 <<scene PossumJump left>>
 ===
 title: InitLevel
-tags:
+tags: 
 colorID: 4
 position: -258,-142
 ---
@@ -205,5 +205,3 @@ position: -258,-142
     <<scene PossumJump left>>
 <<endif>>
 ===
-
-

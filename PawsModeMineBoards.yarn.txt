@@ -3,5 +3,5 @@ tags:
 colorID: 4
 position: 585,220
 ---
-Mae: Lass uns... von hier verschwinden... #line:89765c
+Mae: Let's... get out of here... #line:89765c
 ===

@@ -1,5 +1,0 @@
-{
-  "m_Name": "DieAnywhereElseAnimationCues",
-  "m_Script": "00.000|0|Keypress\n\n01.455|2|FootTap\n01.818|2|FootTap\n02.182|2|FootTap\n02.545|2|FootTap\n\n14.545|0|Computer\n\n26.182|2|Strum\n\n27.455|0|Die\n28.182|1|Anywhere\n29.091|2|Else\n\n30.545|0|Computer\n\n33.273|0|Die\n34.000|1|Anywhere\n34.909|2|Else\n\n37.818|2|Strum\n\n39.091|0|Die\n39.818|1|Anywhere\n40.727|2|Else\n\n49.455|2|Strum\n\n64.000|2|Strum\n65.455|2|Strum\n66.000|2|Strum\n\n69.818|2|Strum\n71.273|2|Strum\n71.818|2|strum\n\n74.000|0|Die\n74.727|1|Anywhere\n75.636|2|Else\n\n79.818|0|Die\n80.545|1|Anywhere\n81.455|2|Else\n\n85.636|0|Die\n86.364|1|Anywhere\n87.273|2|Else\n\n88.727|2|FootTap\n89.091|2|FootTap\n89.455|2|FootTap\n89.818|2|FootTap\n90.182|2|FootTap\n\n96.000|2|Strum\n98.909|2|Strum\n101.818|2|Strum\n104.727|2|Strum\n\n117.818|2|Strum\n118.061|2|Strum\n118.303|2|Strum\n\n118.545|2|Strum\n118.788|2|Strum\n119.030|2|Strum\n\n120.545|0|Die\n121.273|1|Anywhere\n122.182|2|Else\n\n126.364|0|Die\n127.091|1|Anywhere\n128.000|2|Else\n\n132.182|0|Die\n132.909|1|Anywhere\n133.818|2|Else\n\n",
-  "m_PathName": ""
-}

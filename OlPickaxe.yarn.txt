@@ -1,84 +1,84 @@
 title: Bill_A1D3
-tags:
+tags: 
 colorID: 2
 position: -677,9063
 ---
-Bea: Ja Bill. Schreib es auf wie auf der Uhr. #line:fc0976
-Bill: Das wird ihr nicht gefallen. #line:99274c
-Bea: Es ist mir egal, wenn es ihr nicht gefaellt. #line:5c6640
-Bea: Es war ihre Schuld. Schlicht und einfach. #line:9aef14
-Bea: Das ist zusaetzliche Zeit. Das stellen wir in Rechnung. #line:619372
-Bill: Also gut! #line:fdf482
+Bea: Yeah Bill. Write it up as on the clock. #line:fc0976
+Bill: She’s not gonna like that. #line:99274c
+Bea: I don’t care if she doesn’t like it. #line:5c6640
+Bea: It was her fault. Plain and simple. #line:9aef14
+Bea: That is time extra. We charge for that. #line:619372
+Bill: Alright then! #line:fdf482
 <<close>>
 <<flip Bill -1>>
 <<walk Bill BillExit>>
 <<walk Player CentreTalkFront wait>>
 [[Hey, Bea!|Bea_A1D3_Hey]] #line:605875
-[[Was sollte das denn?|Bea_A1D3_WhatWasThat]] #line:0c5e3e
+[[What was that all about?|Bea_A1D3_WhatWasThat]] #line:0c5e3e
 ===
 title: Bea_A1D3_WhatWasThat
-tags:
+tags: 
 colorID: 2
 position: -557,9351
 ---
 <<flip Bea 1>>
 <<walk Bea RegisterMed wait>>
 <<lookAt Bea RegisterLook>>
-Bea: Ugh. Frag gar nicht erst. #line:521916
-Bea: Frau Miranda hat einen unserer Jungs schon zweimal in ihrem Keller eingesperrt. #line:2159d4
-Mae: Und warum? #line:274165
+Bea: Ugh. Don’t even ask. #line:521916
+Bea: Mrs. Miranda has locked one of our guys in her basement twice. #line:2159d4
+Mae: Why? #line:274165
 <<lookAt Bea Player>>
-Bea: Weil sie alt ist und vergisst. #line:03187b
-Bea: Vielleicht erinnert sie sich das naechste Mal, wenn sie eine Rechnung dafuer bekommt. #line:4a6424
+Bea: Because she’s old and she forgets. #line:03187b
+Bea: Maybe if she gets a bill for it she’ll remember next time. #line:4a6424
 [[Bea_A1D3_2]]
 ===
 title: Bea_A1D3_Hey
-tags:
+tags: 
 colorID: 2
 position: -781,9342
 ---
 <<lookAt Bea Player>>
 Bea: Hi. #line:5a5ec0
-Mae: Was macht die Arbeit? #line:4a1bd9
+Mae: How’s work? #line:4a1bd9
 <<flip Bea 1>>
 <<walk Bea RegisterMed>>
 <<lookAt Bea RegisterLook>>
-Bea: Stressig. Das Ende des Monats steht bevor. #line:92acf5
-Bea: Und ich muss anfangen, Wintersachen zu bestellen. #line:e9a364
-Bea: Was bedeutet, dass ich einen oder hoffentlich zwei der Jungs bestechen muss #line:242f9f
-Bea: Um die Lastwagen zu entladen. #line:1ee1b8
-Bea: Weil ich nicht alleine einen Lastwagen voller Steinsalz reinbringen werde. #line:4dbb59
+Bea: Stressful. End of the month coming up. #line:92acf5
+Bea: And I have to start ordering in winter stuff. #line:e9a364
+Bea: Which means I have to bribe one or hopefully two of the guys #line:242f9f
+Bea: To unload the trucks. #line:1ee1b8
+Bea: Because I am not carrying in a truckful of rock salt by myself. #line:4dbb59
 [[Bea_A1D3_2]]
 ===
 title: Bea_A1D3_2
-tags:
+tags: 
 colorID: 2
 position: -672,9646
 ---
 Mae: Huh. #line:9302a5
 <<lookAt Bea Player>>
-Bea: Was willst du denn? #line:8d8e87
-Mae: Nun, Gregg hat mich gebeten, dich zu fragen, ob du uns heute Abend zu der Party fahren wuerdest? #line:4ee84e
-Mae: Du weisst schon, die oben im State Park? #line:00a839
-Bea: Danke fuer die Klarstellung. #line:d1fa3e
-Bea: Sonst waere ich vielleicht verwirrt gewesen #line:5fb535
-Bea: Welche der Dutzenden von Partys #line:493d92
-Bea: die in jeder beliebigen Nacht in Possum Springs abgehen #line:1b453a
-Bea: auf die du dich bezogen hast. #line:1b70d5
-Mae: ...bist du sarkastisch? -_- #line:ac1f4d
+Bea: What do you want? #line:8d8e87
+Mae: Well, Gregg asked me to ask you if you would drive us to the party tonight? #line:4ee84e
+Mae: You know, the one up in the state park? #line:00a839
+Bea: Thanks for clarifying. #line:d1fa3e
+Bea: Otherwise I might have been confused #line:5fb535
+Bea: As to which of the dozens of parties #line:493d92
+Bea: going down on any given night in Possum Springs #line:1b453a
+Bea: you were referring to. #line:1b70d5
+Mae: ...are you being sarcastic? -_- #line:ac1f4d
 <<close>>
 <<flip Bea -1>>
 <<walk Bea BeaMid wait>>
 <<lookAt Bea Player>>
-Bea: Ich werde fahren. #line:ccb61e
-Mae: o_o :) Super! Danke! #line:ff37e4
-Bea: Wir sind um 8:30 Uhr bei dir zu Hause. #line:ae9f9c
-Bea: Sei bereit, sonst gehen wir ohne dich. #line:2c8c55
+Bea: I’ll drive. #line:ccb61e
+Mae: o_o :) Great! Thanks! #line:ff37e4
+Bea: We’ll be by your house at 8:30. #line:ae9f9c
+Bea: Be ready or we’ll go without you. #line:2c8c55
 Mae: Ok! :| #line:d06ae4
-Bea: Verirrt euch nicht auf dem Heimweg. #line:879b1b
-Mae: Ich weiss, wo ich wohne. #line:209627
-Bea: Nein, im Ernst. Geh nach Hause und mach dich fertig. #line:e1ef42
-Mae: Schon gut, schon gut! Oje. #line:d6487f
+Bea: Don't get lost on your way home. #line:879b1b
+Mae: I know where I live. #line:209627
+Bea: No seriously. Go home and get ready. #line:e1ef42
+Mae: Alright, alright! Geez. #line:d6487f
 <<unlockDoodle Bea1>>
 <<set $mom_done to 0>>
 <<set $party_prep to 1>>
@@ -88,7 +88,7 @@ Mae: Schon gut, schon gut! Oje. #line:d6487f
 <<set $bea_done to 1>>
 ===
 title: InitLevel
-tags:
+tags: 
 colorID: 0
 position: -1456,8201
 ---
@@ -109,50 +109,50 @@ position: -1456,8201
 <<endif>>
 ===
 title: A2D3_00
-tags:
+tags: 
 colorID: 3
 position: -1252,9222
 ---
 <<if $bea_day_intro is 0>>
     <<set $bea_day_intro to 1>>
     Bea: Hey Mae. #line:efe594
-    Mae: Wie geht's der Spitzhacke? #line:671a2e
-    Bea: versucht, mich zu toeten #line:7f41ab
-    Bea: Erfolglos #line:9dff80
-    Bea: bis jetzt zumindest. #line:e54726
-    Mae: was ist so anstrengend? #line:dabdf8
-    Bea: naja, zusaetzlich zu allem anderen #line:d996fd
-    Bea: wir veranstalten morgen dieses bloede Harfestspiel. #line:ad9e10
-    Mae:{width=8} oh woooooooooooooooooow. #line:d18b5e
-    Bea: Ja. Ich werde nie wieder anbieten, das zu tun. #line:91c6c8
-    Mae: was hast du heute Abend vor? #line:ab4ab6
-    Bea: aeh. nichts. #line:ec34c4
-    Bea: ich bin super muede. #line:bfd5df
-    Bea: weil alles in meinem Leben anstrengend ist #line:eb3906
-    Bea: und ich mache die Arbeit von etwa 3 Angestellten, plus einem Ladenbesitzer #line:e3f64a
-    Bea: auch wenn ich nur eine Angestellte bin und mir der Laden nicht gehoert. #line:ee4092
-    Mae: Oh seltsam. Ich dachte, aus irgendeinem Grund gehoert der Laden jetzt dir. #line:6e7aef
-    Bea: das koennte man meinen. #line:4a3efd
-    Bea: aber auch nein. ich wuerde lieber sterben. #line:5bbe06
-    Bea: mach mir buchstaeblich einen Sarg #line:c8f4d6
-    Bea: mit Materialien und Werkzeugen aus diesem Laden #line:01de3d
-    Bea: und begrabe mich irgendwo anders. #line:b4b6f0
-    Mae: Mensch, das war aber heftig. #line:45133a
-    Bea: aaaaaaaaaaaaaaagh. #line:f0ed69
-    Bea: wie auch immer. ich werde heute Abend nichts tun. #line:a5f9c9
-    Mae: ich kann auch nichts tun! #line:54a3b5
+    Mae: How's the Pickaxe? #line:671a2e
+    Bea: trying to kill me #line:7f41ab
+    Bea: unsuccessfully #line:9dff80
+    Bea: thus far at least. #line:e54726
+    Mae: what's so stressful? #line:dabdf8
+    Bea: well, on top of everything else #line:d996fd
+    Bea: we're hosting that stupid harfest play tomorrow. #line:ad9e10
+    Mae:{width=8} oh woooooooooooooooow. #line:d18b5e
+    Bea: yeah. i'm never offering to do this again. #line:91c6c8
+    Mae: what are you up to tonight? #line:ab4ab6
+    Bea: uh. nothing. #line:ec34c4
+    Bea: i'm like super tired. #line:bfd5df
+    Bea: because everything about my life is exhausting #line:eb3906
+    Bea: and i'm doing the work of like 3 employees, plus a store owner #line:e3f64a
+    Bea: even though I'm one employee, and i do not own this store. #line:ee4092
+    Mae: oh weird. I thought for some reason you owned this place now. #line:6e7aef
+    Bea: you'd think. #line:4a3efd
+    Bea: but also no. i'd rather die. #line:5bbe06
+    Bea: literally make me a coffin #line:c8f4d6
+    Bea: using materials and tools from this store #line:01de3d
+    Bea: and bury me anywhere else. #line:b4b6f0
+    Mae: geez. that got intense. #line:45133a
+    Bea: aaaaaaaaaaaaagh. #line:f0ed69
+    Bea: anyway. i'm doing nothing tonight. #line:a5f9c9
+    Mae: i can do nothing too! #line:54a3b5
     Bea: ... #line:280981
-    Bea: gut. #line:5478df
+    Bea: fine. #line:5478df
 <<endif>>
 
-Bea: Also machen wir das? #line:1dd7ce
--> Nicht sicher! Wir muessen noch ein paar andere Stopps einlegen. #line:89f3dc
+Bea: So are we doing this? #line:1dd7ce
+-> Not sure! Got a couple other stops to make. #line:89f3dc
     Bea: OK. #line:7216ce
--> Lass uns abhaengen! #line:c280bd
+-> Let's hang out! #line:c280bd
     [[GermShowsUp]]
 ===
 title: GermShowsUp
-tags:
+tags: 
 colorID: 3
 position: -1313,9484
 ---
@@ -164,14 +164,14 @@ Germ: Hi Mae. #line:4de71f
 <<close>>
 <<flip Bea -1>>
 Bea: Hi Germ! #line:2efc23
-Mae: Hey Kumpel. #line:e6a12b
-Bea: Germ hilft mir, Sachen fuer Geld unter dem Tisch zu transportieren. #line:13c0fa
+Mae: hey dude. #line:e6a12b
+Bea: Germ is helping me move stuff for under the table cash. #line:13c0fa
 <<close>>
 <<flip Germ -1>>
 <<walk Germ GermExitBack wait>>
-Bea: Naja. #line:ef8f06
-Bea: Ich mache frueher Feierabend, um ein paar Lebensmittel zu besorgen. Willst du mitkommen? #line:69a127
-Mae: Klar! #line:25ea41
+Bea: Well. #line:ef8f06
+Bea: I'm knocking off work early to pick up some groceries. Wanna come? #line:69a127
+Mae: Sure! #line:25ea41
 <<close>>
 <<flip Bea 1>>
 <<walk Bea BeaOffRightBack wait>>
@@ -179,65 +179,65 @@ Mae: Klar! #line:25ea41
 <<flip Bea -1>>
 <<setSpriteLayer Bea BeaFQ>>
 <<walk Bea BeaBeforeExitLeft wait>>
-Bea: Bereit zu gehen? #line:f86340
+Bea: Ready to go? #line:f86340
 <<close>>
 <<trackAllSpeechBubblesToCharacters 1>>
 <<flip Germ 1>>
 <<walk Germ GermRightBack>>
 <<wait .5>>
-Germ:{width=3} Du hast eine Menge Haemmer! #line:b21725
-Germ: heilige Scheisse, es gibt so viele Arten von Naegeln! #line:77b234
+Germ:{width=3} you got a lot of hammers! #line:b21725
+Germ: holy shit there's so many kinds of nails! #line:77b234
 <<close>>
-Mae: Na gut. #line:897e71
-Bea: Er ist wie etwas aus einem Kinderbuch #line:70261e
-Bea: ueber was auch immer er ist. #line:bfea88
+Mae: Alright then. #line:897e71
+Bea: He's like something out of a children's book #line:70261e
+Bea: about whatever the hell he is. #line:bfea88
 <<close>>
 <<irisOut 1 wait>>
 <<sectionTitle BeaFQ3Intro HamPanther>>
 ===
 title: A2D1_00
-tags:
+tags: 
 colorID: 3
 position: -1851,9120
 ---
 Mae: Hey Bea. #line:0ce03e
 Bea: Yyyyo. #line:13fede
-Mae: Tut mir leid wegen gestern Abend. #line:caa951
-Mae: Mir wird von Erkaeltungsmedizin schwummrig. #line:3e4bc3
-Mae: Also ich weiss nicht wirklich, was ich erwartet habe, was passieren wuerde. #line:61eff4
-Bea: Tut mir leid, was ich gesagt habe. #line:3d5c1e
-Mae: Weisst du, ich erinnere mich nicht wirklich an viel. #line:c4d820
-Mae: Na ja, was soll's. #line:18fa6b
-Bea: Ein Hoch auf den Alkohol. #line:d46a42
-Mae: Neues Stadtmotto. #line:3b2ea4
+Mae: Sorry about last night. #line:caa951
+Mae: I get woozy on cold medicine. #line:3e4bc3
+Mae: So I don't really know what I expected to happen. #line:61eff4
+Bea: Sorry for what I said. #line:3d5c1e
+Mae: You know, I don't really remember it much. #line:c4d820
+Mae: So whatevs. #line:18fa6b
+Bea: Hooray for alcohol. #line:d46a42
+Mae: New town motto. #line:3b2ea4
 ===
 title: A2D1_01
-tags:
+tags: 
 colorID: 3
 position: -2125,9323
 ---
-Mae: Bandprobe spaeter? #line:2206f4
-Bea: Ha ha. Jepp. #line:8e5442
-Mae: Ich bin erstaunt, dass es immer noch so ist. #line:f805b7
-Mae: Wir waren in der Highschool nicht mal eine Band. #line:90a371
-Bea: Eh. Es ist lustig. Man kann mit Angus rumhaengen. #line:b2b477
-Mae: Wie bist du ueberhaupt dazu gekommen, das zu tun? #line:851e1e
-Bea: Als Casey die Stadt verlassen hat, hat Angus mir erzaehlt, dass Gregg sehr traurig war. #line:8fc642
-Bea: Also meldete ich mich freiwillig als neuer Schlagzeuger. #line:479781
-Mae: Nun, "Schlagzeuger". #line:cf460a
-Mae: Das ist ein Laptop, Bea. #line:3933e8
-Bea: Das ist er, Mae. Das ist es wirklich. #line:e480a2
+Mae: Band practice later? #line:2206f4
+Bea: Ha ha. Yep. #line:8e5442
+Mae: I'm amazed it's still a thing. #line:f805b7
+Mae: We were barely even a band in highschool. #line:90a371
+Bea: Eh. It's fun. Get to hang out with Angus. #line:b2b477
+Mae: How did you even end up doing it? #line:851e1e
+Bea: When Casey left town, Angus told me that Gregg was really sad. #line:8fc642
+Bea: So I volunteered to be the new drummer. #line:479781
+Mae: Well, "drummer." #line:cf460a
+Mae: It's a laptop, Bea. #line:3933e8
+Bea: It sure is, Mae. It sure is. #line:e480a2
 ===
 title: A2D1_02
-tags:
+tags: 
 colorID: 3
 position: -2392,9531
 ---
-Bea: Ich seh dich spaeter. Ich habe noch etwas zu tun. #line:71eec0
+Bea: I'll see you later. I got some work to do. #line:71eec0
 <<set $bea_done to 1>>
 ===
 title: Bea_Act2
-tags:
+tags: 
 colorID: 3
 position: -1533,8878
 ---
@@ -267,7 +267,7 @@ position: -1533,8878
 <<endif>>
 ===
 title: Bea
-tags:
+tags: 
 colorID: 3
 position: -630,8416
 ---
@@ -278,43 +278,43 @@ position: -630,8416
 <<endif>>
 ===
 title: A2D2_00
-tags:
+tags: 
 colorID: 3
 position: -1556,9158
 ---
 <<if $bea_day_intro is 0>>
     <<set $bea_day_intro to 1>>
-    Mae: heyyyyy beabea. #line:bc3ce2
+    Mae: heyyyy beabea. #line:bc3ce2
     Bea: hey Mae. #line:fd551f
-    Mae: wie geht's? #line:da7f98
-    Bea: habe eine Ladung Steinsalz zu transportieren. #line:7eebe8
-    Bea: kam dieses Jahr frueh rein. #line:e09dd5
-    Bea: und eine *Menge* von Schneeschaufeln... #line:35d3c5
-    Bea: normalerweise baut der Haendler nicht so einen Mist. #line:d09195
-    Mae: vielleicht wird er von Wetterzauberern geleitet? #line:4fc718
-    Bea: Ja, das ist keine schlechte Theorie. #line:3d04bb
-    Bea: also was ist los? #line:bb94c8
-    Mae: wollen wir heute Abend abhaengen???? #line:80c74a
-    Bea: aeh. ich arbeite. #line:e60f40
-    Bea: wenn du Lust hast #line:47c376
-    Bea: komm mit. #line:140aa2
-    Mae: oh ich dachte wir koennten in Hunwick Putt-Putt spielen gehen. #line:89cf8d
-    Bea: Mae das ist... #line:df8c0b
-    Bea: eigentlich keine schlechte Idee... #line:2803e7
-    Bea: aber sorry, ich muss arbeiten. #line:85249f
-    Mae: awww geez. was ist ueberhaupt der Punkt? #line:ad3ead
-    Bea: Gehaltsschecks, Miete, Essen, Medizin, solche Sachen. #line:eeb9b6
+    Mae: how's it going? #line:da7f98
+    Bea: got a load of rock salt to move. #line:7eebe8
+    Bea: came in early this year. #line:e09dd5
+    Bea: and like a *crapload* of snow shovels... #line:35d3c5
+    Bea: usually the distro place doesn't goof up like this. #line:d09195
+    Mae: maybe it's run by weather wizards? #line:4fc718
+    Bea: yeah that's not a bad theory. #line:3d04bb
+    Bea: so what's up? #line:bb94c8
+    Mae: wanna hang out tonight???? #line:80c74a
+    Bea: uh. i'm working. #line:e60f40
+    Bea: if you wanna like #line:47c376
+    Bea: come along. #line:140aa2
+    Mae: oh i was thinking we'd go play putt-putt out in Hunwick. #line:89cf8d
+    Bea: Mae that's... #line:df8c0b
+    Bea: actually not a bad idea... #line:2803e7
+    Bea: but sorry, got work. #line:85249f
+    Mae: awww geez. what is even the point? #line:ad3ead
+    Bea: paychecks. rent. food. medicine. that kinda thing. #line:eeb9b6
 <<endif>>
-Bea: Willst du nun mitkommen oder nicht? #line:797cdd
--> Hab heute viel zu tun. #line:f3cd7f
+Bea: so do you want to come along or not? #line:797cdd
+-> Gotta lot to do today. #line:f3cd7f
     Bea: Okay! #line:856cb7
--> Lass uns abhaengen! #line:c49a37
+-> Let's hang out! #line:c49a37
     <<set $bea_friendship_quest to 2>>
     <<irisOut 1 wait>>
     <<sectionTitle BeaFQ2Intro MirandaYard>>
 ===
 title: EnterLevel_A2D4
-tags:
+tags: 
 colorID: 3
 position: -209,8829
 ---
@@ -323,55 +323,55 @@ position: -209,8829
 <<endif>>
 ===
 title: EnterHarfest
-tags:
+tags: 
 colorID: 3
 position: -179,9092
 ---
 <<playAmbientSFX _AmbientSFX:play_pre_audience>>
 Mae: Hey hey. #line:f7894e
 Bea: ... #line:d8fdb6
-Mae: Was hast du vor? #line:7335c9
+Mae: Whatcha up to? #line:7335c9
 <<wait 2>>
-Bea: ernsthaft? #line:734522
+Bea: seriously? #line:734522
 Mae: :) #line:2250e3
 <<wait 2>>
-Bea: Wir veranstalten dieses Jahr den Harfest-Wettbewerb. #line:301ab3
-Mae: oh richtig ok #line:ba3866
-Mae: Live von der Ol' Pickaxe! #line:36f236
+Bea: We're putting on this year's Harfest Pageant. #line:301ab3
+Mae: oh right ok #line:ba3866
+Mae: Live from the Ol' Pickaxe! #line:36f236
 Mae: :| #line:db69e6
-Mae: Wann soll das Ding denn losgehen? #line:9af17e
-Bea: Aeh... in 10 Minuten... glaube ich? #line:57c1fc
-Mae: Denkst du? #line:cd5432
-Bea: Ugh, das ist ein Alptraum. #line:63cc2a
-Bea: Warum habe ich jemals zugestimmt, das zu tun? #line:e3040b
-Bea: Die Handelskammer schuldet mir viel dafuer. #line:5cbe48
-Mae: Oje. Ich hoere dich. #line:8f045a
+Mae: When’s this thing supposed to start? #line:9af17e
+Bea: Uh... 10 minutes... I think? #line:57c1fc
+Mae: You think? #line:cd5432
+Bea: Ugh this is a nightmare. #line:63cc2a
+Bea: Why did I ever agree to do this? #line:e3040b
+Bea: Chamber of Commerce owes me big for this. #line:5cbe48
+Mae: Geez. I hear ya. #line:8f045a
 Bea: ... #line:4868d6
 Bea: ... #line:84a32a
-Mae: Was? #line:fe29e8
-Bea: ok, also, die Sache ist die - du wirst nicht viele Zeilen haben... #line:66722b
-Mae: Was?! #line:0d8cf7
-Bea: Ich bin schon 3 mal nicht erschienen! #line:11f677
-Mae: Warum? #line:48dffa
-Bea: WEIL DIE GANZE SACHE BLOeD IST UND SICH NIEMAND DAFUeR INTERESSIERT!!! #line:9ea9d4
+Mae: What? #line:fe29e8
+Bea: ok so here's the thing- you won't have many lines... #line:66722b
+Mae: What?! #line:0d8cf7
+Bea: I've had like 3 no-shows! #line:11f677
+Mae: Why? #line:48dffa
+Bea: BECAUSE THIS WHOLE THING IS STUPID AND NOBODY CARES ABOUT IT!!! #line:9ea9d4
 Mae: Bea, #line:fb4e90
-Bea: Bitte? Das ist ein lustiges Teil! #line:b03a36
+Bea: Please? It's a fun part! #line:b03a36
 Mae: Bea. #line:1f9399
-Bea: Ja? #line:4a216b
-Mae: Ich werde dir auf jeden Fall den Arsch retten. #line:8bf53a
-Mae: Ich habe das vielleicht noch auswendig gelernt, als ich ein Kind war. #line:f5c6eb
-Bea: Wahrscheinlich nicht. Sie haben es in den letzten 2 Jahren etwa 6 mal umgeschrieben #line:f871e3
-Bea: um gruseliger zu sein #line:c86f62
-Bea: also sind es jetzt etwa 20% tatsaechliche Geschichte #line:38bae7
-Bea: und etwa 80% Spuk. #line:5512e0
-->Also ist es jetzt gefaelschte Geschichte? #line:876299
-    Bea: Es ist wie... das schlechte Remake #line:c29dfb
-    Bea: die das Ausgangsmaterial nicht respektiert. #line:5d4c72
-->Ok seltsam. #line:07a01e
-Bea: es faengt normal an, aber wird... trotzdem. #line:2d7635
-Bea: Du hast etwa 5 Minuten Zeit, dir deine Zeilen anzusehen. #line:0cea08
-Mae: Pssh. Ich kann es improvisieren. #line:015c62
-Bea: Mae, bitte befluegeln Sie es nicht. #line:49d514
+Bea: Yeah? #line:4a216b
+Mae: I will totally save your ass. #line:8bf53a
+Mae: I might have this memorized from when I was a kid. #line:f5c6eb
+Bea: Probably not. They rewrote it like 6 times in the past 2 years #line:f871e3
+Bea: to be spookier #line:c86f62
+Bea: so it's like 20% actual history now #line:38bae7
+Bea: and like 80% spooks. #line:5512e0
+->So it's like fake history now? #line:876299
+    Bea: It's like... the bad remake #line:c29dfb
+    Bea: that doesn't respect the source material. #line:5d4c72
+->Ok weird. #line:07a01e
+Bea: it starts off normal but gets... anyway. #line:2d7635
+Bea: You got like 5 minutes to look at your lines. #line:0cea08
+Mae: Pssh. I can wing it. #line:015c62
+Bea: Mae, please don't wing it. #line:49d514
 Mae: ok. #line:0aa559
 <<fadeOut 1 wait>>
 <<stopAmbientSFX _AmbientSFX:play_pre_audience>>
@@ -382,7 +382,7 @@ Mae: ok. #line:0aa559
 [[PlayScene1]]
 ===
 title: PlayScene1
-tags:
+tags: 
 colorID: 3
 position: 161,9023
 ---
@@ -406,44 +406,44 @@ position: 161,9023
 <<wait 1>>
 <<dilate Bea .75 10>>
 <<lookOut Bea>>
-Bea: Oh! Ich habe euch gar nicht gesehen! #line:acd1f8
-Bea: Seid ihr Geister? #line:bc48a6
-Bea: Seid ihr hier, um zu hoeren #line:bc7b5b
-Bea: die Geschichte, wie Possum Springs entstanden ist? #line:7bbfe0
+Bea: Oh! I didn't see ye there! #line:acd1f8
+Bea: Be ye ghosts? #line:bc48a6
+Bea: Are ye here to hear #line:bc7b5b
+Bea: the tale of how Possum Springs came to be? #line:7bbfe0
 <<tell HarfestPlayWatchers Happy>>
 <<wait 3>>
 <<dilate Bea 1 10>>
 <<lookLeft Bea>>
-Bea: Durch die Nebel der Zeit sehe ich #line:44ffdb
-Bea: Muede Pelztierjaeger, von 1793. #line:286657
+Bea: Through the mists of time I see #line:44ffdb
+Bea: Weary fur trappers, from 1793. #line:286657
 //dan enters//
-Dan: Bruder John! #line:1e3a53
+Dan: Brother John! #line:1e3a53
 //bill enters//
-Bill: Ja, Bruder Steven! #line:a650e0
-Dan: Von diesem Aussichtspunkt aus erspaehe ich eine tiefe Hoehle #line:f4d9b3
-Dan: und darin einen grossen toten Baum #line:f5a396
-Dan: und ausserdem mit... aeh, welcher, einer Quelle! #line:5e280c
-Bill: Gesegnet sind wir, Bruder Steven, #line:77dfc0
-Bill: denn wahrlich, meine Kehle ist ausgedoerrt #line:e592d7
-Bill: von diesen langen und beschwerlichen Reisen #line:901dbc
-Bill: und dem Tragen dieser 300 Biberfelle. #line:d48bf5
-Dan: Lass uns eilen, oh ausgezeichneter Bruder! #line:77f692
+Bill: Yes, Brother Steven! #line:a650e0
+Dan: From this vantage point I do spy a deep hollow #line:f4d9b3
+Dan: and within, a great dead tree #line:f5a396
+Dan: and besides with... uh, which, a spring! #line:5e280c
+Bill: Blessed are we, brother steven, #line:77dfc0
+Bill: for truly my throat is parched #line:e592d7
+Bill: from these long and arduous travels #line:901dbc
+Bill: and carrying these 300 beaver pelts. #line:d48bf5
+Dan: Let us make haste, oh excellent brother! #line:77f692
 <<close>>
 <<walk Mae MaeCounter wait>>
 <<shuffleNextOptions>>
--> Ho! Reisende! Habt ihr eine Brotkruste fuer eine beduerftige Frau uebrig? #line:7216ac
+-> Ho! Travelers! Spare a crust of bread for a needy woman? #line:7216ac
     <<tell HarfestPlayWatchers Happy>>
     <<set $play_correct_responses += 1>>
--> Ho! Reisende! Hilfst du einer sehr alten Frau? #line:108719
-    Mae: aeh. bitte helfen. #line:7016fb
-    Bea: Wa-? #line:aafcfb
+-> Ho! Travelers! Help an extremely old woman? #line:108719
+    Mae: uh. please help. #line:7016fb
+    Bea: Wha-? #line:aafcfb
     <<lookForward Mae>>
     <<playOneShot event:/music/harfest_organ_mistake>>
     <<tell HarfestPlayWatchers Grumble>>
     <<shuffleNextOptions>>
-    -> Oh nein, ich bin aus Spinnweben gemacht, weil ich so alt bin! #line:e5a2fb
-        Bea: Aeh. Die Reisenden hatten keine Ahnung, was das bedeutete. #line:8f5299
-    -> Ich muss Nahrung haben, um meine jugendliche Form wiederherzustellen, denn einst war ich ein huebsches Maedchen. #line:a27f9b
+    -> Oh no, I am made of cobwebs from being so old! #line:e5a2fb
+        Bea: Uh. The travelers had no idea what this meant. #line:8f5299
+    -> I must have food to restore my youthful form, for once I was a comely lass. #line:a27f9b
         Bea: ... #line:94994a
     <<tell HarfestPlayWatchers Grumble>>
 <<lookForward Mae>>
@@ -451,61 +451,61 @@ Dan: Lass uns eilen, oh ausgezeichneter Bruder! #line:77f692
 <<playOneShot event:/music/harfest_organ_01>>
 <<wait 5>>
 <<lookNearest Mae>>
-Bill: Hagere Hexe! #line:0eb94a
-Dan: Schrecklich anzuschauen! #line:5ba171
-Mae: Grausame junge Maenner, #line:551e29
-Mae: Ihr habt nicht einmal einen eurer 300 feinen Biberfelle angeboten, #line:cc665e
-Mae: um meine alten Gebeine zu waermen! #line:eb1c63
+Bill: Haggard witch! #line:0eb94a
+Dan: Horrible to look upon! #line:5ba171
+Mae: Cruel young men, #line:551e29
+Mae: Ye did not even offer one of thy 300 fine beaver pelts, #line:cc665e
+Mae: to warm my ancient bones! #line:eb1c63
 <<shuffleNextOptions>>
--> Ich werde euch verfluchen und dich, #line:572cf4
-    Mae: und noch in dieser Nacht werdet ihr umkommen. #line:6515c9
+-> I shall curse ye, and thee, #line:572cf4
+    Mae: and this very night ye shall perish. #line:6515c9
     <<tell HarfestPlayWatchers Happy>>
     <<set $play_correct_responses += 1>>
-    Dan: Ich bin furchtsam! #line:c3b7e2
-    Bill: Ruhig, Bruder Steven #line:07511d
-    Bill: Ich habe mich nicht in diese Huegel hinausgewagt #line:9c0e02
-    Bill: um mit einer Hoellenhexe um Worte zu ringen! #line:e2612e
--> Du bist ein ungehobelter und frecher Junge, #line:f13fe0
+    Dan: I am fearful! #line:c3b7e2
+    Bill: Steady, Brother Steven #line:07511d
+    Bill: I did not venture out into these hills #line:9c0e02
+    Bill: to joust words with a hell-hag! #line:e2612e
+-> Thou art a rude and naughty boy, #line:f13fe0
     <<playOneShot event:/music/harfest_organ_mistake>>
     <<tell HarfestPlayWatchers Grumble>>
     Bill: ... #line:3ed334
-    Mae: Deine Ungezogenheit muss bestraft werden! #line:347a56
-    Dan: Ich... bin... ungemuetlich! #line:da93be
-    Bea: Aehm. #line:21bb14
+    Mae: Thy naughtiness must be met with punishment! #line:347a56
+    Dan: I... art... uncomfortable! #line:da93be
+    Bea: Um. #line:21bb14
     <<lookForward Mae>>
     <<shuffleNextOptions>>
-    -> Deine Strafe ist ein Fluch, #line:6dbae7
+    -> Thy punishment is a curse, #line:6dbae7
         <<tell HarfestPlayWatchers Happy>>
         <<set $play_correct_responses += 1>>
-        Mae: der dich und dich nehmen wird #line:039830
-        Mae: noch in dieser Nacht! #line:d2cbcc
+        Mae: that shall take ye and thee #line:039830
+        Mae: even this very night! #line:d2cbcc
         Bea: *whew* #line:da92db
-    -> Deine Strafe ist eine Aufgabe, schrecklich! #line:4f760a
+    -> Thy punishment is a task, terrible! #line:4f760a
         <<tell HarfestPlayWatchers Grumble>>
         <<playOneShot event:/music/harfest_organ_mistake>>
         Bea: wha- #line:dd3320
         <<lookForward Mae>>
-        Mae: Du sollst in deine Stadt zurueckkehren... #line:a1cfc2
+        Mae: Thou shall return to thy town... #line:a1cfc2
         Bill: um #line:778262
-        Mae: Grabe das aelteste Grab auf dem Kirchhof aus... #line:ee1206
-        Dan: aeh #line:e555e0
-        Mae: ...und kuesse sie! #line:bb5f89
-        Bill: Was? #line:fc62ef
-        Bea: Aber die Hexe hat doch nur herumgealbert #line:914566
-        Bea: um die Reisenden zu erschrecken! #line:9ed818
-        Bea: und stattdessen verfluchte sie sie, noch in dieser Nacht zu sterben! #line:25025d
+        Mae: Dig up the oldest grave in the churchyard... #line:ee1206
+        Dan: uh #line:e555e0
+        Mae: ...and kiss them! #line:bb5f89
+        Bill: what? #line:fc62ef
+        Bea: But the witch was only joking around #line:914566
+        Bea: to frighten the travelers! #line:9ed818
+        Bea: and instead she cursed them to die that very night! #line:25025d
 <<lookForward Mae>>
 Mae: YEE HEE HEE HEEEEEE! #line:0a525c
 <<lookNearest Mae>>
-Mae: Ich wurde unter diesen Baeumen geboren #line:2cf60d
+Mae: I was born among these trees #line:2cf60d
 Mae: 'neath a harvest moon #line:27e210
-Mae: und ihr werdet unter diesem Mond sterben! #line:6d0696
-Dan: Bruder John, ich bin erschrocken! #line:e95e69
-Bill: Glaube, Bruder Steven! #line:d3482d
-Bill: Bist du so leicht zu erschuettern durch das Geschwaetz eines alten Weibes? #line:51d3f4
-Bill: Komm, hilf mir, diese 300 Biberfelle zu tragen. #line:bb347c
-Bea: ...aber kaum jemand wusste, #line:9dacbe
-Bea: dass die Hexe nicht geflucht hat... #line:0463b6
+Mae: and ye shall die under that moon! #line:6d0696
+Dan: Brother John, I am frightened! #line:e95e69
+Bill: Faith, Brother Steven! #line:d3482d
+Bill: Art thou so easily shaken by the ramblings of an old crone? #line:51d3f4
+Bill: come, help me carry these 300 beaver pelts. #line:bb347c
+Bea: ...but little did anyone know #line:9dacbe
+Bea: that the witch did not curse... #line:0463b6
 Bea: IN VAIN. #line:f91243
 <<close>>
 //spooky organ end of act theme//
@@ -518,7 +518,7 @@ Bea: IN VAIN. #line:f91243
 [[PlayScene2]]
 ===
 title: PlayScene2
-tags:
+tags: 
 colorID: 3
 position: 439,9034
 ---
@@ -532,62 +532,62 @@ position: 439,9034
 <<playOneShot event:/music/harfest_organ_03>>
 <<wait 4>>
 <<walk Dan DanCounter wait>>
-Dan: Hilfe! Hilfe! #line:b427dd
-Dan: Wer wird einem armen Reisenden helfen?! #line:de41ba
+Dan: Help! Help! #line:b427dd
+Dan: Who will help a poor traveler?! #line:de41ba
 <<close>>
 <<walk Gregg GreggCounter wait>>
 <<lookLeft Gregg>>
-Gregg: Aeh... aehm #line:f40fba
-Gregg: aeh, bei dem Mond und den Sternen ueber uns, Herr #line:f22ac6
-Gregg: Ich beschwoere dich, was ist dein Problem? #line:39235d
+Gregg: Uh... um #line:f40fba
+Gregg: uh, by the moon and stars above us, sir #line:f22ac6
+Gregg: i beseech thee, what is thy trouble? #line:39235d
 <<close>>
 <<walk Mae MaeCounter wait>>
-Mae: Du machst da mit? #line:3d9c55
+Mae: you’re in this? #line:3d9c55
 <<lookRight Gregg>>
-Gregg: ja #line:35f35b
+Gregg: yup #line:35f35b
 <<lookLeft Gregg>>
 Dan: AAAGGGH!! WIIIITCH!!! #line:4e5be7
-Mae: ja #line:3d4214
-Dan: Ich schwoere dir, Freund, dass noch heute #line:962cf0
-Dan: dieses entsetzliche Weib #line:9ee76b
-Dan: meinen Bruder und mich zum Tode verflucht hat! #line:bc86cd
+Mae: yup #line:3d4214
+Dan: I swear thee, friend, that this very day #line:962cf0
+Dan: this horrifying crone #line:9ee76b
+Dan: did curse my brother and I to die! #line:bc86cd
 Gregg: 'Zwounds!  #line:ba066e
-Dan: Wir lagerten genau an dieser Quelle unter dem toten Baum #line:318629
-Dan: und selbst jetzt liegt sein Koerper auf der Erde, #line:b9d1af
-Dan: leblos wie ein Haufen von 300 Biberfellen! #line:dd9bc7
-Gregg: Oh! Es kuehlt das Herz!!! #line:de5458
+Dan: We camped by this very spring beneath the dead tree #line:318629
+Dan: and even now his body lieth upon the earth, #line:b9d1af
+Dan: lifeless as a pile of 300 beaver pelts! #line:dd9bc7
+Gregg: Oh! It chilleth the heart!!! #line:de5458
 <<lookRight Gregg>>
-Mae: EE HEE HEE HEEEEEEEEE!!! #line:05c683
+Mae: EE HEE HEE HEEEEEEE!!! #line:05c683
 <<shuffleNextOptions>>
--> Ich habe diesen Fruehling verflucht! #line:9bcd6b
-    Mae: dass jeder Mann, der daraus trinkt, umkommen soll! #line:d3d062
+-> I did curse this spring! #line:9bcd6b
+    Mae: that any man who drinketh from it shall perish! #line:d3d062
     <<lookLeft Gregg>>
     <<tell HarfestPlayWatchers Happy>>
     <<set $play_correct_responses += 1>>
-    Dan: AAAGH! ICH BIN SLAIN! #line:24dfc9
-    Dan: Ich schliesse mich dir jetzt an, Bruder Steven!!! #line:e24ebf
--> Ein Fluch ueber ungehobelte junge Maenner! #line:f4dcf1
+    Dan: AAAGH! I AM SLAIN! #line:24dfc9
+    Dan: I join thee now, brother steven!!! #line:e24ebf
+-> A curse upon rude young men! #line:f4dcf1
     <<tell HarfestPlayWatchers Grumble>>
     <<playOneShot event:/music/harfest_organ_mistake>>
-    Gregg: das ist nicht- #line:91bba5
-    Dan: aehm #line:b56b21
+    Gregg: that's not- #line:91bba5
+    Dan: um #line:b56b21
     Bea: ... #line:16f123
     <<lookLeft Gregg>>
-    Dan: Sie hat die Quelle verflucht, und jetzt soll ich sterben!!! #line:c773c0
+    Dan: She has cursed the spring, and now I shall die!!! #line:c773c0
 //dan falls behind counter//
 <<setAnimInt Dan die 1>>
 <<wait 2>>
 Mae: wow #line:f13554
 <<lookRight Gregg>>
-Gregg: Ich bin auch verloren, denn ich habe von dem Wasser getrunken! #line:4e72e6
-Mae: Lass mich hier nicht allein Gregg. #line:1be6f2
+Gregg: I am also undone, for I have dranketh of the water! #line:4e72e6
+Mae: Don’t leave me here Gregg. #line:1be6f2
 Gregg: Byeeeeeeeeee. #line:94418d
 //gregg falls behind counter//
 <<setAnimInt Gregg die 1>>
 <<wait 2>>
-Bea: und doch, selbst dort #line:65eb71
-Bea: die Gier des Fluches nach Blut... #line:ce6815
-Bea: ...WUeRDE NICHT GESCHUeTZT WERDEN!!! #line:e18098
+Bea: and yet, even there #line:65eb71
+Bea: the curse's lust for blood... #line:ce6815
+Bea: ...WOULD NOT BE SATED!!! #line:e18098
 //spooky organ end of act theme//
 <<close>>
 <<playOneShot event:/music/harfest_organ_04>>
@@ -600,7 +600,7 @@ Bea: ...WUeRDE NICHT GESCHUeTZT WERDEN!!! #line:e18098
 [[PlayScene3]]
 ===
 title: PlayScene3
-tags:
+tags: 
 colorID: 3
 position: 689,9037
 ---
@@ -616,13 +616,13 @@ position: 689,9037
 <<cameraLookAt HarfestCamLow 8.5>>
 <<playOneShot event:/music/harfest_organ_05>>
 <<wait 8.5>>
-Bea: Starrt sie an! Starrt auf diese Geister! #line:290b42
-Bill: Bruder, wir sind jetzt Geister! #line:c38e08
-Bill: aah! ich werde von dem anklagenden Blick gequaelt #line:8372a7
-Bill: von 300 geisterhaften Bibern! #line:fbe73f
-Dan: Es scheint, dass alle, die hier sterben #line:ac3282
-Dan: verflucht sind, niemals zu gehen! #line:7dc333
-Bill: Weiss diese Hexe, was sie getan hat? #line:c66f93
+Bea: Gaze upon them! Gaze upon these spirits! #line:290b42
+Bill: Brother, we are now ghosts! #line:c38e08
+Bill: aah! i am tormented by the accusing glare #line:8372a7
+Bill: of 300 ghostly beavers! #line:fbe73f
+Dan: It would seem that all who die here #line:ac3282
+Dan: are cursed to never leave! #line:7dc333
+Bill: Doth that witch know what she hath done? #line:c66f93
 <<close>>
 <<walk Dan CounterOffLeft>>
 <<walk Bill CounterOffLeft>>
@@ -632,37 +632,37 @@ Bill: Weiss diese Hexe, was sie getan hat? #line:c66f93
 <<wait 3>>
 <<warp Janitor CounterOffRight>>
 <<shuffleNextOptions>>
-Mae: aehh... aehm... #line:42e97f
-Mae: ...scheisse... #line:619604
+Mae: uhh... um... #line:42e97f
+Mae: ...crap... #line:619604
 <<wait 3>>
 Bea:{locator=LeftSide} "Foooooor, #line:8ed56d
--> Denn was ist ein Geist, #line:6b6af0
-    Mae: als das, was den leeren Raum heimsucht #line:6ddba2
-    Mae: der einst voll war? #line:3b806c
-    Janitor: Und kann ein Ort, der einmal heimgesucht wurde, wieder frei werden? #line:2f8cb9
--> Denn jeder Mensch ist auf seinem Weg bestimmt #line:706f3f
-    Mae: und jeder Weg fuehrt nur zu seinem Ende. #line:f5ac65
+-> For what is a ghost, #line:6b6af0
+    Mae: but that which haunts the empty space #line:6ddba2
+    Mae: that was once full? #line:3b806c
+    Janitor: And once haunted, can a place be unhaunted? #line:2f8cb9
+-> For each man is determined on his path #line:706f3f
+    Mae: and each path leads only to his end. #line:f5ac65
     Bea:{locator=LeftSide} ok...? #line:737f9c
-    Janitor: Und doch kann jeder Weg an unbekannte Orte fuehren. #line:b56df9
+    Janitor: And yet each path may lead to places unknown. #line:b56df9
 <<close>>
 <<walk Janitor JanitorCounter wait>>
-Mae: Du! #line:01df52
-Mae: vom Busbahnhof! #line:0f86c5
-Janitor: Junge Hexe! #line:2541e0
-Janitor: Ich bin es, der Gott des Waldes! #line:8f4813
-Mae: aeh... haette nur nicht erwartet, dass du... #line:fbf2fa
-Janitor: Ist das nicht die Art und Weise. #line:625414
+Mae: You! #line:01df52
+Mae: from the bus station! #line:0f86c5
+Janitor: Young witch! #line:2541e0
+Janitor: It is I, the god of the forest! #line:8f4813
+Mae: uh... just didn’t expect you to... #line:fbf2fa
+Janitor: Ain’t that the way. #line:625414
 Mae: So... #line:3cbfa5
-Janitor: Hexe, du hast zu lange in dieser Welt verweilt #line:223239
-Janitor: Ich verbanne dich, um in der Nacht zu wandern #line:762895
-Janitor: durch die fremden Orte! #line:44be06
+Janitor: Witch, thou hast tarried too long in this world #line:223239
+Janitor: I banish thee to wander in the night #line:762895
+Janitor: through the stranger places! #line:44be06
 <<shuffleNextOptions>>
--> Oh Gott... woher wusstest du... #line:ffe900
--> Ich... was? #line:215b22
-Janitor: Junge Hexe, lass mich Weisheit zu dir sprechen: #line:01eb62
-Janitor: Wir beginnen und wir enden, #line:38fbf9
-Janitor: bei Nacht, im Wald. #line:ee1eb7
-Janitor: aber das ist nicht die ganze Geschichte. #line:d885d5
+-> Oh god... how did you know... #line:ffe900
+-> I... what? #line:215b22
+Janitor: Young witch, let me speak wisdom to you: #line:01eb62
+Janitor: We begin and we end, #line:38fbf9
+Janitor: at night, in the woods. #line:ee1eb7
+Janitor: but that is not the whole of the story. #line:d885d5
 <<close>>
 <<wait 2>>
 Mae: ... #line:087ae7
@@ -671,35 +671,35 @@ Mae: ... #line:f643a7
 <<lookRight Bea>>
 <<warp Bea BeaBehindCounter>>
 <<walk Bea BeaAboveCounter wait>>
-Bea: *das ist deine Zeile* #line:5a291f
+Bea: *THIS IS YOUR LINE* #line:5a291f
 <<close>>
 <<walk Bea BeaBehindCounter wait>>
 <<shuffleNextOptions>>
 <<lookAt Mae Janitor>>
--> Waldgott, du hast hier keine Macht! #line:e26d18
+-> Forest god, thou hast no power here! #line:e26d18
     <<tell HarfestPlayWatchers Happy>>
     <<set $play_correct_responses += 1>>
-    Janitor: selbst jetzt beginnt dein Ende. #line:1e0a38
-    Mae: AAAACK!!! Meine hoellischen Kraefte! #line:2e6d5d
-    Janitor: Sssh, junge Hexe. #line:90e6e3
-    Janitor: selbst jetzt #line:c349c5
-    Janitor: die Welt, die du kennst, endet #line:537952
-    Janitor: und wer kann sagen was liegt #line:2650b4
-    Janitor: in der kommenden Welt? #line:44fbe1
--> Woher weisst du so viel ueber mich? #line:599400
+    Janitor: even now, thy end beginneth. #line:1e0a38
+    Mae: AAAACK!!! My infernal powers! #line:2e6d5d
+    Janitor: Sssh, young witch. #line:90e6e3
+    Janitor: even now #line:c349c5
+    Janitor: the world you know endeth #line:537952
+    Janitor: and who can say what lieth #line:2650b4
+    Janitor: in the world to come? #line:44fbe1
+-> How do you know so much about me? #line:599400
     <<tell HarfestPlayWatchers Grumble>>
     <<playOneShot event:/music/harfest_organ_mistake>>
-    Janitor: Junge Hexe, ich weiss mehr, als du je wissen koenntest #line:a91581
-    Janitor: denn ich bin so alt wie diese Baeume. #line:8bf353
+    Janitor: Young witch, I know more than thee could ever know #line:a91581
+    Janitor: for I am as old as these trees. #line:8bf353
 Mae: Wow. #line:c1a89a
-Janitor: Nimm dich in Acht, wenn du gehst #line:58c681
-Janitor: denn es gibt Geister. #line:a86755
+Janitor: Beware as you go #line:58c681
+Janitor: for there are ghosts. #line:a86755
 <<lookNearest Mae>>
 //bill and dan both say WOOOOOO!!!//
 <<runNextLinesTogether 2>>
 Bill:{locator=LeftSide} [wave]Wooooo!!![/wave] #line:ded394
 Dan:{locator=LeftSide2} [wave]Wooooo!!![/wave] #line:640c1f
-Janitor: Pass auf dich auf. #line:bee150
+Janitor: Take care. #line:bee150
 <<close>>
 <<walk Janitor CounterOffLeft>>
 <<wait 3>>
@@ -715,7 +715,7 @@ Janitor: Pass auf dich auf. #line:bee150
 [[PlayScene4]]
 ===
 title: PlayScene4
-tags:
+tags: 
 colorID: 3
 position: 964,9003
 ---
@@ -731,30 +731,30 @@ position: 964,9003
 <<cameraLookAt HarfestCamLow 0>>
 <<lookLeft Bea>>
 <<fadeIn 1 wait>>
-Bea: Und so wurde dann dieses Fest gegruendet, #line:bc3eb8
-Bea: an Halloween werden wir feiern #line:99c32e
-Bea: das Sterben des Jahres #line:c79b0e
-Bea: und die Gruendung von Possum Springs! #line:211e93
-Dan: Ich, Buergermeister Geist, verkuende es! #line:bf2799
-Bill: Die Biberpopulation ist zurueckgegangen #line:8a0049
-Bill: und jetzt sind unsere groessten Exporte Mais und Kuerbisse! #line:079a9d
-Gregg: Wir waren mal die Kreisstadt! #line:81b18c
+Bea: And so was founded then this festival, #line:bc3eb8
+Bea: on halloween we shall celebrate #line:99c32e
+Bea: the dying of the year #line:c79b0e
+Bea: and the founding of Possum Springs! #line:211e93
+Dan: I, mayor ghost, decree it! #line:bf2799
+Bill: The beaver population suffered a decline #line:8a0049
+Bill: and now our biggest exports are corn and pumpkins! #line:079a9d
+Gregg: We used to be the county seat! #line:81b18c
 <<shuffleNextOptions>>
-->YEE HEE HEE HEEEEEEE!!! #line:43007f
-    Mae: Eigentlich ist der Mythos der boesen Hexe #line:8cea0a
-    Mae: ist das Produkt von jahrhundertelanger Verfolgung durch- #line:326ef7
-->Nun geht, bevor ich euch alle verfluche!!!! #line:403ae1
-    Bea: Oh nein, Publikum!!! #line:825088
-Bea: Und das ist unsere Show! #line:9555cc
+->YEE HEE HEE HEEEEE!!! #line:43007f
+    Mae: Actually, the myth of the wicked witch #line:8cea0a
+    Mae: is the product of centuries of persecution by- #line:326ef7
+->Now leave, before I curse you all!!!! #line:403ae1
+    Bea: Oh no, audience!!! #line:825088
+Bea: And that's our show! #line:9555cc
 <<lookOut Mae>>
 <<lookOut Gregg>>
 <<dilate Bea .75 10>>
 <<lookOut Bea>>
-Bea: Sei vorsichtig, wenn du hier weggehst, #line:330585
-Bea: denn wer weiss, was in der Dunkelheit lauern mag? #line:394912
-Bea: und nimm dir auf dem Weg nach draussen ein Flugblatt mit #line:9b8345
-Bea: von der Handelskammer von Possum Springs! #line:911284
-Bea: Unterstuetzen Sie Ihre gruseligen lokalen Geschaefte #ssssssss!!!! #line:5bd9f9
+Bea: Be careful as you leave here, #line:330585
+Bea: for who knows what may lurk in the darkness? #line:394912
+Bea: also be sure to pick up a flyer on your way out #line:9b8345
+Bea: from the Possum Springs Chamber of Commerce! #line:911284
+Bea: Support your spooky local businessessssssss!!!! #line:5bd9f9
 <<close>>
 <<tell HarfestPlayWatchers HappyForever>>
 <<cameraLookAt HarfestCamHigh 11>>
@@ -768,7 +768,7 @@ Bea: Unterstuetzen Sie Ihre gruseligen lokalen Geschaefte #ssssssss!!!! #line:5b
 <<scene TowneCentreEast_Harfest>>
 ===
 title: Bea_Act3
-tags:
+tags: 
 colorID: 4
 position: 1661,8712
 ---
@@ -791,37 +791,37 @@ position: 1661,8712
 <<endif>>
 ===
 title: A3D1_00
-tags:
+tags: 
 colorID: 4
 position: 1227,9070
 ---
-Mae: heyyyyyyy Bea. #line:e3d519
+Mae: heyyyyyy Bea. #line:e3d519
 Bea: hey uh #line:e11968
-Bea: danke nochmal fuer letzte Nacht. #line:945afd
-Bea: ich schulde dir was. #line:cbfe4d
-Mae: schon gut. es hat Spass gemacht. #line:a879a7
-Mae: meine Nacht wurde danach wirklich seltsam und schlecht. #line:3c035f
-Bea: wie das? #line:f7c3c4
-Mae: erzaehl ich dir spaeter, schaetze ich. #line:791cb7
-Mae: Ich mag es immer noch, es zusammenzusetzen. #line:ea3542
-Bea: ok gut. lass mich wissen wie das laeuft. #line:83156c
-Mae: werde ich. #line:a7227e
-Bea: ich glaube, es ist Tag der Bandprobe? #line:78f3cc
-Mae: ja ich werde Gregg jagen gehen. #line:2317ce
-Bea: sollte nicht zu schwierig sein. #line:d4efda
-Mae: ja nein. er ist im Snack Falcon. #line:2f3d67
-Bea: ich weiss nicht, wie der Typ seinen Job behalten kann. #line:1c471d
-Bea: er klaut staendig, macht zum Spass Vorraete kaputt, #line:6eb7b8
-Bea: und verlaesst die Arbeit wann immer er will. #line:2ea899
-Mae: Gregg spielt nach seinen eigenen Regeln. #line:390a8c
-Bea: es fuehlt sich eher so an, als wuerde die Welt nach seinen Regeln spielen. #line:23457e
+Bea: thanks again for last night. #line:945afd
+Bea: i owe you one. #line:cbfe4d
+Mae: it's fine. it was fun. #line:a879a7
+Mae: my night got like really weird and bad after. #line:3c035f
+Bea: how so? #line:f7c3c4
+Mae: tell you later i guess. #line:791cb7
+Mae: still like putting it together. #line:ea3542
+Bea: ok well. let me know how that goes. #line:83156c
+Mae: i will. #line:a7227e
+Bea: i think it's band practice day? #line:78f3cc
+Mae: yeah i'm gonna go hunt down gregg. #line:2317ce
+Bea: shouldn't be too difficult. #line:d4efda
+Mae: yeah no. he's at the snack falcon. #line:2f3d67
+Bea: i don't know how that guy stays employed. #line:1c471d
+Bea: he steals constantly, breaks supplies for fun, #line:6eb7b8
+Bea: and leaves work whenever he wants. #line:2ea899
+Mae: gregg plays by his own rules. #line:390a8c
+Bea: it feels more like the world plays by his rules. #line:23457e
 Mae: whoa. #line:cf93b6
-Bea: ich weiss nicht einmal, was das bedeutet. #line:166f9a
-Mae: immer noch. wow. #line:acbbd0
+Bea: i don't even know what that means. #line:166f9a
+Mae: still. whoa. #line:acbbd0
 <<set $bea_done to 1>>
 ===
 title: InvestigationQuest
-tags:
+tags: 
 colorID: 4
 position: 1542,9662
 ---
@@ -830,7 +830,7 @@ position: 1542,9662
 <<sectionTitle BeaIQ BeaIQGraveyard>>
 ===
 title: A3D3_00
-tags:
+tags: 
 colorID: 4
 position: 1763,9091
 ---
@@ -838,22 +838,22 @@ position: 1763,9091
     <<set $bea_day_intro to 1>>
     Mae: hey bea. #line:4de664
     Bea: hey. #line:830ee3
-    Mae: bist du in Ordnung? du scheinst niedergeschlagen zu sein. #line:c68f48
-    Bea: oh, es ist nichts. #line:f3e1bd
-    Bea: Zeug. #line:c2ab59
-    Mae: willst du darueber reden? #line:13bfb4
-    Bea: nein. #line:58edce
+    Mae: you alright? you seem down. #line:c68f48
+    Bea: oh, it's nothing. #line:f3e1bd
+    Bea: stuff. #line:c2ab59
+    Mae: you wanna talk about it? #line:13bfb4
+    Bea: nah. #line:58edce
     Mae: ok. #line:885f88
 <<endif>>
 
-Bea: oof. was hast du heute vor? #line:bd433b
--> Wandert durch die Stadt. #line:1754d1
-    Bea: viel Spass! #line:803705
--> Was auch immer ihr tun wollt! #line:82f99a
+Bea: oof. what are you up to today? #line:bd433b
+-> Wandering around town. #line:1754d1
+    Bea: have fun! #line:803705
+-> *Whatever* you want to do! #line:82f99a
     [[FriendshipQuest]]
 ===
 title: A3D4_00
-tags:
+tags: 
 colorID: 4
 position: 2155,9119
 ---
@@ -861,88 +861,88 @@ position: 2155,9119
     <<set $bea_day_intro to 1>>
     Bea: whoa! #line:ddc7e7
     Mae: whoa. #line:27e3bb
-    Bea: Kumpel, bist du okay? #line:cdc4e1
-    Mae: ja. ich denke schon. sicher. #line:1f2166
-    Mae: muede, hatte seit Tagen Kopfschmerzen. #line:e51b33
-    Bea: du solltest nach Hause gehen und dich ausruhen. #line:c763d5
-    Bea: ich habe das Gefuehl, du koenntest ganz gut dahinvegetieren. #line:10e391
-    Mae: Nein. Mir geht's gut. #line:1d655b
-    Mae: Sachen machen hilft. #line:fe9c20
-    Bea: wie geht es dir mit der ganzen "Geister"-Sache? #line:9bde00
-        ->"Geist"? #line:c74715
-            Bea: Entschuldigung, Geist. #line:5d7f1c
-            Mae: danke. #line:531320
-            Mae: und ich fuehle mich schlecht #line:790eaf
-        -> schlecht #line:69d23b
-    Mae: ich meine, seit es passiert ist, fuehle ich mich morgens nicht ausgeruht. #line:c44dcc
-    Mae: und ich fuehle mich als ob jemand anderes in meinem Kopf ist. #line:0aa078
-    Mae: und mein Schaedel droht zu explodieren. #line:6278b9
-    Bea: also ja dann nicht gut. #line:6dcd05
-    Mae: Noe. #line:8c4642
+    Bea: dude, are you ok? #line:cdc4e1
+    Mae: yeah. i guess. sure. #line:1f2166
+    Mae: tired, had a headache for days. #line:e51b33
+    Bea: you should like go home and rest. #line:c763d5
+    Bea: i feel like you'd be able to like veg out pretty well. #line:10e391
+    Mae: nah. I'm fine. #line:1d655b
+    Mae: doing stuff helps. #line:fe9c20
+    Bea: how are you feeling about the whole "ghost" thing? #line:9bde00
+        ->"ghost"? #line:c74715
+            Bea: sorry. ghost. #line:5d7f1c
+            Mae: thanks. #line:531320
+            Mae: and i feel bad #line:790eaf
+        -> bad #line:69d23b
+    Mae: i mean since it happened i don't feel rested in the morning. #line:c44dcc
+    Mae: and i feel like someone else is in my head. #line:0aa078
+    Mae: and my skull is going to explode. #line:6278b9
+    Bea: so yeah not good then. #line:6dcd05
+    Mae: nope. #line:8c4642
     Bea: hrm. #line:cd657f
 <<endif>>
 
 <<if $did_bea_investigation_quest is 0>>
-    Bea: Wolltest du dir den Friedhof trotzdem ansehen? #line:345d97
-    -> Nee...heute nicht. #line:467499
-        Bea: Okay, sag mir Bescheid! #line:e1ea5e
-    -> Eigentlich ja. Lass es uns tun. #line:48ef6a
+    Bea: Did you still want to check out the graveyard? #line:345d97
+    -> Nah... not today. #line:467499
+        Bea: Okay well let me know! #line:e1ea5e
+    -> Actually yeah. Let's do it. #line:48ef6a
         [[InvestigationQuest]]
 <<else>>
     <<set $bea_done to 1>>
 <<endif>>
 ===
 title: A3D2_00
-tags:
+tags: 
 colorID: 4
 position: 1470,9089
 ---
 <<if $bea_day_intro is 0>>
     <<set $bea_day_intro to 1>>
     Mae: Hey Bea! #line:4821a2
-    Bea: Hey Mae. #line:35186b
-    Bea: Ich glaube ich werde diesen Ort niederbrennen. #line:655d02
+    Bea: hey mae. #line:35186b
+    Bea: i think i'm gonna burn this place down. #line:655d02
     Mae: oh cool! #line:914773
-    Mae: aber vielleicht hat das auch Konsequenzen? #line:fab5e4
-    Bea: wir koennten das Geld der Versicherung nehmen. #line:e9df43
-    Bea: und wie #line:619efa
-    Bea: das nicht tun. #line:a01e34
-    Mae: Was ist, wenn du erwischt wirst? #line:54b8d5
-    Mae: ich habe eine Sendung gesehen, wo sie jemanden dabei erwischt haben. #line:51757f
+    Mae: but also, maybe it might have consequences? #line:fab5e4
+    Bea: we could take the insurance money. #line:e9df43
+    Bea: and like #line:619efa
+    Bea: not do this. #line:a01e34
+    Mae: what if you get caught? #line:54b8d5
+    Mae: i saw a show where they caught someone doing that. #line:51757f
     Bea: ... #line:f46362
-    Bea: Du wirst diesen Ort fuer mich niederbrennen. #line:a0f2d7
+    Bea: you're going to burn this place down for me. #line:a0f2d7
     Mae: oh cool! #line:0f8733
-    Mae: aber vielleicht wuerde ich auch in den Knast kommen? #line:53ef58
-    Bea: nein, du hast kein Motiv! #line:5be1a9
-    Bea: niemand wuerde Verdacht schoepfen! #line:beb025
-    Mae: also laeuft die Arbeit nicht gut? #line:f90a3f
-    Bea: aaaaaaaaaagh. #line:ae1faf
+    Mae: but also, maybe i'd go to jail? #line:53ef58
+    Bea: no, you have no motive! #line:5be1a9
+    Bea: no one would suspect! #line:beb025
+    Mae: so work's not going well? #line:f90a3f
+    Bea: aaaaaaaagh. #line:ae1faf
     <<wait 2>>
-    Mae: ok ich werde es tatsaechlich tun. #line:b20864
-    Bea: bitte tu es nicht wirklich. #line:bbc7ce
-    Mae: ok gut. #line:5cbd0d
+    Mae: ok i'll actually do it. #line:b20864
+    Bea: please don't actually do it. #line:bbc7ce
+    Mae: ok fine. #line:5cbd0d
 <<endif>>
 
-Bea: Wolltest du dir den Friedhof ansehen? #line:9662a0
-    -> Nee... heute nicht. #line:6f9838
-        Bea: Okay, sag mir Bescheid! #line:94a001
-    -> Eigentlich ja. Lass es uns tun. #line:9ab105
+Bea: Did you want to check out the graveyard? #line:9662a0
+    -> Nah... not today. #line:6f9838
+        Bea: Okay well let me know! #line:94a001
+    -> Actually yeah. Let's do it. #line:9ab105
         [[InvestigationQuest]]
 ===
 title: FriendshipQuest
-tags:
+tags: 
 colorID: 4
 position: 1854,9650
 ---
 <<if $dom_friend_bea is 0>>
-    Bea: Ist schon gut. Ich bin beschaeftigt. #line:7dbf0f
-    Bea: und Gregg und Angus haben heute Abend mein Auto #line:5aca82
-    Bea: also sitze ich sowieso zu Hause fest. #line:a987cc
+    Bea: It's cool. I'm busy. #line:7dbf0f
+    Bea: and gregg and angus have my car tonight #line:5aca82
+    Bea: so i'm stuck home anyway. #line:a987cc
     Mae: oh. ok. #line:f6b357
-    Bea: vielleicht sehen, was sie vorhaben? #line:b2d186
-    Bea: sie gehen irgendwo hin oder so. #line:a96a50
+    Bea: see what they're up to maybe? #line:b2d186
+    Bea: they're going somewhere or other. #line:a96a50
     <<wait 2>>
-    Bea: ich bin nicht. #line:e16f21
+    Bea: i'm not. #line:e16f21
 <<else>>
     <<close>>
     <<set $bea_friendship_quest to 4>>
@@ -950,5 +950,3 @@ position: 1854,9650
     <<sectionTitle BeaFQ4Intro BeaCar>>
 <<endif>>
 ===
-
-

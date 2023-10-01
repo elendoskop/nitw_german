@@ -1,0 +1,3 @@
+LineCode,LineText,Comment
+line:444008,MaePaws: Oh bene, una festa per paesani. Chi è il paternalista che invita tutto il quartiere a un evento del genere?,
+line:7c1e04,"MaePaws: Ah, wow. Rimbalza.",

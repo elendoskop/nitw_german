@@ -1,5 +1,0 @@
-{
-  "m_Name": "DeathPrairie_MaeStreet.yarn",
-  "m_Script": "title: InitLevel\ntags: \ncolorID: 5\nposition: 540,260\n---\n<<set $death_walk to 1>>\n<<playIdleAnimationPlayer>>\n===\ntitle: EndDeathPrairie\ntags: \ncolorID: 5\nposition: 817,280\n---\n<<wait 2>>\n<<playOneShot event:/deathprairie/mae_fade_out Mae>>\n<<fadeOutPlayerSpriteAnimation .333>>\n<<wait .333>>\n<<trigger Mae DeathPrairieLieDown>>\n<<resetPlayerSpriteAnimationFade>>\n<<disableCameraControl>>\n<<enableAnimator MaeStreet>>\n<<fadeOutMusic 12>>\n<<wait 16>>\n<<fadeOut 1 wait>>\n<<scene ChurchSanctuary>>\n===\ntitle: EnterLevel\ntags: \ncolorID: 5\nposition: 549,495\n---\n<<fadeIn 1>>\n===\n",
-  "m_PathName": ""
-}

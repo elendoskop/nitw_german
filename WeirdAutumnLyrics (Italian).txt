@@ -1,0 +1,78 @@
+Autunno Strano
+00.000|8|0
+00.375|7|0
+00.750|6|0
+01.125|5|0
+01.500|4|0
+01.875|3|0
+02.250|2|0
+02.625|1|0
+
+02.778|Alcuni seguono una sola direzione|0
+04.815|vanno avanti senza interruzione|0
+08.519|Alcuni trovano una strada da seguire|0
+10.741|e vivono così fino alla fine|0
+
+14.815|Ehi amico, l'hai vista in giro?|0
+16.667|L'hai vista oggi?|0
+18.148|Autunno|0
+18.519|Strano|0
+19.630|Autunno|0
+20.000|Strano|0
+20.741|La conoscevo solo da una settimana|0
+22.593|Prima che sparisse|0
+24.074|Autunno|0
+24.444|Strano|0
+25.556|Autunno|0
+25.926|Strano|0
+
+26.481|A volte vedi qualcuno|0
+28.519|solo quando non c'è più|0
+32.222|Ma chi non si ferma mai|0
+34.444|Va avanti a testa in su|0
+37.778|adesso|0
+
+38.519|Ehi amico, l'hai vista in giro?|0
+40.370|L'hai vista oggi?|0
+41.852|Autunno|0
+42.222|Strano|0
+43.333|Autunno|0
+43.704|Strano|0
+44.444|La conoscevo solo da una settimana|0
+46.296|Prima che sparisse|0
+47.778|Autunno|0
+48.148|Strano|0
+49.259|Autunno|0
+49.630|Strano|0
+
+50.370|Lungo Arbor Street|0
+52.222|Ho visto l'autunno partir|0
+53.704|la sua famiglia andò via|0
+
+56.296|non possono vender quella casa|0
+58.148|così vuota rimane|0
+
+62.222|Mai ho saputo il perché|0
+64.074|per i ragazzi del quartiere il motivo è|0
+65.556|Che l'autunno era strano|0
+68.148|In casa volle stare e|0
+70.000|strano rimane|0
+
+74.074||0
+
+85.926|Ehi amico, l'hai vista in giro?|0
+87.778|L'hai vista oggi?|0
+89.259|Autunno|0
+89.630|Strano|0
+90.741|Autunno|0
+91.111|Strano|0
+91.852|La conoscevo solo da una settimana|0
+93.704|Prima che sparisse|0
+95.185|Autunno|0
+95.556|Strano|0
+96.667|Autunno|0
+97.037|Strano|0
+
+97.778||0
+
+105.00|~Fine~

@@ -1,5 +1,0 @@
-{
-  "m_Name": "BlackoutWoods.yarn",
-  "m_Script": "title: TriggerEnding\ntags: \ncolorID: 0\nposition: 908,76\n---\n<<fadeOutAmbientSFX _AmbientSFX:HurtAnimal 3>>\n<<wait 3>>\n<<trigger IbonRoarAnimator Go>>\n<<wait 8>>\n<<fadeOut 1 wait>>\n<<wait 8>>\n<<endDay>>\n===\ntitle: InitLevel\ntags: \ncolorID: 0\nposition: 523,188\n---\n<<playerFace -1>>\n<<fadeOutMusic 1>>\n===\n",
-  "m_PathName": ""
-}

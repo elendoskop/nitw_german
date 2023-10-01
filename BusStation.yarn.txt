@@ -1,40 +1,40 @@
 title: Brochures
-tags:
+tags: 
 colorID: 0
 position: -1343,690
 ---
-Mae: Sieh mal an, ein paar Broschueren! #line:a08787
+Mae: Hey look, some brochures! #line:a08787
 ===
 title: excuse
-tags:
+tags: 
 colorID: 0
 position: 639,796
 ---
-Mae: Entschuldigung, aber wo sind denn alle? #line:89e929
-Janitor:{width=4} Es ist 22:45 Uhr. Es ist geschlossen. #line:7da177
-Janitor: Nicht viele Leute, die heute aus dem letzten Bus nach Possum Springs aussteigen. #line:9d6e9b
-Janitor: Nur du. #line:c1a7ed
+Mae: Excuse me, but where is everybody? #line:89e929
+Janitor:{width=4} It's 10:45. It's closed. #line:7da177
+Janitor: Not a lot of folks getting off the last bus to Possum Springs these days. #line:9d6e9b
+Janitor: Just you. #line:c1a7ed
 <<close>>
 <<setAnimInt Janitor drilling 1>>
 <<wait 2>>
 <<set $janitor to 1>>
-[[Sollte nicht jemand am Ticketschalter stehen?|someone]] #line:b64380
-[[Bist du der Hausmeister oder was?|something]] #line:cf1de5
+[[Isn't there supposed to be someone at the desk?|someone]] #line:b64380
+[[So are you the Janitor or something?|something]] #line:cf1de5
 
 
 ===
 title: how
-tags:
+tags: 
 colorID: 0
 position: 315,808
 ---
-Mae: Wie sieht es mit der Tuer aus? -_- #line:e37284
-Janitor: Wie sieht's mit der Limonade aus? #line:7acd3b
+Mae: How's that door coming? -_- #line:e37284
+Janitor: How's that soda coming? #line:7acd3b
 <<eyes Mae Neutral>>
 <<mood Mae Neutral>>
 ===
 title: Janitor
-tags:
+tags: 
 colorID: 0
 position: 383,500
 ---
@@ -52,7 +52,7 @@ position: 383,500
 
 ===
 title: Mural
-tags:
+tags: 
 colorID: 0
 position: -390,738
 ---
@@ -67,7 +67,7 @@ position: -390,738
 <<endif>>
 ===
 title: Phone
-tags:
+tags: 
 colorID: 0
 position: -127,63
 ---
@@ -79,13 +79,13 @@ position: -127,63
 
 ===
 title: seeya
-tags:
+tags: 
 colorID: 0
 position: 1091,733
 ---
 <<setAnimInt Janitor drilling 2>>
 <<wait 1>>
-Mae: Eine Freeasscola. #line:58f01d
+Mae: One Freeasscola. #line:58f01d
 <<close>>
 <<trigger Janitor GrabbyHand>>
 <<setHoldItem SodaCan>>
@@ -95,21 +95,21 @@ Mae: Eine Freeasscola. #line:58f01d
 <<lookRight Mae>>
 <<wait 5>>
 <<lookNearest Mae>>
-Janitor: Lecker. #line:7c8a0a
-Janitor: Und was machst du hier? #line:449b6d
+Janitor: Yummers. #line:7c8a0a
+Janitor: So what are you doing here? #line:449b6d
 <<setAnimInt Janitor drilling 1>>
-Mae: Ich lebe hier. #line:3bbe4b
-Mae: Naja, lebte hier. #line:ab4751
-Janitor: Hm. Seltsam. #line:581921
-Mae: Wann glaubst du, wird die Tuer fertig sein? #line:7902db
+Mae: I live here. #line:3bbe4b
+Mae: Well, lived here. #line:ab4751
+Janitor: Huh. Strange. #line:581921
+Mae: When do you think that door's gonna be finished? #line:7902db
 <<close>>
 <<setAnimInt Janitor drilling 2>>
 <<wait 1>>
-Janitor: Jetzt. #line:88ccdb
+Janitor: Now. #line:88ccdb
 <<close>>
 <<setAnimInt Janitor drilling 0>>
 <<wait .75>>
-Janitor: Auf Wiedersehen. #line:942e26
+Janitor: Goodbye. #line:942e26
 <<close>>
 <<flip Janitor -1>>
 <<walk Janitor ExitLeft>>
@@ -122,107 +122,107 @@ Janitor: Auf Wiedersehen. #line:942e26
 <<closeAll>>
 <<animate TV Static>>
 <<set $janitor to 5>>
-Mae: aeh. tschuess. #line:1fe282
+Mae: uh. bye. #line:1fe282
 ===
 title: someone
-tags:
+tags: 
 colorID: 0
 position: 1041,1014
 ---
-Janitor: Geschlossen. #line:d1c54a
-Mae: Warum ist das Licht an? Warum ist der Fernseher an? #line:c1a449
-Janitor: Es ist mir unheimlich, wenn ich hier alleine bin. #line:2b734d
+Janitor: Closed. #line:d1c54a
+Mae: Why are the lights on? Why is the TV on? #line:c1a449
+Janitor: I get spooked when I'm here by my lonesome. #line:2b734d
 Mae: Oh. #line:52d276
 
 ===
 title: something
-tags:
+tags: 
 colorID: 0
 position: 600,1155
 ---
-Janitor: Sieht so aus. #line:7812bb
-Mae: Was machst du denn so? #line:0899b7
-Janitor: Ich repariere diese Tuer. #line:3b29f7
-Mae: Das war's? #line:ae570f
-Janitor: Noe. #line:dfb72e
+Janitor: Looks that way. #line:7812bb
+Mae: What do you do? #line:0899b7
+Janitor: I fix this door. #line:3b29f7
+Mae: That's it? #line:ae570f
+Janitor: Nope. #line:dfb72e
 
 ===
 title: squeeze
-tags:
+tags: 
 colorID: 0
 position: 87,705
 ---
-Mae: Kann ich mich an dir vorbeiquetschen? #line:8b1e12
-Janitor: Noe. Habe gerade das verdammte Ding kaputt gemacht. #line:320604
-Mae: Wann denkst du, ist es fertig? #line:d1ed74
-Janitor: Gleich nachdem du mir eine Fiascola aus dem Automaten geholt hast. #line:981491
+Mae: Can I squeeze past you? #line:8b1e12
+Janitor: Nope. Just broke the damn thing. #line:320604
+Mae: When do you think it might be done? #line:d1ed74
+Janitor: Right after you go grab me a Fiascola from the machine. #line:981491
 Mae: ... #line:ca5497
-Mae: Zahle ich dafuer? #line:dd2baf
-Janitor: Ich manipuliere ihn immer, wenn ich nach Feierabend hier bin. #line:26a4e0
-Mae: Nett. Schoen. Umsonst im Sinne von umsonst? :) #line:394e29
-Janitor: Umsonst im Sinne von niemand ist hier, der etwas anderes sagt. #line:f00c90
+Mae: Am I paying for this? #line:dd2baf
+Janitor: I always rig it when I'm here after hours. #line:26a4e0
+Mae: Nice. Free as in free? :) #line:394e29
+Janitor: Free as in no one's here to say otherwise. #line:f00c90
 <<eyes Mae Neutral>>
 <<mood Mae Neutral>>
 <<set $janitor to 2>>
 <<set $vending_machine_done to 0>>
 ===
 title: TicketStand
-tags:
+tags: 
 colorID: 0
 position: -1306,427
 ---
-Mae: Das ist der Ticketschalter. #line:a6e72c
+Mae: It's the ticket stand. #line:a6e72c
 ===
 title: TV
-tags:
+tags: 
 colorID: 0
 position: -626,417
 ---
 <<animate TV Logo>>
 <<wait 5.5>>
 <<animate TV MalloyTalk>>
-TV: Willkommen zurueck bei Garbo und Malloy! #line:0cba7f
+TV: Welcome back to Garbo And Malloy! #line:0cba7f
 <<animate TV GarboTalk>>
-TV: Was gibt's heute in den Nachrichten, Malloy? #line:7ebfe0
+TV: What's in the news today, Malloy? #line:7ebfe0
 <<animate TV MalloyTalk>>
-TV: Die Maerkte sind heute gestiegen! #line:240660
+TV: Markets were up today! #line:240660
 <<animate TV GarboTalk>>
-TV: Seeeeeehr hoch! #line:ff7908
+TV: Waaaaaay up! #line:ff7908
 <<animate TV MalloyStare>>
 <<playOneShot event:/bus_station/tv_applause TV>>
 <<wait 2>>
 <<animate TV GarboTalk>>
-TV: Ich schaue mir gerade ein Diagramm an und die ist ziemlich beeindruckend! #line:3c8f6c
+TV: I'm looking at a chart and it's pretty impressive! #line:3c8f6c
 <<animate TV MalloyTalk>>
-TV: Die Wirtschaft hat 15.000 neue Arbeitsplaetze #line:b72c6d
-TV: hauptsaechlich im Diagramm-Sektor #line:50bff0
+TV: The economy added 15,000 jobs #line:b72c6d
+TV: mostly in the chart sector #line:50bff0
 <<animate TV GarboTalk>>
-TV: der bekanntermassen rezessionssicher ist! #line:d1750a
+TV: which is notoriously recession proof! #line:d1750a
 <<animate TV MalloyStare>>
 <<playOneShot event:/bus_station/tv_laughter_applause TV>>
 <<wait 2>>
 <<animate TV MalloyTalk>>
-TV: Meine Guete, Garbo, wir sind da ein wenig politisch geworden! #line:342f8c
+TV: My my, Garbo, we got a little political there! #line:342f8c
 <<animate TV GarboTalk>>
-TV: Ab und zu muss man auch mal politisch werden. #line:903a92
+TV: Gotta get political every now and then. #line:903a92
 <<animate TV MalloyStare>>
 <<playOneShot event:/bus_station/tv_laughter_applause TV>>
 <<wait 2>>
 <<animate TV MalloyTalk>>
-TV: Ich war letzte Woche bei einem dieser Internet-Dates. #line:95e899
+TV: I went on one of those internet dates last week. #line:95e899
 <<animate TV GarboTalk>>
 TV: Oh? #line:001595
 <<animate TV GarboTalk>>
-TV: Ja, das Internet ist ein wahrhaft gebender Liebhaber. #line:df8e7d
+TV: Yeah the internet is a truly giving lover. #line:df8e7d
 <<animate TV GarboStare>>
 <<wait 2>>
 <<playOneShot event:/bus_station/tv_cough TV>>
 <<wait 3>>
 <<animate TV GarboTalk>>
-TV: Hey, gibt es da draussen reizende Damen, die nach einem geeigneten Junggesellen suchen? #line:fceaf6
-TV: Meldet euch! #line:658baf
+TV: Hey, any lovely ladies out there looking for an eligible bachelor? #line:fceaf6
+TV: Get in touch! #line:658baf
 <<animate TV GarboLaugh>>
-TV: Und ich sage euch Bescheid, wenn ich einen finde! #line:22bd27
+TV: And I'll let you know if I find one! #line:22bd27
 <<animate TV MalloyStare>>
 <<playOneShot event:/bus_station/tv_laughter_applause TV>>
 <<wait 3>>
@@ -232,25 +232,25 @@ TV: Und ich sage euch Bescheid, wenn ich einen finde! #line:22bd27
 
 ===
 title: VendingMachine
-tags:
+tags: 
 colorID: 0
 position: 539,251
 ---
 <<if $janitor >= 2 and $soda is 0>>
-	Mae: Was zur? #line:75143a
-    Mae: Sie haben Lime Fiasco und er will eine Fiascola? #line:3716b2
-    Mae: Das ist reine Verschwendung. #line:058ebb
+	Mae: What the? #line:75143a
+    Mae: They have Lime Fiasco and he wants a Fiascola? #line:3716b2
+    Mae: That's just a waste. #line:058ebb
 	<<close>>
 	<<wait 1>>
 	<<tell VendingMachine to Vend>>
 	<<wait 5.5>>
     <<set $can_grab_soda_can to 1>>
     <<set $vending_machine_done to 1>>
-    Mae: Okay, ich muss sie nur noch greifen. #line:94d4e3
+    Mae: Okay, just gotta grab it. #line:94d4e3
 	//<<set $soda to 1>>
 	//Mae: Got it!
 <<else>>
-	Mae: :) -_- Fiasco Fox du bist zu vertraeumt. #line:867df6
+	Mae: :) -_- Fiasco Fox you are too dreamy. #line:867df6
     <<eyes Mae Neutral>>
     <<mood Mae Neutral>>
     <<set $vending_machine_done to 1>>
@@ -259,76 +259,76 @@ position: 539,251
 
 ===
 title: wow
-tags:
+tags: 
 colorID: 0
 position: -765,1046
 ---
-Mae: Wow! Wann haben sie das aufgehaengt? #line:07ec71
-Mae: So hat man Possum Springs noch nie gesehen... #line:ef66b7
-Mae: ...so falsch beworben. :\ #line:585471
+Mae: Wow. When did they put this up? #line:07ec71
+Mae: Possum Springs has never looked more... #line:ef66b7
+Mae: ...falsely advertised. :\ #line:585471
 <<eyes Mae Neutral>>
 <<mood Mae Neutral>>
 <<set $bus_station_mural to 1>>
 ===
 title: visitors
-tags:
+tags: 
 colorID: 0
 position: -562,1273
 ---
-Mae: Die Besucher werden so enttaeuscht sein, wenn sie die eigentliche Stadt sehen. #line:48c736
-Mae: Bereitet euch auf eine Enttaeuschung vor, ihr, die ihr hier eintretet! #line:8702a8
-Mae: Unser Stadtmotto. #line:e47578
+Mae: Visitors are going to be so let down when they see the actual town. #line:48c736
+Mae: Prepare to be disappointed, ye who enter here! #line:8702a8
+Mae: Our Town Motto. #line:e47578
 <<set $bus_station_mural to 2>>
 ===
 title: forest
-tags:
+tags: 
 colorID: 0
 position: -294,1296
 ---
-Mae: Staatswald oben, #line:7a46d5
-Mae: Normaler Wald ueberall sonst. #line:5e929b
-Mae: Waelder, Waelder, Waelder. #line:84a270
+Mae: State forest up top, #line:7a46d5
+Mae: Regular forest everywhere else. #line:5e929b
+Mae: Woods, woods, woods. #line:84a270
 <<set $bus_station_mural to 3>>
 
 ===
 title: mine
-tags:
+tags: 
 colorID: 0
 position: -114,1046
 ---
-Mae: Sieh dir den Minenwagen an. #line:1ecaf7
-Mae: Das ist alles schon lange weg. #line:88f64b
-Mae: Wurde das von einem Zeitreisenden gemacht? #line:e1e5ae
+Mae: Look at that minecart. #line:1ecaf7
+Mae: That's all long gone. #line:88f64b
+Mae: Was this made by a time traveler? #line:e1e5ae
 <<set $bus_station_mural_done to 1>>
 ===
 title: reception
-tags:
+tags: 
 colorID: 0
 position: 78,366
 ---
-Mae: Die Telefongesellschaften muessen sehr erleichtert sein, dass Possum Springs keinen Mobilfunkempfang hat. #line:8773a7
-Mae: Es waere cool, meine Eltern anzurufen #line:a122a1
-Mae: aber irgendein Arschloch hat sich die Zeit genommen, es tatsaechlich abzureissen. #line:adbeea
-Mae: Wer klaut schon ein Telefon? #line:c22b41
+Mae: It must be such a relief to payphone companies that Possum Springs gets zero cell reception. #line:8773a7
+Mae: It'd be cool to call my parents #line:a122a1
+Mae: but some jerkhole took the time to actually rip it off. #line:adbeea
+Mae: Who steals a phone? #line:c22b41
 <<set $bus_station_phone to 1>>
 ===
 title: whosteals
-tags:
+tags: 
 colorID: 0
 position: -196,433
 ---
-Mae: Ich frage mich, was sie mit diesem Telefon machen. #line:eee3e1
-Mae: Sie schlafen nachts damit. #line:9ba608
-Mae: Mit ihm spazieren gehen. #line:2752ca
-Mae: Ihn festhalten. #line:3724ad
-Mae: In sie hineinsprechen #line:319501
-Mae: zu niemandem. #line:7a2782
-Mae: Es so richtig zu knutschen. #line:4f7c9b
+Mae: I wonder what they're doing with that phone. #line:eee3e1
+Mae: Sleeping with it at night. #line:9ba608
+Mae: Taking it for walks. #line:2752ca
+Mae: Holding it tight. #line:3724ad
+Mae: Talking into it #line:319501
+Mae: to nobody. #line:7a2782
+Mae: Smooching it so right. #line:4f7c9b
 <<set $bus_station_phone_done to 1>>
 
 ===
 title: EnterLevel
-tags:
+tags: 
 colorID: 0
 position: 346,-40
 ---
@@ -342,9 +342,9 @@ position: 346,-40
 	<<flip Janitor -1>>
 	<<setAnimInt Janitor drilling 1>>
 <<endif>>
-Mae: Na, das ist ja toll. #line:f53579
-Mae: Ich meine, ich habe keine Party erwartet oder so #line:31f06f
-Mae: aber ich dachte mir, *jemand* wuerde hier sein. #line:f25ef7
+Mae: Well, this is great. #line:f53579
+Mae: I mean I didn't expect a party or anything #line:31f06f
+Mae: but I figured *someone* would be here. #line:f25ef7
 Mae: ... #line:9b299a
-Mae: Willkommen zu Hause, Mae. #line:64c8e8
+Mae: Welcome home, Mae. #line:64c8e8
 ===

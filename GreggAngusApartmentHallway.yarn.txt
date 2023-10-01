@@ -1,17 +1,17 @@
 title: Door
-tags:
+tags: 
 colorID: 0
 position: 540,260
 ---
 <<if $dom_friend_bea>>
-	Bea: Oh mein Gott. #line:e56343
+	Bea: oh my god. #line:e56343
 	Mae: ...Beeeea? #line:85094c
-	Bea: Oh mein Gott... Mae? #line:013f2c
+	Bea: Oh my god... Mae? #line:013f2c
 <<else>>
-	Gregg: Mist. #line:0dc5e8
+	Gregg: crap. #line:0dc5e8
 	Mae: ...Greeegg? #line:69a08e
-	Gregg: Heiliger Bimbam, Mae? #line:3e4e20
-	Gregg: Ich bin's, Mae!!! #line:6d4f74
+	Gregg: Holy crap, Mae? #line:3e4e20
+	Gregg: It’s Mae!!! #line:6d4f74
 <<endif>>
 <<close>>
 <<fadeOut 1 wait>>
@@ -19,7 +19,7 @@ position: 540,260
 <<scene GreggAngusApartment>>
 ===
 title: EnterLevel
-tags:
+tags: 
 colorID: 0
 position: 254,156
 ---
@@ -27,7 +27,7 @@ position: 254,156
 <<wait 1>>
 ===
 title: InitLevel
-tags:
+tags: 
 colorID: 0
 position: -17,125
 ---

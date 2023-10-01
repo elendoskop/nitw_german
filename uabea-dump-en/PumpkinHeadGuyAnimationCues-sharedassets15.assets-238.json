@@ -1,5 +1,0 @@
-{
-  "m_Name": "PumpkinHeadGuyAnimationCues",
-  "m_Script": "00.000|0|Keypress\n\n00.000|2|FootTap\n00.375|2|FootTap\n00.750|2|FootTap\n01.125|2|FootTap\n\n03.429|2|Strum\n\n12.000|33|PumpkinHeadGuy\n\n22.286|0|Pump|-0.2333\n22.500|1|Kin|-0.2333\n22.929|2|Head|-0.2333\n23.357|4|Guy|-0.2333\n\n24.000|0|Idle\n24.000|1|Idle\n24.000|2|Idle\n24.000|4|Idle\n\n29.143|0|Pump|-0.2333\n29.357|1|Kin|-0.2333\n29.786|2|Head|-0.2333\n30.214|4|Guy|-0.2333\n\n30.857|0|Idle\n30.857|1|Idle\n30.857|2|Idle\n30.857|4|Idle\n\n30.857|2|Strum\n\n44.571|33|PumpkinHeadGuy\n\n49.714|0|Pump|-0.2333\n49.929|1|Kin|-0.2333\n50.357|2|Head|-0.2333\n50.786|4|Guy|-0.2333\n\n51.429|0|Idle\n51.429|1|Idle\n51.429|2|Idle\n51.429|4|Idle\n\n56.571|0|Pump|-0.2333\n56.786|1|Kin|-0.2333\n57.214|2|Head|-0.2333\n57.643|4|Guy|-0.2333\n\n58.286|0|Idle\n58.286|1|Idle\n58.286|2|Idle\n58.286|4|Idle\n\n65.374|0|Skeleton\n67.426|1|Skeleton\n70.018|2|Skeleton\n71.500|4|Skeleton\n\n86.696|0|Pump|-0.2333\n88.140|1|Kin|-0.2333\n90.1246|2|Head|-0.2333\n91.838|4|Guy|-0.2333\n\n93.553|0|PumpkinHeadGuy\n93.553|1|PumpkinHeadGuy\n93.553|2|PumpkinHeadGuy\n93.553|4|PumpkinHeadGuy\n",
-  "m_PathName": ""
-}
