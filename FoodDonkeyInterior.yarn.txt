@@ -38,9 +38,9 @@ tags:
 colorID: 3
 position: -867,1849
 ---
-Gregg: Aw yeah. Froggy robot. #line:cf2c6f
-SteveScriggins: Finally. Goddamn. #line:ad000b
-Mae: Oh shut up Steve. #line:3c7574
+Gregg: Oh ja. Froschroboter. #line:cf2c6f
+SteveScriggins: Endlich. Verdammt noch mal. #line:ad000b
+Mae: Oh, halt die Klappe Steve. #line:3c7574
 <<set $robot_head to 0>>
 [[ArcadeMachinePicked]]
 ===
@@ -49,9 +49,9 @@ tags:
 colorID: 3
 position: -600,1853
 ---
-Gregg: Yeah! Robot piggy! #line:0f71f1
-SteveScriggins: Finally. Goddamn. #line:6d10f5
-Mae: Oh shut up Steve. #line:55c353
+Gregg: Ja! Roboter-Schweinchen! #line:0f71f1
+SteveScriggins: Endlich. Verdammt noch mal. #line:6d10f5
+Mae: Ach halt die Klappe Steve. #line:55c353
 <<set $robot_head to 1>>
 [[ArcadeMachinePicked]]
 ===
@@ -61,8 +61,8 @@ colorID: 3
 position: -322,1856
 ---
 Gregg: Cool cool. Mecha-bunn. #line:dbed46
-SteveScriggins: Finally. Goddamn. #line:5f8904
-Mae: Oh shut up Steve. #line:003392
+SteveScriggins: Endlich. Verdammt noch mal. #line:5f8904
+Mae: Oh, halt die Klappe Steve. #line:003392
 
 <<set $robot_head to 2>>
 [[ArcadeMachinePicked]]
@@ -92,39 +92,39 @@ position: -653,933
     <<endif>>
 <<elseif $gregg_friendship_quest_1 is 2>>
     <<stopDialogue Gregg>>
-    Mae: Oh god. These guys. #line:03fc35
-    Mae: I was both terrified and super into these things #line:be955e
-    Mae: when they'd put them out front. #line:f18682
-    Mae: They moved! #line:74ff84
-    Gregg: They look so tiny when they're in pieces. #line:7c8bc4
-        ->I dunno man they're still pretty big. #line:c44eba
-            Mae: God, these things were actually gigantic when they had them out. #line:9dfdc5
-        ->We're smaller in pieces too. #line:1f9746
-            Gregg: Too real. #line:ab0e9f
-            Gregg: I hope you get chopped up by a chopper. #line:c82c72
-            Mae: I hope you get chopped up by a blunt chopper. #line:edc300
-            SteveScriggins: You two are weird. #line:face10
-    Gregg: ok, we're stealing one of these #line:d45b76
-    Mae: is it even stealing? #line:4f805d
-    Gregg: it's better if we think of it as stealing. #line:907dd1
+    Mae: Oh Gott. Diese Typen. #line:03fc35
+    Mae: Ich war sowohl erschrocken als auch super begeistert von diesen Dingern #line:be955e
+    Mae: wenn sie sie vor die Tuer gestellt haben. #line:f18682
+    Mae: Sie bewegten sich! #line:74ff84
+    Gregg: Sie sehen so winzig aus, wenn sie zerlegt sind. #line:7c8bc4
+        ->Ich weiss nicht Mann, sie sind immer noch ziemlich gross. #line:c44eba
+            Mae: Gott, diese Dinger waren wirklich gigantisch, als sie sie raus hatten. #line:9dfdc5
+        ->Wir sind auch in Stuecken kleiner. #line:1f9746
+            Gregg: Zu real. #line:ab0e9f
+            Gregg: Ich hoffe, du wirst von einem Hubschrauber zerhackt. #line:c82c72
+            Mae: Ich hoffe, du wirst von einem stumpfen Hackbeil zerhackt. #line:edc300
+            SteveScriggins: Ihr zwei seid komisch. #line:face10
+    Gregg: ok, wir klauen einen von denen #line:d45b76
+    Mae: ist das ueberhaupt Diebstahl? #line:4f805d
+    Gregg: es ist besser, wenn wir es als Diebstahl betrachten. #line:907dd1
     Mae: cool #line:70900d
     <<close>>
     <<wait .5>>
     Gregg: aaaagh. #line:dcc89d
         -> aaagh? #line:699a9e
-        -> what? #line:e18767
-    Gregg: aaaaaaaaaagh. #line:b35cc3
-        -> are you ok? #line:9ae45d
-        -> dude, what? #line:2b4fb7
-    Gregg: {width=300}aaaaaaaaaaaaaaaaaaaaaaaaaagh!!! #line:3af4e2
-        -> DUDE! WHAT! #line:9c6b89
-        -> STOP SCREAMING!!! #line:2a09bd
-    Gregg: I can't pick! They all look great! #line:6939b7
-    SteveScriggins: You get one. That's the deal. Hurry up. #line:9f4197
-    Mae: Oooh let me pick! Let me pick! :) #line:8b2667
+        -> was? #line:e18767
+    Gregg: aaaaaaaaaaaagh. #line:b35cc3
+        -> bist du ok? #line:9ae45d
+        -> Mann, was? #line:2b4fb7
+    Gregg: {width=300}aaaaaaaaaaaaaaaaaaaaaaaaaaaagh!!! #line:3af4e2
+        -> DUDE! WAS! #line:9c6b89
+        -> HOER AUF ZU SCHREIEN!!! #line:2a09bd
+    Gregg: Ich kann mich nicht entscheiden! Die sehen alle toll aus! #line:6939b7
+    SteveScriggins: Du bekommst eins. Das ist die Abmachung. Beeilen Sie sich. #line:9f4197
+    Mae: Oooh lass mich waehlen! Lass mich waehlen! :) #line:8b2667
     <<close>>
     <<run Gregg Gregg3 -1 wait>>
-    Gregg: sure. #line:4a3753
+    Gregg: sicher. #line:4a3753
     Mae: :| #line:83366f
     <<set $gregg_friendship_quest_1 to 3>>
     <<set $robot_head_choice_enabled to 1>>
@@ -148,27 +148,27 @@ position: -607,2238
 ---
 <<close>>
 <<wait 1>>
-SteveScriggins: You know what? I ain't carrying nothin'. #line:539a13
-SteveScriggins: See ya ladies. #line:3d5f3d
+SteveScriggins: Wisst ihr was? Ich habe nichts dabei. #line:539a13
+SteveScriggins: Bis dann, meine Damen. #line:3d5f3d
 <<close>>
 <<walk SteveScriggins SteveScriggins1>>
-Mae: Steeeeeeeve!? #line:e0a430
-SteveScriggins: Get found dead, punks! #line:67a6f7
+Mae: Steeeeeeve!? #line:e0a430
+SteveScriggins: Tot aufgefunden werden, Punks! #line:67a6f7
 SteveScriggins: Hweh heh heh. #line:8db583
 <<close>>
 <<wait 2>>
 <<hide SteveScriggins>>
-Gregg: He says punks like it's a bad thing. #line:1e46a1
-Mae: I don't care. #line:c2da95
-Mae: He's scum and a criminal and anyway I think he's been bad news from the start. #line:9f6b9b
-Gregg: Mm. Yes. #line:99b7af
-Mae: What deal did you make with him? #line:c3b499
-Gregg: He's allowed to shoplift whatever he wants from the Snack Falcon while I'm working. #line:d25707
-Mae: See? Criminal all the way. #line:c21299
-Gregg: Some people... #line:93ec64
+Gregg: Er sagt Punks, als ob das etwas Schlechtes waere. #line:1e46a1
+Mae: Das ist mir egal. #line:c2da95
+Mae: Er ist Abschaum und ein Krimineller, und ich glaube, er war von Anfang an eine schlechte Nachricht. #line:9f6b9b
+Gregg: Mm. Ja. #line:99b7af
+Mae: Welchen Deal hast du mit ihm gemacht? #line:c3b499
+Gregg: Er darf im Snack Falcon klauen, was er will, waehrend ich arbeite. #line:d25707
+Mae: Siehst du? Ein Verbrecher auf der ganzen Linie. #line:c21299
+Gregg: Manche Leute... #line:93ec64
 <<close>>
 <<wait 1>>
-Mae: So should we like smash a window to get this out of here? #line:04f5b8
+Mae: Sollen wir ein Fenster einschlagen, um das hier rauszuholen? #line:04f5b8
 <<close>>
 <<set $robot_crate to 1>>
 <<irisOut 1 wait>>
@@ -179,52 +179,52 @@ tags:
 colorID: 3
 position: -318,1575
 ---
-Gregg: Let me know when you're ready. #line:fa0d15
+Gregg: Sag mir Bescheid, wenn du bereit bist. #line:fa0d15
 ===
 title: Intro
 tags: 
 colorID: 3
 position: -1896,1678
 ---
-Mae: Oh god. What is that smell? #line:f6e088
-SteveScriggins: Glue. #line:fad0f9
-Mae: Oh no. Is that- #line:5d7fae
+Mae: Oh Gott. Was ist das fuer ein Geruch? #line:f6e088
+SteveScriggins: Leim. #line:fad0f9
+Mae: Oh nein. Ist das- #line:5d7fae
 <<walk SteveScriggins SteveWalkIn>>
 SteveScriggins: [wave]Sup ladies.[/wave] #line:abf7a2
 Mae: =_= #line:9ee1e3
 <<vo Mae dissapointed>>
 Mae: ugh. :( #line:904858
-Mae: Effing Steve Scriggins. #line:ec28b5
+Mae: Scheiss Steve Scriggins. #line:ec28b5
 SteveScriggins: *FFFFFFFTTTTT!!* #line:fa65df
-Mae: Did you just actually make a fart noise? #line:ac2c40
+Mae: Hast du gerade tatsaechlich ein Furzgeraeusch gemacht? #line:ac2c40
 SteveScriggins: Hweh heh heh. #line:654f35
-SteveScriggins: You ladies lost or something? #line:d8ac7e
-Gregg: Deal's a deal, Steve. #line:83a07b
-SteveScriggins: I ain't forgot. #line:551af9
-Gregg: Where is it then? #line:4af5c7
-SteveScriggins: In the back. #line:13520c
-Mae: I remember you, you know. #line:250d22
-SteveScriggins: I bet [wave]everyone[/wave] remembers you. #line:9470de
-    ->That teacher sue you yet? #line:53c672
-        Mae: Or at least beat you up in a parking lot? #line:74925f
-        SteveScriggins: Which teacher? #line:b063c2
-        Mae: The one you locked in the closet during Longest Night break. #line:1a29e0
-        SteveScriggins: Pssh. That guy can't even go in small rooms now. #line:6cb47f
-        SteveScriggins: He was always a wuss, just needed someone to bring it out. #line:c1cad9
+SteveScriggins: Habt ihr Damen euch verlaufen oder so? #line:d8ac7e
+Gregg: Ein Deal ist ein Deal, Steve. #line:83a07b
+SteveScriggins: Das habe ich nicht vergessen. #line:551af9
+Gregg: Wo ist es denn? #line:4af5c7
+SteveScriggins: Im hinteren Teil. #line:13520c
+Mae: Ich erinnere mich an dich, weisst du. #line:250d22
+SteveScriggins: Ich wette, [wave]jeder[/wave] erinnert sich an dich. #line:9470de
+    ->Der Lehrer verklagt dich schon? #line:53c672
+        Mae: Oder hat er dich wenigstens auf einem Parkplatz verpruegelt? #line:74925f
+        SteveScriggins: Welcher Lehrer? #line:b063c2
+        Mae: Der, den du in der laengsten Nachtpause in den Schrank gesperrt hast. #line:1a29e0
+        SteveScriggins: Pssh. Der Typ kann jetzt nicht mal mehr in kleine Raeume gehen. #line:6cb47f
+        SteveScriggins: Er war schon immer ein Weichei, er brauchte nur jemanden, der es hervorbringt. #line:c1cad9
         Mae: ... O_O #line:72372f
         Gregg: ... O_O #line:adb578
-    ->What are you doing in here? #line:27d830
-        SteveScriggins: Your mom. #line:3d5d01
-        Mae: Great Steve. #line:cfe2ef
-        SteveScriggins: All the ways. #line:1dd2cd
+    ->Was machst du hier drin? #line:27d830
+        SteveScriggins: Deine Mutter. #line:3d5d01
+        Mae: Toll Steve. #line:cfe2ef
+        SteveScriggins: Auf allen Wegen. #line:1dd2cd
         Mae: Cool. #line:e105bb
-        SteveScriggins: I'm your new dad. #line:d8d1c3
-        Mae: Steve, you sincerely could not get with my mom. #line:976352
-        SteveScriggins: Is that a challenge? #line:35ff2a
+        SteveScriggins: Ich bin dein neuer Vater. #line:d8d1c3
+        Mae: Steve, du konntest dich wirklich nicht mit meiner Mutter vertragen. #line:976352
+        SteveScriggins: Ist das eine Herausforderung? #line:35ff2a
 Mae: o_o :| #line:a25e73
 Gregg: o_o #line:332935
-Gregg: ok well #line:6e68be
-Gregg: can we get on with this? #line:41c1e9
+Gregg: ok gut #line:6e68be
+Gregg: koennen wir mit dem Thema weitermachen? #line:41c1e9
 <<close>>
 <<run SteveScriggins SteveScriggins1 -1>>
 <<run Gregg Gregg1>>
@@ -239,9 +239,9 @@ colorID: 3
 position: 264,380
 ---
 <<stopDialogue Gregg>>
-Mae: No wonder this place went under. #line:df2ec4
-Mae: People leaving keys all over the place! #line:ab556f
-Mae: Don't mind if I do. #line:f2ee16
+Mae: Kein Wunder, dass der Laden untergegangen ist. #line:df2ec4
+Mae: Die Leute lassen ihre Schluessel ueberall liegen! #line:ab556f
+Mae: Macht nichts, wenn ich es tue. #line:f2ee16
 <<fadeOutInternal 0>>
 <<playOneShot event:/food_donkey/key_pickup Mae>>
 <<wait 1>>
@@ -258,13 +258,13 @@ Mae: Don't mind if I do. #line:f2ee16
 <<flip Mae 1>>
 <<freezePlayer>>
 <<fadeInInternal 1 wait>>
--> Found some keys! #line:67715d
+-> Habe einige Schluessel gefunden! #line:67715d
     <<close>>
 	<<wait 2>>
-	Mae: Guys? #line:3477ef
--> I am the keymaster! #line:42f95d
-	Mae: I will unlock your ass! \o/  #line:0257c2
-	SteveScriggins: Yeah I heard that about you! #line:b50905
+	Mae: Leute? #line:3477ef
+-> Ich bin der Schluesselmeister! #line:42f95d
+	Mae: Ich werde euch den Arsch aufschliessen! \o/ #line:0257c2
+	SteveScriggins: Ja, das habe ich von dir gehoert! #line:b50905
 Mae: _o_ #line:9aa625
 <<setCanInteract Gregg 1>>
 ===
@@ -273,17 +273,17 @@ tags:
 colorID: 3
 position: 118,1162
 ---
-Mae: Ol' greenie here. #line:6dbf9c
-Gregg: I used to have dreams about this thing. #line:5475d3
-SteveScriggins: Sex dreams #line:8665a2
-SteveScriggins: Probably. #line:9ea776
-SteveScriggins: Best you could get. #line:3de628
-SteveScriggins: Probably. #line:6e4c27
+Mae: Alter Gruenling hier. #line:6dbf9c
+Gregg: Ich habe immer von diesem Ding getraeumt. #line:5475d3
+SteveScriggins: Sex-Traeume #line:8665a2
+SteveScriggins: Wahrscheinlich. #line:9ea776
+SteveScriggins: Das Beste, was man bekommen kann. #line:3de628
+SteveScriggins: Wahrscheinlich. #line:6e4c27
 Mae: ... #line:6c1434
-Gregg: Do frogs even have sex? #line:906358
-Mae: Nah, they got like eggs or something. #line:49a952
+Gregg: Haben Froesche ueberhaupt Sex? #line:906358
+Mae: Nee, die haben so was wie Eier oder so. #line:49a952
 SteveScriggins: ... #line:dcb6a8
-SteveScriggins: You two are really, really dumb. #line:8e1c7a
+SteveScriggins: Ihr zwei seid wirklich, wirklich dumm. #line:8e1c7a
 <<set $robot_head_0_done to 1>>
 <<set $num_checked_out_robot_heads += 1>>
 
@@ -296,19 +296,19 @@ tags:
 colorID: 3
 position: 408,1165
 ---
-Mae: Pretty cool pig. #line:9bb4d4
-Gregg: Yeah pretty alright. #line:39c073
-Gregg: Didn't he used to hold like sausage links or something? #line:f12c6b
-Mae: Yeah! That's messed up! #line:52eb57
-SteveScriggins: Eatin' his own kind. #line:1c45c6
-Mae: or her own kind. #line:dc9312
-SteveScriggins: Whatever, PC-police. #line:cb2684
-Mae: PC yourself into traffic Steve. #line:8c7d71
+Mae: Ziemlich cooles Schwein. #line:9bb4d4
+Gregg: Ja, ziemlich in Ordnung. #line:39c073
+Gregg: Hatte er nicht mal Wurstsemmeln oder so in der Hand? #line:f12c6b
+Mae: Ja! Das ist doch bescheuert! #line:52eb57
+SteveScriggins: Er frisst seine eigene Art. #line:1c45c6
+Mae: oder ihre eigene Art. #line:dc9312
+SteveScriggins: Wie auch immer, PC-Polizei. #line:cb2684
+Mae: PC selbst in den Verkehr Steve. #line:8c7d71
 Gregg: ANYWAY. #line:41492b
 <<close>>
 <<wait .5>>
-Mae: Cannibal pig, man. #line:4da150
-Gregg: Cannibal pig. #line:b2bc85
+Mae: Kannibalenschwein, Mann. #line:4da150
+Gregg: Kannibalenschwein. #line:b2bc85
 <<set $robot_head_1_done to 1>>
 <<set $num_checked_out_robot_heads += 1>>
 
@@ -321,15 +321,15 @@ tags:
 colorID: 3
 position: 655,1160
 ---
-Mae: God. I remember these being less horrifying. #line:17cc92
-Gregg: They were tall then. Couldn't see their faces. #line:a4e94e
-SteveScriggins: I gotta look at you ladies' faces. #line:e34b39
+Mae: Oh Gott. Ich erinnere mich daran, dass diese weniger entsetzlich waren. #line:17cc92
+Gregg: Damals waren sie gross. Konnte ihre Gesichter nicht sehen. #line:a4e94e
+SteveScriggins: Ich muss mir die Gesichter der Damen ansehen. #line:e34b39
 SteveScriggins: Hweh heh heh. #line:b5421a
 <<lookAt Mae SteveScriggins>>
 Mae: -_- #line:a87102
-Gregg: I think this one's kinda cute. #line:34ea19
-SteveScriggins: Aw, he thinks it's cute. #line:0d2101
-Mae: Steve you are a disease. #line:6d6a65
+Gregg: Ich denke, das hier ist irgendwie niedlich. #line:34ea19
+SteveScriggins: Ach, er findet es niedlich. #line:0d2101
+Mae: Steve du bist eine Krankheit. #line:6d6a65
 Mae: o_o #line:e5b1f0
 <<set $robot_head_2_done to 1>>
 <<set $num_checked_out_robot_heads += 1>>
@@ -343,19 +343,19 @@ tags:
 colorID: 3
 position: 412,1539
 ---
-SteveScriggins: GEEZ. Why does she get to pick? #line:6a5cbc
-SteveScriggins: Why is this such a thing? #line:0cc1d4
-SteveScriggins: This is taking forever! #line:d79109
+SteveScriggins: GEEZ. Warum darf sie sich das aussuchen? #line:6a5cbc
+SteveScriggins: Warum ist das so eine Sache? #line:0cc1d4
+SteveScriggins: Das dauert ja ewig! #line:d79109
 Mae: :( \o/ #line:3ff5dc
-Mae: [shake=.05]SCRIGGINS! BITE MY ENTIRE ASS![/shake] #line:e8e72d
-SteveScriggins: WHAT?! #line:497d4d
-Mae: [shake=.05]GO LEGALLY BRAIN DEAD[/shake] #line:7f2b56
-Mae: [shake=.05]FROM LACK OF OXYGEN[/shake] #line:a31f92
-Mae: [shake=.05]DUE TO CHOKING ON MY ENTIRE ASS![/shake] #line:6a859b
-SteveScriggins: I... I... what? #line:2b4f1d
-Gregg: Classic. #line:a59bd1
-Mae: [shake=.05]THAT'S RIGHT, STEVE! CLASSIC![/shake] #line:58b520
-SteveScriggins: [shake=.05]OH MY GOD CAN WE JUST GET THIS DONE ALREADY[/shake] #line:56728d
+Mae: [shake=.05]SCRIGGINS! BITTE MEINEN GANZEN ASS![/shake] #line:e8e72d
+SteveScriggins: WAS?! #line:497d4d
+Mae: [shake=.05]GO LEGALY BRAIN DEAD[/shake] #line:7f2b56
+Mae: [shake=.05]AUS OXYGENMANGEL[/shake] #line:a31f92
+Mae: [shake=.05]DADURCH, dass ich an meinem ganzen Arsch erstickt bin![/shake] #line:6a859b
+SteveScriggins: I... Ich... was? #line:2b4f1d
+Gregg: Klassisch. #line:a59bd1
+Mae: [shake=.05]DAS IST RICHTIG, STEVE! KLASSISCH![/shake] #line:58b520
+SteveScriggins: [shake=.05]OH MEIN GOTT KOENNEN WIR DAS SOFORT FERTIG MACHEN[/shake] #line:56728d
 Mae: :| _o_ #line:e04c44
 ===
 title: DecisionPoint
@@ -363,16 +363,16 @@ tags:
 colorID: 3
 position: -610,1588
 ---
-Mae: Ok kids we're gonna go with... #line:a60d14
-[[Actually, I'm not sure yet...|NotSure]] #line:a56e50
+Mae: Ok Kinder, wir nehmen den... #line:a60d14
+[[Eigentlich bin ich mir noch nicht sicher...|NotSure]] #line:a56e50
 <<if $robot_head_0_done is 1>>
-    [[Frog Head|PickRobotMascot0]] #line:ba2903
+    [[Froschkopf|PickRobotMascot0]] #line:ba2903
 <<endif>>
 <<if $robot_head_1_done is 1>>
-    [[Pig Head|PickRobotMascot1]] #line:a002bf
+    [[Schweinekopf|PickRobotMascot1]] #line:a002bf
 <<endif>>
 <<if $robot_head_2_done is 1>>
-    [[Rabbit Head|PickRobotMascot2]] #line:4b2b97
+    [[Kaninchenkopf|PickRobotMascot2]] #line:4b2b97
 <<endif>>
 ===
 title: TryToDecide00
@@ -380,24 +380,24 @@ tags:
 colorID: 3
 position: -957,1288
 ---
-Gregg: Ugh... which one? #line:66664a
-Gregg: I'm bad at decisions that actually mean something. #line:69516a
-Mae: You picked out the tuxes we wore to junior prom. #line:75da50
-Gregg: Ok yeah... I'm pretty good at it. #line:73bfd9
-Mae: Remember how Tim Whitley rode that giant tractor into homecoming? #line:4d04d5
-Gregg: Totally. #line:bb0316
-Gregg: So... did you pick? #line:3ca941
--> Dude gimme time. #line:e17c53
-    Gregg: Ugh fine. #line:88a40e
-    Mae: Dude, is this serious business? #line:c5db25
-    Gregg: This is serious business. #line:372a1a
-    Mae: Ok then let's treat it like serious business. #line:834257
-    Gregg: I'm hungry though. #line:dc3eed
-    Mae: Uuuugh me too. #line:f704b7
-    Gregg: We should eat later. #line:23bfbd
-    Mae: Yeah probably. #line:8ef300
-    SteveScriggins: I DO HAVE places to be, you know!	 #line:622f69
--> I totally did. #line:bb5c3d
+Gregg: Ugh... welcher? #line:66664a
+Gregg: Ich bin schlecht in Entscheidungen, die wirklich etwas bedeuten. #line:69516a
+Mae: Du hast die Smokings ausgesucht, die wir zum Abschlussball getragen haben. #line:75da50
+Gregg: Ok ja... ich bin ziemlich gut darin. #line:73bfd9
+Mae: Weisst du noch, wie Tim Whitley mit dem Riesentraktor zum Abschlussball gefahren ist? #line:4d04d5
+Gregg: Auf jeden Fall. #line:bb0316
+Gregg: Und... hast du gewaehlt? #line:3ca941
+-> Mann gib mir Zeit. #line:e17c53
+    Gregg: Ugh gut. #line:88a40e
+    Mae: Mann, ist das eine ernste Angelegenheit? #line:c5db25
+    Gregg: Das ist eine ernste Angelegenheit. #line:372a1a
+    Mae: Ok, dann lass es uns wie eine ernste Angelegenheit behandeln. #line:834257
+    Gregg: Ich bin aber hungrig. #line:dc3eed
+    Mae: Uuuugh ich auch. #line:f704b7
+    Gregg: Wir sollten spaeter essen. #line:23bfbd
+    Mae: Ja, wahrscheinlich. #line:8ef300
+    SteveScriggins: Ich MUSS noch woanders hin, weisst du! #line:622f69
+-> Das habe ich wirklich. #line:bb5c3d
     Gregg: Oh cool #line:b1368f
     [[DecisionPoint]]
 ===
@@ -406,14 +406,14 @@ tags:
 colorID: 3
 position: -621,1275
 ---
-Gregg: Which one are we going with? #line:6a0429
--> [shake=.05]YOU GIVE ME A SEC.[/shake] #line:d2c879
+Gregg: Fuer welche entscheiden wir uns? #line:6a0429
+-> [shake=.05]GIB MIR EINE SEK.[/shake] #line:d2c879
     Mae: \o/ #line:2806f2
     <<dilate Mae .5 .25>>
     Gregg: DUDE. CHILL. #line:21f7d5
     <<dilate Mae 1 .5>>
     Mae: _o_ #line:15fa0d
--> Um... ok. I think I got it. #line:5d67bc
+-> Aehm...ok. Ich glaube, ich hab's. #line:5d67bc
     Gregg: Sweeeeet. #line:a8057f
     [[DecisionPoint]]
 
@@ -423,8 +423,8 @@ tags:
 colorID: 3
 position: -339,1279
 ---
-Gregg: Anything? #line:5a0765
--> Nope! #line:c15a04
+Gregg: Irgendetwas? #line:5a0765
+-> Noe! #line:c15a04
 -> Yep! #line:c49d0a
     Gregg: YAY! #line:3d3e24
     [[DecisionPoint]]
@@ -443,18 +443,18 @@ tags:
 colorID: 3
 position: -1149,1050
 ---
-Gregg: So this still works sometimes? #line:94e75a
+Gregg: Also funktioniert das manchmal noch? #line:94e75a
 SteveScriggins: Eh. #line:c1f56a
-SteveScriggins: You know Beth Holstead? #line:07041a
-Gregg: Yeah. #line:7c6086
-SteveScriggins: She was in here like 6 months ago and she swears it talked. #line:f4826c
+SteveScriggins: Kennst du Beth Holstead? #line:07041a
+Gregg: Ja. #line:7c6086
+SteveScriggins: Sie war vor 6 Monaten hier und sie schwoert, dass es geredet hat. #line:f4826c
 Gregg: Whoa. #line:9901fa
-SteveScriggins: Didn't even have to push the button. #line:8a8c34
-SteveScriggins: But I dunno how much stake I’d put in it. #line:84f2c5
-SteveScriggins: You know Beth. #line:ac3deb
-Gregg: Kinda? #line:6800f9
-SteveScriggins: There’s a lot of glue in here. #line:c3cf18
-Gregg: I guess. #line:1a7b84
+SteveScriggins: Musste nicht mal den Knopf druecken. #line:8a8c34
+SteveScriggins: Aber ich wuesste nicht, wie viel ich darauf setzen wuerde. #line:84f2c5
+SteveScriggins: Du kennst Beth. #line:ac3deb
+Gregg: Irgendwie? #line:6800f9
+SteveScriggins: Hier ist eine Menge Klebstoff drin. #line:c3cf18
+Gregg: Ich denke schon. #line:1a7b84
 <<set $gregg_friendship_quest_1 to 1>>
 <<setInteractDir Gregg -1 0>>
 <<walk SteveScriggins SteveScrigginsDoor1 -1>>
@@ -479,21 +479,21 @@ position: -1144,801
 ---
 <<flip SteveScriggins -1>>
 SteveScriggins: [shake=.05]GODDAMMIT!!![/shake] #line:f42503
-Mae: What? #line:22597a
-SteveScriggins: Someone locked the effin’ door! #line:7c7633
-SteveScriggins: Goddammit I bet it was Beth. #line:5f6dd6
-SteveScriggins: Or Levy. #line:bc8c87
-SteveScriggins: Or the train trash. #line:171a13
-Gregg: So... #line:433ee7
+Mae: Was? #line:22597a
+SteveScriggins: Jemand hat die verdammte Tuer abgeschlossen! #line:7c7633
+SteveScriggins: Verdammt, ich wette, es war Beth. #line:5f6dd6
+SteveScriggins: Oder Levy. #line:bc8c87
+SteveScriggins: Oder der Zugmuell. #line:171a13
+Gregg: Also... #line:433ee7
 SteveScriggins: AAAAAAAAAAAARGH #line:08f274
-SteveScriggins: They better not have stolen anything. #line:35fe96
-Mae: ...from the abandoned grocery store... #line:78631e
-Mae: ...with the unlocked doors… #line:08fe8e
-Mae: What’s behind this door anyway? #line:414a78
-SteveScriggins: Could probably bust it open... #line:53e27a
-Gregg: Or I could go get my lockpick stuff. #line:5dc5cc
-Mae: I bet there’s like a key or something. #line:a4ff55
-SteveScriggins: Whatever. #line:60fbb0
+SteveScriggins: Hoffentlich haben sie nichts gestohlen. #line:35fe96
+Mae: ...aus dem verlassenen Lebensmittelladen... #line:78631e
+Mae: ...mit den unverschlossenen Tueren... #line:08fe8e
+Mae: Was ist ueberhaupt hinter dieser Tuer? #line:414a78
+SteveScriggins: Koennte sie wahrscheinlich aufbrechen... #line:53e27a
+Gregg: Oder ich koennte mein Dietrich-Zeug holen gehen. #line:5dc5cc
+Mae: Ich wette, da ist ein Schluessel oder so. #line:a4ff55
+SteveScriggins: Wie auch immer. #line:60fbb0
 <<flip SteveScriggins 1>>
 <<setAnimInt SteveScriggins kickingDoor 1>>
 <<close>>
@@ -511,26 +511,26 @@ tags:
 colorID: 3
 position: -1108,506
 ---
-Mae: What are you doing? #line:7b4f3d
-Gregg: Trying to find something to help bust down the door. #line:1cdf49
-Mae: Cool. I’m looking for a key because I’m smarter. #line:7e1e18
-Gregg: Uh huh. But I get to hit things. #line:78d044
+Mae: Was machst du denn da? #line:7b4f3d
+Gregg: Ich versuche, etwas zu finden, das hilft, die Tuer aufzubrechen. #line:1cdf49
+Mae: Cool. Ich suche nach einem Schluessel, weil ich schlauer bin. #line:7e1e18
+Gregg: Uh huh. Aber ich darf Sachen schlagen. #line:78d044
 Mae: ... #line:d79326
-Mae: crap. #line:a242bf
+Mae: Scheisse. #line:a242bf
 ===
 title: GreggLook2
 tags: 
 colorID: 3
 position: -817,445
 ---
-Gregg: How much glue did they need in here? #line:c14ced
-Mae: Dude you gotta stick stuff to stuff to run a successful business. #line:d53ad2
-Gregg: Well, apparently not. #line:7aa431
-Gregg: What are you doing? #line:2f3d51
-Mae: Gonna check that office up there. #line:f5f106
-Gregg: Cool. Don’t like slice yourself to death on the glass. #line:d7a334
-Mae: Dumb death. #line:2c43c9
-Gregg: Dumb death. #line:bdc63d
+Gregg: Wie viel Kleber haben sie hier gebraucht? #line:c14ced
+Mae: Mann, man muss Sachen an Sachen kleben, um ein erfolgreiches Geschaeft zu fuehren. #line:d53ad2
+Gregg: Nun, anscheinend nicht. #line:7aa431
+Gregg: Was machst du da? #line:2f3d51
+Mae: Ich sehe mir das Buero da oben an. #line:f5f106
+Gregg: Cool. Pass auf, dass du dich nicht am Glas zu Tode schneidest. #line:d7a334
+Mae: Dummer Tod. #line:2c43c9
+Gregg: Dummer Tod. #line:bdc63d
 ===
 title: DoorUnlock
 tags: temp
@@ -538,24 +538,24 @@ colorID: 3
 position: -228,847
 ---
 <<setPlayerInteractLocator Gregg>>
-Mae: Yo idiots stop kicking before you break your femurs or something. #line:6ac77f
-Gregg: I’m not an idiot. #line:9998a3
-Mae: Yeah sorry hey idiot and Gregg stop kicking. #line:0d8b6d
-Mae: I got keys. #line:7d4d5f
+Mae: Ihr Idioten hoert auf zu treten, bevor ihr euch die Oberschenkel bricht oder so. #line:6ac77f
+Gregg: Ich bin kein Idiot. #line:9998a3
+Mae: Ja sorry hey Idiot und Gregg hoer auf zu treten. #line:0d8b6d
+Mae: Ich habe Schluessel. #line:7d4d5f
 <<setAnimInt SteveScriggins kickingDoor 0>>
 <<setAnimInt Gregg kickingDoor 0>>
 <<walk Gregg GreggDoor1 1>>
 <<flip SteveScriggins -1>>
 <<lookNearest SteveScriggins>>
-SteveScriggins: Where’d you get them? #line:21d50a
-Mae: Office. Up there. #line:85ac05
-SteveScriggins: No wonder this place went under. #line:dd9132
-SteveScriggins: Leaving keys all over the place! #line:61ec2e
-Mae: That was exactly what I thought. #line:081083
+SteveScriggins: Woher hast du die? #line:21d50a
+Mae: Aus dem Buero. Da oben. #line:85ac05
+SteveScriggins: Kein Wunder, dass der Laden untergegangen ist. #line:dd9132
+SteveScriggins: UEberall Schluessel liegen lassen! #line:61ec2e
+Mae: Das war genau das, was ich dachte. #line:081083
 <<walk SteveScriggins SteveScrigginsDoor2 1>>
 <<walk Mae GreggDoor2>>
-Mae: I’m upset that we thought like the exact same words. #line:262410
-SteveScriggins: I thought it better. #line:cc94e2
+Mae: Ich bin veraergert, dass wir genau die gleichen Worte gedacht haben. #line:262410
+SteveScriggins: Ich fand es besser. #line:cc94e2
 <<lookRight Mae>>
 Mae:{emote=food_donkey_key} #line:e5558a
 <<fadeOutMusic 5>>
@@ -570,16 +570,16 @@ Mae:{emote=food_donkey_key} #line:e5558a
 <<wait 1.5>>
 <<setInteractDir Gregg 1 0>>
 <<lookNearestMae>>
-->Why are we doing crimes with this guy? #line:5ee8c4
-	Gregg: Robbers can’t be choosers. #line:fe058b
+->Warum machen wir Verbrechen mit diesem Kerl? #line:5ee8c4
+	Gregg: Wer raubt, darf nicht waehlerisch sein. #line:fe058b
 	<<walk Gregg Gregg2 -1>>
-	Mae: They really can. #line:3b160d
-	SteveScriggins: You know I can hear you, right? #line:a09ff1
-->Ugh. Why did it have to be Steve? #line:49924c
-	Gregg: He had an in. #line:3b3c2e
+	Mae: Das koennen sie wirklich. #line:3b160d
+	SteveScriggins: Du weisst, dass ich dich hoeren kann, oder? #line:a09ff1
+->Ugh. Warum musste es ausgerechnet Steve sein? #line:49924c
+	Gregg: Er hatte einen Insider. #line:3b3c2e
 	<<walk Gregg Gregg2 -1>>
-	Mae: What in? #line:e58cdf
-	SteveScriggins: I broke the front door. #line:23f714
+	Mae: Was in? #line:e58cdf
+	SteveScriggins: Ich habe die Eingangstuer aufgebrochen. #line:23f714
 <<playMusic food_donkey_faces 3>>
 <<set $gregg_friendship_quest_1 to 2>>
 ===
@@ -594,16 +594,16 @@ position: -1420,1661
     <<warp Mae MaeMallardRats1>>
     <<run Mae MaeMallardRats2 wait>>
     <<lookLeft Mae>>
-    Mae: :) \o/ [wave]My babies!!![/wave] #line:30eeae
+    Mae: :) \o/ [wave]Meine Babies!!![/wave] #line:30eeae
     <<lookUp Mae>>
-    Mae: My little rat babies... #line:4b21af
+    Mae: Meine kleinen Rattenbabys... #line:4b21af
     <<lookNearest Mae>>
-    Mae: Well, not so little anymore.  #line:45b100
-    Mae: You've made it! You've broken free! #line:a1ab40
-    Mae: U_U It's a [wave]miracle![/wave] #line:cd174f
+    Mae: Nun, nicht mehr so klein. #line:45b100
+    Mae: Du hast es geschafft! Du hast dich befreit! #line:a1ab40
+    Mae: U_U Es ist ein [wave]Wunder![/wave] #line:cd174f
     <<lookUp Mae>>
-    Mae: _o_ I'm just gonna enjoy this moment for a bit. o_o #line:51e243
-    Mae: Don't mind me... #line:610c8d
+    Mae: _o_ Ich werde diesen Moment einfach ein bisschen geniessen. o_o #line:51e243
+    Mae: Kuemmere dich nicht um mich... #line:610c8d
     <<fadeOut 2 wait>>
 <<else>>
     <<fadeOut .0001 wait>>

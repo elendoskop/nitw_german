@@ -9,21 +9,21 @@ position: -215,159
     <<walk Mae Mae1>>
     <<walk Gregg Gregg1>>
     //enter from offscreen to the left and walk to locators we’ll set up when blocking happens//
-    Gregg: No, it’s like a kit you can get off the internet. #line:187637
-    Gregg: Germ and me put it together. #line:8ded26
-    Mae: So it’s a motorcycle now. #line:80c82c
-    Gregg: No it’s like a motorized bike thing. It’s different. #line:4793c0
-    Mae: why don't you just get a dirtbike again? #line:91a808
-    Gregg: I'm an adult now. I ride a bike. #line:3b711d
-    Mae: So like... where are we? #line:f3f3ea
+    Gregg: Nein, es ist wie ein Bausatz, den man im Internet bekommen kann. #line:187637
+    Gregg: Germ und ich haben es zusammengebaut. #line:8ded26
+    Mae: Also ist es jetzt ein Motorrad. #line:80c82c
+    Gregg: Nein, es ist wie ein motorisiertes Fahrrad-Ding. Es ist anders. #line:4793c0
+    Mae: Warum besorgst du dir nicht einfach wieder ein Dirtbike? #line:91a808
+    Gregg: Ich bin jetzt ein Erwachsener. Ich fahre ein Fahrrad. #line:3b711d
+    Mae: Also, wie... wo sind wir? #line:f3f3ea
     <<waitForMove Gregg>>
-    Gregg: THE WOODS. #line:74badb
+    Gregg: IM WALD. #line:74badb
     <<close>>
     <<lookForward Gregg>>
     //Gregg runs to the right//
     <<run Gregg GreggOffRight1>>
     <<wait 1>>
-    Mae: Alright. #line:64aaca
+    Mae: In Ordnung. #line:64aaca
     <<close>>
     //Wait til he’s offscreen to trigger movement for Mae again. You can freerun around now until you go talk to Gregg. Gregg’ll be doing some amusing animation until you do.//
     <<waitForMove Gregg>>
@@ -60,29 +60,29 @@ position: 397,173
 ---
 <<playerFace -1>>
 Mae: log bridge to valhalla :) \o/ #line:c9779a
-Gregg: cross and die, mortal :) \o/ #line:8778b7
+Gregg: ueberqueren und sterben, Sterblicher :) \o/ #line:8778b7
 Gregg: _o_ #line:54955b
-Mae: this log is gonna snap and we’re gonna break our legs _o_ #line:3c7a81
-Mae: and have to crawl back into town :| #line:b65301
-Gregg: or die of like bears and cold _o_ :| #line:cd45cf
-Mae: remember when we used to knife fight? :) #line:f2fc8e
-Gregg: heh heh yeah :) #line:452846
-Mae: we’d go home with like cuts all over our hands =_= #line:5b19b8
-Mae: so dumb #line:0a2169
-Gregg: Well, I... :| #line:7d60f7
-Mae: What? :| o_o #line:0bfa1d
-Gregg: i got knives. Right now. Just saying. #line:67ca1a
-Mae: holy shit. Yeah. you’re on. :) #line:f80018
-Gregg: first to wuss out 3 times loses #line:c7e07d
+Mae: dieser Baumstamm wird brechen und wir werden uns die Beine brechen _o_ #line:3c7a81
+Mae: und muessen zurueck in die Stadt kriechen :| #line:b65301
+Gregg: oder an Baeren und Kaelte sterben _o_ :| #line:cd45cf
+Mae: erinnerst du dich an unsere Messerstecherei? :) #line:f2fc8e
+Gregg: heh heh ja :) #line:452846
+Mae: wir sind mit Schnittwunden an den Haenden nach Hause gegangen =_= #line:5b19b8
+Mae: so bloed #line:0a2169
+Gregg: Nun, ich... :| #line:7d60f7
+Mae: Was? :| o_o #line:0bfa1d
+Gregg: Ich habe Messer. Gerade jetzt. Ich meine ja nur. #line:67ca1a
+Mae: Heilige Scheisse. Ja, du bist dran :) #line:f80018
+Gregg: der erste, der dreimal ausweicht, verliert #line:c7e07d
 Mae: :| #line:47df38
 <<close>>
 <<walk Mae MaeOnLogKnifeFight wait>>
 //mae walks to middle of log//
-Mae: come get cut, Greggor. #line:6e31ad
+Mae: komm und lass dich schneiden, Greggor. #line:6e31ad
 <<close>>
 //gregg walks to middle of log//
 <<walk Gregg GreggOnLogKnifeFight wait>>
-Gregg: Say goodbye to your fingers. :) #line:c369e9
+Gregg: Verabschiede dich von deinen Fingern. :) #line:c369e9
 [[KnifeFight]]
 ===
 title: BreakLog
@@ -90,39 +90,39 @@ tags:
 colorID: 0
 position: 45,779
 ---
-Mae: geeeez #line:84d388
-Gregg: yeah man #line:f4cd41
+Mae: ooooha #line:84d388
+Gregg: ja Mann #line:f4cd41
 <<close>>
 <<wait 4>>
-Mae: I was thinking #line:0d5cdd
-Gregg: Yeah? #line:63f83b
-Mae: Like, if you see a rotting tree or a log or something in the woods #line:c51fe1
-Mae: or like, there’s ice and a big rock #line:fb4701
-Mae: Like, you *HAVE* to kick the tree over or break the ice #line:ed9a3f
-Mae: like I can’t not do that. #line:94a500
-Gregg: yeah #line:cab8a8
+Mae: Ich habe gedacht #line:0d5cdd
+Gregg: Ja? #line:63f83b
+Mae: Wenn du zum Beispiel einen verrottenden Baum oder einen Baumstamm oder so im Wald siehst #line:c51fe1
+Mae: oder wenn da Eis ist und ein grosser Felsen #line:fb4701
+Mae: Als ob man *muss* den Baum umstossen oder das Eis brechen #line:ed9a3f
+Mae: als ob ich das nicht tun koennte. #line:94a500
+Gregg: ja #line:cab8a8
 Mae: hm #line:fdeb6c
 <<close>>
 <<wait 3>>
-Gregg: The like feel of #line:9daaaf
-Gregg: IT’S DIFFERENT NOW!!! #line:48e7b6
-Gregg: BECAUSE I WAS HERE!!!!!! #line:0ea065
-Mae: yeah ok yeah #line:8704ee
-Mae: that makes sense #line:181724
-Mae: These woods will never be the same, man #line:5169f7
-Mae: I changed them. #line:6371e7
-Gregg: We changed them. #line:5c891f
-Mae: Butterfly effect. #line:45827b
-Gregg: Dude, someone’s gonna die or get born because we broke that log. #line:9ffda4
-Mae: crap, man. #line:9d801c
-Gregg: yeah. #line:950395
+Gregg: Das wie Gefuehl von #line:9daaaf
+Gregg: JETZT IST ES ANDERS!!! #line:48e7b6
+Gregg: WEIL ICH HIER WAR!!!!!! #line:0ea065
+Mae: ja ok ja #line:8704ee
+Mae: das macht Sinn #line:181724
+Mae: Diese Waelder werden nie mehr dieselben sein, Mann #line:5169f7
+Mae: Ich habe sie veraendert. #line:6371e7
+Gregg: Wir haben sie veraendert. #line:5c891f
+Mae: Schmetterlingseffekt. #line:45827b
+Gregg: Alter, jemand wird sterben oder geboren werden, weil wir den Baumstamm kaputt gemacht haben. #line:9ffda4
+Mae: Scheisse, Mann. #line:9d801c
+Gregg: Ja. #line:950395
 <<close>>
 // gregg jumps up
 <<setAnimInt Gregg layingSide 0>>
 <<run Gregg GreggOffRight2 wait>>
 <<warp Gregg Gregg5>>
 <<setAnimInt Gregg crossbow 1>>
-Mae: uh... #line:6455e2
+Mae: aeh... #line:6455e2
 <<forceJumpToNormal>>
 ===
 title: BreakLogConversation
@@ -130,16 +130,16 @@ tags:
 colorID: 0
 position: -198,460
 ---
-Mae: Wait, why did you have two knives? #line:3cb5d4
-Gregg: Huh. Good question. #line:452df5
+Mae: Warte, warum hattest du zwei Messer? #line:3cb5d4
+Gregg: Hm. Gute Frage. #line:452df5
 Mae: ... #line:0cfc03
-Gregg:  LET’S BREAK THIS LOG!!!! :) #line:a61566
-Mae: With the knives? #line:0c7c19
-Gregg: NO! :| #line:26230c
+Gregg: LET'S BREAK THIS LOG!!!! :) #line:a61566
+Mae: Mit den Messern? #line:0c7c19
+Gregg: NEIN! :| #line:26230c
 //gregg runs into place and starts jumping//
-Mae: This is probably gonna kill us! #line:88c814
-Gregg: Naw, dude. #line:7fb343
-Mae: Good point. #line:49c8cf
+Mae: Das wird uns wahrscheinlich umbringen! #line:88c814
+Gregg: Nein, Mann. #line:7fb343
+Mae: Gutes Argument. #line:49c8cf
 //you can now jump, and then the log breaks, wooo//
 <<tell GreggLogBreakBrain Run>>
 ===
@@ -159,61 +159,61 @@ position: 636,195
 //find Gregg and chat then shoot that beast!//
 //when you enter, gregg is set to Gregg_bod_crossbow_down//
 Gregg: SHHHHOOOWP. #line:cd3f70
-Mae: I was gonna say, I’m surprised you still have that. #line:308a01
-Gregg: Yeah well #line:efe752
-Gregg: Hunting wasn’t my thing, #line:6fdd89
-Gregg: but I mean #line:68b596
-Gregg: dude #line:657f5f
-Gregg: like what *isn’t* fun about this thing? #line:c258d5
-Gregg: Did you ever go? #line:594e59
-Mae: Nah, my dad wasn’t into it. #line:4ee042
-Mae: Granddad was, but he definitely saw it as a guy thing. #line:21ae01
+Mae: Ich wollte sagen, ich bin ueberrascht, dass du das noch hast. #line:308a01
+Gregg: Ja nun #line:efe752
+Gregg: Jagen war nicht mein Ding, #line:6fdd89
+Gregg: aber ich meine #line:68b596
+Gregg: Mann #line:657f5f
+Gregg: was *ist* an dieser Sache nicht lustig? #line:c258d5
+Gregg: Warst du jemals dort? #line:594e59
+Mae: Nee, mein Vater war nicht so begeistert. #line:4ee042
+Mae: Grossvater schon, aber er sah es eindeutig als Maennersache an. #line:21ae01
 Gregg: hm. #line:028d27
-->That was fine I guess. #line:f51122
-	Gregg: You didn’t miss much. #line:123202
-	Gregg: went out with my dad and uncle and cousin #line:fb8103
-	Gregg: I shot a turkey #line:f65c08
-	Mae: And? #line:f3e2f9
+->Das war in Ordnung, denke ich. #line:f51122
+	Gregg: Du hast nicht viel verpasst. #line:123202
+	Gregg: ging mit meinem Vater und Onkel und Cousin aus #line:fb8103
+	Gregg: Ich habe einen Truthahn geschossen #line:f65c08
+	Mae: Und? #line:f3e2f9
 	//play Gregg_bod_crossbow_down2up//
     //hold on Gregg_bod_crossbow_up//
     <<setAnimInt Gregg crossbow 2>>
     <<lookRight Gregg>>
-	Gregg: I felt bad. #line:166023
+	Gregg: Ich fuehlte mich schlecht. #line:166023
 	Mae: Hm. #line:948e31
-	Mae: Well, anyway. #line:6b575d
--> I was pretty annoyed by that at the time. #line:a77d96
-	Gregg: Really? #line:025cbd
+	Mae: Na ja, egal. #line:6b575d
+-> Das hat mich damals ziemlich geaergert. #line:a77d96
+	Gregg: Wirklich? #line:025cbd
 	//play Gregg_bod_crossbow_down2up//
     //hold on Gregg_bod_crossbow_up//
     <<setAnimInt Gregg crossbow 2>>
     <<lookRight Gregg>>
-	Gregg: Think you would’ve liked it? #line:ce3408
-	Mae: Probably, actually. #line:25e9cc
-	Mae: Like, just buck hunting or something. #line:efcff3
-	Gregg: Season starts day after tomorrow! #line:90775e
-	Mae: Yeah. #line:d0a709
-	Mae: Well, anyway. #line:1eca45
-Mae: I would've liked to have been asked at least. #line:b823dd
-Gregg: You wanna shoot this guy? #line:55319a
+	Gregg: Denkst du, es haette dir gefallen? #line:ce3408
+	Mae: Wahrscheinlich, eigentlich. #line:25e9cc
+	Mae: Wie, nur Bockjagd oder so. #line:efcff3
+	Gregg: Die Saison beginnt uebermorgen! #line:90775e
+	Mae: Ja. #line:d0a709
+	Mae: Na, jedenfalls. #line:1eca45
+Mae: Ich waere gerne wenigstens gefragt worden. #line:b823dd
+Gregg: Willst du den Kerl erschiessen? #line:55319a
 //there’s gonna be a camera panning over joke here//
-Mae: So like... what’s going on there? #line:e11e25
-Gregg: The Forest God. #line:6e81f4
-Mae: Like in the story? #line:41f094
-Gregg: Yeah. #line:7e3829
-Mae: Looks like you just stuck a bunch of targets and decoys together. #line:53e1e0
-Gregg: You work #line:7ba845
+Mae: Also... was ist denn da los? #line:e11e25
+Gregg: Der Waldgott. #line:6e81f4
+Mae: Wie in der Geschichte? #line:41f094
+Gregg: Ja. #line:7e3829
+Mae: Sieht aus, als haettest du einfach einen Haufen Ziele und Koeder zusammengeklebt. #line:53e1e0
+Gregg: Du arbeitest #line:7ba845
 Gregg: *BANG BANG* #line:de1663
-Gregg: with what you got. #line:971d9c
+Gregg: mit dem, was du hast. #line:971d9c
 <<lookLeft Gregg>>
-Gregg: You wanna shoot it dude? #line:a8399a
+Gregg: Willst du ihn erschiessen, Mann? #line:a8399a
 Mae: :) #line:e8b460
-Mae: Um. YES. #line:fdf288
-Mae: you should go stand in front and i’ll like... shoot over your head #line:9a3049
+Mae: Aehm. YES. #line:fdf288
+Mae: Du solltest dich nach vorne stellen und ich werde... ueber deinen Kopf schiessen #line:9a3049
 <<close>>
 <<wait 2>>
-Gregg: Dude. #line:ec3422
+Gregg: Mann. #line:ec3422
 Mae: :| #line:511d62
-Mae: Ok ok fine gimme it #line:7bd21b
+Mae: Ok ok ok fein, gib her #line:7bd21b
 <<irisOut 1 wait>>
 <<scene FPS>>
 ===
@@ -223,7 +223,7 @@ colorID: 0
 position: 914,202
 ---
 //aperture in//
-Mae: So, #line:92766e
+Mae: Also, #line:92766e
 <<close>>
 //broken tv nearby pops on for a second. Loud static echoes through the woods//
 <<playOneShot event:/gregg_woods/tv_on AmbientSFX:tv>>
@@ -231,128 +231,128 @@ Mae: So, #line:92766e
 <<wait 2>>
 <<tell AmbientSFX:tv FadeOut1>>
 <<wait 2>>
-Mae: What the hell was that? #line:6f44c0
-Gregg: Yeah. That’s been happening lately. #line:95383e
-Mae: What has? #line:32fbf3
-Gregg: Electrical stuff #line:117b00
+Mae: Was zum Teufel war das? #line:6f44c0
+Gregg: Ja. Das passiert in letzter Zeit oefters. #line:95383e
+Mae: Was ist passiert? #line:32fbf3
+Gregg: Elektrische Sachen #line:117b00
 <<if $did_gregg_friendship_quest_2>>
-	Mae: like me basically dying twice last night? #line:afb95e
-	Gregg: Nah, I think that’s on you. #line:189920
+	Mae: wie ich im Grunde zweimal letzte Nacht gestorben bin? #line:afb95e
+	Gregg: Nee, ich denke, das liegt an dir. #line:189920
 <<endif>>
 Mae: hm. #line:0fc2e8
 <<close>>
 <<playMusic sad_gregg 15>>
 <<walk Gregg GreggWatersEdge>>
-Mae: So I don’t wanna be nosey but #line:f439e2
+Mae: Ich will ja nicht neugierig sein, aber #line:f439e2
 <<close>>
 <<walk Mae MaeWatersEdge>>
-Mae: you seem a little up and down today? #line:145be5
-Gregg: Yeah. #line:476c12
-Gregg: It’s a thing. #line:ff0b68
-Gregg: I mean it’s been a thing in general lately but #line:0aa034
+Mae: du scheinst heute ein wenig auf und ab zu sein? #line:145be5
+Gregg: Ja. #line:476c12
+Gregg: Das ist so eine Sache. #line:ff0b68
+Gregg: Ich meine, es ist in letzter Zeit allgemein ein Thema, aber #line:0aa034
 //gregg sits//
 <<lookRight Gregg>>
 <<wait 3>>
-Gregg: I'm... I'm a good person, right? #line:00175e
-    ->sure! #line:df662a
+Gregg: Ich bin... Ich bin ein guter Mensch, oder? #line:00175e
+    ->sicher! #line:df662a
         Gregg: ... #line:46b519
-    ->define "good"? #line:980e8d
-Gregg: i dunno. #line:0a34f8
-Mae: what's up, man? #line:041cbe
-Gregg: i try really hard. #line:6dc21d
-Gregg: Angus like... needs me. #line:b32c0c
-Gregg: He needs a gregg. badly. #line:c09c92
-    ->is angus in trouble or something? #line:76d8f8
-        Gregg: nah, it's like. #line:9689bc
-    ->we all need a gregg. #line:539bb6
-        Gregg: yeah but with angus... #line:1d6a9f
-Gregg: he hasn't had the best life. #line:5f3e6c
-Gregg: his family is like pure trash. #line:4ba95e
-    ->how so? #line:2dabc2
-        Gregg: just like #line:d12713
-        Gregg: assholes. #line:16289b
-        Gregg: really stupid assholes. #line:7d16a6
-    ->i assumed his family was polite and quiet #line:969ba9
-        Mae: like him? #line:aa17b1
-        Gregg: Angus is how he is #line:5d5985
-        Gregg: because he's a super rad person #line:21329d
-        Gregg: who came out of complete shit. #line:3b6ecb
+    ->define "gut"? #line:980e8d
+Gregg: Ich weiss es nicht. #line:0a34f8
+Mae: was ist los, Mann? #line:041cbe
+Gregg: ich gebe mir wirklich Muehe. #line:6dc21d
+Gregg: Angus braucht...mich. #line:b32c0c
+Gregg: Er braucht einen Gregg. dringend. #line:c09c92
+    ->ist Angus in Schwierigkeiten oder so? #line:76d8f8
+        Gregg: Nein, es ist so. #line:9689bc
+    ->wir brauchen alle einen Gregg. #line:539bb6
+        Gregg: ja, aber mit Angus... #line:1d6a9f
+Gregg: er hat nicht das beste Leben gehabt. #line:5f3e6c
+Gregg: seine Familie ist der reinste Abschaum. #line:4ba95e
+    ->wie das? #line:2dabc2
+        Gregg: genau wie #line:d12713
+        Gregg: Arschloecher. #line:16289b
+        Gregg: wirklich dumme Arschloecher. #line:7d16a6
+    ->i nahm an, dass seine Familie hoeflich und ruhig war #line:969ba9
+        Mae: wie er? #line:aa17b1
+        Gregg: Angus ist, wie er ist #line:5d5985
+        Gregg: weil er ein super toller Mensch ist #line:21329d
+        Gregg: der aus kompletter Scheisse entstanden ist. #line:3b6ecb
 <<wait 2>>
-Gregg: I just don't ever want to lose him. #line:ebce52
-Gregg: not ever. #line:a6a8dd
-Gregg: i don't know what i'd do. #line:a5783c
-Gregg: i... don't want to screw this up. #line:c88505
-    ->are you two doing alright? #line:5ebf0b
-        Gregg: yeah. i think. #line:69dc43
-        Gregg: we've had some arguments lately. #line:0c75ce
-        Mae: about what? #line:7c9cdd
-        Gregg: uh... stuff. #line:d3762f
-    ->what are you worried about doing? #line:4db6b1
-        Gregg: we've had some arguments lately. #line:97063d
-        Mae: about what? #line:c8d370
-        Gregg: uh... stuff. #line:50a5d3
-        Gregg: maybe i'm inconsiderate #line:b73d6e
-        Gregg: maybe i'm not good. #line:8ffb51
-        Mae: you're good. #line:e81763
-Gregg: but I'm just parking lot trash. #line:e35b44
-Gregg: i've known that all along. #line:c8a60e
-Gregg: i've got like no future if it was just me #line:d1d9db
-Gregg: when i'm awake at night #line:f86bc7
-Gregg: i listen to angus snore #line:419c87
-Gregg: and i stare at the ceiling #line:9c7236
-Gregg: and i think about how i'm a complete piece of shit #line:f41060
-Gregg: and and and #line:507af1
+Gregg: Ich will ihn einfach nicht verlieren. #line:ebce52
+Gregg: Niemals. #line:a6a8dd
+Gregg: Ich weiss nicht, was ich tun wuerde. #line:a5783c
+Gregg: ich... will das nicht vermasseln. #line:c88505
+    ->Kommt ihr zwei zurecht? #line:5ebf0b
+        Gregg: ja. denke ich. #line:69dc43
+        Gregg: wir haben uns in letzter Zeit oefters gestritten. #line:0c75ce
+        Mae: Worueber? #line:7c9cdd
+        Gregg: aeh... Sachen. #line:d3762f
+    ->Worueber machst du dir Sorgen? #line:4db6b1
+        Gregg: wir haben uns in letzter Zeit oefters gestritten. #line:97063d
+        Mae: ueber was? #line:c8d370
+        Gregg: aeh...Sachen. #line:50a5d3
+        Gregg: vielleicht bin ich ruecksichtslos #line:b73d6e
+        Gregg: vielleicht bin ich nicht gut. #line:8ffb51
+        Mae: du bist gut. #line:e81763
+Gregg: aber ich bin nur Parkplatzmuell. #line:e35b44
+Gregg: das habe ich die ganze Zeit gewusst. #line:c8a60e
+Gregg: ich habe keine Zukunft, wenn es nur um mich ginge #line:d1d9db
+Gregg: wenn ich nachts wach bin #line:f86bc7
+Gregg: ich hoere Angus schnarchen #line:419c87
+Gregg: und ich starre an die Decke #line:9c7236
+Gregg: und ich denke darueber nach, dass ich ein komplettes Stueck Scheisse bin #line:f41060
+Gregg: und und und und #line:507af1
 Mae: Gregg. Gregg. #line:ccefc1
-Mae: Calm down, dude. #line:e21726
-Mae: you're good. #line:5d9e39
-Mae: and Angus is good. #line:4334d2
+Mae: Beruhige dich, Mann. #line:e21726
+Mae: Du bist gut. #line:5d9e39
+Mae: und Angus ist gut. #line:4334d2
 <<lookRight Gregg>>
 <<wait 2>>
-Gregg: yeah. #line:314376
-Gregg: Angus is good. #line:81f4c1
-Gregg: Nice, smart, hot, cool dude. #line:608883
-Gregg: down to chill. #line:a2bdd9
+Gregg: ja. #line:314376
+Gregg: Angus ist gut. #line:81f4c1
+Gregg: Netter, kluger, heisser, cooler Kerl. #line:608883
+Gregg: runter zum chillen. #line:a2bdd9
 Gregg: et cetera. #line:be338c
 Mae: -Greggcetera. #line:5c9fc2
-Gregg: and you know... #line:5ae6c6
+Gregg: und weisst du... #line:5ae6c6
 <<wait 2>>
-Gregg: he's got that ass #line:638c1a
+Gregg: er hat diesen Arsch #line:638c1a
 Mae: o> #line:5ea481
-Mae: oh my god *THANK YOU* for finally saying it. #line:a53d18
+Mae: oh mein Gott *DANKE* dass du es endlich gesagt hast. #line:a53d18
 <<lookLeft Gregg>>
-Gregg: it's a fantastic ass right? #line:546d01
+Gregg: es ist ein fantastischer Arsch, richtig? #line:546d01
 <<setAnimInt Mae nodding 1>>
-Mae: fantastic. #line:72e5e1
+Mae: fantastisch. #line:72e5e1
 <<setAnimInt Mae nodding 0>>
-Gregg: ok i'm not comfortable #line:0cfcb5
-Gregg: with you objectifying my boyfriend. #line:4725e7
+Gregg: ok ich fuehle mich nicht wohl #line:0cfcb5
+Gregg: wenn du meinen Freund objektivierst. #line:4725e7
 Mae: _o_ #line:19ecde
-Mae: only his ass. #line:49f470
-Gregg: and who could blame you. #line:c8382f
+Mae: nur seinen Arsch. #line:49f470
+Gregg: und wer koennte es dir verdenken. #line:c8382f
 <<lookRight Gregg>>
 <<wait 3>>
-Gregg: I forget what I was gonna say. #line:82d5ee
-Gregg: I dunno. #line:dd05ee
-Gregg: Probably worried about nothing. #line:df5e3a
-Gregg: I have really up up days and really down down days. #line:412bc1
-Gregg: and i don't know which it is until it's over sometimes. #line:2e1137
-Mae: i kinda coast through on general blaaaaaah right now. #line:99bb61
+Gregg: Ich habe vergessen, was ich sagen wollte. #line:82d5ee
+Gregg: Ich weiss es nicht. #line:dd05ee
+Gregg: Wahrscheinlich um nichts besorgt. #line:df5e3a
+Gregg: Ich habe wirklich gute Tage und wirklich schlechte Tage. #line:412bc1
+Gregg: und manchmal weiss ich nicht, welcher es ist, bis er vorbei ist. #line:2e1137
+Mae: ich schlage mich im Moment irgendwie mit allgemeinem Blaaaaaah durch. #line:99bb61
 Gregg: heh heh. #line:e171a2
 <<wait 6>>
-Gregg: what kind of birds are those? #line:8b7faa
+Gregg: was sind das fuer Voegel? #line:8b7faa
 Mae: -_- #line:28c6d6
-Mae: i have no idea. #line:f9d243
+Mae: ich habe keine Ahnung. #line:f9d243
 Mae: o_o #line:4f5c1b
-Gregg: HEY BIRD!!!! #line:b2987d
+Gregg: HEY VOGEL!!!! #line:b2987d
 <<wait 2>>
-Gregg: northern dumbfowl #line:54fd4b
-Mae: eastern skinnybird #line:fb9543
-Gregg: do they fly south? #line:7ca7e5
-Mae: do you want me to make something up? #line:f01877
-Gregg: yeah. #line:26a770
-Mae: yes. #line:db3257
-Gregg: that's good. #line:faa81b
-Gregg: that's real good. #line:72edab
+Gregg: Noerdliches Huehnerauge #line:54fd4b
+Mae: Oestlicher Duennschnabelvogel #line:fb9543
+Gregg: fliegen sie nach Sueden? #line:7ca7e5
+Mae: willst du, dass ich mir etwas ausdenke? #line:f01877
+Gregg: ja. #line:26a770
+Mae: ja. #line:db3257
+Gregg: das ist gut. #line:faa81b
+Gregg: das ist wirklich gut. #line:72edab
 <<wait 2>>
 <<close>>
 <<wait 6>>
@@ -369,7 +369,7 @@ colorID: 0
 position: 85,-89
 ---
 <<fadeOutMusic 3>>
-Gregg: Okay, enough shooting for one day. #line:f44863
+Gregg: Okay, genug geschossen fuer einen Tag. #line:f44863
 <<close>>
 <<run Gregg Gregg6 wait>>
 <<warp Gregg Gregg7>>

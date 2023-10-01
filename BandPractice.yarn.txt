@@ -1381,7 +1381,7 @@ Mae: und da ist ein Loch, wo das Licht war. #line:6e7532
 Mae: es ist wie das, was mir vor langer Zeit passiert ist. #line:bd711d
 Mae: wie ich es dir gestern Abend auf der Couch erzaehlt habe. #line:151cde
 Bea: heilige Scheisse, das war letzte Nacht. #line:2882bb
-Bea: kommt mir vor wie vor 2 Lebenszeiten. #linen:276983
+Bea: kommt mir vor wie vor 2 Lebenszeiten. #line:276983
 Bea: heh heh ja. #line:191870
 <<wait 4>>
 <<if $found_pentagrams < 3 and $did_lori_friendship_quest_2 is 0 and $did_germ_friendship_quest_3 is 0>>

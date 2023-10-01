@@ -4,14 +4,14 @@ colorID: 0
 position: 540,260
 ---
 <<if $dom_friend_bea>>
-	Bea: oh my god. #line:e56343
+	Bea: Oh mein Gott. #line:e56343
 	Mae: ...Beeeea? #line:85094c
-	Bea: Oh my god... Mae? #line:013f2c
+	Bea: Oh mein Gott... Mae? #line:013f2c
 <<else>>
-	Gregg: crap. #line:0dc5e8
+	Gregg: Mist. #line:0dc5e8
 	Mae: ...Greeegg? #line:69a08e
-	Gregg: Holy crap, Mae? #line:3e4e20
-	Gregg: It’s Mae!!! #line:6d4f74
+	Gregg: Heiliger Bimbam, Mae? #line:3e4e20
+	Gregg: Ich bin's, Mae!!! #line:6d4f74
 <<endif>>
 <<close>>
 <<fadeOut 1 wait>>

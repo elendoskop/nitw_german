@@ -736,7 +736,7 @@ Mae: aeh ... oh ... Gott ... #line:95a766
         Mae: und ich versuchte, ihr dieses Laecheln zu schenken #line:6e9c1e
         Mae: das hatte ich irgendwie vorgehabt #line:99b91c
         Mae: aber es stellte sich heraus, dass ich etwas von dem Muell verschluckt hatte #line:109780
-        Mae: Spaghetti #linen:52f32f
+        Mae: Spaghetti #line:52f32f
         Mae: und und und und #line:f99463
         Mae: Ich habe mich vollgekotzt!!! #line:f24c92
         <<wait 2>>

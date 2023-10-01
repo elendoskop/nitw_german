@@ -383,7 +383,7 @@ position: -11106,2248
 ---
 <<musicFadeOut 1>>
 <<irisIn 1 wait>>
-Mae: Was fuer eine Party ist das denn? <line:c06dd6
+Mae: Was fuer eine Party ist das denn? #line:c06dd6
 Bea: AEhm. #line:9eb0d5
 Bea: Eine Jackie Party? #line:e0dc29
 Mae: Was ist eine Jackie Party? #line:4b2f8d

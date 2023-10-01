@@ -19,86 +19,86 @@ position: 324,330
 <<walk Germ Germ1>>
 
 <<waitForMove Mae>>
-Germ: oh, here she is. #line:cc0fc3
+Germ: Oh, hier ist sie. #line:cc0fc3
 <<close>>
 <<wait 2>>
-GermGramma: Sturdy girl. #line:d3026e
+GermGramma: Starkes Maedchen. #line:d3026e
 Mae: ... #line:d0d6d8
-Mae: My granddad said that. #line:1b4c30
-Mae: Did you... #line:8fe183
-Germ: this is Gramma. #line:33cc24
+Mae: Das hat mein Grossvater gesagt. #line:1b4c30
+Mae: Hast du... #line:8fe183
+Germ: Das ist Oma. #line:33cc24
 <<lookAt Mae GermGramma>>
-Mae: Hello. #line:cf6307
+Mae: Hallo. #line:cf6307
 GermGramma: Mmhmm. #line:b2e759
 <<wait 2>>
 <<lookAt Mae Germ>>
-Germ: ok, well, see ya! #line:0c0ebf
+Germ: ok, also, man sieht sich! #line:0c0ebf
 <<walk Germ Germ0>>
-Mae: Wait, what? #line:ce993e
+Mae: Warte, was? #line:ce993e
 <<close>>
 <<walk Germ Germ0>>
 <<wait 2>>
 <<lookAt Mae GermGramma>>
 <<wait 1>>
-Mae: You're looking at me. #line:f64841
-GermGramma: Sturdy's a good word for you. #line:907318
-GermGramma: Big bones. Stout. #line:5789db
-Mae: Yep. #line:7c2152
+Mae: Du schaust mich an. #line:f64841
+GermGramma: Sturdy ist ein gutes Wort fuer dich. #line:907318
+GermGramma: Grosse Knochen. Kraeftig. #line:5789db
+Mae: Jep. #line:7c2152
 <<wait 2>>
-Mae: soooo... is that it? #line:808162
-GermGramma: oh, I'm sorry. #line:ebb8f1
-GermGramma: did I upset you? #line:3a6dea
-Mae: no. #line:cca65d
-GermGramma: too bad. you need to be upset. #line:d4b345
-GermGramma: what's coming to you, little girl #line:3b34d5
-GermGramma: is three times the trouble you deserve #line:820ff5
-GermGramma: you are going to go down hard #line:bf8c48
-GermGramma: not far from here #line:53611c
-GermGramma: you will go down #line:87dcf3
-GermGramma: in these woods. #line:eba622
-Mae: are you like, telling my fortune? #line:2fa34b
+Mae: Soooo... war's das? #line:808162
+GermGramma: Oh, das tut mir leid. #line:ebb8f1
+GermGramma: habe ich dich veraergert? #line:3a6dea
+Mae: nein. #line:cca65d
+GermGramma: zu schade. du musst veraergert sein. #line:d4b345
+GermGramma: was auf dich zukommt, kleines Maedchen #line:3b34d5
+GermGramma: ist dreimal mehr AErger als du verdienst #line:820ff5
+GermGramma: du wirst hart zu Boden gehen #line:bf8c48
+GermGramma: nicht weit von hier #line:53611c
+GermGramma: du wirst untergehen #line:87dcf3
+GermGramma: in diesen Waeldern. #line:eba622
+Mae: sagst du mir etwa die Zukunft voraus? #line:2fa34b
 <<wait 2>>
-GermGramma: little girl, i don't know what you did #line:49f491
-GermGramma: you've got a dark spot in you #line:4e5c9e
-GermGramma: that one day is gonna take a life.  #line:43580e
-GermGramma: might be someone else's. or it might be yours. #line:d4362e
+GermGramma: kleines Maedchen, ich weiss nicht, was du getan hast #line:49f491
+GermGramma: du hast einen dunklen Fleck in dir #line:4e5c9e
+GermGramma: die eines Tages ein Leben nehmen wird. #line:43580e
+GermGramma: koennte das von jemand anderem sein. oder es koennte deines sein. #line:d4362e
 <<wait 2>>
-GermGramma: mark my words. #line:b625f2
-GermGramma: you're doomed. #line:e09cdd
+GermGramma: Merk dir meine Worte. #line:b625f2
+GermGramma: Du bist verdammt. #line:e09cdd
 <<wait 2>>
-Mae: ok. i'll uh... try to remember that. #line:ad5d52
+Mae: ok. ich werde aeh... versuchen, daran zu denken. #line:ad5d52
 Mae: o> O_o :\ #line:484aa0
-Mae: or actually? no. this is stupid. #line:3181ac
-Mae: you don't know me. #line:cfdc64
-Mae: whatever it is that's wrong with me? #line:5cee35
-Mae: yeah I'm not just an effing shell #line:760ab1
-Mae: for my problems to walk around in. #line:b24e84
-Mae: "uuuh uuuh you got a dark spot on you" #line:c5ada1
-Mae: What the actual hell do you know about me anyway?!? #line:86f2a4
+Mae: oder eigentlich? nein. das ist bloed. #line:3181ac
+Mae: du kennst mich nicht. #line:cfdc64
+Mae: was auch immer mit mir los ist? #line:5cee35
+Mae: ja ich bin nicht nur eine verdammte Huelle #line:760ab1
+Mae: fuer meine Probleme, um darin herumzulaufen. #line:b24e84
+Mae: "uuuh uuuh du hast einen dunklen Fleck auf dir" #line:c5ada1
+Mae: Was zum Teufel weisst du ueberhaupt ueber mich?!? #line:86f2a4
 <<wait 2>>
-GermGramma: i can't stop what's coming #line:1d9dfa
-GermGramma: but ask you a question you can't answer #line:ac5d10
-GermGramma: can you unhaunt a haunted house? #line:470fef
+GermGramma: ich kann nicht aufhalten, was kommt #line:1d9dfa
+GermGramma: aber dir eine Frage stellen, die du nicht beantworten kannst #line:ac5d10
+GermGramma: kannst du ein Spukhaus aufloesen? #line:470fef
 Mae: :| #line:69457f
-Mae: i... i... what? #line:844391
+Mae: ich... ich... was? #line:844391
 <<wait 2>>
 GermGramma: heh heh heh #line:2886f7
-GermGramma: had you going there for a second #line:b31981
-Mae: what? #line:54f9dd
-GermGramma: i'm just joshin' ya #line:0b98c7
-GermGramma: i have my fun #line:4d9ec4
+GermGramma: hatte dich fuer eine Sekunde im Visier #line:b31981
+Mae: was? #line:54f9dd
+GermGramma: ich verarsche dich nur #line:0b98c7
+GermGramma: ich habe meinen Spass #line:4d9ec4
 Mae: o_o :\ _o_ #line:682a97
-Mae: what is wrong with you?!?! #line:cf0235
-Mae: that was seriously messed up!! #line:e1a96e
+Mae: was ist los mit dir?!?! #line:cf0235
+Mae: das war echt beschissen!! #line:e1a96e
 GermGramma: hee hee hee #line:0806d6
-GermGramma: you're a good sport. #line:0c837a
-GermGramma: you go outside now, dear! #line:7fa152
-GermGramma: let gramma watch Judge Janice #line:48f9e4
+GermGramma: du bist ein guter Sportsmann. #line:0c837a
+GermGramma: du gehst jetzt raus, Liebes! #line:7fa152
+GermGramma: lass Oma auf Richterin Janice aufpassen #line:48f9e4
 Mae: :| #line:2fa60d
-Mae: ok... uh... see ya around! #line:603e38
-GermGramma: not likely. #line:e9d792
+Mae: ok... aeh... man sieht sich! #line:603e38
+GermGramma: unwahrscheinlich. #line:e9d792
 <<wait 2>>
-GermGramma: little girl. #line:810669
+GermGramma: kleines Maedchen. #line:810669
 <<close>>
 
 <<irisOut 1 wait>>
