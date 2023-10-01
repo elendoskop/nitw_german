@@ -324,7 +324,7 @@ GreggLaptop: hey, vergiss die Party heute Abend nicht! #line:102147
 Mae: Habe ich nicht! #line:773c44
 GreggLaptop: was machst du dann an deinem Laptop! mach dich schon mal fertig! #line:e4582d
 Mae: Oje! ok! #line:a7d5cb
-GreggLaptop: :D #line:e62d1eGreggLaptop: :D #line:e62d1e
+GreggLaptop: :D #line:e62d1e
 ===
 title: BeaLaptop_A1D3
 tags: temp
@@ -750,7 +750,7 @@ tags:
 colorID: 6
 position: -3755,15723
 ---
-ChattrBox: WEATHER SERVICE - Schnee in der Vorhersage! Sind Sie bereit fuer das, was auf Sie zukommen wird? #line:bae7fa#line:bae7fa
+ChattrBox: WEATHER SERVICE - Schnee in der Vorhersage! Sind Sie bereit fuer das, was auf Sie zukommen wird? #line:bae7fa
 ===
 title: ChattrBox_A2D3
 tags: 

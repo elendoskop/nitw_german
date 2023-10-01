@@ -368,7 +368,7 @@ position: -33476,16076
 Mae: Oje. #line:46c4bc
 Mae: Das sieht sicher aus. #line:cc094b
 Gregg: Wirst du jetzt ganz langweilig sein #line:dfba7d
-Gregg: nur weil du fuer etwa #line:de5d3e gestorben bist
+Gregg: nur weil du fuer etwa gestorben bist #line:de5d3e
 Gregg: ganze 5 Sekunden lang? #line:2bb22a
 Mae: Mann. =_= #line:8b8885
 Mae: Komm schon. #line:a2a7ec

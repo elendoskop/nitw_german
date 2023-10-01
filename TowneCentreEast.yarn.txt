@@ -581,7 +581,7 @@ tags: demo
 colorID: 0
 position: 29706,-7040
 ---
-SteveScriggins: Es ist keine Schande aufzugeben, Aufgeber. #line:1ce8e0 #(ツ)_/¯
+SteveScriggins: Es ist keine Schande aufzugeben, Aufgeber. ¯\_(ツ)_/¯ #line:1ce8e0
 Mae: Oh Gott, du bist Steve Scriggins. #line:7b4aaf
 Mae: Ich wusste nicht, dass du noch in der Stadt bist. #line:8d7567
 SteveScriggins: Ja, ich strippe Kupfer. #line:72cfbf

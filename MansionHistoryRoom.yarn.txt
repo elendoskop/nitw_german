@@ -66,7 +66,7 @@ Gregg: du erinnerst dich daran, oder? #line:e11c0b
         Mae: ugh. das ist ja furchtbar. #line:689241
         Gregg: Chefs sind schlimm. #line:55df18
         Mae: Bosse sind schlecht. #line:16a8c2
-Mae: seltsam, wie wir alle zu #line:a93564 aufschauen sollen.
+Mae: seltsam, wie wir alle zu aufschauen sollen. #line:a93564
 Mae: wie, Chefs. #line:ba6f3f
 Mae: ganz allgemein. #line:c8772f
 Mae: wie auch schlechte. #line:4925cd

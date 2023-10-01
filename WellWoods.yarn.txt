@@ -164,7 +164,8 @@ Angus: Nun, das ist es, was ich zumindest glaube. #line:e826a2
 Mae: hm. das ist wie diese Trolley-Sache. #line:d0b849
 Gregg: was fuer ein Trolley-Ding? #line:0de596
 <<lookRight Gregg>>
-Bea: ok, ich erklaere es, wenn wir weitergehen. #line:3e8ba2<<close>>
+Bea: ok, ich erklaere es, wenn wir weitergehen. #line:3e8ba2
+<<close>>
 
 <<waitForMove Bea>>
 <<waitForMove Gregg>>
