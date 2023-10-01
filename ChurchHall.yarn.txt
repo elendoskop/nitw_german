@@ -3,9 +3,9 @@ tags: temp
 colorID: 4
 position: 435,718
 ---
-Mae: Oh huh. Looks like Mom's gone for the day. #line:1a7062
-Mae: Well geez. #line:90cd6d
-Mae: Glad I don't need to do any churchy stuff. #line:6e4ee2
+Mae: Oh huh. Sieht so aus, als ob Mom fuer heute weg ist. #line:1a7062
+Mae: Ach du meine Guete. #line:90cd6d
+Mae: Bin froh, dass ich keinen kirchlichen Kram machen muss. #line:6e4ee2
 ===
 title: InitLevel
 tags: 

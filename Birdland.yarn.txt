@@ -3,78 +3,78 @@ tags:
 colorID: 0
 position: -31,702
 ---
-Mae: Oh god, what are you doing here? #line:f8d187
-SteveScriggins: Lotta copper in these walls. #line:623796
-Mae: What even is this place? #line:7143a7
-SteveScriggins: Back when they first got internet in Possum Springs #line:e01985
-SteveScriggins: it came outta here. #line:2ce4c0
+Mae: Oh Gott, was machst du denn hier? #line:f8d187
+SteveScriggins: Eine Menge Kupfer in diesen Waenden. #line:623796
+Mae: Was ist das ueberhaupt fuer ein Ort? #line:7143a7
+SteveScriggins: Damals, als sie in Possum Springs das erste Mal Internet hatten #line:e01985
+SteveScriggins: kam es von hier. #line:2ce4c0
 Mae: Whoa. #line:5969ad
-SteveScriggins: Just junk now. #line:f5ad41
+SteveScriggins: Nur noch Schrott. #line:f5ad41
 ===
 title: Scriggins_A3D2_old
 tags: 
 colorID: 0
 position: 196,758
 ---
-Mae: So what do you get for this? #line:ae01ba
-SteveScriggins: Paid by weight. #line:c5f2a6
-SteveScriggins: I got a guy who buys it. #line:ff2747
-Mae: "You got a guy?" #line:9f4d0a
+Mae: Und was bekommst du dafuer? #line:ae01ba
+SteveScriggins: Bezahlt nach Gewicht. #line:c5f2a6
+SteveScriggins: Ich habe einen Kerl, der es kauft. #line:ff2747
+Mae: "Du hast einen Kerl?" #line:9f4d0a
 ===
 title: Scriggins_A3D4_old
 tags: 
 colorID: 0
 position: 649,1066
 ---
-Mae: Hey dickhead. #line:18472f
-SteveScriggins: I'm genuinely menacing today. #line:31166f
-Mae: Ok I'm actually leaving now. #line:4ed0a2
+Mae: Hey Schwachkopf. #line:18472f
+SteveScriggins: Ich bin heute wirklich bedrohlich. #line:31166f
+Mae: Ok, ich gehe jetzt wirklich. #line:4ed0a2
 ===
 title: Scriggins_A3D3_old
 tags: 
 colorID: 0
 position: 394,909
 ---
-Mae: I thought your brother did demolition? #line:80bc95
-SteveScriggins: Yeah, he has his own crew. #line:9206f7
-Mae: Then why are you doing this? #line:55d727
-SteveScriggins: He's got his job, I got mine. #line:2f8668
-Mae: This is your job? #line:5a4891
-SteveScriggins: Oh my god shut up. #line:500acf
+Mae: Ich dachte, dein Bruder macht Abbrucharbeiten? #line:80bc95
+SteveScriggins: Ja, er hat sein eigenes Team. #line:9206f7
+Mae: Warum tust du das dann? #line:55d727
+SteveScriggins: Er hat seinen Job, ich habe meinen. #line:2f8668
+Mae: Das ist dein Job? #line:5a4891
+SteveScriggins: Oh mein Gott, halt die Klappe. #line:500acf
 ===
 title: Sadie_A3D3_old
 tags: 
 colorID: 0
 position: 844,689
 ---
-Mae: This place used to be a thing, huh? #line:cc54db
-Sadie: Yeah definitely. A total thing. #line:a18520
+Mae: Hier war mal was los, hm? #line:cc54db
+Sadie: Ja, definitiv. Eine totale Sache. #line:a18520
 Mae: Wow. #line:68cbe9
-Sadie: That band from astral mode, they were the house band #line:aae5cc
-Sadie: back a very long time ago. #line:c14f07
+Sadie: Diese Band von Astral Mode, sie waren die Hausband #line:aae5cc
+Sadie: vor einer sehr langen Zeit. #line:c14f07
 Mae: Huh. #line:7cf63a
-Sadie: They all went a little nuts by the end. #line:4436d6
-Sadie: Place closed down in the 80s. #line:ac4127
-Sadie: They talked about reopening it for a long time #line:5139f0
-Sadie: but now that the owner's gone wherever he went #line:c79b14
-Sadie: whole place is just sitting here #line:284a1b
-Sadie: being the largest birdhouse in Possum Springs. #line:575e89
+Sadie: Am Ende sind sie alle ein bisschen durchgedreht. #line:4436d6
+Sadie: Der Laden wurde in den 80ern geschlossen. #line:ac4127
+Sadie: Sie sprachen lange Zeit davon, es wieder zu eroeffnen #line:5139f0
+Sadie: aber jetzt ist der Besitzer weg, wohin auch immer er gegangen ist #line:c79b14
+Sadie: der ganze Laden steht einfach nur da #line:284a1b
+Sadie: ist das groesste Vogelhaus in Possum Springs. #line:575e89
 ===
 title: Sadie_A3D2_old
 tags: 
 colorID: 0
 position: 1075,628
 ---
-Mae: So you play (insert instrument)? #line:8dfd0a
-Sadie: I sure do. #line:23315a
-Mae: Why here? #line:0affb6
-Sadie: Been coming here since I was 14, around your age. #line:a41ab5
-Mae: I'M 20!!!! #line:1e53bc
+Mae: Du spielst also (Instrument einfuegen)? #line:8dfd0a
+Sadie: Ja, das tue ich. #line:23315a
+Mae: Warum hier? #line:0affb6
+Sadie: Ich komme hierher, seit ich 14 bin, ungefaehr in deinem Alter. #line:a41ab5
+Mae: Ich bin 20!!!! #line:1e53bc
 Sadie: Oh. Ok. #line:a168b5
-Sadie: Then (life experiences that seemed like the end of everything) #line:2e2a91
-Sadie: and I started coming back after work. #line:2e7bce
-Mae: That's depressing. #line:a7cd69
-Sadie: No, it's not. #line:068bb9
+Sadie: Dann (Lebenserfahrungen, die wie das Ende von allem schienen) #line:2e2a91
+Sadie: und ich fing an, nach der Arbeit zurueck zu kommen. #line:2e7bce
+Mae: Das ist deprimierend. #line:a7cd69
+Sadie: Nein, ist es nicht. #line:068bb9
 ===
 title: SteveScriggins
 tags: 
@@ -83,116 +83,116 @@ position: -294,671
 ---
 <<if $steve_scriggins_birdland_sequence is 0>>
     <<if $did_gregg_friendship_quest_1>>
-    	Mae: Oh. It’s Steve. #line:3bd972
-    	SteveScriggins: What do you want? #line:09d567
+    	Mae: Oh. Ich bin's, Steve. #line:3bd972
+    	SteveScriggins: Was willst du denn? #line:09d567
     <<else>>
-    	SteveScriggins: What do you want? #line:518685
-    	Mae: Holy crap. #line:3414e7
+    	SteveScriggins: Was wollt ihr? #line:518685
+    	Mae: Heiliger Bimbam. #line:3414e7
     	Mae: Steve? Steve Scriggins? #line:d02a86
-    	SteveScriggins: Hey. I remember you. #line:4678df
-    	Mae: Yeah... uh... same. #line:0ed40b
+    	SteveScriggins: Hey. Ich erinnere mich an dich. #line:4678df
+    	Mae: Ja... aeh... genauso. #line:0ed40b
     <<endif>>
-    Mae: What are you doing? #line:1c3e52
-    SteveScriggins: Side job. #line:741b46
-    Mae: What’s your regular job? #line:d3f2e2
-    SteveScriggins: I’m on my bro’s construction crew. #line:a2ed6e
-    Mae: So what’s your side-job? #line:3e88ae
-    SteveScriggins: stuff on the ground over there? #line:20bbe5
-    SteveScriggins: that's copper. #line:574c67
-    SteveScriggins: building's full of it #line:f96bac
-    SteveScriggins: and nobody using it #line:c65dda
-    Mae: so you're like #line:1eca7e
-    Mae: pulling pipes out of the walls? #line:afee86
-    SteveScriggins: wires too. some wires. #line:1532d7
-    Mae: and--? #line:496c1a
-    SteveScriggins: geez you're a fast learner. #line:5cc7c9
-    SteveScriggins: YOU SELL IT. #line:fe5791
-    Mae: that isn't really a job. #line:d6dd2c
-    SteveScriggins: hell it ain't #line:47ee80
-    SteveScriggins: gotta get it out of the walls #line:8a4a24
-    SteveScriggins: gotta saw up the pipes sometimes #line:0de515
-    Mae: ok. well, #line:43d0ec
-    SteveScriggins: gotta strip the plastic off the wires #line:dca1e0
-    SteveScriggins: and sort 'em into piles by quality #line:73b33a
-    SteveScriggins: cuz not everyone'll take stuff that ain't grade A #line:b46e72
-    Mae: well that's all really interesting #line:015bd6
-    SteveScriggins: there's other stuff too you can grab in places like this #line:2bccc2
-    SteveScriggins: doorknobs and stuff #line:a83d65
-    Mae: i'm gonna go now but keep talking #line:c5c922
+    Mae: Was machst du denn da? #line:1c3e52
+    SteveScriggins: Ein Nebenjob. #line:741b46
+    Mae: Was ist dein Hauptberuf? #line:d3f2e2
+    SteveScriggins: Ich bin im Bautrupp von meinem Bruder. #line:a2ed6e
+    Mae: Und was ist dein Nebenjob? #line:3e88ae
+    SteveScriggins: Zeug auf dem Boden da drueben? #line:20bbe5
+    SteveScriggins: das ist Kupfer. #line:574c67
+    SteveScriggins: das Gebaeude ist voll davon #line:f96bac
+    SteveScriggins: und niemand benutzt es #line:c65dda
+    Mae: also bist du wie #line:1eca7e
+    Mae: Rohre aus den Waenden reissen? #line:afee86
+    SteveScriggins: auch Draehte. einige Draehte. #line:1532d7
+    Mae: und...? #line:496c1a
+    SteveScriggins: Mensch, du lernst ja schnell. #line:5cc7c9
+    SteveScriggins: SIE VERKAUFEN ES. #line:fe5791
+    Mae: das ist nicht wirklich ein Job. #line:d6dd2c
+    SteveScriggins: zur Hoelle, das ist es nicht #line:47ee80
+    SteveScriggins: muss es aus den Waenden rausholen #line:8a4a24
+    SteveScriggins: muss manchmal die Rohre zersaegen #line:0de515
+    Mae: ok. also, #line:43d0ec
+    SteveScriggins: muss das Plastik von den Kabeln entfernen #line:dca1e0
+    SteveScriggins: und sie nach Qualitaet in Stapel sortieren #line:73b33a
+    SteveScriggins: denn nicht jeder wird etwas nehmen, das nicht Klasse A ist #line:b46e72
+    Mae: nun, das ist alles sehr interessant #line:015bd6
+    SteveScriggins: es gibt auch noch andere Sachen, die man an solchen Orten mitnehmen kann #line:2bccc2
+    SteveScriggins: Tuerklinken und so #line:a83d65
+    Mae: ich werde jetzt gehen, aber redet weiter #line:c5c922
     SteveScriggins: ... #line:65abad
     <<set $steve_scriggins_birdland_sequence += 1>>
 <<elseif $steve_scriggins_birdland_sequence is 1>>
-    Mae: How's your non-job going? #line:5ef681
-    SteveScriggins: do you even have a job? #line:595f47
-    SteveScriggins: like any kinds of job? #line:8d3a1f
-    Mae: listen, I just got back, so #line:accbb3
-    SteveScriggins: have you *EVER* had a job? #line:fdbdf6
-        -> I bagged groceries for a while when I was at college. #line:9d6d1c
-            SteveScriggins: how long is a while? #line:537fce
+    Mae: Wie laeuft's mit deinem Nicht-Job? #line:5ef681
+    SteveScriggins: Hast du ueberhaupt einen Job? #line:595f47
+    SteveScriggins: wie jede Art von Job? #line:8d3a1f
+    Mae: hoer zu, ich bin gerade zurueckgekommen, also #line:accbb3
+    SteveScriggins: hast du *JEMALS* einen Job gehabt? #line:fdbdf6
+        -> Ich habe eine Zeit lang Lebensmittel eingetuetet, als ich auf dem College war. #line:9d6d1c
+            SteveScriggins: wie lange ist eine Weile? #line:537fce
             Mae: ... #line:545738
-            Mae: 2 months? #line:b4711a
-            SteveScriggins: *snort* #line:4f745c
-            Mae: what? #line:027574
-            SteveScriggins: what, was it too hard for you? #line:b3b34e
-            Mae: ugh. bye steve. #line:aaaf08
-        -> Actually I have a job right now. I'm a manager. #line:34fb9d
-            SteveScriggins: what do you manage? #line:57f5e1
-            Mae: I manage not to puke when I see your face! #line:829e36
+            Mae: 2 Monate? #line:b4711a
+            SteveScriggins: *schnauf* #line:4f745c
+            Mae: was? #line:027574
+            SteveScriggins: was, war es zu schwer fuer dich? #line:b3b34e
+            Mae: ugh. tschuess Steve. #line:aaaf08
+        -> Eigentlich habe ich jetzt einen Job. Ich bin ein Manager. #line:34fb9d
+            SteveScriggins: was managst du denn? #line:57f5e1
+            Mae: Ich schaffe es, nicht zu kotzen, wenn ich dein Gesicht sehe! #line:829e36
             Mae: heh heh heh #line:7e3c0b
-            SteveScriggins: funny. #line:1948f7
-            Mae: you walked into that #line:5e614f
-            SteveScriggins: i sure did. #line:a9c3f0
+            SteveScriggins: lustig. #line:1948f7
+            Mae: du bist da reingelaufen #line:5e614f
+            SteveScriggins: sicher bin ich das. #line:a9c3f0
     <<set $steve_scriggins_birdland_sequence += 1>>
 <<elseif $steve_scriggins_birdland_sequence is 2>>
     Mae: Hey Sturve. Sturve Skurgrns. #line:3d81e1
     SteveScriggins: mmmhmmm #line:32f83b
-    Mae: Still ripping shit out of the walls? #line:099804
-    SteveScriggins: yep #line:a9cac3
-    Mae: preeeeetty dumb #line:c24571
-    SteveScriggins: geez man shut up #line:02a7f2
-    SteveScriggins: you *NEVER* stop talking #line:32322b
-    SteveScriggins: why do you even come around here? #line:a88b18
-    SteveScriggins: we aren't friends #line:bfacd4
-    SteveScriggins: and why do you always talk to me #line:d2970c
-    SteveScriggins: like i'm some kind of asshole? #line:7720ab
-    Mae: Steve, you *ARE* an asshole. #line:964b48
-    SteveScriggins: What is your problem with me? #line:5af2c3
-    Mae: Back in school? You were such a bully! #line:f1a0b9
-    Mae: You made people's lives miserable! #line:9a752b
-    Mae: and now, years later, you're what- #line:6cfe93
-    Mae: ripping apart buildings for scrap? #line:91905e
-    Mae: like, actively destroying the town? #line:0322d3
-    SteveScriggins: ok well you can just stop right there #line:1774e0
-    SteveScriggins: you know the only reason anyone in town remembers you #line:abfefe
-    SteveScriggins: is because you nearly killed a kid, right? #line:27cc2b
-    SteveScriggins: like, his face is still kinda messed up! #line:aad7c3
-    SteveScriggins: i never did *ANYTHING* like that #line:8285f4
-    SteveScriggins: and you and Gregg have smashed plenty of shit #line:937d65
-    SteveScriggins: all over the place, just for fun #line:3ad5c7
-    SteveScriggins: you think i'd be in here doing this if i didn't need the cash? #line:0b6fa0
+    Mae: Reisst du immer noch Scheisse aus den Waenden? #line:099804
+    SteveScriggins: jep #line:a9cac3
+    Mae: preeeeetty dumm #line:c24571
+    SteveScriggins: Mensch Mann, halt die Klappe #line:02a7f2
+    SteveScriggins: du hoerst *NIE* auf zu reden #line:32322b
+    SteveScriggins: warum kommst du ueberhaupt hierher? #line:a88b18
+    SteveScriggins: wir sind keine Freunde #line:bfacd4
+    SteveScriggins: und warum redest du immer mit mir #line:d2970c
+    SteveScriggins: als ob ich eine Art Arschloch waere? #line:7720ab
+    Mae: Steve, du *IST* ein Arschloch. #line:964b48
+    SteveScriggins: Was ist dein Problem mit mir? #line:5af2c3
+    Mae: Damals in der Schule? Du warst so ein Tyrann! #line:f1a0b9
+    Mae: Du hast den Leuten das Leben zur Hoelle gemacht! #line:9a752b
+    Mae: und jetzt, Jahre spaeter, bist du was- #line:6cfe93
+    Mae: Gebaeude fuer Schrott abreissen? #line:91905e
+    Mae: wie, aktiv die Stadt zerstoeren? #line:0322d3
+    SteveScriggins: ok, da kannst du gleich aufhoeren #line:1774e0
+    SteveScriggins: du weisst, dass der einzige Grund, warum sich jemand in der Stadt an dich erinnert #line:abfefe
+    SteveScriggins: ist, weil du fast ein Kind getoetet haettest, richtig? #line:27cc2b
+    SteveScriggins: wie, sein Gesicht ist immer noch ein bisschen kaputt! #line:aad7c3
+    SteveScriggins: ich habe nie *ALLES* so gemacht #line:8285f4
+    SteveScriggins: und du und Gregg habt eine Menge Scheisse gebaut #line:937d65
+    SteveScriggins: ueberall, nur so zum Spass #line:3ad5c7
+    SteveScriggins: denkst du, ich wuerde das hier tun, wenn ich das Geld nicht braeuchte? #line:0b6fa0
         ->I- #line:901d9d
         ->uh #line:31f2d8
-    SteveScriggins: you're like my niece, a big stupid baby #line:1bbd58
-    SteveScriggins: just walking around bumping into stuff. #line:31d03b
-    SteveScriggins: and yeah i know what people say about me #line:831fcb
-    SteveScriggins: and yeah i probably did some bad stuff #line:1283cb
-    SteveScriggins: but at least *I* can admit that. #line:49dc16
-    SteveScriggins: you're no better than me. #line:1c0532
-    SteveScriggins: you're just more in love with yourself. #line:2829cc
-    SteveScriggins: or you're stupider. #line:2bfe46
-    SteveScriggins: can't say which. #line:4fc743
-    SteveScriggins: don't care. #line:e36f5c
-    Mae: Ok, I think it's- #line:ea8642
+    SteveScriggins: du bist wie meine Nichte, ein grosses dummes Baby #line:1bbd58
+    SteveScriggins: einfach herumlaufen und gegen Sachen stossen. #line:31d03b
+    SteveScriggins: und ja ich weiss was die Leute ueber mich sagen #line:831fcb
+    SteveScriggins: und ja, ich habe wahrscheinlich ein paar schlimme Sachen gemacht #line:1283cb
+    SteveScriggins: aber wenigstens kann *ich* das zugeben. #line:49dc16
+    SteveScriggins: du bist nicht besser als ich. #line:1c0532
+    SteveScriggins: du bist nur mehr in dich selbst verliebt. #line:2829cc
+    SteveScriggins: oder du bist noch duemmer. #line:2bfe46
+    SteveScriggins: kann nicht sagen, was. #line:4fc743
+    SteveScriggins: ist mir egal. #line:e36f5c
+    Mae: Ok, ich denke es ist- #line:ea8642
     SteveScriggins: SHUT. UP. #line:fb1603
-    SteveScriggins: don't test me, ok? #line:6b3af0
-    SteveScriggins: don't get near a man when he's like this. #line:8c7085
+    SteveScriggins: Stell mich nicht auf die Probe, ok? #line:6b3af0
+    SteveScriggins: komm nicht in die Naehe eines Mannes, wenn er so ist. #line:8c7085
     Mae: HA. #line:93d2f9
-    Mae: or what? #line:81c02b
-    Mae: or effing what, steve? #line:3d506f
+    Mae: oder was? #line:81c02b
+    Mae: oder verdammt noch mal was, Steve? #line:3d506f
     SteveScriggins: ... #line:b92913
     Mae: ... #line:a782b0
-    SteveScriggins: get out of here. let me work. #line:c21294
-    SteveScriggins: and don't come back. #line:1039dc
+    SteveScriggins: Raus hier, lass mich arbeiten. #line:c21294
+    SteveScriggins: und kommen Sie nicht zurueck. #line:1039dc
     <<set $steve_scriggins_threat to 1>>
     <<set $steve_scriggins_birdland_sequence += 1>>
 <<endif>>
@@ -208,150 +208,150 @@ position: -296,427
 	Mae: Hey! #line:eaf74e
 	Sadie: Hey. #line:f10dd7
     <<startInteractingWithPlayer Saleem>>
-	Saleem: Hello. #line:7b1938
-	Mae: You guys gonna play together? #line:01d416
-	Sadie: Yeah ha ha #line:b26250
-    Saleem: Thanks for making this happen, kid. #line:81f7c4
+	Saleem: Hallo. #line:7b1938
+	Mae: Wollt ihr zusammen spielen? #line:01d416
+	Sadie: Ja ha ha #line:b26250
+    Saleem: Danke, dass du das moeglich gemacht hast, Junge. #line:81f7c4
     Mae: ha ha wow #line:92aa1d
     Mae: ... #line:b07246
     Mae: ... #line:761a9e
     Mae: huh. #line:6ef4fb
-    Sadie: what? #line:b6d5d0
-	Mae: I just realized that like... #line:728a54
-	Mae: I did something helpful. #line:003f53
-	Mae: Like I came up with a plan and did something good. #line:8ccdbf
-	Saleem: Is that strange? #line:8ddc99
-	Mae: I feel like I just stumble into things all the time #line:4f7741
-	Mae: introducing you two is like... #line:649ce0
-	Mae: I *MEANT* to help out two strangers. And I did. #line:4c6f32
-	Mae: And now you’re gonna play together #line:3eed91
-	Mae: and fall in love... #line:c976ed
-	Sadie: What? No. #line:6e76e5
-	Saleem: I’m in a long term monogamous relationship. #line:1d3750
-	Sadie: I am not in the market. #line:ae2102
-    Sadie: And my son takes up most of my attention. #line:189c91
+    Sadie: was? #line:b6d5d0
+	Mae: Mir ist gerade klar geworden, dass... #line:728a54
+	Mae: Ich habe etwas Hilfreiches getan. #line:003f53
+	Mae: Als ob ich einen Plan gemacht und etwas Gutes getan haette. #line:8ccdbf
+	Saleem: Ist das seltsam? #line:8ddc99
+	Mae: Ich habe das Gefuehl, ich stolpere die ganze Zeit in Dinge hinein #line:4f7741
+	Mae: Euch zwei vorzustellen ist wie... #line:649ce0
+	Mae: Ich *wollte* zwei Fremden helfen. Und das habe ich getan. #line:4c6f32
+	Mae: Und jetzt werdet ihr zusammen spielen #line:3eed91
+	Mae: und euch verlieben... #line:c976ed
+	Sadie: Was ist? Nein. #line:6e76e5
+	Saleem: Ich bin in einer langjaehrigen monogamen Beziehung. #line:1d3750
+	Sadie: Ich bin nicht auf dem Markt. #line:ae2102
+    Sadie: Und mein Sohn nimmt den groessten Teil meiner Aufmerksamkeit in Anspruch. #line:189c91
 	Mae: Oh. #line:1c5edc
-	Mae: Did I make it weird? #line:40c40d
-	Saleem: You made it weird. #line:9b5ba5
-	Sadie: Very weird. #line:1704c9
-    Mae: dammit #line:00c5c8
+	Mae: Habe ich es komisch gemacht? #line:40c40d
+	Saleem: Du hast es merkwuerdig gemacht. #line:9b5ba5
+	Sadie: Sehr seltsam. #line:1704c9
+    Mae: verdammt #line:00c5c8
     <<unlockDoodle BirdlandComplete>>
     <<stopInteractingWithPlayer Saleem>>
     <<set $birdland_can_interact_posters to 1>>
     <<unlockAchievement Finish_Birdland_Quest>>
 <<else>>
 	<<if $sadie_sequence is 0>>
-		Mae: Um. Hello. #line:562cf6
-		Sadie: Hello. #line:81acb4
-        Mae: I'm Mae. #line:63ecf0
+		Mae: Aehm. Hallo. #line:562cf6
+		Sadie: Hallo. #line:81acb4
+        Mae: Ich bin Mae. #line:63ecf0
         Sadie: Sadie. #line:ce0b09
-        Mae: what are you doing up here? #line:21b8fb
-        Sadie: what are *YOU* doing up here? #line:30c60a
-            ->exploring #line:40c263
-                Sadie: same way I found it. #line:10afb5
-            ->i mean... do i need a reason? #line:080692
-                Sadie: nope. #line:9779c5
-        Sadie: did you know #line:9a0d6d
-        Sadie: this is the only stage in town. #line:957fae
-            ->are you on stage a lot? #line:7b8bff
-                Sadie: nope. not for a long, long time at least #line:747a60
-            ->that's not true! #line:d9aca4
-                Mae: we just did a play at the hardware store! #line:33b071
-                Mae: we used the counter as a stage! #line:888baf
-                Sadie: ok, this is the only stage in town #line:6afb9d
-                Sadie: that's only a stage. #line:ffa2c6
-        Mae: looks like no one's played here in a long time #line:05f660
-        Sadie: yeah, been a few decades. #line:3248ea
-        Mae: are you gonna like #line:d8b38e
-        Mae: put on something here? #line:6cb9e0
-        Sadie: oh, i don't think anyone's gonna be putting anything on here #line:68951f
-        Sadie: at least not anytime soon. #line:f89ba7
-        Sadie: no electricity, probably structurally unsound. #line:a1c2f7
-        Sadie: infested with rats and pigeons. #line:cdbffd
-        Mae: other than the electricity that's like most of the town. #line:42ecd5
+        Mae: was machst du denn hier oben? #line:21b8fb
+        Sadie: was machst *Du* hier oben? #line:30c60a
+            ->erforschen #line:40c263
+                Sadie: genauso wie ich es gefunden habe. #line:10afb5
+            ->ich meine...brauche ich einen Grund? #line:080692
+                Sadie: nee. #line:9779c5
+        Sadie: wusstest du #line:9a0d6d
+        Sadie: das ist die einzige Buehne in der Stadt. #line:957fae
+            ->stehst du oft auf der Buehne? #line:7b8bff
+                Sadie: noe. Zumindest nicht fuer eine lange, lange Zeit #line:747a60
+            ->das ist nicht wahr! #line:d9aca4
+                Mae: wir haben gerade ein Stueck im Baumarkt aufgefuehrt! #line:33b071
+                Mae: wir haben die Theke als Buehne benutzt! #line:888baf
+                Sadie: ok, das ist die einzige Buehne in der Stadt #line:6afb9d
+                Sadie: das ist nur eine Buehne. #line:ffa2c6
+        Mae: sieht aus, als haette hier schon lange niemand mehr gespielt #line:05f660
+        Sadie: ja, ist schon ein paar Jahrzehnte her. #line:3248ea
+        Mae: wirst du moegen #line:d8b38e
+        Mae: hier etwas anziehen? #line:6cb9e0
+        Sadie: oh, ich glaube nicht, dass irgendjemand hier etwas anziehen wird #line:68951f
+        Sadie: Zumindest nicht in naechster Zeit. #line:f89ba7
+        Sadie: kein Strom, wahrscheinlich strukturell unsolide. #line:a1c2f7
+        Sadie: mit Ratten und Tauben verseucht. #line:cdbffd
+        Mae: abgesehen von der Elektrizitaet ist das wie der groesste Teil der Stadt. #line:42ecd5
         Sadie: ha ha ha #line:627ca6
-        Sadie: that it is. that it is. #line:e5753a
+        Sadie: das ist es. das ist es. #line:e5753a
 		<<set $sadie_sequence += 1>>
 	<<elseif $sadie_sequence is 1>>
-		Mae: Hi again. #line:719e43
-		Sadie: It’s you, kid. #line:e69c1e
-		Mae: I’m actually 20. #line:7ba554
-		Sadie: I’m 38. You’re a kid. #line:afac7e
+		Mae: Hallo nochmal. #line:719e43
+		Sadie: Du bist es, Junge. #line:e69c1e
+		Mae: Ich bin eigentlich 20. #line:7ba554
+		Sadie: Ich bin 38. Du bist ein Kind. #line:afac7e
 		Mae: Ok. #line:1feda7
-		Mae: How'd you find this place? #line:ed4846
-        Sadie: I mean I knew this was up here since I was a kid #line:52e8e0
-        Sadie: but only got up the nerve to break in recently #line:a47f4b
-        Mae: why is that? #line:de8657
-        Sadie: not getting any younger #line:5c07b4
-        Sadie: and this place could fall in any day #line:4d1a35
-        Sadie: you get to a point in life #line:4770ae
-        Sadie: where the number of first-evers gets lower #line:53ed2a
-        Sadie: and the number of never-agains gets higher #line:b4f56c
-        Sadie: i dunno #line:a4e024
-        Mae: i know what you mean #line:33f73e
-        Sadie: no you don't. #line:f2eae5
+		Mae: Wie hast du diesen Ort gefunden? #line:ed4846
+        Sadie: Ich meine, ich wusste, dass das hier oben ist, seit ich ein Kind war #line:52e8e0
+        Sadie: aber ich habe erst vor kurzem den Mut aufgebracht, hier einzubrechen #line:a47f4b
+        Mae: warum ist das so? #line:de8657
+        Sadie: ich werde auch nicht juenger #line:5c07b4
+        Sadie: und dieses Haus koennte jeden Tag einstuerzen #line:4d1a35
+        Sadie: man kommt an einen Punkt im Leben #line:4770ae
+        Sadie: wo die Zahl der Erstlinge geringer wird #line:53ed2a
+        Sadie: und die Zahl derer, die nie wiederkommen, wird hoeher #line:b4f56c
+        Sadie: ich weiss nicht #line:a4e024
+        Mae: ich weiss, was du meinst #line:33f73e
+        Sadie: nein, das weisst du nicht. #line:f2eae5
 		<<set $sadie_sequence += 1>>
 	<<elseif $sadie_sequence is 2>>
-		Mae: do you have a job or something? #line:438aab
-		Sadie: i did. #line:39a6a1
-        Sadie: had some troubles, though. #line:e4ec1f
-        Sadie: living with my parents for now #line:93d32d
-        Sadie: me and my kid #line:d5c86f
-        Sadie: so i got a little free time. #line:9bb8df
-        Mae: same with me, actually. #line:110e68
-        Mae: except no kid. #line:ce7cde
-        Sadie: small world. #line:7d7967
+		Mae: hast du einen Job oder so? #line:438aab
+		Sadie: habe ich. #line:39a6a1
+        Sadie: hatte aber ein paar Probleme. #line:e4ec1f
+        Sadie: lebe jetzt bei meinen Eltern #line:93d32d
+        Sadie: ich und mein Kind #line:d5c86f
+        Sadie: also habe ich ein bisschen Freizeit. #line:9bb8df
+        Mae: bei mir eigentlich auch. #line:110e68
+        Mae: nur ohne Kind. #line:ce7cde
+        Sadie: kleine Welt. #line:7d7967
 		<<set $sadie_sequence += 1>>
 	<<endif>>
 
 	<<if $sadie_saleem_sequence is 0 and $saleem_sequence is 1>>
-		Mae: Funny. #line:14f2d3
-		Sadie: What? #line:fb57d1
-		Mae: I just met this guy over by the church steps #line:d56f61
-        Mae: he was also hanging by himself #line:7ff604
-		Mae: and playing music. #line:63060d
-		Sadie: Small world. #line:fdd58d
-		Mae: Heh heh. Well... #line:a589ec
-		Mae: Small town at least. #line:2b3a7a
-		Sadie: Definitely. #line:25db82
-		Mae: See ya. #line:b3714e
+		Mae: Lustig. #line:14f2d3
+		Sadie: Was? #line:fb57d1
+		Mae: Ich habe gerade diesen Typen drueben bei den Kirchenstufen getroffen #line:d56f61
+        Mae: er hing auch ganz alleine rum #line:7ff604
+		Mae: und spielte Musik. #line:63060d
+		Sadie: Kleine Welt. #line:fdd58d
+		Mae: Ha heh. Na ja... #line:a589ec
+		Mae: Wenigstens eine kleine Stadt. #line:2b3a7a
+		Sadie: Auf jeden Fall. #line:25db82
+		Mae: Man sieht sich. #line:b3714e
 		<<set $sadie_saleem_sequence += 1>>
-	<<elseif $sadie_saleem_sequence is 1 and $saleem_sequence is 2>>	
-		Mae: you know, that guy across town? #line:19da5a
-		Sadie: what guy? #line:cbdf81
-		Mae: the guy I told you about? #line:b9befd
-		Sadie: yeah #line:873219
-		Mae: he seems lonely #line:e0c791
-        Mae: and you seem lonely #line:e40c63
-        Sadie: um #line:8c7545
-        Mae: you two could play together! #line:a39b11
-        Sadie: uh... #line:b8dc2a
-        Mae: did i make this weird? #line:ead83c
-        Sadie: no, it's fine. #line:84c663
-        Sadie: what's he play? #line:b7c473
-        Mae: violin? fiddle? are they the same? #line:c3b4fa
+	<<elseif $sadie_saleem_sequence is 1 and $saleem_sequence is 2>>
+		Mae: Du weisst schon, der Typ von gegenueber? #line:19da5a
+		Sadie: welcher Typ? #line:cbdf81
+		Mae: der Typ, von dem ich dir erzaehlt habe? #line:b9befd
+		Sadie: ja #line:873219
+		Mae: er scheint einsam zu sein #line:e0c791
+        Mae: und du scheinst einsam zu sein #line:e40c63
+        Sadie: aehm #line:8c7545
+        Mae: ihr zwei koenntet zusammen spielen! #line:a39b11
+        Sadie: aeh... #line:b8dc2a
+        Mae: habe ich das komisch gemacht? #line:ead83c
+        Sadie: nein, es ist in Ordnung. #line:84c663
+        Sadie: was spielt er? #line:b7c473
+        Mae: Geige? Fiedel? ist das dasselbe? #line:c3b4fa
 		Sadie: huh. ok. #line:c4a468
-        Sadie: Well, if you see him again, tell him to stop by. #line:aed811
-		Sadie: unless he’s a creep or something #line:8a3551
-		Mae: he doesn’t seem like a creep. #line:094633
-		Sadie: well, I got mace. #line:7d9087
+        Sadie: Nun, wenn du ihn wieder siehst, sag ihm, er soll vorbeikommen. #line:aed811
+		Sadie: es sei denn, er ist ein Widerling oder so #line:8a3551
+		Mae: er scheint kein Widerling zu sein. #line:094633
+		Sadie: nun, ich habe Pfefferspray. #line:7d9087
 		<<set $will_complete_birdland_quest to 1>>
 		<<set $sadie_saleem_sequence += 1>>
     <<elseif $saleem_sadie_sequence is 1 and $sadie_sequence is 2>>
-        Mae: I just met this guy over by the church steps #line:51a20d
-        Mae: he was also hanging by himself #line:9bd5d3
-		Mae: and playing music. #line:4ae33f
-		Sadie: Small world. #line:6a96eb
-		Mae: I told him about you. #line:e12f9f
-        Mae: Playing over here. #line:a2743f
-        Mae: By your lonesome. #line:d85572
+        Mae: Ich habe gerade diesen Typen drueben bei den Kirchenstufen getroffen #line:51a20d
+        Mae: er hing auch ganz alleine rum #line:9bd5d3
+		Mae: und spielte Musik. #line:4ae33f
+		Sadie: Kleine Welt. #line:6a96eb
+		Mae: Ich habe ihm von dir erzaehlt. #line:e12f9f
+        Mae: Ich spiele hier drueben. #line:a2743f
+        Mae: Ganz allein. #line:d85572
 		Sadie: Oh. OK. #line:57910f
-		Mae: Maybe you could play together???? #line:cf0fe9
-        Sadie: Do you know anything about this guy? #line:5e9053
-        Mae: He's not a murderer. #line:f901a7
+		Mae: Vielleicht koennt ihr zusammen spielen???? #line:cf0fe9
+        Sadie: Weisst du etwas ueber diesen Kerl? #line:5e9053
+        Mae: Er ist kein Moerder. #line:f901a7
         <<wait 2>>
-        Mae: I don't think he's a murderer. #line:4f44a7
-        Sadie: Ok well... thanks? #line:a1e6c2
+        Mae: Ich glaube nicht, dass er ein Moerder ist. #line:4f44a7
+        Sadie: Ok gut... danke? #line:a1e6c2
         <<set $will_complete_birdland_quest to 1>>
 		<<set $saleem_sadie_sequence += 1>>
 	<<endif>>
@@ -393,86 +393,86 @@ position: -12,459
 //this interaction is enabled only after talking to them after their quest is completed//
 <<startInteractingWithPlayer Sadie>>
 <<startInteractingWithPlayer Saleem>>
-Mae: This wasn’t here before. #line:28b2b0
-Sadie: Yeah! Found them backstage. #line:8f19ea
-Saleem: Can’t believe they’re still intact. #line:f16ed5
-Saleem: Must be 60... 70 years old now? #line:1a1ce4
-Mae: “The Original Deep Hollow Hollerers” #line:270b64
-Sadie: Try saying *that* three times fast #line:89cbae
+Mae: Das war vorher nicht da. #line:28b2b0
+Sadie: Ja! Ich habe sie hinter der Buehne gefunden. #line:8f19ea
+Saleem: Unglaublich, dass sie noch intakt sind. #line:f16ed5
+Saleem: Muessen jetzt 60... 70 Jahre alt sein? #line:1a1ce4
+Mae: "Die Original Deep Hollow Hollerers" #line:270b64
+Sadie: Versuch *das* dreimal schnell zu sagen #line:89cbae
     ->Deep Hollow Hollerers #line:b27488
     	Mae: Deep Hollow Hollellers #line:49532a
     ->Deep Hollow Hollerers Deep Hollow Hollerers #line:04248e
     	Mae: Deep Hollow Hollellers Deep Hollol Horellers #line:f81dce
-    ->Deep Hollow Hollerers Deep Hollow Hollerers Deep Hollow Hollerers #line:afc6c9
+    ->Deep Hollow Hollerers Deep Hollow Hollerers Deep Hollow Hollerers Deep Hollow Hollerers #line:afc6c9
 		Mae: Deep Hollow Hollellers Deep Hollol Horellers Deep Hloler Hollerwers #line:58323d
-Saleem: *ahem* #line:e3a4a2
-Saleem: DEEP. HOLLOW. HOLLER-ERS. #line:f8b303
-Sadie: D. H. H. #line:5d2e60
-Mae: Who are they? #line:37a2d6
-Saleem: Geez kid, how long have you lived here? #line:10caf9
-	->My whole life! #line:d11df2
-		Saleem: Well then you got no excuse. #line:f48f5a
-	->I’m 20. #line:d8d0bc
-		Sadie: You look younger. #line:27f964
-		Sadie: You’ll appreciate that later in life. #line:d9986d
-Saleem: The Deep Hollor Horrelors - goddammit #line:8a05ae
+Saleem: *aehem* #line:e3a4a2
+Saleem: TIEF. HOLLOW. HOLLER-ERS. #line:f8b303
+Sadie: D.H.H. #line:5d2e60
+Mae: Wer sind die? #line:37a2d6
+Saleem: Mensch Junge, wie lange lebst du schon hier? #line:10caf9
+	->Mein ganzes Leben! #line:d11df2
+		Saleem: Nun, dann hast du keine Entschuldigung. #line:f48f5a
+	->Ich bin 20. #line:d8d0bc
+		Sadie: Du siehst juenger aus. #line:27f964
+		Sadie: Das wirst du spaeter im Leben zu schaetzen wissen. #line:d9986d
+Saleem: Die Deep Hollor Horrelors - gottverdammt #line:8a05ae
 Mae: HA HA. #line:688e0f
-Saleem: The D.H.H. were *THE* premier dance band in Deep Hollow County #line:af436f
-Sadie: This was their club. #line:eaafe1
-Sadie: Four of ‘em. Violin, sax, tuba, accordion. #line:174abe
-Saleem: Polkas, Waltzes, old tunes from the hills. #line:aedca6
-Saleem: 20’s through the 40’s. #line:893682
-Saleem: Took this town through some hard times. #line:14fc79
-Saleem: They were on that famous anthology of appalachian music from the 60s. #line:2de4f2
-Sadie: Yeah. Big piece of local history. #line:aa9969
-->What happened to them? #line:699783
-	Sadie: oh yeah #line:5c13b3
-	Sadie: weird story there #line:28aa88
-->What happened to this place? #line:48f179
-	Sadie: After they were found out in the woods #line:d24625
-	Sadie: it passed from owner to owner for a long time #line:aa8784
-	Mae: “Found”? “Out in the woods?” #line:87ccac
-	Sadie: oh yeah. Uh. #line:0069a2
-	Sadie: Weird story there. #line:56d1ab
-Saleem: They got spooky. #line:796bf9
-Sadie: or kinda religious? #line:a1db43
-    ->spooky? #line:5282a9
-        Saleem: yeah they talked about taking trips out of their bodies #line:1264ad
-        Saleem: and were playing for the ghosts that have been through here. #line:fd8afd
+Saleem: Die D.H.H. waren *DIE* beste Tanzband in Deep Hollow County #line:af436f
+Sadie: Das war ihr Club. #line:eaafe1
+Sadie: Vier von ihnen. Geige, Saxophon, Tuba, Akkordeon. #line:174abe
+Saleem: Polkas, Walzer, alte Melodien aus den Huegeln. #line:aedca6
+Saleem: 20er bis 40er Jahre. #line:893682
+Saleem: Hat diese Stadt durch harte Zeiten gebracht. #line:14fc79
+Saleem: Sie waren auf dieser beruehmten Anthologie der Appalachenmusik aus den 60ern. #line:2de4f2
+Sadie: Ja. Ein grosses Stueck lokaler Geschichte. #line:aa9969
+->Was ist mit ihnen passiert? #line:699783
+	Sadie: oh ja #line:5c13b3
+	Sadie: seltsame Geschichte dort #line:28aa88
+->Was ist mit diesem Ort passiert? #line:48f179
+	Sadie: Nachdem sie draussen im Wald gefunden wurden #line:d24625
+	Sadie: es ging lange Zeit von Besitzer zu Besitzer #line:aa8784
+	Mae: "Gefunden"? "Draussen in den Waeldern?" #line:87ccac
+	Sadie: oh ja. Uh. #line:0069a2
+	Sadie: Seltsame Geschichte da. #line:56d1ab
+Saleem: Sie wurden unheimlich. #line:796bf9
+Sadie: oder irgendwie religioes? #line:a1db43
+    ->gespenstisch? #line:5282a9
+        Saleem: ja, sie sprachen davon, dass sie Reisen aus ihren Koerpern machen #line:1264ad
+        Saleem: und sie haben fuer die Geister gespielt, die hier durch waren. #line:fd8afd
         Mae: huh. #line:a9c13b
-        Saleem: folks thought they were just being weird and poetic but #line:7b2712
-    ->religious? #line:52c570
-        Sadie: yeah they started talking about how #line:1fee38
-        Sadie: they were playing for gods? #line:be44f0
-        Sadie: but like gods nobody knew about? #line:8d7260
-        Sadie: and they were taking trips out of their bodies? #line:2030eb
-Saleem: who knows. They were also getting kind of old. #line:5ab54d
-Mae: that's weird. #line:79ed5d
-Sadie: In the end they stopped coming here #line:4f1a42
-Sadie: and started playing out in the woods #line:05143c
-Sadie: on these little… band box thingies they built #line:88e0c5
-Saleem: Or at least that’s what people figured #line:6ad974
-Saleem: In November of ‘49 they found them dead way out there #line:3c5b83
-Saleem: Died of exposure! #line:7280f0
-Saleem: Frost froze ‘em to their instruments! #line:0397e1
-Sadie: Had to peel ‘em off the ground. #line:7aee0b
-Saleem: One of the great wtf moments in Possum Springs history. #line:9aca4f
-Mae: Holy crap. #line:1b6e37
-Sadie: How have you not heard this story? #line:4d8464
-Mae: No it’s just... #line:ee9aba
-Mae: I... #line:9ab328
-Mae: nothing. The world is big and weird. #line:9c9f50
-Saleem: After they were gone this place’s days were numbered. #line:3483d7
-Saleem: And now! for the first time in god knows how long! #line:655cb0
-Saleem: The Husker Bee Ballroom shall hear music again! #line:664375
+        Saleem: die Leute dachten, sie waeren einfach nur komisch und poetisch, aber #line:7b2712
+    ->religioes? #line:52c570
+        Sadie: ja, sie fingen an darueber zu reden, wie #line:1fee38
+        Sadie: sie haben fuer Goetter gespielt? #line:be44f0
+        Sadie: aber wie Goetter, von denen niemand wusste? #line:8d7260
+        Sadie: und dass sie Reisen aus ihren Koerpern heraus machten? #line:2030eb
+Saleem: wer weiss. Sie wurden auch ein bisschen alt. #line:5ab54d
+Mae: Das ist seltsam. #line:79ed5d
+Sadie: Am Ende kamen sie nicht mehr hierher #line:4f1a42
+Sadie: und fingen an, draussen in den Waeldern zu spielen #line:05143c
+Sadie: auf diesen kleinen... Bandboxen, die sie gebaut haben #line:88e0c5
+Saleem: Oder zumindest dachten die Leute das #line:6ad974
+Saleem: Im November '49 fand man sie tot da draussen #line:3c5b83
+Saleem: An der Kaelte gestorben! #line:7280f0
+Saleem: Der Frost hat sie an ihren Instrumenten erfrieren lassen! #line:0397e1
+Sadie: Mussten sie vom Boden schaelen. #line:7aee0b
+Saleem: Einer der groessten WTF-Momente in der Geschichte von Possum Springs. #line:9aca4f
+Mae: Heiliger Bimbam. #line:1b6e37
+Sadie: Wie kann es sein, dass du diese Geschichte noch nicht kennst? #line:4d8464
+Mae: Nein, es ist nur... #line:ee9aba
+Mae: Ich... #line:9ab328
+Mae: nichts. Die Welt ist gross und seltsam. #line:9c9f50
+Saleem: Nachdem sie weg waren, waren die Tage dieses Ortes gezaehlt. #line:3483d7
+Saleem: Und jetzt! zum ersten Mal seit Gott weiss wie lange! #line:655cb0
+Saleem: Der Husker Bee Ballroom soll wieder Musik hoeren! #line:664375
 Sadie: Ha ha ha. #line:495145
-Saleem: And it’s a full house! Pigeons appreciate quality! #line:d86719
-Mae: This makes me happy. #line:9dbdae
-Sadie: Save the happiness for when we’re good. #line:ae8d6b
-Saleem: Yeah. Let’s get good. #line:37bd29
-Sadie: This place could use some good. #line:378305
-Saleem: Well, that's one thing about music- #line:15c89f
-Saleem: it fills empty space! #line:9cdec2
+Saleem: Und es ist ein volles Haus! Tauben wissen Qualitaet zu schaetzen! #line:d86719
+Mae: Das macht mich gluecklich. #line:9dbdae
+Sadie: Heb dir das Glueck auf, wenn es uns gut geht. #line:ae8d6b
+Saleem: Ja. Lasst uns gut werden. #line:37bd29
+Sadie: Dieser Ort koennte etwas Gutes gebrauchen. #line:378305
+Saleem: Nun, das ist eine Sache mit der Musik- #line:15c89f
+Saleem: sie fuellt den leeren Raum! #line:9cdec2
 <<stopInteractingWithPlayer Saleem>>
 <<stopInteractingWithPlayer Sadie>>
 <<set $birdland_interact_posters_done to 1>>
@@ -491,7 +491,7 @@ tags:
 colorID: 0
 position: 804,223
 ---
-Mae: holy shit. That’s a lot of birds. #line:ed24e3
+Mae: Heilige Scheisse. Das sind eine Menge Voegel. #line:ed24e3
 <<end>>
 ===
 title: PeopleUsedToComeHere
@@ -500,8 +500,8 @@ colorID: 0
 position: 1052,220
 ---
 Mae: wow. #line:6d8982
-Mae: people used to like #line:33b594
-Mae: come here. #line:694849
+Mae: die Leute mochten #line:33b594
+Mae: komm her. #line:694849
 <<end>>
 ===
 title: Pentagram
@@ -510,14 +510,14 @@ colorID: 4
 position: -347,141
 ---
 <<if $pentagram_quest>>
-    Mae: Whoa. Pentagram. #line:56b789
-    Mae: doesn't prove anything, weird teens. #line:a07291
+    Mae: Whoa. Pentagramm. #line:56b789
+    Mae: beweist nichts, seltsame Teenager. #line:a07291
     <<wait 2>>
-    Mae: Spooky though. #line:8a687e
+    Mae: Trotzdem gruselig. #line:8a687e
     <<set $found_pentagrams += 1>>
     <<unlockPentagramDoodle>>
 <<else>>
-    Mae: Huh. Pentagram. #line:0ee235
+    Mae: Huh. Pentagramm. #line:0ee235
 <<endif>>
 <<set $birdland_pentagram_done to 1>>
 ===

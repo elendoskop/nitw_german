@@ -38,34 +38,34 @@ position: 512,111
 //autotriggers when you get within range//
 <<setAnimInt Jackie point 1>>
 <<setTalkAnimType Jackie 2>>
-Jackie: WHAT DID YOU DO? #line:9466a0
-Mae: I was gonna ask the same thing!! #line:8c35a7
-Jackie: HOW IN THE WORLD DID YOU MESS THAT UP! #line:05da36
+Jackie: WAS HAST DU GETAN? #line:9466a0
+Mae: Das wollte ich auch gerade fragen!!! #line:8c35a7
+Jackie: WIE IN DER WELT HAST DU DAS VERMISST! #line:05da36
 Mae: :( #line:052395
-Jackie: SHE NEEDS THIS #line:53d74e
-Jackie: Now she’s god knows where! #line:6f7e24
-Jackie: If something happens to her... #line:e1b38c
-Jackie: I will personally punch your teeth out. #line:5391f6
-Mae: Ok! Geez! #line:089f8b
-Jackie: Alright, I’m gonna go up the street. #line:a014ed
-Jackie: you go down towards the river. #line:77357d
-Jackie: We find her, make sure she’s ok, and meet back here. #line:8cfaa5
-Mae: Ok! Oh god. Ok. #line:50fcfd
+Jackie: SIE BRAUCHT DAS #line:53d74e
+Jackie: Jetzt ist sie Gott weiss wo! #line:6f7e24
+Jackie: Wenn ihr etwas zustoesst... #line:e1b38c
+Jackie: Ich werde dir persoenlich die Zaehne ausschlagen. #line:5391f6
+Mae: Ok! Oje! #line:089f8b
+Jackie: In Ordnung, ich werde die Strasse hochgehen. #line:a014ed
+Jackie: du gehst runter in Richtung Fluss. #line:77357d
+Jackie: Wir finden sie, vergewissern uns, dass es ihr gut geht, und treffen uns wieder hier. #line:8cfaa5
+Mae: Ok! Oh Gott. Ok. #line:50fcfd
 <<setAnimInt Jackie point 0>>
 <<close>>
 <<wait 1>>
 <<walk Jackie Jackie3 wait>>
-Jackie: Back in school, I always told Bea that you were an asshole #line:90f2f8
-Jackie: And I really thought that was true. #line:709a3e
-Jackie: And it’s good to know I was right. #line:ae32cb
+Jackie: Damals in der Schule habe ich Bea immer gesagt, dass du ein Arschloch bist #line:90f2f8
+Jackie: Und ich dachte wirklich, das waere wahr. #line:709a3e
+Jackie: Und es ist gut zu wissen, dass ich recht hatte. #line:ae32cb
 <<close>>
 <<walk Jackie JackieOffRight>>
 <<wait 2>>
 <<lookLeft Mae>>
 Mae: :| #line:ee6474
 Mae: ok ok ok. #line:33c2df
-Mae: where are you, Bea? #line:95cd44
-Mae: the roofs. Can get to the river quick on the roofs. #line:d7c4a0
+Mae: wo bist du, Bea? #line:95cd44
+Mae: Auf den Daechern. Auf den Daechern kann man schnell zum Fluss kommen. #line:d7c4a0
 <<lookNearest Mae>>
 //you can now freerun and jump and stuff!//
 <<show Collision:Right>>
@@ -78,189 +78,189 @@ position: 1079,128
 <<lookLeft Bea>>
 <<musicFadeOut 5>>
 Mae: BEA! #line:b6808a
-Mae: there you are! #line:ace097
-Mae: Are you alright? #line:24c6d1
+Mae: Da bist du ja! #line:ace097
+Mae: Bist du in Ordnung? #line:24c6d1
 <<close>>
 <<wait 3>>
-Mae: Why did you run? #line:a2ba94
-Mae: That’s like extremely dangerous! #line:7774a2
-Mae: You’re alone in some college town #line:1e00b4
-Mae: and you don’t even know wh- #line:ca0038
-Bea: This was my party #line:e05f36
-Bea: These are my parties #line:70c4d0
-Bea: I come to these #line:99cf79
-Bea: so I can feel normal #line:fd2ff0
-Bea: for like 2 hours a month #line:e41212
-    ->*THIS* is normal? #line:c77c51
-        Mae: this is a bunch of dorks in a basement! #line:983bcd
-    ->You could have been like mugged or something! #line:fcedd0
-        Mae: all over some idiot guy?? #line:e2a129
-Mae: college is stupid anyway #line:cc277b
+Mae: Warum bist du weggelaufen? #line:a2ba94
+Mae: Das ist doch extrem gefaehrlich! #line:7774a2
+Mae: Du bist allein in einer Universitaetsstadt #line:1e00b4
+Mae: und du weisst nicht einmal, wo- #line:ca0038
+Bea: Das war meine Party #line:e05f36
+Bea: Das sind meine Partys #line:70c4d0
+Bea: Ich komme zu diesen #line:99cf79
+Bea: damit ich mich normal fuehlen kann #line:fd2ff0
+Bea: fuer etwa 2 Stunden im Monat #line:e41212
+    ->*DAS* ist normal? #line:c77c51
+        Mae: das ist ein Haufen Deppen in einem Keller! #line:983bcd
+    ->Du haettest ja auch ueberfallen werden koennen oder so! #line:fcedd0
+        Mae: alles wegen einem idiotischen Kerl?? #line:e2a129
+Mae: College ist sowieso bloed #line:cc277b
 //remember on blocking to do yelling text effects for this//
-Bea: OH MY GOD YOU COMPLETE ASSHOLE #line:220768
-Bea: You will never understand this. #line:a79813
-Bea: ever. #line:7089d3
-Bea: You know what I do when I go to sleep? #line:551a31
-Bea: ha ha ha. this is so friggin sad. #line:84857b
-Bea: I think like obsessively about going to college #line:66a716
-Bea: like really really think hard about it #line:76a758
-Bea: and if I'm lucky, as I fall asleep #line:c85f90
-Bea: i dream about it. #line:bfc9b4
-Bea: I have to dream about this #line:ccedc3
-Bea: this thing you're so over already #line:11fa3e
-Bea: is like my wildest fantasy. #line:6fd8cd
-    ->You *HAVE* a life! #line:93c303
-        Bea: no, i don't. #line:d09408
-        Bea: i have obligations. #line:6b6568
-        Bea: i have a routine. #line:23a6ec
-    ->That is so... sad. #line:586443
-        Bea: goddamn right it's sad! #line:716309
-Bea: when my mom died #line:e78609
-Bea: my life ended too. #line:676ed5
-Bea: i had to take over the business #line:631fa2
-Bea: because dad had a complete breakdown #line:8daef3
-Bea: and the bills from my mom literally dying #line:35d69a
-Bea: were so bad that we lost the house #line:a57deb
-Bea: the house I grew up in #line:015455
-Bea: gone. #line:e2cd26
-Bea: some shitty family with their shitty kids live there now #line:6ed011
-Bea: now we live in an apartment #line:a2e4fc
-Bea: as my dad wastes away #line:93236b
+Bea: OH MEIN GOTT DU VOLLSTAENDIGER ASSHOLE #line:220768
+Bea: Du wirst das nie verstehen. #line:a79813
+Bea: niemals. #line:7089d3
+Bea: Weisst du, was ich mache, wenn ich schlafen gehe? #line:551a31
+Bea: ha ha ha. das ist so verdammt traurig. #line:84857b
+Bea: Ich denke wie besessen darueber nach, aufs College zu gehen #line:66a716
+Bea: ich denke wirklich sehr viel darueber nach #line:76a758
+Bea: und wenn ich Glueck habe, wenn ich einschlafe #line:c85f90
+Bea: ich traeume davon. #line:bfc9b4
+Bea: Ich muss davon traeumen #line:ccedc3
+Bea: diese Sache, ueber die du schon so lange hinweg bist #line:11fa3e
+Bea: ist wie meine wildeste Fantasie. #line:6fd8cd
+    ->Du *HAST* ein Leben! #line:93c303
+        Bea: nein, habe ich nicht. #line:d09408
+        Bea: ich habe Verpflichtungen. #line:6b6568
+        Bea: ich habe eine Routine. #line:23a6ec
+    ->Das ist so... traurig. #line:586443
+        Bea: gottverdammt richtig, es ist traurig! #line:716309
+Bea: als meine Mutter starb #line:e78609
+Bea: mein Leben endete auch. #line:676ed5
+Bea: ich musste das Geschaeft uebernehmen #line:631fa2
+Bea: weil Dad einen totalen Zusammenbruch hatte #line:8daef3
+Bea: und die Rechnungen von meiner Mutter, die buchstaeblich starb #line:35d69a
+Bea: waren so schlimm, dass wir das Haus verloren #line:a57deb
+Bea: das Haus, in dem ich aufgewachsen bin #line:015455
+Bea: weg. #line:e2cd26
+Bea: irgendeine beschissene Familie mit ihren beschissenen Kindern lebt jetzt dort #line:6ed011
+Bea: jetzt leben wir in einer Wohnung #line:a2e4fc
+Bea: waehrend mein Vater dahinsiecht #line:93236b
 <<playMusic proximity 18>>
-Bea: and like any idea i had of the future #line:c57e53
-Bea: this big, bright thing #line:540f2d
-Bea: just gets smaller and darker #line:f8b72a
-Bea: every time i wake up #line:8df915
-Bea: from a dream about nights like tonight #line:e20b50
-Bea: and you can't get that #line:cc5d0b
-Bea: through your thick effing skull #line:8c2acb
-    -> that's not fair #line:254370
-        Bea: none of this is fair! #line:31fb0e
-        Bea: nothing is fair! #line:463981
-    -> i had no idea about any of this! #line:82aa6f
-        Bea: HOW?! #line:ae1f79
-        Bea: HOW COULD YOU NOT KNOW THIS?! #line:da5b04
-Bea: I work hard! #line:b7aaed
-Bea: and i take care of what's left of my family #line:5112f0
-Bea: and my life is slipping away #line:b805fa
-Bea: and i'm trapped in that stupid hardware store #line:708669
-Bea: in that stupid town. #line:dd01cc
-Bea: i'm #line:416b35
-Bea: just #line:2c9be8
+Bea: und wie jede Idee, die ich von der Zukunft hatte #line:c57e53
+Bea: dieses grosse, helle Ding #line:540f2d
+Bea: wird immer kleiner und dunkler #line:f8b72a
+Bea: jedes Mal wenn ich aufwache #line:8df915
+Bea: aus einem Traum ueber Naechte wie heute #line:e20b50
+Bea: und du kannst das nicht begreifen #line:cc5d0b
+Bea: durch deinen verdammten Dickschaedel #line:8c2acb
+    -> das ist nicht fair #line:254370
+        Bea: nichts davon ist fair! #line:31fb0e
+        Bea: nichts ist fair! #line:463981
+    -> ich hatte keine Ahnung von all dem! #line:82aa6f
+        Bea: WIE?! #line:ae1f79
+        Bea: WIE KONNTEST DU DAS NICHT WISSEN?! #line:da5b04
+Bea: Ich arbeite hart! #line:b7aaed
+Bea: und ich kuemmere mich um das, was von meiner Familie uebrig ist #line:5112f0
+Bea: und mein Leben entgleitet mir #line:b805fa
+Bea: und ich bin gefangen in diesem dummen Baumarkt #line:708669
+Bea: in dieser dummen Stadt. #line:dd01cc
+Bea: ich bin #line:416b35
+Bea: nur #line:2c9be8
 <<wait 2>>
-Bea: doomed. #line:78aca9
+Bea: dem Untergang geweiht. #line:78aca9
 <<wait 2>>
-Mae: you're not the only person stuck here #line:a3d565
-Mae: you know. #line:8b8ac7
-Bea: you gave up the thing i can't have #line:b0b5c4
-Bea: i... kinda hate you. #line:7b3253
-Bea: i can't not hate you for that. a little. #line:6907d8
-    ->you don't know anything about it. #line:945875
-        Bea: what is there to know? #line:cb0be8
-        Bea: honestly! #line:53c5db
-    ->you don't know why i had to leave #line:71c179
-        Bea: oh i'm sure it's a brilliant reason. #line:a1b854
-Mae: you just sit there judging me #line:f7d704
-Mae: have you ever even asked why i left? #line:d3c25b
-Bea: yeah. first day you were back. #line:353c25
+Mae: du bist nicht die einzige Person, die hier festsitzt #line:a3d565
+Mae: du weisst schon. #line:8b8ac7
+Bea: du hast das aufgegeben, was ich nicht haben kann #line:b0b5c4
+Bea: Ich... hasse dich irgendwie. #line:7b3253
+Bea: ich kann dich dafuer nicht nicht hassen. ein bisschen. #line:6907d8
+    ->Du weisst nichts davon. #line:945875
+        Bea: was gibt es da zu wissen? #line:cb0be8
+        Bea: Ehrlich! #line:53c5db
+    ->du weisst nicht warum ich gehen musste #line:71c179
+        Bea: oh ich bin sicher, es ist ein brillanter Grund. #line:a1b854
+Mae: du sitzt nur da und urteilst ueber mich #line:f7d704
+Mae: hast du ueberhaupt jemals gefragt, warum ich gegangen bin? #line:d3c25b
+Bea: ja. am ersten Tag als du zurueck warst. #line:353c25
 Mae: oh. #line:fa4b60
-Mae: right. #line:78de96
-Bea: so why did you leave? #line:194313
-Mae: i... #line:e1dfb8
+Mae: richtig. #line:78de96
+Bea: warum bist du dann gegangen? #line:194313
+Mae: ich... #line:e1dfb8
 <<close>>
 //walk Mae over and sit next to Bea on bench//
 <<walk Mae MaeWalkToSit wait>>
 <<toggleSitSwings Mae false>>
 <<sitInstant>>
-Mae: i don't know.  #line:b1b7b3
-Mae: my head is in pieces right now #line:8c0738
-Mae: any answer i could give would sound nuts. #line:44693c
+Mae: Ich weiss es nicht. #line:b1b7b3
+Mae: mein Kopf ist im Moment ganz durcheinander #line:8c0738
+Mae: jede Antwort, die ich geben koennte, wuerde verrueckt klingen. #line:44693c
 Bea: oh. #line:4621f8
-Bea: well that's illuminating. #line:a0fc7c
-Mae: oh shut up. #line:3f67fa
-Mae: all this shit going on this past week? #line:a14c88
-Mae: ghosts and shit? #line:b94f5c
-Mae: i met god! #line:88c49d
-Mae: he was an asshole! #line:d60405
+Bea: nun, das ist erhellend. #line:a0fc7c
+Mae: oh halt die Klappe. #line:3f67fa
+Mae: dieser ganze Scheiss, der in der letzten Woche passiert ist? #line:a14c88
+Mae: Geister und so ein Scheiss? #line:b94f5c
+Mae: ich habe Gott getroffen! #line:88c49d
+Mae: er war ein Arschloch! #line:d60405
 Bea: uh-huh. #line:e4c3a9
 Bea: AAAAGH. #line:ed77f1
 <<wait 2>>
 <<cameraLookAt CameraRiver 8>>
 Mae: look. #line:90cdec
-Mae: we're both trapped. #line:05cb5a
-Mae: but we're trapped together. #line:2d64db
+Mae: wir sind beide gefangen. #line:05cb5a
+Mae: aber wir sind zusammen gefangen. #line:2d64db
 Bea: ... #line:764913
-Mae: better to be trapped with someone else, right? #line:1a76c1
+Mae: besser, mit jemand anderem gefangen zu sein, oder? #line:1a76c1
 Bea: ... #line:21a8ee
-Mae: listen, i'm sorry. #line:c88466
-Mae: about #line:480166
-Mae: like, #line:12c6c1
-Bea: it's ok. #line:790377
-Mae: we're like #line:380496
-Mae: the best available friends. #line:1a6952
+Mae: hoer zu, es tut mir leid. #line:c88466
+Mae: ueber #line:480166
+Mae: wie, #line:12c6c1
+Bea: es ist ok. #line:790377
+Mae: wir sind wie #line:380496
+Mae: die besten verfuegbaren Freunde. #line:1a6952
 Bea: ha ha ha. #line:5a3788
-Bea: oh god. #line:2ee493
+Bea: oh Gott. #line:2ee493
 <<wait 3>>
-Mae: what river is this? #line:9042ba
+Mae: was ist das fuer ein Fluss? #line:9042ba
 Bea: Red Winder. #line:4e627d
-Bea: all the iron in the water #line:da5d1d
-Bea: turns the rocks orange. #line:a51edf
-Mae: must be weird for them. #line:bd5f8d
-Mae: all the rocks on land get to keep their colors. #line:d8345a
-Mae: and the river rocks are always looking up at them. #line:9ec2e7
+Bea: das ganze Eisen im Wasser #line:da5d1d
+Bea: faerbt die Felsen orange. #line:a51edf
+Mae: muss seltsam fuer sie sein. #line:bd5f8d
+Mae: alle Felsen an Land behalten ihre Farben. #line:d8345a
+Mae: und die Flussfelsen schauen immer zu ihnen hoch. #line:9ec2e7
 Bea: hm. #line:8ea6b0
 <<wait 3>>
-Mae: so like #line:2b4a19
-Mae: actual question: #line:b563fd
-Mae: do you think we’d be friends if we weren’t like  #line:e832ac
-Mae: stuck together in the same town? #line:328ab1
-Mae: like we were stuck together in girlscouts? #line:02d8e8
-Mae: like... Uh... is this just... what’s the word? #line:4c22cc
-Bea: Proximity? #line:0f693c
-Mae: yeah #line:c1e2f7
-Bea: I don't know. #line:e0433a
-Bea: I honestly don't. #line:be546f
-Bea: My entire life feels like running after something #line:8cfdcf
-Bea: that keeps moving away into the distance #line:dd93f6
-Bea: while I stay in the same place. #line:c2f7ef
+Mae: so wie #line:2b4a19
+Mae: eigentliche Frage: #line:b563fd
+Mae: denkst du, wir wuerden Freunde sein, wenn wir nicht #line:e832ac
+Mae: zusammen in der gleichen Stadt wohnen wuerden? #line:328ab1
+Mae: so wie wir bei den Pfadfindern zusammen sind? #line:02d8e8
+Mae: wie... Aeh... ist das nur... wie heisst das Wort? #line:4c22cc
+Bea: Annaeherung? #line:0f693c
+Mae: ja #line:c1e2f7
+Bea: Ich weiss es nicht. #line:e0433a
+Bea: Ich weiss es ehrlich gesagt nicht. #line:be546f
+Bea: Mein ganzes Leben fuehlt sich an, als wuerde ich hinter etwas herlaufen #line:8cfdcf
+Bea: das sich immer weiter in die Ferne bewegt #line:dd93f6
+Bea: waehrend ich an der gleichen Stelle bleibe. #line:c2f7ef
 Bea: ... #line:9becfa
 <<lookAt Bea Mae>>
-Bea: And I guess proximity counts for a lot right now. #line:ca7228
+Bea: Und ich schaetze, dass Naehe im Moment sehr wichtig ist. #line:ca7228
 Mae: hm. #line:5d7948
 Mae: prox-i-mi-ty. #line:1ac563
 <<if $did_bea_friendship_quest_2 = 1>>
-    Mae: stuck in a basement together #line:d8a272
-    Mae: again #line:b05a2f
-    Mae: this crazy ol' basement #line:d141ac
-    Mae: we call life, beatrice #line:cf18f7
-    Bea: thanks. that's uplifting. #line:38b43b
+    Mae: zusammen in einem Keller stecken #line:d8a272
+    Mae: schon wieder #line:b05a2f
+    Mae: dieser verrueckte alte Keller #line:d141ac
+    Mae: wir nennen das Leben, Beatrice #line:cf18f7
+    Bea: danke. das ist aufbauend. #line:38b43b
 <<endif>>
 <<wait 3>>
-Mae: do you want to go back to the party? #line:5402a1
+Mae: willst du zurueck auf die Party gehen? #line:5402a1
 <<lookLeft Bea>>
-Bea: Nah. #line:29ffea
-Mae: we can come to another one sometime! #line:ebea70
-    ->I swear I won’t screw it up! #line:7217e9
-        Bea: well, you've done it once #line:52ea0a
-        Bea: so you should know how to not do it again. #line:def23e
-    ->I'll learn to talk good #line:af253f
-        Mae: to whatever guy #line:e3a5be
-        Mae: you're obviously trying to get with. #line:18a478
-        Bea: oh good. thanks. #line:0c8f4f
-Mae: Bea, you should have told me about everything. #line:4eb509
-Bea: I was embarrassed. #line:02273b
-Bea: my entire life is embarrassing. #line:da8140
-Mae: Bea I am like more embarrassing than you will ever be. #line:7800dd
-Mae: you are like stronger and smarter than anyone I’ve ever met. #line:8e1667
-Bea: thanks #line:e7ec10
-Bea: And you’re not as big a total idiot as I act like you are. #line:1ed005
-Bea: i'm a jerk sometimes. I know that. #line:7c6199
-Bea: but you're a genuinely... good? person. #line:38982a
-Mae: I'll take it. #line:50e3c9
+Bea: Nee. #line:29ffea
+Mae: Wir koennen ja mal zu einem anderen kommen! #line:ebea70
+    ->Ich schwoere, ich werde es nicht vermasseln! #line:7217e9
+        Bea: nun, du hast es schon einmal gemacht #line:52ea0a
+        Bea: also solltest du wissen, wie man es nicht noch einmal macht. #line:def23e
+    ->Ich werde lernen, gut zu reden #line:af253f
+        Mae: mit welchem Kerl auch immer #line:e3a5be
+        Mae: du versuchst offensichtlich, mit ihm zusammenzukommen. #line:18a478
+        Bea: oh gut. danke. #line:0c8f4f
+Mae: Bea, du haettest mir von allem erzaehlen sollen. #line:4eb509
+Bea: Das war mir peinlich. #line:02273b
+Bea: mein ganzes Leben ist peinlich. #line:da8140
+Mae: Bea ich bin peinlicher als du es je sein wirst. #line:7800dd
+Mae: du bist staerker und klueger als jeder andere, den ich je getroffen habe. #line:8e1667
+Bea: danke #line:e7ec10
+Bea: Und du bist nicht so ein totaler Idiot, wie ich dich darstelle. #line:1ed005
+Bea: Ich bin manchmal ein Idiot. Ich weiss das. #line:7c6199
+Bea: aber du bist ein wirklich... guter Mensch. #line:38982a
+Mae: Ich werde es nehmen. #line:50e3c9
 <<lookAt Bea Mae>>
 <<if $did_bea_friendship_quest_1>>
-    Mae: you know what the Fort Lucenne fish fountain would say #line:98c03c
-    Bea: what? #line:79b026
+    Mae: weisst du, was der Fischbrunnen von Fort Lucenne sagen wuerde #line:98c03c
+    Bea: was? #line:79b026
     //remember size and shake//
     Mae: BEATRICE SANTELLO #line:8d6b83
     Mae: WE SHOULD GET BURGERS AND SHAKES ON THE WAY HOME #line:7ca391
@@ -269,17 +269,17 @@ Mae: I'll take it. #line:50e3c9
 <<endif>>
 <<wait 3>>
 <<if $cool_party_girl>>
-	Mae: Crap! I didn’t get her info! #line:83f054
-	Bea: Who? #line:7ce3d5
-	Mae: THIS SUPER CUTE GIRL I MET AT THE PARTY?!?!? #line:8a597b
-	Mae: We did a secret handshake? #line:e4bd1a
-	Bea: Is that a... euphemism? #line:27da2a
-	Mae: CRAP. #line:cd813a
-	Mae: yeah. We need to come back. #line:bf8db9
+	Mae: Crap! Ich habe ihre Info nicht bekommen! #line:83f054
+	Bea: Wer? #line:7ce3d5
+	Mae: DIESES SUPERSUESSE MAEDCHEN, DAS ICH AUF DER PARTY KENNENGELERNT HABE?!?!? #line:8a597b
+	Mae: Wir haben einen geheimen Haendedruck gemacht? #line:e4bd1a
+	Bea: Ist das ein... Euphemismus? #line:27da2a
+	Mae: MIST. #line:cd813a
+	Mae: Ja. Wir muessen zurueckkommen. #line:bf8db9
 <<endif>>
-Bea: Ok, you. #line:f295de
-Bea: Let’s go home. #line:61615c
-Mae: home again, home again. #line:be32c2
+Bea: Ok, du. #line:f295de
+Bea: Lass uns nach Hause gehen. #line:61615c
+Mae: Wieder nach Hause, wieder nach Hause. #line:be32c2
 <<close>>
 <<fadeOut 1 wait>>
 <<unlockDoodle BeaFQ4>>
@@ -297,70 +297,70 @@ tags:
 colorID: 4
 position: 586,485
 ---
-Mae: I think I went here once #line:46a040
-Mae: in girlscouts #line:90c0ff
-Mae: to see some sort of Longest Night play. #line:9cfd8c
-Bea: Yeah. I was there. #line:bc7f31
-Mae: oh yeah. We were kinda stuck together back then. #line:e2f0b8
-    ->why'd you start talking to me? #line:fc9d7c
-        Bea: I was new in town #line:806e80
-        Bea: and you seemed cool. #line:8edeed
-        Mae: that's it? #line:c0d0b3
-        Bea: You were smart and fun. #line:c16bba
-        Mae: What am I now. #line:52714a
+Mae: Ich glaube, ich war mal hier #line:46a040
+Mae: bei den Pfadfinderinnen #line:90c0ff
+Mae: um eine Art von Longest Night Theaterstueck zu sehen. #line:9cfd8c
+Bea: Ja, ich war dabei. #line:bc7f31
+Mae: Oh ja. Wir waren damals irgendwie zusammengewachsen. #line:e2f0b8
+    ->Warum hast du angefangen mit mir zu reden? #line:fc9d7c
+        Bea: Ich war neu in der Stadt #line:806e80
+        Bea: und du schienst cool zu sein. #line:8edeed
+        Mae: das war's? #line:c0d0b3
+        Bea: Du warst klug und lustig. #line:c16bba
+        Mae: Was bin ich jetzt. #line:52714a
         Bea: ... #line:cf62e0
-        Bea: ya know. "fun". #line:32d952
-        Mae: it's like super shitty #line:b9d26c
-        Mae: that you keep saying I'm not smart. #line:33f896
-        Bea: I'm sorry. I'm mostly kidding. #line:98a982
-        Mae: "mostly" #line:7e352d
-        Mae: you're not smart either! #line:9ff3fe
-        Bea: i was valedictorian of our class! #line:da527b
-        Mae: like that means anything in the real world. #line:9c9466
+        Bea: Du weisst schon. "Spass". #line:32d952
+        Mae: es ist super beschissen #line:b9d26c
+        Mae: dass du staendig sagst, ich sei nicht klug. #line:33f896
+        Bea: Es tut mir leid. Ich mache meistens nur Witze. #line:98a982
+        Mae: "meistens" #line:7e352d
+        Mae: Du bist auch nicht schlau! #line:9ff3fe
+        Bea: ich war Abschiedsrednerin in unserer Klasse! #line:da527b
+        Mae: als ob das in der realen Welt etwas bedeuten wuerde. #line:9c9466
         Bea: ... #line:6f46de
-        Mae: sorry #line:062b44
-        Bea: sorry #line:bacf80
+        Mae: Entschuldigung #line:062b44
+        Bea: Entschuldigung #line:bacf80
         <<wait 2>>
-    ->what even was that play? #line:a5aff7
-        Bea: Corvin the Thief. Old. Kind of obscure. #line:cef9b6
-        Bea: Slick little barn cat #line:620e69
-        Bea: Lived in the woods #line:594c42
-        Bea: where no one could find him. #line:33e75d
-        Bea: But then he stole a diamond or something #line:e4b524
-        Bea: from the local king #line:8133cf
-        Bea: and got arrowed to death. #line:429982
-        Mae: oh yeah. right. #line:e7eb62
-        Bea: yep. #line:169f81
-        Bea: there's a whole second part #line:cfe3a5
-        Bea: where he's a ghost #line:a14bcf
-        Bea: but they never perform that one. #line:8e0f06
-        Mae: poor ghost cat. #line:df640c
-Bea: alright, let's go. #line:7c18f9
+    ->Was war das ueberhaupt fuer ein Stueck? #line:a5aff7
+        Bea: Corvin der Dieb. Alt. Irgendwie obskur. #line:cef9b6
+        Bea: Aalglatte kleine Scheunenkatze #line:620e69
+        Bea: Lebte in den Waeldern #line:594c42
+        Bea: wo niemand ihn finden konnte. #line:33e75d
+        Bea: Aber dann hat er einen Diamanten gestohlen oder so #line:e4b524
+        Bea: von dem oertlichen Koenig #line:8133cf
+        Bea: und wurde zu Tode gepfeilt. #line:429982
+        Mae: oh ja, richtig. #line:e7eb62
+        Bea: jep. #line:169f81
+        Bea: es gibt einen ganzen zweiten Teil #line:cfe3a5
+        Bea: wo er ein Geist ist #line:a14bcf
+        Bea: aber den fuehren sie nie auf. #line:8e0f06
+        Mae: arme Geisterkatze. #line:df640c
+Bea: in Ordnung, lass uns gehen. #line:7c18f9
 <<close>>
 <<walk Mae Mae2>>
 <<walk Bea Bea2 wait>>
-Mae: I’m kinda nervous about this. #line:6df311
-Mae: stay close, alright? #line:9c22c0
-Bea: Nothing to be scared of down there. Just a party. #line:d4002f
+Mae: Ich bin ein bisschen nervoes deswegen. #line:6df311
+Mae: Bleib in der Naehe, in Ordnung? #line:9c22c0
+Bea: Da unten gibt es nichts, wovor man sich fuerchten muesste. Nur eine Party. #line:d4002f
 Mae: ... #line:0cfd03
-Mae: Not too late to throw ourselves into traffic instead. #line:edc4a3
+Mae: Nicht zu spaet, um uns stattdessen in den Verkehr zu stuerzen. #line:edc4a3
 <<lookRight Bea>>
 Bea: HEY JACKIE! #line:ab1bf1
 <<close>>
 <<flip Jackie -1>>
 <<walk Jackie Jackie2 wait>>
 Jackie: Hey BEEEEEE!!! #line:32ea05
-Jackie: Oh weird. It’s Mae. #line:317f0a
+Jackie: Oh komisch. Ich heisse Mae. #line:317f0a
 Mae: o/ #line:ad80f5
 Mae: Hey Jackie! #line:578029
-Jackie: You brought Mae. #line:2aeaae
+Jackie: Du hast Mae mitgebracht. #line:2aeaae
 Mae: _o_ #line:f3e194
-Bea: Yeah, is that ok? #line:34d7b8
-Jackie: Sure! It’ll be fun. #line:41588b
-Jackie: Come on in! It's a good one. #line:52a1e0
-Mae: is there like dancing and stuff? #line:870ee0
-Jackie: the world is ending, mae #line:219e5b
-Jackie: of *course* there's dancing. #line:d75962
+Bea: Ja, ist das ok? #line:34d7b8
+Jackie: Klar! Das wird lustig. #line:41588b
+Jackie: Komm schon rein! Es ist ein gutes Stueck. #line:52a1e0
+Mae: gibt es auch Tanz und so? #line:870ee0
+Jackie: die Welt geht unter, Mae #line:219e5b
+Jackie: natuerlich* gibt es Tanz. #line:d75962
 Bea: cool #line:8a95bb
 Mae: ok #line:e22e0c
 <<close>>
@@ -378,58 +378,58 @@ colorID: 4
 position: 801,125
 ---
 //there is a guy and a girl standing in front of the car you need to jump on//
-Mae: Hey! Move! #line:ed857b
-CarGirl: What? #line:80e24f
+Mae: Hey! Weg da! #line:ed857b
+CarGirl: Was? #line:80e24f
 <<dilate Mae .85 .5>>
-Mae: Move it, goth dorks. #line:a35139
-CarDude: No. #line:71c899
-Mae: I NEED TO GET UP ON THE ROOF. #line:9bb95b
-CarDude: You are not jumping on my car. #line:0dab1e
+Mae: Bewegt euch, ihr Gruftis. #line:a35139
+CarDude: Nein. #line:71c899
+Mae: ICH MUSS AUF DAS DACH. #line:9bb95b
+CarDude: Du wirst nicht auf mein Auto springen. #line:0dab1e
 <<dilate Mae .75 .5>>
-Mae: I WILL END YOU RIGHT HERE IN THIS PIZZA PLACE PARKING LOT #line:7e3730
-CarGirl: YOU COOL DOWN #line:d98058
-Mae: YOU EFF OFF #line:3bd1c8
-CarGirl: DON’T TELL ME TO EFF OFF #line:ff7f3b
-Mae: DON’T TELL ME TO COOL DOWN #line:918d82
-CarDude: Get away from my damn car! #line:2bc366
+Mae: Ich werde dich gleich hier auf diesem PIZZA-PARKPLATZ erledigen #line:7e3730
+CarGirl: KUEHLEN SIE SICH AB #line:d98058
+Mae: du verpisst dich #line:3bd1c8
+CarGirl: Sag mir nicht, dass ich mich verpissen soll #line:ff7f3b
+Mae: Sag mir nicht, dass ich mich beruhigen soll #line:918d82
+CarDude: Geh weg von meinem verdammten Auto! #line:2bc366
 <<dilate Mae .65 .5>>
 Mae: :| #line:549489
 <<setAnimInt Mae nodding 1>>
-Mae: IF YOU DON’T GET AWAY FROM YOUR DAMN CAR #line:1c9089
-Mae: I’M GONNA RUN IT OVER YOUR DAMN HEAD #line:10421c
+Mae: WENN DU NICHT VON DEINEM VERDAMMTEN AUTO WEEGGEHST #line:1c9089
+Mae: I'M GONNA RUN IT OVER YOUR DAMN HEAD #line:10421c
 <<setAnimInt Mae nodding 0>>
-CarDude: Can you even drive? #line:03d13d
+CarDude: Kannst du ueberhaupt fahren? #line:03d13d
 Mae: \o/ #line:06524b
-Mae: WANNA FIND OUT, CITIZEN? #line:8f9763
-CarGirl: I’m gonna call the cops. #line:81823a
+Mae: WILLST DU ES HERAUSFINDEN, BUERGER? #line:8f9763
+CarGirl: Ich werde die Bullen rufen. #line:81823a
 <<lookAt Mae CarDude>>
 <<close>>
 //she walks away to the right and down to the party//
 <<walk CarGirl ExitRight>>
-Mae: if you don’t move #line:5b0f52
-Mae: right now #line:87e57b
-Mae: i’m going to probably make you eat this entire car #line:9d7aab
-Mae: and i can do it #line:b48d73
-CarDude: I’d like to see you try. #line:01cc19
+Mae: wenn du dich nicht bewegst #line:5b0f52
+Mae: genau jetzt #line:87e57b
+Mae: ich werde dich wahrscheinlich dazu bringen, dieses ganze Auto zu essen #line:9d7aab
+Mae: und ich kann es tun #line:b48d73
+CarDude: Ich wuerde gerne sehen, wie du es versuchst. #line:01cc19
 <<setAnimInt CarDude point 1>>
 Mae: _o_ :( #line:08fcaf
-Mae: the last person I hurt #line:f0d38f
-Mae: physically #line:4c5c16
-Mae: I hurt him very, very badly. #line:0140f6
-Mae: physically. #line:954982
+Mae: die letzte Person, die ich verletzt habe #line:f0d38f
+Mae: koerperlich #line:4c5c16
+Mae: Ich habe ihn sehr, sehr schwer verletzt. #line:0140f6
+Mae: koerperlich. #line:954982
 <<trigger CarDude Jab>>
-CarDude: Seriously, I'm about to- #line:8f90a0
+CarDude: Ernsthaft, ich bin werde- #line:8f90a0
 <<dilate Mae 1 .5>>
 Mae: :| #line:ae454a
-Mae: you're about to what? #line:c9f26d
+Mae: Du wirst was tun? #line:c9f26d
 <<wait 3>>
 <<setAnimInt CarDude point 0>>
-CarDude: you know what? I don’t have time for this #line:03794b
+CarDude: Weisst du was? Ich habe keine Zeit fuer so was #line:03794b
 <<setAnimint Mae headShaking 1>>
-Mae: no, you don’t. #line:fd3600
-Mae: move. #line:8e937e
+Mae: nein, hast du nicht. #line:fd3600
+Mae: beweg dich. #line:8e937e
 <<setAnimint Mae headShaking 0>>
-CarDude: hope you break your spine. #line:ed10c1
+CarDude: hoffe du brichst dir das Rueckgrat. #line:ed10c1
 <<lookNearest Mae>>
 //CarDude walks to the right and down to the party//
 <<walk CarDude ExitRight>>

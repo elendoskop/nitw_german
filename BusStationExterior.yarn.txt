@@ -3,11 +3,11 @@ tags:
 colorID: 0
 position: 124,124
 ---
-Mae: Well I'm right outside town. #line:ba6e88
-Mae: Mom and dad nowhere to be found. #line:b190a5
-Mae: Dark and cold. #line:023777
-Mae: Guess I'm walking. #line:ea7dd4
-Mae: Alone. #line:121249
+Mae: Nun, ich bin gleich ausserhalb der Stadt. #line:ba6e88
+Mae: Mom und Dad sind nirgends zu finden. #line:b190a5
+Mae: Dunkel und kalt. #line:023777
+Mae: Ich schaetze, ich gehe jetzt. #line:ea7dd4
+Mae: Alleine. #line:121249
 <<end>>
 ===
 title: Bench1
@@ -16,9 +16,9 @@ colorID: 0
 position: 355,120
 ---
 Mae: Wow. #line:863c89
-Mae: I didn't realize how much I missed the sound of that train. #line:76d36f
-Mae: I used to hear it in my bed at night #line:349fa9
-Mae: during the winter when the leaves were down. #line:a72496
+Mae: Ich habe gar nicht gemerkt, wie sehr ich das Geraeusch des Zuges vermisst habe. #line:76d36f
+Mae: Ich habe es nachts in meinem Bett gehoert #line:349fa9
+Mae: waehrend des Winters, wenn die Blaetter unten waren. #line:a72496
 <<end>>
 ===
 title: Bench2
@@ -26,11 +26,11 @@ tags:
 colorID: 0
 position: 576,120
 ---
-Mae: This bus station is maybe the newest thing in Possum Springs. #line:f3c835
-Mae: Guess they got state funding or something. #line:3029c5
-Mae: It makes a good first or last impression I suppose #line:6c4a77
-Mae: if not for the abandoned glass factory back there. #line:572e35
-Mae: Not getting rid of that anytime soon. #line:ab025a
+Mae: Dieser Busbahnhof ist vielleicht das Neueste in Possum Springs. #line:f3c835
+Mae: Ich schaetze, die haben eine staatliche Finanzierung oder so bekommen. #line:3029c5
+Mae: Es macht einen guten ersten oder letzten Eindruck, nehme ich an #line:6c4a77
+Mae: wenn nicht die verlassene Glasfabrik da hinten waere. #line:572e35
+Mae: Die werden wir so schnell nicht los. #line:ab025a
 <<end>>
 ===
 title: Woods
@@ -38,10 +38,10 @@ tags:
 colorID: 0
 position: 796,119
 ---
-Mae: Well, I guess I'm gonna hike through the woods. #line:af8d1b
-Mae: Through the woods is home, #line:716f9a
-Mae: my bed, #line:0cf24e
-Mae: and my negligent parents. #line:1e2fe6
+Mae: Nun, ich denke, ich werde durch den Wald gehen. #line:af8d1b
+Mae: Hinter dem Wald ist mein Zuhause, #line:716f9a
+Mae: mein Bett, #line:0cf24e
+Mae: und meine nachlaessigen Eltern. #line:1e2fe6
 <<end>>
 ===
 title: Highway
@@ -49,9 +49,9 @@ tags:
 colorID: 0
 position: 909,396
 ---
-Mae: I'm not walking back out to the highway. #line:581ad5
-Mae: Probably get hit by a car or something. #line:5bc855
-Mae: Hey where did that Janitor go? #line:b7ccc4
-Mae: Did he walk? #line:6091e6
+Mae: Ich werde nicht zurueck zum Highway gehen. #line:581ad5
+Mae: Wahrscheinlich werde ich von einem Auto angefahren oder so. #line:5bc855
+Mae: Hey, wo ist der Hausmeister hin? #line:b7ccc4
+Mae: Ist er gelaufen? #line:6091e6
 <<end>>
 ===

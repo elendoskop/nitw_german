@@ -99,39 +99,39 @@ colorID: 0
 position: 291,499
 ---
 <<set $met_dan to 1>>
-Mae: Danny, right? #line:1e31fb
-Dan: Yep. #line:173b22
-Mae: I think you were a senior when I was a freshman? #line:aa7c41
-Dan: Probably. #line:975937
-Mae: How’s it going? #line:8e6335
-Dan: Just lost my job... #line:bb9b0e
-Mae: Oh no! #line:34d338
-Dan: They say construction’s always hiring #line:e85056
-Dan: but it’s not. #line:f15d3a
-Dan: In fact, it’s often laying off guys named Dan. #line:cf9f4e
-Mae: What are you going to do? #line:0c4300
-Dan: I’m open to suggestions. #line:394f7a
-[[Don’t give up!|Dan_00_DontGiveUp]] #line:86a190
-[[I’m sure *someone* in town is hiring!|Dan_00_Someone]] #line:61e2da
+Mae: Danny, richtig? #line:1e31fb
+Dan: Jep. #line:173b22
+Mae: Ich glaube, du warst in der Oberstufe, als ich im ersten Semester war? #line:aa7c41
+Dan: Wahrscheinlich. #line:975937
+Mae: Wie laeuft's denn so? #line:8e6335
+Dan: Habe gerade meinen Job verloren... #line:bb9b0e
+Mae: Oh nein! #line:34d338
+Dan: Man sagt, auf dem Bau werden immer Leute eingestellt #line:e85056
+Dan: aber das stimmt nicht. #line:f15d3a
+Dan: Tatsaechlich werden oft Leute entlassen, die Dan heissen. #line:cf9f4e
+Mae: Was willst du denn machen? #line:0c4300
+Dan: Ich bin offen fuer Vorschlaege. #line:394f7a
+[[Gib nicht auf! |Dan_00_DontGiveUp]] #line:86a190
+[[Ich bin sicher, *irgendjemand* in der Stadt stellt ein!|Dan_00_Someone]] #line:61e2da
 ===
 title: Dan_00_01
 tags: demo2
 colorID: 0
 position: -47,468
 ---
-Mae: I don’t have a job either. #line:4e663f
-Dan: Aw man, sorry to talk your ear off about it. #line:cbb9f0
-Dan: How are you holding up? #line:ea94b4
-Mae: Good. Just dropped out of college and I’m living with my parents. #line:b07126
+Mae: Ich habe auch keinen Job. #line:4e663f
+Dan: Oh Mann, tut mir leid, dass ich dir ein Ohr abkaue. #line:cbb9f0
+Dan: Wie geht's dir denn so? #line:ea94b4
+Mae: Gut. Ich habe gerade das College abgebrochen und wohne bei meinen Eltern. #line:b07126
 Dan: Oh. #line:e4bbc9
-Dan: So you’re basically a teenager again. #line:a91e87
-Mae: NO. #line:8cc110
-Mae: I’m just an adult living with her parents. #line:7ab0a1
-Dan: Oh ok so it’s not like you’re unemployed #line:a63fa1
-Dan: it’s like you’re lacking a daytime hobby #line:dfad55
-Dan: that pays money you don’t need for rent. #line:f6d174
-Mae: Alright, I’m gonna get going. #line:541a24
-Dan: Yeah. #line:58062b
+Dan: Also bist du im Grunde wieder ein Teenager. #line:a91e87
+Mae: NEIN. #line:8cc110
+Mae: Ich bin nur eine Erwachsene, die bei ihren Eltern lebt. #line:7ab0a1
+Dan: Oh ok, also ist es nicht so, dass du arbeitslos bist #line:a63fa1
+Dan: es ist eher so, dass dir tagsueber ein Hobby fehlt #line:dfad55
+Dan: das dir Geld einbringt, das du nicht fuer die Miete brauchst. #line:f6d174
+Mae: In Ordnung, ich werde jetzt gehen. #line:541a24
+Dan: Ja. #line:58062b
 ===
 title: DanDemo
 tags: demo
@@ -139,9 +139,9 @@ colorID: 0
 position: 465,171
 ---
 <<if $dan is 0>>
-	Dan: {width=2}Construction's always hiring, Rob! #line:7cdc05
-	Dan: {width=2}Well, at least the coffee shop is still open. #line:43a93a
-	Dan: {width=2}Even if it's not hiring. #line:6abeaf
+	Dan: {width=2}Der Bau stellt immer Leute ein, Rob! #line:7cdc05
+	Dan: {width=2}Nun ja, wenigstens ist das Café noch offen. #line:43a93a
+	Dan: {width=2}Auch wenn er keine Leute einstellt. #line:6abeaf
 	<<set $dan to 1>>
 	<<set $dan_done to 1>>
 <<endif>>
@@ -152,23 +152,23 @@ tags: demo2
 colorID: 0
 position: 183,767
 ---
-Dan: Well there’s always a chance someone will die #line:e4db66
-Dan: And I can have their job. #line:2fb23b
-Mae: Dan, you’re not gonna like #line:631b43
-Mae: kill anyone, are you? #line:a51abb
-Dan: Does it pay? #line:be25c9
+Dan: Nun, es besteht immer die Moeglichkeit, dass jemand stirbt #line:e4db66
+Dan: Und ich kann ihren Job haben. #line:2fb23b
+Mae: Dan, das wird dir nicht gefallen #line:631b43
+Mae: jemanden toeten, oder? #line:a51abb
+Dan: Lohnt sich das? #line:be25c9
 ===
 title: Dan_00_Someone
 tags: demo2
 colorID: 0
 position: 537,763
 ---
-Dan: I’ve been out of work for a year before. #line:0a16d7
-Dan: And this time I only lasted 6 months before being laid off. #line:89e77e
-Dan: Do you know what that does to a resume? #line:c03c3e
-Mae: Not really. #line:00278b
-Dan: I have a zombie resume. #line:d4bfe1
-Dan: It’s dead but somehow it’s still going all over the place. #line:0e4484
+Dan: Ich war schon mal ein Jahr lang arbeitslos. #line:0a16d7
+Dan: Und dieses Mal habe ich es nur 6 Monate ausgehalten, bevor ich entlassen wurde. #line:89e77e
+Dan: Weisst du, was das fuer einen Lebenslauf bedeutet? #line:c03c3e
+Mae: Nicht wirklich. #line:00278b
+Dan: Ich habe einen Zombie-Lebenslauf. #line:d4bfe1
+Dan: Er ist tot, aber irgendwie geht er immer noch durch die Gegend. #line:0e4484
 Mae: Oh. #line:7f148b
 ===
 title: DanA2D1_00
@@ -177,21 +177,21 @@ colorID: 3
 position: -1677,266
 ---
 // olpickaxe
-Mae: how's it going dude? #line:d9a678
-Dan: got a job here. that's cool. #line:e463e3
-Mae: oh nice! #line:421f0f
-Dan: actually i'm lying. it sucks. #line:690a0e
-Mae: oh. geez. #line:4c90fb
+Mae: wie geht's, Alter? #line:d9a678
+Dan: habe einen Job hier. das ist cool. #line:e463e3
+Mae: oh schoen! #line:421f0f
+Dan: eigentlich luege ich. es ist scheisse. #line:690a0e
+Mae: Oh. Meine Guete. #line:4c90fb
 ===
 title: DanA2D1_01
 tags: 
 colorID: 3
 position: -1688,500
 ---
-Dan: I had no idea there were so many kinds of hammers #line:50fb32
-Dan: and wrenches #line:ad7fe4
-Dan: and nails. #line:c6b3ba
-Dan: my god, the nails. #line:ccfac7
+Dan: Ich hatte keine Ahnung, dass es so viele Arten von Haemmern gibt #line:50fb32
+Dan: und Schraubenschluessel #line:ad7fe4
+Dan: und Naegel. #line:c6b3ba
+Dan: mein Gott, die Naegel. #line:ccfac7
 ===
 title: DanA2D3_00
 tags: 
@@ -200,18 +200,18 @@ position: -1401,266
 ---
 // olpickaxe
 Mae: hey dude. #line:af3eb6
-Dan: hello. #line:42c0fe
-Mae: how's working here going? #line:eadcac
-Dan: eh. i dunno. #line:1308b7
-Dan: it pays. #line:c7a891
+Dan: hallo. #line:42c0fe
+Mae: wie laeuft es mit der Arbeit hier? #line:eadcac
+Dan: eh. ich weiss nicht. #line:1308b7
+Dan: es lohnt sich. #line:c7a891
 ===
 title: DanA2D3_01
 tags: 
 colorID: 3
 position: -1403,503
 ---
-Dan: I like refuse to unload all that rock salt by myself. #line:1a70e6
-Dan: it's not even halloween yet. #line:5a914b
+Dan: Ich weigere mich gerne, das ganze Steinsalz selbst abzuladen. #line:1a70e6
+Dan: es ist noch nicht mal Halloween. #line:5a914b
 ===
 title: DanA3D1_00
 tags: 
@@ -220,12 +220,12 @@ position: -1150,271
 ---
 // tcw, behind diner
 Mae: hey dude! #line:743654
-Dan: hey... you? #line:f75680
-Mae: working here now? #line:a85320
-Dan: yep. sucks. #line:a1f16f
-Dan: but it pays. #line:668985
-Mae: question: how do they fit a kitchen in there? #line:223d9b
-Dan: barely. #line:d9faf2
+Dan: hey... du? #line:f75680
+Mae: arbeitest du jetzt hier? #line:a85320
+Dan: jep. ist scheisse. #line:a1f16f
+Dan: aber es wird bezahlt. #line:668985
+Mae: Frage: wie kriegen sie da eine Kueche rein? #line:223d9b
+Dan: kaum. #line:d9faf2
 
 ===
 title: DanA3D1_01
@@ -233,11 +233,11 @@ tags:
 colorID: 4
 position: -1152,503
 ---
-Mae: What do you do here? #line:5bd36b
-Dan: Grillman and janitor. #line:51fd7c
-Dan: i cook and mop. #line:d72061
-Mae: at the same time? #line:ba5da2
-Dan: yes. #line:3ac598
+Mae: Was machst du denn hier? #line:5bd36b
+Dan: Grillmeister und Hausmeister. #line:51fd7c
+Dan: Ich koche und wische. #line:d72061
+Mae: zur gleichen Zeit? #line:ba5da2
+Dan: ja. #line:3ac598
 ===
 title: DanA4D3_00
 tags: 
@@ -245,19 +245,19 @@ colorID: 6
 position: -885,273
 ---
 // taco
-Mae: so you're a taco dude now? #line:97e9dc
-Dan: i mean i was hired to be a taco artisan. #line:147614
-Dan: but i guess that means holding this sign out in the snow. #line:47f2cb
-Mae: it's not really snowing that hard. #line:3d98f5
-Dan: it's snowing. there is snow in the sky, falling. #line:9a6141
-Mae: how are the tacos here? #line:f6bc88
-Dan: good. i like tacos. #line:d54f68
-Mae: there is not one person on god's earth who doesn't love tacos. #line:24f0a6
-Dan: bad news: my ex hates tacos. #line:ae73b6
-Mae: good news: they're now your ex. #line:15153e
+Mae: Du bist jetzt also ein Taco-Typ? #line:97e9dc
+Dan: ich meine ich wurde eingestellt um ein Taco-Handwerker zu sein. #line:147614
+Dan: aber ich schaetze, das bedeutet, dieses Schild in den Schnee zu halten. #line:47f2cb
+Mae: es schneit nicht wirklich so stark. #line:3d98f5
+Dan: es schneit. da ist Schnee am Himmel, der faellt. #line:9a6141
+Mae: wie sind die Tacos hier? #line:f6bc88
+Dan: gut. ich mag Tacos. #line:d54f68
+Mae: es gibt keinen einzigen Menschen auf Gottes Erde, der keine Tacos liebt. #line:24f0a6
+Dan: schlechte Nachrichten: meine Ex hasst Tacos. #line:ae73b6
+Mae: gute Nachricht: sie sind jetzt deine Ex. #line:15153e
 Dan: heh heh heh #line:8b8408
-Mae: have fun with the tacos. #line:90e683
-Dan: eh. it pays. #line:768c3f
+Mae: viel Spass mit den Tacos. #line:90e683
+Dan: eh. es lohnt sich. #line:768c3f
 <<set $talked_to_dan_about_taco_buck to 1>>
 ===
 title: DanA4D3_01
@@ -267,16 +267,16 @@ position: -881,505
 ---
 Dan: TACO Buck! #line:be250a
 Dan: Dine in, Dine out! #line:0558d8
-Dan: We deliver! #line:ae1ee5
-Dan: Please tip your delivery persons! #line:c8e3ae
-Dan: best tacos in all of this general region. pretty sure. #line:349429
-Dan: been missing the pizza place? #line:c49ec2
-Dan: why not try a pizza taco? #line:56f913
-Mae: oh wow. that sounds amazing. #line:14f6c1
-Dan: watching your health? #line:826bb1
-Dan: try out all-lettuce taco! #line:86d783
-Mae: no. i refuse. #line:54cc23
-Dan: get outta here kid i'm workin'. #line:d488e5
+Dan: Wir liefern! #line:ae1ee5
+Dan: Bitte geben Sie Ihren Zustellern Trinkgeld! #line:c8e3ae
+Dan: die besten tacos in der ganzen region. ziemlich sicher. #line:349429
+Dan: hast du die Pizzeria vermisst? #line:c49ec2
+Dan: warum nicht mal einen Pizza-Taco probieren? #line:56f913
+Mae: oh wow. das klingt unglaublich. #line:14f6c1
+Dan: auf deine Gesundheit achten? #line:826bb1
+Dan: probier mal den Salat-Taco! #line:86d783
+Mae: nein. ich lehne ab. #line:54cc23
+Dan: verschwinde von hier Kind ich arbeite. #line:d488e5
 ===
 title: DanIntro
 tags: 
