@@ -1,0 +1,5 @@
+{
+  "m_Name": "MineWoodsRunAway.yarn",
+  "m_Script": "title: End\ntags: \ncolorID: 5\nposition: 550,263\n---\n<<endDay>>\n===\ntitle: InitLevel\ntags: \ncolorID: 5\nposition: 214,264\n---\n<<set $act to 3>>\n<<set $day to 4>>\n===\n",
+  "m_PathName": ""
+}

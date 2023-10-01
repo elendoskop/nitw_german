@@ -1,0 +1,5 @@
+{
+  "m_Name": "MaeHouseCrawlspace.yarn",
+  "m_Script": "title: ExamineBoxes\ntags: \ncolorID: 0\nposition: 539,260\n---\n<<if $dad_will_move_boxes is 1>>\n    Mae: Finally! Dad's gonna move these. #line:2268d5\n    Mae: i'm gonna crawl back in here and read a book. #line:29dbe6\n    Mae: like old times. #line:32f311\n<<elseif $knows_crawlspace_boxes is 0>>\n    Mae: Ugh. #line:7df15b\n    Mae: since when is the crawlspace all jammed up? #line:d611d1\n    Mae: wonder if dad could move them. #line:9a12fb\n    <<set $knows_crawlspace_boxes to 1>>\n<<else>>\n    Mae: Yeah. Dad put 'em here i bet. #line:52bffb\n    Mae: dad should move 'em. #line:ecfa12\n    Mae: it's only fair!| #line:26c23c\n<<endif>>\n===\n",
+  "m_PathName": ""
+}

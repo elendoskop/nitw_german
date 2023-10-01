@@ -1,0 +1,5 @@
+{
+  "m_Name": "BathroomVandalism.yarn",
+  "m_Script": "title: TryToPressButton\ntags: \ncolorID: 0\nposition: 665,376\n---\n<<fadeOutMusic .1>>\nGregg: Dude! Stop! What the hell! #line:96b811\n===\n",
+  "m_PathName": ""
+}

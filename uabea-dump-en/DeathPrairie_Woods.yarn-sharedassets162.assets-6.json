@@ -1,0 +1,5 @@
+{
+  "m_Name": "DeathPrairie_Woods.yarn",
+  "m_Script": "title: InitLevel\ntags: \ncolorID: 5\nposition: 421,220\n---\n<<set $death_walk to 1>>\n<<playIdleAnimationPlayer>>\n===\ntitle: EnterLevel\ntags: \ncolorID: 5\nposition: 641,235\n---\n<<fadeOut .0001>>\n<<trigger DeathPrairie_Woods FadeIn>>\n<<fadeIn .1>>\n<<wait 3.5>>\n<<trigger Mae DeathPrairieWakeUp>>\n<<wait 9.8>>\n<<hide Mae>>\n<<playerForcePlayIdleAnimation>>\n<<playOneShot event:/deathprairie/mae_fade_in Mae>>\n<<show Mae .3>>\n<<wait .5>>\n===\n",
+  "m_PathName": ""
+}

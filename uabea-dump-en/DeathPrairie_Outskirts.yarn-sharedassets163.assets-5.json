@@ -1,0 +1,5 @@
+{
+  "m_Name": "DeathPrairie_Outskirts.yarn",
+  "m_Script": "title: InitLevel\ntags: \ncolorID: 5\nposition: 540,260\n---\n<<set $death_walk to 1>>\n<<playIdleAnimationPlayer>>\n===\ntitle: EnterLevel\ntags: \ncolorID: 5\nposition: 560,511\n---\n<<fadeIn 1>>\n===\n",
+  "m_PathName": ""
+}

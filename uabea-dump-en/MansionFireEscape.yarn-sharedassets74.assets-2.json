@@ -1,0 +1,5 @@
+{
+  "m_Name": "MansionFireEscape.yarn",
+  "m_Script": "title: EnterLevel\ntags: \ncolorID: 0\nposition: 539,263\n---\n<<setCanInteract Gregg 0>>\n<<set $gregg_iq_mansion to 1>>\n<<runLocatorPath Gregg GreggRunPath>>\n<<wait 3>>\nGregg: Hurry!! #line:8a516f\n===\ntitle: NowhereToGo\ntags: \ncolorID: 0\nposition: 920,322\n---\nMae: Gregg!! #line:65c86c\nMae: Where did you go! #line:e6e3ff\nGregg: The steps just ended! #line:771339\nGregg: You gotta jump!! #line:f26c05\n===\ntitle: Landed\ntags: \ncolorID: 0\nposition: 891,103\n---\n<<playOneShot event:/mae/body/land_hard Mae>>\n<<rumbleBoth 1 1 .5>>\n<<shake .02 0 1>>\n<<close>>\n<<wait 3>>\nMae: Ow. #line:2d006e\n<<close>>\n<<fadeOut 1 wait>>\n<<scene MansionExterior>>\n===\n",
+  "m_PathName": ""
+}

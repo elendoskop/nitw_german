@@ -1,0 +1,5 @@
+{
+  "m_Name": "PawsModeBatteryDisconnect.yarn",
+  "m_Script": "title: Zapped\ntags: \ncolorID: 0\nposition: 891,297\n---\n<<fadeOutMusic .1>>\nMae: {width=4}YAAAAAAAAAAAAAAARGH!!!!!! #line:22e727\nGregg: WHOOOOA!!! #line:dd9989\n<<set $gregg_friendship_quest_2 to 2>>\n<<fadeOut .1 wait>>\n<<scene SharkleDream>>\n===\ntitle: EnterLevel\ntags: \ncolorID: 0\nposition: 244,202\n---\nGregg: Ok, so just grab one of the wires and yank it off! #line:910d6e\nMae: Thanks! I think I can figure it out! #line:f6560a\nMae: Gotta get rid of these leaves first... #line:9f4d8c\n===\n",
+  "m_PathName": ""
+}

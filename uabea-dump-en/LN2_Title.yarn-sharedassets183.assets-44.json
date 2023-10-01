@@ -1,0 +1,5 @@
+{
+  "m_Name": "LN2_Title.yarn",
+  "m_Script": "title: StartGame\ntags: \ncolorID: 0\nposition: 536,234\n---\n<<showTalkingHeads>>\nMae: I'm gonna rob the bank! #line:2a3a77\nGranddad: Ha ha ha. You want to spend longest night in jail? #line:4fba1c\nMae: Gonna rob 'em to death! #line:9e11c5\nMae: They'll never catch me! #line:63822d\nGranddad: There'll be time enough when you're older for felonies and jail. #line:388b95\nMae: What's a felony? #line:bd471a\nGranddad: A bad thing they put you in jail for. #line:e4e6e4\nMae: Not if they don't catch me! #line:a139d6\nGranddad: Ok, how about a story before bedtime? #line:837055\nMae: A Longest Night story! #line:614c3b\nGranddad: Sure! #line:da2e44\nMae: But not a dumb one like Charity Bearity. #line:33f32b\nGranddad: How about a ghost story? #line:c9f572\nMae: Oooooooh. Yeah. #line:bf8e10\nGranddad: Alright then- #line:490706\nMae: I hope lots of people die in it. #line:2899a1\nGranddad: Quiet, kid. I'm starting over here. #line:ec4a29\nGranddad: Long ago, in the hills... #line:339fbe\n<<hideTalkingHeads>>\n<<fadeOut 4 0 0 0>>\n<<fadeOutMusic 6>>\n<<wait 4>>\n<<scene LN2_Snowfield>>\n\n===\n",
+  "m_PathName": ""
+}
