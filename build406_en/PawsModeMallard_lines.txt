@@ -1,0 +1,11 @@
+LineCode,LineText,Comment
+line:ad61f6,MaePaws: Mallard! Sei incinto!,
+line:d739ab,MaePaws: È un miracolo del Signore!,
+line:f8ca8f,MaePaws: Ce l'hai presente quando aspetti un figlio perché è Dio a volerlo?,
+line:347002,"MaePaws: Cazzarola, sei proprio una vecchia canaglia.",
+line:c9458b,MaePaws: Chi è la canaglia migliore del mondo?,
+line:127e66,MaePaws: SEI TU!,
+line:b5230d,MaePaws: Sembri parecchio affamato.,
+line:035272,MaePaws: È per questo che... ehm... non ti muovi?,
+line:ba25d7,MaePaws: Vado a prenderti del cibo!,
+line:29907b,MaePaws: Non morire!!!,

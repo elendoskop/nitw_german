@@ -1,0 +1,17 @@
+0 int state 1
+
+242 int state 2 //4:02
+263 int state 3 //4:23
+290 int state 2 //4:50
+294 int state 3 //4:54
+307 int state 2 //5:07
+309 int state 3 //5:09
+
+315 int state 1 //5:15
+
+505 int state 2 //8:25
+526 int state 3 //8:46
+553 int state 2 //9:13
+557 int state 3 //9:17
+
+566 int state 0 //9:26
