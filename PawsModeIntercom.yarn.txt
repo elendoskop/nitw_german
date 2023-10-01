@@ -6,18 +6,18 @@ position: 236,311
 <<if $act is 1 and $day is 2>>
     <<if $laptop_fixed is 0>>
         Intercom: *CLICK* #line:44699f
-        Angus: Hello? #line:f64f94
+        Angus: Hallo? #line:f64f94
         Mae: AAAAGH!!! #line:501864
-        Angus: Who is this? #line:2c3aed
-        Mae: Hi! It's Mae. #line:096c11
+        Angus: Wer ist das? #line:2c3aed
+        Mae: Hallo! Ich bin's, Mae. #line:096c11
         Angus: Mae? #line:c8f064
-        Mae: Yeah Mae. #line:938d11
-        Mae: I just got electrocuted! #line:3d1ca0
-        Angus: Oh yeah it's fiddly. #line:c59da9
-        Mae: there's no button! #line:93b02a
-        Angus: yeah you can like stick a screwdriver in and #line:41c5c5
-        Angus: well it's too late now. #line:641eca
-        Angus: Uh... come on up! #line:5e0c3c
+        Mae: Ja Mae. #line:938d11
+        Mae: Ich habe gerade einen Stromschlag bekommen! #line:3d1ca0
+        Angus: Oh ja, das ist fummelig. #line:c59da9
+        Mae: Da ist kein Knopf! #line:93b02a
+        Angus: ja, man kann einen Schraubenzieher reinstecken und #line:41c5c5
+        Angus: nun, jetzt ist es zu spaet. #line:641eca
+        Angus: Aeh...komm hoch! #line:5e0c3c
         Intercom: *CLICK* #line:d55655
         <<close>>
         [[TakeElevator]]
@@ -31,16 +31,16 @@ position: 21,308
 ---
 <<if $intercom_1 is 0>>
     Intercom: *CLICK* #line:bebdf0
-    Intercom: Hello? Hello?!? #line:315f78
-    Mae: Hello. #line:ee1a92
-    Mae: You're not Angus. #line:19eeb5
-    Intercom: Who is this? #line:48775e
-    Intercom: Who are you? #line:d5f4ba
+    Intercom: Hallo? Hallo?!? #line:315f78
+    Mae: Hallo. #line:ee1a92
+    Mae: Du bist nicht Angus. #line:19eeb5
+    Intercom: Wer ist denn da? #line:48775e
+    Intercom: Wer sind Sie? #line:d5f4ba
     Mae: Mae Borowski. #line:c9a26e
-    Intercom: What are you selling? #line:03157c
-    Mae: do you get a lot of people selling you stuff? #line:55cd65
-    Intercom: Hello? #line:68ab06
-    Intercom: *CLICK* #line:83a279
+    Intercom: Was verkaufst du denn? #line:03157c
+    Mae: bekommen Sie viele Leute, die Ihnen Sachen verkaufen? #line:55cd65
+    Intercom: Hallo? #line:68ab06
+    Intercom: *KLICK* #line:83a279
     <<set $intercom_1 += 1>>
 <<endif>>
 ===
@@ -50,15 +50,15 @@ colorID: 0
 position: 463,303
 ---
 <<if $intercom_3 is 0>>
-    Intercom: *CLICK* #line:f1cd38
+    Intercom: *KLICK* #line:f1cd38
     Intercom: MMMMMMyes? #line:36787f
-    Mae: uh. Hi, Angus? #line:118d8c
-    Intercom: AAAAAAaaaangus, you say? #line:c8a85f
-    Mae: Dude. It's Mae. #line:a13a37
-    Intercom: Tellllll me about yourself, Mabelynne #line:3e62f4
-    Mae: This isn't Angus. #line:279c77
-    Intercom: Woooould you like it to be? #line:c2bef9
-    Mae: Nope! Bye! #line:46ca38
+    Mae: aeh. Hi, Angus? #line:118d8c
+    Intercom: AAAAAAaaaangus, sagst du? #line:c8a85f
+    Mae: Kumpel. Ich heisse Mae. #line:a13a37
+    Intercom: Erzaehl mir von dir, Mabelynne #line:3e62f4
+    Mae: Das ist nicht Angus. #line:279c77
+    Intercom: Wooollst du es denn sein? #line:c2bef9
+    Mae: Noe! Bye! #line:46ca38
     Intercom: *CLICK* #line:4845b4
     <<set $intercom_3 += 1>>
 <<endif>>
@@ -74,10 +74,10 @@ position: 703,323
     Mae: Mae. #line:5bfaa9
     Mae: Angus? #line:807ac0
     Intercom: Mae? #line:7a6742
-    Mae: Yeah! #line:57d611
-    Mae: You're not Angus. #line:fdea9e
-    Intercom: And you ain't Maurice. #line:ef1730
-    Mae: Well I'm glad we sorted that out. #line:0fb2b7
+    Mae: Ja! #line:57d611
+    Mae: Du bist nicht Angus. #line:fdea9e
+    Intercom: Und du bist nicht Maurice. #line:ef1730
+    Mae: Nun, ich bin froh, dass wir das geklaert haben. #line:0fb2b7
     Intercom: *CLICK* #line:45ad2a
     <<set $intercom_4 += 1>>
 <<endif>>
@@ -88,24 +88,24 @@ colorID: 0
 position: 939,298
 ---
 <<if $intercom_5 is 0>>
-    Intercom: *CLICK* #line:679592
-    Mae: Hello? Angus? #line:19fce6
-    Intercom: Are you searching, my child? #line:b05348
-    Mae: Yeah. #line:156bd4
-    Mae: For Angus. #line:27763e
-    Intercom: You can search all you like for your Angus #line:0d7840
-    Intercom: Everyone has a different Angus #line:6d757a
-    Intercom: For some, Angus is a happy marriage #line:04824b
-    Intercom: For some, a good career #line:a8111a
-    Intercom: For some, a fancy car #line:47c7db
-    Mae: My Angus is a guy named Angus. Lives here. #line:415422
-    Intercom: My child, no Angus will ever compare #line:a0822f
-    Intercom: to the one true Angus, The Lord God Above. #line:e76d5d
+    Intercom: *KLICK* #line:679592
+    Mae: Hallo? Angus? #line:19fce6
+    Intercom: Bist du auf der Suche, mein Kind? #line:b05348
+    Mae: Ja. #line:156bd4
+    Mae: Fuer Angus. #line:27763e
+    Intercom: Du kannst nach deinem Angus suchen wie du willst #line:0d7840
+    Intercom: Jeder hat einen anderen Angus #line:6d757a
+    Intercom: Fuer manche ist Angus eine glueckliche Ehe #line:04824b
+    Intercom: Fuer manche, eine gute Karriere #line:a8111a
+    Intercom: Fuer manche, ein schickes Auto #line:47c7db
+    Mae: Mein Angus ist ein Typ namens Angus. Er wohnt hier. #line:415422
+    Intercom: Mein Kind, kein Angus wird jemals vergleichbar #line:a0822f
+    Intercom: mit dem einzig wahren Angus, dem Herrn Gott oben. #line:e76d5d
     Mae: oooook. #line:a89874
-    Intercom: Dear, have you encountered god this day? #line:179ed9
-    Mae: look, my mom works at the church. #line:9277e5
-    Mae: I'm in the club by default. #line:81ff84
-    Intercom: *CLICK* #line:747441
+    Intercom: Liebes, bist du heute Gott begegnet? #line:179ed9
+    Mae: Schau, meine Mutter arbeitet in der Kirche. #line:9277e5
+    Mae: Ich bin standardmaessig im Club. #line:81ff84
+    Intercom: *KLICK* #line:747441
     <<set $intercom_5 += 1>>
 <<endif>>
 ===
@@ -115,20 +115,20 @@ colorID: 0
 position: 1170,310
 ---
 <<if $intercom_6 is 0>>
-    Intercom: *CLICK* #line:246371
-    Intercom: Hello. #line:554d36
-    Mae: Hello? #line:1a294d
-    Intercom: Hello. #line:a15fd0
-    Mae: I'm looking for Angus? #line:174204
-    Mae: Any idea where Angus lives? #line:8d10a1
-    Intercom: I believe he is at number 2. #line:2f422b
-    Intercom: Written on the button I think. #line:a81138
-    Mae: It looks... uh... broken. #line:921fe9
-    Intercom: I think the little guy he lives with kicked it in. #line:9973f4
+    Intercom: *KLICK* #line:246371
+    Intercom: Hallo. #line:554d36
+    Mae: Hallo? #line:1a294d
+    Intercom: Hallo. #line:a15fd0
+    Mae: Ich suche nach Angus? #line:174204
+    Mae: Hast du eine Ahnung, wo Angus wohnt? #line:8d10a1
+    Intercom: Ich glaube, er ist in Nummer 2. #line:2f422b
+    Intercom: Auf dem Knopf geschrieben, glaube ich. #line:a81138
+    Mae: Es sieht... aeh... kaputt aus. #line:921fe9
+    Intercom: Ich glaube, der kleine Kerl, bei dem er wohnt, hat ihn eingetreten. #line:9973f4
     Mae: Gregg? #line:ce101b
-    Intercom: or something. #line:7e1ea9
-    Mae: how...? #line:cbb7d0
-    Intercom: Beats me, kid. I just live here. #line:13fe4c
+    Intercom: oder so. #line:7e1ea9
+    Mae: wie...? #line:cbb7d0
+    Intercom: Keine Ahnung, Junge. Ich wohne einfach hier. #line:13fe4c
     Intercom: *CLICK* #line:461aae
     <<set $intercom_6 += 1>>
 <<endif>>
@@ -148,6 +148,6 @@ tags:
 colorID: 0
 position: 240,84
 ---
-Mae: What? There's no... button? #line:22fddb
-Mae: Hmm... There's gotta be some way to make this work... #line:1c0ce6
+Mae: Was ist? Da ist kein... Knopf? #line:22fddb
+Mae: Hmm... Es muss doch einen Weg geben, das zum Laufen zu bringen... #line:1c0ce6
 ===

@@ -141,7 +141,7 @@ Mae: Ihr seid alle wie 14 Jahre alte Gruftis. Warum beantworte ich das? #line:f1
 	Mae: auf dem Weg in die Stadt #line:f6cd67
 	Mae: auf dem Spielplatz... dieses alte Schiff #line:45aa48
 	Mae: wie hast du...? #line:b977a6
-	[[Schiffswrack]]
+	[[Shipwreck]]
 ->der Geist #line:3df4da
 ->der gebrochene Pfeil #line:f688c2
 Britt: Falsch #line:66ac39

@@ -15,7 +15,7 @@ tags:
 colorID: 0
 position: 244,202
 ---
-Gregg: Ok, so just grab one of the wires and yank it off! #line:910d6e
-Mae: Thanks! I think I can figure it out! #line:f6560a
-Mae: Gotta get rid of these leaves first... #line:9f4d8c
+Gregg: Ok, also nimm einfach eines der Kabel und zieh es ab! #line:910d6e
+Mae: Danke! Ich denke, ich kann es herausfinden! #line:f6560a
+Mae: Ich muss erst diese Blaetter loswerden... #line:9f4d8c
 ===

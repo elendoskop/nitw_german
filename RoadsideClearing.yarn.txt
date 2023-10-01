@@ -32,39 +32,39 @@ position: 520,313
 //<<waitForMove Mae>>
 
 Mae: ooof. #line:b8bf30
-Gregg: this thing is gonna really freak some kids out #line:27e78e
-Mae: yeah dude. #line:32e9d1
-Mae: they’re gonna tell stories about this thing #line:dad2eb
-Mae: they’ll never know what it is or how it got here #line:5578db
-Angus: you guys sure you’re ok with it? #line:da2f2a
-Gregg: yeah. This is a good home for it. #line:8fde6d
-Mae: Leave it for the kids. #line:5673ea
-Mae: Let it be a legend. #line:d7a456
-Gregg: Hm. Yeah. #line:a22ea8
-Mae: too bad it didn't fall on you. #line:fabe77
-Gregg: too bad you didn't get your arm caught in the gears. #line:5b5465
-Angus: too bad both of you didn't get trapped in the car #line:0875a1
-Angus: after a wreck #line:d6b5a3
-Angus: and explode all over the road #line:f0f10a
-Angus: and have to be scraped up #line:9ca1e9
-Angus: with a snow shovel. #line:7206fd
-Mae: nice. #line:515a76
-Gregg: decent, cap'n. #line:a7f034
+Gregg: dieses Ding wird ein paar Kinder wirklich zum Ausflippen bringen #line:27e78e
+Mae: Ja, Alter. #line:32e9d1
+Mae: sie werden Geschichten ueber dieses Ding erzaehlen #line:dad2eb
+Mae: sie werden nie wissen, was es ist oder wie es hierher kam #line:5578db
+Angus: seid ihr sicher, dass es fuer euch in Ordnung ist? #line:da2f2a
+Gregg: Ja. Das ist ein gutes Zuhause fuer es. #line:8fde6d
+Mae: Lass es fuer die Kinder. #line:5673ea
+Mae: Lass es eine Legende sein. #line:d7a456
+Gregg: Hm. Ja. #line:a22ea8
+Mae: Schade, dass es nicht auf dich gefallen ist. #line:fabe77
+Gregg: zu schade, dass du dir nicht den Arm in den Zahnraedern eingeklemmt hast. #line:5b5465
+Angus: zu schade, dass ihr nicht beide im Auto eingeklemmt wurdet #line:0875a1
+Angus: nach einem Wrack #line:d6b5a3
+Angus: und auf der ganzen Strasse explodieren #line:f0f10a
+Angus: und muessen dann weggekratzt werden #line:9ca1e9
+Angus: mit einer Schneeschaufel. #line:7206fd
+Mae: schoen. #line:515a76
+Gregg: anstaendig, Kaept'n. #line:a7f034
 Angus: heh heh. #line:2377c3
 <<close>>
 <<wait 3>>
-Angus: alright, well #line:1d08ac
-Gregg: moooving on... #line:b506de
+Angus: in Ordnung, gut #line:1d08ac
+Gregg: weiter geht's... #line:b506de
 <<close>>
 //they start walking offscreen to the right.
 <<walk Angus AngusNextToGregg>>
-Mae: yep. #line:1ba75c
+Mae: jep. #line:1ba75c
 <<close>>
 <<waitForMove Angus>>
 <<walk Angus AngusOffRight>>
 <<walk Gregg GreggOffRight>>
 <<wait 6>>
-Mae: goodbye. #line:3f1f27
+Mae: auf Wiedersehen. #line:3f1f27
 <<close>>
 <<walk Mae MaeOffRight>>
 <<waitForMove Mae>>

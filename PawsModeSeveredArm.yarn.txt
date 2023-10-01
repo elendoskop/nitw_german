@@ -4,12 +4,12 @@ colorID: 0
 position: 370,-88
 ---
 <<set $diner to 2>>
-Angus: Mae, this is like, tampering with evidence. #line:8c8b8e
-Bea: Ugh. Am I going to have to start worrying #line:3fce88
-Bea: about getting dismembered on my way home? #line:0c52ae
-Gregg: Shh. I wanna watch this. #line:85ddcc
-Bea: You don’t need your ears to watch. #line:d34221
-Gregg: SHHHHHHHHHH! #line:90a17a
+Angus: Mae, das ist wie eine Manipulation von Beweisen. #line:8c8b8e
+Bea: Ugh. Muss ich mir jetzt Sorgen machen #line:3fce88
+Bea: darueber, dass ich auf dem Heimweg zerstueckelt werde? #line:0c52ae
+Gregg: Psst. Ich will das sehen. #line:85ddcc
+Bea: Du brauchst deine Ohren nicht zum Gucken. #line:d34221
+Gregg: SHHHHHHHHH! #line:90a17a
 ===
 title: CopsArrive
 tags: 
@@ -17,7 +17,7 @@ colorID: 0
 position: 750,239
 ---
 <<fadeOutMusic 1>>
-Molly: Now what's going on here! #line:845fbc
+Molly: Was ist denn jetzt hier los! #line:845fbc
 Gregg: [shake=.05]Uh oh![/shake] #line:f70f21
 <<fadeOut 1>>
 <<wait 1>>
@@ -28,15 +28,15 @@ tags:
 colorID: 0
 position: 367,205
 ---
-Mae: Whoa. What’s that? #line:86b1f0
-Gregg: Some kind of mark. #line:183fa7
-Mae: What? #line:861f10
-Bea: Is that a tattoo? #line:404896
-Angus: That’s a tattoo. #line:063055
-Mae: What is it? #line:debdb4
-Gregg: I think you just sleuthed out a clue, dude. #line:30980d
-Bea: Oh for eff’s sake you two. #line:e620bd
-Angus: Here come the cops. #line:a8481c
+Mae: Whoa. Was ist das denn? #line:86b1f0
+Gregg: Eine Art Zeichen. #line:183fa7
+Mae: Was ist das? #line:861f10
+Bea: Ist das ein Tattoo? #line:404896
+Angus: Das ist ein Tattoo. #line:063055
+Mae: Was ist das? #line:debdb4
+Gregg: Ich glaube, du hast gerade einen Hinweis entdeckt, Kumpel. #line:30980d
+Bea: Oh, verdammt noch mal, ihr zwei. #line:e620bd
+Angus: Da kommen die Bullen. #line:a8481c
 <<set $found_tattoo to 1>>
 [[CopsArrive]]
 ===

@@ -26,7 +26,7 @@ position: 500,267
 <<fadeOutMusic 10>>
 Bea: Ok #line:6bc54b
 Mae: Ok #line:07b182
-Bea: I’ll count to 3. #line:7e1b6d
+Bea: Ich werde bis 3 zaehlen. #line:7e1b6d
 Mae: Ok. #line:0a85b0
 Bea: 1 #line:473154
 Bea: 2 #line:3eea16

@@ -62,31 +62,31 @@ position: -1015,680
 <<walk Mae GreggFQ1Mae1>>
 <<walk Gregg GreggFQ1Gregg1 1>>
 <<wait 1>>
-Gregg: And they found him out in the back of the junkyard! #line:84d577
+Gregg: Und sie haben ihn hinten auf dem Schrottplatz gefunden! #line:84d577
 <<close>>
 <<wait .5>>
 
 <<waitForMove Gregg>>
 
-Mae: That's upsetting.  #line:3d3707
-Gregg: He'd been there for a while. #line:9cf991
-Mae: This is depressing. :\ =_= #line:924b69
-Gregg: Really?  #line:ab868e
-Gregg: I just thought it was like super raaaawwww.:) #line:8c1de7
-Mae: No, I mean the abandoned Food Donkey. o_o #line:03e63b
-Gregg: Yeah I know, right? It was a shock. :| #line:b1febc
+Mae: Das ist aergerlich.  #line:3d3707
+Gregg: Er war schon eine Weile dort. #line:9cf991
+Mae: Das ist deprimierend. #line:924b69
+Gregg: Wirklich?  #line:ab868e
+Gregg: Ich dachte nur, es waere super raaaawwww.:) #line:8c1de7
+Mae: Nein, ich meine den verlassenen Essensesel. o_o #line:03e63b
+Gregg: Ja, ich weiss, nicht wahr? Es war ein Schock. :| #line:b1febc
 <<rotateHead Mae -10 .5>>
-Mae: I think in 2nd grade we colored pictures for thanksgiving. :| o> #line:65a81b
-Mae: and they were like Food Donkey themed. #line:c9b407
+Mae: Ich glaube, in der 2. Klasse haben wir Bilder fuer Thanksgiving gemalt. :| o> #line:65a81b
+Mae: und sie waren wie Food Donkey thematisiert. #line:c9b407
 <<lookUp Mae>>
-Mae: and they put them up on these windows. #line:08c647
-Gregg: I remember that! #line:019da0
+Mae: und sie haengten sie an diese Fenster. #line:08c647
+Gregg: Daran erinnere ich mich! #line:019da0
 <<lookNearest Mae>>
-Gregg: It was a donkey dressed up as a turkey! #line:84ab4c
+Gregg: Es war ein Esel, der als Truthahn verkleidet war! #line:84ab4c
 <<lookOut Mae>>
 <<dilate Mae .85 1>>
-Mae: Yeah! Horrifying! :< #line:235af5
-Gregg: Really, really horrible. #line:fb1945
+Mae: Ja! Schrecklich! :< #line:235af5
+Gregg: Wirklich, wirklich furchtbar. #line:fb1945
 Mae: :| _o_ #line:0e8960
 <<close>>
 <<cameraLookAt GreggFollow 1>>
@@ -101,9 +101,9 @@ Mae: :| _o_ #line:0e8960
 <<extraZoom -5 7>>
 <<cameraLookAt GreggFQ1Focal 7>>
 <<lookLeft Gregg>>
-Mae: What did they do with all the food? #line:11eb5c
-Gregg: Donkey-turkeys got 'em. #line:cd961d
-Mae: Donkturks. #line:d45b3f
+Mae: Was haben sie mit dem ganzen Essen gemacht? #line:11eb5c
+Gregg: Die Esel-Tuerken haben sie erwischt. #line:cd961d
+Mae: Doenertuerken. #line:d45b3f
 <<lookNearest Gregg>>
 Gregg: Durnkeys. #line:863de7
 <<close>>
@@ -111,29 +111,29 @@ Gregg: Durnkeys. #line:863de7
 <<waitForMove Mae>>
 <<wait .5>>
 <<lookRight Gregg>>
-Mae: So what are we doing here? #line:946c35
-Gregg: CRIMES. =_= #line:8d279b
-Mae: Ok I'm like double-in now. :)  #line:852d51
-Gregg: I've been livin' too clean, Mae. #line:b1bf01
-Mae: Damn right. =_= <o> #line:c58032
-Gregg: We run this town. #line:caabfd
-Mae: Why don't we go in? o_o :| #line:fca771
+Mae: Und was machen wir hier? #line:946c35
+Gregg: VERBRECHEN. =_= #line:8d279b
+Mae: Ok, ich bin jetzt sozusagen doppelt drin :)  #line:852d51
+Gregg: Ich habe zu sauber gelebt, Mae. #line:b1bf01
+Mae: Verdammt richtig. =_= <o> #line:c58032
+Gregg: Wir regieren diese Stadt. #line:caabfd
+Mae: Warum gehen wir nicht rein? o_o :| #line:fca771
 Gregg: O_O D: \o/ #line:7cf6d5
 Gregg: HEY!!!!! #line:8f14c0
 <<close>>
 <<wait 1>>
-Mae: What the hell are you doing? _o_ #line:b8172e
+Mae: Was zum Teufel machst du da? _o_ #line:b8172e
 Gregg: o_o :| #line:a96adc
-Gregg: I think I... yeah cool I got his attention. #line:a1e74e
-Mae: What? #line:a80b2f
+Gregg: Ich glaube, ich... ja cool, ich habe seine Aufmerksamkeit. #line:a1e74e
+Mae: Was ist? #line:a80b2f
 <<close>>
 
 <<wait 1>>
 Gregg: _o_ #line:12f440
-Gregg: Aw yeah here he comes. #line:1c1d60
-Mae: Who? #line:d2502b
-Gregg: You don't know him I don't think. #line:b6f5c7
-Mae: Try me. #line:c9963f
+Gregg: Oh ja, da kommt er. #line:1c1d60
+Mae: Wer? #line:d2502b
+Gregg: Du kennst ihn nicht, glaube ich. #line:b6f5c7
+Mae: Versuch's doch mal. #line:c9963f
 <<close>>
 
 <<trackAllSpeechBubblesToCharacters 0>>
@@ -148,77 +148,77 @@ colorID: 0
 position: -1483,452
 ---
 <<lookAt Molly Mae>>
-Molly: What were you doing out here last night? #line:132996
-    -> I saw someone kidnap someone. Like, a kid. #line:6cec57
+Molly: Was hast du gestern Abend hier draussen gemacht? #line:132996
+    -> Ich habe gesehen, wie jemand jemanden entfuehrt hat. So was wie ein Kind. #line:6cec57
         <<wait .5>>
-    -> What were YOU doing out here last night? #line:aa3974
-        Molly: Vagrants. Reports of. #line:0009a7
-        Molly: That's why #line:561fb3
+    -> Was hast DU gestern Abend hier draussen gemacht? #line:aa3974
+        Molly: Landstreicher. Berichte von. #line:0009a7
+        Molly: Das ist der Grund fuer #line:561fb3
         //(waves hand at council)
-        Molly: all this. #line:930906
-        Molly: might've just been someone saw you out here. #line:8d9c59
-        Molly: Your turn #line:6dfa97
-        Mae: I saw a kidnapping. #line:1605b8
-Molly: Tell me what you saw again? #line:71450b
-Mae: Someone in a big old coat with someone over their back. #line:82a5c9
+        Molly: all dies. #line:930906
+        Molly: Vielleicht hat dich ja jemand hier draussen gesehen. #line:8d9c59
+        Molly: Du bist dran #line:6dfa97
+        Mae: Ich habe eine Entfuehrung gesehen. #line:1605b8
+Molly: Sag mir noch mal, was du gesehen hast? #line:71450b
+Mae: Jemanden in einem grossen alten Mantel mit jemandem ueber dem Ruecken. #line:82a5c9
 Molly: Uh huh. #line:4c4122
-Molly: And you chased them down here? #line:979c6f
-Mae: Yeah and I got to the fence and they were up in the woods. #line:291d3a
-Molly: Alright. Thank you, Mae. #line:de7646
-Mae: Ugh. I knew you were just gonna brush this off. #line:232c68
-Molly: Mae, there's been no missing person reports. #line:4d02ec
-Molly: That *tends* to happen when a kid goes missing from something like Harfest. #line:f7addb
-Molly: Hell, I got 6 calls about kids out too late. #line:b809b6
-Molly: There would be a report. #line:eb3a90
-Mae: I'M REPORTING!! This! This right here! This is a report! #line:cccb36
-Molly: Mae, there's no break in the fence. #line:e0da91
-Mae: So? #line:8f7676
-Molly: So unless someone could jump this thing... #line:86ef66
-Molly: while carrying a teenager... #line:22e9fc
-Molly: who hasn't been reported as missing... #line:ad90ec
+Molly: Und du hast sie hierher gejagt? #line:979c6f
+Mae: Ja, und ich kam zum Zaun und sie waren oben im Wald. #line:291d3a
+Molly: In Ordnung. Ich danke dir, Mae. #line:de7646
+Mae: Ugh. Ich wusste, du wuerdest das einfach abtun. #line:232c68
+Molly: Mae, es gab keine Vermisstenmeldungen. #line:4d02ec
+Molly: Das passiert *meistens*, wenn ein Kind von so etwas wie dem Harfest verschwindet. #line:f7addb
+Molly: Verdammt, ich habe 6 Anrufe wegen Kindern bekommen, die zu lange weg waren. #line:b809b6
+Molly: Es wuerde einen Bericht geben. #line:eb3a90
+Mae: ICH BERICHTE!!! Das hier! Genau das hier! Das ist ein Bericht! #line:cccb36
+Molly: Mae, da ist kein Loch im Zaun. #line:e0da91
+Mae: Na und? #line:8f7676
+Molly: Also, wenn nicht jemand ueber dieses Ding springen kann... #line:86ef66
+Molly: waehrend er einen Teenager traegt... #line:22e9fc
+Molly: der noch nicht als vermisst gemeldet wurde... #line:ad90ec
 Mae: ... #line:20492a
-Molly: Any theories, Mae? #line:66def8
+Molly: Irgendwelche Theorien, Mae? #line:66def8
 Mae: ... #line:599271
-    -> No. #line:71b70c
-    -> They could've gone around the fence! #line:073d95
-        Molly: I dunno Mae, #line:28c91a
-        Molly: this fence goes out along the parking lots #line:579398
-        Molly: almost to the tracks. #line:48551c
-        Molly: For you to be right behind them, #line:ba6c86
-        Molly: and then to be miraculously on the other side of the fence? #line:676ee7
+    -> Nein. #line:71b70c
+    -> Sie haetten um den Zaun herumgehen koennen! #line:073d95
+        Molly: Ich weiss nicht, Mae, #line:28c91a
+        Molly: dieser Zaun geht an den Parkplaetzen entlang #line:579398
+        Molly: fast bis zu den Gleisen. #line:48551c
+        Molly: Damit du direkt hinter ihnen sein kannst, #line:ba6c86
+        Molly: und dann auf wundersame Weise auf der anderen Seite des Zaunes zu sein? #line:676ee7
         Mae: UUUUUUUUURGH. #line:dc0473
-Molly: I was running around half the night #line:94628d
-Molly: getting after teenage bullshit #line:3707e8
-Molly: and people scared of clotheslines and noises. #line:f2244b
-Mae: I- you- y-you- aaaargh!!! #line:2422a7
-Mae: Are you *TRYING* to kick off a horror movie? #line:57859a
-Mae: No one believes the girl who saw the ghost! #line:b4a644
-Mae: Well, I have bad news for you- #line:8b6265
-Mae: THE COP ALWAYS DIES. #line:fa510b
-Molly: I'm sorry, we're talking about a “GHOST” now? #line:42d39d
-Mae: It must've gone through the fence?? #line:207abe
-Molly: Really, Mae? #line:804da1
-Mae: No! Yes! I don't know! #line:c37108
-Mae: I'm really tired. #line:84dec7
-Molly: Yeah that's kinda what I thought. #line:c5f153
+Molly: Ich bin die halbe Nacht rumgerannt #line:94628d
+Molly: hinter Teenager-Schwachsinn her #line:3707e8
+Molly: und Leute, die Angst vor Waescheleinen und Geraeuschen haben. #line:f2244b
+Mae: Ich- du- du- du- aaaargh!!! #line:2422a7
+Mae: Willst du *TRYING* einen Horrorfilm starten? #line:57859a
+Mae: Keiner glaubt dem Maedchen, das den Geist gesehen hat! #line:b4a644
+Mae: Nun, ich habe schlechte Nachrichten fuer dich- #line:8b6265
+Mae: DER POLIZIST STIRBT IMMER. #line:fa510b
+Molly: Es tut mir leid, wir reden jetzt ueber ein "GHOST"? #line:42d39d
+Mae: Es muss durch den Zaun gegangen sein? #line:207abe
+Molly: Wirklich, Mae? #line:804da1
+Mae: Nein! Doch! Ich weiss es nicht! #line:c37108
+Mae: Ich bin wirklich muede. #line:84dec7
+Molly: Ja, das habe ich mir auch schon gedacht. #line:c5f153
 <<close>>
 <<lookNearest Molly>>
 <<walk Molly MollyToRight wait>>
-Mae: Will you at least check the woods? #line:246f85
+Mae: Kannst du wenigstens im Wald nachsehen? #line:246f85
 <<lookAt Molly Mae>>
-Molly: Mae, me and Dan McConnell were up there this morning #line:1a4674
-Molly: because of what YOU said last night. #line:cbbb37
-Molly: From the fence up to the old mine. #line:fccb09
-Molly: We found a couple teenagers on a gross mattress, #line:324f05
-Molly: we saw some worried-looking deer, #line:dd75e1
-Molly: and one deer hunter out too early. #line:234a0e
-Mae: That can't be it. #line:dd1faa
-Molly: That is it. #line:a88ec6
+Molly: Mae, ich und Dan McConnell waren heute morgen dort oben #line:1a4674
+Molly: wegen dem, was DU gestern Abend gesagt hast. #line:cbbb37
+Molly: Vom Zaun bis zur alten Mine. #line:fccb09
+Molly: Wir haben ein paar Teenager auf einer ekligen Matratze gefunden, #line:324f05
+Molly: wir sahen einige besorgt aussehende Rehe, #line:dd75e1
+Molly: und einen Hirschjaeger, der zu frueh unterwegs war. #line:234a0e
+Mae: Das kann es nicht sein. #line:dd1faa
+Molly: Das ist es. #line:a88ec6
 <<close>>
 <<walk Molly MollyOffRight wait>>
 <<hide Molly>>
 <<hide CopCar>>
-Mae: THE COP ALWAYS DIES! #line:72bfdb
+Mae: DER BULLE STIRBT IMMER! #line:72bfdb
 ===
 title: PreInitLevel
 tags: 
@@ -251,8 +251,8 @@ position: -469,705
 ---
 <<playMusic after_kidnapping>>
 <<run Mae MaePastFoodDonkey wait>>
-Mae: *pant pant* #line:26bd61
-Mae: where the hell did he go? #line:146826
+Mae: *Hosenschluepfer* #line:26bd61
+Mae: wo zum Teufel ist er hin? #line:146826
 <<playOneShot event:/harfest/chain_fence_clang ChainFenceSFX>>
 Mae: Shiiiit. #line:a44eac
 <<close>>
@@ -280,23 +280,23 @@ position: -207,586
 <<walk Molly MollyToRight wait>>
 <<lookAt Molly Mae>>
 Molly: Mae. #line:6a0776
-Molly: Go home. #line:59dcaf
+Molly: Geh nach Hause. #line:59dcaf
 <<lookNearest Molly>>
 <<hide EideHarfestStand>>
-Mae: There's a guy up there on the hill! #line:f4ad8a
-Mae: he stole some kid? #line:4f4752
-Mae: he looked like a ghost! #line:6eb0b3
+Mae: Da oben auf dem Huegel ist ein Typ! #line:f4ad8a
+Mae: er hat ein Kind gestohlen? #line:4f4752
+Mae: er sah aus wie ein Geist! #line:6eb0b3
 //molly shines a light up//
-Molly: a ghost, huh? #line:77075e
-Mae: Or something like that? #line:4727f4
+Molly: ein Geist, hm? #line:77075e
+Mae: Oder so aehnlich? #line:4727f4
 //molly shines light back at mae//
-Molly: Mae, you shouldn't be out here #line:b8a05e
-Molly: doing whatever it is you're doing. #line:c0a5f2
-Mae: NO! NO ONE SHOULD BE OUT HERE! #line:c5e56a
-Mae: But there's this guy- #line:c717e8
-Molly: I'll drive you home, Mae. #line:75459b
-Mae: NO! #line:2c344c
-Molly: MAE! NOW. #line:041410
+Molly: Mae, du solltest nicht hier draussen sein #line:b8a05e
+Molly: und tun, was auch immer du gerade tust. #line:c0a5f2
+Mae: NEIN! KEINER SOLLTE HIER DRAUSSEN SEIN! #line:c5e56a
+Mae: Aber da ist dieser Kerl- #line:c717e8
+Molly: Ich werde dich nach Hause fahren, Mae. #line:75459b
+Mae: NEIN! #line:2c344c
+Molly: MAE! JETZT! #line:041410
 <<close>>
 <<irisOut 1 wait>>
 <<set $harfest_costume to 0>>
@@ -318,10 +318,10 @@ tags: cut
 colorID: 5
 position: 690,408
 ---
-Mae: We're saying goodbye to each other after the well woods. #line:8c9e5a
-Angus: Yes. #line:e0165e
-Gregg: Yes. #line:8d162d
-Bea: Yes. #line:9ffb88
+Mae: Wir verabschieden uns nach dem Brunnenwald voneinander. #line:8c9e5a
+Angus: Ja. #line:e0165e
+Gregg: Ja. #line:8d162d
+Bea: Ja. #line:9ffb88
 <<close>>
 <<irisOut 1 wait>>
 <<scene MaeHouse left>>
@@ -356,10 +356,10 @@ position: -12,165
     <<walk Bea WalkUpEndBea>>
     <<walk Mae WalkUpEndMae>>
     <<walk Gregg WalkUpEndGregg>>
-    Mae: We're talking about walking to the woods. #line:a36df0
-    Bea: Talking and walking. #line:d4b3a9
-    Angus: Yes we are. #line:abc5b8
-    Gregg: Indeed. #line:e2ce10
+    Mae: Wir reden davon, in den Wald zu gehen. #line:a36df0
+    Bea: Reden und gehen. #line:d4b3a9
+    Angus: Ja, das sind wir. #line:abc5b8
+    Gregg: In der Tat. #line:e2ce10
     <<set $walking_up_to_the_woods to 0>>
     <<fadeOut 1 wait>>
     <<scene MineWoods>>
@@ -370,19 +370,19 @@ tags:
 colorID: 0
 position: -939,-258
 ---
-Mae: how did he get over this thing? #line:0e82a5
-Mae: i can’t jump that. No way he could have. #line:8bd861
-Mae: there’s no hole. #line:4b8a13
-Mae: how did he do it? #line:881d81
+Mae: Wie ist er ueber diese Sache hinweggekommen? #line:0e82a5
+Mae: Ich kann da nicht drueberspringen. Das haette er nicht gekonnt. #line:8bd861
+Mae: da ist kein Loch. #line:4b8a13
+Mae: wie hat er das gemacht? #line:881d81
 ===
 title: FarLeftFence.2
 tags: 
 colorID: 0
 position: -697,-261
 ---
-Mae: i mean i guess he could really be a ghost #line:89f906
-Mae: i think he’s a ghost #line:b8ba65
+Mae: ich meine, ich denke, er koennte wirklich ein Geist sein #line:89f906
+Mae: ich glaube er ist ein Geist #line:b8ba65
 Mae: ugh. #line:b742e3
-Mae: ...what’s out there? #line:8e7922
+Mae: ...was ist da draussen? #line:8e7922
 <<end>>
 ===

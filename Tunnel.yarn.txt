@@ -30,10 +30,10 @@ position: 7053,-8551
 ---
 <<if $tunnel_teens_no_talk is 1>>
     <<set $tunnel_teens_no_talk to 1>>
-    Mae: I’m gonna need some kind of teen interpreter #line:1b6f23
-    Mae: if I’m gonna come down here. #line:272291
-    Mae: My god, I’m 20 and they’re already like aliens. #line:538acb
-    Mae: Oh my old bones. #line:2c9446
+    Mae: Ich werde eine Art Teenager-Dolmetscher brauchen #line:1b6f23
+    Mae: wenn ich hier runterkomme. #line:272291
+    Mae: Mein Gott, ich bin 20 und sie sind schon wie Aliens. #line:538acb
+    Mae: Oh meine alten Knochen. #line:2c9446
 <<endif>>
 ===
 title: InitLevel
@@ -199,12 +199,12 @@ tags:
 colorID: 0
 position: 6757,-8589
 ---
-Mae: Hey kids! #line:8ccea4
-TunnelTeen1: Hey adult. #line:4160c2
-Mae: Well I was your age only a few years ago. #line:90f44c
+Mae: Hey Kinder! #line:8ccea4
+TunnelTeen1: Hey Erwachsene. #line:4160c2
+Mae: Nun, ich war erst vor ein paar Jahren so alt wie du. #line:90f44c
 TunnelTeen2: Uh huh. #line:41c23c
 Mae: ... #line:e50599
-Mae: Well, see ya later! #line:d31f18
+Mae: Na dann, bis spaeter! #line:d31f18
 ===
 title: TunnelTeen4
 tags: 
@@ -221,50 +221,50 @@ position: 12033,-10521
 <<if $demo2>>
     [[CityCouncil_A2D1_Demo2]]
 <<else>>
-    Council1: Because this mural is of historical note, Molly! #line:7c8548
-    Council1: What do we know? #line:29635c
-    Molly: Well, sometime overnight #line:cf3a9c
-    Molly: someone used bolt cutters on the gate #line:2733ca
-    Molly: and came down here. #line:e7aac8
-    Council1: What’d they use, a paint roller? #line:fdeb3e
-    Molly: Looks to be. #line:196769
-    Council3: Says they intend to Nuke Poss... something? #line:96dcec
-    Molly: I think it’s likely some kid #line:faeac1
-    Molly: saw one of the old Nuke Possum Springs tags from back when #line:f19d28
-    Molly: and got bored halfway through writing it. #line:7c4408
-    Council4: We need to treat this as a terrorist action. #line:400863
-    Molly: I’m... sorry? #line:fe793b
-    Council1: This mural is of historical note! #line:b8e45d
-    Molly: Alright well I’ll round up any… uh… terrorists I see. #line:ce527d
-    Council3: Round up any dirtbag teens or vagrants that’ve been hanging around town #line:209549
-    Council1: check out by the abandoned Food Donkey. #line:52d186
-    Council4: they come off the train there #line:3c406d
-    Molly: Already on it. #line:5ea37d
+    Council1: Weil dieses Wandgemaelde von historischer Bedeutung ist, Molly! #line:7c8548
+    Council1: Was wissen wir denn schon? #line:29635c
+    Molly: Nun, irgendwann ueber Nacht #line:cf3a9c
+    Molly: hat jemand einen Bolzenschneider am Tor benutzt #line:2733ca
+    Molly: und kam hier runter. #line:e7aac8
+    Council1: Was haben sie benutzt, eine Farbrolle? #line:fdeb3e
+    Molly: Sieht so aus. #line:196769
+    Council3: Sagt, dass sie vorhaben, Poss... irgendwas zu atomisieren? #line:96dcec
+    Molly: Ich denke, es ist wahrscheinlich irgendein Kind #line:faeac1
+    Molly: hat einen der alten Nuke Possum Springs-Tags von damals gesehen #line:f19d28
+    Molly: und langweilte sich auf halbem Weg, es zu schreiben. #line:7c4408
+    Council4: Wir muessen dies als eine terroristische Aktion behandeln. #line:400863
+    Molly: Es... tut mir leid? #line:fe793b
+    Council1: Dieses Wandgemaelde ist von historischer Bedeutung! #line:b8e45d
+    Molly: Na gut, ich werde alle... aeh... Terroristen zusammentrommeln, die ich sehe. #line:ce527d
+    Council3: Fangt alle Jugendlichen und Landstreicher ein, die sich in der Stadt herumtreiben #line:209549
+    Council1: schau mal bei dem verlassenen Essensesel vorbei. #line:52d186
+    Council4: sie kommen dort aus dem Zug #line:3c406d
+    Molly: Schon dabei. #line:5ea37d
     Council1: Molly. #line:02e553
-    Molly: Yeah? #line:777076
-    Council1: Find whoever did this. #line:8614bd
+    Molly: Ja? #line:777076
+    Council1: Findet den, der das getan hat. #line:8614bd
     Molly: Ok. #line:26ff20
-    Council1: I want to see them hang. #line:6f4006
-    Molly: I think at most they’d get a fine and some jail time. #line:58b1fb
-    Council3: this was of historical note. #line:e67308
-    Council4: without this I don't know if there's a reason to keep this place open #line:8694fa
-    Council3: yeah cathleen we all know what you think #line:dac75c
-    Council4: what? You think I wanted this? #line:ccac06
-    Council4: it's not like any of you had ideas for this place! #line:bf8789
-    Council1: cathleen, we are not going to put a rest home down here! #line:bf12ad
-    Council4: it's just wasted space! #line:2c74dd
-    Council4: And they're down here anyway at Trolleyside News everyday! #line:3c0b17
-    Council2: We are not putting our eldery in a hole! #line:9dfd60
-    Council1: Yeah colleen! #line:659914
-    Molly: 'Least if we closed it I wouldn't have to keep an eye on this place. #line:2ce43f
-    Council3: thank you, molly. That's helpful. #line:d7b28d
-    Molly: If you're all done I got things to do. #line:57c7ef
+    Council1: Ich will sie haengen sehen. #line:6f4006
+    Molly: Ich denke, sie wuerden hoechstens eine Geldstrafe und ein paar Tage Gefaengnis bekommen. #line:58b1fb
+    Council3: Das war eine historische Bemerkung. #line:e67308
+    Council4: ohne dies weiss ich nicht, ob es einen Grund gibt, diesen Ort offen zu halten #line:8694fa
+    Council3: ja cathleen wir alle wissen was du denkst #line:dac75c
+    Council4: Was? Denkst du, ich wollte das? #line:ccac06
+    Council4: es ist ja nicht so, als haette einer von euch Ideen fuer diesen Ort gehabt! #line:bf8789
+    Council1: Cathleen, wir werden hier unten kein Altersheim einrichten! #line:bf12ad
+    Council4: das ist nur verschwendeter Platz! #line:2c74dd
+    Council4: Und sie sind sowieso jeden Tag hier unten bei den Trolleyside News! #line:3c0b17
+    Council2: Wir werden unsere Alten nicht in ein Loch stecken! #line:9dfd60
+    Council1: Ja, Colleen! #line:659914
+    Molly: 'Wenn wir es schliessen wuerden, muesste ich wenigstens nicht mehr auf diesen Ort aufpassen. #line:2ce43f
+    Council3: Danke, Molly. Das ist sehr hilfreich. #line:d7b28d
+    Molly: Wenn ihr alle fertig seid, habe ich noch einiges zu tun. #line:57c7ef
     <<close>>
     <<walk Molly MollyOffRight>>
     <<wait 3>>
-    Council1: Yeah fine. #line:4ea11f
-    Council3: This was of historical note. #line:d96047
-    Council2: this sure is a picture. #line:534ad1
+    Council1: Ja gut. #line:4ea11f
+    Council3: Dies war von historischer Bedeutung. #line:d96047
+    Council2: Das ist wirklich ein Bild. #line:534ad1
     <<close>>
     <<walk Council1 CouncilOffLeft>>
     <<walk Council2 CouncilOffLeft>>
@@ -284,24 +284,24 @@ colorID: 3
 position: 4526,-8688
 ---
 <<set $talked_to_teens_a2d3 to 1>>
-TunnelTeen1: Hey don't you know Lori? #line:861b69
-Mae: Yeah. #line:3422c7
+TunnelTeen1: Hey, kennst du Lori nicht? #line:861b69
+Mae: Ja. #line:3422c7
 TunnelTeen1: Oh ok. #line:a22e6b
-TunnelTeen2: I thought so #line:9ee21e
-TunnelTeen3: So you're like a college dropout, right? #line:db66bf
--> Mind your damn business! #line:28a955
-    TunnelTeen2: Fine. #line:5e41c9
--> Yeah I guess. #line:9aa66e
-    TunnelTeen3: What happened? #line:6c395b
-    TunnelTeen4: You fail out? #line:ee8f3b
-    -> Mind your damn business! #line:54b3df
-        TunnelTeen4: Fine. #line:e22045
-    -> It just didn't work out. #line:e31ebe
-        TunnelTeen4: What does that mean? #line:5baea2
-        TunnelTeen1: Yeah what? #line:f6708a
-        Mae: I had kind of a slow nervous breakdown. #line:02643c
+TunnelTeen2: Dachte ich mir schon #line:9ee21e
+TunnelTeen3: Du bist also ein Studienabbrecher, richtig? #line:db66bf
+-> Kuemmere dich um deinen verdammten Kram! #line:28a955
+    TunnelTeen2: Na schoen. #line:5e41c9
+-> Ja, ich denke schon. #line:9aa66e
+    TunnelTeen3: Was ist passiert? #line:6c395b
+    TunnelTeen4: Bist du ausgefallen? #line:ee8f3b
+    -> Kuemmere dich um deinen verdammten Kram! #line:54b3df
+        TunnelTeen4: Na gut. #line:e22045
+    -> Es hat einfach nicht geklappt. #line:e31ebe
+        TunnelTeen4: Was soll das bedeuten? #line:5baea2
+        TunnelTeen1: Ja was? #line:f6708a
+        Mae: Ich hatte eine Art langsamen Nervenzusammenbruch. #line:02643c
         TunnelTeen1: Cool. #line:5ffa96
-        Mae: Well... ok sure. #line:ce81ce
+        Mae: Na ja... ok sicher. #line:ce81ce
         <<set $intro_teens to 1>>
 ===
 title: UNUSED
@@ -309,35 +309,35 @@ tags:
 colorID: 0
 position: 8791,-10187
 ---
-Mae: Hey hey! Gimme all yer pretzels! #line:0137c0
+Mae: Hey hey! Gebt mir alle eure Brezeln! #line:0137c0
 <<wait .9>>
 Mae: [size=1.25]Hey![/all] #line:775644
 <<wait .9>>
 Mae: [shake=.05][size=1.5]Hey![/all] #line:3ea00d
-Table1: Do you mind? He's in a [speed=.5]pierogi trance[/speed]. Come back later. #line:ca30e6
-Mae: I come here all the time and I've never seen a pierogi trance. #line:3b6337
-Table1: He's makin' something [speed=.5]extra special[/speed], [wave]dear.[/wave] Something that ain't never been pierogi'd before. #line:328a7b
-Mae: Ugh. [color=aaaaaa]Dear.[/all] #line:4fcf2b
+Table1: Macht es dir was aus? Er ist in einer [speed=.5]Piroggen-Trance[/speed]. Komm spaeter wieder. #line:ca30e6
+Mae: Ich komme staendig hierher und habe noch nie eine Piroggen-Trance gesehen. #line:3b6337
+Table1: Er macht etwas [speed=.5]ganz Besonderes[/speed], [wave]Liebes.[/wave] Etwas, das noch nie zuvor mit Pierogi zubereitet wurde. #line:328a7b
+Mae: Ugh. [color=aaaaaa]Liebes.[/all] #line:4fcf2b
 ===
 title: Cook_00_00
 tags: demo2
 colorID: 0
 position: 9646,-10664
 ---
-Mae: Hey, I just got back in town #line:03fd4c
-Mae: and the one thing I missed most was- #line:607bda
+Mae: Hey, ich bin gerade zurueck in der Stadt #line:03fd4c
+Mae: und das, was ich am meisten vermisst habe, war- #line:607bda
 Cook: HEY! #line:534b49
-Cook: I REMEMBER YOU! #line:a16e3d
+Cook: Ich erinnere mich an dich! #line:a16e3d
 Mae: :) o/ #line:48e2bc
-Mae: Hello! #line:fb0997
-Cook: THIEF! #line:ed9f4d
+Mae: Hallo! #line:fb0997
+Cook: Dieb! #line:ed9f4d
 Mae: :| _o_ #line:854336
 Mae: Oh COME ON. #line:af9a82
-Mae: That was years ago! #line:f1550d
-Cook: ONCE A THIEF, ALWAYS A THIEF. #line:51f1f6
-Mae: Alright, you know what? =_= #line:84d0b4
-[[I’m not a thief! You take that back!|Cook_NotAThief]] #line:d05de7
-[[This isn't even a restaurant!|Cook_IsntEvenARestaurant]] #line:7d4b3c
+Mae: Das war vor Jahren! #line:f1550d
+Cook: EINMAL EIN DIEB, IMMER EIN DIEB. #line:51f1f6
+Mae: Alles klar, weisst du was? =_= #line:84d0b4
+[[Ich bin kein Dieb! Das nimmst du zurueck!|Cook_NotAThief]] #line:d05de7
+[[Dies ist nicht einmal ein Restaurant!|Cook_IsntEvenARestaurant]] #line:7d4b3c
 ===
 title: Cook
 tags: 
@@ -346,7 +346,7 @@ position: 9726,-10977
 ---
 <<if $cook_sequence is 0>>
     <<if $cook is 0>>
-        <<set $cook += 1>> 
+        <<set $cook += 1>>
         <<set $cook_done to 1>>
         [[Cook_00_00]]
     <<endif>>
@@ -357,36 +357,36 @@ tags: demo2
 colorID: 0
 position: 9411,-10408
 ---
-Mae: I’ve stolen from better places than this! o_o #line:bdc9b2
-Mae: I wouldn’t lower myself to steal from here! #line:ebee8b
+Mae: Ich habe schon an besseren Orten gestohlen als hier! o_o #line:bdc9b2
+Mae: Ich wuerde mich nicht herablassen, von hier zu stehlen! #line:ebee8b
 Cook: YEAH YEAH YEAH #line:7c8593
-Cook: GO JUMP IN THE RIVER. #line:6072ab
+Cook: GEH UND SPRING IN DEN FLUSS. #line:6072ab
 ===
 title: Cook_IsntEvenARestaurant
 tags: demo2
 colorID: 0
 position: 9843,-10366
 ---
-Mae: It's a crappy foodstand in a hole! #line:d0f84e
-Cook: This establishment has been in business for 50 years! #line:6a5ecd
-Mae: 50 CRAPPY YEARS IN A HOLE! o_o #line:49561e
-Mae: You know what else has been in a hole for 50 years? #line:59ead1
+Mae: Es ist ein beschissener Essensstand in einem Loch! #line:d0f84e
+Cook: Dieses Etablissement gibt es schon seit 50 Jahren! #line:6a5ecd
+Mae: 50 SCHLECHTE JAHRE IN EINEM LOCH! o_o #line:49561e
+Mae: Weisst du, was noch seit 50 Jahren in einem Loch ist? #line:59ead1
 Mae: \o/ :( #line:424ebe
-Mae: DEAD PEOPLE FROM THE 60s! #line:6f2889
-Cook: No respect! No respect, this one! #line:2a8003
-Mae: YOU CAN KEEP YOUR HOLE PRETZELS #line:77b7f6
-Mae: AND YOUR DAMP PIEROGIES #line:894620
+Mae: Tote Menschen aus den 60ern! #line:6f2889
+Cook: Kein Respekt! Kein Respekt, dieser hier! #line:2a8003
+Mae: IHR KOeNNT IHRE LOeCHER PRETZELN BEHALTEN #line:77b7f6
+Mae: UND IHRE DAMPFPIEROGIEN #line:894620
 Mae: _o_ :| #line:4d695f
 Cook: YEAH YEAH YEAH #line:620a02
-Cook: GO JUMP IN THE RIVER. #line:14aac3
+Cook: GEH UND SPRING IN DEN FLUSS. #line:14aac3
 ===
 title: RightBench
 tags: demo
 colorID: 0
 position: 10068,-9941
 ---
-Mae: Usually someone fishing here. For tunnel fish. Because why the hell not. #line:bbea82
-Mae: The tunnel flooded, and we lost a bit more land to the fish. #line:f8bf8f
+Mae: Normalerweise fischt hier jemand. Nach Tunnelfischen. Warum zum Teufel auch nicht. #line:bbea82
+Mae: Der Tunnel ist ueberflutet, und wir haben ein bisschen mehr Land an die Fische verloren. #line:f8bf8f
 <<set $tunnel_east_right_bench_done to 1>>
 ===
 title: Stairs
@@ -411,31 +411,31 @@ tags: demo
 colorID: 0
 position: 8866,-8420
 ---
-Mae: I still can't believe they kept this place open after the flood took out the trolleys. #line:6fa3f0
-Mae: Never underestimate the power of old people to get state funding. #line:4f12f3
-Mae: Which is why we have more war memorials than there were wars. #line:d76973
+Mae: Ich kann immer noch nicht glauben, dass sie diesen Ort offen gelassen haben, nachdem die Flut die Karren zerstoert hat. #line:6fa3f0
+Mae: Unterschaetze niemals die Macht alter Menschen, staatliche Gelder zu bekommen. #line:4f12f3
+Mae: Deshalb haben wir auch mehr Kriegsdenkmaeler als es Kriege gab. #line:d76973
 ===
 title: Stairs01
 tags: demo
 colorID: 0
 position: 9143,-8342
 ---
-Mae: We were at Aunt Janet's place up in Fort Lucenne when that flood hit. #line:c82d7b
-Mae: Our house had two feet of water in the living room when we came back. #line:475b25
-Mae: Mudslides took out a few houses in Underhill. #line:bcd38b
-Mae: Casey Hartley came by in his dad's boat. #line:23569e
-Mae: Gregg kept trying to ride his bike in the water and got stranded on top of a doghouse. #line:f385a3
+Mae: Wir waren bei Tante Janet oben in Fort Lucenne, als die Flut kam. #line:c82d7b
+Mae: Unser Haus stand einen halben Meter hoch im Wohnzimmer, als wir zurueckkamen. #line:475b25
+Mae: Schlammlawinen haben ein paar Haeuser in Underhill zerstoert. #line:bcd38b
+Mae: Casey Hartley kam mit dem Boot seines Vaters vorbei. #line:23569e
+Mae: Gregg hat versucht, mit seinem Fahrrad im Wasser zu fahren und ist auf einer Hundehuette gestrandet. #line:f385a3
 ===
 title: Stairs02
 tags: demo
 colorID: 0
 position: 9440,-8551
 ---
-Mae: We were at Aunt Janet's place up in Fort Lucenne when that flood hit. #line:671492
-Mae: Our house had two feet of water in the living room when we came back. #line:5ddb88
-Mae: Mudslides took out a few houses in Underhill. #line:3285c3
-Mae: Casey Hartley came by in his dad's boat. #line:6a5994
-Mae: Gregg kept trying to ride his bike in the water and got stranded on top of a doghouse. #line:a47e94
+Mae: Wir waren bei Tante Janet oben in Fort Lucenne, als die Flut kam. #line:671492
+Mae: Unser Haus hatte einen Meter Wasser im Wohnzimmer, als wir zurueckkamen. #line:5ddb88
+Mae: Schlammlawinen haben ein paar Haeuser in Underhill zerstoert. #line:3285c3
+Mae: Casey Hartley kam mit dem Boot seines Vaters vorbei. #line:6a5994
+Mae: Gregg hat versucht, mit seinem Fahrrad im Wasser zu fahren und ist auf einer Hundehuette gestrandet. #line:a47e94
 ===
 title: LeftSideLocked
 tags: demo
@@ -443,9 +443,9 @@ colorID: 0
 position: 8400,-10448
 ---
 <<if $tunnel_east_left_side_locked is 0>>
-    Mae: {align=middle,nearestLocator}Well if I can't get a pretzel this is basically a wet, underground old folks home. #line:7d9387
-    Mae: {align=middle,nearestLocator}Can't even get into rest of the tunnel right now, but it's just as well. #line:8f9caf
-    Mae: {align=middle,nearestLocator}It's full of teens. #line:513692
+    Mae: {align=middle,nearestLocator}Nun, wenn ich keine Brezel bekomme, ist das hier im Grunde ein nasses, unterirdisches Altersheim. #line:7d9387
+    Mae: {align=middle,nearestLocator}Kann im Moment nicht mal in den Rest des Tunnels, aber das ist auch gut so. #line:8f9caf
+    Mae: {align=middle,nearestLocator}Es ist voller Teenager. #line:513692
     <<set $tunnel_east_left_side_locked to 1>>
 <<else>>
     Mae: {align=middle,nearestLocator}Ugh. Teens. #line:436e0e
@@ -472,10 +472,10 @@ tags: demo
 colorID: 0
 position: 9878,-8591
 ---
-Mae: Always pretty empty in here this time of day. #line:8b67b9
-Mae: Don't know why they don't just close up until dinner time. #line:c21a7a
+Mae: Um diese Tageszeit ist es hier immer ziemlich leer. #line:8b67b9
+Mae: Ich weiss nicht, warum sie nicht einfach bis zum Abendessen zumachen. #line:c21a7a
 Mae: =_= #line:69be3b
-Mae: But whatever, screw this place. They won't sell me a pretzel anyway. #line:6a6ae8
+Mae: Aber egal, scheiss auf diesen Laden. Die wollen mir sowieso keine Brezel verkaufen. #line:6a6ae8
 Mae: o_o #line:c82bad
 ===
 title: Stand01
@@ -483,14 +483,14 @@ tags: demo
 colorID: 0
 position: 10132,-8570
 ---
-Mae: It was years ago. #line:06790c
-Mae: It was one pretzel. #line:aa127a
-Mae: I'm not a thief. #line:1e2d1b
-Mae: But I was [shake=.01][size=1.2]HUNGRY[/all] #line:e422bf
-Mae: What, did they want me to [size=1.2]STARVE[/all]? #line:76ee3a
+Mae: Das ist Jahre her. #line:06790c
+Mae: Es war eine Brezel. #line:aa127a
+Mae: Ich bin kein Dieb. #line:1e2d1b
+Mae: Aber ich hatte [shake=.01][size=1.2]HUNGER[/all] #line:e422bf
+Mae: Was, wollten sie, dass ich [size=1.2]verhungere[/all]? #line:76ee3a
 Mae: =_= #line:d12ac6
-Mae: They probably did. #line:71c377
-Mae: Monsters. #line:a035ed
+Mae: Das haben sie wahrscheinlich. #line:71c377
+Mae: Ungeheuer. #line:a035ed
 Mae: o_o #line:233934
 ===
 title: Stand02
@@ -498,17 +498,17 @@ tags: demo
 colorID: 0
 position: 10398,-8622
 ---
-Mae: I've stolen from better places than this! #line:9aefbe
+Mae: Ich habe schon von besseren Orten als diesem gestohlen! #line:9aefbe
 ===
 title: Fisherman_A1D2
 tags: 
 colorID: 2
 position: 11650,-10116
 ---
-Fisherman: Pale white tunnel fish. #line:356a8a
-Fisherman: Easy to catch and so delish. #line:593266
-Mae: That’s good. #line:152cc4
-Fisherman: Oh god you were listening #line:814af4
+Fisherman: Blasser weisser Tunnelfisch. #line:356a8a
+Fisherman: Leicht zu fangen und so koestlich. #line:593266
+Mae: Das ist gut. #line:152cc4
+Fisherman: Oh Gott du hast zugehoert #line:814af4
 <<set $fisherman_done to 1>>
 ===
 title: Rosa
@@ -518,217 +518,217 @@ position: 11269,-10298
 ---
 <<if $act is 4 and $day is 3 and $met_rosa is 0>>
     <<set $met_rosa to 1>>
-    Rosa: mmm. You’re Mae. #line:a5e1c8
-    Mae: yeah. #line:f59c36
-    Mae: do I know you? #line:a49365
-    Rosa: you did when you were a baby child. #line:bfb207
-    Rosa: Miss Rosa. #line:3d1c0c
-    Mae: oh. Hm. #line:dd72ab
-    Mae: i’m sorry. #line:034a3b
-    Rosa: it’s alright. #line:eb7a96
-    Rosa: time does that. #line:27650e
-    Rosa: you know, I knew your grandfather. #line:d7f529
-    Mae: oh really? #line:caa9f5
-    Rosa: yes. Long ago. #line:acec7b
-    Rosa: if you’d like to ever talk about him #line:e81b46
-    Rosa: i got history to pass on #line:380f8d
-    Rosa: before i join him #line:09fb51
+    Rosa: mmm. Du bist Mae. #line:a5e1c8
+    Mae: Ja. #line:f59c36
+    Mae: Kenne ich dich? #line:a49365
+    Rosa: das hast du, als du ein kleines Kind warst. #line:bfb207
+    Rosa: Fraeulein Rosa. #line:3d1c0c
+    Mae: Oh. Hm. #line:dd72ab
+    Mae: es tut mir leid. #line:034a3b
+    Rosa: ist schon in Ordnung. #line:eb7a96
+    Rosa: das macht die Zeit. #line:27650e
+    Rosa: weisst du, ich kannte deinen Grossvater. #line:d7f529
+    Mae: oh wirklich? #line:caa9f5
+    Rosa: ja. Vor langer Zeit. #line:acec7b
+    Rosa: wenn du jemals ueber ihn reden moechtest #line:e81b46
+    Rosa: ich muss Geschichte weitergeben #line:380f8d
+    Rosa: bevor ich mich ihm anschliesse #line:09fb51
     Rosa: heh heh #line:d6a248
     Mae: oh. #line:529049
-    Mae: yeah, sure! #line:522c46
-    Rosa: i’m here from time to time #line:8e54a7
-    Rosa: stop by when you like #line:a77842
-    Rosa: and we’ll have ourselves a talk. #line:4899e7
-    Rosa: history don’t keep itself #line:2d56f9
-    Mae: sounds like a plan, Miss Rosa #line:aa0060
-    Rosa: until later, Mae Borowski. #line:633866
+    Mae: ja, sicher! #line:522c46
+    Rosa: ich bin von Zeit zu Zeit hier #line:8e54a7
+    Rosa: komm vorbei, wenn du willst #line:a77842
+    Rosa: und wir werden uns unterhalten. #line:4899e7
+    Rosa: Geschichte bewahrt sich nicht selbst #line:2d56f9
+    Mae: klingt nach einem Plan, Miss Rosa #line:aa0060
+    Rosa: bis spaeter, Mae Borowski. #line:633866
 <<elseif $met_rosa is 0>>
     <<set $met_rosa to 1>>
-    Rosa: Oh, hello Mae! #line:45e550
-    Mae: Um. #line:522bd8
-    Mae: Do I know you? #line:81c22b
-    Rosa: I don't know if you remember me? Miss Rosa? #line:c6dea4
+    Rosa: Oh, hallo Mae! #line:45e550
+    Mae: Aehm. #line:522bd8
+    Mae: Kenne ich dich? #line:81c22b
+    Rosa: Ich weiss nicht, ob du dich an mich erinnerst? Fraeulein Rosa? #line:c6dea4
     Mae: Hm... #line:3aa253
-    Rosa: I knew your grandfather. #line:979604
-    Rosa: I visited you the day after you were born. #line:34ef0a
-    Rosa: You were so small. #line:4b4c2e
+    Rosa: Ich kannte deinen Grossvater. #line:979604
+    Rosa: Ich habe dich am Tag nach deiner Geburt besucht. #line:34ef0a
+    Rosa: Du warst so klein. #line:4b4c2e
     Mae: ... #line:6866c3
-    Rosa: I guess some things don’t change, eh? #line:0e51bb
-    Mae: How did you know grandad? #line:ab54ca
-    Rosa: I’m here most days, why don’t you stop by sometime #line:4dd1d7
-    Rosa: and I’ll tell you all about him? #line:e6d453
-    Rosa: things you might not know. #line:026872
-    Mae: Alright, you’ve got my interest. #line:2ca22f
-    Rosa: Sweet curious child. #line:8cf83d
+    Rosa: Ich schaetze, manche Dinge aendern sich nicht, was? #line:0e51bb
+    Mae: Woher kanntest du Grossvater? #line:ab54ca
+    Rosa: Ich bin die meisten Tage hier, warum kommst du nicht mal vorbei #line:4dd1d7
+    Rosa: und ich werde dir alles ueber ihn erzaehlen? #line:e6d453
+    Rosa: Dinge, die du vielleicht nicht weisst. #line:026872
+    Mae: In Ordnung, mein Interesse ist geweckt. #line:2ca22f
+    Rosa: Suesses neugieriges Kind. #line:8cf83d
 <<else>>
     <<if $rosa_sequence is 0>>
         <<set $rosa_sequence += 1>>
-        Rosa: Oh, hello? #line:c4e171
-        Mae: hey. It’s mae. #line:1afe75
-        Rosa: i remember. Ol’ clock upstairs ain’t stopped yet. #line:82ad6b
-        Mae: what did you want to tell me about granddad? #line:4637f1
-        Rosa: well i’ll only say if you really want to know... #line:1978ca
-        	->ha ha yes, i do want to know #line:ca01bf
-        	->is it scandalous? #line:e90f7f
-        		Rosa: oh i don’t think so. #line:39b3ea
-        		Rosa: i’m old enough that nothing feels scandalous anyway. #line:963a9c
-        		Mae: is that a thing that happens when you get old? #line:4c96eb
-        		Rosa: heh heh... depends on the life you led #line:485f75
-        		Mae: ok, anyway- #line:e33e43
-        Rosa: you got a history of troublemakers in your family. #line:caddbf
-        Rosa: on your daddy’s side in particular. #line:6db481
+        Rosa: Oh, hallo? #line:c4e171
+        Mae: Hey. Ich bin's, Mae. #line:1afe75
+        Rosa: Ich erinnere mich. Die alte Uhr da oben ist noch nicht stehen geblieben. #line:82ad6b
+        Mae: was wolltest du mir ueber Grossvater erzaehlen? #line:4637f1
+        Rosa: Nun, ich werde nur sagen, wenn du es wirklich wissen willst... #line:1978ca
+        	->ha ha ha ja, ich will es wirklich wissen #line:ca01bf
+        	->ist es skandaloes? #line:e90f7f
+        		Rosa: oh ich glaube nicht. #line:39b3ea
+        		Rosa: ich bin alt genug, dass sich nichts mehr skandaloes anfuehlt. #line:963a9c
+        		Mae: ist das eine Sache, die passiert, wenn man alt wird? #line:4c96eb
+        		Rosa: heh heh... kommt auf das Leben an, das man gefuehrt hat #line:485f75
+        		Mae: ok, jedenfalls- #line:e33e43
+        Rosa: du hast eine Geschichte von Unruhestiftern in deiner Familie. #line:caddbf
+        Rosa: vor allem auf der Seite deines Vaters. #line:6db481
         Mae: oh? #line:38b10c
-        Rosa: go back far enough you got folks #line:788acf
-        Rosa: that were around for the real hard times #line:4b9bd6
-        Rosa: when the workers went up against armies. #line:415aff
-        Mae: oh yeah I kinda remember something about that. #line:79ccb7
-        Mae: great-great-great-great grandpa or whatever. #line:eaf034
-        Mae: might have gotten the number of greats wrong there #line:5bb080
-        Rosa: your grandfather and i weren’t around for a lot of the violence #line:3c6b97
-        Rosa: that was before even our time. #line:b0d842
-        Rosa: naw, we were around to watch the tide roll out. #line:8fcf09
+        Rosa: wenn man weit genug zurueckgeht, hat man Leute #line:788acf
+        Rosa: die die wirklich harten Zeiten miterlebt haben #line:4b9bd6
+        Rosa: als die Arbeiter gegen Armeen antraten. #line:415aff
+        Mae: oh ja, daran kann ich mich irgendwie erinnern. #line:79ccb7
+        Mae: Ur-Ur-Ur-Ur-Grossvater oder so. #line:eaf034
+        Mae: koennte mich bei der Anzahl der Urgrossvaeter geirrt haben #line:5bb080
+        Rosa: dein Grossvater und ich waren bei einem Grossteil der Gewalt nicht dabei #line:3c6b97
+        Rosa: Das war noch vor unserer Zeit. #line:b0d842
+        Rosa: nein, wir waren da, um zu sehen, wie die Flut ablaeuft. #line:8fcf09
         <<wait 4>>
-        Mae: ...and? #line:a3061f
-        Rosa: we’ll need to talk again another time. #line:7f5dc7
-        Rosa: i get tired. #line:4485b7
+        Mae: ...und? #line:a3061f
+        Rosa: wir muessen ein andermal weiterreden. #line:7f5dc7
+        Rosa: ich werde muede. #line:4485b7
         Mae: oh. Ok. #line:d9c98b
-        Mae: can i get you anything? #line:8cbac2
-        Mae: i don’t have any money. #line:bc297a
-        Rosa: naw, i’m just fine Mae. #line:efcdf5
-        Rosa: we’ll talk another time. #line:5027d6
-        Mae: ok! See you! #line:258a17
+        Mae: kann ich dir etwas bringen? #line:8cbac2
+        Mae: ich habe kein Geld. #line:bc297a
+        Rosa: nein, mir geht's gut, Mae. #line:efcdf5
+        Rosa: wir werden ein anderes Mal reden. #line:5027d6
+        Mae: ok! Wir sehen uns! #line:258a17
     <<elseif $rosa_sequence is 1>>
         <<set $rosa_sequence += 1>>
         Mae: Hey Miss Rosa! #line:015c6a
-        Rosa: oh, hello mae. #line:e296d0
-        Mae: how are you feeling today? #line:2d9b71
-        Rosa: oh, i feel the damp and the cold down here #line:aaa98d
-        Rosa: but it’s in my bones wherever i go #line:63c86f
-        Rosa: so no harm. #line:49bf9b
-        Mae: did you want to talk about granddad? #line:7be390
-        Rosa: oh yes, where was i? #line:691c58
-        	->something about a tide rolling out? #line:480e40
-        		Rosa: what? #line:ee0b68
+        Rosa: oh, hallo Mae. #line:e296d0
+        Mae: wie geht es dir heute? #line:2d9b71
+        Rosa: oh, ich fuehle die Feuchtigkeit und die Kaelte hier unten #line:aaa98d
+        Rosa: aber es ist in meinen Knochen, wohin ich auch gehe #line:63c86f
+        Rosa: also kein Schaden. #line:49bf9b
+        Mae: wolltest du ueber Grossvater sprechen? #line:7be390
+        Rosa: oh ja, wo war ich? #line:691c58
+        	->irgendwas ueber eine auslaufende Flut? #line:480e40
+        		Rosa: was? #line:ee0b68
         		<<wait 3>>
-        		Rosa: oh right.  #line:4f368f
-        		Rosa: that was a metaphor. #line:51b0c6
-        		Mae: i figured. #line:806e6f
-        	->troublemakers in my family? #line:30a408
-        		Rosa: right #line:fab242
-        Rosa: back then there were places that brought us all together #line:d5a0ae
-        Rosa: or at least brought us together in bits and bobs. #line:32c9fb
-        Rosa: the Ol’ smokeys #line:023601
-        Rosa: the grand bears #line:a57954
-        Rosa: the lodge of old #line:889bbb
-        Rosa: the church and the union. #line:41b1fa
-        Rosa: there’d be dances #line:3147bc
-        Rosa: up at the H-Bee #line:8875da
-        Rosa: that’s where I met your granddad, oh… a lifetime ago. #line:6a2633
-        Mae: what was he like back then? #line:f2de62
-        Rosa: Plain in most respects. #line:9a1b03
-        Rosa: Prone to fits of melancholy #line:857c08
-        Rosa: but funny, and wild when the occasion called. #line:0f45f3
-        Rosa: surprising, is I guess the word. #line:acf927
+        		Rosa: oh richtig.  #line:4f368f
+        		Rosa: das war eine Metapher. #line:51b0c6
+        		Mae: das dachte ich mir. #line:806e6f
+        	->Stoerungsmacher in meiner Familie? #line:30a408
+        		Rosa: richtig #line:fab242
+        Rosa: damals gab es noch Orte, die uns alle zusammenbrachten #line:d5a0ae
+        Rosa: oder uns zumindest stueckchenweise zusammenbrachten. #line:32c9fb
+        Rosa: die Ol' smokeys #line:023601
+        Rosa: die grossen Baeren #line:a57954
+        Rosa: die Loge von einst #line:889bbb
+        Rosa: die Kirche und die Gewerkschaft. #line:41b1fa
+        Rosa: es gaebe Taenze #line:3147bc
+        Rosa: oben im H-Bee #line:8875da
+        Rosa: dort habe ich deinen Grossvater kennengelernt, oh... vor einer Ewigkeit. #line:6a2633
+        Mae: wie war er denn damals so? #line:f2de62
+        Rosa: Schlicht in den meisten Hinsichten. #line:9a1b03
+        Rosa: Neigt zu Anfaellen von Melancholie #line:857c08
+        Rosa: aber lustig, und wild, wenn die Gelegenheit ruft. #line:0f45f3
+        Rosa: ueberraschend, ist wohl das richtige Wort. #line:acf927
         Mae: hm. #line:da1122
-        Rosa: what’d your daddy say about him? #line:5cc8f6
-        	->strict but nice? #line:f8379e
+        Rosa: was hat dein Daddy ueber ihn gesagt? #line:5cc8f6
+        	->streng aber nett? #line:f8379e
         		Rosa: heh heh #line:c98154
-        		Rosa: strict is funny. #line:8b1db0
-        		Mae: why? #line:0b159b
-        	->distant but... trying? #line:bdb42c
-        		Rosa: sounds right #line:cde141
-        		Rosa: that sounds... #line:e7d367
+        		Rosa: streng ist lustig. #line:8b1db0
+        		Mae: warum? #line:0b159b
+        	->entfernt, aber... versuchen? #line:bdb42c
+        		Rosa: klingt richtig #line:cde141
+        		Rosa: das klingt... #line:e7d367
         <<wait 4>>
-        Mae: you alright, Miss Rosa? #line:f79b63
-        Rosa: oh yes. #line:fde926
-        Rosa: let’s talk another time. #line:81d3db
+        Mae: sind Sie in Ordnung, Miss Rosa? #line:f79b63
+        Rosa: oh ja. #line:fde926
+        Rosa: lass uns ein anderes Mal reden. #line:81d3db
         Mae: ok. #line:13a23f
-        Mae: hope you feel better? #line:0bc78f
+        Mae: hoffe du fuehlst dich besser? #line:0bc78f
         Rosa: oh mae #line:c2ccda
-        Rosa: oh dear mae... #line:409879
+        Rosa: oh liebe Mae... #line:409879
     <<elseif $rosa_sequence is 2>>
         <<set $rosa_sequence += 1>>
         Mae: oh hey Miss Rosa! #line:515558
-        Rosa: oh. Hello mae. #line:feef58
-        Mae: feeling better? #line:49d375
-        Rosa: as well as to be expected i s’pose. #line:0428dd
-        Mae: that’s good. #line:59f0c7
-        Mae: did you want to talk about- #line:4a54a0
-        Rosa: your grandfather. #line:c78c1b
-        Mae: yeah #line:e3d81c
-        Rosa: Possum Springs was built on our backs and the backs before us. #line:d014ad
-        Rosa: Time was they didn’t pay the people in real money #line:5a20f6
-        Rosa: paid in little tokens and bills stamped with the company name #line:c3753d
-        Rosa: good at the company store #line:b7cb2b
-        Rosa: for company goods. #line:c0969d
-        Mae: back in school they showed us some of those. #line:afa498
-        Mae: weird quarters and stuff. #line:f66788
-        Rosa: your grandfather remembered. His daddy experienced it first hand. #line:59d664
-        Rosa: mine boss came into town, driving a big fancy car #line:9b1518
-        Rosa: night i met your grandfather. #line:5692e6
-        Rosa: a real bastard, that boss, god forgive him. #line:914272
-        Rosa: your grandfather runs out of the dance, #line:56fef0
-        Rosa: i think he was a bit drunk. Or just stupid in some brave way. #line:93fc9a
-        Rosa: he shouts “the guts of all bosses!” #line:b6ed1a
-        Rosa: he all of a sudden has a hunting knife from somewhere #line:6f9492
-        Rosa: and he slashes the boss’s tires. #line:ca8b12
+        Rosa: oh. Hallo mae. #line:feef58
+        Mae: fuehlst du dich besser? #line:49d375
+        Rosa: so gut wie zu erwarten, nehme ich an. #line:0428dd
+        Mae: das ist gut. #line:59f0c7
+        Mae: wolltest du reden ueber- #line:4a54a0
+        Rosa: deinen Grossvater. #line:c78c1b
+        Mae: ja #line:e3d81c
+        Rosa: Possum Springs wurde auf unserem Ruecken und dem unserer Vorfahren aufgebaut. #line:d014ad
+        Rosa: Frueher haben sie die Leute nicht mit echtem Geld bezahlt #line:5a20f6
+        Rosa: mit kleinen Muenzen und Scheinen, die mit dem Firmennamen gestempelt waren #line:c3753d
+        Rosa: gut im Firmenladen #line:b7cb2b
+        Rosa: fuer Firmenwaren. #line:c0969d
+        Mae: damals in der Schule haben sie uns einige davon gezeigt. #line:afa498
+        Mae: seltsame Viertel und so. #line:f66788
+        Rosa: dein Grossvater hat sich daran erinnert. Sein Vater hat es aus erster Hand erfahren. #line:59d664
+        Rosa: mein Chef kam in die Stadt, mit einem grossen, schicken Auto #line:9b1518
+        Rosa: Nacht, in der ich deinen Grossvater traf. #line:5692e6
+        Rosa: ein echter Bastard, dieser Chef, Gott vergebe ihm. #line:914272
+        Rosa: dein Grossvater rennt aus dem Tanz, #line:56fef0
+        Rosa: Ich glaube, er war ein bisschen betrunken. Oder einfach nur dumm auf eine mutige Art. #line:93fc9a
+        Rosa: er schreit "der Mut aller Bosse!" #line:b6ed1a
+        Rosa: er hat auf einmal ein Jagdmesser von irgendwoher #line:6f9492
+        Rosa: und er schlitzt die Reifen des Bosses auf. #line:ca8b12
         Mae: :) #line:64e8b9
         Mae: ha ha ha ha wow! #line:1a629a
-        Rosa: picks up a rock, put it through the windshield #line:adddf0
-        Rosa: then he climbs up #line:8ab294
-        Rosa: i’m sorry, this part is a bit rude… #line:bfde1f
-        Mae: holy shit don’t stop #line:1da57c
-        Rosa: he pees through the windshield hole. #line:7cae4b
-        Mae: this is amazing! #line:a75959
+        Rosa: hebt einen Stein auf, steckt ihn durch die Windschutzscheibe #line:adddf0
+        Rosa: dann klettert er hoch #line:8ab294
+        Rosa: es tut mir leid, dieser Teil ist ein bisschen unhoeflich... #line:bfde1f
+        Mae: heilige Scheisse, hoer nicht auf #line:1da57c
+        Rosa: er pinkelt durch das Loch in der Windschutzscheibe. #line:7cae4b
+        Mae: das ist unglaublich! #line:a75959
         Mae: :| #line:b245e8
-        Mae: did they catch him? #line:51dc79
-        Rosa: naw, just me and a few other folks saw it. #line:9b2bab
-        Rosa: i trot over to him, and we run off down the alley #line:3ba892
-        Rosa: past the A-OK drug store #line:0b1d16
-        Rosa: big field, big parking lot nowadays #line:530860
-        Rosa: stars fat and bright #line:201da9
-        Rosa: i guess we were both pretty drunk #line:127455
-        Rosa: one thing led to another, #line:30ab83
+        Mae: haben sie ihn erwischt? #line:51dc79
+        Rosa: nein, nur ich und ein paar andere Leute haben es gesehen. #line:9b2bab
+        Rosa: ich trabe zu ihm rueber, und wir rennen die Gasse runter #line:3ba892
+        Rosa: vorbei an der A-OK Drogerie #line:0b1d16
+        Rosa: grosses Feld, grosser Parkplatz heutzutage #line:530860
+        Rosa: Sterne fett und hell #line:201da9
+        Rosa: ich schaetze wir waren beide ziemlich betrunken #line:127455
+        Rosa: eins fuehrte zum anderen, #line:30ab83
         Mae: oh. ok. #line:d9dc0f
-        Mae: wait... when was this...? #line:f96ca7
-        Rosa: a... very long time ago. #line:30fcb9
-        Mae: was he...  #line:47a05d
+        Mae: warte... wann war das...? #line:f96ca7
+        Rosa: vor einer... sehr langen Zeit. #line:30fcb9
+        Mae: war er...  #line:47a05d
         Rosa: ... #line:161616
         Mae: ... #line:273cc9
         Rosa: ... #line:47f6cb
-        Mae: so what happened with the car? #line:07819e
-        Rosa: got towed away. #line:27fd76
-        Rosa: police couldn’t get no witnesses. #line:788d27
-        Rosa: we weren’t snitches about that kinda thing. #line:b534a8
-        Mae: damn right. #line:318a67
-        Rosa: so like i said #line:e99989
-        Rosa: you got troublemaker blood. #line:bd58bd
+        Mae: Und was ist mit dem Auto passiert? #line:07819e
+        Rosa: wurde abgeschleppt. #line:27fd76
+        Rosa: die Polizei konnte keine Zeugen finden. #line:788d27
+        Rosa: wir waren keine Plaudertaschen fuer so etwas. #line:b534a8
+        Mae: verdammt richtig. #line:318a67
+        Rosa: also wie ich sagte #line:e99989
+        Rosa: du hast das Blut eines Unruhestifters. #line:bd58bd
         Rosa: heh heh heh #line:48023d
-        Mae: geez. I never knew this. #line:da3ee2
-        Rosa: i don’t think your daddy even knows #line:399dca
-        Mae: i bet not. #line:f5080d
-        Rosa: you gonna tell him? #line:9f90de
-        ->yes #line:9c76b0
-        	Mae: sometime #line:23f9fd
-        	Mae: maybe #line:b26f30
-        ->no #line:3cd986
-        	Rosa: secret keeper like me, eh? #line:dd72aa
-        	Mae: i just think it’d be a weird conversation #line:1c1be4
-        	Rosa: you may find someday it isn’t so strange. #line:058542
-        Rosa: i wanted to pass this story along to you #line:6eba23
-        Rosa: it was one night, one thing he did #line:1478ed
-        Rosa: in a lifetime of nights and things he did #line:babef5
-        Rosa: what you want to do with that, is part of your story now. #line:4eb94d
+        Mae: herrje. Das habe ich nie gewusst. #line:da3ee2
+        Rosa: ich glaube nicht, dass dein Daddy das ueberhaupt weiss #line:399dca
+        Mae: ich wette nicht. #line:f5080d
+        Rosa: wirst du es ihm sagen? #line:9f90de
+        ->ja #line:9c76b0
+        	Mae: irgendwann #line:23f9fd
+        	Mae: vielleicht #line:b26f30
+        ->nein #line:3cd986
+        	Rosa: eine Geheimnistraegerin wie ich, was? #line:dd72aa
+        	Mae: ich denke nur, es waere eine seltsame Unterhaltung #line:1c1be4
+        	Rosa: vielleicht findest du eines Tages, dass es nicht so seltsam ist. #line:058542
+        Rosa: ich wollte diese Geschichte an dich weitergeben #line:6eba23
+        Rosa: es war eine Nacht, eine Sache, die er tat #line:1478ed
+        Rosa: in einem Leben voller Naechte und Dinge, die er tat #line:babef5
+        Rosa: was du damit machen willst, ist jetzt Teil deiner Geschichte. #line:4eb94d
         <<wait 4>>
-        Rosa: i can’t talk much more for today #line:480cb8
-        Mae: i’d like to know more about him! #line:36753c
-        Mae: this was crazy. #line:7ece1c
+        Rosa: ich kann fuer heute nicht mehr viel sagen #line:480cb8
+        Mae: ich wuerde gerne mehr ueber ihn wissen! #line:36753c
+        Mae: das war verrueckt. #line:7ece1c
         Rosa: ... #line:26536d
-        Rosa: i’ll see you, mae #line:ba208b
-        Rosa: sooner or later. #line:bd8072
+        Rosa: ich werde dich sehen, Mae #line:ba208b
+        Rosa: frueher oder spaeter. #line:bd8072
         Mae: ok. #line:3e97d8
-        Mae: bye, Miss Rosa! #line:82eab4
-        Rosa: bye for now, Mae Borowski. #line:4ed2a3
+        Mae: tschuess, Fraeulein Rosa! #line:82eab4
+        Rosa: auf Wiedersehen fuer jetzt, Mae Borowski. #line:4ed2a3
     <<endif>>
 <<endif>>
 <<set $rosa_done to 1>>
@@ -738,10 +738,10 @@ tags:
 colorID: 2
 position: 11879,-10111
 ---
-Fisherman: Wife long gone, kids don’t care. #line:f325d0
-Fisherman: Tunnel fish are always there. #line:65e724
-Mae: Ha ha yeah man. #line:8330f6
-Fisherman: Oh god please don’t listen. #line:97e0a8
+Fisherman: Frau laengst weg, Kinder sind egal. #line:f325d0
+Fisherman: Tunnelfische sind immer da. #line:65e724
+Mae: Ha ha ja Mann. #line:8330f6
+Fisherman: Oh Gott bitte hoer nicht zu. #line:97e0a8
 <<set $fisherman_done to 1>>
 ===
 title: MissQuelcy
@@ -762,15 +762,15 @@ position: 8138,-8801
     <<alwaysLookAt Mae MissQuelcy>>
     <<wait .25>>
     Mae: o/ #line:a51855
-    Mae:{locator=MaeQuelcy}Hey Ms. Quelcy! Are you on... a phone? #line:c779a2
+    Mae:{locator=MaeQuelcy}Hey Ms. Quelcy! Sind Sie an einem... Telefon? #line:c779a2
     Mae: _o_ #line:75cef1
-    MissQuelcy:{locator=MaeQuelcy}Mae, I think I found signal. #line:c8ac5f
-    Mae:{locator=MaeQuelcy}Oh my god. #line:9483bb
-    MissQuelcy:{locator=Quelcy}I know, Mae. I know. #line:53296d
-    [[{locator=MaeQuelcy}So how's art class this year?|MissQuelcy_Demo_ArtClass]] #line:6169b0
-    [[{locator=MaeQuelcy}I'm surprised you even carry a phone around town. No one else does.|MissQuelcy_Demo_Phone]] #line:d17f4c
+    MissQuelcy:{locator=MaeQuelcy}Mae, ich glaube, ich habe ein Signal gefunden. #line:c8ac5f
+    Mae:{locator=MaeQuelcy}Oh mein Gott. #line:9483bb
+    MissQuelcy:{locator=Quelcy}Ich weiss, Mae. Ich weiss es. #line:53296d
+    [[Wie ist der Kunstunterricht dieses Jahr?|MissQuelcy_Demo_ArtClass]] #line:6169b0
+    [[{locator=MaeQuelcy}Ich bin ueberrascht, dass du ueberhaupt ein Telefon in der Stadt hast. Niemand sonst tut das.|MissQuelcy_Demo_Phone]] #line:d17f4c
 <<elseif $miss_quelcy is 1>>
-    MissQuelcy: Mae, you're scaring the signal away. #line:5e0053
+    MissQuelcy: Mae, du verscheuchst das Signal. #line:5e0053
 <<endif>>
 ===
 title: MissQuelcy_Demo_Phone
@@ -778,16 +778,16 @@ tags: demo
 colorID: 0
 position: 8413,-8493
 ---
-MissQuelcy: I have a comprehensive internal database of unsecured wifi hotspots. #line:808ccb
-Mae:{locator=MaeQuelcy}That's scandalous. #line:75fda4
-MissQuelcy: Me stealing wifi is about the 10th most scandalous thing involving a phone I've encountered this week. #line:f3d1fd
+MissQuelcy: Ich habe eine umfassende interne Datenbank mit ungesicherten Wifi-Hotspots. #line:808ccb
+Mae:{locator=MaeQuelcy}Das ist skandaloes. #line:75fda4
+MissQuelcy: Dass ich Wifi klaue, ist ungefaehr der zehntgroesste Skandal, den ich diese Woche mit einem Telefon erlebt habe. #line:f3d1fd
 Mae:{locator=MaeQuelcy}Oh? #line:b5e212
-MissQuelcy:{locator=Quelcy}I caught several students earlier this week, back of the art room, looking at ...visual reference. #line:46fd76
+MissQuelcy:{locator=Quelcy}Ich habe Anfang der Woche mehrere Schueler dabei erwischt, wie sie sich im hinteren Teil des Kunstraums ...eine visuelle Referenz angesehen haben. #line:46fd76
 Mae:{locator=MaeQuelcy}Oh... :\ #line:538a0e
-MissQuelcy:{locator=Quelcy}I swear they should stop calling these smartphones and start calling them tupperware for porn. #line:2b8478
-Mae:{locator=MaeQuelcy}Yeah. They should call them that. :| #line:1090d3
-MissQuelcy: It's not like we get any signal in Possum Springs.  #line:b882a5
-MissQuelcy: If I see a kid with a phone I just assume they're carrying a smut bomb waiting to go off. #line:337dde
+MissQuelcy:{locator=Quelcy}Ich schwoere, sie sollten aufhoeren, diese Smartphones zu nennen und sie stattdessen Tupperware fuer Pornos nennen. #line:2b8478
+Mae:{locator=MaeQuelcy}Ja. Sie sollten sie so nennen. :| #line:1090d3
+MissQuelcy: Es ist ja nicht so, dass wir in Possum Springs Empfang haben.  #line:b882a5
+MissQuelcy: Wenn ich ein Kind mit einem Telefon sehe, nehme ich einfach an, dass es eine Schmutzbombe bei sich traegt, die darauf wartet, hochzugehen. #line:337dde
 [[MissQuelcy_Demo_End]]
 ===
 title: MissQuelcy_Demo_ArtClass
@@ -795,10 +795,10 @@ tags: demo
 colorID: 0
 position: 7913,-8526
 ---
-MissQuelcy: Well, we're studying anatomy for figure drawing #line:4cc2a8
-MissQuelcy: and I'm trying to somehow work it into the sex ed class this district won't allow us to have. #line:d94428
-Mae:{locator=MaeQuelcy}I won't tell. :) #line:30806e
-MissQuelcy: I guess if all else fails we could make onesies. #line:7ebf6b
+MissQuelcy: Nun, wir lernen Anatomie fuer das Figurenzeichnen #line:4cc2a8
+MissQuelcy: und ich versuche, es irgendwie in den Sexualkundeunterricht einzubauen, den uns der Bezirk nicht erlaubt. #line:d94428
+Mae:{locator=MaeQuelcy}Ich werde nichts verraten. :) #line:30806e
+MissQuelcy: Ich schaetze, wenn alles andere fehlschlaegt, koennten wir Strampler machen. #line:7ebf6b
 Mae: :| #line:b2bc4b
 [[MissQuelcy_Demo_End]]
 ===
@@ -807,17 +807,17 @@ tags: demo
 colorID: 0
 position: 8144,-8231
 ---
-Mae:{locator=MaeQuelcy}Well, best of luck with the signal! #line:c3461b
-MissQuelcy: Hey, Mae? I know you just recently got back, but I have some free advice for you. #line:033831
-Mae:{locator=MaeQuelcy}What's that? #line:8a81cb
-MissQuelcy: Get out now while you still can. #line:9ba70a
-Mae:{locator=MaeQuelcy}Um. Thanks. :\ #line:b6b315
-Mae:{locator=MaeQuelcy}Why are you still here if you hate it so much? #line:a63569
-MissQuelcy: Child, I am paid to be here. #line:ac6b0d
-Mae:{locator=MaeQuelcy}Ok. Thanks? #line:368f8b
-MissQuelcy: Run. Run away. Get a job in far away lands. Join the circus. Be not here.  #line:b9a88f
+Mae:{locator=MaeQuelcy}Nun, viel Glueck mit dem Signal! #line:c3461b
+MissQuelcy: Hey, Mae? Ich weiss, du bist erst seit kurzem zurueck, aber ich habe einen kostenlosen Rat fuer dich. #line:033831
+Mae:{locator=MaeQuelcy}Was ist das? #line:8a81cb
+MissQuelcy: Steig jetzt aus, solange du noch kannst. #line:9ba70a
+Mae:{locator=MaeQuelcy}Um. Danke. :\ #line:b6b315
+Mae:{locator=MaeQuelcy}Warum bist du noch hier, wenn du es so sehr hasst? #line:a63569
+MissQuelcy: Kind, ich werde dafuer bezahlt, hier zu sein. #line:ac6b0d
+Mae:{locator=MaeQuelcy}Ok. Danke! #line:368f8b
+MissQuelcy: Lauft. Lauft weg. Such dir einen Job in einem fernen Land. Tritt dem Zirkus bei. Sei nicht hier.  #line:b9a88f
 Mae:{locator=MaeQuelcy}... :| #line:8c1954
-MissQuelcy: You're welcome. #line:0d56da
+MissQuelcy: Gern geschehen. #line:0d56da
 <<set $ms_quelcy to 1>>
 ===
 title: Old_TunnelTeens_A2D4
@@ -829,13 +829,13 @@ position: 5739,-8851
 <<if $tunnel_teens is 0>>
     <<set $tunnel_teens += 1>>
     <<set $tunnel_teens_done to 1>>
-    Mae: Where is everybody? #line:15f908
+    Mae: Wo sind denn alle? #line:15f908
     TunnelTeen3: *mmf**mmf* #line:a64cf3
-    Mae: What? #line:3cd8e3
+    Mae: Was? #line:3cd8e3
     TunnelTeen3: *MMF**MMF* #line:da3668
-    Mae: Oh my god. We used to do that. Awesome. #line:c14f80
+    Mae: Oh, mein Gott. Das haben wir frueher auch gemacht. Unglaublich. #line:c14f80
     TunnelTeen3: *mmf**mmf**mmf* #line:595545
-    Mae: Well you go easy on my street. #line:7d3a01
+    Mae: Nun, du gehst mir nicht auf die Nerven. #line:7d3a01
     TunnelTeen3: *mmf**mmfmmffmffff* #line:ea0c64
     Mae: Deal #line:b5e871
     <<set $knows_mischief to 1>>
@@ -851,36 +851,36 @@ position: 6055,-8801
     <<set $tunnel_teens_done to 1>>
     <<if $knows_mischief is 1>>
     	Mae: Wow. #line:08d078
-    	Mae: You guys sure did a number on my street. #line:32816f
-    	TunnelTeen3: We did nothing. #line:043e79
-    	TunnelTeen2: You got no proof. #line:7682fc
-    	Mae: That's my neighbor's pumpkin right there. #line:eb0dc9
-    	TunnelTeen2: This is a different pumpkin. #line:57663c
+    	Mae: Ihr habt in meiner Strasse ganz schoen was angerichtet. #line:32816f
+    	TunnelTeen3: Wir haben nichts getan. #line:043e79
+    	TunnelTeen2: Ihr habt keine Beweise. #line:7682fc
+    	Mae: Das ist der Kuerbis von meinem Nachbarn. #line:eb0dc9
+    	TunnelTeen2: Das ist ein anderer Kuerbis. #line:57663c
     	Mae: ... #line:3e41d0
     <<endif>>
     <<if $intro_teens is 0>>
-    	TunnelTeen1: Hey don't you know Lori? #line:3aa32a
-    	Mae: Yeah. #line:326946
+    	TunnelTeen1: Hey, kennst du Lori nicht? #line:3aa32a
+    	Mae: Ja. #line:326946
     	TunnelTeen1: Oh ok. #line:366e4e
-    	TunnelTeen2: I thought so #line:be9c7f
+    	TunnelTeen2: Dachte ich mir schon #line:be9c7f
     	<<set $intro_teens to 1>>
     <<endif>>
-    Mae: Hey... uh... kind of a weird question, but #line:7497e6
-    Mae: is anyone missing? #line:48ba36
-    TunnelTeen3: What? #line:c312a6
-    Mae: Like anyone you know who was out last night #line:056643
-    Mae: and didn't come back? #line:914b89
-    TunnelTeen2: Uh. #line:c8a7a2
-    TunnelTeen4: I don't think so? #line:c5c2a5
-    TunnelTeen1: What's going on? #line:1acc37
-    Mae: Nothing. Thought I saw something. #line:b7cae9
-    TunnelTeen3: Ok... uh... #line:d421bd
-    TunnelTeen1: You should tell us if this is something. #line:3f6e18
-    Mae: Just be careful, ok? Keep an eye out #line:3a296d
-    Mae: and let me know if you see anything weird, ok? #line:29c8bd
+    Mae: Hey... aeh... irgendwie eine komische Frage, aber #line:7497e6
+    Mae: wird jemand vermisst? #line:48ba36
+    TunnelTeen3: Was? #line:c312a6
+    Mae: Zum Beispiel irgendjemand, den du kennst, der letzte Nacht unterwegs war #line:056643
+    Mae: und nicht zurueckgekommen ist? #line:914b89
+    TunnelTeen2: Aeh. #line:c8a7a2
+    TunnelTeen4: Das glaube ich nicht? #line:c5c2a5
+    TunnelTeen1: Was ist hier los? #line:1acc37
+    Mae: Nichts. Ich dachte, ich haette etwas gesehen. #line:b7cae9
+    TunnelTeen3: Ok ... aeh ... #line:d421bd
+    TunnelTeen1: Du solltest uns sagen, ob das etwas ist. #line:3f6e18
+    Mae: Sei einfach vorsichtig, ok? Halt die Augen offen #line:3a296d
+    Mae: und sag mir Bescheid, wenn du etwas Seltsames siehst, ok? #line:29c8bd
     <<set $teen_sleuth to 1>>
-    Mae: I mean you all hang out together constantly. #line:39a69b
-    Mae: You're safer than anyone else I know! #line:3d9106
+    Mae: Ich meine, ihr haengt doch staendig zusammen rum. #line:39a69b
+    Mae: Du bist sicherer als jeder andere, den ich kenne! #line:3d9106
     TunnelTeen1: ... #line:853785
 <<endif>>
 ===
@@ -894,66 +894,66 @@ position: 6241,-8929
     <<set $tunnel_teens_done to 1>>
 
     <<if $no_lori is 1>>
-    	TunnelTeen1: Eff off. #line:d3b7ef
+    	TunnelTeen1: Verpiss dich. #line:d3b7ef
         <<stop>>
     <<endif>>
     <<if $intro_teens is 0>>
-    	TunnelTeen1: Hey don't you know Lori? #line:de4c3d
-    	Mae: Yeah. #line:722e5d
+    	TunnelTeen1: Hey, kennst du Lori nicht? #line:de4c3d
+    	Mae: Ja. #line:722e5d
     	TunnelTeen1: Oh ok. #line:f36d62
-    	TunnelTeen2: I thought so #line:5c0a27
+    	TunnelTeen2: Dachte ich mir schon #line:5c0a27
     	<<set $intro_teens to 1>>
     <<else>>
-    	Mae: Hey teens. #line:46740a
+    	Mae: Hey Teens. #line:46740a
     	TunnelTeen3: Hey. #line:c8d6fa
     <<endif>>
-    Mae: So like... are you *always* together? #line:a9ebd2
-    TunnelTeen1: Yeah I guess. #line:90c4ac
-    Mae: That's cool. Friends are cool. #line:fef9b8
-    Mae: Safer. #line:13fece
-    TunnelTeen3: Safer? #line:b09941
-    Mae: Yeah, like the buddy system. #line:5f4cd9
-    Mae: Safety in numbers!!! #line:67f399
-    TunnelTeen4: You're a little paranoid, you know that? #line:71c7e3
-    Mae: Kid, you don't even know. #line:042644
+    Mae: Also... seid ihr *immer* zusammen? #line:a9ebd2
+    TunnelTeen1: Ja, ich denke schon. #line:90c4ac
+    Mae: Das ist cool. Freunde sind cool. #line:fef9b8
+    Mae: Sicherer. #line:13fece
+    TunnelTeen3: Sicherer? #line:b09941
+    Mae: Ja, wie das Kumpel-System. #line:5f4cd9
+    Mae: Sicherheit in Zahlen!!! #line:67f399
+    TunnelTeen4: Du bist ein bisschen paranoid, weisst du das? #line:71c7e3
+    Mae: Kind, du weisst es nicht einmal. #line:042644
     <<if $teen_sleuth is 1>>
-    	Mae: Anyone hear anything about anyone around here missing? #line:833a41
-    	TunnelTeen3: Uh, yeah actually. #line:cd7cd4
-    	TunnelTeen3: There's some girl I know online #line:98bef4
-    	TunnelTeen3: she hasn't been on since Harfest. #line:cd3ed1
-    	Mae: Ok well I think we might need a bit more than that. #line:e33a4d
+    	Mae: Hat jemand etwas darueber gehoert, dass hier jemand vermisst wird? #line:833a41
+    	TunnelTeen3: Aeh, ja, tatsaechlich. #line:cd7cd4
+    	TunnelTeen3: Da ist ein Maedchen, das ich online kenne #line:98bef4
+    	TunnelTeen3: sie war seit dem Harfest nicht mehr online. #line:cd3ed1
+    	Mae: Ok, also ich denke, wir brauchen vielleicht ein bisschen mehr als das. #line:e33a4d
     	TunnelTeen3: Ok. #line:3772a0
-    	Mae: Is she from here? I could ask my aunt... #line:48eade
-    	TunnelTeen3: some place called Mulvay #line:f8a7de
-    	Mae: !!!! (eyes dilate, big frown) #line:9392a0
+    	Mae: Ist sie von hier? Ich koennte meine Tante fragen... #line:48eade
+    	TunnelTeen3: irgendein Ort namens Mulvay #line:f8a7de
+    	Mae: !!!! (Augen weiten sich, grosses Stirnrunzeln) #line:9392a0
     	Mae: *Mulvay*? #line:626dc9
-    	Mae: You know someone from *Mulvay*? #line:32417b
-    	TunnelTeen3: Yeah? #line:e1c6b4
-    	Mae: Do you know where Mulvay is? #line:c9625f
-    	Mae: Do you know *WHAT* Mulvay is? #line:f85801
-    	TunnelTeen3: No... #line:da75bb
-    	TunnelTeen1: I heard about Mulvay. #line:3cdc60
-    	TunnelTeen1: My dad drives a bread truck. #line:ad7cc2
-    	TunnelTeen1: Mulvay used to be one of his stops. #line:d22eb6
-    	Mae: What happened? #line:6a89e0
-    	TunnelTeen1: He don't stop there no more. #line:5c56ec
-    	TunnelTeen1: They had to pay some other guy to do it. #line:c03ae9
-    	Mae: Sounds about right. #line:4300eb
-    	TunnelTeen3: WHAT'S Mulvay? #line:629257
-    	TunnelTeen1: I'll take you out there this weekend. #line:2e23dc
-    	Mae: Don't. #line:7fe33c
-    	TunnelTeen1: It'll be fine. We'll just drive through. #line:1926d3
+    	Mae: Du kennst jemanden aus *Mulvay*? #line:32417b
+    	TunnelTeen3: Ja? #line:e1c6b4
+    	Mae: Weisst du, wo Mulvay ist? #line:c9625f
+    	Mae: Weisst du, *WAS* Mulvay ist? #line:f85801
+    	TunnelTeen3: Nein... #line:da75bb
+    	TunnelTeen1: Ich habe von Mulvay gehoert. #line:3cdc60
+    	TunnelTeen1: Mein Vater faehrt einen Brotwagen. #line:ad7cc2
+    	TunnelTeen1: Mulvay war frueher eine seiner Stationen. #line:d22eb6
+    	Mae: Was ist passiert? #line:6a89e0
+    	TunnelTeen1: Er haelt dort nicht mehr an. #line:5c56ec
+    	TunnelTeen1: Sie mussten einen anderen Typen dafuer bezahlen. #line:c03ae9
+    	Mae: Hoert sich gut an. #line:4300eb
+    	TunnelTeen3: WAS ist Mulvay? #line:629257
+    	TunnelTeen1: Ich werde dich dieses Wochenende dorthin bringen. #line:2e23dc
+    	Mae: Tu das nicht. #line:7fe33c
+    	TunnelTeen1: Es wird schon gehen. Wir werden einfach durchfahren. #line:1926d3
     	Mae: ... #line:74a197
-    	Mae: I need to go get back in the sun now. #line:9251d1
+    	Mae: Ich muss jetzt wieder in die Sonne gehen. #line:9251d1
         <<set $munroy to 1>>
     <<else>>
-    	Mae: So like... and I don't want this to sound weird, but... #line:b4a8d3
-    	Mae: Do you know of anyone who's gone missing in the past couple days? #line:152964
-    	TunnelTeen1: No? #line:bb7f5e
-    	TunnelTeen4: Nah, not that I know of #line:4fd750
-    	Mae: Ok, well tell me if you notice anyone is. #line:6259da
-    	TunnelTeen3: You are really spooking me. #line:3b47d3
-    	Mae: You and me both, kid. #line:b6ef2c
+    	Mae: Also... und ich will nicht, dass das seltsam klingt, aber... #line:b4a8d3
+    	Mae: Weisst du von jemandem, der in den letzten Tagen verschwunden ist? #line:152964
+    	TunnelTeen1: Nein? #line:bb7f5e
+    	TunnelTeen4: Nein, nicht dass ich wuesste #line:4fd750
+    	Mae: Ok, dann sag mir, ob dir jemand aufgefallen ist. #line:6259da
+    	TunnelTeen3: Du erschreckst mich wirklich. #line:3b47d3
+    	Mae: Wir beide, Junge. #line:b6ef2c
     	<<set $teen_sleuth to 1>>
     <<endif>>
 <<endif>>
@@ -967,27 +967,27 @@ position: 6468,-8865
     <<set $tunnel_teens += 1>>
     <<set $tunnel_teens_done to 1>>
     <<if $no_lori is 1>>
-    	TunnelTeen1: Eff off. #line:5c4be8
+    	TunnelTeen1: Verpiss dich. #line:5c4be8
     <<else>>
         <<if $intro_teens is 0>>
-        	TunnelTeen1: Hey don't you know Lori? #line:a0e7a7
-        	Mae: Yeah. #line:705235
+        	TunnelTeen1: Hey, kennst du Lori nicht? #line:a0e7a7
+        	Mae: Ja. #line:705235
         	TunnelTeen1: Oh ok. #line:a1fd37
-        	TunnelTeen2: I thought so #line:9c454f
+        	TunnelTeen2: Dachte ich mir schon #line:9c454f
         	<<set $intro_teens to 1>>
         <<else>>
-        	Mae: Hey teens. #line:95615f
+        	Mae: Hey Teens. #line:95615f
         	TunnelTeen3: Hey. #line:79867f
         <<endif>>
-        Mae: Hey you guys. #line:5fdac2
-        TunnelTeen2: Yeah? #line:f99c5e
-        Mae: Stay safe, alright? #line:14328f
-        TunnelTeen3: wow. Thanks mom. #line:e71046
-        TunnelTeen4: are you our new mom? #line:e08973
-        Mae: apparently. #line:986caa
-        Mae: life, man. it goes. #line:2483fc
-        TunnelTeen1: slowly #line:d7226e
-        Mae: nah, dude. #line:031c7e
+        Mae: Hey ihr beiden. #line:5fdac2
+        TunnelTeen2: Ja? #line:f99c5e
+        Mae: Pass auf dich auf, ja? #line:14328f
+        TunnelTeen3: wow. Danke Mom. #line:e71046
+        TunnelTeen4: bist du unsere neue Mutter? #line:e08973
+        Mae: anscheinend. #line:986caa
+        Mae: das Leben, Mann. es geht. #line:2483fc
+        TunnelTeen1: langsam #line:d7226e
+        Mae: nee, Alter. #line:031c7e
         Mae: nah. #line:8d1e22
     <<endif>>
 <<endif>>
@@ -1002,18 +1002,18 @@ position: 10930,-11012
     //Mae: My precious rat babies have left the nest! no need for Momma to feed 'em anymore.
     //Mae: ...they grow up so fast...
 <<elseif $rats_fed_today is 1 >>
-    Mae: My babies are all fed. Momma don't need to steal today. #line:fd69b8
+    Mae: Meine Babies sind alle gefuettert. Mom braucht heute nicht zu stehlen. #line:fd69b8
 <<elseif $paws_mode_mallard is 0>>
-    Mae: Delicious pretzels... #line:1570f6
+    Mae: Leckere Brezeln... #line:1570f6
 <<elseif $paws_mode_mallard is 1 and $pretzel is 0 and $pretzel_steal_attempt is 0>>
-    Mae: I bet some rat babies would love a delicious pretzel... #line:43eb5b
+    Mae: Ich wette, einige Rattenbabys wuerden eine leckere Brezel lieben... #line:43eb5b
     <<set $pretzel_steal_attempt to 1>>
     <<irisOut 1 wait>>
     <<scene PawsModeStealingPretzel>>
 <<elseif $paws_mode_mallard is 1 and $pretzel is 0 and $pretzel_steal_attempt > 0>>
-    Mae: ugh probably not gonna get another chance today. dammit. #line:403955
+    Mae: ugh Wahrscheinlich kriege ich heute keine Gelegenheit mehr. verdammt. #line:403955
 <<elseif $paws_mode_mallard is 1 and $pretzel > 0>>
-    Mae: One pretzel is enough for my tiny rat darlings. #line:6aea7d
+    Mae: Eine Brezel ist genug fuer meine kleinen Rattenlieblinge. #line:6aea7d
 <<endif>>
 ===
 title: MuralVandalism
@@ -1022,10 +1022,10 @@ colorID: 3
 position: 11629,-10944
 ---
 Mae: {emote=exclamation} #line:6a9b17
-Mae: HOLY SHIT. #line:4d5b94
-Mae: The Dudes! Someone hecked up the dudes! #line:ca137a
-Mae: Who... did... this? #line:c2d109
-Mae: Why did they do it? #line:b6990d
+Mae: HEILIGE SCHEIssE. #line:4d5b94
+Mae: Die Gecken! Jemand hat die Kerle hochgejagt! #line:ca137a
+Mae: Wer... hat... das getan? #line:c2d109
+Mae: Warum haben sie es getan? #line:b6990d
 <<set $knows_mural to 1>>
 <<set $mural_vandalism_done to 1>>
 <<unlockDoodle NukePossumSprings>>
@@ -1035,14 +1035,14 @@ tags: demo2
 colorID: 3
 position: 12133,-10105
 ---
-Fisherman: Many miners old and young #line:43ff0a
-Fisherman: With home in heart and coal in lung #line:7e693b
-Fisherman: Were taken by the trolley men #line:a6ee6b
-Fisherman: Up to the mine and back again #line:e26a2a
-Fisherman: But mudslide, flood, and awful storm #line:7f6cd9
-Fisherman: Have given tunnel fishes ho... rm. #line:8e1a8b
+Fisherman: Viele Bergleute, alt und jung #line:43ff0a
+Fisherman: Mit Heimat im Herzen und Kohle in der Lunge #line:7e693b
+Fisherman: Wurden von den Wagenleuten mitgenommen #line:a6ee6b
+Fisherman: Hinauf zum Bergwerk und wieder zurueck #line:e26a2a
+Fisherman: Aber Schlammlawine, Ueberschwemmung, und schrecklicher Sturm #line:7f6cd9
+Fisherman: Haben Stollenfische ho... rm gegeben. #line:8e1a8b
 Mae: "Horm?" :) #line:4168d5
-Fisherman: Please stop listening. #line:7e29d3
+Fisherman: Bitte hoer auf zu lauschen. #line:7e29d3
 Mae: :| #line:9bf4b9
 <<set $fisherman_done to 1>>
 <<unlockDoodle HoneyImHorm>>
@@ -1053,10 +1053,10 @@ colorID: 3
 position: 10426,-10721
 ---
 <<lookOut Mae>>
-Mae:{locator=TrolleyWonder}Amazing to think these things used to run. #line:3d2a8d
-Mae:{locator=TrolleyWonder}Kind of amazing they're still down here too. #line:30317f
-Mae:{locator=TrolleyWonder}No way to get them out of here I guess. #line:ce4491
-Mae:{locator=TrolleyWonder}This place sure was something a long time ago. #line:c6f58d
+Mae:{locator=TrolleyWonder}Erstaunlich, dass diese Dinger frueher fuhren. #line:3d2a8d
+Mae:{locator=TrolleyWonder}Erstaunlich, dass sie immer noch hier unten sind. #line:30317f
+Mae:{locator=TrolleyWonder}Ich schaetze, es gibt keine Moeglichkeit, sie hier rauszuholen. #line:ce4491
+Mae:{locator=TrolleyWonder}Dieser Ort war vor langer Zeit wirklich mal was. #line:c6f58d
 <<lookNearest Mae>>
 <<set $trolley_wonder_done to 1>>
 ===
@@ -1065,10 +1065,10 @@ tags: demo2
 colorID: 3
 position: 10728,-10716
 ---
-Mae: I can't believe they've kept this open. #line:46b469
-Mae: Historical note, I guess. #line:e32628
-Mae: I think it's just because the old people like the pierogi stand. #line:68f5f9
-Mae: Never underestimate the ability of old people to get state funding. #line:19f14d
+Mae: Ich kann nicht glauben, dass sie das offen gelassen haben. #line:46b469
+Mae: Historische Anmerkung, denke ich. #line:e32628
+Mae: Ich glaube, es ist nur, weil die alten Leute den Piroggenstand moegen. #line:68f5f9
+Mae: Unterschaetze niemals die Faehigkeit alter Menschen, staatliche Gelder zu bekommen. #line:19f14d
 <<end>>
 ===
 title: Council1
@@ -1077,13 +1077,13 @@ colorID: 0
 position: 12187,-10828
 ---
 <<if $council1 is 0>>
-    Council1: Damn shame #line:98d2f6
+    Council1: Verdammte Schande #line:98d2f6
     <<set $council1 += 1>>
 <<elseif $council1 is 1>>
-    Council1: This was of historical note! #line:389d5f
+    Council1: Das war von historischer Bedeutung! #line:389d5f
     <<set $council1 += 1>>
 <<elseif $council1 is 2>>
-    Council1: Without it I don’t know if we can justify keeping this place open... #line:dc34ec
+    Council1: Ohne sie weiss ich nicht, ob wir es rechtfertigen koennen, diesen Ort offen zu halten... #line:dc34ec
     <<set $council1 += 1>>
 <<else>>
     Council1: {emote=cloud_rain} #line:6dcdd4
@@ -1096,32 +1096,32 @@ colorID: 3
 position: 11790,-10463
 ---
 <<set $council1_done to 1>>
-Council1: Because this mural is of historical note, Molly! #line:dd8664
-Council1: What do we know? #line:120ce6
-Molly: Well, sometime overnight #line:2e613b
-Molly: someone used bolt cutters on the gate #line:526d97
-Molly: and came down here. #line:4ce8e4
-Council1: What’d they use, a paint roller? #line:f75c78
-Molly: Looks to be. #line:76b5d6
-Council1: Says they intend to Nuke Poss... something? #line:f1616b
-Molly: I think it’s likely some kid #line:364c8f
-Molly: saw one of the old Nuke Possum Springs vandalisms from back when #line:22f6a0
-Molly: and got bored halfway through writing it. #line:d7e9bc
-Council1: We need to treat this as a terrorist action. #line:d97445
-Molly: I’m... sorry? #line:dec852
-Council1: This mural is of historical note! #line:358775
-Molly: Alright well I’ll round up any… uh… terrorists I see. #line:e17187
-Council1: Round up any dirtbag teens or vagrants that’ve been hanging around town #line:52adf2
-Council1: check out by the abandoned Food Donkey. #line:31c864
-Council1: they come off the train there #line:67a36c
-Molly: Already on it. #line:526ee7
+Council1: Weil dieses Wandgemaelde von historischer Bedeutung ist, Molly! #line:dd8664
+Council1: Was wissen wir denn schon? #line:120ce6
+Molly: Nun, irgendwann ueber Nacht #line:2e613b
+Molly: jemand hat einen Bolzenschneider am Tor benutzt #line:526d97
+Molly: und kam hier runter. #line:4ce8e4
+Council1: Was haben sie benutzt, eine Farbrolle? #line:f75c78
+Molly: Sieht so aus. #line:76b5d6
+Council1: Sagt, sie beabsichtigen, Poss... irgendwas zu atomisieren? #line:f1616b
+Molly: Ich denke, es ist wahrscheinlich irgendein Kind #line:364c8f
+Molly: hat einen der alten Nuke-Possum-Springs-Vandalismen von frueher gesehen #line:22f6a0
+Molly: und langweilte sich auf halbem Weg, es zu schreiben. #line:d7e9bc
+Council1: Wir muessen dies als eine terroristische Aktion behandeln. #line:d97445
+Molly: Es... tut mir leid? #line:dec852
+Council1: Dieses Wandgemaelde ist von historischer Bedeutung! #line:358775
+Molly: Na gut, ich treibe alle... aeh... Terroristen auf, die ich sehe. #line:e17187
+Council1: Sammelt alle dreckigen Teenager oder Landstreicher ein, die sich in der Stadt herumtreiben #line:52adf2
+Council1: schau mal bei dem verlassenen Essensesel vorbei. #line:31c864
+Council1: sie kommen dort aus dem Zug #line:67a36c
+Molly: Schon dabei. #line:526ee7
 Council1: Molly. #line:5703d4
-Molly: Yeah? #line:a65a29
-Council1: Find whoever did this. #line:3b2db5
+Molly: Ja? #line:a65a29
+Council1: Findet den, der das getan hat. #line:3b2db5
 Molly: Ok. #line:c5f1f0
-Council1: I want to see them hang. #line:5ceca2
-Molly: I think at most they’d get a fine and some jail time #line:2f2527
-Molly: but alright. I’ll let you know when we’ve got something. #line:4e7b68
+Council1: Ich will sie haengen sehen. #line:5ceca2
+Molly: Ich denke, sie wuerden hoechstens eine Geldstrafe und etwas Gefaengnis bekommen #line:2f2527
+Molly: aber na gut. Ich lasse es dich wissen, wenn wir etwas haben. #line:4e7b68
 <<close>>
 <<set $council1_done to 0>>
 <<walk Molly MollyOffRight>>
@@ -1136,46 +1136,46 @@ position: 6270,-8527
     <<set $tunnel_teens += 1>>
     <<set $tunnel_teens_done to 1>>
     <<if $no_lori is 1>>
-    	TunnelTeen1: Eff off. #line:fd36f2
-        Mae: No. Today *YOU* eff off. #line:5d132d
-        TunnelTeen1: Dang, bud. #line:01f483
+    	TunnelTeen1: Hau ab. #line:fd36f2
+        Mae: Nein. Heute *Du* verziehst dich. #line:5d132d
+        TunnelTeen1: Verdammt, Kumpel. #line:01f483
     <<else>>
         <<if $intro_teens is 0>>
-        	TunnelTeen1: Hey don't you know Lori? #line:50a9c9
-        	Mae: Yeah. #line:b4889e
+        	TunnelTeen1: Hey, kennst du Lori nicht? #line:50a9c9
+        	Mae: Ja. #line:b4889e
         	TunnelTeen1: Oh ok. #line:91761a
-        	TunnelTeen2: I thought so #line:e69c1c
+        	TunnelTeen2: Dachte ich mir schon #line:e69c1c
         	<<set $intro_teens to 1>>
         <<else>>
-        	Mae: Hey teens. #line:48cb38
+        	Mae: Hey Teens. #line:48cb38
         	TunnelTeen3: Hey. #line:6678a6
         <<endif>>
         Mae: oof. #line:6c5c55
         TunnelTeen1: Oof? #line:788d2f
-        TunnelTeen2: you alright? #line:8ffc93
-        Mae: I guess. #line:3283f5
-        TunnelTeen3: How old did you say you were? #line:96be13
+        TunnelTeen2: Bist du in Ordnung? #line:8ffc93
+        Mae: Ich denke schon. #line:3283f5
+        TunnelTeen3: Wie alt sagtest du, bist du? #line:96be13
         Mae: 20 #line:cab2fe
-        TunnelTeen4: Told you she couldn't get us beer. #line:8cc868
-        Mae: What do you want beer for anyway? #line:65a829
-        Mae: Beer is gross. #line:1a33ed
-        Mae: It's not delicious at all. #line:5847c2
-        TunnelTeen1: Life ain't always delicious, mom. #line:f4d04b
-        TunnelTeen2: Thought you'd know that by now. #line:e82d3b
-        Mae: That doesn't even have any bearing on this. #line:112cf4
-        Mae: I hear there is actual good-tasting alcohol out there. #line:01b4a1
-        Mae: I dunno. Fruit punch that makes you do things you regret. #line:164807
-        TunnelTeen3: Right. #line:e828e9
-        Mae: Am I uncool again? #line:312f8a
-        TunnelTeen4: You never were cool, mom. #line:e62e78
-        Mae: Dang. #line:853117
-        TunnelTeen1: But life ain't always cool. #line:c773ab
-        TunnelTeen2: Life is garbage. #line:a258af
-        TunnelTeen3: But like, you know. Whatever. #line:4c1af5
-        TunnelTeen4: Yeah. We're all trash anyway. #line:d17499
-        TunnelTeen1: We belong here. #line:23486f
-        Mae: Ok we can stop with the words of teenly wisdom now. #line:fe6d7b
-        Mae: Catch you later. #line:fa2585
+        TunnelTeen4: Ich sagte doch, sie kann uns kein Bier besorgen. #line:8cc868
+        Mae: Wozu wollt ihr ueberhaupt Bier? #line:65a829
+        Mae: Bier ist eklig. #line:1a33ed
+        Mae: Es ist ueberhaupt nicht lecker. #line:5847c2
+        TunnelTeen1: Das Leben ist nicht immer lecker, Mom. #line:f4d04b
+        TunnelTeen2: Ich dachte, das wuesstest du inzwischen. #line:e82d3b
+        Mae: Das hat doch gar nichts mit dem hier zu tun. #line:112cf4
+        Mae: Ich habe gehoert, es gibt tatsaechlich gut schmeckenden Alkohol da draussen. #line:01b4a1
+        Mae: Ich weiss es nicht. Fruchtpunsch, der dich Dinge tun laesst, die du bereust. #line:164807
+        TunnelTeen3: Richtig. #line:e828e9
+        Mae: Bin ich schon wieder uncool? #line:312f8a
+        TunnelTeen4: Du warst nie cool, Mom. #line:e62e78
+        Mae: Verdammt. #line:853117
+        TunnelTeen1: Aber das Leben ist nicht immer cool. #line:c773ab
+        TunnelTeen2: Das Leben ist Muell. #line:a258af
+        TunnelTeen3: Aber, du weisst schon. Was auch immer. #line:4c1af5
+        TunnelTeen4: Ja. Wir sind sowieso alle Muell. #line:d17499
+        TunnelTeen1: Wir gehoeren hierher. #line:23486f
+        Mae: Ok, wir koennen jetzt mit den Worten der Teenie-Weisheiten aufhoeren. #line:fe6d7b
+        Mae: Wir sehen uns spaeter. #line:fa2585
     <<endif>>
 <<endif>>
 ===
@@ -1184,10 +1184,10 @@ tags:
 colorID: 3
 position: 12399,-10113
 ---
-Fisherman: Wife long gone, kids don’t care. #line:19a2a9
-Fisherman: Tunnel fish are always there. #line:ef6ce8
-Mae: Ha ha yeah man. #line:e5a2c6
-Fisherman: Oh god please don’t listen. #line:6e6e02
+Fisherman: Frau laengst weg, Kinder sind egal. #line:19a2a9
+Fisherman: Tunnelfische sind immer da. #line:ef6ce8
+Mae: Ha ha ja Mann. #line:e5a2c6
+Fisherman: Oh Gott bitte hoer nicht zu. #line:6e6e02
 <<set $fisherman_done to 1>>
 ===
 title: Fisherman_A3D2
@@ -1195,11 +1195,11 @@ tags:
 colorID: 4
 position: 12648,-10102
 ---
-Fisherman: Methinks I spy a tunnel shark #line:4673a2
-Fisherman: Scary monster in the dark #line:f2d829
-Mae: Holy crap! #line:95fd19
-Fisherman: I didn't really see it. #line:cf0ecf
-Fisherman: please don't listen. #line:751531
+Fisherman: Mich duenkt, ich erspaehe einen Tunnelhai #line:4673a2
+Fisherman: Gruseliges Monster in der Dunkelheit #line:f2d829
+Mae: Heiliger Bimbam! #line:95fd19
+Fisherman: Ich habe es nicht wirklich gesehen. #line:cf0ecf
+Fisherman: bitte nicht zuhoeren. #line:751531
 <<set $fisherman_done to 1>>
 ===
 title: Fisherman_A3D4
@@ -1207,14 +1207,14 @@ tags:
 colorID: 4
 position: 12921,-10097
 ---
-Fisherman: Will tunnel fish be always there? #line:da20c2
-Fisherman: Will tunnel drain, canal be bare? #line:a1cbd0
-Fisherman: I would miss the tunnel fish. #line:351f76
-Fisherman: To have them back would be my wish. #line:bbb0d4
-Mae: are they gonna drain the tunnel or something? #line:8c50d6
-Fisherman: No. It's poetry, ok? #line:1991c1
-Fisherman: I'm just making stuff up! #line:d5858c
-Fisherman: Please don't listen!!! #line:abbe03
+Fisherman: Wird der Tunnelfisch immer da sein? #line:da20c2
+Fisherman: Wird der Tunnel abfliessen, wird der Kanal kahl sein? #line:a1cbd0
+Fisherman: Ich wuerde den Tunnelfisch vermissen. #line:351f76
+Fisherman: Sie wieder zu haben, waere mein Wunsch. #line:bbb0d4
+Mae: werden sie den Tunnel trockenlegen oder so? #line:8c50d6
+Fisherman: Nein. Das ist Poesie, ok? #line:1991c1
+Fisherman: Ich denke mir nur etwas aus! #line:d5858c
+Fisherman: Bitte hoer nicht zu!!! #line:abbe03
 <<set $fisherman_done to 1>>
 ===
 title: Fisherman_A4D3
@@ -1222,12 +1222,12 @@ tags:
 colorID: 6
 position: 13212,-10085
 ---
-Fisherman: When winter come and water freeze #line:04a4e0
-Fisherman: Here the fish can be at ease #line:3a54dc
-Fisherman: the tunnel is not flooded ruin #line:664e2d
-Fisherman: it's a home, a place for doin' #line:ec09fe
-Mae: Sure. That works. #line:5b5e8b
-Fisherman: please go away. #line:ebac7c
+Fisherman: Wenn der Winter kommt und das Wasser gefriert #line:04a4e0
+Fisherman: Hier koennen die Fische in Ruhe sein #line:3a54dc
+Fisherman: der Tunnel ist keine ueberflutete Ruine #line:664e2d
+Fisherman: es ist ein Zuhause, ein Ort zum Tun #line:ec09fe
+Mae: Klar, das funktioniert. #line:5b5e8b
+Fisherman: Bitte geh weg. #line:ebac7c
 <<set $fisherman_done to 1>>
 ===
 title: TunnelTeens_A1D1
@@ -1235,16 +1235,16 @@ tags:
 colorID: 2
 position: 6937,-9585
 ---
-Mae: Cool that people still hang around down here. #line:6880e0
-Mae: We used to do that when I was in highschool. #line:835914
-TunnelTeen1: yeah. #line:ab47a2
-Mae: I wasn’t in high school that long ago, you know. #line:616b04
-TunnelTeen2: How old are you? #line:81578c
+Mae: Cool, dass hier unten noch Leute rumhaengen. #line:6880e0
+Mae: Das haben wir immer gemacht, als ich in der Highschool war. #line:835914
+TunnelTeen1: Ja. #line:ab47a2
+Mae: So lange ist es noch nicht her, dass ich auf der Highschool war, weisst du. #line:616b04
+TunnelTeen2: Wie alt bist du? #line:81578c
 Mae: 20! #line:c41ff6
-TunnelTeen2: Oh so you can’t buy beer. #line:20415f
-Mae: ...no. #line:a71896
-TunnelTeen1: Do you have a car? #line:6cb424
-Mae: ...no. #line:341679
+TunnelTeen2: Oh, du kannst also kein Bier kaufen. #line:20415f
+Mae: ...nein. #line:a71896
+TunnelTeen1: Habt ihr ein Auto? #line:6cb424
+Mae: ...nein. #line:341679
 TunnelTeen2: hm. #line:9c988e
 ===
 title: TunnelTeens_A1D3
@@ -1252,53 +1252,53 @@ tags:
 colorID: 2
 position: 7194,-9576
 ---
-Mae: Hey kids! #line:b11054
-TunnelTeen1: Hey adult. #line:9d5b7f
-Mae: Well I was your age only a few years ago. #line:800563
+Mae: Hey Kinder! #line:b11054
+TunnelTeen1: Hey Erwachsene. #line:9d5b7f
+Mae: Nun, ich war erst vor ein paar Jahren so alt wie du. #line:800563
 TunnelTeen2: Uh huh. #line:abc5eb
 Mae: ... #line:11d420
-Mae: Well, see ya later! #line:01f821
+Mae: Na dann, bis spaeter! #line:01f821
 ===
 title: TunnelTeens_A2D2
 tags: 
 colorID: 3
 position: 6936,-9343
 ---
-Mae: Rainy day, huh. #line:523021
-TunnelTeen3: But not down here. #line:421e25
-Mae: You kids have your own little secret hideout down here, huh. :) #line:8c9f6f
+Mae: Regentag, hm. #line:523021
+TunnelTeen3: Aber nicht hier unten. #line:421e25
+Mae: Ihr habt hier unten euer eigenes kleines Geheimversteck, was?) #line:8c9f6f
 TunnelTeen2: Pfft. #line:3c2744
-TunnelTeen3: Whatever. #line:465d19
+TunnelTeen3: Wie auch immer. #line:465d19
 Mae: :| #line:fc1013
-Mae: When I was a kid -  #line:2a7da3
-TunnelTeen2: Literally nobody cares. #line:f8e041
+Mae: Als ich ein Kind war - #line:2a7da3
+TunnelTeen2: Es interessiert buchstaeblich niemanden. #line:f8e041
 <<wait 1>>
-Mae: Well - :( #line:ade1ea
-TunnelTeen3: Whatever. #line:ccd323
+Mae: Nun - :( #line:ade1ea
+TunnelTeen3: Wie auch immer. #line:ccd323
 <<wait 1>>
 Mae: ... :| #line:a05cf2
-Mae: Okay then. #line:cccfb9
+Mae: Also gut. #line:cccfb9
 ===
 title: TunnelTeens_A3D1
 tags: 
 colorID: 4
 position: 6930,-9099
 ---
-Mae: Hey... uh... kind of a weird question, but #line:e8f392
-Mae: is anyone missing? #line:981f4e
-TunnelTeen3: What? #line:0e1b86
-Mae: Like anyone you know who was out last night #line:be441e
-Mae: and didn't come back? #line:03c06b
-TunnelTeen2: Uh. #line:7d21e5
-TunnelTeen4: I don't think so? #line:eb14ed
-TunnelTeen1: What's going on? #line:9b2bff
-Mae: Nothing. Thought I saw something. #line:916d24
-TunnelTeen3: Ok... uh... #line:14a58c
-TunnelTeen1: You should tell us if this is something. #line:0aeed8
-Mae: Just be careful, ok? Keep an eye out #line:54d3d2
-Mae: and let me know if you see anything weird, ok? #line:33082c
-Mae: I mean you all hang out together constantly. #line:3517ac
-Mae: You're safer than anyone else I know! #line:0108fc
+Mae: Hey... aeh... irgendwie eine komische Frage, aber #line:e8f392
+Mae: wird jemand vermisst? #line:981f4e
+TunnelTeen3: Was? #line:0e1b86
+Mae: Zum Beispiel irgendjemand, den du kennst, der letzte Nacht unterwegs war #line:be441e
+Mae: und nicht zurueckgekommen ist? #line:03c06b
+TunnelTeen2: Aeh. #line:7d21e5
+TunnelTeen4: Das glaube ich nicht? #line:eb14ed
+TunnelTeen1: Was ist hier los? #line:9b2bff
+Mae: Nichts. Ich dachte, ich haette etwas gesehen. #line:916d24
+TunnelTeen3: Ok ... aeh ... #line:14a58c
+TunnelTeen1: Du solltest uns sagen, ob das etwas ist. #line:0aeed8
+Mae: Sei einfach vorsichtig, ok? Halt die Augen offen #line:54d3d2
+Mae: und sag mir Bescheid, wenn du etwas Seltsames siehst, ok? #line:33082c
+Mae: Ich meine, ihr haengt doch staendig zusammen rum. #line:3517ac
+Mae: Du bist sicherer als jeder andere, den ich kenne! #line:0108fc
 TunnelTeen1: ... #line:1f1846
 ===
 title: TunnelTeens_A3D3
@@ -1306,66 +1306,66 @@ tags:
 colorID: 4
 position: 7186,-9097
 ---
-Mae: So like... are you *always* together? #line:db4082
-TunnelTeen1: Yeah I guess. #line:7c3641
-Mae: That's cool. Friends are cool. #line:558028
-Mae: Safer. #line:fff818
-TunnelTeen3: Safer? #line:f2d0bf
-Mae: Yeah, like the buddy system. #line:385cbb
-Mae: Safety in numbers!!! #line:141e0b
-TunnelTeen4: You're a little paranoid, you know that? #line:a9ebd9
-Mae: Kid, you don't even know. #line:cebf1b
-Mae: Anyone hear anything about anyone around here missing? #line:af8537
-TunnelTeen3: Uh, yeah actually. #line:2223c7
-TunnelTeen3: There's some girl I know online #line:874900
-TunnelTeen3: she hasn't been on since Harfest. #line:80c9fe
-Mae: Ok well I think we might need a bit more than that. #line:688ac3
+Mae: Also... seid ihr *immer* zusammen? #line:db4082
+TunnelTeen1: Ja, ich denke schon. #line:7c3641
+Mae: Das ist cool. Freunde sind cool. #line:558028
+Mae: Sicherer. #line:fff818
+TunnelTeen3: Sicherer? #line:f2d0bf
+Mae: Ja, wie das Kumpel-System. #line:385cbb
+Mae: Sicherheit in Zahlen!!! #line:141e0b
+TunnelTeen4: Du bist ein bisschen paranoid, weisst du das? #line:a9ebd9
+Mae: Kind, du weisst es nicht einmal. #line:cebf1b
+Mae: Hat jemand etwas darueber gehoert, dass hier jemand vermisst wird? #line:af8537
+TunnelTeen3: Aeh, ja, tatsaechlich. #line:2223c7
+TunnelTeen3: Da ist ein Maedchen, das ich online kenne #line:874900
+TunnelTeen3: sie war seit dem Harfest nicht mehr online. #line:80c9fe
+Mae: Ok, also ich denke, wir brauchen vielleicht ein bisschen mehr als das. #line:688ac3
 TunnelTeen3: Ok. #line:d375a2
-Mae: Is she from here? I could ask my aunt... #line:f74cd2
-TunnelTeen3: some place called Mulvay #line:7fe46c
+Mae: Ist sie von hier? Ich koennte meine Tante fragen... #line:f74cd2
+TunnelTeen3: irgendein Ort namens Mulvay #line:7fe46c
 Mae: !!!! #line:da48dd
 //(eyes dilate, big frown)
 Mae: *Mulvay*? \o/ #line:83c091
-Mae: You know someone from *Mulvay*? #line:9bf72b
-TunnelTeen3: Yeah? #line:8e7d07
-Mae: Do you know where Mulvay is? _o_ #line:f2cc36
-Mae: Do you know *WHAT* Mulvay is? #line:999b13
-TunnelTeen3: No... #line:02e37d
-TunnelTeen1: I heard about Mulvay. #line:c0b0fd
-TunnelTeen1: My dad drives a bread truck. #line:76a820
-TunnelTeen1: Mulvay used to be one of his stops. #line:708afc
-Mae: What happened? #line:3d8a94
-TunnelTeen1: He don't stop there no more. #line:372f4c
-TunnelTeen1: They had to pay some other guy to do it. #line:37cb9d
-Mae: Sounds about right. #line:091f18
-TunnelTeen3: WHAT'S Mulvay? #line:11456d
-TunnelTeen1: I'll take you out there this weekend. #line:fb0716
-Mae: Don't. #line:0b655d
-TunnelTeen1: It'll be fine. We'll just drive through. #line:1d9fbf
+Mae: Du kennst jemanden aus *Mulvay*? #line:9bf72b
+TunnelTeen3: Ja? #line:8e7d07
+Mae: Weisst du, wo Mulvay ist? _o_ #line:f2cc36
+Mae: Weisst du, *WAS* Mulvay ist? #line:999b13
+TunnelTeen3: Nein... #line:02e37d
+TunnelTeen1: Ich habe von Mulvay gehoert. #line:c0b0fd
+TunnelTeen1: Mein Vater faehrt einen Brotwagen. #line:76a820
+TunnelTeen1: Mulvay war frueher eine seiner Stationen. #line:708afc
+Mae: Was ist passiert? #line:3d8a94
+TunnelTeen1: Er haelt dort nicht mehr an. #line:372f4c
+TunnelTeen1: Sie mussten einen anderen Typen dafuer bezahlen. #line:37cb9d
+Mae: Hoert sich gut an. #line:091f18
+TunnelTeen3: WAS ist Mulvay? #line:11456d
+TunnelTeen1: Ich werde dich dieses Wochenende dorthin bringen. #line:fb0716
+Mae: Tu's nicht. #line:0b655d
+TunnelTeen1: Es wird schon gehen. Wir werden einfach durchfahren. #line:1d9fbf
 Mae: ... #line:31aba9
-Mae: I need to go get back in the sun now. #line:7752fa
+Mae: Ich muss jetzt wieder in die Sonne gehen. #line:7752fa
 ===
 title: TunnelTeens_A4D3
 tags: 
 colorID: 6
 position: 7460,-9339
 ---
-Mae: Hey you guys. #line:a064da
-TunnelTeen2: Yeah? #line:d9fef9
-Mae: Stay safe, alright? #line:b096d7
-TunnelTeen3: wow. Thanks mom. #line:840142
-TunnelTeen4: are you our new mom? #line:642fad
-Mae: apparently. #line:ef8502
-Mae: life, man. it goes. #line:543b34
-TunnelTeen1: slowly #line:5afe1e
-Mae: nah, dude. #line:63cbec
+Mae: Hey Leute. #line:a064da
+TunnelTeen2: Ja? #line:d9fef9
+Mae: Pass auf dich auf, ja? #line:b096d7
+TunnelTeen3: wow. Danke Mom. #line:840142
+TunnelTeen4: bist du unsere neue Mutter? #line:642fad
+Mae: anscheinend. #line:ef8502
+Mae: das Leben, Mann. es geht. #line:543b34
+TunnelTeen1: langsam #line:5afe1e
+Mae: nee, Alter. #line:63cbec
 Mae: nah. #line:1a6200
 <<wait 1>>
 <<if $did_birdland_quest>>
-    TunnelTeen1: I wish those two playing the music would shut the eff up. #line:28e261
+    TunnelTeen1: Ich wuenschte, die beiden, die die Musik spielen, wuerden mal die Klappe halten. #line:28e261
     Mae: Hey! #line:412fea
     TunnelTeen1: ... #line:13a205
-    Mae: Watch it. #line:d4ef65
+    Mae: Pass auf! #line:d4ef65
 <<endif>>
 ===
 title: TunnelTeens_Intro
@@ -1373,12 +1373,12 @@ tags:
 colorID: 0
 position: 6949,-9843
 ---
-Mae: Hey teens. #line:58bf4e
+Mae: Hey Teens. #line:58bf4e
 TunnelTeen1: Hey. #line:b1571a
-Mae: What are you guys doing? #line:6511d1
+Mae: Was macht ihr denn da? #line:6511d1
 TunnelTeen1: ... #line:909b3f
 Mae: ... #line:e8744b
-TunnelTeen1: nothing. #line:e29b2d
+TunnelTeen1: nichts. #line:e29b2d
 Mae: Cool! #line:529cab
 <<wait 1>>
 <<set $met_tunnel_teens to 1>>
@@ -1405,13 +1405,13 @@ tags: temp
 colorID: 3
 position: 8359,-9802
 ---
-Mae: Where is everybody? #line:3f471a
+Mae: Wo sind denn alle? #line:3f471a
 PumpkinHeadGuy: *mmf**mmf* #line:7c289e
-Mae: What? #line:c7d1be
+Mae: Was? #line:c7d1be
 PumpkinHeadGuy: *MMF**MMF* #line:d69376
-Mae: Oh my god. We used to do that. Awesome. #line:72bc8c
+Mae: Oh mein Gott. Das haben wir auch mal gemacht. Fantastisch. #line:72bc8c
 PumpkinHeadGuy: *mmf**mmf**mmf* #line:96f37e
-Mae: Well you go easy on my street. #line:a6661f
+Mae: Nun, du gehst vorsichtig mit meiner Strasse um. #line:a6661f
 PumpkinHeadGuy: *mmf**mmfmmffmffff* #line:10de5a
 Mae: Deal #line:8c41ea
 <<set $pumpkin_head_guy_done to 1>>
@@ -1423,90 +1423,90 @@ position: 9046,-10803
 ---
 <<lookAt Mae Salvi>>
 <<if $did_tunnel_boat_ride>>
-    Salvi: Thanks for joining me! #line:7564a1
-    Mae: That was great! #line:4aeb03
-    Mae: I could totally do this as a job! #line:a1c9f9
-    Salvi: Oh no! A competitor! #line:7ff9d8
-    Mae: I'm gonna get me a boat #line:df7f92
-    Mae: and go find some trash #line:0049e3
-    Mae: and sell it to rich dorks. #line:d329b9
-    Salvi: that's the spirit! #line:17f5e8
-    Salvi: take care! #line:2a4d59
-    Mae: you too! good luck! #line:034733
+    Salvi: Danke, dass du mitmachst! #line:7564a1
+    Mae: Das war toll! #line:4aeb03
+    Mae: Das koennte ich auch als Job machen! #line:a1c9f9
+    Salvi: Oh nein! Ein Konkurrent! #line:7ff9d8
+    Mae: Ich werde mir ein Boot besorgen #line:df7f92
+    Mae: und gehe Muell suchen #line:0049e3
+    Mae: und verkaufe ihn an reiche Deppen. #line:d329b9
+    Salvi: das ist die richtige Einstellung! #line:17f5e8
+    Salvi: Pass auf dich auf! #line:2a4d59
+    Mae: du auch! viel Glueck! #line:034733
     <<set $salvi_done to 1>>
 <<else>>
     <<if $salvi_boat_intro is 0>>
         <<set $salvi_boat_intro to 1>>
-        Mae: Whoa, hi down there. #line:455fdf
-        Salvi: Ahoy there, Mae! #line:a7e55e
-        Mae: ha ha ha is that Mr. Salvi? #line:5ce510
-        Mae: what are you doing in a boat? #line:5c4620
-        Mae: in the tunnel? #line:47a89b
-        Mae: in the late afternoon? #line:fc5aaa
-        Salvi: What are you doing home from school? #line:238d47
-            ->You answer first! #line:62dc37
-            ->I guess I kinda dropped out! #line:b05fc9
-                Salvi: oh dear, mae. #line:5fee52
-                Mae: yeah. uh. sorry. #line:95f545
-                Salvi: why are you apologizing to me? #line:7aca1e
-                Mae: I don't know! #line:352b73
-                Mae: so what are you even doing down here? #line:4f107c
-        Salvi: it's my side-hustle! #line:24b64e
-        Salvi: Salvi's Salvage #line:611dbf
-        Mae: what's that? #line:5dd65b
-        Salvi: I'm a junkman, Mae. #line:e8c519
-        Mae: Are you not mowing lawns anymore? #line:ad6dcc
-        Salvi: oh no I'm still doing the landscaping #line:f17320
-        Salvi: but I'm also a purveyor of fine goods #line:589183
-        Salvi: for the discerning antique enthusiast. #line:add514
-        Mae: ok. side hustle. yeah. #line:4a1fc4
-        Salvi: you wanna come along? #line:d78a02
-        Salvi: boat ride back into the tunnel? #line:a4fd5f
-        Salvi: gonna be a short trip today, but #line:ddf75d
-        Salvi: might be fun? #line:9f65f1
-            ->uh... sure! #line:93a82d
-                Mae: Uh. #line:58756b
-                Mae: this probably isn't smart #line:de2d60
-                Salvi: it's pretty safe. #line:4d1be8
+        Mae: Whoa, hallo da unten. #line:455fdf
+        Salvi: Ahoi, Mae! #line:a7e55e
+        Mae: ha ha ha ist das Mr. Salvi? #line:5ce510
+        Mae: was machst du denn in einem Boot? #line:5c4620
+        Mae: im Tunnel? #line:47a89b
+        Mae: am spaeten Nachmittag? #line:fc5aaa
+        Salvi: Was machst du zu Hause von der Schule? #line:238d47
+            ->Du antwortest zuerst! #line:62dc37
+            ->Ich schaetze, ich habe irgendwie abgebrochen! #line:b05fc9
+                Salvi: oh je, mae. #line:5fee52
+                Mae: ja. aeh. sorry. #line:95f545
+                Salvi: warum entschuldigst du dich bei mir? #line:7aca1e
+                Mae: Ich weiss es nicht! #line:352b73
+                Mae: was machst du dann ueberhaupt hier unten? #line:4f107c
+        Salvi: das ist mein Nebengeschaeft! #line:24b64e
+        Salvi: Salvi's Bergung #line:611dbf
+        Mae: was ist das? #line:5dd65b
+        Salvi: Ich bin ein Schrotthaendler, Mae. #line:e8c519
+        Mae: Maehst du keinen Rasen mehr? #line:ad6dcc
+        Salvi: oh nein, ich mache immer noch den Landschaftsbau #line:f17320
+        Salvi: aber ich bin auch ein Anbieter von feinen Waren #line:589183
+        Salvi: fuer den anspruchsvollen Antiquitaetenliebhaber. #line:add514
+        Mae: ok. nebenberuflich. ja. #line:4a1fc4
+        Salvi: willst du mitkommen? #line:d78a02
+        Salvi: Bootsfahrt zurueck in den Tunnel? #line:a4fd5f
+        Salvi: wird eine kurze Fahrt heute, aber #line:ddf75d
+        Salvi: koennte lustig werden? #line:9f65f1
+            ->uh... sicher! #line:93a82d
+                Mae: Aeh. #line:58756b
+                Mae: das ist wahrscheinlich nicht klug #line:de2d60
+                Salvi: es ist ziemlich sicher. #line:4d1be8
                 <<set $salvi_second_pair_of_hands to 1>>
-                Salvi: i just need a second pair of hands #line:664de5
-                Salvi: usually I take one'a the kids over there #line:e52d18
-                Mae: hey teens! #line:9d3b4d
-                Teen3: yeah what! #line:aab74d
-                Mae: I'm going on this boat now! #line:e2620a
-                Teen1: and? #line:1fe27e
-                Teen4: we've all gone on the boat before! #line:802923
-                Teen3: you're not special! #line:da38cb
-                Mae: just saying! like if anyone should ask! #line:4f2f45
-                Mae: I got on this boat with Mr. Salvi here! #line:341747
-                Teen2: we don't care! #line:f60656
-                Mae: ok thanks! #line:b0f007
+                Salvi: ich brauche nur ein zweites Paar Haende #line:664de5
+                Salvi: normalerweise nehme ich eines der Kinder dort #line:e52d18
+                Mae: hey Teens! #line:9d3b4d
+                Teen3: ja was! #line:aab74d
+                Mae: Ich gehe jetzt auf dieses Boot! #line:e2620a
+                Teen1: und? #line:1fe27e
+                Teen4: wir sind alle schon mal mit dem Boot gefahren! #line:802923
+                Teen3: du bist nichts Besonderes! #line:da38cb
+                Mae: ich sag's ja nur! falls jemand fragen sollte! #line:4f2f45
+                Mae: Ich bin mit Mr. Salvi hier auf dieses Boot gestiegen! #line:341747
+                Teen2: Das ist uns egal! #line:f60656
+                Mae: ok danke! #line:b0f007
                 <<wait 2>>
-                Salvi: what was- #line:f64ca5
-                Mae: ok let's go #line:fa9a82
+                Salvi: was war- #line:f64ca5
+                Mae: ok lass uns gehen #line:fa9a82
                 <<set $did_tunnel_boat_ride to 1>>
                 <<fadeOut 1 wait>>
                 <<scene TunnelBoatRide left>>
-            ->um... no! #line:f56fd3
-                Mae: I've uh... it's been a weird week. #line:15bf90
-                Mae: weird enough that getting in a boat #line:52b97c
-                Mae: and sailing into a tunnel #line:5b4389
-                Mae: even with a family friend #line:7e61d2
-                Mae: seems like an odd choice. #line:a27388
-                Salvi: suit yerself! maybe another time! #line:ea64a0
-                Mae: yeah sure! #line:6a881c
-                Mae: see ya! #line:38da38
+            ->um... nein! #line:f56fd3
+                Mae: Ich habe aeh... es war eine seltsame Woche. #line:15bf90
+                Mae: seltsam genug, um in ein Boot zu steigen #line:52b97c
+                Mae: und in einen Tunnel zu fahren #line:5b4389
+                Mae: sogar mit einem Freund der Familie #line:7e61d2
+                Mae: scheint eine seltsame Wahl zu sein. #line:a27388
+                Salvi: wie du willst! vielleicht ein anderes Mal! #line:ea64a0
+                Mae: ja sicher! #line:6a881c
+                Mae: bis dann! #line:38da38
     <<else>>
-        Salvi: Changed yer mind? #line:aab5af
+        Salvi: Hast du deine Meinung geaendert? #line:aab5af
         -> Naw #line:978aca
-            Salvi: Maybe another time! #line:855b0e
-        -> Yeah #line:5dc599
+            Salvi: Vielleicht ein anderes Mal! #line:855b0e
+        -> Ja #line:5dc599
             <<if $salvi_second_pair_of_hands is 0>>
-                Salvi: Good, I need a second pair of hands. #line:b748c0
+                Salvi: Gut, ich brauche ein zweites Paar Haende. #line:b748c0
                 <<set $salvi_second_pair_of_hands to 1>>
             <<endif>>
-            Salvi: Hop aboard! #line:69b13d
-            Mae: ahoy ahoy! #line:5cf4b9
+            Salvi: Steig ein! #line:69b13d
+            Mae: Ahoi Ahoi! #line:5cf4b9
             <<set $did_tunnel_boat_ride to 1>>
             <<fadeOut 1 wait>>
             <<scene TunnelBoatRide left>>

@@ -117,7 +117,7 @@ Mae:{locator=right,width=1.5}Was sagt dein Vater dazu, dass du gehst? #line:f6b9
 Gregg:{locator=left,width=1}Ich weiss es nicht. #line:14bebd
 Gregg:{locator=left,width=3}Er ist immer zu nett, als dass ich wuesste, was er wirklich denkt. #line:f85655
 Mae:{locator=right,width=1.5}Hey Gregg? #line:19f684
-Gregg:{locator=Links,width=2}Ja? #line:33f660
+Gregg:{locator=left,width=2}Ja? #line:33f660
 Mae:{locator=right,width=3}Ich werde wirklich traurig sein, wenn du gehst, Arschloch. #line:1cba82
 Gregg:{locator=left,width=2}Ich weiss. #line:e15600
 [[Entro]]
@@ -136,7 +136,7 @@ Gregg:{locator=left,width=1}Warum? #line:53c0d4
 Mae:{locator=right,width=1.5}Ich denke an, wie, ein wirklich tiefes Loch :\ #line:887e45
 Mae:{locator=right,width=1.5}und dass man da nicht mehr rauskommt. #line:d360a2
 Gregg:{locator=left,width=3}Hast du Angst, dass dich jemand in einen Brunnen wirft? #line:c4fde5
-Mae:{locator=rechts,width=1.5}Nein. :| #line:e41439
+Mae:{locator=right,width=1.5}Nein. :| #line:e41439
 Gregg:{locator=left,width=2}Weil ich deinen Arsch auf jeden Fall in einen Brunnen werfen werde. #line:7de851
 Gregg: D: #line:3ba96a
 Gregg:{locator=left,width=5}[size=1.8][shake=.2]DAH-DAH-DUUUUURGA!!![/shake][/size] #line:77cba2
@@ -181,7 +181,7 @@ Mae:{locator=right,width=3}Ich will mich nur an etwas festhalten #line:cd79c3
 Mae:{locator=right,width=3}und wie... #line:8fb347
 Mae:{locator=right,width=3}Alles geht zu Ende, aber ich will mehr. #line:c8fa81
 Gregg:{locator=left,width=3}Mae, wir koennen nicht ewig hier bleiben. #line:a07139
-Mae:{locator=rechts,width=3}... :| #line:b127bd
+Mae:{locator=right,width=3}... :| #line:b127bd
 <<wait .5>>
 Mae:{locator=right,width=1}Ich weiss. #line:098c2e
 <<if $gnome_tossed is 0>>
@@ -193,7 +193,7 @@ Gregg:{locator=left,width=3}Und Christine gab mir einen Schluessel, wenn ich oef
 Gregg:{locator=left,width=3}Das heisst, ihr koennt alle Slushies schluerfen, auf mich! #line:fe9e1a
 Mae:{locator=right,width=2}Das sind die Naechte, an die ich mich erinnern werde, wenn ich 60 bin. #line:0c409c
 Gregg:{locator=left,width=3}Ausserdem habe ich einen Haufen Feuerzeugbenzin gestohlen, damit wir etwas ziemlich Grosses in Brand stecken koennen! #line:eecb4c
-Mae:{locator=rechts,width=4}[size=1.2][shake=.03]AWWOOOOOOOOOOOO![/shake][/size] #line:e66965
+Mae:{locator=right,width=4}[size=1.2][shake=.03]AWWOOOOOOOOOOOO![/shake][/size] #line:e66965
 [[End]]
 <<else>>
 Gregg:{locator=left,width=3}Du weisst, Christine hat mir einen Schluessel gegeben, wenn ich oeffne. #line:d49314
@@ -205,7 +205,7 @@ Mae:{locator=right,width=1}Ja. #line:d4172e
 Gregg:{locator=left,width=3}Komm schon, lass uns meinen Chef beklauen, der mir vertraut hat. #line:9aa762
 Mae:{locator=right,width=2}Das sind die Naechte, an die ich mich erinnern werde, wenn ich 60 bin. #line:c05dc5
 Gregg:{locator=left,width=3}Ausserdem habe ich einen Haufen Feuerzeugbenzin gestohlen, damit wir etwas ziemlich Grosses in Brand stecken koennen! #line:9182b8
-Mae:{locator=rechts,width=4}[size=1.2][shake=.03]AWWOOOOOOOOOOOO![/shake][/size] #line:ad42ae
+Mae:{locator=right,width=4}[size=1.2][shake=.03]AWWOOOOOOOOOOOO![/shake][/size] #line:ad42ae
 [[End]]
 <<endif>>
 

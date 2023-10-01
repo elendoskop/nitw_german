@@ -6,54 +6,54 @@ position: 30611,-14620
 <<if $mallards_secret_day is 1>>
     <<if $mallards_bed is 0>>
         <<set $mallards_bed to 1>>
-        Mae: Whoever lives here is certainly a churchgoer. #line:c0a1ba
-        Mae: Five saints. #line:ea3110
-        Mae: Grandmama had a setup like this #line:0a7d86
-        Mae: last time I saw her. #line:e86d72
+        Mae: Wer auch immer hier wohnt, ist sicherlich ein Kirchgaenger. #line:c0a1ba
+        Mae: Fuenf Heilige. #line:ea3110
+        Mae: Grossmama hatte eine Einrichtung wie diese #line:0a7d86
+        Mae: als ich sie das letzte Mal gesehen habe. #line:e86d72
     <<elseif $mallards_bed is 1>>
         <<set $mallards_bed to 2>>
-        Mae: "Icons are good for keeping the good in" #line:9c41b2
-        Mae: "and the bad out." #line:9ed601
-        Mae: This is the super-important info I retained #line:dcb179
-        Mae: from years of sunday school. #line:48374f
+        Mae: "Icons sind gut, um das Gute drin zu halten" #line:9c41b2
+        Mae: "und das Schlechte draussen." #line:9ed601
+        Mae: Das ist die superwichtige Info, die ich behalten habe #line:dcb179
+        Mae: aus den Jahren der Sonntagsschule. #line:48374f
     <<elseif $mallards_bed is 2>>
         <<set $mallards_bed to 3>>
-        Mae: In the end Grandmama died, while the saints watched. #line:8dd7c1
-        Mae: It was time. #line:e38f87
-        Mae: And they weren't saints anyway. #line:7b09aa
-        Mae: They were pictures. #line:da403e
+        Mae: Am Ende starb Grossmama, waehrend die Heiligen zusahen. #line:8dd7c1
+        Mae: Es war Zeit. #line:e38f87
+        Mae: Und heilig waren sie sowieso nicht. #line:7b09aa
+        Mae: Sie waren Bilder. #line:da403e
     <<elseif $mallards_bed is 3>>
         <<set $mallards_bed_done to 1>>
-        Mae: Pour one out for Grandmama. #line:a16afd
+        Mae: Schenk einen fuer Grossmama ein. #line:a16afd
     <<endif>>
 <<elseif $mallards_secret_day is 2>>
     <<if $mallards_bed is 0>>
         <<set $mallards_bed_done to 1>>
-        Mae: Must be weird to sleep in this bed every night. #line:052470
-        Mae: Alone in the building. #line:4958c0
-        Mae: Except for Telezoft a couple floors down. #line:eec0d6
-        Mae: maybe they work there. #line:3a1230
-        Mae: just come downstairs in their pajamas #line:5ba4eb
-        Mae: hey everybody i just woke up and i live at work. #line:4ad49e
-        Mae: oh god this sounds horrible. #line:27c418
+        Mae: Muss komisch sein, jede Nacht in diesem Bett zu schlafen. #line:052470
+        Mae: Allein in diesem Gebaeude. #line:4958c0
+        Mae: Ausser Telezoft ein paar Stockwerke tiefer. #line:eec0d6
+        Mae: vielleicht arbeiten sie dort. #line:3a1230
+        Mae: kommen einfach die Treppe runter in ihren Pyjamas #line:5ba4eb
+        Mae: hey Leute ich bin gerade aufgewacht und ich lebe auf der Arbeit. #line:4ad49e
+        Mae: oh Gott, das klingt schrecklich. #line:27c418
     <<endif>>
 <<elseif $mallards_secret_day is 3>>
     <<if $mallards_bed is 0>>
         <<set $mallards_bed += 1>>
-        Mae: I could sleep in this bed. #line:5ef3c8
-        Mae: and whoever lives here would never know. #line:aa596c
-        Mae: they’d go to sleep #line:80539e
-        Mae: tonight #line:bf5624
-        Mae: unaware someone else was just there #line:99116d
-        Mae: under their sheets #line:dcb18a
-        Mae: on their pillow. #line:7ccd76
+        Mae: Ich koennte in diesem Bett schlafen. #line:5ef3c8
+        Mae: und wer auch immer hier lebt, wuerde es nie erfahren. #line:aa596c
+        Mae: sie wuerden schlafen gehen #line:80539e
+        Mae: heute Nacht #line:bf5624
+        Mae: ohne zu wissen, dass jemand anderes gerade da war #line:99116d
+        Mae: unter ihren Laken #line:dcb18a
+        Mae: auf ihrem Kopfkissen. #line:7ccd76
         Mae: mwa ha ha ha. #line:78a034
     <<elseif $mallards_bed is 1>>
         <<set $mallards_bed_done to 1>>
-        Mae: i could also like #line:8dcc43
-        Mae: be helpful #line:db7d2a
-        Mae: i could make their bed when they don’t. #line:6bc597
-        Mae: this doesn’t have to be creepy. #line:22e4e8
+        Mae: ich koennte auch wie #line:8dcc43
+        Mae: hilfreich sein #line:db7d2a
+        Mae: ich koennte ihr Bett machen, wenn sie es nicht tun. #line:6bc597
+        Mae: Das muss nicht unheimlich sein. #line:22e4e8
     <<endif>>
 <<endif>>
 ===
@@ -65,58 +65,58 @@ position: 30892,-14609
 <<if $mallards_secret_day is 1>>
     <<if $mallards_closet is 0>>
         <<set $mallards_closet to 1>>
-        Mae: I could hide in here until whoever lives here gets back. #line:578c51
-        Mae: And possibly give them a heart attack. #line:656192
-        Mae: Or get shot in the face. With a gun. #line:c03a6c
+        Mae: Ich koennte mich hier drin verstecken, bis derjenige, der hier wohnt, zurueckkommt. #line:578c51
+        Mae: Und ihnen moeglicherweise einen Herzinfarkt verpassen. #line:656192
+        Mae: Oder ins Gesicht geschossen werden. Mit einer Pistole. #line:c03a6c
         <<wait .5>>
-        Mae: What am I doing in here? #line:c83354
-        Mae: What am I doing with my life? #line:72ab9e
-        Mae: I'm sitting in a stranger's closet #line:81c75f
-        Mae: in a nearly-vacant building. #line:63c951
-        Mae: I could just stay in here. #line:3eb379
-        Mae: Just forever be here forever. #line:198439
+        Mae: Was mache ich hier drin? #line:c83354
+        Mae: Was mache ich mit meinem Leben? #line:72ab9e
+        Mae: Ich sitze im Kleiderschrank eines Fremden #line:81c75f
+        Mae: in einem fast leeren Gebaeude. #line:63c951
+        Mae: Ich koennte einfach hier drin bleiben. #line:3eb379
+        Mae: Einfach fuer immer und ewig hier sein. #line:198439
     <<elseif $mallards_closet is 1>>
         <<set $mallards_closet to 2>>
-        Mae: Where does this person pee? #line:5965ce
+        Mae: Wo pinkelt diese Person? #line:5965ce
     <<elseif $mallards_closet is 2>>
         <<set $mallards_closet_done to 1>>
-        Mae: It's dark in here. #line:a0d489
+        Mae: Es ist dunkel hier drinnen. #line:a0d489
     <<endif>>
 <<elseif $mallards_secret_day is 2>>
     <<if $mallards_closet is 0>>
         <<set $mallards_closet += 1>>
-        Mae: what’s even in this closet? #line:69996d
-        Mae: i feel some shoes. #line:9e4dd2
-        Mae: some shirts i think. #line:2fc759
-        Mae: ok they’ve got a golf club or something #line:b89fd7
-        Mae: oh weird. They have a sword in here? #line:415675
-        Mae: i could take the sword and rob a bank? #line:feba04
-        Mae: hands up, citizen! I’ll jam this sword in your neck! #line:25b512
-        Mae: ha ha. I could wear a mask and a cape. #line:6fd449
-        Mae: “who was that dashing thief? #line:77ef24
-        Mae: that threatened to stab the bank teller in the neck?” #line:fe2b64
-        Mae: Ugh. My life is a wreck. #line:d295e5
-        Mae: I’d probably stab my *own* neck on accident. #line:daac8c
-        Mae: get it together, Mae. #line:16484d
+        Mae: Was ist ueberhaupt in diesem Schrank? #line:69996d
+        Mae: ich fuehle ein paar Schuhe. #line:9e4dd2
+        Mae: ein paar Hemden glaube ich. #line:2fc759
+        Mae: ok sie haben einen Golfschlaeger oder so #line:b89fd7
+        Mae: oh seltsam. Die haben ein Schwert hier drin? #line:415675
+        Mae: ich koennte das Schwert nehmen und eine Bank ausrauben? #line:feba04
+        Mae: Haende hoch, Buerger! Ich werde dir dieses Schwert in den Hals rammen! #line:25b512
+        Mae: ha ha. Ich koennte eine Maske und einen Umhang tragen. #line:6fd449
+        Mae: "Wer war dieser verwegene Dieb? #line:77ef24
+        Mae: der gedroht hat, dem Bankangestellten in den Hals zu stechen?" #line:fe2b64
+        Mae: Igitt. Mein Leben ist ein Wrack. #line:d295e5
+        Mae: Ich wuerde mir wahrscheinlich aus Versehen in den *eigenen* Hals stechen. #line:daac8c
+        Mae: Nimm dich zusammen, Mae. #line:16484d
     <<elseif $mallards_closet is 1>>
         <<set $mallards_closet_done to 1>>
-        Mae: but seriously where does this person pee? #line:69dd71
+        Mae: aber ernsthaft, wo pinkelt diese Person? #line:69dd71
     <<endif>>
 <<elseif $mallards_secret_day is 3>>
     <<if $mallards_closet is 0>>
         <<set $mallards_closet += 1>>
-        Mae: I wonder if whoever lives here knows I’ve been here. #line:4b2762
-        Mae: I feel like we have some relationship #line:4f5c05
-        Mae: like I’m a ghost #line:bf9027
-        Mae: and I’m haunting them. #line:22088a
-        Mae: I should like #line:641144
-        Mae: Move something. #line:ba6b0b
-        Mae: just to let them know someone cares #line:b25a96
-        Mae: enough to visit them. #line:77c9f0
+        Mae: Ich frage mich, ob derjenige, der hier wohnt, weiss, dass ich hier gewesen bin. #line:4b2762
+        Mae: Ich habe das Gefuehl, wir haben eine Beziehung #line:4f5c05
+        Mae: als ob ich ein Geist waere #line:bf9027
+        Mae: und ich spuke in ihnen. #line:22088a
+        Mae: Ich sollte wie #line:641144
+        Mae: Etwas bewegen. #line:ba6b0b
+        Mae: nur um sie wissen zu lassen, dass sich jemand kuemmert #line:b25a96
+        Mae: genug, um sie zu besuchen. #line:77c9f0
     <<elseif $mallards_closet is 1>>
         <<set $mallards_closet_done to 1>>
-        Mae: ok I’m not gonna do that. #line:5824c2
-        Mae: that would be the creepiest thing ever. #line:82b3ed
+        Mae: Ok, das werde ich nicht tun. #line:5824c2
+        Mae: das waere das Gruseligste ueberhaupt. #line:82b3ed
     <<endif>>
 <<endif>>
 ===
@@ -143,18 +143,18 @@ colorID: 0
 position: 30548,-15365
 ---
 <<set $mallard_decorations += 1>>
-Mae: After the parade got canned there wasn't much going on in the spring. #line:a6e81f
-Mae: But we still did the easter basket blessing at the church. #line:5bd347
-Mae: And ate special pretzels. We didn't bother to bless those. #line:a7b250
-Mae: Profane pretzels. #line:563989
+Mae: Nachdem die Parade gestrichen wurde, war im Fruehling nicht mehr viel los. #line:a6e81f
+Mae: Aber wir haben trotzdem die Osterkorbsegnung in der Kirche gemacht. #line:5bd347
+Mae: Und haben besondere Brezeln gegessen. Wir haben uns nicht die Muehe gemacht, die zu segnen. #line:a7b250
+Mae: Profane Brezeln. #line:563989
 ===
 title: flowers
 tags: demo2
 colorID: 0
 position: 30798,-15831
 ---
-Mae: Oh my god. These flowers are fake as hell. #line:7f6b61
-Mae: Mallard deserves a better memorial. #line:82f3a8
+Mae: Oh mein Gott. Diese Blumen sind verdammt falsch. #line:7f6b61
+Mae: Mallard hat eine bessere Gedenkstaette verdient. #line:82f3a8
 <<set $mallard_decorations += 1>>
 <<if $act < 3>>
     <<set $mallard_decorations_1_done to 1>>
@@ -166,14 +166,14 @@ colorID: 0
 position: 30871,-15510
 ---
 <<set $mallard_decorations += 1>>
-Mae: Wow. So this is where this stuff ended up. #line:d12356
-Mae: I remember the spring parade. It was so much fun. #line:c8b1c1
-Mae: Until the year that Mallard P. Bloomingro snapped his tether and ran over Chris Evans. #line:bc3c03
-Mae: Then they canceled the parade. #line:bf0db1
-Mae: Cowards. #line:ea98ed
-Mae: They couldn't cage Mallard. Mallard needed to be free. #line:15b76d
-Mae: And neither ropes nor the poor legs of Chris Evans could hold him back. #line:c50c9b
-Mae: I wonder what happened to both of them. #line:17de14
+Mae: Wow. Hier ist das Zeug also gelandet. #line:d12356
+Mae: Ich erinnere mich an die Fruehjahrsparade. Es hat so viel Spass gemacht. #line:c8b1c1
+Mae: Bis zu dem Jahr, in dem Mallard P. Bloomingro seine Leine riss und Chris Evans ueberfuhr. #line:bc3c03
+Mae: Dann haben sie die Parade abgesagt. #line:bf0db1
+Mae: Feiglinge. #line:ea98ed
+Mae: Sie konnten Mallard nicht in einen Kaefig sperren. Mallard musste frei sein. #line:15b76d
+Mae: Und weder Seile noch die armen Beine von Chris Evans konnten ihn zurueckhalten. #line:c50c9b
+Mae: Ich frage mich, was mit den beiden passiert ist. #line:17de14
 ===
 title: Dresser
 tags: 
@@ -183,48 +183,48 @@ position: 31137,-14599
 <<if $mallards_secret_day is 1>>
     <<if $mallards_dresser is 0>>
         <<set $mallards_dresser to 1>>
-        Mae: *Who lives here?* #line:3c096b
-        Mae: It's, like, just a room. #line:44ea03
+        Mae: *Wer wohnt hier?* #line:3c096b
+        Mae: Es ist, wie, nur ein Zimmer. *Zeile:44ea03
     <<elseif $mallards_dresser is 1>>
         <<set $mallards_dresser to 2>>
-        Mae: One fridge. #line:81256c
-        Mae: One dresser. #line:7c1537
-        Mae: One lamp. #line:b84ad0
-        Mae: One bed. #line:f7db99
-        Mae: One window. #line:0c2124
-        Mae: One door. #line:0e3fdf
-        Mae: I guess that makes two ways out. #line:058df9
+        Mae: Ein Kuehlschrank. *Zeile:81256c
+        Mae: Eine Kommode. #line:7c1537
+        Mae: Eine Lampe. #line:b84ad0
+        Mae: Ein Bett. #line:f7db99
+        Mae: Ein Fenster. #line:0c2124
+        Mae: Eine Tuer. #line:0e3fdf
+        Mae: Ich schaetze, das macht zwei Wege nach draussen. #line:058df9
     <<elseif $mallards_dresser is 2>>
         <<set $mallards_dresser_done to 1>>
-        Mae: This would be creepy if it wasn't so spooky. #line:0984e2
+        Mae: Das waere gruselig, wenn es nicht so gruselig waere. #line:0984e2
     <<endif>>
 <<elseif $mallards_secret_day is 2>>
-    Mae: Tell Alec to fix the code. #line:16ba30
+    Mae: Sag Alec, er soll den Code reparieren. #line:16ba30
 <<elseif $mallards_secret_day is 3>>
     <<if $mallards_dresser is 0>>
         <<set $mallards_dresser += 1>>
-        Mae: seriously. There’s no bathroom in here. #line:210852
-        Mae: and none outside this room. #line:694a14
-        Mae: do they poop in this dresser?! #line:2411b3
-        Mae: oh god... #line:3b7700
-        Mae: do they poop in a bucket????? #line:79e630
-        Mae: oh geez what if I stumble across the poop bucket. #line:681731
-        Mae: there are unanswered questions here. #line:6ba8e1
+        Mae: Ernsthaft. Hier gibt es keine Toilette. #line:210852
+        Mae: und keine ausserhalb dieses Raumes. #line:694a14
+        Mae: kacken sie in diese Kommode?! #line:2411b3
+        Mae: Oh Gott... #line:3b7700
+        Mae: kacken sie in einen Eimer????? #line:79e630
+        Mae: oh je, was wenn ich ueber den Kackeimer stolpere. #line:681731
+        Mae: Hier gibt es noch offene Fragen. #line:6ba8e1
     <<elseif $mallards_dresser is 1>>
         <<set $mallards_dresser += 1>>
-        Mae: wonder if it’s a guy or a gal #line:f3d672
-        Mae: they’re probably pretty old #line:24b983
-        Mae: no one young cares about the saints #line:84f66b
-        Mae: or church. #line:8ab505
-        Mae: gonna be weird in like 30 years #line:a9f21f
-        Mae: when all the churches are empty. #line:5e55e2
-        Mae: i’ll open a pizza place. #line:27843c
-        Mae: sit in the pews and eat pizza. #line:326b5a
-        Mae: gotta come up with a pun #line:a43929
-        Mae: combining pizza and church. #line:1caaee
+        Mae: frage mich, ob es ein Kerl oder ein Maedchen ist #line:f3d672
+        Mae: sie sind wahrscheinlich ziemlich alt #line:24b983
+        Mae: kein junger Mensch interessiert sich fuer die Heiligen #line:84f66b
+        Mae: oder die Kirche. #line:8ab505
+        Mae: wird komisch sein in etwa 30 Jahren #line:a9f21f
+        Mae: wenn alle Kirchen leer sind. #line:5e55e2
+        Mae: ich werde eine Pizzeria aufmachen. #line:27843c
+        Mae: in den Kirchenbaenken sitzen und Pizza essen. #line:326b5a
+        Mae: muss mir ein Wortspiel einfallen lassen #line:a43929
+        Mae: Pizza und Kirche kombinieren. #line:1caaee
     <<elseif $mallards_dresser is 2>>
         <<set $mallards_dresser_done to 1>>
-        Mae: Holy pepperoni! #line:b572f4
+        Mae: Heilige Peperoni! #line:b572f4
     <<endif>>
 <<endif>>
 ===
@@ -239,9 +239,9 @@ position: 30006,-15889
 <<wait .5>>
 <<lookAt Mae Mallard>>
 Mae: \o/ :( #line:52feaf
-Mae: {align=middle,width=1,locator=mallard locator}[shake=.06][size=1.5]OH MY GOD!![/size][/shake] #line:198c7e
+Mae: {align=middle,width=1,locator=mallard locator}[shake=.06][size=1.5]OH MEIN GOTT!![/size][/shake] #line:198c7e
 Mae:{align=middle,width=6,locator=mallard locator}[shake=.08][size=1.8]M A L L A R D ! ! ![/size][/shake] #line:b55b20
-Mae:{align=middle,locator=mallard locator}[shake=.03]WHAT HAVE THEY DONE TO YOU?[/shake][size=1.2][/size] #line:3eb90f
+Mae:{align=middle,locator=mallard locator}[shake=.03]WAS HABEN SIE DIR ANGETAN?[/shake][size=1.2][/size] #line:3eb90f
 Mae: _o_ :| #line:9dd613
 <<unlockDoodle Mallard4eva>>
 ===
@@ -251,19 +251,19 @@ colorID: 0
 position: 31319,-15574
 ---
 <<if $mallards_exit is 0>>
-	Mae: It's locked. What the hell. #line:1184d3
-	Mae: That is a fire hazard. #line:ac4116
+	Mae: Es ist abgeschlossen. Was zur Hoelle. #line:1184d3
+	Mae: Das ist eine Feuergefahr. #line:ac4116
 	<<set $mallards_exit += 1>>
 <<elseif $mallards_exit is 1>>
-	Mae: No seriously, is this thing is clearly marked as something it is not. #line:805ac5
+	Mae: Nein ernsthaft, dieses Ding ist eindeutig als etwas gekennzeichnet, was es nicht ist. #line:805ac5
 	<<set $mallards_exit += 1>>
 <<elseif $mallards_exit is 2>>
-	Mae: I'm coming back for you, exit door. #line:bd6a48
-	Mae: And we're gonna have a little chat. #line:7c3766
-	Mae: With my boot. #line:532678
+	Mae: Ich komme zu dir zurueck, Ausgangstuer. #line:bd6a48
+	Mae: Und wir werden eine kleine Unterhaltung fuehren. #line:7c3766
+	Mae: Mit meinem Stiefel. #line:532678
 	<<set $mallards_exit += 1>>
 <<elseif $mallards_exit is 3>>
-	Mae: Worst exit. Easily. #line:b646b8
+	Mae: Schlimmster Abgang. Ganz einfach. #line:b646b8
     <<set $mallards_exit_done to 1>>
 <<endif>>
 ===
@@ -287,8 +287,8 @@ tags: demo2
 colorID: 0
 position: 29521,-16007
 ---
-Mae: {align=middle,locator=mallard locator}I'll keep you a secret, Mallard. #line:1fecd6
-Mae: But I'll visit. o/ :) #line:3c16db
+Mae: {align=middle,locator=mallard locator}Ich behalte dich im Auge, Mallard. #line:1fecd6
+Mae: Aber ich werde dich besuchen. o/ :) #line:3c16db
 Mae: _o_ :| #line:b54eb4
 <<set $mallard_himself_done to 1>>
 ===
@@ -299,10 +299,10 @@ position: 29509,-15708
 ---
 <<set $mallard_himself to 1>>
 Mae: {align=middle,locator=mallard locator}Mallard P. Bloomingro. #line:0ca937
-Mae: One of my absolute favorite things when I was a kid. #line:64904a
-Mae: Proudest of the spring parade floats. #line:be29af
-Mae: Dude. This is a tomb. #line:433673
-Mae: This is Mallard's Tomb. #line:c46241
+Mae: Eines meiner absoluten Lieblingsdinge, als ich ein Kind war. #line:64904a
+Mae: Stolzester Wagen der Fruehjahrsparade. #line:be29af
+Mae: Kumpel. Das ist eine Gruft. #line:433673
+Mae: Das ist Mallard's Tomb. #line:c46241
 ===
 title: springtime
 tags: demo2
@@ -311,11 +311,11 @@ position: 29420,-15435
 ---
 <<set $mallard_himself to 3>>
 Mae: {align=middle,locator=mallard locator}Oh Mallard. #line:8888cd
-Mae: Probably left here by the Possum Springs Chamber Of Commerce. #line:23aa91
-Mae: Forgotten! #line:a485d3
-Mae: But I found you. #line:b4d271
-Mae: And I know you're here. #line:a13701
-Mae: And still a springtime terror. #line:7606bd
+Mae: Wahrscheinlich von der Handelskammer von Possum Springs hiergelassen. #line:23aa91
+Mae: Vergessen! #line:a485d3
+Mae: Aber ich habe dich gefunden. #line:b4d271
+Mae: Und ich weiss, dass du hier bist. #line:a13701
+Mae: Und immer noch ein Schrecken des Fruehlings. #line:7606bd
 ===
 title: depressing
 tags: demo2
@@ -323,12 +323,12 @@ colorID: 0
 position: 29156,-15347
 ---
 <<set $mallard_himself to 2>>
-Mae: {align=middle,locator=mallard locator}Mallard, dear dead Mallard. #line:16edd5
-Mae: You were my favorite anything when I was a kid. #line:236a68
-Mae: I ran to the spring parade to see you. #line:f7d870
-Mae: You were like a big beaky dinosaur. #line:6c1ac8
-Mae: Mallard, you're still... #line:140ed2
-Mae: amazing forever. :) #line:8c3ca0
+Mae: {align=middle,locator=mallard locator}Mallard, liebe tote Mallard. #line:16edd5
+Mae: Du warst mein Lieblingsding, als ich ein Kind war. #line:236a68
+Mae: Ich rannte zur Fruehjahrsparade, um dich zu sehen. #line:f7d870
+Mae: Du warst wie ein grosser schnabeliger Dinosaurier. #line:6c1ac8
+Mae: Mallard, du bist immer noch... #line:140ed2
+Mae: fuer immer erstaunlich :) #line:8c3ca0
 Mae: :| #line:82129f
 ===
 title: decorations1_act3
@@ -336,10 +336,10 @@ tags:
 colorID: 0
 position: 29992,-15423
 ---
-Mae: plastic flowers are like #line:9efac3
-Mae: super depressing #line:ee79f3
-Mae: for some reason. #line:f1cf7d
-Mae: dead flowers are less depressing than plastic ones. #line:462910
+Mae: Plastikblumen sind wie #line:9efac3
+Mae: super deprimierend #line:ee79f3
+Mae: aus irgendeinem Grund. #line:f1cf7d
+Mae: tote Blumen sind weniger deprimierend als Plastikblumen. #line:462910
 <<set $mallard_decorations += 1>>
 <<if $act < 4>>
     <<set $mallard_decorations_1_done to 1>>
@@ -350,14 +350,14 @@ tags:
 colorID: 0
 position: 30241,-15411
 ---
-Mae: what's gonna happen to all this? #line:ad136b
-Mae: i guess it's just gonna sit here #line:7c966c
-Mae: til someone gets around to throwing it all out? #line:fc6c71
-Mae: i should like #line:7d9497
-Mae: steal the good stuff. #line:a99fdb
-Mae: see what mom and dad think. #line:b78978
-Mae: i'm sure they'll love it. #line:80138a
-Mae: redecorate the living room! #line:f20a40
+Mae: was wird mit all dem hier passieren? #line:ad136b
+Mae: ich schaetze, es wird einfach hier rumliegen #line:7c966c
+Mae: bis jemand dazu kommt, das alles wegzuschmeissen? #line:fc6c71
+Mae: ich sollte wie #line:7d9497
+Mae: das gute Zeug stehlen. #line:a99fdb
+Mae: sehen was Mom und Dad denken. #line:b78978
+Mae: ich bin sicher, sie werden es lieben. #line:80138a
+Mae: dekoriere das Wohnzimmer neu! #line:f20a40
 <<set $mallard_decorations += 1>>
 <<set $mallard_decorations_1_done to 1>>
 ===
@@ -392,25 +392,25 @@ position: 31386,-14598
     <<if $mallards_fridge is 0>>
         <<set $mallards_fridge += 1>>
         <<if $did_bea_friendship_quest_2>>
-            Mae: Mrs. Miranda should meet whoever lives here. #line:c45606
-            Mae: They can talk fridges. #line:d51e92
+            Mae: Mrs. Miranda sollte denjenigen kennenlernen, der hier wohnt. #line:c45606
+            Mae: Sie koennen ueber Kuehlschraenke reden. #line:d51e92
         <<else>>
-        	Mae: Wonder what’s in the fridge. #line:0cc36b
-        	Mae: eh. That’s a violation of privacy. #line:532340
+        	Mae: Ich frage mich, was in dem Kuehlschrank ist. #line:0cc36b
+        	Mae: eh. Das ist eine Verletzung der Privatsphaere. #line:532340
         <<endif>>
     <<elseif $mallards_fridge is 1>>
         <<set $mallards_fridge_done to 1>>
-        Mae: i could like #line:2a1f0f
-        Mae: see what’s in this dresser #line:e611f0
+        Mae: ich koennte wie #line:2a1f0f
+        Mae: sehen, was in dieser Kommode ist #line:e611f0
         <<wait 2>>
-        Mae: Mae, is this what it’s come to? #line:9b7e74
-        Mae: you’re stealing from a stranger’s weird apartment? #line:e6918a
-        Mae: what even are you doing with yourself. #line:ea2b14
-        Mae: and they probably don’t have anything good. #line:5253da
-        Mae: so there’s no excuse. #line:46b1b5
+        Mae: Mae, ist es schon so weit gekommen? #line:9b7e74
+        Mae: Du stiehlst aus der seltsamen Wohnung eines Fremden? #line:e6918a
+        Mae: was machst du ueberhaupt mit dir selbst. #line:ea2b14
+        Mae: und sie haben wahrscheinlich nichts Gutes. #line:5253da
+        Mae: also gibt es keine Ausrede. #line:46b1b5
     <<endif>>
 <<else>>
-    Mae: Hey Alec, you need to hide this interaction! #line:83f37e
+    Mae: Hey Alec, du musst diese Interaktion verstecken! #line:83f37e
 <<endif>>
 ===
 title: DoorLocked
@@ -419,16 +419,17 @@ colorID: 0
 position: 30270,-14690
 ---
 <<if $opened_mallards_door>>
-    Mae: aw man! #line:336b3e
-    Mae: it’s locked again! #line:fdbd82
-    Mae: this blows. #line:b15465
+    Mae: Oh Mann! #line:336b3e
+    Mae: es ist wieder gesperrt! #line:fdbd82
+    Mae: das nervt. #line:b15465
     Mae: ugh. #line:9af7e4
-    Mae: i’m like personally offended #line:22cf8a
-    Mae: by whoever lives here. #line:5490fb
-    Mae: whatever, whoever. #line:85df76
-    Mae: whatever. #line:53a270
+    Mae: ich fuehle mich persoenlich beleidigt #line:22cf8a
+    Mae: von dem, der hier lebt. #line:5490fb
+    Mae: was auch immer, wer auch immer. #line:85df76
+    Mae: was auch immer. #line:53a270
 <<else>>
-    Mae: hmm... locked #line:ef7635
+    Mae: hmm... abgeschlossen #line:ef7635
 <<endif>>
 <<set $mallards_door_locked_done to 1>>
 ===
+

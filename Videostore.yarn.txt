@@ -10,15 +10,15 @@ tags:
 colorID: 2
 position: -704,-708
 ---
-Mae: Nightshift, huh? That's cool. #line:f7181e
-VideostoreGirl: I'm at home with my baby during the day #line:e18ec2
-VideostoreGirl: until my mom gets back from work? #line:e18d25
-Mae: Ew, babies. #line:1fa758
-VideostoreGirl: Pretty cool job, though? #line:65e580
-VideostoreGirl: Get to watch movies, eat candy, meet cute guys? #line:e8130c
-Mae: Ew, cute guys. #line:d8fa21
-VideostoreGirl: What's wrong with guys? #line:7d2c2d
-Mae: I dunno. Cute guys are overrated. #line:d88144
+Mae: Nachtschicht, hm? Das ist cool. #line:f7181e
+VideostoreGirl: Ich bin tagsueber zu Hause bei meinem Baby #line:e18ec2
+VideostoreGirl: bis meine Mutter von der Arbeit zurueckkommt? #line:e18d25
+Mae: Igitt, Babys. #line:1fa758
+VideostoreGirl: Ziemlich cooler Job, aber? #line:65e580
+VideostoreGirl: Filme gucken, Suessigkeiten essen, suesse Jungs treffen? #line:e8130c
+Mae: Igitt, suesse Jungs. #line:d8fa21
+VideostoreGirl: Was ist falsch mit Jungs? #line:7d2c2d
+Mae: Ich weiss es nicht. Suesse Jungs sind ueberbewertet. #line:d88144
 <<set $not_cute_ones to 1>>
 ===
 title: VideostoreGirl_00_02
@@ -44,78 +44,78 @@ colorID: 2
 position: -134,-14
 ---
 Angus: Hey, Mae! #line:916eee
-Angus: How's the laptop running? #line:a500ad
-Mae: Really good! Thanks so much! #line:d007d7
-Angus: Glad to be of service. #line:465ac4
+Angus: Wie laeuft es mit dem Laptop? #line:a500ad
+Mae: Wirklich gut! Vielen Dank dafuer! #line:d007d7
+Angus: Ich bin gerne behilflich. #line:465ac4
 ===
 title: Angus_A1D3_01
 tags: 
 colorID: 2
 position: 119,-12
 ---
-Mae: So, like... #line:479158
-Angus: Yeah? #line:8ef20d
-[[Who rents movies anymore?|WhoRentsMoviesAnymore]] #line:a7ae9d
-[[How is this store still open?|HowIsThisStoreStillOpen]] #line:ec3a65
+Mae: Also, wie... #line:479158
+Angus: Ja? #line:8ef20d
+[[Wer leiht sich noch Filme aus?|WhoRentsMoviesAnymore]] #line:a7ae9d
+[[Wieso ist dieser Laden noch offen?|HowIsThisStoreStillOpen]] #line:ec3a65
 ===
 title: WhoRentsMoviesAnymore
 tags: 
 colorID: 2
 position: 75,255
 ---
-Angus: More people than you'd think! #line:331e35
-Angus: Older people who don’t know any better. #line:202a2a
-Angus: Kids who for some reason can't get something. #line:4bd6b9
-Mae: Do you ever want to tell them? #line:f50eee
-Angus: What, about the internet? #line:e1f82d
-Angus: About rental by mail? #line:5298b5
-Mae: Yeah. #line:f7183b
-Angus: Mae, it's not my job to save them #line:55974d
-Angus: I am paid to stand here, assist when needed, #line:6cdd64
-Angus: take their money, and not openly judge them. #line:959dc7
+Angus: Mehr Leute als du denkst! #line:331e35
+Angus: Aeltere Leute, die es nicht besser wissen. #line:202a2a
+Angus: Kinder, die aus irgendeinem Grund etwas nicht kapieren koennen. #line:4bd6b9
+Mae: Willst du es ihnen jemals sagen? #line:f50eee
+Angus: Was, ueber das Internet? #line:e1f82d
+Angus: Ueber die Vermietung per Post? #line:5298b5
+Mae: Ja. #line:f7183b
+Angus: Mae, es ist nicht meine Aufgabe, sie zu retten #line:55974d
+Angus: Ich werde dafuer bezahlt, hier zu stehen, zu helfen, wenn noetig, #line:6cdd64
+Angus: ihr Geld zu nehmen, und sie nicht offen zu verurteilen. #line:959dc7
 ===
 title: HowIsThisStoreStillOpen
 tags: 
 colorID: 2
 position: 329,260
 ---
-Angus: There's a certain romance to vhs and dvd #line:a9fac1
-Angus: that simply cannot be matched. #line:3a253e
-Mae: ...really? #line:392167
-Angus: Nope. #line:6c2540
-Mae: Wait, you actually have vhs? #line:991d98
-Angus: Mostly the adult section back behind the curtain. #line:a91e4f
-Mae: WHOA, really? #line:46f940
-Angus: Yeah some folks are like really into seeking them out. #line:61fb31
-Angus: It's like a whole little scene that goes back before the internet. #line:e376d7
-Angus: We had a historian in there last month looking for some obscure video. #line:5b5247
-Mae: How do you get THAT job? #line:ae1a5f
-Angus: I think that's the kind of job you can only have #line:b2ca6c
-Angus: if you don’t need to have a job. #line:434af6
+Angus: Es gibt eine gewisse Romantik bei vhs und dvd #line:a9fac1
+Angus: die einfach nicht zu uebertreffen ist. #line:3a253e
+Mae: ...wirklich? #line:392167
+Angus: Noe. #line:6c2540
+Mae: Warte, du hast tatsaechlich eine VHS? #line:991d98
+Angus: Meistens die Erwachsenenabteilung hinter dem Vorhang. #line:a91e4f
+Mae: WHOA, wirklich? #line:46f940
+Angus: Ja, einige Leute sind wirklich darauf aus, sie zu finden. #line:61fb31
+Angus: Es ist wie eine ganze kleine Szene, die schon vor dem Internet existierte. #line:e376d7
+Angus: Wir hatten letzten Monat einen Historiker da drin, der nach einem obskuren Video gesucht hat. #line:5b5247
+Mae: Wie kommt man an DIESEN Job? #line:ae1a5f
+Angus: Ich glaube, das ist die Art von Job, die man nur haben kann #line:b2ca6c
+Angus: wenn man keinen Job haben muss. #line:434af6
 ===
 title: Angus_A1D3_02
 tags: 
 colorID: 2
 position: 404,-25
 ---
-Mae: So this party tonight, huh? #line:39d06a
-Angus: Yeah. Should be fun? #line:99f3ba
-Mae: I hadn't pegged you as a party person. #line:85a142
-Angus: I'm not really. But parties with Gregg are different. #line:949f12
-Mae: How so? #line:ede6a3
-Angus: You know how you want to just go and stand in a corner sometimes? #line:10da2a
-Mae: Yeah. #line:eacca5
-Angus: Gregg's my corner. #line:6d7adf
+Mae: Also diese Party heute Abend, hm? #line:39d06a
+Angus: Ja. Sollte Spass machen? #line:99f3ba
+Mae: Ich haette dich nicht fuer einen Partygaenger gehalten. #line:85a142
+Angus: Bin ich eigentlich nicht. Aber Partys mit Gregg sind anders. #line:949f12
+Mae: Inwiefern? #line:ede6a3
+Angus: Du weisst doch, dass du dich manchmal einfach in eine Ecke stellen willst. #line:10da2a
+Mae: Ja. #line:eacca5
+Angus: Gregg ist meine Ecke. #line:6d7adf
 Mae: Awwww. #line:92ff49
-Angus: Ha ha shut up #line:f01675
+Angus: Ha ha halt die Klappe #line:f01675
 ===
 title: Angus_A1D3_03
 tags: 
 colorID: 2
 position: 654,-16
 ---
-Mae: See ya later! #line:bca10d
-Angus: For sure! #line:a81c47
+Mae: Wir sehen uns spaeter! #line:bca10d
+Angus: Aber sicher! #line:a81c47
 ===
 title: Angus_A1D3
 tags: 
@@ -136,7 +136,7 @@ position: 273,-284
     <<set $angus_done to 1>>
     [[Angus_A1D3_03]]
 <<endif>>
-    
+
 ===
 title: VideostoreGirl
 tags: 
@@ -165,24 +165,24 @@ tags:
 colorID: 2
 position: -1043,-734
 ---
-VideostoreGirl: Can I help you? #line:bdbd4f
-Mae: Where's Angus?  #line:ab4165
-VideostoreGirl: Oh he works dayshift? #line:ec7fd4
-Mae: It is day? #line:ff94f8
-VideostoreGirl: I got here early? #line:cd0ea2
+VideostoreGirl: Kann ich Ihnen helfen? #line:bdbd4f
+Mae: Wo ist Angus?  #line:ab4165
+VideostoreGirl: Oh er arbeitet Tagschicht? #line:ec7fd4
+Mae: Es ist Tag? #line:ff94f8
+VideostoreGirl: Ich bin frueh hier? #line:cd0ea2
 <<if $knows_apartment_location is 0>>
-	Mae: Any idea where he is? #line:6ecd44
-	VideostoreGirl: I assume he went home? #line:927bbf
-	VideostoreGirl: He lives next door? #line:6c1cbc
-    VideostoreGirl: Go inside and ring the buzzer? #line:e78e65
+	Mae: Irgendeine Idee, wo er ist? #line:6ecd44
+	VideostoreGirl: Ich nehme an, er ist nach Hause gegangen? #line:927bbf
+	VideostoreGirl: Er wohnt nebenan? #line:6c1cbc
+    VideostoreGirl: Rein gehen und klingeln? #line:e78e65
     <<set $knows_apartment_location to 1>>
 <<endif>>
-Mae: Wait. Why does everything you say sound like a question? #line:2e8683
-VideostoreGirl: You do the same thing? #line:0a3398
-VideostoreGirl: I just didn’t comment on it? #line:0ff568
+Mae: Warte mal. Warum klingt alles, was du sagst, wie eine Frage? #line:2e8683
+VideostoreGirl: Machst du das auch? #line:0a3398
+VideostoreGirl: Ich habe es nur nicht kommentiert? #line:0ff568
 Mae: Really? #line:2549ae
-VideostoreGirl: Yeah? #line:0be315
-Mae: Huh? #line:26e987
+VideostoreGirl: Ja? #line:0be315
+Mae: Hm? #line:26e987
 <<set $apartment_unlocked to 1>>
 ===
 title: VideostoreGirl_CantHelp
@@ -190,8 +190,8 @@ tags:
 colorID: 2
 position: -717,76
 ---
-VideostoreGirl: Can I help you? #line:ff6184
-Mae: I don't think so... #line:e59626
+VideostoreGirl: Kann ich dir helfen? #line:ff6184
+Mae: Ich glaube nicht... #line:e59626
 ===
 title: PreInitLevel
 tags: 
@@ -245,21 +245,21 @@ colorID: 3
 position: 812,-765
 ---
 Angus: Hey Mae. #line:3e2005
-Mae: Hey Angus. How's it going? #line:8053c8
-Angus: You are like the third person I've seen today. #line:dcdf34
-Mae: I know you've explained it but I have zero clue how this place stays open. #line:12064e
-Angus: You'd be surprised. #line:5b1b34
-Mae: Band practice later? #line:5c56ea
-Angus: Gotta warm up my voice! #line:bdf9a2
-Mae: You growl real good. #line:093198
-Angus: Thanks. I'm a born growler. #line:44bd23
-Angus: When I was a baby I never cried #line:8210bf
-Angus: I just growled. #line:2822e8
-Mae: I think I cried nonstop until I was like 9 #line:16fb78
-Mae: and then I cried all the time again starting at like 13... #line:4a0ec8
-Angus: You had a good three years of not crying in there! #line:7c805a
-Mae: They were really productive years. #line:c408f8
-Angus: Heh heh. #line:db6048
+Mae: Hey Angus. Wie geht's denn so? #line:8053c8
+Angus: Du bist ungefaehr die dritte Person, die ich heute gesehen habe. #line:dcdf34
+Mae: Ich weiss, du hast es erklaert, aber ich habe keine Ahnung, wie dieser Ort offen bleibt. #line:12064e
+Angus: Du wuerdest dich wundern. #line:5b1b34
+Mae: Bandprobe spaeter? #line:5c56ea
+Angus: Ich muss meine Stimme aufwaermen! #line:bdf9a2
+Mae: Du knurrst wirklich gut. #line:093198
+Angus: Danke. Ich bin ein geborener Brummbaer. #line:44bd23
+Angus: Als ich ein Baby war, habe ich nie geweint #line:8210bf
+Angus: Ich habe nur geknurrt. #line:2822e8
+Mae: Ich glaube, ich habe nonstop geweint, bis ich ungefaehr 9 war #line:16fb78
+Mae: und dann habe ich wieder die ganze Zeit geweint, so ab 13... #line:4a0ec8
+Angus: Du hattest gute drei Jahre lang keine Traenen in dir! #line:7c805a
+Mae: Es waren wirklich produktive Jahre. #line:c408f8
+Angus: Ha heh. #line:db6048
 <<set $angus_done to 1>>
 ===
 title: InitLevel_A3D1
@@ -274,10 +274,10 @@ tags:
 colorID: 5
 position: 1981,-799
 ---
-Angus: You up for band practice in a bit? #line:fddce9
-Mae: I guess. Weird night. #line:5a796c
-Angus: How so? #line:626638
-Mae: I'll tell you about it later. #line:166835
+Angus: Hast du gleich Zeit fuer die Bandprobe? #line:fddce9
+Mae: Ich denke schon. Komische Nacht. #line:5a796c
+Angus: Wie das? #line:626638
+Mae: Ich werde dir spaeter davon erzaehlen. #line:166835
 <<set $angus_done to 1>>
 ===
 title: InitLevel_A3D2
@@ -306,12 +306,12 @@ tags:
 colorID: 5
 position: 2258,-800
 ---
-Angus: So, I said I could like #line:ec8502
-Angus: take you up to the park. #line:1b9e9f
-Mae: you did indeed. #line:46adb0
-Angus: You ready to go? #line:5bbc90
--> Naw #line:0b49e7
--> Yeah #line:8fc021
+Angus: Also, ich habe gesagt, ich koennte wie #line:ec8502
+Angus: mit dir in den Park gehen. #line:1b9e9f
+Mae: Das hast du in der Tat. #line:46adb0
+Angus: Bist du bereit zu gehen? #line:5bbc90
+-> Nein #line:0b49e7
+-> Ja #line:8fc021
     [[InvestigationQuest]]
 ===
 title: Angus_A3D3
@@ -320,13 +320,13 @@ colorID: 5
 position: 2540,-787
 ---
 Angus: Hey Mae. #line:75abda
-Mae: Hey dude. #line:6f5563
-Mae: Totally what's up. #line:e2038d
-Angus: Nothing. #line:e9f0a2
-Mae: You ok? #line:eb6b20
+Mae: Hey Kumpel. #line:6f5563
+Mae: Was gibt's denn so? #line:e2038d
+Angus: Nichts. #line:e9f0a2
+Mae: Bist du okay? #line:eb6b20
 Angus: Yep. #line:87e4b9
 Mae: ...ok #line:e78413
-Angus: Sorry. Don't mind me. #line:a3ba1f
+Angus: Sorry. Kuemmere dich nicht um mich. #line:a3ba1f
 <<set $angus_done to 1>>
 ===
 title: Angus_A3D4
@@ -335,26 +335,26 @@ colorID: 5
 position: 2840,-793
 ---
 <<if $did_angus_investigation_quest>>
-    Angus: My legs are still sore from running from that dude. #line:7e8108
-    Mae: I'm just sore in general. #line:27c87f
-    Mae: and tired. #line:e0de1a
-    Mae: in general. #line:993b16
-    Angus: My life doesn't involve a lot of running. #line:91649f
+    Angus: Meine Beine sind immer noch wund vom Weglaufen vor diesem Kerl. #line:7e8108
+    Mae: Ich bin einfach generell wund. #line:27c87f
+    Mae: und muede. #line:e0de1a
+    Mae: ganz allgemein. #line:993b16
+    Angus: Mein Leben besteht nicht aus viel Laufen. #line:91649f
     Mae: heh heh #line:a33e0d
-    Mae: I feel like I should have #line:0f14ff
-    Mae: some sort of clever comment to follow that up. #line:659bab
-    Angus: You can get back to me. #line:4dbe9c
+    Mae: Ich habe das Gefuehl, dass ich das haette tun sollen #line:0f14ff
+    Mae: eine Art cleverer Kommentar, der darauf folgt. #line:659bab
+    Angus: Du kannst auf mich zurueckkommen. #line:4dbe9c
     <<set $angus_done to 1>>
 <<else>>
-    Angus: So, I said I could like #line:ea0bfd
-    Angus: take you up to the park. #line:bf6b7d
-    Mae: you did indeed. #line:178b0b
-    Mae: I'm so tired. #line:c024d0
-    Angus: you gonna be ok? #line:93750d
-    Mae: yeah, i'll be fine #line:6140b6
-    Angus: You up for this park trip? #line:3082cc
-    -> Naw #line:290c9e
-    -> Yeah #line:a4e818
+    Angus: Also, ich sagte, ich koennte wie #line:ea0bfd
+    Angus: mit dir in den Park gehen. #line:bf6b7d
+    Mae: Das hast du in der Tat. #line:178b0b
+    Mae: Ich bin so muede. #line:c024d0
+    Angus: kommst du zurecht? #line:93750d
+    Mae: Ja, ich komme schon klar #line:6140b6
+    Angus: Bist du bereit fuer diesen Parkausflug? #line:3082cc
+    -> Nein #line:290c9e
+    -> Ja #line:a4e818
         [[InvestigationQuest]]
 <<endif>>
 ===
@@ -366,23 +366,23 @@ position: 2501,-439
 <<set $angus_investigation_quest to 1>>
 
 <<if $did_gregg_friendship_quest_4>>
-	Mae: Wow. Bea let you have the car two nights in a row? #line:832fed
-	Angus: yeah #line:951300
-	Mae: Even after the flat tire? #line:5fd753
-	Angus: Well, I mean, you can’t really do anything about that #line:228165
-	Angus: and I replaced the tire. #line:39a618
-	Mae: Oh yeah. #line:8122a4
+	Mae: Wow. Bea hat dir das Auto zwei Naechte hintereinander ueberlassen? #line:832fed
+	Angus: Ja #line:951300
+	Mae: Auch nach der Reifenpanne? #line:5fd753
+	Angus: Nun, ich meine, man kann nicht wirklich etwas dagegen tun #line:228165
+	Angus: und ich habe den Reifen ersetzt. #line:39a618
+	Mae: Oh ja. #line:8122a4
 	<<close>>
 	<<wait 2>>
 
     <<if $did_gregg_investigation_quest>>
-        Mae: Cool you could borrow her car, though. #line:06bc67
-        Mae: I had to ride on Gregg’s bike #line:cb5b12
-        Mae: when we saw that ghost. #line:e6ab10
-        Angus: Yeah Gregg needs to get his license. #line:4ea43f
-        Mae: I fell off his bike. #line:272e0a
+        Mae: Cool, dass du dir ihr Auto leihen kannst. #line:06bc67
+        Mae: Ich musste auf Greggs Fahrrad mitfahren #line:cb5b12
+        Mae: als wir den Geist gesehen haben. #line:e6ab10
+        Angus: Ja, Gregg muss seinen Fuehrerschein machen. #line:4ea43f
+        Mae: Ich bin von seinem Fahrrad gefallen. #line:272e0a
         <<if $did_gregg_friendship_quest_3>>
-            Mae: which I *also* did a few days before that #line:5acc80
+            Mae: was ich *auch* ein paar Tage vorher gemacht habe #line:5acc80
         <<endif>>
     <<endif>>
 <<endif>>
@@ -394,41 +394,41 @@ position: 2501,-439
 <<endif>>
 
 <<if $completed_investigation_quests is 0 or $second_iq_and_dom_friend_bea>>
-	Mae: I’M EXCITED! \o/ #line:96a59f
-	Angus: Are you? #line:a03e2e
-	Mae: Yeah! We never get to hang out! _o_ #line:2f7764
+	Mae: ICH BIN AUFGEREGT! \o/ #line:96a59f
+	Angus: Bist du das? #line:a03e2e
+	Mae: Ja! Wir kommen nie dazu, zusammen abzuhaengen! _o_ #line:2f7764
 	<<if $dom_friend_gregg>>
-		Angus: Yeah, I guess huh? #line:a654a8
-		Mae: I’ve been hanging out with Gregg so much #line:fdff52
-		Mae: it’ll be nice to actually get to know you a little better! #line:9c4079
-		Angus: I’m pretty great. #line:fa822e
+		Angus: Ja, ich schaetze schon, was? #line:a654a8
+		Mae: Ich habe so viel mit Gregg rumgehangen #line:fdff52
+		Mae: es wird schoen sein, dich ein bisschen besser kennenzulernen! #line:9c4079
+		Angus: Ich bin ziemlich toll. #line:fa822e
 	<<endif>>
-	Mae: Ghost hunting with Angus! #line:64a1d3
+	Mae: Geisterjagd mit Angus! #line:64a1d3
 <<endif>>
 
-Angus: So you think the guy you saw was a ghost? #line:c914cc
-Mae: not a guy- a GHOST #line:bf282a
-Angus: right. #line:075335
-Mae: Why does no one believe me that it was a ghost? #line:86e956
-Angus: Well, I mean… Ghosts don’t actually exist. #line:cde003
-Mae: I’m pretty sure they do. #line:5ca1b3
-Angus: Well, I’d need evidence. #line:9c5113
-Mae: What counts? #line:f3bedc
-Angus: A ghost walking up and saying hello #line:cf9b51
-Angus: and me saying hey I’ve verified you are a dead person. #line:e236cc
-Mae: Could be a zombie or a frankenstein. #line:0e14ad
-Angus: ok maybe if they’re made of ghosty stuff #line:b180c0
-Mae: Ghosty Stuff can be our podcast #line:c0e403
-Mae: about ghosts #line:468308
-Angus: *This episode of Ghosty Stuff brought to you by Donut Wolf* #line:04b4cb
+Angus: Du glaubst also, der Typ, den du gesehen hast, war ein Geist? #line:c914cc
+Mae: kein Kerl - ein GHOST #line:bf282a
+Angus: richtig. #line:075335
+Mae: Warum glaubt mir niemand, dass es ein Geist war? #line:86e956
+Angus: Nun, ich meine... Geister existieren nicht wirklich. #line:cde003
+Mae: Ich bin mir ziemlich sicher, dass es sie gibt. #line:5ca1b3
+Angus: Nun, ich wuerde Beweise brauchen. #line:9c5113
+Mae: Was zaehlt? #line:f3bedc
+Angus: Ein Geist, der auf mich zukommt und Hallo sagt #line:cf9b51
+Angus: und ich sage hey, ich habe mich vergewissert, dass du eine tote Person bist. #line:e236cc
+Mae: Koennte ein Zombie oder ein Frankenstein sein. #line:0e14ad
+Angus: ok, vielleicht, wenn sie aus geisterhaftem Zeug gemacht sind #line:b180c0
+Mae: Geisterhaftes Zeug kann unser Podcast sein #line:c0e403
+Mae: ueber Geister #line:468308
+Angus: *Diese Folge von Ghosty Stuff wird praesentiert von Donut Wolf* #line:04b4cb
 <<if $did_gregg_friendship_quest_4>>
-	Mae: No, I’m going to be sick. #line:527112
-	Angus: sorry. #line:43e2cb
+	Mae: Nein, ich muss mich uebergeben. #line:527112
+	Angus: Entschuldigung. #line:43e2cb
 <<endif>>
 
-Mae: Welcome to Ghosty Stuff. #line:5bffa2
-Mae: I’m Mae, and I saw ghosts, and this is Angus, who doesn’t believe me. #line:ee2266
-Angus: I’m Angus, and this is Mae. She’s a crazy person. #line:5fbb76
+Mae: Willkommen bei Ghosty Stuff. #line:5bffa2
+Mae: Ich bin Mae, und ich habe Geister gesehen, und das ist Angus, der mir nicht glaubt. #line:ee2266
+Angus: Ich bin Angus, und das ist Mae. Sie ist eine verrueckte Person. #line:5fbb76
 <<irisOut 1 wait>>
 <<sectionTitle AngusIQ ParkEntrance>>
 ===
@@ -438,27 +438,27 @@ colorID: 3
 position: 1405,-752
 ---
 Angus: Hey Mae. #line:927eaf
-Mae: Hey Angus. How's videoland? #line:c6098d
-Angus: good, good. #line:bc92fd
-Angus: start of the halloween rush. #line:c070c0
-Angus: got a pretty good horror section. #line:3e6da0
-Mae: nice. #line:f2f21b
-Angus: you got a favorite? #line:53665d
-Mae: what, horror movie? #line:1f2d4e
-Angus: yeah. #line:e813a6
+Mae: Hey Angus. Wie ist es in Videoland? #line:c6098d
+Angus: Gut, gut. #line:bc92fd
+Angus: Beginn des Halloween-Ansturms. #line:c070c0
+Angus: hat eine ziemlich gute Horrorabteilung. #line:3e6da0
+Mae: schoen. #line:f2f21b
+Angus: hast du einen Favoriten? #line:53665d
+Mae: was, Horrorfilm? #line:1f2d4e
+Angus: ja. #line:e813a6
     ->Scythe Sabboth #line:19d027
-        Angus: ooh! italian! #line:c5003d
-        Mae: yeah. they don't mess around. #line:36009e
-        Angus: pretty colors. #line:c46aca
-        Mae: pretty *everything* #line:dbd34b
-    ->Black Oaks #line:9575bb
-        Angus: oh nice. witchy. #line:c407c2
-        Mae: yeah it's witchy as hell. #line:8dbfcb
-        Mae: and scary. #line:d8edfd
-        Angus: yeah that one's like #line:54a162
-        Angus: historical. #line:dd0465
-        Mae: the witchy version. #line:e4d190
-Mae: well, seeya later! #line:12fd8a
+        Angus: ooh! italienisch! #line:c5003d
+        Mae: ja, die machen keine halben Sachen. #line:36009e
+        Angus: schoene Farben. #line:c46aca
+        Mae: huebsch *Alles* #line:dbd34b
+    ->Schwarze Eichen #line:9575bb
+        Angus: oh schoen. hexerisch. #line:c407c2
+        Mae: ja, es ist verdammt hexenhaft. #line:8dbfcb
+        Mae: und gruselig. #line:d8edfd
+        Angus: ja, der ist so #line:54a162
+        Angus: historisch. #line:dd0465
+        Mae: die hexenhafte Version. #line:e4d190
+Mae: na dann, bis spaeter! #line:12fd8a
 Angus: byeeee! #line:fbbfc1
 <<set $angus_done to 1>>
 ===
@@ -467,20 +467,20 @@ tags:
 colorID: 3
 position: 1655,-749
 ---
-Mae: happy halloweeeeen! #line:047443
-Angus: ha ha hey. you too. #line:408f91
-Mae: you feeling spooky? #line:75ad4a
-Angus: oh extremely. can't you tell? #line:99e87c
-Mae: do your spooky face. #line:502297
+Mae: Frohes Halloweeeeen! #line:047443
+Angus: ha ha hey. dir auch. #line:408f91
+Mae: fuehlst du dich gruselig? #line:75ad4a
+Angus: oh extrem. merkt man das nicht? #line:99e87c
+Mae: mach dein gruseliges Gesicht. #line:502297
 <<wait 1>>
 Angus: :) #line:9b8963
 <<wait 2>>
 Mae: :) #line:dd0651
-Mae: angus you're just smiling. #line:6271dc
-Mae: and it's adorable, not scary. #line:a1ffaf
+Mae: Angus du laechelst nur. #line:6271dc
+Mae: und es ist bezaubernd, nicht beaengstigend. #line:a1ffaf
 Angus: :| #line:ae1e12
 Angus: oh. #line:9ac6b8
-Mae: nice effort, though! #line:d22323
+Mae: Trotzdem netter Versuch! #line:d22323
 Angus: heh heh. #line:030b3f
 Mae: :| #line:02952d
 <<set $angus_done to 1>>
