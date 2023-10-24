@@ -244,7 +244,7 @@ Mae: Die Spuren sind cool. Ich war schon lange nicht mehr da draussen. #line:131
 Lori: Der Zug ruettelt nachts an meinem Zimmer. #line:706b23
 Mae: Ja, im Winter kann ich ihn hoeren :) #line:c30b58
 Mae: Eines meiner Lieblingsgeraeusche. #line:cb85a4
-Lori: Nun, du musst nicht mit aufwachen. #line:78a5f6
+Lori: Nun, du musst nicht mit #line:78a5f6 aufwachen.
 Lori: *huff* #line:d0e8dc
 Lori: Stuecke der Decke auf dir. #line:7dc54b
 Mae: Gutes Argument. :| #line:dba546
