@@ -1,8 +1,0 @@
-title: TryToPressButton
-tags:
-colorID: 0
-position: 665,376
----
-<<fadeOutMusic .1>>
-Gregg: Alter! Halt! Was soll der Scheiss? #line:96b811
-===

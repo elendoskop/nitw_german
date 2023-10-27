@@ -1,0 +1,109 @@
+title: Convo1
+tags: 
+colorID: 0
+position: 373,227
+---
+Mae: Und wie macht sich unser Sohn? #line:7097f6
+Angus: er ist in unserem Wohnzimmer. #line:2e49e3
+Mae: das ist er wirklich! #line:e7af48
+Mae: ziemlich toll. #line:18b30e
+Angus: jep. #line:639bd2
+<<wait 1>>
+<<tell AngusFoodPaw Reach>>
+===
+title: Convo2
+tags: 
+colorID: 0
+position: 624,230
+---
+Mae: Gregg, du bist furchtbar still? #line:71e2fd
+Gregg: Ich esse nur. #line:2b39b6
+Mae: Du hattest noch nie ein Problem damit, zu reden und gleichzeitig zu essen. #line:d8c8b0
+Gregg: ... #line:3f5db2
+Angus: ... #line:1613f8
+<<wait 1>>
+<<tell GreggFoodPaw Reach>>
+===
+title: EnterLevel
+tags: 
+colorID: 0
+position: 57,118
+---
+Mae: oh Gott #line:fc33f5
+Mae: wenn Gott ueberhaupt existiert #line:ef7fdc
+Mae: diese Donuts #line:40365b
+Mae: du bist nicht religioes, stimmt's Angus? #line:7b91c4
+Angus: nein. #line:73426d
+Mae: haben dich Donuts jemals zum Nachdenken gebracht? #line:851283
+Angus: nein. #line:794462
+<<close>>
+<<wait 1>>
+<<tell GreggFoodPaw Reach>>
+===
+title: Convo3
+tags: 
+colorID: 0
+position: 868,228
+---
+<<playOneShot event:/paws_mode_pizza/mae_pizza_sick>>
+Mae: ugh. Donut schon krank. #line:5e9ab6
+<<wait 2>>
+Angus: es riecht. #line:626ab5
+Gregg: Kumpel. #line:59774e
+Mae: Donut-Wolf? #line:b65be7
+Angus: das Roboterding. #line:a4e399
+Gregg: Ich dachte, es wuerde dir gefallen! #line:b640bf
+Gregg: Ich stinke, und du magst mich! #line:6205a9
+Mae: Ja! zu beiden Dingen! #line:448949
+Mae: Gregg hat viel Zeit und Muehe auf diesen Roboter verwendet #line:0ac61c
+Mae: weil er dachte, du wuerdest ihn lieben. #line:76502a
+Angus: Nein, er hat es gemacht, weil es Spass gemacht hat. #line:a3d587
+Angus: Egal was passieren koennte. #line:8bcf06
+Mae: Oje. #line:c157dd
+Gregg: ... #line:04a9ae
+<<wait 1>>
+<<tell AngusFoodPaw Reach>>
+===
+title: Convo5
+tags: 
+colorID: 0
+position: 1362,227
+---
+<<playOneShot event:/paws_mode_pizza/mae_pizza_sick>>
+<<wait 2>>
+<<fadeOutMusic 10>>
+Mae: oh weh #line:b7ca56
+<<wait 2>>
+Mae: oh du lieber Himmel #line:f93047
+Mae: ich falle in den Himmel #line:f01df7
+<<resumeAnimation PawsModeDonutWolfGreggAngus>>
+<<playOneShot event:/paws_mode_donut/donut_sick_transition>>
+<<wait 7>>
+===
+title: Convo4
+tags: 
+colorID: 0
+position: 1108,224
+---
+<<playOneShot event:/paws_mode_pizza/mae_pizza_sick>>
+Mae: oof. fuehle mich benebelt. #line:4f56d6
+<<wait 2>>
+Mae: Angus, du bist unhoeflich. #line:69d65b
+Angus: *Ich* bin unhoeflich? #line:bc221e
+Angus: wir versuchen, hier rauszukommen #line:e5b751
+Angus: wir arbeiten uns beide den Arsch ab #line:217e15
+Angus: und du kommst zurueck in die Stadt getanzt #line:9ccd0b
+Angus: und ploetzlich bricht Gregg in Lebensmittellaeden ein #line:c5c724
+Gregg: die verlassenen! #line:749621
+Angus: und stiehlt Autobatterien #line:40c4cf
+Gregg: verlassene! #line:583482
+Angus: und unsere ohnehin schon beschissene Wohnung zu versauen, #line:8caf53
+Gregg: Hey, Alter, komm schon. #line:85cb59
+Mae: warte, wieso ist das meine Schuld? #line:d966a3
+Angus: ... #line:883597
+Gregg: ... #line:89e6d2
+Mae: Wie auch immer, ich esse. #line:4357a7
+<<wait 1>>
+<<tell GreggFoodPaw Reach>>
+<<tell AngusFoodPaw Reach>>
+===

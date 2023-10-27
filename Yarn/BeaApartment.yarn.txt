@@ -1,0 +1,404 @@
+title: EnterLevel_A2D3
+tags: 
+colorID: 3
+position: 2910,9935
+---
+<<if $bea_friendship_quest_3 is 0>>
+    <<wait 1>>
+    <<walk Bea Bea1 wait>>
+    <<walk Mae Mae1 wait>>
+    [[Dinner]]
+<<elseif $bea_friendship_quest_3 is 1>>
+
+<<endif>>
+===
+title: AfterDinner
+tags: 
+colorID: 3
+position: 2888,10589
+---
+<<cameraLookAt CameraAfterDinner>>
+<<warp Mae MaeStool>>
+<<sit>>
+<<setSortingLayerName Player>>
+<<setSpriteLayer Bea Bea>>
+<<warp BeaDad BeaDadCouch>>
+<<sit BeaDad>>
+<<warp Bea BeaCouch>>
+<<sit Bea>>
+<<tell AmbientSFX:tv Play1>>
+<<lookAt Bea BeaDad>>
+<<lookRight BeaDad>>
+<<setSpriteLayer BeaDad BeaDad2>>
+<<irisIn 1 wait>>
+Bea: Also ja, wir haben alles bis zum 15. naechsten Monat bezahlt. #line:e8c384
+BeaDad: Na gut. #line:0f3290
+<<close>>
+<<wait 2>>
+BeaDad: Ist das Steinsalz sortiert? #line:21dd9b
+Bea: Ja, sollte in Ordnung sein. #line:349e02
+BeaDad: Faehrt Rob immer noch diesen grossen Truck? #line:e9f0fe
+Bea: So weit ich weiss. #line:04f987
+Bea: Ok, aeh, du musst ein paar Sachen unterschreiben. Hab sie auf der Bar liegen lassen. #line:2eb3f6
+BeaDad: Ich denke, ich koennte sie gerade noch bekommen. #line:699861
+Bea: Bitte tu das. Wir muessen die Jungs in ein paar Tagen bezahlen. #line:bd7687
+BeaDad: Daran brauchst du mich nicht zu erinnern. #line:00d1e5
+Bea: Ich weiss, aber- #line:06ecdf
+BeaDad: Das tue ich nicht, Beatrice. Wessen Name steht auf der Urkunde? #line:f6f489
+Bea: Auf deinen, Dad. #line:13de8b
+BeaDad: Wessen Name steht auf den Schecks? #line:c1b54a
+<<close>>
+<<wait 1>>
+<<lookRight Bea>>
+<<wait 1>>
+Bea: Deiner. #line:da84d7
+Mae: ... #line:7c2b52
+<<close>>
+<<wait 2>>
+<<if $grocery_quality is 1>>
+	BeaDad: Gutes Essen, Mae. Wirklich gut. #line:b3795f
+    <<unlockAchievement Bea_FQ3_Recipe>>
+<<elseif $grocery_quality is -1>>
+	BeaDad: Urgh. Das Abendessen wird nicht gut werden. #line:69714d
+<<endif>>
+BeaDad: Die Smelters spielen heute Abend. #line:9acf12
+Bea: Wir werden in meinem Zimmer abhaengen. #line:f95e3f
+Mae: Ja... #line:bf5557
+BeaDad: Habt eine schoene Zeit ihr Maedchen! #line:95dfde
+BeaDad: Danke fuer das Essen, Mae! #line:c2cb73
+Mae: Gern! #line:6afaf1
+<<close>>
+<<setSpriteLayer BeaDad BeaDad>>
+<<setAnimInt Bea sitting 0>>
+<<warp Bea BeaCouch>>
+<<walk Bea BeaExitRight wait>>
+<<tell _AmbientSFX:bea_door_indoor Play>>
+<<cameraFollowPlayer 1>>
+<<set $bea_apartment_block_left to 1>>
+<<getUp>>
+<<fadeOutMusic 6>>
+===
+title: BeaDad
+tags: 
+colorID: 3
+position: 3211,10327
+---
+<<if $bea_friendship_quest_3 is 0>>
+    <<set $bea_dad_done to 1>>
+    Mae: Smelters, hm? #line:261144
+    BeaDad: Bist du ein Fan? #line:c71ba2
+    -> Nicht wirklich. #line:82f748
+        BeaDad: Du weisst nicht, was du verpasst! #line:8f3989
+        Mae: Oh glaub mir, ich weiss genau, was ich verpasse. #line:0589f7
+        Mae: Meine Eltern sehen sich die Smelters ziemlich religioes an. #line:3af4a2
+        BeaDad: Ha ha! Sie haben dich also richtig erzogen! Was ist denn da passiert? #line:1e44d3
+        Mae: Ich habe keine Ahnung. #line:de591e
+    -> Ich mag Eishockey. #line:a7db15
+        BeaDad: Hockey? Pssh. #line:7d9fb2
+        Mae: Was kann man an Eishockey nicht moegen? #line:282e1d
+        BeaDad: Ein Haufen Maenner, die auf Schlittschuhen herumtaenzeln. #line:bc4f3c
+        Mae: Und die sich gegenseitig verpruegeln! #line:b00d12
+        BeaDad: eeeeh. Kann mich nicht ueber einen Puck aufregen. #line:04bde7
+        Mae: Aber... aber es ist doch *erwartet*, dass jemand am Ende blutet! #line:0cf5be
+        BeaDad: Das ist kein Sportsgeist. #line:9c33f0
+        Mae: Wie kann das, was ich beschrieben habe, *kein* Sportsgeist sein? #line:03a054
+        BeaDad: Eeeeeh. #line:05c249
+<<else>>
+    <<if $grocery_quality is -1>>
+        <<if $grocery_meat is 1>>
+            BeaDad: ...Rindfleisch...schlechtes Rindfleisch... #line:cdc592
+        <<elseif $grocery_meat is 2>>
+            BeaDad: ...Huhn... nie wieder... #line:0fc460
+        <<elseif $grocery_meat is 3>>
+            BeaDad: ...furchtbarer Fisch... #line:d7da6e
+        <<elseif $grocery_meat is 4>>
+            BeaDad: ...schlechtes Schweinefleisch... warum? #line:eaa6c3
+        <<endif>>
+    <<elseif $grocery_quality is 1>>
+        <<if $grocery_meat is 1 is>>
+            BeaDad: ...danke, leckere Kuh... #line:e2b976
+        <<elseif $grocery_meat is 2>>
+            BeaDad: ...wunderbares Huhn, jaja... #line:1d43cd
+        <<elseif $grocery_meat is 3>>
+            BeaDad: ...leckerer Fisch... so schoen... #line:08c130
+        <<elseif $grocery_meat is 4>>
+            BeaDad: ...Schweinekotelett... Schweinekotelett... so suess und lecker... #line:5015ce
+        <<endif>>
+    <<else>>
+        <<if $grocery_meat is 1>>
+            BeaDad: ...Rindfleisch... da kann man nichts falsch machen... #line:e5b126
+        <<elseif $grocery_meat is 2>>
+            BeaDad: ...Huehnerfleisch... wie Mom... #line:2d2544
+        <<elseif $grocery_meat is 3>>
+            BeaDad: ...fischiger Fisch... iss die Fische... #line:042e54
+        <<elseif $grocery_meat is 4>>
+            BeaDad: ...Schweinefleisch ist ok... Schweinefleisch reicht... #line:8cb0ea
+        <<else>>
+            BeaDad: ...kein Essen ausgewaehlt... ueberhaupt kein Essen... #line:d762ba
+        <<endif>>
+    <<endif>>
+    <<set $bea_dad_done to 1>>
+<<endif>>
+===
+title: Dinner
+tags: 
+colorID: 3
+position: 2899,10287
+---
+Bea: Dinner time! #line:52e3a5
+<<close>>
+<<irisOut 1 wait>>
+<<warp Mae MaeBehindCounter>>
+<<warp Bea BeaBehindCounter>>
+<<warp BeaDad BeaDadBehindCounter>>
+<<setSpriteLayer Bea BG2>>
+<<setSortingLayerName BG2>>
+<<setSpriteLayer BeaDad BG2>>
+<<sit Bea>>
+<<sit BeaDad>>
+<<sit>>
+<<lookDown Bea>>
+<<lookDown BeaDad>>
+<<lookDown Mae>>
+<<cameraLookAt CameraDinner>>
+<<playMusic bea_dinner>>
+<<irisIn 1 wait>>
+<<if $grocery_quality is -1>>
+    BeaDad: AEhm. #line:4c671c
+    Bea: Yeah. #line:b6e2a9
+    Mae: Was? #line:0e8cbe
+    Bea: Willst du, dass ich eine Pizza bestelle? #line:22d55b
+    BeaDad: Nee, ich habe Sandwichsachen. #line:82023f
+    Bea: Na gut. #line:86d8e1
+    Mae: Ach, habe ich das Abendessen ruiniert? #line:da5ed8
+    BeaDad: Ja, aber wir werden es ueberleben, denke ich! #line:b7ec90
+    BeaDad: HA HA HA!! #line:c5dd43
+    <<if $grocery_meat is 3 and $grocery_bakey_shakey is 1>>
+        BeaDad: Ich glaube, das mit dem Fisch hat nicht geklappt. #line:e8a80b
+        Mae: Ich dachte, hey Fisch ist ok, Bakey Shakey ist gut... #line:189b6b
+    <<elseif $grocery_meat is 1 and $grocery_bakey_shakey is 1>>
+        BeaDad: Ich glaube, Bakey Shakey braucht etwas... sonst. #line:963ed8
+        Mae: Ich dachte an... aeh... zwei gute Sachen... #line:99872d
+        Mae: vielleicht eine wirklich gute Sache? #line:1e359a
+    <<elseif $grocery_meat is 1 and $grocery_box != 1>>
+        BeaDad: Ich glaube nicht, dass Rinderhackfleisch fuer sich alleine stehen sollte. #line:cc1e40
+        Bea: Wie auf einem Haufen. #line:aebb78
+        Mae: Awwwwww... #line:5c7b8e
+    <<elseif $grocery_meat is 3 and $grocery_canned_goods is 3>>
+        BeaDad: Ich glaube, ich koennte tatsaechlich ein bisschen krank sein. #line:fe9b22
+        Mae: Ich dachte... Fisch ist gut! Huhn ist gut! #line:f5bdeb
+        Bea: Nicht so. Nicht so wie hier. #line:b9930e
+        Mae: Nein. Ok. #line:c81a4c
+        Mae: Wenn du zu Admiral Fry's gehst und die Nummer 7 bestellst. #line:b30713
+        Mae: ES IST HUEHNER UND FISCH! #line:932083
+        Bea: Ja, aber sie sind getrennt. Und gebraten. #line:3b6a80
+        Mae: uuuurgh #line:e4622c
+    <<elseif $grocery_meat is 2 and $grocery_bakey_shakey is 1 and $grocery_canned_goods is 3>>
+        Bea: Ich kann den Gedankengang hier nachvollziehen. #line:65b37b
+        Bea: mit dem Bakey Shakey. #line:9f19e4
+        Mae: Huehnchen und Huehnercreme! #line:3f23bb
+        Mae: Cremiges Haehnchen! #line:1fd8d0
+        Bea: und du denkst hey #line:0dcf5d
+        Bea: wie kann ich das verbessern. #line:1a167f
+        Mae: Ja siehst du, du hast es verstanden. #line:51a834
+    <<elseif $grocery_meat is 4 and $grocery_canned_goods is 3>>
+        BeaDad: Ich glaube nicht, dass Schweine- und Huehnerfleisch auf diese Weise zusammenkommen sollten. #line:a63cf8
+        Mae: Ach, wirklich? #line:d54a77
+    <<elseif $grocery_meat is 1 and $grocery_canned_goods is 3>>
+        BeaDad: Ich glaube nicht, dass eine Rinder- und Huehnercremesuppe #line:6fe820
+        BeaDad: wird dir auf dem Jahrmarkt keine blauen Schleifen einbringen. #line:f92a68
+        Mae: Ach komm schon, ich garantiere dir, dass das ein echtes Rezept ist. #line:f63128
+    <<endif>>
+    <<if $did_bea_friendship_quest_2 is 1>>
+        Mae: Bin ich einfach in allem schlecht? #line:ea2063
+        Bea: Nein, nur Dinge reparieren und Mahlzeiten planen. #line:1a31b1
+        Mae: Das sind wichtige Lebenskompetenzen! #line:7cc773
+    <<endif>>
+    Bea: Hat es dir gefallen? #line:2b6370
+    Mae: Nein, ich stimme zu, es ist sehr schrecklich. #line:15d901
+<<elseif $grocery_quality is 0>>
+    BeaDad: Das ist in Ordnung. #line:49e71d
+    Mae: Thanks! #line:ef3262
+    Bea: Ja, ist schon in Ordnung. #line:d20b58
+    Mae: Danke. #line:4c7a9d
+    BeaDad: Ja, das wird reichen. #line:83bc9f
+    Mae: Danke? #line:ea8b95
+    Bea: Das hast du gut gemacht, Mae. Danke. #line:83f78d
+    Mae: Mit Fleisch und Kohlenhydraten kann man nichts falsch machen. #line:36f5ae
+    BeaDad: Danke, Mae #line:d0a9b6
+    -> Ich bin wirklich gut im Essen. #line:059332
+        BeaDad: Essen ist gut. #line:1dcfac
+        Bea: Manchmal ist es gut. #line:8ac959
+        Mae: Manchmal?!?!? #line:996009
+        Mae: ESSEN IST WIRKLICH GUT. #line:23c225
+        Bea: Zur Kenntnis genommen. #line:d3223e
+        BeaDad: Heh heh heh! #line:3e732f
+    -> Ich weiss nicht, ob ich das schon mal erwaehnt habe, #line:96f2fe
+        Mae: Aber ich habe eine WIRKLICH gute Note in Hauswirtschaft in der High School bekommen. #line:1c4ec3
+        Mae: Ich habe dieses Shirt gemacht! #line:e7befc
+        BeaDad: Hey hey kannst du meine Hose reparieren! #line:9b3b1d
+        Mae: Ist da Geld drin? #line:9813bf
+        Bea: Dad wir koennen dir eine neue Hose kaufen. #line:b80de5
+<<elseif $grocery_quality is 1>>
+    BeaDad: Hey, das ist ziemlich gut. #line:ce918c
+    Bea: Yeah. Das ist irgendwie... erschreckend gut. #line:c6f337
+    Mae: Danke!  #line:f001e0
+    <<if $grocery_meat is 1 and $grocery_bakey_shakey is 0 and $grocery_box is 1 and $grocery_canned_goods is 1>>
+        BeaDad: Meine Mutter hat immer Beefy Mac n' Cheese gemacht #line:c43cb6
+        Bea: Es ist sehr gut. #line:ae4d7a
+        Mae: Es gibt keinen Teil davon, der nicht gut ist! Es ist ein Kinderspiel! #line:d2f3d7
+        BeaDad: Und das Gemuese auch. Genau wie Mom. #line:b88a4f
+        Mae: Vielleicht bin ich deine Mutter. #line:725b2b
+        BeaDad: Was #line:e46970
+        Bea: Was #line:78f678
+        Mae: Ich weiss es nicht. Das wurde komisch. #line:8e2f9d
+    <<elseif $grocery_meat is 4 and $grocery_box is 2 and $grocery_canned_goods is 2>>
+        BeaDad: Bakey Shakey Schweinekoteletts! #line:b2414a
+        Mae: Ich weiss, nicht wahr? #line:691ff5
+        Mae: Ich habe die Bakey Shakey gerne abgekratzt #line:a3ee20
+        Bea: ew nein #line:695f27
+        Mae: und genau DAS essen. #line:97e78e
+    <<elseif $grocery_meat is 2 and $grocery_bakey_shakey is 0 and $grocery_canned_goods is 3 and $grocery_cooler is 1>>
+        BeaDad: Meine Oma hat immer Chicken n' Biscuits gemacht! #line:e1f6db
+        BeaDad: Damals auf der Farm... #line:b48e4e
+        Bea: Urgrossmutter hatte eine Farm? #line:bb2c2d
+        Bea: Ich dachte sie hatten ein Schuhgeschaeft? #line:e8e321
+        BeaDad: Eh, Details. #line:3d25a7
+    <<elseif $grocery_meat is 2 and $grocery_bakey_shakey is 1 and $grocery_box is 4 and $grocery_box is 3>>
+        BeaDad: MMM. Gebackenes Huhn mit Reis und Kartoffeln. #line:14834c
+        Mae: Es ist ein Klassiker aus gutem Grund. #line:bab535
+        Bea: Oh, das kennen wir doch schon. #line:886d4c
+        Mae: Ich habe nie versprochen, exotisch zu kochen! #line:4a811e
+    <<elseif $grocery_meat is 3 and $grocery_bakey_shakey is 0 and $grocery_box is 1 and $grocery_cooler is 2>>
+        BeaDad: Fisch und Mac und Spinat. #line:d68816
+        BeaDad: Was es in der Gemeinde gab, als ich ein Junge war. #line:d56843
+        BeaDad: An irgendeinem Feiertag, an dem man Fisch essen soll. #line:230eea
+        Mae: Gibt's das? #line:abad33
+        Bea: Es ist ein Ding. #line:fde2ed
+    <<endif>>
+    BeaDad: Sie sollte jeden Abend unser Essen aussuchen! #line:950876
+    Bea: Nein Dad, wir wuerden an einer Art Zuckerschock sterben. #line:902853
+    Mae: Stimmt nicht! #line:7dc542
+    -> Ich mache auch Burger und Tacos und Pizza! #line:91d937
+        Bea: Na dann wuerden wir eben daran sterben. #line:5c78bd
+        BeaDad: Es gibt Schlimmeres. #line:bf7fe9
+    -> Ich weiss, wie man Reis und Hackfleischauflauf kocht! #line:20a0d6
+        BeaDad: Bea's Mutter hat das immer gemacht. #line:3c3e1a
+        Bea: Ha ha, das hast du zu mir gesagt. #line:b103b5
+        BeaDad: Ok, Mae: Bea's Mutter hat das immer gemacht. #line:7e6b5f
+        Bea: Und selbst sie hat gelernt, dass wir das nicht jeden Abend essen koennen. #line:5e4e8a
+        BeaDad: Nicht nach dieser Woche in der Horker's Gorge. #line:2129c1
+    -> Ich weiss, wie man Ruehrei macht und diese Kekse aus der Tube kocht! #line:0b1821
+        BeaDad: Ich mag Wuerstchen. #line:1dfc86
+        Bea: Ich kann nicht zu jeder Mahlzeit Fruehstueck essen. #line:8fa00e
+    Mae: Ich kann einen Salat machen! #line:d8880e
+    Bea: Halleluja. #line:304013
+    BeaDad: Heh heh Mae, du bist in Ordnung! #line:7fd404
+    BeaDad: HA HA HA HA HA!!! #line:69c316
+    <<if $did_bea_friendship_quest_2 is 1>>
+        Bea: Das ist auf jeden Fall besser geworden als das, was du gestern Abend im Keller gemacht hast. #line:a68ba0
+        BeaDad: Was ist das? #line:3a57e8
+        Bea: Nichts. #line:3330ad
+    <<endif>>
+    Mae: Danke. Mir geht es ziemlich gut. #line:e00eef
+<<endif>>
+<<irisOut 1 wait>>
+[[AfterDinner]]
+===
+title: EnterLevel_A4D2
+tags: 
+colorID: 5
+position: 4878,9869
+---
+<<if $laptop_vignettes>>
+    <<playMusic laptop_vignettes 10>>
+    <<if $dom_friend_bea>>
+        [[DomFriendVignette]]
+    <<else>>
+        [[SubFriendVignette]]
+    <<endif>>
+<<endif>>
+===
+title: DomFriendVignette
+tags: 
+colorID: 5
+position: 4779,10208
+---
+<<cameraLookAt CameraVignetteStart 0>>
+<<cameraLookAt CameraVignetteEnd 30>>
+<<fadeIn 1 wait>>
+//fade in on bea, sitting in her living room doing bills as her dad is asleep on the couch. Mae chat continues in black box somewhere//
+MaeLaptop: Keiner von uns hat das gewollt. #line:af309d
+MaeLaptop: und es ist uns nicht passiert, weil wir etwas Besonderes sind. #line:7ae83e
+MaeLaptop: Du kannst so hart arbeiten, wie du willst, aber #line:ba0e3f
+MaeLaptop: das Universum wird weiterhin tun, was es tut. #line:0c3e01
+MaeLaptop: und ich glaube nicht, dass irgendjemand von uns das alles verdient hat. #line:679494
+MaeLaptop: das sind alles Dinge, die lange vor unserer Geburt begonnen haben. #line:79bb97
+MaeLaptop: es bewegt sich alles so schnell und man wird hineingeworfen #line:d7c564
+MaeLaptop: und du versuchst nur, dich an etwas festzuhalten. #line:fd8b94
+MaeLaptop: Ihr alle seid es, die mich heute Nacht vor dem Abdriften bewahrt haben. #line:957b65
+MaeLaptop: Ausserdem habt ihr den Kerl irgendwie getoetet, um mich zu retten. #line:c6adf7
+MaeLaptop: Glaube nicht, dass ich das nicht zu schaetzen weiss. #line:e68683
+MaeLaptop: L O L #line:e3ee01
+<<fadeOut 1 wait>>
+<<overrideLoadingScreenType Blank>>
+<<scene GreggAngusApartment>>
+===
+title: SubFriendVignette
+tags: 
+colorID: 5
+position: 5188,10233
+---
+<<cameraLookAt CameraVignetteStart 0>>
+<<cameraLookAt CameraVignetteEnd 30>>
+<<fadeIn 1 wait>>
+//fade in on bea, sitting in her living room doing bills as her dad is asleep on the couch.//
+MaeLaptop: werde ich jemals in den Griff bekommen, was gerade passiert ist? #line:fe074a
+MaeLaptop: das hoffe ich irgendwie nicht. #line:347c08
+MaeLaptop: ich hoffe nur, dass es vorbei ist. #line:d746be
+MaeLaptop: ich moechte, dass wir alle davon befreit werden. #line:834d4a
+MaeLaptop: ich will nicht, dass wir nur ein Teil einer schrecklichen Geschichte sind. #line:5e4706
+MaeLaptop: Ich will wie ein Riese wachsen #line:3b6ed1
+MaeLaptop: und euch alle aufheben #line:2276f1
+MaeLaptop: und euch an einen sicheren Ort tragen #line:785033
+MaeLaptop: entschuldige, ich schweife jetzt total ab. #line:0a2878
+MaeLaptop: ich muss einfach daran glauben, dass es Wege gibt, #line:6a77c2
+MaeLaptop: entkommen. #line:ded71c
+MaeLaptop: oder zumindest weitergehen. #line:f3598b
+//fade out. Fade in on germ in a parking lot. This will need to be a new scene//
+<<fadeOut 1 wait>>
+<<overrideLoadingScreenType Blank>>
+<<scene GermVignette>>
+===
+title: InitLevel_A2D3
+tags: 
+colorID: 3
+position: 2888,9703
+---
+<<if $bea_friendship_quest_3 is 1>>
+    <<set $bea_apartment_block_left to 0>>
+    <<set $night to 1>>
+    <<set $did_bea_friendship_quest_3 to 1>>
+    <<set $completed_bea_friendship_quests += 1>>
+    <<sit BeaDad>>
+    <<setAnimInt BeaDad sleeping 1>>
+    <<hide Bea>>
+    <<warp Mae MaeExitBeaRoom>>
+    <<playerFace -1>>
+    <<set $block_bea_room to 1>>
+    <<set $bea_dad_done to 0>>
+    <<tell AmbientSFX:tv Play1>>
+<<endif>>
+===
+title: InitLevel_A4D2
+tags: 
+colorID: 5
+position: 4885,9635
+---
+<<warp Bea BeaBehindCounter>>
+<<sit Bea>>
+<<setSpriteLayer Bea BG2>>
+<<hide BeaDad>>
+<<hide Mae>>
+<<setAnimInt Bea headSlant 1>>
+===

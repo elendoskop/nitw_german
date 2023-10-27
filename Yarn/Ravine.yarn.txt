@@ -1,0 +1,135 @@
+title: Creek.2
+tags: 
+colorID: 0
+position: 1000,535
+---
+Mae: Einkaufstueten sind kleine Geister #line:27c843
+Mae: von Lebensmittellaeden #line:16299c
+Mae: spuken ueberall sonst herum. #line:388522
+===
+title: Creek.3
+tags: 
+colorID: 0
+position: 1277,541
+---
+Mae: Oh wow ich habe eine Kroete gehoert. #line:48a56e
+Mae: Und eine Geistereule. #line:342af9
+Mae: Ich wette, hier unten gibt es jede Menge potenzieller Hexen-Vertrauter. #line:f7f97a
+<<end>>
+===
+title: Creek.1
+tags: 
+colorID: 0
+position: 704,505
+---
+Mae: Ich glaube, hier gab es mal ein altes Saegewerk. #line:e63ebf
+Mae: Ich meine, der Park da oben heisst Sawmill Park. #line:f974e0
+Mae: Sieht aus, als haetten sie irgendwann mal eine Ladung Holz verloren. #line:554190
+Mae: *seufz* #line:2353fb
+Mae: Ich schaetze, ich muss da hochklettern. #line:05796a
+
+===
+title: BottomOfCliff
+tags: 
+colorID: 0
+position: 399,512
+---
+Mae: Na ja... #line:7b70f8
+Mae: ...scheisse. #line:d9e711
+Mae: hm... #line:99bf8c
+===
+title: BottomOfPipes.1
+tags: 
+colorID: 0
+position: 491,834
+---
+Mae: Igitt. Das ist eine geile Natur. #line:cf8e89
+Mae: Geile Natur und Muell. #line:01951e
+===
+title: BottomOfPipes.2
+tags: 
+colorID: 0
+position: 728,832
+---
+Mae: Sind das Food Donkey Einkaufswagen? #line:52a907
+Mae: Das ist der ganze Weg durch die Stadt! #line:f53836
+Mae: Das ist Hingabe! #line:ccc7f9
+<<end>>
+===
+title: TopPipe
+tags: 
+colorID: 0
+position: 913,250
+---
+<<if $firefliesInTargets is 0>>
+	<<if $ravineTopPipe is 0>>
+		Mae: Wow. Ok. Aehm. #line:2e183c
+		Mae: Die Stadt ist auf der anderen Seite von hier #line:ba5ec7
+		Mae: aber das ist... #line:75033f
+		Mae: es ist nur wirklich dunkel #line:0b00d8
+		Mae: und ich bin allein. #line:760158
+		<<set $ravineTopPipe to 1>>
+	<<elseif $ravineTopPipe is 1>>
+		Mae: Wirklich dunkel, wirklich einsam. #line:54e0e9
+	<<endif>>
+<<elseif $firefliesInTargets < 6>>
+	<<if $ravineTopPipe < 10>>
+		Mae: Hey kleine Jungs, leuchtet ihr mir den Weg? #line:1c64cc
+		Mae: Macht ihr etwas Sinnvolles? #line:a68ac6
+		Mae: Vielleicht, wenn mehr von deinen Kaeferfreunden mitkommen wuerden... #line:5d5741
+		Mae: Hm... ok #line:aa56b6
+		<<set $ravineTopPipe to 10>>
+	<<elseif $ravineTopPipe is 10>>
+		Mae: Wir brauchen wahrscheinlich mehr Kaefer. #line:490d6c
+		Mae: Nicht dass ich Angst vor der Dunkelheit haette. #line:902918
+		Mae: Aber ja. #line:99a6c8
+		Mae: Brauchen wohl mehr Kaefer. #line:d7906a
+		<<set $ravineTopPipe to 11>>
+	<<elseif $ravineTopPipe is 11>>
+		Mae: Brauche mehr Bugs wahrscheinlich. #line:5ac52d
+	<<endif>>
+<<elseif $firefliesInTargets < 9>>
+	<<if $ravineTopPipe < 20>>
+		Mae: Nun, es ist ziemlich dunkel da unten. #line:d7c083
+		Mae: Aber ihr Wanzen macht einen guten Job, das zu beheben. #line:953f2c
+		Mae: Vielleicht brauchen wir einfach ein paar mehr von deinen Freunden... #line:5b78c5
+		<<set $ravineTopPipe to 21>>
+	<<elseif $ravineTopPipe is 21>>
+		Mae: Hoer zu, Kaefer: #line:80d793
+		Mae: Wir brauchen mehr Bugs. #line:2a1f99
+		Mae: Oh mein Gott, ich huete Kaefer. #line:7b278f
+		Mae: Damit ich von einem Rohr in eine Schlucht springen kann. #line:420af4
+		Mae: Was ist aus meinem Leben geworden? #line:975502
+		<<set $ravineTopPipe to 22>>
+	<<elseif $ravineTopPipe is 22>>
+		Mae: Noch ein paar Fehler und ich springe wahrscheinlich von diesem Rohr. #line:95df43
+	<<endif>>
+<<elseif $firefliesInTargets >= 9>>
+	<<if $ravineTopPipe < 30>>
+		<<releaseFireflies>>
+		<<wait 3>>
+		Mae: Wow. #line:e1fe48
+		Mae: Ich meine, scheiss auf das College #line:28fac7
+		Mae: Ich bin ein Kaeferfluesterer! #line:d126c6
+		Mae: Na gut! Weiter geht's! #line:61f12c
+		<<set $ravineTopPipe to 30>>
+		<<end>>
+	<<endif>>
+<<endif>>
+
+
+
+===
+title: AfterLogSlide
+tags: 
+colorID: 0
+position: 456,188
+---
+Mae: Oh mein Gott! #line:632d93
+Mae: Das war gefaehrlich! #line:4e7413
+Mae: Ich haette sterben koennen! #line:7a8f54
+Mae: Das war unglaublich! #line:89349f
+<<close>>
+<<wait 1.5>>
+Mae: Ich werde nicht in diesem Loch sterben. #line:c24609
+===

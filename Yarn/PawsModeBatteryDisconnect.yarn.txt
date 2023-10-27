@@ -1,0 +1,21 @@
+title: Zapped
+tags: 
+colorID: 0
+position: 891,297
+---
+<<fadeOutMusic .1>>
+Mae: {width=4}YAAAAAAAAAAAAAAARGH!!!!!! #line:22e727
+Gregg: WHOOOOA!!! #line:dd9989
+<<set $gregg_friendship_quest_2 to 2>>
+<<fadeOut .1 wait>>
+<<scene SharkleDream>>
+===
+title: EnterLevel
+tags: 
+colorID: 0
+position: 244,202
+---
+Gregg: Ok, also nimm einfach eines der Kabel und zieh es ab! #line:910d6e
+Mae: Danke! Ich denke, ich kann es herausfinden! #line:f6560a
+Mae: Ich muss erst diese Blaetter loswerden... #line:9f4d8c
+===

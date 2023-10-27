@@ -1,0 +1,57 @@
+title: OutsideDoor
+tags: 
+colorID: 0
+position: 124,124
+---
+Mae: Nun, ich bin gleich ausserhalb der Stadt. #line:ba6e88
+Mae: Mom und Dad sind nirgends zu finden. #line:b190a5
+Mae: Dunkel und kalt. #line:023777
+Mae: Ich schaetze, ich gehe jetzt. #line:ea7dd4
+Mae: Alleine. #line:121249
+<<end>>
+===
+title: Bench1
+tags: 
+colorID: 0
+position: 355,120
+---
+Mae: Wow. #line:863c89
+Mae: Ich habe gar nicht gemerkt, wie sehr ich das Geraeusch des Zuges vermisst habe. #line:76d36f
+Mae: Ich habe es nachts in meinem Bett gehoert #line:349fa9
+Mae: waehrend des Winters, wenn die Blaetter unten waren. #line:a72496
+<<end>>
+===
+title: Bench2
+tags: 
+colorID: 0
+position: 576,120
+---
+Mae: Dieser Busbahnhof ist vielleicht das Neueste in Possum Springs. #line:f3c835
+Mae: Ich schaetze, die haben eine staatliche Finanzierung oder so bekommen. #line:3029c5
+Mae: Es macht einen guten ersten oder letzten Eindruck, nehme ich an #line:6c4a77
+Mae: wenn nicht die verlassene Glasfabrik da hinten waere. #line:572e35
+Mae: Die werden wir so schnell nicht los. #line:ab025a
+<<end>>
+===
+title: Woods
+tags: 
+colorID: 0
+position: 796,119
+---
+Mae: Nun, ich denke, ich werde durch den Wald gehen. #line:af8d1b
+Mae: Hinter dem Wald ist mein Zuhause, #line:716f9a
+Mae: mein Bett, #line:0cf24e
+Mae: und meine nachlaessigen Eltern. #line:1e2fe6
+<<end>>
+===
+title: Highway
+tags: 
+colorID: 0
+position: 909,396
+---
+Mae: Ich werde nicht zurueck zum Highway gehen. #line:581ad5
+Mae: Wahrscheinlich werde ich von einem Auto angefahren oder so. #line:5bc855
+Mae: Hey, wo ist der Hausmeister hin? #line:b7ccc4
+Mae: Ist er gelaufen? #line:6091e6
+<<end>>
+===

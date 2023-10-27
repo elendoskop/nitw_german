@@ -1,0 +1,157 @@
+title: EnterLevel
+tags: 
+colorID: 0
+position: 523,187
+---
+<<irisIn 1 wait>>
+FortuneTeller: Wagt ihr es, das Rad des Schicksals zu drehen? #line:57fa07
+Mae: Erklaerung? #line:ac3b62
+FortuneTeller: Niemand kann die Macht des Rades erklaeren #line:f23d9c
+FortuneTeller: Ausser, dass es ein unbekanntes, kreisrundes Wahrsagegeraet ist. #line:4359fb
+Mae: Oh Schreck, wird es denn Wahrheit sagen? #line:77baa0
+FortuneTeller: Wahrsagerin: Die Wahrheit wird gesagt werden. #line:d73547
+Mae: ok ich bin dabei. #line:3f8e23
+<<tell FortuneWheelBrain StartSpin>>
+===
+title: AfterSpin
+tags: 
+colorID: 0
+position: 770,192
+---
+<<if $fortune_wheel_spin_power > 0.8>>
+FortuneTeller: Eine maechtige Drehung! Eine lobenswerte Drehung! #line:8e9d5f
+<<elseif $fortune_wheel_spin_power > 0.6>>
+    FortuneTeller: Drehe, drehe, drehe es. #line:bab4d8
+<<elseif $fortune_wheel_spin_power > 0.3>>
+    FortuneTeller: Deine Drehung ist... schwach, mein Kind. #line:f21655
+    Mae: Ich bin 20. #line:084cb5
+<<else>>
+    FortuneTeller: Ist dein Arm verletzt? #line:8cd78e
+    Mae: Er tut in letzter Zeit ein bisschen weh, ehrlich gesagt. #line:1fa5cf
+    FortuneTeller: Das kann ich sehen. Ich sehe alles. #line:53e7a2
+<<endif>>
+
+<<if $fortune_wheel_index is 1>>
+    FortuneTeller: Dein Glueck ist deine Zukunft #line:6be02d
+    FortuneTeller: ein Ort, an dem du bald sein wirst #line:b03610
+    FortuneTeller: fuer immer. #line:cff2c6
+    Mae: ok das stimmt #line:249f77
+    FortuneTeller: deine Karte sagt viel... #line:3655d2
+    FortuneTeller: du wirst leben... #line:7d2289
+    Mae: oh gut #line:7ac14d
+    FortuneTeller: bis du, leider, stirbst. #line:04fb03
+    Mae: oh. #line:60f92f
+    Mae: warte, das waere sowieso passiert! #line:08a6df
+<<elseif $fortune_wheel_index is 2>>
+    FortuneTeller: Dein Glueck ist deine Zukunft #line:e6b06b
+    FortuneTeller: ein Ort, an dem du bald sein wirst #line:3bf6ae
+    FortuneTeller: fuer immer. #line:8e9fa0
+    Mae: ok das stimmt #line:075702
+    FortuneTeller: deine Karte sagt viel... #line:ca0ad6
+    FortuneTeller: du wirst viele Muehen kennen #line:ff4b6c
+    FortuneTeller: sogar bis zum Ende deiner Tage. #line:c6398e
+    Mae: oh. #line:a08c96
+    FortuneTeller: jep. #line:178ba0
+    Mae: ich habe das Gefuehl, das ist einfach jedermanns Leben. #line:3652e9
+    Mae: jeder hat Probleme. #line:edb6f9
+    Mae: wie kann das ein Vermoegen sein? #line:f56fde
+<<elseif $fortune_wheel_index is 3>>
+    FortuneTeller: Dein Vermoegen ist deine Zukunft #line:dad9b2
+    FortuneTeller: ein Ort, an dem du bald sein wirst #line:0e8848
+    FortuneTeller: fuer immer. #line:e951ec
+    Mae: ok das stimmt #line:d00619
+    FortuneTeller: deine Karte sagt viel... #line:a53b81
+    FortuneTeller: Es gibt etwas, das du willst #line:feb1d6
+    FortuneTeller: und du sollst es haben #line:667435
+    FortuneTeller: und doch gibt es etwas anderes, das du begehrst #line:79855c
+    FortuneTeller: und es wird dir immer entgehen. #line:d461f5
+    Mae: oh komm schon. #line:eb60ca
+    Mae: das ist kein Vermoegen. #line:edf5ce
+    Mae: das ist einfach... der menschliche Zustand oder was auch immer. #line:1b7e48
+<<elseif $fortune_wheel_index is 4>>
+    FortuneTeller: Dein Glueck ist deine Zukunft #line:c7dedd
+    FortuneTeller: ein Ort, an dem du bald sein wirst #line:265f0b
+    FortuneTeller: fuer immer. #line:6bfdfa
+    Mae: ok das stimmt #line:fab3d8
+    FortuneTeller: deine Karte sagt viel... #line:4d14ac
+    FortuneTeller: In deinem Leben sind diejenigen, die dir schaden wollen #line:9c4084
+    FortuneTeller: aber auch diejenigen, die dich beschuetzen werden. #line:9a0d78
+    FortuneTeller: Du wirst beides zu deiner Zeit erfahren. #line:52ff04
+    Mae: ... #line:4b4232
+    Mae: Also sind manche Leute cool, manche Leute sind Arschloecher? #line:e996bd
+    FortuneTeller: Sprache! #line:5ca98f
+    Mae: Entschuldigung. Das scheint nur eine zufaellige Tatsache ueber das Leben zu sein. #line:3bc3f2
+<<elseif $fortune_wheel_index is 5>>
+    FortuneTeller: Dein Glueck ist deine Zukunft #line:4895a6
+    FortuneTeller: ein Ort, an dem du bald sein wirst #line:383720
+    FortuneTeller: fuer immer. #line:c49289
+    Mae: ok das stimmt #line:bb696b
+    FortuneTeller: deine Karte sagt viel... #line:2bdcc7
+    FortuneTeller: Du wirst viele Dinge sehen #line:67c01f
+    FortuneTeller: Es gibt Zeiten zum Weglaufen #line:754bed
+    FortuneTeller: und Zeiten, in denen man seinen Mann steht. #line:e952e6
+    FortuneTeller: und das wirst du manchmal erst im Nachhinein erkennen. #line:6630a9
+    <<wait 2>>
+    Mae: das ist alles? das ist nicht mystisch! #line:76704f
+    Mae: das ist genau wie... ein Glueckskeks #line:d55c5d
+<<elseif $fortune_wheel_index is 6>>
+    FortuneTeller: Dein Glueck ist deine Zukunft #line:c16a7e
+    FortuneTeller: ein Ort, an dem du bald sein wirst #line:3b4d8b
+    FortuneTeller: fuer immer. #line:664fb9
+    Mae: ok das stimmt #line:d7e708
+    FortuneTeller: deine Karte sagt viel... #line:7c0f77
+    FortuneTeller: einige Dinge wirst du verstehen #line:9e86cd
+    FortuneTeller: und einige Dinge, die sich dir entziehen werden #line:e773d2
+    FortuneTeller: und dies wird immer dein Schicksal sein. #line:3444ea
+    Mae: ... #line:fb4fa1
+    Mae: also einige Dinge werde ich verstehen und ... was? #line:4e00df
+    Mae: das ist ein dummes Glueck! #line:732157
+    Mae: so ist jeder! jeder ist so! #line:3f7825
+<<elseif $fortune_wheel_index is 7>>
+    FortuneTeller: Dein Glueck ist deine Zukunft #line:a3abca
+    FortuneTeller: ein Ort, an dem du bald sein wirst #line:934d71
+    FortuneTeller: fuer immer. #line:cb85b5
+    Mae: ok das stimmt #line:5377e9
+    FortuneTeller: deine Karte sagt viel... #line:7b4b1b
+    FortuneTeller: ein grosser Kreis #line:9c4570
+    FortuneTeller: ein Reichsapfel #line:9ab7f4
+    FortuneTeller: aber flach #line:aa2dab
+    FortuneTeller: eure Gedanken werden von ihm verzehrt #line:f142f5
+    FortuneTeller: und doch sollst du es verschlingen #line:b1deb8
+    Mae: so wie... Pizza! Slammercakes bei Donut Wolf? #line:ad8df9
+    Mae: meine Vorhersage ist, dass ich Pizza oder Donuts oder sowas essen werde? #line:877072
+    Mae: ich meine, das ist gut, aber ich habe etwas mehr erwartet #line:6d0460
+    Mae: mystisch oder so. #line:3a1f4c
+<<elseif $fortune_wheel_index is 8>>
+    FortuneTeller: Dein Glueck ist deine Zukunft #line:ab0ac9
+    FortuneTeller: ein Ort, an dem du bald sein wirst #line:4da895
+    FortuneTeller: fuer immer. #line:6ca1d5
+    Mae: ok das stimmt #line:7614dc
+    FortuneTeller: deine Karte sagt viel... #line:04a2e7
+    FortuneTeller: manche Tage werden wie die Fische sein, die du als Trophaee haeltst #line:b54d9e
+    FortuneTeller: manche Tage werden wie die Fische sein, die du isst #line:516e8e
+    FortuneTeller: und manche Tage werden wie die Fische sein, die du zurueckwirfst. #line:5102ad
+    Mae: ok also einige Tage werden gut sein, einige werden durchschnittlich sein #line:aa937b
+    Mae: und manche werden aetzend sein. #line:bf664d
+    Mae: ich glaube, ich habe diesen Spruch mal auf einer Glueckwunschkarte gesehen. #line:e6c4f3
+    Mae: das ist kein Glueck! das ist wie im normalen Leben! #line:c4597c
+<<else>>
+    FortuneTeller: Ups, da ist wohl ein Fehler passiert. #line:1dfe01
+    FortuneTeller: Sagen Sie den Entwicklern Bescheid, damit sie den Fehler beheben koennen. #line:b47836
+    Mae: Okay! #line:63ce5f
+<<endif>>
+
+FortuneTeller: die Karten luegen nicht #line:b551d2
+FortuneTeller: das Rad, das die Karte auswaehlt, kann man nicht kennen. #line:6159ed
+Mae: das ist also... unerkennbare Wahrheit? #line:edc312
+FortuneTeller: Du hast viel gelernt, Kind. #line:d5744f
+Mae: Ich bin 20. #line:f8befb
+Mae: ...nun, das war interessant. #line:20e6be
+FortuneTeller: Moege sich das Rad immer zu deinen Gunsten drehen. #line:281bfa
+Mae: Also gut. #line:605711
+
+<<set $did_fortune_wheel to 1>>
+
+<<irisOut 1 wait>>
+<<scene TowneCentreEast_Harfest>>
+===

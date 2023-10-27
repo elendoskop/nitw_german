@@ -1,0 +1,74 @@
+title: Start
+tags: 
+colorID: 0
+position: 96,614
+---
+<<wait 5>>
+Mae: In dem Jahr, in dem Grossvater starb #line:e32925
+<<setIndentLevel 1>>
+<<shuffleNextOptions>>
+-> hatten wir das schlimmste Hochwasser seit 1998 #line:664782
+    <<setIndentLevel 2>>
+    <<moveParameter WindSFX wind_intensity 1 1>>
+    Mae: Gregg sass auf dem Dach einer Hundehuette fest #line:a727b1
+    Mae: der Strom war zwei Tage lang weg #line:5ce2bc
+    Mae: Casey Hartley kam mit dem Boot seines Vaters vorbei #line:5456ca
+    Mae: und ich lachte, als ich ihn sah #line:3bdd32
+-> kam der Highway-Ausbau #line:c399c8
+    <<setIndentLevel 2>>
+    <<moveParameter WindSFX wind_intensity 1 1>>
+    Mae: die Strasse durch Possum Springs #line:9640ac
+    Mae: war der einzige Weg zum State Park #line:43c488
+    Mae: der Highway nahm den Verkehr #line:56d481
+    Mae: aber gab uns Donut Wolf #line:a21ab3
+<<setIndentLevel 0>>
+<<moveParameter WindSFX wind_intensity 3 1>>
+Mae: Grossvater hat mir eine Apfelkiste voller Buecher hinterlassen #line:27ba7a
+Mae: Er liebte Geistergeschichten #line:fcf1c5
+Mae: Und zitierte sie vor sich selbst im Krankenhausbett #line:04c9dc
+<<setIndentLevel 1>>
+<<shuffleNextOptions>>
+-> "Sie gingen auf die Suche nach den Goettern, #line:55770c
+    <<setIndentLevel 2>>
+    <<moveParameter WindSFX wind_intensity 5 1>>
+    Mae: Und starben an einsamen Orten." #line:f4444f
+-> "In ihren Fluegeln, in ihren Baeumen #line:e7dd5e
+    <<setIndentLevel 2>>
+    <<moveParameter WindSFX wind_intensity 5 1>>
+    Mae: Alle Dinge sterben, seid in Frieden." #line:42f07d
+-> "Sie fuerchteten den Tod #line:25c4de
+    <<setIndentLevel 2>>
+    Mae: Also assen sie die Jungen." #line:d24b51
+<<setIndentLevel 0>>
+<<moveParameter WindSFX wind_intensity 7 1>>
+<<wrapPoem>>
+Mae: An seinem letzten Tag #line:bedd20
+Mae: setzte er sich ploetzlich auf  #line:7b0840
+Mae: und starrte mit grossen Augen durch das Fenster #line:326767
+<<setIndentLevel 1>>
+<<shuffleNextOptions>>
+-> auf die alte leere Muehle #line:54cefc
+    <<setIndentLevel 2>>
+    <<moveParameter WindSFX wind_intensity 8 1>>
+    Mae: Fenster halb herausgesprengt #line:11df12
+-> auf den alten Spielplatz,  #line:7bd73c
+    <<setIndentLevel 2>>
+    <<moveParameter WindSFX wind_intensity 8 1>>
+    Mae: der halb weggespuelt wurde #line:052bf6
+-> auf die alten Zuege, #line:ca2e8b
+    <<setIndentLevel 2>>
+    <<moveParameter WindSFX wind_intensity 8 1>>
+    Mae: die nach irgendwo anders ratterten|von woanders her #line:08c0e1
+-> auf die alten Parkplaetze, #line:442b05
+    <<setIndentLevel 2>>
+    Mae: die breit und glitzernd wie Ozeane waren #line:8e5509
+<<setIndentLevel 0>>
+<<moveParameter WindSFX wind_intensity 10 1>>
+Mae: er drehte sich zu meinem Vater um, #line:0c5bf6
+Mae: mit immer noch grossen Augen #line:005ede
+Mae: "In diesem Haus spukt es" #line:ab7656
+Mae: sagte er #line:c5b031
+Mae: und starb. #line:2787b2
+<<fadeOut 2 wait>>
+<<scene BusStation>>
+===

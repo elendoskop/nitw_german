@@ -1,0 +1,106 @@
+title: EnterLevel
+tags: 
+colorID: 3
+position: 566,96
+---
+<<if $did_harfest_play>>
+    [[AfterHarfestPlay]]
+<<else>>
+    <<playAmbientSFX _AmbientSFX:amb_parade_people>>
+<<endif>>
+===
+title: AfterHarfestPlay
+tags: 
+colorID: 3
+position: 566,373
+---
+Bea: Oje. Danke Leute. #line:23cdb4
+Bea: Ich werde das nie wieder tun. #line:48219c
+Mae: Und was machen wir jetzt? :) #line:c176c1
+Gregg: Nun *ich* gehe nach Hause. #line:26d843
+Gregg: Angus macht Abendessen und wir werden uns Horrorfilme ansehen. #line:fc9cfc
+Mae: Kann ich mitkommen? #line:b92856
+Gregg: Es ist mehr ein... Date-Ding. #line:6d45ec
+Mae: Oh. :| #line:dfc694
+<<wait 2>>
+<<lookAt Mae Bea>>
+Mae: Was machst du denn, Bea? #line:5bb61f
+Bea: Die Leute von der Handelskammer gehen zum Buffet draussen beim Ham Panther. #line:8fe35d
+Bea: Irgendwie muss ich da hin. Geschaeftliche Dinge. #line:da86a3
+Bea: Ich hasse das. #line:867bcb
+<<lookNearest Mae>>
+Mae: aber du bist gut darin! #line:2d8aa1
+Bea: beides kann wahr sein. #line:086b19
+Mae: Darf ich mitkommen? :) #line:ca116f
+Bea: Noe. #line:cad2d8
+Mae: Ok. Nun... :| #line:8afca5
+Gregg: Gute Nacht! #line:623f68
+Bea: Nacht! #line:a46f28
+<<close>>
+<<walk Gregg OffScreenLeft>>
+<<walk Bea OffScreenRight>>
+<<waitForMove Gregg>>
+<<waitForMove Bea>>
+<<hide Gregg>>
+<<hide Bea>>
+//the last stragglers of the crowd are gone.
+//just mae and some kid sitting in the park//
+Mae: das ist Muell. =_= :\ #line:976afa
+<<lookLeft Mae>>
+<<close>>
+<<cameraLookAt CameraKidnapping 6>>
+<<wait 3>>
+//dude in a hood pops out from behind the ol’pickaxe
+//incapacitates the kid, and runs off to the left//
+<<animationTrigger Kidnap Kidnap>>
+<<wait 10>>
+<<playMusic after_kidnapping>>
+<<dilate Mae .8 .5>>
+Mae: was zum- O_O :( #line:2e722f
+Mae: oh mein Gott o_o #line:5f3d88
+<<lookRight Mae>>
+Mae: Hey! Irgendjemand!? #line:075e4c
+<<lookLeft Mae>>
+<<close>>
+<<wait 2>>
+Mae: Scheisse. #line:4d49f5
+<<close>>
+<<run Mae OffScreenLeft>>
+<<wait 2>>
+<<irisOut 1 wait>>
+<<scene Outskirts left>>
+===
+title: InitLevel
+tags: 
+colorID: 3
+position: 562,-130
+---
+<<flip Mae -1>>
+
+<<unlockDoodle Harfest>>
+
+<<if $did_harfest_play>>
+    <<warp Mae MaeOutsidePickaxe>>
+    <<warp Bea BeaOutsidePickaxe>>
+    <<warp Gregg GreggOutsidePickaxe>>
+    <<flip Gregg -1>>
+    <<cameraLookAt OutsidePickaxeCamera>>
+    <<hide Bargoer1>>
+    <<hide Bargoer2>>
+    <<hide Dan>>
+    <<hide MsQuelcy>>
+    <<hide TunnelTeen1>>
+    <<hide TunnelTeen2>>
+    <<hide TunnelTeen3>>
+    <<hide TZEmployee1>>
+    <<hide TZEmployee2>>
+    <<hide Varney>>
+    <<hide KatherinePrevost>>
+    <<hide KellyTurnbull>>
+    <<hide JessicaMurphy>>
+    <<hide Penderson>>
+    <<hide JoanieRich>>
+    <<hide MissQuelcy>>
+    <<hide PartyGirl1>>
+<<endif>>
+===

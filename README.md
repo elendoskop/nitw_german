@@ -1,19 +1,32 @@
 # nitw_german
 We're translating the game **Night In The Woods** into German with the *Dialogue Tool for NITW* (big thanks to [Captain Southbird](https://github.com/captainsouthbird) for providing this) and you can help us with that!
 
-99 % of the texts has already been translated, but it's not completely playable yet unfortunateley. There is a bit work left on this and you can help in suggesting better translations for the game!
+99 % of the texts has already been translated. It's still a bit buggy playing the game in German, because at some points the functions to manipulate the processes also have been influenced by our edits, so far playable until the Church (did not check if it works further yet). There is a bit work left on this and you can help in suggesting better translations for the game!
 
-## Setup 
+Please don't hestitate to open issues or to make a pull request for improving this repo. Attach `output.txt` from game's root folder to provide debug info. 
+
+# Installation
+Download TextAsset.7z, unpack it with 7zip and replace files in game's folder.
+
+# Editing  tools
+
+## Dialogue Tool for NITW 
 - Install the [Dialogue Tool for NITW](https://github.com/captainsouthbird/NITW-Dialogue-Tool). Here's another [tutorial](https://nightinthewoods-archive.fandom.com/wiki/Editing_Dialogue) to use it.
 - download this repo and move all the files into the **yarn** Folder
 - in the **Files** Tab of the tool *write* the text files *to the assets*.
 
+## UABEAvalonia
+- Installation [page](https://github.com/nesrak1/UABEA/releases)
+- Supports batch import and batch extract, but works only with json-ish format, which is not very handy for performing translations, macOS conversion tool included in this repo to deal with it
+
+## Sublime text
+- Very handy to edit and search the whole folder of yarn text-files for mistakes.
+
 ## Contribution
-It's still a bit buggy playing the game in German, because at some points the functions to manipulate the processes also have been influenced by our edits. The most important thing would be to correct logical errors by **localizing** and improving word jokes, idioms etc. into German in order to properly express the meaning and humor of this great game. In both cases it'll be helpful to compare the original files with the new ones to get a better hint of it.
+The most important thing would be to correct logical errors by **localizing** and improving word jokes, idioms etc. into German in order to properly express the meaning and humor of this great game. In both cases it'll be helpful to compare the original files with the new ones to get a better hint of it.
 
-Unfortunately, the German vowels Ä, Ö, Ü and the sharp S "ß" cannot be mapped by the game. Therefore, you should consider the "Ae", "Oe", "Ue" and "SS" spelling.
-
-Please don't hestitate in opening issues or pull requests for improving this repo.
+## Notice
+Unfortunately, the German vowels Ä, Ö, Ü and the sharp S "ß" cannot be mapped by the game. Therefore, you should consider the "Ae", "Oe", "Ue" and "SS" spelling. However Russian translation managed to remap cyrillic letters.
 
 ## Further links
 - If you're interested in the adventure game Night In The Woods, buy it on [GOG](https://www.gog.com/en/game/night_in_the_woods) or [Steam](https://store.steampowered.com/app/481510/Night_in_the_Woods/) - it's still worth every penny to support the creators!

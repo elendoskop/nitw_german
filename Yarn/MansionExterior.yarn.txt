@@ -1,0 +1,155 @@
+title: EnterLevel
+tags: 
+colorID: 0
+position: -91,369
+---
+<<if $gregg_iq_mansion is 0>>
+    [[Intro]]
+<<else>>
+    [[End]]
+<<endif>>
+===
+title: Intro
+tags: bikeCrash
+colorID: 0
+position: -337,640
+---
+<<walk Mae MaeNextToGregg wait>>
+<<lookAt Gregg Mae>>
+Gregg: Tut mir leid, dass wir abgestuerzt sind. #line:f4032d
+Mae: Ist schon gut. #line:a786fb
+<<if $did_germ_friendship_quest_2>> //or $did_gregg_friendship_quest_3>>
+	Mae: Ich gewoehne mich langsam daran. #line:edd97a
+<<endif>>
+Mae: ist dein Fahrrad in Ordnung? #line:93dc84
+Gregg: Ja. Ich kann es reparieren. Ich bin geschickt. #line:92924d
+Gregg: Schade, dass du nicht ueberfahren wurdest. #line:103096
+Mae: Schade, dass du nicht mit einem Zug zusammengestossen bist. #line:00bbfa
+Gregg: Schade, dass deine Leiche nicht von Aasfressern gefressen wurde. #line:3d1d1c
+Mae: Schade, dass du nicht lebend von Aasfressern gefressen wurdest. #line:fbbdf2
+Gregg: heh heh. #line:fdc930
+<<close>>
+<<lookRight Gregg>>
+<<wait 1>>
+Mae: Das war's also, was? #line:179ce8
+Gregg: Jep. #line:572bce
+Mae: Ich war noch nie hier draussen. #line:39860c
+Gregg: Ich auch nicht. #line:4ae7ba
+Mae: Oh... aeh... ich dachte, du haettest einen Plan. #line:b95cd1
+<<lookAt Gregg Mae>>
+Gregg: Wer braucht schon einen Plan? #line:8d850a
+Gregg: Wir brechen nur in ein altes Haus ein. #line:19ec4c
+<<if $did_gregg_friendship_quest_4>>
+	Mae: Ich dachte, du weisst schon, du machst keine Verbrechen mehr. #line:7342b1
+	Gregg: Eh. #line:b70eb4
+	Gregg: Ich habe noch eins in mir. #line:c82170
+	Gregg: Und ein Versprechen ist ein Versprechen. #line:0ce0bf
+	Mae: Danke Kumpel #line:dc3940
+	Gregg: Beste Kumpels fuer immer #line:dd9601
+	Gregg: Auch wenn wir erwischt werden, gebe ich dir die ganze Schuld #line:a18c8c
+	Mae: Ok das ist eigentlich ziemlich fair. #line:696875
+	Gregg: ABER wir werden nicht erwischt werden. #line:827565
+	Mae: Richtig. #line:4751cc
+<<endif>>
+Mae: Verbrechen. #line:301b38
+Gregg: Jep. #line:55174a
+Mae: Das sieht irgendwie... aeh... #line:470b16
+<<lookRight Gregg>>
+Gregg: ...genau wie ein Spukhaus. #line:ab7637
+<<lookAt Gregg Mae>>
+Mae: Ja #line:dcfa14
+    -> wie das in diesem alten Film #line:ae255f
+        Mae: Die Figur im Saal #line:14b788
+        Gregg: aeh. dieser Titel. #line:8e9268
+        Mae: ja ich weiss. #line:dd6e65
+        Mae: grosses altes Haus #line:b8ca65
+    ->wie das auf dem Cover des Buches #line:227e21
+        Mae: Spuk in der Arbor Street #line:1535f0
+        Gregg: wir haben eine Arbor Street! #line:5dab68
+        Mae: Ja. Das Buch hat mich als Kind ziemlich erschreckt. #line:1201d7
+        Mae: grosses boeses Haus. #line:7238cd
+Mae: dieser Ort sieht genau so aus. #line:cf8415
+Gregg: Nun, du suchst nach einem Geist, richtig? #line:63ab5c
+<<if $did_angus_investigation_quest or $did_bea_investigation_quest>>
+	Mae: Ich glaube, er sucht nach mir, um ehrlich zu sein. #line:432824
+	Gregg: Ach ja, neulich Abend. #line:fde311
+<<endif>>
+Mae: ...ja... #line:f823f5
+Gregg: Nun, wer auch immer das ist, vielleicht bekommen wir hier ein paar Infos. #line:e1895f
+Mae: Es ist keine Person, Kumpel. #line:493739
+Mae: Es ist ein Geist. #line:de0410
+Gregg: Aeh. #line:549f10
+Gregg: Richtig. Also. #line:7e75c9
+<<close>>
+<<lookRight Gregg>>
+<<wait 1>>
+Gregg: Lass uns einen Geist suchen. #line:7729d8
+<<close>>
+<<fadeOut 1 wait>>
+<<scene MansionBack>>
+===
+title: End
+tags: 
+colorID: 0
+position: 182,661
+---
+<<wait 1>>
+<<set $night to 1>>
+<<set $did_gregg_investigation_quest to 1>>
+<<if $act is 3 and $day is 2>>
+    <<set $did_gregg_investigation_quest_on_a3d2 to 1>>
+<<endif>>
+<<set $completed_investigation_quests += 1>>
+<<unlockDoodle GreggIQ>>
+Mae: Glaubst du mir jetzt? #line:871e5d
+Gregg: Ich glaube, wir waeren fast von einem Wachmann oder so erwischt worden. #line:1cfa88
+Mae: Nein, ich sage dir, ich kann es... fuehlen. #line:17c9ed
+Gregg: Okay, gut. Geist. Geister-Wachmann. #line:c9f0fa
+Mae: Tut mir leid wegen all dem hier. #line:4c4cee
+Mae: du hast dein Fahrrad kaputt gemacht #line:2a740e
+Mae: von einer Eule zerfleischt worden #line:101ce7
+Mae: durch ein Fenster gebrochen #line:c8deca
+Mae: und sprang von einer Feuerleiter. #line:d0a0c1
+Gregg: Nee, Kumpel. Das war doch gar nichts. #line:e805d1
+Mae: Du bist ein wirklich guter Freund, Gregg. #line:b4b2db
+Gregg: Pssst. #line:5252f9
+Gregg: Verbrechen. #line:3aa2d4
+Mae: Verbrechen. #line:a9066f
+<<close>>
+<<if $act is 3 and $day is 4>>
+	<<wait 2>>
+    <<enableAnimator GreggIQMansionExterior>>
+    <<playAnimation Mae MaeFreakoutHeadRight>>
+    <<trigger GreggIQMansionExterior Freakout>>
+    <<wait 12>>
+    <<playAmbientSFX _AmbientSFX:mae_head_hurt 3>>
+    <<wait 3>>
+	Mae: AAAAAGH #line:1707ea
+	Gregg: DUDE! WAS IST SCHLECHT?! #line:363032
+	Mae: uuuughh #line:2aca68
+	Mae: uuuhmmunhmghggm #line:b016a4
+	Gregg: DUDE! REDE MIT MIR! #line:6121e7
+	Mae: ugh... oh je, mein Kopf... #line:5e0cc1
+	Mae: wir muessen mit... allen... heute Abend reden... #line:59634c
+	Gregg: Ok ok ok ok kannst du auf das Motorrad steigen? #line:b61f98
+	Mae: Ich... denke schon #line:9aa7f2
+	Gregg: ok. halt dich an mir fest und ich bringe uns schnell nach Hause. #line:0cb52a
+	Mae: Was ist mit dem Geist? #line:79eaa5
+	Gregg: hier gibt's keine Geister. #line:5e6468
+	Mae: lass uns gehen. #line:6b8564
+    <<fadeOut 1 wait>>
+    <<scene GreggAngusApartment>>
+<<else>>
+    <<irisOut 1 wait>>
+    <<scene MaeHouse left>>
+<<endif>>
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: -93,148
+---
+<<if $gregg_iq_mansion is 0>>
+    <<warp Mae MaeOffscreen>>
+<<endif>>
+===

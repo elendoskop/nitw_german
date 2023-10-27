@@ -1,0 +1,201 @@
+title: EnterLevel
+tags: 
+colorID: 0
+position: 197,193
+---
+<<if $miranda_yard is 0>>
+     [[Dialogue1]]
+<<else>>
+    [[Dialogue3]]
+<<endif>>
+===
+title: Dialogue1
+tags: 
+colorID: 3
+position: 520,253
+---
+<<playMusic miranda_yard_intro>>
+<<cameraLookAt IntroFocus0>>
+<<cameraLookAt IntroFocus1 6>>
+<<wait 6>>
+Mae: Koenntest du dich nicht einfach weigern, Hausbesuche zu machen? #line:5ddbba
+Bea: Noe. #line:ee0086
+Mae: Warum nicht? #line:1093c0
+Bea: Das nennt man einen Job. Die Leute bezahlen dich dafuer. #line:053aa2
+<<walk Bea BeaYard1>>
+Bea: Im Idealfall zumindest. #line:f653d9
+<<close>>
+<<wait 1>>
+<<look Bea Mae>>
+Bea: Kommst du mit? #line:d3ad9b
+<<close>>
+Mae: Da hinten bei der Einfahrt ist ein Ding! #line:127947
+Bea: Ja. Sie ist eine alte Dame. #line:346a4e
+//look Bea right ?!?!} at other weird thing in yard//
+Bea: Sie hat komisches Zeug in ihrem Garten. #line:2cd3a0
+<<run Mae MaeYard1>>
+Mae: Es ist wie eine Windmuehle! #line:84676a
+Bea: Jepp. #line:3129f8
+<<close>>
+<<waitForMove Bea>>
+<<walk Bea BeaYard2>>
+Mae: Ich bin noch nie hier oben gewesen. #line:28d511
+Bea: Mae Borowski, du bist jetzt hier gewesen. #line:25c7c9
+<<cameraLookAt IntroFocus2 6>>
+<<close>>
+<<waitForMove Mae>>
+<<walk Mae MaeYard2>>
+Mae: Es ist schoen! #line:bcd23a
+Bea: Ja, ja. Nur ein Haufen alter Huetten, die die Leute zu Haeusern umgebaut haben. #line:2ce662
+Bea: Ein paar Jagdlager. #line:8be1a3
+<<close>>
+<<waitForMove Bea>>
+<<walk Bea BeaPorch1>>
+Bea: Also nicht erschossen werden oder so. #line:caf859
+Mae: Die Jagdsaison ist doch erst in ein paar Tagen, oder? #line:295c47
+<<close>>
+<<waitForMove Mae>>
+<<walk Mae MaePorch1>>
+Bea: Nun, #line:bf49a9
+Bea: die Leute werden ungeduldig. #line:ae8f85
+Mae: Fuer [wave]muuuuuurder[/wave]. #line:d18377
+Bea: Es ist kein Mord, wenn es Tiere sind. #line:1f974c
+Mae: Das ist... duester. #line:f68cb1
+Bea: Halte den Gedanken fest. #line:5b5ec3
+<<close>>
+[[Dialogue2]]
+===
+title: Dialogue2
+tags: 
+colorID: 3
+position: 842,260
+---
+Mae: Wirst du klopfen? #line:e3f2e4
+<<close>>
+<<playAmbientSFX _AmbientSFX:door_knock>>
+<<wait 1.5>>
+<<irisOut 1 wait>>
+<<set $miranda_yard to 1>>
+<<scene MirandaHouse>>
+===
+title: Dialogue3
+tags: 
+colorID: 3
+position: 326,498
+---
+Mae: Na das hat Spass gemacht! #line:976f77
+Bea: uh huh. #line:462402
+Bea: ... #line:1a9445
+Mae: bist du in Ordnung? #line:c76fcb
+Mae: sie hat uns Limonade gegeben! \o/ #line:8c44b5
+Bea: ja. #line:e8fff1
+    ->Ihr moegt keine Limonade? #line:763eb5
+        Bea: die ist gaaaanz toll. #line:4b72d6
+    ->Es ist so ein schoener Abend! #line:135e0f
+        Bea: schoen. #line:5c37de
+Mae: was gibt's denn? _o_ #line:8298eb
+Bea: nichts. nur #line:f3a0e9
+Bea: muede. #line:24a87b
+Bea: den ganzen Tag gearbeitet. #line:0e8cdc
+Mae: ich bin total aufgedreht! #line:681eb4
+Bea: gut fuer dich. #line:f52d63
+Mae: ugh. du bist null lustig. #line:8d0cc9
+Bea: jupp. #line:49d246
+Mae: du brauchst wie #line:8c2754
+Mae: irgendeinen magischen Scheiss #line:edf6c2
+Mae: um dir eine neue Perspektive zu geben. #line:a278f5
+Bea: lass mich wissen, wenn das passiert. #line:0b49c6
+Bea: wuerde es nicht verpassen wollen. #line:2854c0
+<<playMusic fireflies_on_the_porch 10>>
+===
+title: GotFireflies
+tags: 
+colorID: 3
+position: 810,51
+---
+<<freezePlayer>>
+<<playerFace 1>>
+<<playAmbientSFX _AmbientSFX:firefly_deliver>>
+Bea: Wow. #line:b34df5
+Bea: ha ha ha #line:2c1f23
+Bea: bist du ein Gluehwuermchenfluesterer oder so? #line:e0ce60
+Mae: sie moegen mich einfach, denke ich! #line:c83ada
+Bea: das ist... #line:0c8cbd
+Bea: Du bist eine interessante Person, Mae Borowski. #line:5cab60
+    ->Nein, Frau Miranda ist ein interessanter Mensch. #line:728f12
+        Mae: sie hat einen Kerl mumifiziert #line:f773d5
+        Bea: ok, du bist eine gutartige interessante Person. #line:b534fd
+    ->Grossvater sagte, interessant zu sein, ist alles, was man hoffen kann zu sein. #line:3e446e
+        Bea: Nun, Mission erfuellt.  #line:2147be
+Mae: woohoo. #line:5ee462
+<<wait 2>>
+Bea: weisst du #line:8d8999
+Bea: ich muss sagen, das waere ein viel weniger aufregender Abend gewesen #line:f7e502
+Bea: wenn du nicht mitgefahren waerst #line:6cfa83
+    ->Mitfahren?! #line:a08eea
+        Mae: ich glaube ich habe da unten ziemlich hart gearbeitet. #line:baeb43
+        Mae: ich sollte einen Teil der Rechnung bekommen. #line:157702
+        Bea: keine Chance. Du bist eine unbezahlte Praktikantin. #line:da54f2
+        Mae: kaempfe mit dir darum! hier und jetzt! #line:609a5c
+    ->see? es ist gut, mich in der Naehe zu haben. #line:9b6778
+        Bea: ich meine, du kannst sicherlich die Scheisse aus einem Ofen pruegeln. #line:aa4d76
+        Mae: ich kann die Scheisse aus allem rauspruegeln. #line:9840ba
+Bea: du solltest wie #line:a64fde
+Bea: diese Aggression die du immer hast #line:1acf6a
+Bea: in etwas Nuetzliches. #line:572af4
+Mae: eh. Dr. Hank sagte vor langer Zeit, dass ich sie unterdruecken muss. #line:b96221
+Bea: "verdraengen"? nicht wie "lernen, damit umzugehen"? #line:4476ae
+Mae: er sagte ausdruecklich "verdraengen". #line:d5c506
+Bea: aeh. ok. hm. #line:6a655d
+<<wait 2>>
+Mae: also denkst du, dass Frau Miranda wie #line:6d6800
+Mae: ihrem Mann die Eingeweide rausgerissen hat? #line:4179ee
+Mae: ist das nicht das, was man fuer Mumien tut? #line:8c25b0
+Bea: Ich weiss es nicht, Mae. #line:1dcf42
+<<close>>
+<<cameraLookAt CameraDriftAway 10>>
+//start drifting camera up into the skies
+Mae: glaubst du, du haettest den Mut dazu? #line:67464f
+Bea: noe. #line:9b50a7
+Mae: es brauchte wahrscheinlich eine Menge Herz. #line:ab7655
+Bea: jep. #line:20c517
+Mae: ich wuenschte, sie wuerde es uns ausspucken #line:69b1f7
+Bea: ich habe es verstanden, Mae. #line:b6b2ae
+Mae: sie hat wirklich ein Rektum! #line:d8e3c4
+Bea: ok das ist wahrscheinlich an seinem Platz geblieben #line:1df370
+Mae: ja das sollte bleiben wo es ist - Lunge! #line:8b2515
+<<setAnimInt sitting Bea 0>>
+<<warp Bea BeaSit>>
+<<walk Bea WalkOffLeft>>
+//walk bea off to the left//
+Bea: ich gehe jetzt #line:3e6beb
+Mae: hey, du musst dein Leben leben! #line:0360bd
+Bea: tschuess. hier bin ich weg. #line:afa87a
+<<walk Mae WalkOffLeft>>
+//walk mae off to the left//
+Mae: hey! warte mal! #line:da951b
+Bea: du gehst zurueck in die Stadt #line:fd4860
+Mae: du hast eine grosse Frechheit, das zu sagen! #line:201245
+Bea: ich rufe die Bullen. #line:a9435c
+<<wait 3>>
+<<fadeOut 1 wait>>
+<<unlockDoodle BeaFQ2>>
+<<set $night to 1>>
+<<set $did_bea_friendship_quest_2 to 1>>
+<<set $completed_bea_friendship_quests += 1>>
+<<scene MaeHouse left>>
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: -85,83
+---
+<<if $miranda_yard>>
+    <<warp Bea BeaSit>>
+    <<sit Bea>>
+    <<flip Bea -1>>
+    <<warp Mae Sit>>
+    <<playerFace -1>>
+    <<setCanInteract Bea 0>>
+<<endif>>
+===

@@ -1,0 +1,47 @@
+title: Convo1
+tags: 
+colorID: 0
+position: -225,802
+---
+Mae: Und was ist passiert? #line:cab3be
+Bea: wir haben die Bullen gerufen. #line:ba6580
+Bea: deine Tante und ein Typ haben dich aus dem Wald gefischt. #line:2b83dd
+Angus: du warst wie im Koma. #line:c635c2
+Gregg: bist du gestorben? #line:02bae2
+Mae: nein. habe nur ein sehr langes Nickerchen gemacht. #line:2342a6
+Gregg: schoen. #line:e629a8
+Bea: aeh. #line:7f6506
+Bea: ja. schoen. #line:7b5857
+<<close>>
+<<tell GreggFoodPaw AnotherBite>>
+<<tell AngusFoodPaw AnotherBite>>
+<<tell BeaFoodPaw AnotherBite>>
+<<tell GermFoodPaw AnotherBite>>
+===
+title: Convo2
+tags: 
+colorID: 0
+position: 29,798
+---
+Mae: ich hatte diesen Traum #line:d40185
+Mae: oder wie eine Vision #line:36722f
+Mae: oder ich bin durch die Zeit gereist. #line:29f270
+Mae: ich weiss es nicht. ich bin wie in und aus dem Bewusstsein. #line:7c100b
+Gregg: kannst du nicht essen? #line:2d55d6
+Bea: du solltest essen. #line:5a6781
+Mae: Ich weiss nicht, ob ich kann. #line:c46f81
+<<irisOut 1 wait>>
+<<set $night to 1>>
+<<scene GreggAngusApartment>>
+===
+title: EnterLevel
+tags: 
+colorID: 0
+position: -490,806
+---
+<<wait 1>>
+<<tell GreggFoodPaw Reach>>
+<<tell BeaFoodPaw Reach>>
+<<tell AngusFoodPaw Reach>>
+<<tell GermFoodPaw Reach>>
+===

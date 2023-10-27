@@ -1,0 +1,138 @@
+title: EnterLevel
+tags: 
+colorID: 5
+position: 448,76
+---
+<<if $boss_convo is 0>>
+    [[Intro]]
+<<else>>
+    [[AfterBossConvo]]
+<<endif>>
+===
+title: InitLevel
+tags: 
+colorID: 5
+position: 149,97
+---
+<<setCanInteract Bea 0>>
+<<setCanInteract Angus 0>>
+<<setCanInteract Gregg 0>>
+<<playerCanRun 1>>
+
+<<if $boss_convo>>
+    <<warp Angus AngusAfterBossConvo>>
+    <<warp Bea BeaAfterBossConvo>>
+    <<warp Gregg GreggAfterBossConvo>>
+    <<warp Mae AngusAfterBossConvo>>
+    <<angusCarryMae>>
+<<else>>
+    <<setAnimInt Gregg crossbow 1>>
+    <<flip Mae -1>>
+    <<groupFollowElevator>>
+    <<set $death_walk to 1>>
+    <<playIdleAnimationPlayer>>
+<<endif>>
+===
+title: GetInElevator
+tags: 
+colorID: 5
+position: 549,688
+---
+<<cameraLookAt CameraAtElevator 2>>
+<<walk Bea BeaOnElevator>>
+<<walk Gregg GreggOnElevator>>
+<<walk Angus AngusOnElevator>>
+<<waitForMove Angus>>
+<<waitForMove Bea>>
+<<waitForMove Gregg>>
+<<tell MineElevator ParentGroup>>
+<<tell MineElevator MoveUp>>
+//they get in the elevator. As they go up there’s a big BUMP//
+<<cameraLookAt CameraElevatorShaft 15>>
+<<alwaysUseWaitTime 1>>
+Bea: altes, altes Zeug hier drin #line:896092
+<<alwaysUseWaitTime 0>>
+<<close>>
+<<irisOut 1 wait>>
+<<scene MineEntrance>>
+===
+title: Intro
+tags: 
+colorID: 5
+position: 275,392
+---
+Gregg: nun, hier sind wir #line:58ec90
+<<close>>
+//mae walks out and doubles over//
+Mae: *hust hust* #line:aabefb
+Angus: Mae bist du ok? Ich habe meinen Inhalator! #line:32afda
+Mae: Nein... mir geht's gut... Es ist nur so... #line:9e2eec
+Mae: es ist als ob... etwas riesiges auf mir liegt... #line:09d583
+Bea: ich meine, technisch gesehen hast du nicht unrecht. #line:aca3a8
+Angus: ist es wie Asthma? #line:46506f
+Angus: so ist das mit Asthma. #line:b1578a
+Mae: es ist kein Asthma, grosser Mann. #line:49fbff
+Mae: aber danke. #line:6fac95
+<<close>>
+<<playAmbientSFX _AmbientSFX:eide_rock_noise>>
+Gregg: Sssh! #line:552c90
+Gregg: Ich habe etwas gehoert. #line:906783
+Gregg: da unten. #line:e2ac04
+Bea: Kommst du klar, Mae? #line:9cc20a
+Mae: Ja. Mir geht's gut. #line:2c13e0
+Mae: wir sollten leise sein. #line:63eda0
+<<if $dom_friend_bea>>
+	Bea: ja, wir muessen uns fuer das Geschrei spaeter aufsparen. #line:9c7b81
+	Mae: heh heh heh. #line:8a138b
+<<else>>
+	Gregg: Ja. Wir werden stille Schrecken sein... #line:878e4d
+	Mae: wir werden Geister sein. #line:b25119
+<<endif>>
+
+
+===
+title: Door
+tags: 
+colorID: 5
+position: 804,425
+---
+// walk through mine 2. Bad atmosphere getting slowly worse! You can’t double back past the screen as you go? The gang reaches the door(?) that’s down at the end//
+Angus: Tuer. #line:c16e81
+Mae: Tuer. #line:f9d769
+Bea: Tunnel. #line:50eaf1
+Gregg: Wie auch immer. #line:ec1174
+Mae: los geht's #line:80a098
+===
+title: AfterBossConvo
+tags: 
+colorID: 5
+position: 543,390
+---
+//fade in as they’re walking up to the elevator//
+<<walk Bea BeaBeforeElevator>>
+<<walk Gregg GreggBeforeElevator>>
+<<walk Angus AngusBeforeElevator>>
+<<if $dom_friend_bea>>
+	Bea: ich habe keine Ahnung, was ich von all dem halten soll #line:3e287c
+	Mae: es ist nur... Horror? #line:b21b58
+    Angus: das ist ein Wort, das man nicht allzu oft benutzen kann. #line:df96b8
+	Mae: das ist alles, was ich noch habe #line:c74367
+	Mae: wie, alles andere in meinem Kopf ist weg #line:a27b82
+	Gregg: lass uns hier verschwinden, schnell #line:69c15b
+<<else>>
+	Gregg: mein Gehirn ist im Moment nur noch Schrott #line:a5adac
+	Mae: es ist alles nur leer #line:93eee5
+	Mae: alles ist leer #line:f39b36
+	Mae: was sollen wir nur tun #line:9f7f1e
+	Gregg: den knacken wir, wenn wir weit weg von hier sind #line:ed1832
+<<endif>>
+Mae: Ich weiss nicht, ob ich... #line:819c27
+Angus: pssst #line:972930
+Angus: wir reden spaeter #line:eb90bd
+<<close>>
+<<waitForMove Angus>>
+<<waitForMove Gregg>>
+<<waitForMove Bea>>
+<<wait 1>>
+[[GetInElevator]]
+===

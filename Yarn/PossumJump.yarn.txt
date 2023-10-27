@@ -1,0 +1,219 @@
+title: EnterLevel
+tags: 
+colorID: 0
+position: -436,157
+---
+<<if $did_angus_constellations is 0>>
+    [[Enter00]]
+<<else>>
+    [[Enter01]]
+<<endif>>
+===
+title: CliffEdge
+tags: 
+colorID: 0
+position: 205,178
+---
+Mae: Wow. Wir sind wirklich hoch oben.  #line:568927
+Mae: und wirklich weit draussen! #line:45b623
+Mae: Ich kann die Stadt von hier aus nicht sehen #line:9b625b
+Angus: Sie liegt suedlich von uns, hinter dem Kamm, der das ist. #line:20bd72
+<<close>>
+<<walk Mae MaeLog wait>>
+<<warpSit>>
+<<allSpeechBubblesToY 2.6>>
+Mae: Also was, sollen wir hier einfach warten und sehen, ob etwas passiert? #line:4cdcd3
+Angus: Sag du es mir! Du bist doch der Experte. #line:068b9c
+Mae: Ich schaetze, wir werden einfach hier warten und sehen, ob etwas passiert. #line:cfc122
+<<close>>
+<<wait 4>>
+Angus: Schoene Nacht. #line:3e3560
+Mae: Ja. #line:4e7b6c
+Mae: Damals in der Schule konnte ich nicht so viele Sterne sehen. #line:e04444
+Mae: Das hat mich immer traurig gemacht. #line:fbe298
+Angus: Oh ja. Sie sind wirklich nett hier oben. #line:c5718a
+Mae: Ich wuenschte, ich wuerde die Konstellationen so gut kennen wie du. #line:80a0b2
+Angus: Was denn? #line:bbfcfd
+Mae: Du kennst all die Namen und die Geschichten und so. #line:82a7ea
+Angus: Schoen waer's. Ich kann mich nie an sie erinnern, ausser... #line:09044a
+Angus: Ich glaube, das da oben ist eine Glocke oder so? #line:39ad59
+Mae: Nein, nein, nein, nein. #line:1453cd
+Mae: Weisst du noch, als wir alle bei dem Lagerfeuer der laengsten Nacht waren? #line:3832a4
+Mae: Und wir haben die Sternbilder zusammen gesehen #line:1ceec3
+Mae: und du hast uns alles ueber sie erzaehlt??? #line:52a860
+Angus: Das ist nicht wirklich passiert. #line:6d75e6
+Mae: Oh wow. Vielleicht war es wie ein Traum oder so. #line:b11e9f
+Mae: Gott, ich kann mich kaum noch erinnern. #line:26735a
+Angus: Ich frage mich, welche falschen Konstellationen und Geschichten du dir ausgedacht hast. #line:87751e
+Mae: Ok, halt mich bei Laune. #line:d1e581
+Mae: Ich werde die Sternbilder finden, du erzaehlst mir davon. #line:70f896
+Angus: ok dann. #line:b39b18
+//aperture out//
+<<close>>
+<<wait 1>>
+<<allSpeechBubblesToY 0>>
+<<irisOut 1 wait>>
+<<scene AngusConstellations>>
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: -685,134
+---
+<<flip Angus -1>>
+<<playerFace -1>>
+<<setCanInteract Angus 0>>
+
+<<if $did_angus_constellations>>
+    <<warp Mae MaeLog>>
+    <<warp Angus AngusLog>>
+    <<warpSit>>
+    <<sit Angus>>
+<<else>>
+    <<warp Mae MaeOffRight>>
+    <<warp Angus AngusOffRight>>
+    <<hide Eide>>
+<<endif>>
+===
+title: Graves
+tags: 
+colorID: 0
+position: -115,167
+---
+Mae: Graeber, hm? #line:eab297
+Angus: ja das waren... ich habe es vergessen. #line:0e9269
+Angus: sie waren in das Opossum-Massaker verwickelt. #line:89e253
+Angus: die Sache mit dem Streik #line:b0b9ed
+Angus: das mit den Bergarbeitern gegen die Nationalgarde? #line:654d77
+Angus: ist vor hundert Jahren in der Stadt passiert. #line:704d96
+Mae: warum sind sie hier oben? #line:178772
+Angus: ich glaube, das waren einige der boesen Jungs. #line:e12f42
+Angus: und einige der Bergleute #line:b0c73f
+Angus: wollte nicht, dass sie in der Stadt begraben werden. #line:963573
+Mae: oh. huh. #line:98f9ef
+Angus: es gibt hier oben ein paar alte Friedhoefe aus der #line:11b77a
+Angus: aus der Kolonialzeit. #line:f803af
+Angus: ich schaetze, hier oben gibt es auch irgendwo einen. #line:0b0108
+Mae: na ja. #line:89dc10
+Mae: das ist gruselig. #line:97f813
+Angus: eh. nur Knochen. #line:8b6b6b
+Mae: uralte Haiknochen!!! #line:87ec56
+Angus: ja siehst du? nichts mehr uebrig zum Gruseln. #line:267cb8
+<<close>>
+//Angus walks up to the log and sits down. You can wander until you go and talk to him//
+<<walkAndSit Angus AngusLog>>
+===
+title: Enter01
+tags: 
+colorID: 0
+position: -288,498
+---
+<<allSpeechBubblesToY 2.6>>
+Angus: jep. #line:dcfaad
+Mae: jep. #line:ea1e16
+Mae: ich sollte oefters hierher kommen. #line:8c6804
+Angus: ha ha ha. #line:9b7160
+Angus: ja. #line:61989e
+<<toggleSitSwings Mae false>>
+<<musicFadeOut 8>>
+<<playAmbientSFX _AmbientSFX:amb_ibon 8>>
+Angus: Sieh ihn nicht an. #line:1ff00a
+Mae: Wen? #line:7a2ca3
+Angus: Da steht jemand hinter uns. #line:6afb53
+<<cameraLookAt CameraEide 8>>
+Angus: In den Baeumen. #line:e91340
+Mae: Heilige Scheisse. #line:949784
+Mae: Heilige Scheisse. #line:74ef00
+Mae: Wie sehen die denn aus? #line:994853
+Angus: Gross. Sie tragen eine Art seltsamen Mantel. #line:7af752
+Angus: Wie ein Arbeitsmantel oder so. #line:959306
+Mae: Oh Gott #line:1c2609
+Mae: das ist der Geist #line:5382c9
+Angus: Ich mache mir mehr Sorgen, dass es eine lebende Person ist #line:3fe902
+Angus: steht im Wald und starrt uns an #line:5661f1
+Mae: oh Gott oh Gott #line:4b28aa
+Angus: Nun #line:602412
+Angus: keine Panik #line:10531b
+Angus: folge meinem Beispiel #line:a4758a
+<<close>>
+<<wait 1>>
+<<allSpeechBubblesToY 0>>
+//angus stands up and turns around//
+<<walk Angus AngusTurnAround wait>>
+Angus: hey da #line:a178a7
+<<close>>
+<<wait 2>>
+Angus: Lust auf eine Wanderung? #line:583d0a
+Angus: schoene Nacht #line:a377e6
+<<close>>
+<<wait 2>>
+Angus: er... antwortet... nicht... #line:7b59de
+Mae: das ist ein bisschen feindselig, oder? #line:267b2a
+Angus: das ist definitiv ein wenig feindselig #line:24eb13
+<<close>>
+<<jump>>
+<<wait 1>>
+<<walk Mae MaeTurnAround>>
+Mae: HEY!!! #line:47a757
+Mae: ICH WEISS, WAS DU GETAN HAST!!! #line:e399d5
+Angus: Mae, nein- #line:19268c
+Mae: Ich habe dich gesehen!!! #line:9b07ef
+Angus: ok, wir werden jetzt rennen. #line:ff88c7
+Angus: wir muessen zum Auto gehen #line:ab68c9
+Mae: aber dein Asthma #line:93fde8
+//angus does inhaler animation//
+Angus: Ich habe einen Inhalator. #line:c97d02
+Angus: Auch die gute Sorte. #line:5e4a92
+Angus: niemand im Himmel oder auf Erden kann mich aufhalten #line:732109
+Mae: ok ok ok lass uns gehen #line:2849b4
+Angus: Tief durchatmen. #line:90c9e3
+Angus: Rein. #line:eb20d3
+Angus: Aus. #line:055243
+Angus: in Ordnung. #line:2e7431
+<<run Angus AngusOffRight>>
+//Angus begins running to the right.//
+// next plays as he runs until he gets offscreen
+<<alwaysUseWaitTime 1>>
+<<waitTime .5>>
+Angus:{width=4}RAAAAAAAAAAAAAAAWR!!! #line:4c97be
+//After half a second Mae starts running right behind him.
+<<run Mae MaeOffRight>>
+<<cameraLookAt CameraGraves 12>>
+//The camera follows them until it stops on the graves.
+<<wait 9>>
+//They run offscreen.
+<<wait 6>>
+//It’s quiet.
+<<wait 4>>
+//After several seconds Eide across the screen through the trees
+//and the screen cuts to black//
+<<trigger EideRun Run>>
+<<wait 2.16>>
+<<alwaysUseWaitTime 0>>
+<<fadeOut .0001 wait>>
+<<wait 4>>
+<<scene BeaCar>>
+===
+title: Enter00
+tags: 
+colorID: 0
+position: -578,483
+---
+<<hide Collision:Right>>
+<<walk Angus AngusInFromRight>>
+<<walk Mae MaeInFromRight>>
+<<fadeOutMusic 3>>
+<<waitForMove Angus>>
+<<wait 1>>
+Mae: Nun #line:3bd83e
+Mae: Das war eine Wanderung. #line:fced1f
+Angus: Das war viel einfacher als ich 11 war. #line:1e029c
+Angus: Wie viele Tore haben wir auf dem Weg hierher passiert? #line:7c2473
+Mae: Ich habe nicht mehr mitgezaehlt. #line:dbdda6
+Angus: Seltsam. Damals war noch offen. #line:b77e3f
+Mae: Hm. #line:49f30d
+Mae: Bereit zu gehen? #line:419621
+Angus: Nicht mehr weit, nur noch geradeaus. #line:4042c1
+<<walk Angus AngusGraves 1>>
+<<show Collision:Right>>
+===

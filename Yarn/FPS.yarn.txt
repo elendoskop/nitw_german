@@ -1,0 +1,403 @@
+title: EnterLevel
+tags: 
+colorID: 3
+position: -269,543
+---
+Mae: Wow, das ist schwerer, als ich erwartet habe. #line:481cd0
+Gregg: Stimmt's? #line:729c3d
+Gregg: Du musst also zurueckziehen, bevor du den Abzug loslaesst. #line:f95cd2
+Mae: dann schiesse ich einfach wohin? #line:ba15a4
+Gregg: nicht auf mich. #line:3559ad
+Mae: na gut. #line:68f55b
+===
+title: HitGround
+tags: 
+colorID: 3
+position: 67,594
+---
+<<if $fps_hit_ground is 0>>
+    Gregg: Nun, das ist der Boden. #line:4f6390
+    Mae: Yeeeep. #line:969f6c
+<<elseif $fps_hit_ground is 1>>
+    Gregg: Immer noch der Boden. #line:abdc49
+<<elseif $fps_hit_ground is 2>>
+    Gregg: Mann. Also, ziele nach oben. #line:c0e9dd
+<<elseif $fps_hit_ground is 3>>
+    Gregg: Hoch, hoch, hoch! #line:678e4c
+<<elseif $fps_hit_ground is 4>>
+    Gregg: Alter, du gehst und schnappst dir die alle vom Boden. #line:601af5
+<<elseif $fps_hit_ground is 5>>
+    Gregg: Durch *ZUFALL* haettest du schon laengst nicht mehr den Boden treffen duerfen. #line:4251e0
+<<elseif $fps_hit_ground is 6>>
+    Gregg: Es scheint sich kaum zu lohnen, etwas zu sagen. #line:500227
+<<elseif $fps_hit_ground is 7>>
+    Gregg: In Ordnung. So. #line:cbd4c0
+    Mae: Ja. #line:117186
+<<endif>>
+
+<<set $fps_hit_ground += 1>>
+===
+title: HitTree
+tags: 
+colorID: 3
+position: 190,361
+---
+<<if $fps_hit_tree is 0>>
+    Gregg: Wow, du hast den Baum wirklich umgebracht. #line:2a2e3c
+    Mae: Der Baum hat es verdient. #line:0d101f
+<<elseif $fps_hit_tree is 1>>
+    Gregg: Schoen. #line:bdc3cf
+    Mae: Baeume sind mein natuerlicher Feind. #line:723344
+<<elseif $fps_hit_tree is 2>>
+    Gregg: Baum. #line:8e4cd7
+<<elseif $fps_hit_tree is 3>>
+    Gregg: Du hast es geschafft. #line:33f37a
+<<elseif $fps_hit_tree is 4>>
+    Gregg: Ich schaetze, das war's mit dem Baum. #line:703f49
+<<elseif $fps_hit_tree is 5>>
+    Gregg: Wahrscheinlich hasst du Baeume. #line:ed162b
+<<elseif $fps_hit_tree is 6>>
+    Gregg: Diese Baumgewalt ist echt. #line:5e4b25
+<<elseif $fps_hit_tree is 7>>
+    Gregg: Ok, ich glaube, der Baum ist tot. #line:2fe07f
+<<endif>>
+
+<<set $fps_hit_tree += 1>>
+===
+title: OutOfRange
+tags: 
+colorID: 3
+position: 545,362
+---
+<<if $fps_out_of_range is 0>>
+    Gregg: Nun, dieser Schuss... ging wirklich weit. #line:4f6faf
+    Mae: Quantitaet geht vor Qualitaet. #line:b599b0
+<<elseif $fps_out_of_range is 1>>
+    Gregg: das war's. #line:cac51c
+<<elseif $fps_out_of_range is 2>>
+    Gregg: Mann. #line:9bcbb2
+<<elseif $fps_out_of_range is 3>>
+    Gregg: Mann. #line:e1e7bf
+<<elseif $fps_out_of_range is 4>>
+    Gregg: warum, Alter. #line:125eae
+<<elseif $fps_out_of_range is 5>>
+    Gregg: Du wirst irgendein armes Tier treffen. #line:a5b052
+<<elseif $fps_out_of_range is 6>>
+    Gregg: los geht's. #line:e132f4
+<<elseif $fps_out_of_range is 7>>
+    Gregg: Na das war ja was. #line:9a28e2
+<<endif>>
+
+<<set $fps_out_of_range += 1>>
+===
+title: HitBeastHead
+tags: 
+colorID: 3
+position: 389,639
+---
+<<if $fps_hit_beast_head is 0>>
+    Gregg:{width=8} KOOOOOOOOOPFSCHUSS! #line:daaa08
+    <<unlockAchievement Gregg_FQ3_Hit_Monster_in_Head>>
+<<elseif $fps_hit_beast_head is 1>>
+    Gregg: *bang bang* #line:0f6536
+<<elseif $fps_hit_beast_head is 2>>
+    Gregg: direkt durch den gottverdammten Schaedel. #line:d624b4
+<<elseif $fps_hit_beast_head is 3>>
+    Gregg: da war dieser Kerl in den 40ern #line:212789
+    Gregg: und er bekam einen Schuss in den Kopf #line:583609
+    Gregg: und es ging direkt durch sein Gehirn #line:944a70
+    Gregg: und es ging ihm irgendwie gut? #line:4bad67
+    Mae: das ist grossartig. #line:ef504d
+    Gregg: das waere eine coole Narbe. #line:8cf9d7
+<<elseif $fps_hit_beast_head is 4>>
+    Gregg: Ich frage mich, ob es durch sein Auge ging? #line:64d6f1
+    Mae: Schade, ein Auge zu verlieren. #line:e718a8
+    Gregg: aber coole Augenklappe. #line:f4ae69
+<<elseif $fps_hit_beast_head is 5>>
+    Mae: Augenklappen sind super cool. #line:505016
+<<elseif $fps_hit_beast_head is 6>>
+    Mae: Ich musste eine tragen, als ich mir mit sechs Jahren das Auge zerkratzt habe. #line:29215e
+    Gregg: Ich glaube, ich erinnere mich daran. #line:e1b353
+<<elseif $fps_hit_beast_head is 7>>
+    Gregg: Ja, ich habe meiner Mutter erzaehlt, dass du ein Pirat bist. #line:668ad9
+    Gregg: und sie hat mir gesagt, dass das nicht nett ist #line:35a140
+    Gregg: Leute, die keine Augen haben, als Piraten zu bezeichnen. #line:926152
+    Mae: hm. #line:3415fd
+    Mae: das hoeren sie wahrscheinlich oft. #line:10b9f8
+    Gregg: ja. #line:142956
+    Gregg: Lektion gelernt, schaetze ich. #line:025cf3
+    Gregg: Meine Guete, du hast das Ding aber ganz schoen zugerichtet. #line:0c46a6
+<<endif>>
+
+<<set $fps_hit_beast_head += 1>>
+===
+title: HitBeastNeck
+tags: 
+colorID: 3
+position: 646,666
+---
+<<if $fps_hit_beast_neck is 0>>
+    Gregg: Bam. #line:5bca7e
+<<elseif $fps_hit_beast_neck is 1>>
+    Gregg: Gescheitert. #line:05792d
+<<elseif $fps_hit_beast_neck is 2>>
+    Gregg: geschlachtet. #line:1985ab
+<<elseif $fps_hit_beast_neck is 3>>
+    Gregg: vernichtet. #line:99c9e0
+<<elseif $fps_hit_beast_neck is 4>>
+    Gregg: geroestet. #line:cbda4f
+<<elseif $fps_hit_beast_neck is 5>>
+    Gregg: gebraten. #line:101097
+<<elseif $fps_hit_beast_neck is 6>>
+    Gregg: durchbohrt. #line:df021e
+<<elseif $fps_hit_beast_neck is 7>>
+    Gregg: Boom. #line:552f9e
+    Gregg: Tot wie Scheisse. #line:ba6aa3
+<<endif>>
+
+<<set $fps_hit_beast_neck += 1>>
+===
+title: HitBeastBody
+tags: 
+colorID: 3
+position: 883,664
+---
+<<if $fps_hit_beast_body is 0>>
+    Gregg: Jage das Biest! #line:611eeb
+<<elseif $fps_hit_beast_body is 1>>
+    Gregg: JAGE ES. #line:b5d944
+<<elseif $fps_hit_beast_body is 2>>
+    Gregg: DAS IST DAS LEBEN. #line:f12ab8
+    Mae: Mein Blutdurst kann nicht gestillt werden. #line:020c50
+    Gregg: was zum Teufel bedeutet "gesaettigt". #line:540987
+    Mae: Alter. Das ist wie ein Vokabeltest in der 8. Klasse. #line:ebe895
+<<elseif $fps_hit_beast_body is 3>>
+    Gregg: Nein, im Ernst, sag mir, was das bedeutet. #line:658dc6
+<<elseif $fps_hit_beast_body is 4>>
+    Gregg: "gesaettigt"? oder wie "traurig"? #line:dde8d3
+    Mae: wenn man nicht weiss, was es bedeutet, ist es dann wichtig? #line:429f6f
+<<elseif $fps_hit_beast_body is 5>>
+    Gregg: Alter, sag mir, was es bedeutet. #line:44a32d
+    Mae: es bedeutet soviel wie zufrieden. #line:e34571
+    Mae: es bedeutet, dass es mich nach Blut duerstet. #line:883f3a
+    Gregg: grossartig. #line:77327d
+<<elseif $fps_hit_beast_body is 6>>
+    Gregg: Vampire koennen nicht traurig sein! #line:3b3216
+    Mae: ok ja. #line:ff1f98
+<<elseif $fps_hit_beast_body is 7>>
+    Gregg: na gut, ich glaube der Waldgott ist traurig. #line:8c7851
+    Mae: nun... ok, ja sicher. #line:e911c9
+<<endif>>
+
+<<set $fps_hit_beast_body += 1>>
+===
+title: HitBeastTail
+tags: 
+colorID: 3
+position: 1100,677
+---
+
+<<if $fps_hit_beast_tail is 0>>
+    Gregg: Autsch. Genau in den Schwanz. #line:3540d8
+<<elseif $fps_hit_beast_tail is 1>>
+    Gregg: ARSCH. #line:ac467e
+<<elseif $fps_hit_beast_tail is 2>>
+    Gregg: ARSCHSCHUSS!!! #line:7ffd5b
+<<elseif $fps_hit_beast_tail is 3>>
+    Gregg: DIESE FRAU HASST DIESEN ARSCH!!! #line:719a54
+<<elseif $fps_hit_beast_tail is 4>>
+    Gregg: KRIEG IHN. KRIEG DEN ARSCH. #line:d078fb
+<<elseif $fps_hit_beast_tail is 5>>
+    Gregg: *bang bang* an alle Aersche #line:85ff8c
+<<elseif $fps_hit_beast_tail is 6>>
+    Gregg: Arschssssssssssss. #line:d84d14
+<<elseif $fps_hit_beast_tail is 7>>
+    Gregg: ha ha ha ha das ist erstaunlich. #line:031e8f
+<<endif>>
+
+<<set $fps_hit_beast_tail += 1>>
+===
+title: OutOfBolts
+tags: 
+colorID: 3
+position: 1057,356
+---
+<<close>>
+<<wait 1>>
+Mae: Ich habe keine Schrauben mehr #line:7a5a35
+Gregg: Es ist cool. #line:1bae5b
+Mae: Das hat Spass gemacht. #line:3eb05d
+Mae: Ich kann es jetzt mit Vampiren aufnehmen. #line:fa8090
+Gregg: Du koenntest. Du koenntest. #line:7fd318
+Gregg: Vampire von Possum Springs. #line:df3fb5
+Mae: sie sind da draussen. #line:adf7b8
+Mae: glaenzende Zaehne #line:0fa752
+Mae: glaenzend wie die Nacht. #line:2cae05
+<<set $gregg_fq3_woods to 2>>
+<<fadeOut 1 wait>>
+<<scene GreggFQ3Woods>>
+===
+title: HitBeastBetweenTheEyes
+tags: 
+colorID: 3
+position: 806,393
+---
+<<if $fps_hit_beast_between_the_eyes is 0>>
+    Gregg: ALTER. #line:938f7d
+    Gregg: Du hast das Hirn getroffen. #line:9a76d1
+    Mae: I surely did. #line:37f6a5
+<<elseif $fps_hit_beast_between_the_eyes is 1>>
+    Gregg: Gehirn! #line:dfa702
+<<elseif $fps_hit_beast_between_the_eyes is 2>>
+    Gregg:{width=8} GEHIIIIIIIIIIIIIIIRN! #line:128152
+<<elseif $fps_hit_beast_between_the_eyes is 3>>
+    Gregg: Mensch, Alter, du bist gut darin #line:49b8aa
+    Mae: ich bin ein Naturtalent im Killen #line:2cd38c
+<<elseif $fps_hit_beast_between_the_eyes is 4>>
+    Gregg: haben dich die Leute nicht immer Killer genannt? #line:562d2a
+    Gregg: nach diesem Ding? #line:ce1a89
+    Mae: Ja. #line:cf8628
+<<elseif $fps_hit_beast_between_the_eyes is 5>>
+    Gregg: es hat dich gestoert, richtig? #line:1f1781
+    Mae: ja nun, sie haben sich geirrt. #line:84076c
+    Mae: bis jetzt. #line:e49801
+    Mae: ich bin toedlich mit diesem Ding. #line:ca4717
+<<elseif $fps_hit_beast_between_the_eyes is 6>>
+    Gregg: wie machst du das? #line:1a6613
+    Mae: *bang bang* #line:0d518e
+<<elseif $fps_hit_beast_between_the_eyes is 7>>
+    Gregg: Na gut, Killer das ist genug denke ich. #line:e2c886
+    Mae: aber... aber ich koennte es mehr toeten... #line:dacfbf
+<<endif>>
+
+<<set $fps_hit_beast_between_the_eyes += 1>>
+===
+title: HitBeastPupil
+tags: 
+colorID: 3
+position: 754,154
+---
+<<if $fps_hit_beast_pupil is 0>>
+    Gregg: Voooooolltreffer. #line:32bb9f
+<<elseif $fps_hit_beast_pupil is 1>>
+    Gregg: echt jetzt, wie das Bullseye vom Auge. #line:d53243
+<<elseif $fps_hit_beast_pupil is 2>>
+    Gregg: Geaeugt! #line:48d04f
+<<elseif $fps_hit_beast_pupil is 3>>
+    Gregg: ha ha ha das ist grossartig. #line:90a5ef
+<<elseif $fps_hit_beast_pupil is 4>>
+    Gregg: *bang bang* #line:2fd9b8
+<<elseif $fps_hit_beast_pupil is 5>>
+    Gregg: PSHEWWWW! #line:18dda4
+<<elseif $fps_hit_beast_pupil is 6>>
+    Gregg: DOINK. #line:feedc0
+<<elseif $fps_hit_beast_pupil is 7>>
+    Gregg: ok ja ich denke es ist tot. #line:d9af51
+<<endif>>
+
+<<set $fps_hit_beast_pupil += 1>>
+===
+title: HitBeastEye
+tags: 
+colorID: 3
+position: 1038,118
+---
+<<if $fps_hit_beast_eye is 0>>
+    Gregg: Ich sagte zwischen die Augen, nicht in die Augen! #line:d03a39
+    Mae: Aber das ist so nah dran! #line:26dd69
+    Gregg: Nah dran ist nicht gut genug, Partnerin. #line:e36843
+<<elseif $fps_hit_beast_eye is 1>>
+    Gregg: jawoooooll. #line:c2cc57
+<<elseif $fps_hit_beast_eye is 2>>
+    Gregg: aw mann. #line:656377
+    Mae: hoer mal, das ist doch wirklich beeindruckend! #line:354db9
+    Gregg: psssh. #line:7897e8
+<<elseif $fps_hit_beast_eye is 3>>
+    Gregg: ok ja du hast recht das ist ziemlich gut. #line:4a8477
+<<elseif $fps_hit_beast_eye is 4>>
+    Gregg: es ist weniger wie das Zielen und mehr wie #line:a7a298
+    Gregg: die Konsistenz? #line:64a8c7
+    Mae: ich bin durchweg unterdurchschnittlich. #line:5481ac
+<<elseif $fps_hit_beast_eye is 5>>
+    Gregg: geaugaepfelt. #line:096ac6
+<<elseif $fps_hit_beast_eye is 6>>
+    Gregg: Du hast die Bestie geblendet, alter. #line:22bf86
+<<elseif $fps_hit_beast_eye is 7>>
+    Gregg: eeeeeeeees ist tot. #line:628dd3
+<<endif>>
+
+<<set $fps_hit_beast_eye += 1>>
+===
+title: HitSign
+tags: 
+colorID: 3
+position: 490,118
+---
+<<if $fps_hit_sign is 0>>
+    Gregg: Wham! Du hast das Zeichen ziemlich gut getroffen. #line:5329ce
+    Mae: Aber sicher doch. #line:1b6d2a
+<<elseif $fps_hit_sign is 1>>
+    Gregg: ja! Zeichen! #line:025e72
+<<elseif $fps_hit_sign is 2>>
+    Gregg: du hasst dieses Zeichen! #line:b67964
+<<elseif $fps_hit_sign is 3>>
+    Gregg: ok du kannst hier wie alles schiessen! #line:b93592
+<<elseif $fps_hit_sign is 4>>
+    Gregg: ich kann das Zeichen verschieben, wenn es dich beleidigt hat oder so. #line:7f1723
+<<elseif $fps_hit_sign is 5>>
+    Gregg: da ist ein Monster direkt neben diesem langweiligen Schild, Alter. #line:95c234
+<<elseif $fps_hit_sign is 6>>
+    Gregg: ... #line:516744
+<<elseif $fps_hit_sign is 7>>
+    Gregg: Nun gut. Zeichen gekillt, schaetz ich. #line:244a49
+<<endif>>
+
+<<set $fps_hit_sign += 1>>
+===
+title: HitBarrel
+tags: 
+colorID: 3
+position: 241,148
+---
+<<if $fps_hit_barrel is 0>>
+    Gregg: gefasst. #line:ed2f01
+<<elseif $fps_hit_barrel is 1>>
+    Gregg: Jep. Das ist ein Fass. #line:9d0a91
+<<elseif $fps_hit_barrel is 2>>
+    Gregg: Was da wohl drin war? #line:046ff6
+<<elseif $fps_hit_barrel is 3>>
+    Gregg: Giftmuell!!!! #line:7b3c19
+<<elseif $fps_hit_barrel is 4>>
+    Gregg: Ich wette, da leben Tiere drin. #line:3a750f
+<<elseif $fps_hit_barrel is 5>>
+    Gregg: Warum greifst du das Zuhause von Tieren an. #line:e3ddb6
+<<elseif $fps_hit_barrel is 6>>
+    Gregg: ... #line:02e98d
+<<elseif $fps_hit_barrel is 7>>
+    Gregg: na gut, das war langweilig. #line:6a9d19
+<<endif>>
+
+<<set $fps_hit_barrel += 1>>
+===
+title: FailedToShoot
+tags: 
+colorID: 3
+position: 1297,328
+---
+<<if $fps_failed_to_shoot is 0>>
+    Mae: Hmm, es wird nicht geschossen. #line:1f1901
+    Gregg: Oh, du musst den Abzug nur lange genug gedrueckt halten. #line:e0b942
+    Mae: Oh okay, also einfach nur gedrueckt halten, hm... #line:38d200
+    <<set $fps_failed_to_shoot += 1>>
+<<elseif $fps_failed_to_shoot is 1>>
+    Gregg: Hast du Probleme beim Schiessen? Man muss nur... #line:797e71
+    Mae: ...den Abzug gedrueckt halten. Ja, ich weiss. #line:05f623
+    <<set $fps_failed_to_shoot += 1>>
+<<elseif $fps_failed_to_shoot is 2>>
+    Gregg: Wenn du also den Abzug gedrueckt haeltst... #line:72c4e6
+    Mae: Ich hab's!! #line:0b4e31
+    <<set $fps_failed_to_shoot += 1>>
+<<else>>
+    Mae: Kay, ich muss nur diesen Abzug gedrueckt halten... #line:6a22b0
+<<endif>>
+===

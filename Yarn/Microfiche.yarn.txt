@@ -1,0 +1,167 @@
+title: EnterLevel
+tags: 
+colorID: 0
+position: 472,56
+---
+Bea: Na gut, und wonach suchen wir? #line:cef86c
+Mae: Ich will lenken! #line:033709
+Bea: Nein. #line:670ad0
+Mae: MOVE! ICH LENKE! #line:f8d456
+<<playAmbientSFX _AmbientSFX:mae_push_bea>>
+<<wait 1>>
+Bea: OW! #line:564b90
+Bea: Oje! Mae! #line:5f4ae5
+Mae: ... #line:b1c0b0
+Mae: Es tut mir leid. #line:25738d
+Bea: ... #line:8ab373
+Mae: Ok ok ok ok ok wie machen wir das? #line:0bf3fc
+Bea: Uh. #line:af7624
+Bea: Schritt eins: Schau auf den Bildschirm. #line:af9508
+Bea: Schritt zwei: Bewege dich und schau dir Sachen an. #line:a525a1
+Mae: Schritt drei: Finde den Geist #line:7d72cd
+Bea: Na klar. #line:fa02ac
+===
+title: Clue1
+tags: 
+colorID: 0
+position: 256,304
+---
+<<set $found_microfiche_clue_1 to 1>>
+<<tell AmbientSFX:found_clue Play>>
+<<wait 1>>
+Mae: Heeeey schau dir das an. #line:b9e2f6
+Bea: Hm ja.  #line:6ae647
+Mae: Sieht aus wie... Opossum-Sprung? #line:a83703
+Bea: LASS ES MICH LESEN. #line:7fc791
+Mae: Es ist Possum Jump. #line:4986ef
+Bea: Okay, ja. Das ist oben im State Park, richtig? #line:9effaf
+Mae: Ja. #line:941bc9
+Bea: warst du schon mal da oben? #line:f03039
+Mae: Noe! #line:80aee3
+Mae: Ich werde es mir trotzdem ansehen! #line:8d29d3
+Bea: Mach dich verrueckt. #line:9caef8
+<<if $did_bea_friendship_quest_2>>
+    Bea: Das ist wahrscheinlich nur eine Meile oder so von Mrs. Mirandas Haus entfernt. #line:a1cf9d
+    Bea: Oben in den Huegeln. #line:015b75
+    Bea: Da oben gibt es alles Moegliche. #line:2a65d5
+    Mae: Nun, ich werde versuchen, jeden Keller zu vermeiden #line:5035f1
+    Mae: oder leblose Ehemaenner. #line:97e5af
+    Bea: mitunterzeichnet. #line:24ea18
+<<endif>>
+[[AdvanceClue]]
+===
+title: Clue2
+tags: 
+colorID: 0
+position: 498,311
+---
+<<set $found_microfiche_clue_2 to 1>>
+<<tell AmbientSFX:found_clue Play>>
+<<wait 1>>
+Mae: Ooh look. #line:32993f
+Bea: Rutscht mal, damit ich was sehen kann. #line:acb9f2
+Bea: Auf dem Friedhof. Das ist ein Gimme. #line:e59b9f
+Mae: Ich meine, wenn man nach Geisterkram sucht #line:45b6aa
+Mae: da machen sie eine Menge von ihnen. #line:848ad8
+Bea: Sieht aus, als haetten sie ihn in der alten Abteilung gesehen... #line:758006
+Bea: Oh cool! Dort ist sein Grab! #line:664040
+Bea: Das interessiert mich tatsaechlich. #line:03cbb7
+Mae: Wie kannst du NICHT daran interessiert sein? #line:61bcc4
+Mae: Das ist wie richtiges gefaehrliches Geisterzeug! #line:4509b7
+Bea: ...ich mag Geschichte. #line:aa2a16
+Mae: Geister sind Geschichte!  #line:c93adc
+Mae: Geschichte, die nicht Geschichte bleiben wird! #line:1af38f
+Bea: Ha ha ha. Das ist eigentlich ziemlich gut. #line:5fa7cd
+[[AdvanceClue]]
+===
+title: Clue3
+tags: 
+colorID: 0
+position: 732,303
+---
+<<set $found_microfiche_clue_3 to 1>>
+<<tell AmbientSFX:found_clue Play>>
+<<wait 1>>
+Mae: Hey hey hey. #line:952db9
+Mae: Geist gesichtet. #line:c3eb0e
+Bea: Historische Gesellschaft? #line:1839a2
+<<if $found_microfiche_clue_2>>
+	Mae: Geschichte, die nicht Geschichte bleiben wird #line:d1d39e
+	Mae: an einem historischen Ort! #line:7f79cc
+	Bea: Geschichtsort? #line:c98510
+<<endif>>
+Mae: Ja. Ich war noch nie da! #line:2e4cf2
+Bea: Du bist nicht zurueck in die Schule gegangen? #line:a938ac
+Mae: Ich glaube, das war, als ich nicht in der Schule war. #line:53cd61
+Bea: Oh. Nach dem Softball-Vorfall. #line:3adca3
+Mae: Ja. Meistens habe ich nur ferngesehen und Therapie gemacht. #line:1306d0
+Bea: Na ja, es ist eigentlich ein ziemlich cooles altes Haus #line:e65bec
+Bea: Gehoerte es frueher einem der Minenbesitzer oder so? #line:6baa82
+Bea: Eisenbahn? Mine? Stahlwerk? So etwas in der Art? #line:b99c97
+Mae: Ein echtes Spukhaus! #line:bd7b47
+Bea: aeh... nein. #line:b0653a
+Bea: Grundschulkinder sind die ganze Zeit dort. #line:fb0db8
+Bea: sie haben so etwas wie ein Sommer-Kunsthandwerksprogramm. #line:3a7d81
+Mae: Oh. Nun, es lohnt sich trotzdem, mal nachzusehen. #line:740e4c
+[[AdvanceClue]]
+===
+title: AdvanceClue
+tags: 
+colorID: 0
+position: 512,560
+---
+<<set $microfiche_clues += 1>>
+
+<<if $microfiche_clues is 3>>
+    <<set $microfiche_done to 1>>
+    Mae: Also gut. Das sind etwa drei Hinweise. #line:8a8c0b
+    Mae: Lass uns boogie. #line:7cfbc8
+    Bea: "Let's boogie"? #line:f86baf
+    Bea: Ist es das auch? #line:97d72d
+	->Ja #line:b44c01
+		Mae: Drei Anhaltspunkte! Wir haben drei Hinweise! #line:f56640
+		Bea: Du bist ein richtiger Detektiv #line:41f6c2
+		Mae: Mae Borowski: Eine Detektivin der Geister #line:7bfbd9
+		Bea: Na gut, gehen wir. #line:e7ca2a
+		<<irisOut 1 wait>>
+        <<scene Library>>
+	->Nein, lass uns mehr Sachen anschauen. #line:35581d
+<<endif>>
+
+<<if $microfiche_clues >= 3>>
+    <<tell Microfiche CanExit>>
+<<endif>>
+===
+title: Tooth
+tags: 
+colorID: 0
+position: 1036,311
+---
+Mae: Oh wow. das ist krass. #line:59f5f7
+Mae: und GROSSARTIG. #line:e9f1b2
+Mae: ha ha ha ha. #line:26f55c
+Mae: oh mein Gott. #line:65bb54
+<<set $knows_tooth to 1>>
+===
+title: NotClue
+tags: 
+colorID: 0
+position: -149,291
+---
+<<if $microfiche_not_clue is 0>>
+    Mae: Hmm, das ist interessant, aber... #line:2d8206
+    Bea: Ja, es geht nicht gerade um einen "Geist". #line:07813f
+    <<set $microfiche_not_clue += 1>>
+<<elseif $microfiche_not_clue is 1>>
+    Bea: Hier ist kein "Geist" zu finden. #line:dde48f
+    Mae: So wie du "Geist" sagst, klingt es, als wuerdest du mir nicht glauben. #line:e921d3
+    Bea: ... #line:589236
+    <<set $microfiche_not_clue += 1>>
+<<elseif $microfiche_not_clue is 2>>
+    Bea: Das hier? #line:d0bc25
+    Mae: Kein Geist! #line:ce609f
+    <<set $microfiche_not_clue += 1>>
+<<elseif $microfiche_not_clue is 3>>
+    Mae: Kein Geist hier... #line:f69d26
+<<endif>>
+===

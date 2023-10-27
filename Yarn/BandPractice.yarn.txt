@@ -1,0 +1,2179 @@
+title: EndBandPractice_A1D1
+tags: 
+colorID: 2
+position: 1996,-1146
+---
+<<lookAt Gregg Mae>>
+<<if $band_practice_0_right is 100>>
+    // player played the song perfectly!
+    Gregg: AEhm, das war so ziemlich ... perfekt. #line:0aa657
+    Bea: AEh ... whoa. #line:fc21bf
+    Angus: Yeah. #line:ca797a
+    Mae: Alles an einem Tag. :) #line:f4df4c
+    Mae: :| #line:de244d
+<<elseif $band_practice_0_right > 90>>
+    // player did pretty alright!!
+    Gregg: Ziemlich gut! #line:23c35c
+    Bea: Ja, das war okay. #line:e83cf8
+    Mae: Nicht schlecht, wenn man bedenkt, dass ich das Lied nicht kenne! #line:20f7af
+<<elseif $band_practice_0_played < 50>>
+    // player played less than 50% of the notes registered
+    Gregg: Also... du spielst einfach meistens nicht? #line:8fe4a4
+    Bea: Ja, ist das dein Ding? #line:919742
+    Mae: Mein Ding ist es, dieses Lied kaum zu kennen. #line:156ea8
+<<elseif $band_practice_0_right < 20>>
+    // player probably mashed random buttons for the whole song
+    Bea: Irgendetwas laesst mich denken, dass du das nicht ernst nimmst. #line:2ca283
+    Gregg: UEberhaupt nicht. #line:bfb263
+    Mae: Na ja... #line:ea567e
+<<elseif $band_practice_0_right < 50>>
+    // pretty baaaad
+    Gregg: AAAAGH. Oje. #line:7913d0
+    Bea: Ja, das war nicht gut. #line:d93160
+<<else>>
+    // a catch-all for doing pretty meh
+    Gregg: Wow, Mae das war aeh... #line:514c57
+    Bea: Ziemlich schlecht, das war es. #line:e7090a
+    Mae: Ich kenne dieses Lied wirklich nicht. #line:a6fdd3
+<<endif>>
+
+<<unlockDoodle DieAnywhereElse>>
+<<if $band_practice_0_right > 90>>
+    <<unlockDoodle DieAnywhereElseResult 1>>
+<<else>>
+    <<unlockDoodle DieAnywhereElseResult 2>>
+<<endif>>
+
+[[Finish_A1D1]]
+===
+title: TriggerAngusA1D1
+tags: 
+colorID: 2
+position: 1631,-1114
+---
+<<lookAt Mae Angus>>
+Mae: Hi Angus! o/ #line:6cf392
+Mae: _o_ #line:24ce21
+Angus: Hey. Du bist es. #line:e40a9e
+<<lookNearest Mae>>
+Gregg: Ich bin's, Mae!!! :) #line:9f2469
+Angus: Es ist Mae! #line:9f2bb6
+Gregg: AAAAAAAAAAGH!!!! \o/ #line:16c181
+Gregg: _o_ #line:11299a
+<<close>>
+<<flip Gregg 1>>
+<<run Gregg OffRight>>
+<<wait 1>>
+<<lookAt Mae Angus>>
+Mae: Die Partyscheune ist also ausgegangen, was? #line:cbe355
+Angus: Ja. Bin mir nicht sicher, wie sie jemals offen bleiben konnte. #line:92a15b
+Mae: Wie viele Partys gibt es denn wirklich? #line:ee6a41
+Angus: Man braucht eine Menge Parteien, um eine Scheune am Laufen zu halten. #line:101041
+<<lookNearest Mae>>
+Gregg: ICH HABE DEINEN ALTEN BASS!!! :| #line:081c2f
+<<close>>
+<<walk Bea BeaOnLeft>>
+Mae: Oh Mann, ich glaube, ich erinnere mich gar nicht mehr... #line:6877bd
+Angus: Hey Bea. Uh. Mae ist wieder da. #line:794c1b
+Bea: ... #line:e7a614
+Mae: Wow. Hallo. :o #line:6cfb4a
+Bea: Ja. Hi. #line:24fbf5
+Gregg: SIE IST VOLLSTAENDIG ZURUECK!!!! #line:b96e35
+Bea: Warte, was? #line:5f53d7
+Mae: Bist du... aeh... hier zur Bandprobe? :| #line:8e2fe9
+Bea: Ich spiele Schlagzeug. #line:1719f2
+Mae: Das ist kein Schlagzeug. :-) #line:165c70
+Mae: Das ist ein Computer. #line:dbea98
+Angus: Das ist in Ordnung. Sie macht auch deine Bassparts. #line:0941bb
+Bea: Nun, ich habe sie als "die" Bassstimmen verstanden #line:c3857c
+Bea: Aber ich kann sie abschalten. -_- #line:1e86fb
+Mae: "Sie ausschalten." Auf deinem Computer. #line:d6ac89
+Bea: o_o #line:e59572
+Gregg: Mae, wir werden auf jeden Fall ein Lied spielen! Du musst unbedingt Bass spielen! #line:186ace
+Mae: ICH WEISS ES NICHT MEHR! :o #line:f4d925
+Mae: DAS SIND NICHT MAL TROMMELN! :\ #line:09e7ef
+Mae: :| #line:ca2db6
+<<runBandPractice 0>>
+===
+title: Gregg_A2D1
+tags: demo2
+colorID: 3
+position: 2837,-591
+---
+<<if $did_band_practice is 0>>
+    [[StartBandPractice_A2D1]]
+<<elseif $gregg_a2d1_bandpractice is 0>>
+    <<set $gregg_a2d1_bandpractice to 1>>
+	Gregg: Hey hey dude. #line:17f2c9
+    Mae: Geht Angus fuer die Nacht weg? #line:5476d7
+    Gregg: Ja. Wird langweilig werden. #line:0a82de
+    Gregg: oder besser gesagt ich *wuerde* mich langweilen, wenn ich keine Plaeaeaeaeaeaene haette. #line:c4aef0
+    Mae: Plaaaaaaans? #line:269bb9
+    Gregg: Verbrechen. #line:5cfd56
+    Mae: oooh! Verbrechen!!! #line:2b4dc4
+    [[UpForSomeCrimes]]
+<<else>>
+    [[UpForSomeCrimes]]
+<<endif>>
+
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: 1184,-1004
+---
+<<set $did_band_practice to 0>>
+
+<<setSpriteLayer Gregg FG1>>
+
+<<if $act is 1 and $day is 1>>
+    <<warp Bea OffLeft>>
+    <<flip Bea 1>>
+    <<hide Germ>>
+<<elseif $act is 4 and $day is 3>>
+    <<warp Mae OffLeft>>
+    <<warp Bea OffLeft>>
+    <<warp Gregg OffLeft>>
+    <<warp Germ OffLeft>>
+    <<warp Angus OffLeft>>
+    <<hide Collision:Left>>
+<<endif>>
+
+<<set $angus_done to 0>>
+<<set $gregg_done to 0>>
+<<set $germ_done to 0>>
+<<set $bea_done to 0>>
+===
+title: Angus_A2D1
+tags: demo2
+colorID: 3
+position: 3182,-637
+---
+<<if $did_band_practice is 0>>
+    Mae: So uh... wann fangen wir an? #line:9f0e5a
+    Angus: Frag Gregg. #line:5f6a4a
+    Angus: Normalerweise ist er derjenige, der uns aufhaelt oder uns dazu bringt, schneller zu fahren. #line:35981a
+    Mae: Alles nur wegen Gregg. #line:ec7ed0
+    Angus: Zu jeder Zeit, ein Gregg. #line:e6c7b8
+    <<set $angus_done to 1>>
+<<else>>
+	Angus: Das war ziemlich laut. #line:896ef0
+    Mae: Ist das gut? #line:2ca754
+    Angus: Laut ist gut. #line:22b53e
+    <<set $angus_done to 1>>
+<<endif>>
+
+===
+title: Bea_A2D1
+tags: 
+colorID: 3
+position: 3526,-682
+---
+<<if $did_band_practice is 0>>
+	Bea: {emote=music} #line:de1dca
+<<elseif $bea_a2d1_band_practice is 0>>
+    <<set $bea_a2d1_band_practice to 1>>
+	Mae: Willst du heute Abend etwas unternehmen? #line:d90c32
+    Bea: AEhm. #line:720da3
+    Mae: Ich verspreche, es wird eine Verbesserung gegenueber gestern Abend sein. #line:86f91c
+    Mae: :) #line:ed8327
+    Bea: Was wolltest du denn machen? #line:5ff258
+    Mae: aeh... hmm... #line:e4bed8
+    Mae: :| #line:2e7f28
+    Mae: Willst du ins Einkaufszentrum gehen? #line:e3e17d
+    Bea: "Das Einkaufszentrum?" #line:71ccb1
+    Mae: Ja! Fort Lucenne! Wie wir es gemacht haben, als wir Kinder waren! :) #line:e6b9fd
+    Bea: Wann warst du das letzte Mal im Einkaufszentrum von Fort Lucenne? #line:94be73
+    Mae: Ich weiss es nicht. Vor 5 Jahren?  #line:aadd7d
+    Bea: Ja. Uh. #line:ee4d75
+    Mae: :| #line:44acd9
+    Mae: Was? #line:ee6eda
+    Bea: Weisst du was? Mae: Ja. Los geht's. #line:c13207
+    Mae: Super! #line:9899e9
+    Bea: Yep. Grossartig. #line:948753
+    Mae: Ich verspreche, es wird grossartig sein =_= :) #line:1cc5d2
+    [[BeaWeSureWereDoingThis]]
+<<else>>
+    [[BeaWeSureWereDoingThis]]
+<<endif>>
+
+===
+title: Germ_A2D1
+tags: demo2
+colorID: 3
+position: 3845,-680
+---
+<<if $did_band_practice is 0>>
+	Germ: Practice. #line:b7562c
+	Mae: Ja. #line:a1da7e
+    Germ: Ich bin mal mit dem Fahrrad gestuerzt und eine gebrochene Speiche ging durch mein Bein. #line:05f6cc
+    Mae: GEEZ :( #line:ae2403
+    Germ: Es war irgendwie cool. #line:3fbd0b
+    Mae: Oh ja, das kann ich sehen. :| #line:677135
+    <<set $germ_done to 1>>
+<<else>>
+	Germ: Gute Praxis. #line:f10de7
+    Mae: War es das? #line:4baabc
+    Germ: eh. #line:d11653
+    <<set $germ_done to 1>>
+<<endif>>
+
+
+===
+title: EndBandPractice_A2D1
+tags: demo2
+colorID: 3
+position: 2888,-1177
+---
+<<lookLeft Gregg>>
+Mae: o_o :| #line:ccfab3
+<<if $band_practice_1_right is 100>>
+    // player played the song perfectly!
+    Gregg: AEhm, das war so ziemlich... perfekt. #line:57e007
+    Bea: AEh ... wow. #line:559b9d
+    Angus: Yeah. #line:328d6e
+    Mae: Alles an einem Tag. :) #line:7fd462
+    Mae: :| #line:897b12
+<<elseif $band_practice_1_right > 90>>
+    // player did pretty alright!!
+    Gregg: Ziemlich gut! #line:acf6ea
+    Bea: Ja, das war okay. #line:b35667
+    Mae: Nicht schlecht, wenn man bedenkt, dass ich das Lied nicht kenne! #line:d80c4e
+<<elseif $band_practice_1_played < 50>>
+    // player played less than 50% of the notes registered
+    Gregg: Also... spielst du die meisten einfach nicht? #line:7d5b33
+    Bea: Ja, ist das dein Ding? #line:5417da
+    Mae: Mein Ding ist es, dieses Lied kaum zu kennen. #line:1fc32a
+<<elseif $band_practice_1_right < 20>>
+    // player probably mashed random buttons for the whole song
+    Bea: Irgendetwas laesst mich denken, dass du das nicht ernst nimmst. #line:f1f880
+    Gregg: UEberhaupt nicht. #line:58d920
+    Mae: Na ja... #line:8fe3e1
+<<elseif $band_practice_1_right < 50>>
+    // pretty baaaad
+    Gregg: AAAAGH. Oje. #line:569722
+    Bea: Ja, das war nicht gut. #line:48e388
+<<else>>
+    // a catch-all for doing pretty meh
+    Gregg: Wow, Mae das war aeh... #line:dac8e3
+    Bea: Ziemlich schlecht, das war es. #line:db9eec
+    Mae: Ich kenne dieses Lied wirklich nicht. #line:80a4bb
+<<endif>>
+
+<<unlockDoodle WeirdAutumn>>
+<<if $band_practice_1_right > 90>>
+    <<unlockDoodle WeirdAutumnResult 1>>
+<<else>>
+    <<unlockDoodle WeirdAutumnResult 2>>
+<<endif>>
+
+<<set $angus_done to 0>>
+<<set $gregg_done to 0>>
+<<set $germ_done to 0>>
+<<set $bea_done to 0>>
+
+
+[[Finish_A2D1]]
+===
+title: Finish_A1D1
+tags: 
+colorID: 2
+position: 1987,-806
+---
+Mae: heilige scheisse. #line:4014f8
+Mae: das war schwer zu tun! #line:2b9427
+Angus: du wirst wieder in UEbung kommen. #line:b37887
+Mae: das hoffe ich. oje. #line:9dc835
+Mae: mein Handgelenk tut weh. #line:e48251
+Gregg: das war toll, Mann #line:45e28b
+Gregg: es war schoen, dich wiederzusehen #line:f02966
+Gregg: deinen alten schrecklichen Bass spielend. #line:1400e5
+Bea: ok, machen wir dieses Diner-Ding? #line:6ec93d
+Mae: YEAAAAH!!!!!!!!! #line:22f723
+Gregg:{width=8} WOOOOOOOOOOOOOOOOOOOO!!!! #line:465f91
+Angus: juhu. #line:c7fe9f
+Bea: hip hip. #line:8e2070
+<<fadeOut .5 wait>>
+<<lookNearest Gregg>>
+<<scene PawsModeDiner>>
+===
+title: Gregg_A3D1
+tags: 
+colorID: 4
+position: 5088,-552
+---
+<<if $did_band_practice is 0>>
+	Gregg: Hey Mann. #line:81360c
+    Mae: Bist du ok? du siehst muede aus. #line:c13535
+    Gregg: ugh ich war die ganze Nacht auf. #line:bf39ea
+    Gregg: sie haben die Dachtuer repariert #line:c0c0d2
+    Gregg: und es war super laut. #line:a95d29
+    Mae: "Dachtuer?" #line:896d59
+    Gregg: ja, die Tuer am oberen Ende der Treppe #line:3a0a69
+    Gregg: die auf das Dach hinausgeht. #line:719010
+    Gregg: jetzt kann ich wie #line:235622
+    Gregg: ich weiss nicht. von der Tuer unten in der Lobby laufen #line:0d8923
+    Gregg: hoch zum Dach #line:9b0f9b
+    Gregg: und von der Seite des Gebaeudes pinkeln? #line:a0c14b
+    Mae: ja vielleicht nicht. #line:ea24c4
+    Gregg: aber was haelt zufaellige Leute davon ab, das auch zu tun??? #line:d83536
+    Mae: Alter, das wird schon klappen. #line:bf19a8
+    Gregg: Entschuldigung, ich bin nur muede. #line:c492f6
+    Mae: fair. bereit zu gehen? #line:b3ebbc
+    Gregg: Ja, lass uns den Scheiss machen. #line:7bcb68
+	<<runBandPractice 2>>
+	<<set $did_band_practice to 1>>
+<<endif>>
+
+===
+title: EndBandPractice_A3D1
+tags: 
+colorID: 4
+position: 4562,-1063
+---
+<<lookAt Gregg Mae>>
+<<lookAt Bea Mae>>
+<<if $band_practice_2_right is 100>>
+    // player played the song perfectly!
+    Gregg: AEhm, das war so ziemlich ... perfekt. #line:4bd2d5
+    Bea: AEh ... wow. #line:815e69
+    Angus: Yeah. #line:aaa909
+    Mae: Alles an einem Tag. :) #line:9e08d2
+    Mae: :| #line:a1668b
+<<elseif $band_practice_2_right > 90>>
+    // player did pretty alright!!
+    Gregg: Ziemlich gut! #line:a4677f
+    Bea: Ja, das war okay. #line:b7d368
+    Mae: Nicht schlecht, wenn man bedenkt, dass ich das Lied nicht kenne! #line:4e0b1d
+<<elseif $band_practice_2_played < 50>>
+    // player played less than 50% of the notes registered
+    Gregg: Also... spielst du die meisten einfach nicht? #line:39f1d6
+    Bea: Ja, ist das dein Ding? #line:9951ac
+    Mae: Mein Ding ist es, dieses Lied kaum zu kennen. #line:98f605
+<<elseif $band_practice_2_right < 20>>
+    // player probably mashed random buttons for the whole song
+    Bea: Irgendwie habe ich das Gefuehl, dass du das nicht ernst nimmst. #line:448d29
+    Gregg: UEberhaupt nicht. #line:b5152a
+    Mae: Na ja... #line:36fba1
+<<elseif $band_practice_2_right < 50>>
+    // pretty baaaad
+    Gregg: AAAAGH. Oje. #line:8c193b
+    Bea: Ja, das war nicht gut. #line:91a2b9
+<<else>>
+    // a catch-all for doing pretty meh
+    Gregg: Wow, Mae das war aeh... #line:70c273
+    Bea: Ziemlich schlecht, das war es. #line:97a3eb
+    Mae: Ich kenne dieses Lied wirklich nicht. #line:d0a9f6
+<<endif>>
+
+<<unlockDoodle PumpkinHeadGuy>>
+<<if $band_practice_2_right > 90>>
+    <<unlockDoodle PumpkinHeadGuyResult 1>>
+<<else>>
+    <<unlockDoodle PumpkinHeadGuyResult 2>>
+<<endif>>
+
+<<wait 2>>
+
+// adjust these numbers later
+// also see these in Continuity.cs
+<<if $band_practice_0_right > 90 and $band_practice_1_right > 90 and $band_practice_2_right > 90>>
+    <<unlockAchievement Maestro>>
+    <<wait 2>>
+<<elseif $band_practice_0_right < 50 and $band_practice_1_right < 50 and $band_practice_2_right < 50>>
+    <<unlockAchievement Bass_Ackwards>>
+    <<wait 2>>
+<<endif>>
+
+[[Finish_A3D1]]
+===
+title: Bea_A3D1
+tags: 
+colorID: 4
+position: 4828,-542
+---
+<<if $did_band_practice is 0>>
+    Bea: Ready to play? #line:95d64f
+    Mae: Ja! #line:9f865e
+    Bea: geh und ueberzeuge Gregg. er ist heute sehr langsam. #line:515b89
+    Mae: kann ich machen! #line:a19482
+    <<set $bea_done to 1>>
+<<endif>>
+
+===
+title: Angus_A3D1
+tags: 
+colorID: 4
+position: 4841,-787
+---
+Mae: Hey Angus. #line:0f14aa
+Angus: Hey hey Mae. #line:1cbed5
+Mae: Was gibt's? #line:1e0b04
+Angus: aeh. nichts. #line:1868ec
+Angus: ich habe eine sehr langweilige Woche. #line:fd06e9
+Mae: Meine Guete, ich bin neidisch. #line:fa5d8d
+Angus: eh. #line:6dad55
+
+Angus: Wie steht es mit dem Demontower? #line:310fbe
+
+<<if $demontower_finished is 1>>
+	// got regular ending
+	Mae: Ich habe es geschafft! #line:4f6dee
+	Angus: Whoa really??? #line:badd81
+	Mae: Ja! Ich habe diesen Vampir-Typen getoetet! #line:a72bbb
+	Angus: Hast du das gute Ende bekommen? #line:fa8cbb
+	Mae: ...welches gute Ende? #line:46a035
+	Angus: Oh. Es gibt ein gutes Ende. #line:e37767
+	Mae: GODDAMMIT! #line:e32d3a
+	Angus: ...sorry... #line:1fcea9
+	Mae: AAAAGH. #line:1ad26a
+	Angus: Wie hat dir das... aeh... normale Ende gefallen? #line:08ed6a
+	Mae: es war gut. #line:5b520c
+	Mae: einfach gut. #line:4f7b82
+	Mae: ich brauche nicht einmal ein gutes Ende. #line:a0b8bd
+	Angus: das ist die richtige Einstellung! #line:d89a0b
+	Mae: AAAAAAAGH. #line:dec8f9
+<<elseif $demontower_finished is 2>>
+	// got good ending
+	Mae: Ich habe es geschafft! #line:5873f8
+	Angus: Whoa, wirklich??? #line:6413f9
+	Mae: Ja! Ich habe diesen Vampir-Typen getoetet! #line:14a810
+	Angus: Hast du das gute Ende bekommen? #line:58820a
+	Mae: Vielleicht? Was ist das gute Ende? #line:6772c3
+	Angus: Die Bestie hoert auf zu bluten. #line:2775bc
+	Angus: Und am Ende gibt es einen weiteren Turm. #line:f3e900
+	Mae: ok ja, den habe ich verstanden. #line:1e156c
+	Mae: worum geht es in dem Spiel ueberhaupt? #line:dc4509
+	Mae: da ist ueberall Blut #line:fa774c
+	Mae: und dieser grosse traurige Typ blutet #line:dfc9e7
+	Mae: und da ist ein Vampir am Ende...? #line:9b945f
+	Angus: ich weiss nicht #line:8149fd
+	Mae: huh. #line:835b87
+	Angus: was haeltst du von dem Ganzen? #line:8bfe93
+	-> eeeeeeh? #line:bacc7e
+		Mae: es ist irgendwie komisch und seltsam manchmal #line:cc4481
+		Mae: und es ist wirklich schwer #line:6841ee
+		Mae: JEDOCH #line:498816
+	-> es war gut! #line:53ad8f
+		Angus: grossartig! #line:89afa8
+		Mae: ja, es war hart, aber lustig #line:0de96f
+		Mae: ich mochte den Dracula-Typen #line:3c6ee5
+		Mae: und der Vogel-Papst. #line:457905
+		Angus: schoen. #line:ae2b52
+	Mae: Ich mochte die Skelette sehr #line:8d9538
+	Angus: ja, die Skelette sind gut. #line:77d541
+	Mae: anstaendige Skelette. Wuerde ich wieder spielen. #line:b5d78b
+	Angus: wenn du Interesse hast, es gibt noch einen Haufen anderer Spiele in der Serie #line:8ce8e4
+	Mae: ja, da haette ich Lust drauf #line:443452
+	Angus: mach deinen Computer nochmal kaputt und ich mache einen neuen drauf #line:01e007
+	Mae: ha ha ok, ich werde jede schaebige Pornoseite da draussen besuchen #line:00dbc5
+	Angus: 1 Pornoseiten-Fiasko ist gleich 1 Demontower #line:367a9e
+	Mae: Angus? #line:3df5dc
+	Angus: ja? #line:c5970b
+	Mae: Du bist ein guter Kerl. #line:b454f2
+	<<wait 2>>
+	Angus: :) #line:e85ed9
+	<<wait 2>>
+	Mae: wirst du etwas sagen? #line:a1db82
+	Angus: ich weiss nicht, wie man Komplimente annimmt! #line:063a92
+	Mae: es ist ok, es ist immer noch wahr. #line:099a01
+	Angus: :| #line:5b84ee
+	Angus: ach herrje. #line:9cc814
+	Angus: Danke Mae. #line:cae6b2
+<<elseif $demontower_plays is 0>>
+	// (if has not played it)
+	Mae: Ich habe es noch nicht ausprobiert. #line:00156f
+	Angus: Oh, das solltest du! #line:66d64e
+	Angus: ich habe es auf deinen Laptop geladen #line:47e308
+	Angus: weil ich dachte, es wuerde dir gefallen... #line:61e33c
+	<<wait 2>>
+	Mae: :( #line:9c7322
+	Mae: Nun, jetzt fuehle ich mich einfach schuldig. #line:8ed3d7
+	Angus: nein, nein, es ist cool, sei nicht traurig, es ist nicht schlimm #line:4e20ec
+	Mae :) #line:07a47c
+	Mae: Angus es ist in Ordnung! #line:833701
+	Angus: oh ok. #line:3876ce
+	Angus: Entschuldigung. #line:8f11f5
+    Mae: :| #line:551950
+	Mae: warum entschuldigst du dich? #line:4a8a89
+	Angus: DAS IST EINFACH DAS, WAS ICH TUE! #line:27a514
+<<elseif $demontower_plays > 0 and $demontower_floor <= 2 and $demontower_finished is 0>>
+	// (if has played the game but not beat level 3)
+	Mae: Ja! #line:cf2f0a
+	Angus: Was denkst du denn? #line:aa56b8
+	Mae: Ich weiss es noch nicht? Ich bin noch nicht so weit gekommen. #line:d9dd8a
+	Angus: es ist gut! Ich mag es! #line:afa07b
+	Mae: magst du es? :) #line:3e1175
+	Angus: ich mag es! :) #line:912c87
+	Mae: na dann ist ja gut! #line:9810b7
+	Angus: :| #line:f89745
+	Mae: :| #line:deee21
+<<elseif $demontower_plays > 0 and $demontower_floor > 2 and $demontower_finished is 0>>
+	//(if has played the game and beaten level 3 but not finished the game)
+	Mae: yeah! #line:6519c0
+	Angus: was denkst du! #line:435420
+	->Es macht Spass! #line:bdc47b
+		Angus: ja es ist alles #line:b1d20d
+		Angus: pshew clangg aaaargh! #line:c609ef
+		Angus: huh! huh! Boooowwwwww #line:5ea7ed
+		<<wait 2>>
+		Mae: war das Scat-Gesang? #line:ee0328
+		Angus: das ist mir jetzt peinlich. #line:ece793
+	->Es ist schwer! #line:d7a9a1
+		Angus: das macht es ja soooooo gut. #line:4302bd
+		Mae: ja ich denke schon #line:3c5975
+		Mae: ich meine, wer wird nicht gerne wuetend #line:dea2b7
+		Angus: ich werde nicht wuetend #line:664849
+		Angus: ich tue einfach mein Bestes und das ist genug fuer mich #line:2bb1fc
+		Mae: wirklich? #line:db621e
+		Angus: nein. #line:2703b3
+	->Ich mag die ganzen Skelette! #line:d26da5
+		Angus: Ja, es hat gute Skelette. #line:3ec7f8
+		Mae: Mit Skeletten kann man nichts falsch machen. #line:3c8fd5
+		Angus: sie sind gut. Skelette sind gut. #line:7ea906
+<<endif>>
+
+<<set $angus_done to 1>>
+===
+title: Finish_A3D1
+tags: 
+colorID: 4
+position: 4565,-801
+---
+Mae: Uff. #line:c864f6
+Bea: So schnell. #line:a768a9
+Mae: Du hast gerade einen Knopf gedrueckt! #line:e8dc8b
+Bea: ... #line:7b0c82
+Gregg: ich bin so muede. #line:8cafde
+Angus: Ich habe meine Stimmbaender beim Schreien strapaziert. #line:192fce
+Gregg: Grossartig. #line:f784c9
+Angus: Ich werde so heiser klingen. #line:2c5d07
+<<fadeOut 1 wait>>
+[[TalkAboutLibrary]]
+===
+title: Germ_A3D1
+tags: 
+colorID: 4
+position: 5094,-807
+---
+Mae: Wieder zurueck, um dieses Fiasko zu beobachten, hm? #line:59f985
+Germ: Yep! #line:1d7378
+Mae: Du bist unser einziger Fan, Germ. #line:0b9b8c
+Germ: Ich bin nur hier, um mich zu unterhalten. #line:32d5fa
+Germ: ich bin ein Gentleman der Musse. #line:077e2a
+Mae: schoen. #line:87e82c
+<<set $germ_done to 1>>
+===
+title: StartBandPractice_A2D1
+tags: demo2
+colorID: 3
+position: 2497,-524
+---
+<<lookAt Bea Angus>>
+<<lookAt Gregg Angus>>
+Angus: Schon gut Kinder, ich muss bald los. #line:e2c948
+Bea: Wohin gehst du? #line:1e8f1b
+Angus: Familienkram. #line:deaea6
+Bea: oh. ok. #line:b72a35
+Angus: nur fuer eine Nacht. #line:7bb346
+Bea: ... #line:55d26f
+Angus: ok machen wir das? #line:bd2d11
+<<lookAt Bea Gregg>>
+Gregg: Ja! Lass es uns tun!!! #line:d02545
+<<lookAt Bea Mae>>
+<<lookAt Gregg Mae>>
+Mae: Warte, ich kenne das Lied nicht! #line:2d0bcd
+Mae: Wie, ueberhaupt nicht! #line:b3d3c2
+Mae: Und ich weiss kaum noch, wie man Bass spielt! #line:d80125
+Gregg: Du wirst das schon hinkriegen! #line:6bfa55
+Mae: Ich werde ueberhaupt nicht klarkommen! #line:838dd0
+Angus: Null Selbstvertrauen, hm? #line:729e8a
+Mae: \o/ NEIN! ICH KENNE DAS LIED EINFACH NICHT!!! #line:5f08af
+Mae: _o_ #line:375066
+<<close>>
+<<wait 2>>
+Mae: Ihr bloeden Idioten! #line:ba2baf
+<<lookNearest Bea>>
+<<lookNearest Gregg>>
+<<runBandPractice 1>>
+<<set $did_band_practice to 1>>
+===
+title: EnterLevel_A4D3
+tags: 
+colorID: 6
+position: 5762,-1479
+---
+<<if $dom_friend_gregg>>
+    [[DomFriendGreggEnding]]
+<<else>>
+    [[DomFriendBeaEnding]]
+<<endif>>
+===
+title: DomFriendGreggEnding
+tags: 
+colorID: 6
+position: 5604,-1194
+---
+//Gregg Domfriend
+//fade in on empty bad practice room//
+<<wait 3>>
+//from offscreen to the left//
+<<playAmbientSFX AmbientSFX:band_door_open>>
+<<wait 3>>
+<<toggleSitSwings Mae false>>
+Gregg: Oje. Die Tuer klemmt immer noch. #line:d9cee1
+<<if $found_pentagrams >= 3>>
+	Mae: Heilige Scheisse, ist das ein Pentagramm-Aufkleber? #line:a10ecc
+    <<close>>
+	<<walk Gregg CharEnter1 wait>>
+	Gregg: ja, es ist ein Corpsedriver-Aufkleber #line:6831bd
+	Mae: frage mich, was 4 Pentagramme bedeuten #line:0787cc
+	Gregg: was? #line:eb4b9e
+    <<close>>
+	<<walk Mae CharEnter2 wait>>
+	Mae: nichts #line:f08c52
+<<else>>
+	Gregg: schlimmer, wenn es irgendwie kalt ist #line:440e6e
+	Mae: ich bin so bereit fuer kaltes Wetter #line:ae2b8e
+    <<close>>
+	<<walk Gregg CharEnter1 wait>>
+	Gregg: uuugh ich hasse den Winter #line:d43e5c
+    <<close>>
+	<<walk Mae CharEnter2 wait>>
+	Mae: der Winter ist eigentlich gut #line:170dc1
+<<endif>>
+Mae: noch niemand da. #line:52648f
+Gregg: ein Haufen Faulenzer. #line:5b80e1
+Mae: Es ist, als ob sie nicht einmal wollen, dass die Band Erfolg hat. #line:79ee3f
+Gregg: heh heh #line:16892a
+Mae: wo wuerden wir ueberhaupt spielen, wenn wir es wollten? #line:bdb116
+Gregg: hmmmm #line:5a7795
+Gregg: Ich habe keine Ahnung. #line:42b7f8
+Gregg: Geht und spielt diese Legion Hall Shows in Fort Lucenne #line:4af9c3
+Mae: Oh wow, die waren lustig. #line:b93dd6
+Gregg: Wir waeren jetzt die Oldsters. #line:ba4d43
+Mae: Jep. #line:99ace7
+<<close>>
+<<walk Mae MaeNearSitOnStage wait>>
+<<sit>>
+Gregg: also... aeh... #line:04ae68
+Gregg: Bist du okay? #line:d08faf
+->ich schaetze #line:e14c06
+	Mae: Ich meine, so viel ich heute ueberhaupt sagen kann. #line:34db4b
+	Gregg: Ja. #line:56ba8b
+->nicht wirklich #line:102cc2
+	Mae: Ich meine, ist das irgendjemand von uns? #line:837f01
+	Gregg: Ich weiss es nicht. Angus hat letzte Nacht ziemlich fest geschlafen. #line:0d22e0
+Mae: hmm. Verdaechtig. #line:fcb377
+<<close>>
+<<walk Gregg GreggNearSitOnStage wait>>
+<<jumpAndSit Gregg>>
+<<wait 2>>
+Mae: Glaubst du, dass die Jungs aus der Mine rauskommen? #line:6fd97e
+Gregg: Ich schaetze, das werden wir ziemlich schnell herausfinden. #line:c314b1
+Gregg: hast du heute jemanden als vermisst gemeldet? #line:e6bd66
+Mae: ich weiss es nicht #line:c17bf4
+Mae: aber ich glaube nicht, dass viele von diesen Leuten Leute waren, die ich kannte. #line:ee9615
+Gregg: das kann man nie wissen. #line:0659dc
+Mae: "kann man nie wissen"? #line:80aace
+Mae: passiert dir so etwas oft? #line:7384b6
+Gregg: oh, die ganze Zeit. #line:a1643f
+Gregg: so wie #line:28a37c
+Gregg: ich verstehe nicht wirklich, was da unten ueberhaupt passiert ist #line:b3765a
+Gregg: mit dir #line:7e3179
+Gregg: und dem... was auch immer das war? #line:85bb28
+->der Mordkult der Vaeter? #line:0665b7
+	Gregg: Sicher. #line:d75519
+	Mae: ich habe sie irgendwie verstanden. #line:8d8feb
+	Gregg: wirklich??? #line:715f01
+	Mae: nein. #line:251831
+	Mae: ja. #line:c41786
+	Mae: ich weiss es nicht. #line:9bf6ae
+->der kosmische Horror? #line:b936fd
+	Gregg: ok ja. Das. #line:6c3072
+	Mae: aehm. Es ist alt. #line:c2756f
+	Mae: etwas, das aelter ist als alles, was ich mir vorstellen kann. #line:9b852b
+	Mae: und man kann es im Inneren spueren #line:238029
+	Gregg: und es ist... in einem Loch ausserhalb der Stadt? #line:d52079
+	Mae: ja. #line:d07f1d
+	Mae: nein. #line:86e5b6
+	Mae: wie, das Ding in dem Loch ist... #line:f75b0a
+	Mae: ...verdammt ich habe es verloren. #line:b67053
+	Gregg: ist schon gut. #line:99d1c7
+Mae: es ist wie #line:c08f6d
+Mae: eine Verandalampe, die an ist #line:a108ad
+Mae: und da sind all diese Kaefer drum herum #line:d78ae4
+Mae: und dann geht das Licht aus. #line:a73443
+Mae: und da ist ein Loch, wo das Licht war. #line:8f4fdd
+Mae: es ist wie das, was mir vor langer Zeit passiert ist. #line:74c37b
+Mae: wie ich es dir gestern Abend auf der Couch erzaehlt habe. #line:b8724a
+Gregg: Gott, das war letzte Nacht? #line:27f315
+Gregg: kommt mir vor wie vor 2 Wochen. #line:b75739
+Mae: heh heh ja. #line:d9ccc7
+<<wait 4>>
+<<if $found_pentagrams < 3 and $did_lori_friendship_quest_2 is 0 and $did_germ_friendship_quest_3 is 0>>
+	Mae: es wird komisch sein, wenn du weg bist. #line:cf3342
+	Gregg: also ich meine #line:a99583
+	Gregg: du warst schon weg. #line:909a5a
+	Gregg: und du warst schon mindestens einmal weg, seit du zurueck bist. #line:06d6e9
+	<<if $did_gregg_friendship_quest_2>>
+		Mae: mindestens. #line:1b7b6d
+		Mae: Ich bin ein bisschen gestorben, als ich neulich die Batterie geholt habe. #line:7ef33f
+		Gregg: siehst du? #line:ca29f8
+	<<endif>>
+	Gregg: du bist ein toter Mann. #line:281509
+	Mae: wie, letzte Nacht- #line:38d7a9
+	Mae: es fuehlt sich manchmal an, als gaebe es so viel schreckliche Vergangenheit #line:a74b5f
+	<<if $did_gregg_investigation_quest>>
+		Mae: immer noch gefangen in der historischen Gesellschaft von neulich Abend #line:e55b89
+		Mae: ha ha, mir ist gerade klar geworden, dass ich weiss, was das Bild war #line:5e66d0
+		Gregg: was war es? #line:490b59
+		Mae: Vergiss es. #line:60bcc9
+		Mae: aber es fuehlt sich so an, als ob die Vergangenheit nicht einfach... *VERSCHWINDET*. #line:03a90b
+	<<endif>>
+	Mae: und sie ist immer noch da #line:009f41
+	Mae: als ob man darin schwimmt #line:4b383a
+	Mae: und du kannst keine Zukunft haben. #line:9dfbca
+	Gregg: nah brah #line:19759c
+	<<wait 2>>
+	Mae: "nah brah"? Das war's? #line:35dabf
+	Gregg: was war unser groesstes Verbrechen ueberhaupt? #line:f9c517
+	->fast die Schule niedergebrannt #line:7c29ac
+		Mae: das war sozusagen unser Highschool-Hoehepunkt #line:8ed1b4
+	-> einen schrecklichen Robotersohn auf die Welt bringen? #line:eaf3ec
+		Mae: und ihn dann in den Waeldern am Highway zu lassen? #line:f2e6ed
+	Gregg: eigentlich war es wahrscheinlich, diese Kerle in der Mine gefangen zu halten und sie zum Sterben zurueckzulassen #line:dd28cc
+	Mae: das war Selbstverteidigung!!!! #line:ae3043
+	Gregg: all dieses Zeug- #line:5f3173
+	Gregg: wie, heute ist jetzt anders, weil das passiert ist. #line:29e720
+	Gregg: wir sind anders. #line:62919d
+	Mae: ja #line:d51da1
+	Gregg: so wie #line:496bec
+	Gregg: die Dinge aendern sich. #line:6dc0f7
+	Mae: schaetze ich. #line:ea4abf
+	<<if $did_gregg_friendship_quest_3>>
+		Mae: wie du neulich im Wald gesagt hast #line:ccc36b
+		Mae: wird anders sein, weil wir hier waren. #line:c29aef
+		Gregg: das ist schon was. #line:31db15
+		Mae: etwas etwas etwas etwas #line:94ae42
+	<<endif>>
+<<else>>
+	Gregg: was fuer ein seltsamer Herbst #line:0804bb
+	Mae: Ja. Ich meine, sogar abgesehen von letzter Nacht. #line:562d39
+	Mae: die seltsamsten Wochen meines Lebens #line:065524
+	<<if $found_pentagrams >= 3 and $did_lori_friendship_quest_2 is 0 and $did_germ_friendship_quest_3 is 0>>
+		// if only did pentagrams //
+		Mae: also ich habe nach dem Pentagramm-Aufkleber gefragt? #line:5ed0ad
+		Mae: ja, also da waren diese seltsamen Teenager, die mir sagten, ich sei #line:be8361
+		Mae: aeh... vergiss es. Es ist wirklich dumm, es laut auszusprechen. #line:0f24f3
+		Gregg: ok #line:b4763d
+		Mae: wie ich weiss manchmal seltsame Zufaelle #line:62289c
+		Mae: das ist wie wenn der Fernseher im Zimmer laeuft, damit man sich nicht allein fuehlt #line:57fd53
+		Mae: oder so #line:76ce1b
+		Gregg: eines der besten Dinge am Zusammenleben mit Angus #line:a38b38
+		Gregg: dass er immer da ist #line:8eb09b
+		Mae: Angus ist dein Fernseher #line:298b40
+		Gregg: und mein Heizstrahler. #line:1a767f
+		Mae: also diese Teens haben mir gesagt, ich wuerde einen Haufen Pentagramme sehen #line:0e7d78
+		Mae: das wird dir gefallen - eines war neulich auf einem Donut #line:817c7a
+		Gregg: sie haben den Teufel in sich #line:e007af
+		Mae: und ein anderer war letzte Nacht unten im Tunnel #line:530996
+		Gregg: ich meine, du weisst, was Angus sagen wuerde #line:bea196
+		<<if $did_angus_investigation_quest>>
+			Mae: ha ha ja #line:01c8a5
+			Mae: Muster suchen #line:13effb
+		<<else>>
+			Mae: was? #line:3e52a1
+			Gregg: er redet davon, dass die Leute Muster sehen, die sie sehen wollen #line:d0c2fb
+			Gregg: als ob es in unseren Gehirnen ist. Unsere Gehirne machen das. #line:6af885
+		<<endif>>
+		Gregg: weisst du, dass er frueher Videos online gemacht hat? #line:fe2de8
+		Mae: wirklich? #line:d6460b
+		Gregg: ja, er wuerde gerne ueber Atheismus erzaehlen und auch kochen #line:d22dbe
+		Gregg: "Vernunft und Kekse" #line:9bef9d
+		Mae: heilige Scheisse #line:f0a5d8
+		Gregg: ich denke ich habe ihn beruhigt. #line:5ec09a
+		Mae: macht er immer noch Kekse? #line:93f95e
+		Gregg: ja und er schreit auch immer noch ueber Atheismus, aber #line:410e1b
+		Gregg: irl. #line:cec42c
+		Mae: huh. #line:b689f8
+	<<elseif $found_pentagrams < 3 and $did_lori_friendship_quest_2 is 1 and $did_germ_friendship_quest_3 is 0>>
+		//if only did lori tracks 2//
+		Mae: da ist dieses Kind, mit dem ich rumgehangen habe, lori #line:95f70e
+		Gregg: du hast mit Kindern rumgehangen? #line:c34862
+		Mae: eh. Sie sieht aus, als braeuchte sie Fuehrung. #line:2f859b
+		Gregg: das ist nett von dir, Alter #line:9af469
+		Mae: sie geht gerne zu den Bahngleisen #line:bda64a
+		Mae: und zerquetscht diese kleinen Metallspielzeug-Typen #line:dbcef8
+		Mae: und sie verwandeln sich in diese fantastischen, kleinen, kaputten Monster #line:da5b77
+		Gregg: das habe ich frueher mit Pfennigen gemacht #line:90be50
+		Gregg: habe nicht gross genug gedacht, schaetze ich #line:852b78
+		Mae: Ich weiss nicht. Habe darueber nachgedacht, wie es wohl waere, eines dieser Spielzeuge zu sein #line:376228
+		Mae: wie von diesem grossen massiven Ding ueberrollt zu werden, ueber das man keine Kontrolle hat #line:bba63b
+		Mae: und es laesst dich ganz deformiert zurueck und... ich weiss nicht... #line:9b3684
+		Gregg: klingt wie hier #line:39065c
+		Mae: hoert sich an wie hier #line:baa721
+		Gregg: weisst du, mein Vater wollte unbedingt, dass ich aufs College gehe #line:3aee73
+		Mae: oh vertrau mir, ich erinnere mich. #line:ec447d
+		Gregg: oh richtig. Ich habe vergessen, dass du dabei warst. #line:0a430f
+		Gregg: wie auch immer, er war ganz #line:79b9d4
+		Gregg: "Ich will nicht, dass du in einer Muehle arbeiten musst" #line:03f958
+		Mae: ha ha was #line:301270
+		Gregg: hey dad. Alter. die Fabriken waren schon halb weg, als du in meinem Alter warst. #line:80be46
+		Mae: Ja Dad. Wir arbeiten jetzt bei Snack Falcon. #line:c9b21a
+		Gregg: komm damit klar, Dad. #line:856a3e
+		<<if $did_bea_friendship_quest_1>>
+			Mae: Ja, ich habe auch schlechte Nachrichten ueber das Fort Luzenne Einkaufszentrum #line:9b5c9f
+			Gregg: oh Gott, Alter, das ist jetzt ein totes Einkaufszentrum #line:60a2c4
+			Mae: es ist extrem tot. #line:e83d55
+			Mae: es ist doch nur ein Gebaeude. Es macht nichts aus. #line:3cf735
+		<<endif>>
+	<<elseif $found_pentagrams < 3 and $did_lori_friendship_quest_2 is 0 and $did_germ_friendship_quest_3 is 1>>
+		//if only did Germ FQ3//
+		Mae: warst du schon mal in Germs Haus? #line:1886a0
+		Gregg: Noe. Wo wohnt er denn? #line:7182c3
+		Mae: hinten im Wald, hinter dem grossen Parkplatz #line:f93cb9
+		Mae: wie letzte Nacht, wir waren quasi in seinem Hinterhof #line:e2d4bc
+		Gregg: oh richtig. Mae: Ja. #line:627d1c
+		Mae: er hat diese gruselige Oma #line:bfec6e
+		Mae: sie hat mir sozusagen die Zukunft vorausgesagt. so aehnlich. #line:730148
+		Gregg: weisst du... Germ hat mir mal die Zukunft vorausgesagt #line:847f70
+		Mae: wirklich??? #line:4b3516
+		Gregg: ja, wir waren im Clik Clak #line:51f6df
+		Gregg: und er hat sich angesehen, wie ich in eine Pizzascheibe gebissen habe #line:451346
+		Mae: pizzamancy oder so ein Scheiss #line:95634b
+		Gregg: es war seltsam. Er wurde ganz ernst. #line:e2d29e
+		Mae: was war dein Glueck? #line:276d2e
+		Gregg: sagte, ich wuerde sterben, wenn ich von einem Bus angefahren werde #line:8331aa
+		Mae: wow #line:b92729
+		Gregg: ja, was fuer ein Wermutstropfen, richtig #line:9960d3
+		<<if $did_gregg_friendship_quest_1>>
+			Mae: Ich dachte, du wuerdest neulich Nacht sterben #line:af524a
+			Mae: als wir die Kiste mit den Teilen nach oben gebracht haben #line:62f764
+			Gregg: du und ich #line:9d3faf
+		<<endif>>
+		Gregg: Also, was hat Germs Oma gesagt? #line:17869d
+		Mae: ich meine, wenn du schielst... was ist letzte Nacht passiert? #line:610129
+		Mae: ich meine, sie war auch ziemlich unhoeflich zu mir #line:04615b
+        Mae: du weisst schon #line:547d8b
+        Mae: Gehirnprobleme. #line:1a3f89
+        Gregg: blech. #line:3d14c3
+        Mae: aber trotzdem, irgendwie gruselig. #line:9eb1bc
+		Gregg: sie sind einfach eine gruselige Familie, denke ich #line:35cbb1
+		Mae: sie haben ein Trampolin #line:cc44f4
+		Gregg: oh Mann! Gluecklich. #line:3dde24
+		Mae: Germ ist ziemlich toll. Ich werde nicht luegen. #line:9428fb
+		Gregg: Ich bin ein grosser Fan. #line:3a51a4
+	<<elseif $found_pentagrams >= 3 and $did_lori_friendship_quest_2 is 1 and $did_germ_friendship_quest_3 is 0>>
+		//if only did pentagrams and lori//
+		Mae: Teens, Mann. #line:d568f5
+		Gregg: Teenager? #line:9ed7c3
+		Mae: Ich habe gerade gedacht, wie #line:c1d4d7
+		Mae: Weisst du noch, wie ich dich nach diesem Corpsedriver-Aufkleber gefragt habe? #line:1f3b8d
+		Gregg: ja #line:8beebe
+		Mae: also diese drei seltsamen Teenager haben mir gesagt, ich wuerde einen Haufen von ihnen sehen #line:548d6b
+		Mae: das wird dir gefallen- einer war auf einem Donut in der Nacht #line:59291e
+		Gregg: hoellischer Gruss an den Donut-Wolf #line:db4a15
+		Mae: und ein anderer war letzte Nacht unten in diesem Tunnel #line:c60514
+		Gregg: ich meine, du weisst, was Angus sagen wuerde #line:3627b0
+		<<if $did_angus_investigation_quest>>
+			Mae: ha ha ja #line:efb95d
+			Mae: Muster suchen #line:9a4d9e
+		<<else>>
+			Mae: was? #line:c52fc8
+			Gregg: er redet davon, dass die Leute Muster sehen, die sie sehen wollen #line:e45688
+			Gregg: als ob es in unseren Gehirnen waere. Unsere Gehirne machen das. #line:2126ba
+		<<endif>>
+		Mae: aber warte - da war dieser ANDERE Teenager, Lori #line:08a541
+		Mae: sie ist ungefaehr 15. wir haben zusammen rumgehangen #line:fd8c9c
+		Gregg: also haengst du nur... mit Teenagern rum? #line:108af0
+		Mae: ew nein. aber lori... #line:ec096b
+		Mae: sie braucht einen guten Einfluss #line:ec0a55
+		Gregg: das ist nett von dir #line:fdab60
+		Mae: also sie steht auf Horrorfilme und coole Sachen #line:4afda6
+		Mae: und sie zerquetscht diese kleinen Spielzeugtypen auf den Bahngleisen #line:257098
+		Gregg: klingt toll #line:b78576
+		Mae: Ich weiss es nicht. Wie damals, als wir Teenager waren #line:6d2168
+		Mae: und wir verrueckte Sachen machen konnten #line:a4bf2d
+		Mae: und es war wie erwartet #line:c89532
+		Gregg: Alter, seit du zu Hause bist, ist es rund um die Uhr wie verrueckt #line:256859
+		Mae: ja aber wie #line:213ab2
+		Mae: das ist Scheisse, die uns *passiert* ist #line:3d3596
+		Mae: wie das Sehen der Pentagramme #line:b83a7c
+		Mae: oder wenn du einer von diesen Spielzeugtypen warst, die vom Zug zerquetscht wurden #line:0d56f2
+		<<if $did_bea_friendship_quest_2>>
+			Mae: oder ich weiss nicht, Bea und ich waren neulich nachts in einem Keller gefangen #line:bdcde3
+		<<endif>>
+		Gregg: Ich denke schon #line:0ac1a1
+		Mae: ist das der Unterschied zwischen dem Kindsein und dem Erwachsensein? #line:bffa56
+		Gregg: nein, ganz und gar nicht. #line:43fada
+		Mae: ja, ich weiss nicht, worauf ich hinauswollte. #line:659856
+	<<elseif $found_pentagrams >= 3 and $did_lori_friendship_quest_2 is 0 and $did_germ_friendship_quest_3 is 1>>
+		//if only did pentagrams and germ fq3//
+		//Mae: this has been like the spookiest couple weeks of my life
+		Gregg: ich denke, das ist fuer uns alle so #line:63f61d
+		Mae: ganz abgesehen von all dem anderen Kram #line:2d386a
+		Mae: weisst du noch, wie ich dich nach diesem Pentagramm-Aufkleber gefragt habe? #line:44d367
+		Gregg: ja, Corpsedriver ist wirklich gut #line:56292b
+		Mae: diese drei seltsamen Teenager... ok, das klingt dumm... #line:87ad4e
+		Gregg: ich habe gerade Lust auf etwas Dummes #line:d73a9b
+		Mae: ja, sie sagten, ich wuerde ein paar Pentagramme sehen #line:e15eec
+		Gregg: ok #line:7147cc
+		Mae: das wird dir gefallen- eines davon war neulich auf einem Donut #line:6a13bd
+		Gregg: reite den Wagen zur Donut-Hoelle. Das steht schon im Motto. #line:8f4dc2
+        Mae: oh, wo wir gerade von seltsamen Dingen sprechen, ich war neulich in Germs Haus. #line:35e900
+        Gregg: oh seltsam! #line:1bee08
+		Mae: und dann hat mir seine Oma die Zukunft vorausgesagt. irgendwie. vielleicht. #line:960c7a
+		Gregg: weisst du, dass Germ mir mal die Zukunft vorausgesagt hat? #line:383f15
+		Mae: Whoa, wirklich? #line:bbba03
+		Gregg: Ja, er hat mir gesagt, dass ich von einem Bus ueberfahren werden wuerde. #line:51d4b9
+		Gregg: als haette er es in dem Bissen gelesen, den ich von einem Stueck Pizza genommen hatte #line:a81ea6
+		Mae: wurdest du von einem Bus angefahren und bist gestorben? #line:3ca644
+		Gregg: noch nicht! #line:8a6b4f
+		<<if $did_gregg_friendship_quest_1>>
+			Gregg: Ich bin auch nicht umgekommen, als wir neulich die Kiste die Treppe hochgetragen haben. #line:79672b
+		<<endif>>
+		Mae: Ich denke, das bedeutet, dass du gewinnst. #line:0a4f60
+		Gregg: vielleicht ist es das, was Gewinnen bedeutet. #line:b21a24
+		Mae: whoa #line:e72f91
+		Mae: also das ist sozusagen mein Punkt- #line:8bf839
+		Mae: sind das nur zufaellige Dinge und wir hatten einfach Glueck, nicht zu sterben #line:33c0c4
+		Mae: oder gibt es eine Art Muster oder #line:ba0f63
+		Mae: ich meine nicht Gott, aber wie... #line:88cf7d
+		Mae: etwas? #line:7ded34
+		Gregg: ich meine, du weisst, was Angus sagen wuerde #line:e2626b
+		<<if $did_angus_investigation_quest>>
+			Mae: ha ha ja #line:dc7fba
+			Mae: Muster suchen #line:ba6e27
+		<<else>>
+			Mae: was? #line:245c32
+			Gregg: er redet davon, dass Menschen Muster sehen, die sie sehen wollen #line:dd2bdf
+			Gregg: als ob es in unseren Gehirnen ist. Unsere Gehirne machen das. #line:a30ceb
+		<<endif>>
+		Mae: Du *willst* doch irgendwie, dass es etwas gibt, das das alles bewirkt, oder? #line:99967e
+		Mae: selbst wenn es schlecht ist, bedeutet es, dass es eine Art Kontrolle gibt #line:e35286
+		Mae: als ob jemand, der wirklich schlau ist, es herausfinden koennte #line:a73603
+		Gregg: Nein. Das ist gruselig. #line:95e129
+		Mae: nicht gruseliger als germ und seine Oma und diese drei Teenager #line:75fe12
+		Gregg: Germ ist nicht gruselig. Gruselig, vielleicht. #line:73c30a
+		Mae: Ja. Germ ist die Bombe. #line:4411ac
+		Mae: das Leben ist gruselig, Mann. #line:463da9
+		Gregg: du luegst nicht #line:030daa
+	<<elseif $found_pentagrams < 3 and $did_lori_friendship_quest_2 is 0 and $did_germ_friendship_quest_3 is 1>>
+		//if only did lori tracks 2 and germ fq3//
+		Mae: Ich war also neulich bei Germ zu Hause #line:15716b
+		Gregg: whoa, wirklich? #line:92ac31
+		Gregg: Ich war noch nie da oben. #line:097a50
+		Mae: ja, es ist da oben im Wald #line:8b2e38
+		Mae: eigentlich waren wir letzte Nacht in seinem Hinterhof #line:04f680
+		Gregg: oh richtig #line:fc8078
+		Gregg: wie sieht sein Haus aus? #line:bb8238
+		->Schoen. Gemuetlich. #line:15af3d
+			Mae: er hat juengere Geschwister. habe sie aber noch nicht kennengelernt. #line:358f07
+			Mae: seine Oma wohnt auch dort. #line:ca93af
+		->sie haben ein Trampolin #line:ce1b5d
+			Gregg: aaaaaaaaaaaaw #line:5b48f6
+			Mae: ich bin total draufgesprungen #line:b1dbf8
+			Gregg: AAAAAAAAAAAAAAAAAAAAAWWW!!!! #line:4608d9
+			Gregg: gluecklich. #line:b8db2e
+		Mae: wie auch immer, seine Oma hat mir die Zukunft vorausgesagt. irgendwie, irgendwie, vielleicht. #line:226866
+		Mae: das war seltsam. #line:cd9deb
+		Gregg: Germ hat mir einmal die Zukunft vorausgesagt. #line:4e6b1d
+		Mae: wirklich? #line:6371b7
+		Gregg: ja, er sagte, ich wuerde von einem Bus ueberfahren werden #line:8ee561
+		Gregg: konnte es daran erkennen, wie ich ein Stueck Pizza ass #line:8d9402
+		Mae: hat er Witze gemacht? #line:d4df9b
+		Gregg: schwer zu sagen mit Germ manchmal. #line:118cce
+		Gregg: was hat seine Oma gesagt? #line:3ec229
+        Mae: ich meine, wenn man die Augen zusammenkneift... so in der Art, wie es letzte Nacht passiert ist? #line:f2ff8f
+		Mae: ich meine, sie war auch ziemlich unhoeflich zu mir #line:9ea896
+        Mae: du weisst schon #line:d8677d
+        Mae: Gehirnprobleme. #line:aa9eb5
+        Gregg: blech. #line:123d7c
+        Mae: aber trotzdem, irgendwie gruselig. #line:c6a832
+		Gregg: Gruselige Familie. #line:16a844
+		Mae: Ich weiss es nicht. Ich denke schon. #line:35557f
+		Mae: da ist dieser Teenager mit dem ich rumhaenge, Lori #line:c411b6
+		Gregg: Du haengst mit Teenagern ab, oder? #line:af0c7a
+		Mae: Nee. Wie, sie braucht ein Vorbild. #line:d1be26
+		Gregg: das ist nett von dir. #line:f94c07
+		Mae: jedenfalls wohnt sie draussen an den Gleisen #line:2a4674
+		Mae: und sie zerquetscht gerne diese kleinen Metallspielzeug-Typen #line:2ee12a
+		Mae: indem sie sie auf die Gleise legt, wenn ein Zug vorbeifaehrt #line:83d8fc
+		Gregg: oh ja, das habe ich immer mit Pfennigen gemacht #line:816cbc
+		Gregg: ich schaetze, ich musste groesser denken #line:26e032
+		Mae: So wie damals, als Germs Oma mir die Zukunft voraussagte #line:c6d07d
+		Mae: ich konnte das Gefuehl nicht loswerden, dass es wie etwas anderes war, das ich gesehen hatte #line:ec52ca
+		Mae: und mir wurde klar, was es gestern Abend war, als wir dort unten waren #line:eecd2b
+		Mae: es fuehlte sich an, als ob ich auf den Gleisen zerquetscht wuerde #line:12982f
+		Mae: und ich wurde ganz deformiert und komisch und so #line:47c3f5
+		Gregg: huh #line:e7ba86
+		Gregg: das ist heftig #line:9d49ac
+		Mae: wie damals, als sie den Bergbau suedlich von hier betrieben #line:ee5ad5
+		Gregg: ugh. #line:7378c3
+		Mae: ich weiss, genau #line:a86026
+		Mae: als waere alles durcheinander geraten und es sah total zerquetscht aus #line:2557ed
+		Mae: ich weiss nicht, worauf ich hinaus will #line:e09ff4
+		Mae: Mann, ich brauche das laengste Nickerchen, das man sich vorstellen kann #line:b75848
+		Mae: wie eines, das *nicht* im Krankenhaus ist. #line:7579a7
+		<<if $did_gregg_friendship_quest_2>>
+			Gregg: Ich meine, wir koennen eine andere Autobatterie stehlen gehen #line:4091cf
+			Mae: ha ha ha ha oh mein Gott #line:811f63
+			Gregg: dich gleich ausschalten #line:cab827
+			Mae: Sharkle kann mich wieder besuchen #line:982ea8
+			Gregg: was? #line:664de9
+		<<else>>
+			Gregg: ich kann dir was auf den Kopf hauen #line:2418fb
+			Mae: ja, mach das #line:10e383
+			Mae: eigentlich nicht #line:0371c0
+			Mae: nach der letzten Nacht koennte es tatsaechlich einen Hirnschaden verursachen #line:07732a
+			Gregg: wie geht es deinem Kopf? #line:1ee6c3
+			Mae: funktioniert noch. #line:953e30
+		<<endif>>
+	<<elseif $did_lori_friendship_quest_2 is 1 and $did_germ_friendship_quest_3 is 1>>
+		//if did lori tracks 2, germ fq3//
+		Mae: oh man wenn du wuesstest #line:97373f
+		<<if $found_pentagrams >= 3>>
+			Mae: also als wir neulich im Donut Wolf waren? #line:02cf7e
+			Gregg: ja #line:744ab3
+			Mae: Ich habe diesen Donut mit dem Pentagramm drauf #line:bf8f26
+			Mae: das war Teil von irgendeinem Scheiss, den mir diese drei seltsamen Teenager erzaehlt haben #line:f821f2
+			Mae: als ob es mir helfen wuerde #line:9ebcc0
+			Mae: und letzte Nacht habe ich ein weiteres Pentagramm unten im Tunnel gesehen #line:ca9220
+			Gregg: deshalb hast du mich nach diesem Aufkleber gefragt? #line:e204fb
+			Mae: ja. #line:68052e
+			Gregg: ich meine, du weisst, was Angus sagen wuerde #line:c6c385
+			<<if $did_angus_investigation_quest>>
+				Mae: ha ha ja #line:e88cd0
+				Mae: Muster suchen #line:22bfa3
+			<<else>>
+				Mae: was? #line:2c29f9
+				Gregg: er redet davon, dass Menschen Muster sehen, die sie sehen wollen #line:ab3b9a
+				Gregg: als ob es in unseren Gehirnen ist. Unsere Gehirne machen das. #line:b6ee10
+			<<endif>>
+			Mae: ok, also hoer dir das an- #line:3b1dd0
+		<<endif>>
+		Mae: Ich war neulich in Germs Haus #line:bc43df
+		Gregg: HEILIGE SCHEIssE #line:9ec4b9
+		Gregg: Ich war noch nie da! #line:1e480b
+		Mae: Oh, es ist schoen. Oben in den Waeldern. Hat ein Trampolin. #line:f15056
+		Gregg: aw luckyyyyyyyyyy. #line:54b58a
+		Mae: also seine Oma hat mir die Zukunft vorausgesagt. ein bisschen. vage? #line:0cb96e
+        Mae: vielleicht habe ich nur gehoert, was ich hoeren wollte, oder so? #line:3992d2
+		Gregg: Germ hat mir einmal die Zukunft vorausgesagt. Vielleicht ist es eine Familienangelegenheit? #line:912c56
+		->Was hat er gesagt? #line:782ca3
+			Gregg: dass ich sterben werde #line:96b281
+			Gregg: von einem Bus ueberfahren werden #line:1d8b13
+			Mae: wow. Das ist ein ziemlicher Wermutstropfen. #line:5d53c1
+			Gregg: eh. #line:15fcaf
+		->wie hat er das gemacht? #line:5f8e4c
+			Gregg: er hat sich die Bisspuren in der Pizza angesehen, die wir gegessen haben #line:c35ebc
+			Mae: Pizzamann #line:e4df9f
+			Gregg: hast du mit Germs Oma Pizza gegessen oder so? #line:cfe668
+			Mae: Nee. Hat mich nur angeschaut. #line:7d59ff
+		Gregg: Und was hat sie dir erzaehlt? #line:b08cb5
+		Mae: ich meine, wenn man die Augen zusammenkneift... so in etwa, was letzte Nacht passiert ist? #line:e4eb08
+		Mae: ich meine, sie war auch ziemlich unhoeflich wegen meiner ganzen #line:28fef9
+        Mae: du weisst schon #line:2ecbae
+        Mae: Gehirnprobleme. #line:7b56d0
+        Gregg: bloede. #line:09a366
+        Mae: aber trotzdem, irgendwie gruselig. #line:5ac5cc
+        Mae: und wie... #line:fe9af9
+		Mae: ok, da ist also diese ANDERE Person, dieses Maedchen Lori, mit der ich rumgehangen habe? #line:4f5319
+		Gregg: Wer ist Lori? #line:aeb622
+		Mae: Lori Meyers. Sie ist ungefaehr 15, wohnt draussen bei den Gleisen #line:5804fe
+		Gregg: Du... haengst jetzt mit Teenagern rum? #line:5e5fc0
+		Mae: eh. Sie braucht ein Vorbild. #line:9e8e2d
+		Gregg: das ist nett von dir, Alter #line:ecf30e
+		Mae: wir haben diese Sache gemacht, wo man diese kleinen Metallfiguren auf die Gleise stellt #line:af5fd9
+		Mae: und der Zug faehrt ueber sie drueber und sie werden ganz deformiert #line:e8fb2a
+		Gregg: oh ja, das habe ich mit Pfennigen gemacht #line:549fa3
+		Gregg: schaetze, ich habe nicht gross genug gedacht #line:64ad07
+		<<if $found_pentagrams >= 3>>
+			Mae: die Pentagramm-Sache und Germs Grossmutter und all das #line:e92b1f
+		<<else>>
+			Mae: Germs Grossmutter und all das hier #line:2d966c
+		<<endif>>
+		Mae: als ob da irgendetwas drunter ist, was alles zusammenhaelt #line:4088a5
+		Mae: aber nicht, weil es sich um uns sorgt #line:8a7dd1
+		Mae: das Ding in dem Loch, die Geistertraeume oder was auch immer, an das ich mich jetzt kaum noch erinnern kann #line:c93cab
+		Mae: sogar wie Possum Springs, als wir noch viel mehr Jobs und Leute und so hatten #line:e31e5d
+		Mae: und jetzt haben wir keine mehr. Und niemand ist daran schuld, wirklich #line:476283
+		Mae: zumindest niemand hier und jetzt #line:9893a6
+		Mae: als ich diese kleinen Spielzeugtypen mit Lori zerquetscht habe #line:080a3e
+		Mae: ich dachte, wow, das sind wir #line:ad070d
+		Mae: Ich weiss es nicht. Es ist alles wie Traumlogik oder was auch immer #line:84b139
+		Mae: ich habe das Gefuehl, es gibt diese Riesen- #line:52087f
+		Mae: wie damals, als die Muehlen und Minen geschlossen wurden #line:0364c8
+		Mae: aber diese Arschloecher unten in den Tunneln dachten, sie koennten es zurueckbringen #line:03ad31
+		Mae: oder wie niemand mehr in die Kirche geht #line:52d93a
+		Mae: aber Gott wird trotzdem zurueckkommen oder so #line:aecffa
+		Mae: oder wie du die Sache mit den Schafen offen laesst #line:faaee4
+		Gregg: hey! #line:d20308
+		Mae: wie fuer sie das Tor weg ist #line:121ed6
+		Mae: und fuer dich sind die Schafe weg und... #line:8d7831
+		Mae: dann wie *mein* ganzer Schwachsinn, und... #line:236de8
+		Mae: ... #line:14a4a4
+		Mae: ok ich habe den Faden verloren #line:968a89
+		Gregg: Mann #line:561a91
+		Gregg: du hast recht. #line:bd6654
+		Gregg: du *hast* ein paar seltsame Wochen gehabt #line:8adcb0
+		Gregg: du brauchst... irgendwas... #line:392757
+		Mae: ja Mann. #line:19cce3
+		Mae: freue mich auf die laengste Nacht #line:c1001e
+		Mae: etwas, um alles zurueckzusetzen #line:a9bf73
+		Gregg: wir haben das ganze Longest Night-Zeug auf der Arbeit #line:6e2b39
+		Gregg: du kannst einfach da runter kommen #line:745896
+		Mae: jedes Jahr frueher und frueher #line:c15d0c
+	<<endif>>
+<<endif>>
+
+<<if $mallard_rats>>
+	Mae: oh ich habe uns auch eine Rattenplage in der Stadt beschert? #line:5eb1b5
+	Gregg: was? #line:fbb47f
+	Mae: eh. Das ist sozusagen das einzig Gute, was passiert ist. #line:a24ffb
+	Mae: Hoffnung entsteht. Ratten vermehren sich. #line:3cd159
+	Gregg: sehr poetisch. #line:260ee4
+	Mae: ich bin extrem poetisch. #line:1bae5c
+<<endif>>
+Gregg: ... #line:45e09c
+<<wait 2>>
+Gregg: Sie haben Casey getoetet. #line:e7692b
+Mae: Ja, das haben sie. Sie haben Casey getoetet. #line:e2c32a
+Gregg: Ich versuche, nicht daran zu denken. #line:019928
+Gregg: Sollen wir... es seinen Eltern sagen? #line:adbebf
+Mae: was sollen wir ihnen sagen? #line:79e9bf
+Gregg: ich weiss es nicht. #line:fd4a9a
+Gregg: ist es schlimmer, sie glauben zu lassen, dass er lebt #line:ab515a
+Gregg: oder ihnen zu sagen, dass er in einem bodenlosen Loch ist #line:5457cd
+Gregg: in einem Tunnel #line:0b8685
+Gregg: in den Waeldern #line:efbe33
+Gregg: mit einem Haufen Typen, die bald tot sein werden? #line:f2442a
+    ->wir sollten es ihnen sagen #line:dd5cd0
+        Gregg: ok #line:c72772
+        Gregg: du musst dir ueberlegen, was wir sagen. #line:413f1e
+        Mae: ich lasse es dich wissen, wenn mir etwas einfaellt. #line:d4867a
+        Gregg: klingt gut. #line:970be2
+    ->wir sollten es ihnen nicht sagen #line:d6dc53
+        Gregg: das fuehlt sich alles nicht gut an. #line:ea6e14
+        Mae: wie koennte es, Mann? #line:cd177c
+Mae: ich denke, es ist wichtig, dass wir es wenigstens wissen #line:3e5ffb
+Mae: macht es... etwas bedeuten? #line:a9f705
+Mae: ich weiss nicht, wie ich es sagen soll... #line:2d959f
+Mae: ich denke, wir koennten die einzigen Dinge im Universum sein #line:d79387
+Mae: die sich um irgendetwas kuemmern. #line:5e4acb
+Mae: oder die sich ueberhaupt kuemmern *koennen*. #line:3edbd3
+Mae: denkst du, dass irgendetwas davon etwas bedeutet? #line:1058a3
+Mae: oder wie, irgendwas bedeutet? #line:90ab73
+Gregg: hm. #line:a4b312
+Mae: tut es das, Gregg? #line:07f8b2
+
+<<close>>
+<<playAmbientSFX AmbientSFX:band_door_open>>
+<<wait 3>>
+<<close>>
+<<lookAt Gregg Angus>>
+<<walk Angus AngusEnterEnd wait>>
+Angus: hey babies #line:b0893f
+Gregg: Hey Schatz. #line:71fea1
+Mae: "babies"? #line:d49fff
+Gregg: wie war die Arbeit? #line:b654ac
+Angus: Mensch, ich bin wund von... allem. #line:cc3e3a
+<<if $mine_woods_run_away_hits > 0>>
+    //if hit obstacle during minewoods//
+	Mae: Ich bin neulich in zig Buesche gerannt. #line:a60f05
+	Mae: im Grunde genommen hasst mich mein Koerper im Moment. #line:40aabe
+<<endif>>
+Gregg: muss Dehnuebungen machen #line:130b7c
+<<lookAt Gregg Mae>>
+Mae: so wie #line:e8cbca
+Mae: kann ich mit euch nach Bright Harbor ziehen? #line:dc30d1
+Gregg: ! #line:c01bb9
+Angus: ! #line:df8b56
+Gregg: aeh #line:e4cf8a
+Angus: aehm #line:0e465e
+Gregg: Ich dachte, du koenntest nicht von zu Hause weg? #line:d141eb
+Mae: eh. Ihr seid genug zu Hause. #line:b77b48
+Angus: ... #line:90ce69
+Mae: oderrrrrr vielleicht besuche ich euch einfach fuer eine Weile, wenn ihr euch eingelebt habt. #line:9d7c42
+Angus: natuerlich! #line:fa359a
+Gregg: ja, Alter, das waere toll. #line:1d7297
+Mae: hey Leute #line:272e04
+Angus: ja? #line:0b4419
+Mae: Danke, dass du mich letzte Nacht gerettet hast. Zum Beispiel, wiederholt. #line:526344
+Gregg: nicht mal ein Problem, Alter. #line:58f767
+Gregg: wir werden dich so oft retten, wie es noetig ist #line:dd4e61
+
+<<close>>
+<<playAmbientSFX AmbientSFX:band_door_open>>
+<<wait 2>>
+<<lookAt Gregg Bea>>
+<<walk Bea CharEnter2 wait>>
+Gregg: hey Bea. #line:9be996
+Mae: heeeey bea. #line:b9d38c
+Bea: ... #line:0b2fa3
+<<wait 3>>
+Mae: aaaaber wirst du etwas sagen? #line:a34e5c
+Bea: ich weiss nicht wirklich, was ich sagen soll #line:6ee2eb
+Bea: was zum Teufel ist letzte Nacht ueberhaupt passiert? #line:69911c
+->ugh. Frag mich nicht. #line:6c9f27
+	Mae: koennen wir nicht einfach wie #line:4c5f1b
+	Mae: ein Lied spielen #line:5afd46
+	Mae: und Pizza holen #line:7dbf92
+	Mae: und morgen darueber nachdenken? #line:1da42b
+	Bea: ich hatte einen Traum, dass die Welt untergeht. #line:270824
+	Mae: song. und. pizza. #line:0a9e19
+	<<wait 2>>
+	Bea: in Ordnung. #line:21186c
+	Mae: sweeeeet. #line:00945f
+	<<lookAt Gregg Mae>>
+	<<wait 1>>
+	Gregg: Das tut es, Mann. #line:c17afe
+	Mae: was? #line:ae4018
+	Gregg: ich habe deine Frage vor 2 Minuten beantwortet. #line:0e3d42
+	Mae: welche Frage? #line:0cfbc3
+	Mae: worueber haben wir ueberhaupt gesprochen? #line:5ed4a5
+->uh. nichts. UEberhaupt nichts. #line:069e47
+	Bea: oh gut, also hatte ich gerade den schlimmsten und seltsamsten Albtraum aller Zeiten #line:c5277b
+	Bea: uebrigens, schoene Nachrichten zum Aufwachen #line:1f4f41
+	Mae: ooooooh Gott, ich war im Halbschlaf, lass uns nicht darueber reden #line:06519b
+	Bea: ich glaube ich habe mir letzte Nacht den Knoechel verstaucht #line:a6cf83
+	Mae: koennen wir fuer den Rest des Tages einfach nicht mehr ueber letzte Nacht reden? #line:ae0d6a
+	Bea: aeh #line:72dc60
+	Bea: keine Versprechungen #line:9675d8
+	<<lookAt Gregg Mae>>
+	Mae: koennen wir nicht einfach ein Lied spielen #line:87407a
+	Mae: und Pizza holen #line:e0caad
+	Mae: und morgen darueber reden? #line:a54525
+	<<wait 2>>
+	Angus: sicher #line:1f9b5c
+	Bea: wie auch immer #line:7ba897
+	Bea: wir koennen alle jahrelang in der Therapie darueber reden #line:d9064a
+	Mae: das ist die richtige Einstellung #line:3054a3
+	Mae: ich meine wir muessen weitermachen, oder? #line:ec3b79
+	Mae: offensichtlich ist die Welt ernsthaft im Arsch, aber #line:357b1b
+	Mae: wir werden alle sterben, wenn wir nicht weiterleben #line:6fbd1f
+	Gregg: das ist so ein Autoaufkleber-Scheiss da #line:79e8de
+	Mae: hey, ich weiss, wovon ich rede #line:729fb5
+	Mae: wir muessen Plaene machen #line:537c92
+	Mae: wir muessen die Dinge aendern #line:d8ed0e
+	Mae: wir muessen ein gottverdammtes Lied spielen und eine gottverdammte Pizza holen #line:98706e
+	Angus: ok also was spielen wir? #line:b34917
+<<wait 5>>
+<<scene EndCredits>>
+===
+title: DomFriendBeaEnding
+tags: 
+colorID: 6
+position: 5943,-1207
+---
+//fade it on empty bad practice room//
+<<wait 3>>
+//from offscreen to the left//
+<<playAmbientSFX AmbientSFX:band_door_open>>
+<<wait 3>>
+<<toggleSitSwings Mae false>>
+Bea: Gott. Diese Tuer will sich einfach nicht oeffnen lassen. #line:538259
+Mae: Ich wette, im Sommer ist es noch schlimmer. #line:99d71c
+<<if $found_pentagrams >= 3>>
+	Mae: oh wow, da ist ein Pentagramm auf diesem Aufkleber #line:69c644
+	Bea: ich kann den Bandnamen darauf nicht lesen #line:92de29
+	Mae: Polizisten...Bohrer? #line:d91d2d
+	Bea: ich garantiere dir, dass es nicht Cops Driller ist. #line:1cde38
+	Mae: vielleicht ist es wie eine deutsche Band mit einem englischen Namen #line:65b306
+	Mae: hoert sich so an #line:5d0401
+	Bea: Guten Tag. Ve sind Cops-Driller. #line:442601
+	Mae: Off Vedersen. #line:4bfba4
+	Bea: nah genug. #line:7e79bb
+<<else>>
+	Mae: habt ihr denn alle Schluessel fuer die Hintertuer bekommen? #line:d6c21a
+	Bea: Gregg hat einen bekommen und wir haben Kopien gemacht. #line:9a844a
+	Mae: wie ist er ueberhaupt an einen Schluessel gekommen? #line:04de07
+	Bea: ich habe keine Ahnung. #line:fc7ed9
+<<endif>>
+<<close>>
+<<walk Bea CharEnter1>>
+<<wait 1>>
+<<walk Mae CharEnter2>>
+<<waitForMove Bea>>
+<<waitForMove Mae>>
+Bea: where's gregg? #line:c0d581
+Mae: oh ja, er musste Angus von der Arbeit "befreien" #line:f6b4bc
+Bea: was soll das bedeuten? #line:d6294e
+Mae: keine Ahnung. #line:7f5dcc
+Bea: huh. #line:6b946d
+Mae: Mir ist ein wenig unklar, wie beide noch einen Job haben #line:b5b820
+Mae: da sie anscheinend oft einfach aufstehen und die Arbeit frueher verlassen. #line:5e2435
+Bea: Es gibt vieles an den beiden, das ich nicht verstehe. #line:a1fb94
+Mae: Ich glaube, sie brauchen sich einfach gegenseitig. #line:4e01d9
+Bea: Gregg mehr als Angus, glaube ich. #line:da4976
+Mae: Ich glaube nicht, dass Angus dem zustimmen wuerde. #line:34dcf3
+Bea: weil es Angus nicht in den Sinn kaeme, anders zu denken #line:cb1944
+Bea: weil Angus ein extrem netter Mensch ist. #line:51bdde
+->Gregg ist ein netter Mensch! #line:345739
+	Bea: oh ja, das ist er definitiv #line:b97f31
+	Bea: aber er ist auch goerenhaft und unverantwortlich #line:85e796
+	Bea: und hat eine Aufmerksamkeitsspanne von Null. #line:2cb70c
+	Bea: Gregg braucht ein Elternteil so sehr wie er einen Freund braucht. #line:6c0629
+	Bea: und er hat wirklich Glueck, dass Angus ein bisschen von beidem ist. #line:b2cf41
+-> Glaubst du nicht, dass sie es schaffen oder so? #line:9b9d8d
+	Bea: Ich meine, sie sind Highschool-Lieblinge! #line:0cf866
+	Bea: sobald sie umziehen und sich veraendern #line:444726
+	Bea: und neue Leute kennenlernen #line:dffe36
+	Bea: und neue Leute werden #line:bd58ab
+	Bea: ich denke Angus wird merken das er mehr Moeglichkeiten hat. #line:6a6242
+<<if $did_angus_investigation_quest>>
+	Mae: Angus denkt, dass Gregg ihn *gerettet* hat. #line:7b17a6
+	Bea: Hoer zu, ich sage nicht, dass er es nicht getan hat, wenn er das denkt. #line:484124
+	Bea: Angus koennte sich auch einfach zu wirklich aufrichtigen Typen in Lederjacken hingezogen fuehlen... #line:db755a
+	Bea: die ein Messer tragen. #line:2facf2
+	Bea: Ich meine, wenn ich den richtigen Typen treffen wuerde, waeren das alles Pluspunkte. #line:5a8c8f
+<<endif>>
+Mae: Oje. Du hast dir das gut ueberlegt. #line:599288
+Bea: bevor du zurueckkamst #line:51b72f
+Bea: sie waren die einzigen Leute, mit denen ich die meiste Zeit rumgehangen habe #line:309d13
+Bea: ich hatte eine Menge Zeit zum Lernen. #line:733e45
+<<close>>
+<<walk Mae MaeNearSitOnStage wait>>
+<<sit>>
+Bea: so wie #line:b9135d
+Bea: wie *geht* es dir? #line:7beaf8
+->Ich bin...aeh...gut. #line:7d5343
+	Bea: Wirklich? #line:2cdc00
+	Mae: Ich habe das Gefuehl, dass ich mir jetzt einreden koennte, dass es mir gut geht oder dass ich voellig am Boden zerstoert bin. #line:fd90f7
+	Mae: als ob... ich im Leerlauf feststecke. #line:f55e23
+->ich weiss es nicht einmal #line:598f41
+	Mae: ich bin noch am Verarbeiten #line:f7db88
+	Mae: ich bin aber hier. #line:1bc46a
+	Bea: ja. #line:b894b3
+Mae: du? #line:a4403a
+Bea: aehm. Nicht toll? #line:51c4f4
+Bea: hatte einen Traum, dass die Welt untergeht. #line:13f528
+Mae: koennte sein. #line:28acc7
+Bea: meinst du, wir sind sicher? #line:a88874
+Mae: keine Ahnung. #line:927c73
+Bea: tolles Gefuehl. #line:f89224
+Mae: ja. #line:aa0b0d
+<<close>>
+<<walk Bea BeaNearSitOnStage wait>>
+Bea: also... ich bin ein bisschen verwirrt, was letzte Nacht ueberhaupt passiert ist... #line:2e7e20
+->nun, es gibt anscheinend einen Todeskult von Vaetern #line:520ec5
+	Mae: oder war #line:7c8e5a
+	Mae: wer weiss, ob das alle waren #line:16b685
+	Bea: ich kann nicht glauben, dass sie ueberhaupt existieren. Oder existierten. #line:18d0a3
+	Mae: wahrscheinlich brauchen sie ein paar Tage zum Sterben. #line:14fb89
+	Bea: ... #line:f07cc7
+	Bea: ja. #line:6d76fb
+	Mae: Ich weiss es nicht. Ich verstehe sie irgendwie auf eine seltsame Weise. #line:82aedb
+	Bea: wirklich?! #line:724ea1
+->die ganze kosmische Horrorsache? #line:ef8673
+	Bea: Ja. Das. #line:f3754a
+	Mae: konntest du es ueberhaupt sehen oder fuehlen? #line:80b6ed
+	Bea: Noe. Aber zwischen dir und den... Vaetern... #line:e325c4
+	Bea: irgendwas muss da los sein #line:9a7c30
+	Mae: es ist alt. Es ist sehr alt. #line:de7f98
+	Mae: man kann riechen, wie alt. #line:7b43db
+Mae: es ist wie #line:1fb294
+Mae: eine Verandaleuchte, die an ist #line:3c2bee
+Mae: und da sind all diese Kaefer drum herum #line:2c5855
+Mae: und dann geht das Licht aus. #line:ffdb0b
+Mae: und da ist ein Loch, wo das Licht war. #line:6e7532
+Mae: es ist wie das, was mir vor langer Zeit passiert ist. #line:bd711d
+Mae: wie ich es dir gestern Abend auf der Couch erzaehlt habe. #line:151cde
+Bea: heilige Scheisse, das war letzte Nacht. #line:2882bb
+Bea: kommt mir vor wie vor 2 Lebenszeiten. #line:276983
+Bea: heh heh ja. #line:191870
+<<wait 4>>
+<<if $found_pentagrams < 3 and $did_lori_friendship_quest_2 is 0 and $did_germ_friendship_quest_3 is 0>>
+	Mae: die Welt ist extrem schlecht #line:189d4e
+	Bea: Ja. Ja, das ist sie. #line:67227d
+	<<if $failed_state_joke>>
+		Mae: ein... gescheiterter Staat? #line:1f945c
+		Bea: Wir sind ziemlich nah dran. #line:32ece6
+    <<endif>>
+	Mae: komische Frage- #line:9d307f
+	Mae: wie stehst du jeden Tag auf #line:61fa6a
+	Mae: und machst den Laden auf #line:af877a
+	Mae: und es immer wieder tun? #line:23390e
+	Bea: ich habe nicht wirklich eine Wahl, oder? #line:de8e4d
+	->ich meine, du hast definitiv eine. #line:83b7d2
+		Mae: du gibst dir selbst nicht genug Anerkennung #line:653473
+		Mae: du haeltst das alles am Laufen, weil du dich sorgst #line:64829f
+		Bea: schaetze ich. #line:4493b7
+		Bea: Fuersorge scheint nicht immer freiwillig zu sein. #line:3c5f39
+		Bea: Fuersorge kann wirklich beaengstigend sein #line:9019fc
+		Bea: ich habe das Gefuehl, es ist immer da, ausser Sichtweite #line:72af48
+		Bea: mir folgen. #line:858ce6
+	->ich denke nicht. #line:3c8503
+		Mae: aber trotzdem. Viele Leute waeren wie #line:284f20
+		Mae: zerstoert durch das, was du durchgemacht hast. #line:37ddc5
+		Bea: meine Mutter war extrem hart. Und klug. #line:c11a76
+		Bea: als ich erfuhr, dass sie sterben wuerde #line:b748c3
+		Bea: es kam mir einfach nicht in den Sinn, dass sie zerbrechlich war #line:357590
+		Bea: wie wir alle zerbrechlich sind. #line:ad68ec
+		Bea: ich will sie nicht enttaeuschen, schaetze ich. #line:88d5df
+	Bea: ich kann nicht *keinen* Scheiss geben. #line:565085
+	Bea: ich meine ich mache den Laden #line:cc39cf
+	Bea: und unsere Rechnungen zu Hause #line:aa3001
+	Bea: Sachen mit der Handelskammer #line:c008ee
+	Bea: ich mache kostenlose Studienkurse online #line:949da8
+	Bea: und ich bin Mitglied bei den Jungsozialisten. #line:da6995
+	Mae: ich schlafe viel und esse manchmal Pizza. #line:540b9e
+	Bea: "jeder nach seinen Faehigkeiten" #line:ef4d01
+	Mae: naja, das Gute daran ist, du hast mich! #line:ffb832
+	Bea: heh heh ja. #line:fc5e3b
+	Mae: wir koennen die Welt zusammen reparierenrrrrr! #line:895a49
+	Bea: jep. Wir bringen sie wieder in Ordnung. #line:4de29e
+	<<if $did_bea_friendship_quest_2>>
+		Mae: wir haben den Ofen repariert! #line:4fc1f4
+		Bea: *Ich* habe diesen Ofen repariert. #line:d51e21
+		Mae: Nun, ich habe es geschafft, dass wir im Keller gefangen waren. #line:917adf
+		Bea: Das hast du wirklich getan, Mae. Das hast du wirklich getan. #line:d12f72
+	<<endif>>
+	Bea: ugh. Ich schaetze, die letzte Nacht war nicht so seltsam. #line:bfecb5
+	Mae: es war ziemlich seltsam. #line:bbede2
+	Bea: alte Maenner toeten die Jungen und die Armen #line:5ac7c5
+	Bea: um eine Vergangenheit zurueckzubekommen, die kaum existierte. #line:3ebed8
+	Bea: wie immer wie immer #line:ba7e21
+	Bea: sie sind wie Geister in einem alten Herrenhaus #line:d7a94e
+	Bea: toetet die neuen Besitzer. #line:e7c49d
+	Bea: bringt dich dazu, entweder aufzugeben oder dich mehr anzustrengen. #line:c37bd2
+	Mae: oder sich wirklich aufregen und ein Nickerchen machen #line:de5b35
+	Bea: Ja. Ein Nickerchen hilft gegen alles. #line:4ac1d4
+	Mae: oder einen Aufzug auf sie fallen lassen #line:8f8ff7
+	Bea: das funktioniert auch, denke ich. #line:00339b
+	<<wait 4>>
+<<else>>
+	//if did pentagrams, lori tracks 2, or germ fq3//
+	Mae: Gott, ich kann die letzten zwei Wochen nicht mal im Kopf verarbeiten. #line:ef8bbd
+	Bea: Ich denke, das ist ziemlich verstaendlich, Mae. #line:57fdfa
+	<<if $found_pentagrams >= 3 and $did_lori_friendship_quest_2 is 0 and $did_germ_friendship_quest_3 is 0>>
+		//if just did pentagrams//
+		Mae: da waren diese drei seltsamen Teenager #line:61548b
+		Mae: und sie sagten mir, ich wuerde einen Haufen Pentagramme sehen. #line:31aced
+		Bea: welche Teens? #line:722b70
+		<<if $did_bea_investigation_quest>>
+			Mae: die, auf die wir auf dem Friedhof gestossen sind #line:aa1706
+			Bea: Oh Gott. Diese Teenager. #line:46dffa
+		<<else>>
+			Mae: habe sie oben am Wasserturm getroffen #line:95c09a
+			Mae: nur ein paar trottelige Kinder. #line:055778
+		<<endif>>
+		Mae: egal, sie sagten, wenn ich drei Pentagramme sehe #line:63301f
+		Mae: wuerde ich eine Art Hilfe bekommen. #line:49f0a5
+		Mae: Ich habe tatsaechlich eines auf der Party gesehen, auf der wir waren. #line:a94e3d
+		Mae: und letzte Nacht habe ich den letzten unten im Tunnel gesehen #line:e87964
+		Mae: und es hat mich zum Nachdenken gebracht... #line:75e771
+		Mae: erinnerst du dich an Adina und den gefrorenen See? #line:64ca6d
+		Bea: das Volksmaerchen? Ja, sicher. #line:48357c
+		Mae: diese Astronomin unter dem Eis oder was auch immer, die keinen Stern finden konnte #line:b304ef
+		Mae: bis sie gestorben ist? #line:42375d
+		Bea: der Geisterstern. #line:22ed54
+		Mae: ich denke nur, dass die Sterne auf dem Kopf stehen, wenn man ihre Spiegelungen betrachtet. #line:b06ec5
+		Bea: das ist... wahr. #line:96d440
+		Mae: was du sehen wuerdest, wenn du ein Spiegelbild im Eis waerst- #line:66ae53
+		Bea: ja ich verstehe. Ich habe die Geschichte gelesen. #line:012dc0
+		Mae: ich habe es kaum bemerkt, als wir letzte Nacht da unten waren, aber heute #line:fb5ae1
+		Mae: Ich denke gerade darueber nach. Dieses Gefuehl wie #line:daadca
+		Mae: am Ende von allem kann man sich an etwas festhalten. #line:6eaa14
+		Mae: oder irgendetwas. #line:ce57be
+		Mae: finde den gespenstischen Geisterstern #line:7ea737
+		Mae: zeichne ihn auf eine Karte #line:e47532
+		Mae: dann hast du...aeh...eine Karte? #line:e6b42f
+		Mae: ich weiss nicht. Ich bin hungrig und muede #line:e1adb9
+		Mae: und ich fuehle mich, als waere ich von einem Zug ueberrollt worden, der andere Zuege befoerdert hat. #line:49dbd3
+		Bea: ich bin wirklich beeindruckt, dass du das alles aus den Teenagern herausgeholt hast, die seltsam und gruselig sind. #line:4ad99d
+		<<if $did_angus_investigation_quest>>
+			Mae: pattern-seekers. #line:53d803
+			Bea: was? #line:ffc144
+			Mae: etwas, das Angus gesagt hat. #line:a7ba37
+			Mae: wir sind gut darin, Muster zu finden. #line:9b09b0
+			Bea: Ja. Das ist eine Art UEberlebensstrategie. #line:57ad5b
+			Mae: Ja. #line:dbb72d
+		<<else>>
+			Mae: Ich weiss es nicht. #line:a5aaed
+			Mae: es hat mir etwas bedeutet. #line:8e3e27
+			Mae: ist das genug? #line:fbba45
+			Bea: es liegt mir fern, die gespenstische Bedeutung zu verurteilen. #line:cbd7f9
+			Mae: gruselig. #line:5cbc96
+			Mae: spoooook-k-k-k-y #line:71fd3c
+		<<endif>>
+		<<wait 4>>
+	<<elseif $found_pentagrams < 3 and $did_lori_friendship_quest_2 and $did_germ_friendship_quest_3 is 0>>
+		//if just did lori tracks 2//
+		Mae: da gibt es dieses Kind Lori #line:b17987
+		Mae: ich habe wie... aeh... #line:564574
+		Mae: vielleicht versucht, ein Vorbild zu sein? #line:4496af
+		Bea: wie alt ist sie? #line:72dee0
+		Mae: ich glaube 15 oder so. #line:9f8f20
+		Bea: also haengst du nur mit einer 15jaehrigen rum? #line:1076e2
+		Mae: oh halt die Klappe. Wie auch immer. #line:9c23d7
+		Mae: sie macht diese Sache, wo sie kleine Metallmaennchen auf die Gleise stellt #line:27d480
+		Mae: und zerquetscht sie zusammen #line:df2132
+		Mae: und das macht dann diese tollen kleinen Monster. #line:695f5b
+		Bea: oooh das klingt cool. #line:88dd6a
+		Mae: ja, das ist toll. #line:56d03a
+		Mae: es hat mich auch zum Nachdenken gebracht, wie #line:65f9a9
+		Mae: wenn sie am Leben gewesen waeren, als es passierte #line:56ff23
+		Bea: Gott, das ist grausam #line:03815c
+		Mae: wenn sie einfach zerstoert und zermalmt wurden von diesem massiven, unbekannten Ding #line:dbbf48
+		Mae: und in ein einziges Ding gezwaengt #line:c838c3
+		Mae: sie sind wie ein neues Ungeheuer. #line:b14b68
+		Bea: sogar doppelt so gross wie ein Monster. #line:1ea349
+		<<if $did_bea_friendship_quest_1>>
+			Mae: wie ich und der Fischgott von Fort Lukane #line:818266
+			Bea: ich glaube, du hast sogar ein paar von diesen Leuten verletzt #line:0014d2
+			Mae: eh. #line:5e749f
+			Mae: trotzdem #line:94a161
+		<<endif>>
+		Mae: aber schau mal, wo wir wohnen #line:76262d
+		Mae: grosse riesige Dinger sind ueber diesen Ort gerollt #line:bd1035
+		Mae: und ich weiss nicht, ob es uns alle staerker gemacht hat #line:ad2bcc
+		Mae: oder nur ein paar Monster gemacht hat #line:5b5793
+		Bea: ich... denke, es hat beides getan. #line:668030
+		Bea: als ob irgendetwas Traumatisches in diesem Ausmass beides bewirkt? #line:7d4266
+		Bea: aber so sehr ich dieses Drecksloch manchmal auch hasse #line:22309d
+		Bea: es ist mein Zuhause. #line:9b19fb
+		Mae: Weisst du noch, als Mrs. Crangler uns bei den Pfadfinderinnen den Squaredance beigebracht hat? #line:9ad659
+		Bea: ha ha ja. Mensch. Sie hatte diesen Stock #line:a4712a
+		Mae: ja, sie hat im Takt auf den Boden geschlagen #line:895da4
+		Bea: Mrs. Crangler meinte es ernst mit dem Squaredance. #line:293442
+		Mae: sie ist vor kurzem gestorben, denke ich. #line:1864a0
+		Bea: Ja. Sie war allerdings sehr alt. #line:89c10e
+		Mae: squaredancing war komisch #line:0bc856
+		Mae: wir alle waren wie durcheinander #line:44e611
+		Mae: versuchten zu tanzen, versuchten nicht uebereinander zu stolpern #line:d63d4c
+		Bea: Mrs. Crangler ist tot, aber der Squaredance lebt weiter. #line:4589e1
+		Mae: Ich frage mich, ob Lori weiss, wie man Squaredance tanzt. #line:220752
+		Mae: wir sollten es ihr beibringen? #line:6bb86b
+		Bea: oh, werde ich in diese behelfsmaessige Schwesternschaft eingezogen? #line:ea78a7
+		Mae: Schwesternschaft von squaredancing Monstern #line:76e3d9
+		Bea: wir werden den Boden auf der Landwirtschaftsmesse beherrschen #line:50e9fd
+		Mae: wir beherrschen jeden Boden, auf den wir unsere Augen legen. #line:351006
+		<<wait 4>>
+	<<elseif $found_pentagrams < 3 and $did_lori_friendship_quest_2 is 0 and $did_germ_friendship_quest_3>>
+		//if just did germ FQ3//
+		Mae: also bin ich zu Germs Haus gegangen. #line:00ae38
+		Bea: WAS?! #line:d835d1
+		Bea: oh mein Gott erzaehl mir davon #line:c9eba5
+		Bea: ich kann nicht glauben, dass er ueberhaupt ein Haus hat. #line:c60563
+		Mae: oh ja, hat er. Er ist von irgendwoher. #line:4a6edc
+		Mae: aeh es ist ein grosses Doppelhaus mit angebautem Keller und einer Terrasse #line:ad34b0
+		Mae: wirklich schoen, eigentlich. #line:db3a2f
+		Mae: er hat ein Trampolin. #line:71e86a
+		Bea: oof. Darauf zu huepfen macht mich immer krank. #line:5304e8
+		Mae: jedenfalls wohnt seine Oma dort #line:c1a412
+		Mae: sie hat mir die Zukunft vorausgesagt. sozusagen. #line:ce7082
+		Bea: heilige Scheisse. #line:b5ceaa
+		Bea: was war dein Schicksal? #line:f26353
+        Mae: naja, sie hat ein paar ziemlich beschissene Sachen ueber meine ganze #line:b51f4e
+        Mae: du weisst schon, Kopfsache. #line:35a3a7
+        Bea: ah. #line:aa921a
+		Mae: aber sonst war es irgendwie vage... was ist letzte Nacht passiert? #line:bcf094
+		Bea: wow. gruselig. #line:ce4560
+		Bea: weisst du, wenn man in der regionalen Geschichte zurueckgeht und so #line:ee0711
+		Bea: da gibt es Geschichten ueber Hexen und so #line:b25f10
+		Mae: du glaubst an Hexen? #line:dc9c05
+		Bea: oh je, frag mich nicht, woran ich heute glaube #line:2dcae0
+		Bea: aber ja. Es steht in den Geschichtsbuechern. #line:eb1cbb
+		Mae: also willst du mir sagen, dass sie tatsaechlich uebersinnlich war #line:51fe39
+		Bea: wie soll das ueberhaupt funktionieren? #line:bc706c
+		Bea: bedeutet das, dass die Zukunft einfach festgelegt ist? #line:6c6556
+		Mae: vielleicht ist die Zukunft abhaengig von den Entscheidungen, die wir treffen #line:4865fc
+		Bea: aber wenn die Entscheidungen noch nicht getroffen wurden, ist das ein Teil der Zukunft #line:3bf885
+		Bea: also sollte es Teil der... irgendwas... sein. #line:de0d7f
+		Bea: uuuugh. Mein Gehirn. #line:f2bc34
+		Mae: Nein, das ist ein guter Punkt. Daran habe ich nicht gedacht. #line:aa28b9
+		Mae: nun, wie auch immer. Was sie sagte, war beaengstigend, aber #line:ff4253
+		Mae: es war schoen, das Gefuehl zu haben, dass es eine Art von Ordnung in all dem gibt. #line:6c2638
+		<<if $did_bea_friendship_quest_3>>
+			Mae: wie neulich, als ich das Abendessen ausgesucht habe #line:781bc6
+			Mae: war das das einzige Abendessen, das ich haette aussuchen koennen? #line:5aa95b
+		<<endif>>
+		<<if $did_bea_friendship_quest_2>>
+			Mae: Waren wir dazu bestimmt, in Mrs. Mirandas Keller gefangen zu sein? #line:8e4a5e
+		<<endif>>
+		Bea: Gott, ich hoffe nicht. #line:b356c0
+		->yeah #line:5c2b3a
+			Bea: zu denken, dass die Zukunft nur wie eine Gleichung ist, die sich abspielt #line:eda1a8
+			Bea: das ist wirklich klaustrophobisch, oder? #line:c936fa
+			Mae: ja. #line:177539
+		->Warum nicht? #line:50ab1e
+			Bea: ich will nicht, dass meine Mutter sterben muss. #line:d62f5a
+			Bea: ich will nicht, dass ich das College verpassen muss. #line:56c08d
+			Bea: ich will nicht, dass die Spitzhacke ein fest codiertes Schicksal ist. #line:bb508c
+			Mae: hm. ja. #line:55f9ab
+		Mae: Scheiss auf dieses Geraeusch. #line:5282be
+		Bea: scheiss drauf, bis in die Stratosphaere. #line:211dfe
+		<<wait 4>>
+	<<elseif $found_pentagrams >= 3 and $did_lori_friendship_quest_2 and $did_germ_friendship_quest_3 is 0>>
+		//if did just pentagrams and lori tracks 2//
+		Mae: erinnerst du dich an die Geschichte ... aeh ... adina und der gefrorene See? #line:0fe639
+		Bea: ist es nicht Adina und der Waldgott? #line:777537
+		Mae: ok, wie auch immer. #line:aec7d7
+		Mae: da waren diese seltsamen Teenager #line:1c3346
+		Bea: an diesen Teil der Geschichte kann ich mich nicht erinnern #line:88dcc8
+		Mae: nein Dummkopf, dieser Teil ist tatsaechlich passiert #line:9e8aed
+		Bea: ich weiss. Ich habe einen Scherz gemacht. #line:587400
+		Mae: ich weiss nicht, wie man heute Witze interpretiert! #line:d2e357
+		Bea: ok, du hast also ein paar Teenager gesehen #line:ed1915
+		Mae: jedenfalls waren sie ganz gruselig #line:77ed6b
+		<<if $did_bea_investigation_quest>>
+			Mae: eigentlich hast du sie getroffen - auf dem Friedhof #line:0994f6
+			Bea: oh DIESE Teenager. #line:de0985
+			Bea: die Teenager, die dich gefoltert haben #line:64ceb4
+			Mae: ja. Die. #line:9f41aa
+		<<endif>>
+		Mae: sie sagten mir, ich wuerde einige Pentagramme sehen, und dann ist es passiert? #line:93daea
+		Mae: ich glaube, sie sind wie Hexen oder so. #line:6048b3
+		Bea: du denkst sie sind... aeh... uebersinnlich? #line:177b59
+		Mae: Ich weiss es nicht. Ich denke, sie sind einfach seltsam. #line:cf2e2e
+		Mae: aber ich habe das letzte Pentagramm gesehen, als wir letzte Nacht dort unten waren. #line:49a872
+		Mae: es war in den Tunnelstuetzen, wo das... Loch... war. #line:7a478d
+		<<if $did_angus_investigation_quest>>
+			Mae: Angus wuerde darueber lachen #line:5a75f3
+			Mae: sagen, ich bin nur auf der Suche nach Mustern #line:a75949
+			Bea: Ja, das ist Angus. Er wuerde es aber nett sagen. #line:f73b59
+		<<endif>>
+		Mae: das ist mir im Moment nicht so richtig aufgefallen #line:60c55a
+		Mae: aber in dieser Geschichte gibt es so etwas wie einen toten Astronomen oder so #line:7d9a42
+		Mae: und sie sind wie eine Spiegelung im Eis #line:006568
+		Mae: und da ist dieser Stern, den sie nicht sehen koennen, bis sie tot sind #line:e92815
+		Bea: Ja. Der Geisterstern. #line:c526cc
+		Mae: und wenn man ein Spiegelbild des Geistersterns sehen wuerde, waere es wie ein Pentagramm. #line:579b86
+		Bea: das ist wahr. #line:945c2e
+		Mae: Ich weiss es nicht. Da ist dieses andere Kind, Lori Meyers. #line:96adad
+		Mae: wir haben bei den Gleisen rumgehangen #line:6676c1
+		Bea: also haengst du einfach ueberall mit Teenagern rum. #line:19e298
+		Mae: oh hush. #line:2747fe
+		Mae: also Lori zerquetscht diese kleinen Metalldinger auf den Gleisen #line:2c124b
+		Mae: und sie werden zu diesen coolen kleinen Monstern. #line:669848
+		Bea: oh das ist cool. #line:43f45d
+		Mae: ja, Lori ist ziemlich krass. #line:8df572
+		Mae: aber ihr dabei zuzusehen, das fuehlte sich an wie ein... aeh... Ritual? #line:76658a
+		Mae: wie war das noch mit dem alten Zauber, wo man versucht hat, Gold aus Scheisse zu machen? #line:cd9b4a
+		Bea: Alchemie. #line:1fa7c6
+		Mae: Ja. Es war wie Alkamee. Sie hat sozusagen gezaubert. #line:87c603
+		Bea: Du sagst also, du hast 4 Hexen getroffen. #line:a13148
+		Mae: keine echten, aber #line:3b6955
+		Mae: ich weiss nicht, worauf ich hinaus will. #line:529643
+		Mae: als ich das Gefuehl hatte, alles sei vorbei, als gaebe es keine Hoffnung #line:72a198
+		Mae: erinnere mich an... Geistersterne und Adina und Teenie-Hexen #line:88d2f4
+		Mae: und Lori, die Monster aus Spielzeugmenschen und echten Zuegen machte #line:29f550
+		Mae: hatte ploetzlich das Gefuehl, als wuerde Leben passieren #line:839a4e
+		Mae: und Teens machten seltsame Magie. #line:75e6a6
+		Mae: also konnte die Lage nicht so hoffnungslos sein. #line:3f4533
+		Bea: das ist wie diese inspirierenden Geschichten, die religioese Menschen in Buecher schreiben #line:ec225d
+		Bea: und wie alte Leute sie lesen #line:0c5138
+		Bea: darueber, wie Engel ein Auto davon abgehalten haben, sie zu ueberfahren #line:d83b31
+		Bea: oder ihnen ein Haus fuer fast kein Geld verkauft haben #line:c6a80a
+		Bea: ausser dass deine Engel jugendliche Vollidioten sind #line:688cf0
+		Mae: man arbeitet mit dem was man hat, schaetze ich. #line:8039dd
+		Bea: hm. #line:4e027c
+		<<wait 4>>
+	<<elseif $found_pentagrams >= 3 and $did_lori_friendship_quest_2 is 0 and $did_germ_friendship_quest_3>>
+		//if just did pentagrams and germ fq3//
+		Mae: glaubst du an Hellseher und so? #line:9e9904
+		<<if $did_bea_investigation_quest>>
+			Mae: oh warte sorry wir haben schon darueber gesprochen. #line:887760
+			Bea: wann? #line:b562d7
+			Mae: auf dem Friedhof in der letzten Nacht! #line:934d34
+			Mae: du hast gesagt, du glaubst an Geister und so #line:7b47d1
+		<<else>>
+			Bea: "und so?" #line:58bce6
+			Mae: so wie... uebernatuerlicher Scheiss im Allgemeinen? #line:e13fbd
+		<<endif>>
+		Bea: Sicher, ja, ich bin offen dafuer. Irgendwie. wie auch immer. #line:a31e35
+		<<if $did_bea_investigation_quest>>
+			Mae: Erinnerst du dich an die seltsamen Teenager, die wir dort getroffen haben? #line:c426ed
+			Bea: ha ha ja, die, die dich gefoltert haben? #line:3d86b5
+			Mae: Ja. Die da. #line:732f5e
+			Mae: ich habe sie schon mal getroffen. #line:2d42a2
+		<<else>>
+			Mae: also habe ich diese drei seltsamen Teenager getroffen #line:1c5456
+			Mae: draussen beim Wasserturm #line:8985e6
+			Mae: sie waren alle unheimlich und so #line:58c8a3
+		<<endif>>
+		Mae: sie sagten ich wuerde gerne ein paar Pentagramme sehen und ich wuerde eine Art Hilfe bekommen. #line:7c0d28
+		Mae: ich glaube, das sind Hexen. #line:5a9fc7
+		Bea: das ist seltsam und freundlich. #line:d2afef
+		Mae: ok, halt den Gedanken fest- neulich bin ich zu Germs Haus gegangen, und- #line:062800
+		Bea: HEILIGE SCHEISSE!!! #line:bbd204
+		Bea: du willst zu GERM'S HOUSE?!?!? #line:0e2f17
+		Bea: wie ist es denn so? #line:0af8a9
+		Mae: Es ist schoen. Es ist wie ein Doppelhaus mit einem fertigen Keller. #line:779273
+		Mae: hat ein Trampolin. #line:bf32c5
+		Bea: oof. Wenn ich darauf huepfe, wird mir immer schlecht. #line:418c7d
+		Mae: ich hab's geliebt, Alter. #line:e1b4df
+		Mae: ich bin so hoch gesprungen und habe mit seinem Vater und seinem Onkel ueber Gewerkschaften gesprochen #line:5516fa
+		Bea: das klingt alles unglaublich. #line:aa8b50
+		Mae: jedenfalls hat seine Oma mir die Zukunft vorausgesagt. irgendwie. #line:5a2588
+		Bea: heilige Scheisse. #line:41a767
+		Bea: was war dein Schicksal? #line:609ff3
+        Mae: nun, sie hat ein paar ziemlich beschissene Dinge ueber meine ganze #line:c3855b
+        Mae: du weisst schon, die Kopfsache. #line:e65e6a
+        Bea: ah. #line:f5f1e0
+		Mae: aber sonst war es irgendwie vage... was ist letzte Nacht passiert? #line:ef5c6d
+		Bea: wow. #line:edee2a
+        Mae: ja. #line:183872
+		Mae: als ich letzte Nacht da unten war, #line:8c5a91
+		Mae: habe ich das letzte der Pentagramme gesehen. #line:0c7e31
+		Mae: es war in den Stuetzbalken #line:487461
+		<<if $did_angus_investigation_quest>>
+			Mae: Angus wuerde lachen, wenn ich es ihm sagen wuerde #line:5a2997
+			Mae: er wuerde darueber reden, dass ich nur nach einem Muster suche. #line:af780d
+			Bea: ja, das klingt nach Angus. #line:ae7aab
+		<<endif>>
+		Mae: als ich es gesehen habe, habe ich es nicht wirklich registriert, bis heute #line:4b4c3f
+		Mae: und es war wie whoa #line:b6c5f1
+		Mae: die Teens hatten recht #line:5657ac
+		Mae: germ's grandma was... a quarter right? oder so aehnlich? #line:599250
+		Bea: war das, was sie gesagt haben, hilfreich? #line:b5bf4d
+		Mae: ja... ich hatte das Gefuehl, dass ich damit nicht alleine bin #line:9359b9
+		Mae: ich meine, ihr wart alle da #line:904410
+		Mae: aber das war Hilfe wie... in meinem Kopf #line:7d9b6a
+		Mae: wie die Tatsache, dass jemand von all dem wusste #line:f3f81a
+		Mae: und versucht hat, mir zu helfen #line:6264ef
+		Mae: als ob sie *alle* Hexen waeren #line:c467d8
+		Mae: und wie... ich glaube nicht wirklich an Magie, aber... ich weiss nicht #line:3fd365
+		Bea: klingt als wuerdest du an Magie glauben #line:93a05b
+		Mae: ich glaube wirklich nicht. #line:10e4ec
+		Bea: du glaubst an Hexen #line:f63012
+		Mae: nein #line:51c0b7
+		Bea: du bist ganz verhext omg #line:9992f2
+		Mae: ok vergiss es #line:03a5ec
+		Bea: mae. #line:36b46d
+		Mae: ja? #line:48f8ad
+		Bea: ich bin froh, dass es dir gut geht. #line:827f86
+		Mae: danke. #line:dce6c1
+		<<wait 4>>
+	<<elseif $found_pentagrams < 3 and $did_lori_friendship_quest_2 and $did_germ_friendship_quest_3>>
+		//if did just lori tracks 2 and germ FQ3//
+		Mae: also bin ich neulich zu Germs Haus gegangen. #line:afaa03
+		Bea: OH MEIN GOTT!!!!!! #line:46e437
+		Bea: Ich kann mir nicht mal vorstellen, wo er wohnen wuerde. #line:266275
+		Bea: wie in einem Baumhaus irgendwo? #line:9a2978
+		Mae: nein, es ist schoen. #line:6ada79
+		Mae: es ist wie ein Doppelhaus mit angebautem Keller #line:63d4b5
+		Mae: hat ein Trampolin #line:ce4535
+		Bea: oof. Ich werde pukey auf denen. #line:c631be
+		Mae: es war grossartig. Wir haben Sloppy Joes gegessen. #line:bdb39e
+		Bea: mmmm. So einen koennte ich jetzt auch essen. #line:61a86d
+		Mae: Gott, die sind so gut. #line:5eb709
+		Mae: als ob man sie vergisst, bis man sie von jemandem erwaehnt bekommt #line:5c7dfe
+		Mae: und ploetzlich ist das alles, was man will. #line:2c4634
+		<<if $did_bea_friendship_quest_3>>
+			Mae: die haette ich neulich zum Abendessen bei dir machen sollen #line:086cd4
+			Bea: ooooh ja #line:eb34d0
+			Bea: hey, tut mir leid, dass ich dich wieder angeschrien habe. #line:88228e
+			Mae: oh mach dir keine Sorgen ich habe die ganze Unterhaltung schon vergessen. #line:9f57ad
+			Bea: oh. #line:173196
+		<<endif>>
+		Mae: jedenfalls, vor all dem #line:c9e177
+		Mae: seine Oma hat mir die Zukunft vorausgesagt. irgendwie. #line:c40bfd
+		Bea: heilige Scheisse. #line:6ca7d9
+		Bea: was war dein Schicksal? #line:61206b
+        Mae: nun, sie hat ein paar ziemlich beschissene Dinge ueber meine ganze #line:21f691
+        Mae: du weisst schon, Kopfsache. #line:b61e7b
+        Bea: ah. #line:5bbc12
+		Mae: aber sonst war es irgendwie vage... was ist letzte Nacht passiert? #line:dd093d
+		Bea: wow. #line:220860
+		Mae: aber es ging nicht so sehr darum, was sie gesagt hat, sondern mehr darum, wer sie war #line:3a99da
+		Bea: wer war sie? #line:72eb3f
+		Mae: nur eine alte Dame, die sich in diese ganze Verruecktheit einmischt. Aus irgendeinem Grund. #line:44ce75
+		Bea: uh huh. #line:237529
+		Mae: ok, und dann ist da noch dieses Kind, Lori, mit dem ich rumgehangen habe? #line:667f60
+		Bea: "Kind"? #line:2bfb24
+		Mae: so 15 oder so. #line:6e657d
+		Bea: also haengst du nur noch mit Kindern und aelteren Leuten rum? #line:071bed
+		Mae: sowieso. #line:0f7374
+		Mae: Lori wohnt drueben bei den Gleisen #line:332fdb
+		Mae: und ich glaube nicht, dass ihr Leben zu Hause toll ist. #line:1b95d4
+		Mae: UEberhaupt nicht. #line:287f40
+		Mae: aber sie ist grossartig. Liebt Horrorfilme. #line:2c6f5b
+		Mae: macht diese kleinen Monster, indem sie kleine Metallmaennchen auf die Schienen setzt #line:af5634
+		Bea: oh, und die werden dann ganz zerquetscht und gedehnt? Das ist toll. #line:2dc65c
+		Mae: ja siehst du? Cooles Kind. #line:a4b151
+		Mae: dann wird sie zwei von ihnen nehmen und sie zusammenquetschen. #line:62bf6b
+		Bea: Doppelmonster. #line:e11c5b
+		Mae: ich fuehle mich wie eine aeltere Schwester fuer sie, wenn wir zusammen abhaengen? #line:37225d
+		Mae: Meine Oma ist vor einer Weile gestorben #line:e49eb8
+		Mae: und Germs Oma hat versucht, mich zu omaisieren. #line:edc33e
+		Mae: und du bist wie meine... Schwester? Cousine? #line:668be6
+		Bea: der verrueckte Onkel. #line:117063
+		Mae: ok wie auch immer. #line:644e3e
+		Mae: der Punkt ist: wir stecken alle zusammen wie Loris zerquetschte Monstertypen #line:1f82d7
+		Mae: wie du und ich und wie Germs Oma und Lori und #line:7f1735
+		<<if $did_bea_friendship_quest_2>>
+			Bea: fuegst du da noch Mrs. Miranda hinzu? #line:be7389
+			Mae: Nein. Sie macht Mumien. Das ist nicht erlaubt. #line:703ee8
+		<<endif>>
+		Bea: also sind wir alle Teil von... etwas? #line:4e8998
+		Mae: wir sind alle ein Teil desselben zerquetschten Monsters. #line:24eda6
+		<<wait 2>>
+		Bea: tief. #line:7043fa
+		<<wait 4>>
+	<<elseif $found_pentagrams >= 3 and $did_lori_friendship_quest_2 and $did_germ_friendship_quest_3>>
+		//if did pentagrams, lori tracks 2, and germ fq3//
+		Mae: die Welt ist extrem verkorkst, hm? #line:3e6d66
+		Bea: Ja. Ja, das ist sie. #line:8dd13b
+		<<if $failed_state_joke>>
+			Mae: ein... gescheiterter Zustand? #line:41cc55
+			Bea: Wir sind ziemlich nah dran. #line:93ab5b
+        <<endif>>
+		Mae: mein Grossvater, bevor er starb #line:53467e
+		Mae: seine letzten Worte waren: "In diesem Haus spukt's" #line:78e529
+		Bea: ok, das ist gruselig. War er in eurem Haus? #line:3e3343
+		Mae: nein, er hat aus dem Fenster des Krankenhauses geschaut. #line:f837a9
+		Mae: aber ich glaube ich verstehe was er meinte. #line:3082d9
+		Mae: dieser ganze... Ort. #line:bde0b7
+		Mae: neulich bin ich diesen drei seltsamen Teenagern begegnet #line:0150e6
+		<<if $did_bea_investigation_quest>>
+			Mae: warte eigentlich, du hast sie auch getroffen #line:dbc15b
+			Mae: auf dem Friedhof. #line:54f2b3
+			Bea: ha ha ha ja. Die, die dich gefoltert haben. #line:83c1d9
+			Mae: ja die. #line:eeb255
+		<<endif>>
+		Mae: sie sagten mir, ich wuerde einen Haufen Pentagramme sehen und es wuerde mir "helfen" #line:9d721c
+		Mae: ich glaube sie sind Hexen. #line:14b5c8
+		Mae: und dann ist es tatsaechlich passiert? #line:3ee17c
+		Bea: wie... also? #line:bc6f1a
+		Mae: Ich weiss es nicht. Ich habe die letzten von ihnen gestern Abend im Tunnel gesehen. #line:bf3725
+		Mae: aus wie die Stuetzbalken gemacht. #line:d5021f
+		<<if $did_angus_investigation_quest>>
+			Mae: Angus wuerde sagen, es war mustersuchend #line:2499b5
+			Bea: Das klingt nach Angus. Er wuerde es aber nett ausdruecken. #line:f86a85
+		<<endif>>
+		Mae: als ich es sah, erinnerte es mich an etwas #line:344522
+		Mae: habe es erst heute Morgen bemerkt- #line:d40df3
+		Mae: erinnerst du dich an Adina und den gefrorenen See? #line:617adc
+		Bea: das Volksmaerchen? Ich glaube, es heisst Adina und der Waldgott. #line:e08037
+		Mae: wie auch immer. Erinnerst du dich an den toten Astronomen #line:03f252
+		Mae: der wie eine Spiegelung im Eis war? #line:e7682a
+		Bea: Ja. AEh. auf der Suche nach einem Stern, den man nur sehen kann, wenn man tot ist. #line:6d879b
+		Bea: der Geisterstern. #line:fe2694
+		Bea: meine Mutter hatte ein Geisterstern-Tattoo. #line:b89254
+		Mae: jedenfalls, wenn man von unten auf die Spiegelung eines Sterns schaut #line:ea85ce
+		Mae: dann sieht es aus wie ein Pentagramm #line:c2ebe0
+		Bea: das ist... wahr? #line:dd286d
+		Mae: bin heute morgen aufgewacht und dachte, oh wow #line:9aae05
+		Mae: ich fuehle mich als haette ich meinen Geisterstern gefunden #line:eaa306
+		Mae: und dann gelebt. #line:1baad9
+		Bea: und das ist wegen der Teenie-Hexen? #line:da7fde
+		Mae: ok siehst du ich dachte das waere dumm ABER #line:2bcc27
+		Mae: Ich habe Germs Oma getroffen. #line:248c28
+		Bea: WAS????? #line:e8e4b1
+		Mae: Ja, ich war bei ihm zu Hause! #line:069f83
+		Bea: Wie ist es???? #line:26be00
+		Mae: aehm, ist es schoen? #line:ec7257
+		Mae: ein Doppelhaus mit einem fertigen Keller. #line:8aca8b
+		Mae: hat ein Trampolin. #line:bc7daf
+		Bea: igitt. Auf diesen Dingern zu huepfen macht mich krank. #line:e08c65
+		Mae: jedenfalls hat seine Oma mir die Zukunft vorausgesagt. irgendwie. #line:30d082
+		Bea: heilige Scheisse. #line:e1a519
+		Bea: was war dein Schicksal? #line:a9bdc1
+        Mae: naja, sie hat ein paar ziemlich beschissene Sachen ueber meine ganze #line:315d6c
+        Mae: du weisst schon, die Kopfsache. #line:921a7e
+        Bea: ah. #line:65b680
+		Mae: aber sonst war es irgendwie vage... was ist letzte Nacht passiert? #line:9b41da
+		Bea: wow. #line:19d3b1
+		Mae: ja siehst du? Also wie ich denke, vielleicht ist *sie* auch eine Hexe. #line:9566b5
+		Mae: nicht wie eine echte Hexe. Die Teens sind auch keine *echten* Hexen. #line:0d8733
+		Bea: also... #line:bf9d67
+		Mae: da ist noch ein anderes Kind, Lori M. Wir haben zusammen rumgehangen. #line:f1cba2
+		Bea: haengst du heutzutage nur noch mit Teenagern rum? #line:9864f2
+		Mae: Pssst. Ich bin wie ein Vorbild. #line:3a40f1
+		Bea: ach so, na dann. #line:10cf7f
+		Mae: Lori macht diese Sache, wo sie kleine Metallmaennchen auf die Gleise stellt. #line:c2fb3e
+		Bea: oooh! Und der Zug zerquetscht sie? Das ist so cool. #line:bfba22
+		Mae: ja, sie ist grossartig. #line:48be91
+		Mae: Ich weiss nicht. Vielleicht liegt es daran, dass ich kein Kind mehr bin #line:f13b8d
+		Mae: aber ihr dabei zusehen. OEffne ihre kleine Tasche #line:9206d2
+		Mae: und diese Dinge herausziehen #line:a6996b
+		Mae: und dann wie mit echten Zuegen #line:540450
+		Mae: kleine Monster machen. #line:b2cf15
+		Mae: ich habe die einzig logische Schlussfolgerung gezogen. #line:f90aee
+		Mae: Hexe. #line:64619e
+		Bea: Nun, Mae, du scheinst gerade in Hexen zu schwimmen. #line:90a2f2
+		Mae: Hey hoer mal, du koenntest auch eine sein. #line:9aaafd
+		Bea: Oh Gott ich wuenschte. Ich habe ein paar Verhexungen zu verteilen. #line:ec1d6d
+		Mae: und ich meine natuerlich zaehle ich als Hexe. Ich bin so was wie eine Geistermagierin auf der ganzen Linie. #line:1dfa31
+		Bea: natuerlich #line:d1ac85
+		Mae: Ich weiss nicht. Letzte Nacht, heute... #line:47d2ca
+		Mae: alles ist hier im Moment extrem schlecht. #line:494368
+		Mae: alles ist schlecht auf der Welt. #line:a4fd2c
+		Bea: Jungs letzte Nacht, #line:fff3d2
+		Bea: sie sind wie Geister in einem alten Herrenhaus #line:d321d0
+		Bea: wissen nicht, dass sie tot sind #line:05c310
+		Bea: sie schleichen herum und toeten jeden, der hier einzieht. #line:c3c9da
+		Mae: wie Grossvater sagte. Es spukt dort. #line:ccc928
+		Mae: aber es gibt auch eine Menge Hexen darin. #line:2677d6
+		Mae: und dadurch fuehle ich mich ein kleines bisschen besser. #line:84cf4e
+		Bea: also ist der ganze Rostguertel voller Geister und Hexen? #line:27aa06
+		Mae: ja, aber nicht alle Geister sind schlecht, wie... ich meine... ugh. #line:c354bc
+		Mae: Ich weiss nicht wirklich, worauf ich hinaus will. Es ist eine lange Woche gewesen. #line:05474f
+		Bea: Es ist in Ordnung. #line:dd1bd3
+		<<wait 4>>
+    <<endif>>
+<<endif>>
+
+Mae: so, #line:5c0d71
+<<if $mallard_rats>>
+	Mae: hast du irgendwelche neuen ... aeh ... Rattenprobleme im Laden gehabt? #line:e8b43c
+	Bea: aeh... ja. Woher wusstest du das? #line:936735
+	Mae: Ich habe gehoert, dass es in der Stadt ein paar Ratten gibt. #line:ea4b36
+	Mae: Das macht mich aus irgendeinem Grund gluecklich. #line:d81532
+	Bea: nun, es gibt kein kleines Rattenproblem #line:43a444
+	Bea: es wird einfach mehr von ihnen geben #line:6703de
+	Mae: Hoffnung keimt auf. Ratten vermehren sich. #line:a3b3c5
+	Bea: niedlich. wir verkaufen buchstaeblich Rattengift. #line:998efe
+	Bea: sie gehen unter #line:2a76dd
+	Mae: wir werden sehen. #line:39f2f9
+	Mae: hey, wo wir gerade von nichts sprechen, #line:dccc31
+<<endif>>
+Mae: wie gut ist dein Auto? #line:2ed604
+Bea: wie gut? #line:b0b2d2
+Mae: wie, kann es wirklich weit fahren? #line:ccfbcd
+Bea: Mae weisst du irgendwas ueber... was? #line:01778c
+Mae: wir sollten mal eine Reise machen. #line:cb0b82
+Bea: wohin? #line:af246c
+Mae: raus in den Westen #line:fbd980
+Mae: es wird ganz flach #line:c3ba30
+Bea: das tut es. #line:c5b468
+Mae: wir koennen dahin gehen, wo es wirklich flach ist #line:7659ff
+->und sie verkaufen Barbeque. #line:4cce76
+	Bea: ich glaube BBQ ist im Sueden #line:671f21
+	Mae: nicht alles davon #line:0b0c6e
+	Mae: es ist ueberall, Bea-Bea-Q. #line:ff3164
+	Mae: alle verschiedenen Arten. Trocken. Nass. Ultra. #line:f2f0fa
+-> und du kannst die groessten Pierogi der Welt sehen. #line:987120
+	Mae: oder ein Museum mit Spielzeug-Raketenschiffen #line:2246bb
+	Mae: oder eine Fabrik, wo sie Brezeln machen #line:6c6c3e
+	Mae: oder ein Haus, das aussieht wie ein grosses Huhn! #line:6a5ccc
+Bea: ich koennte... ok lass uns naechstes Jahr darueber reden #line:e344af
+Mae: ich werde jetzt mit der Planung beginnen. #line:4ebd00
+Bea: ich dachte, du kannst nicht von zu Hause weg, wegen deines... Problems? #line:d5b342
+Mae: eh. Du bist genug zu Hause. #line:9cfd7d
+Mae: ich meine, wenn wir hier zusammen gefangen sind #line:7bad62
+Mae: wir koennten genauso gut zusammen da draussen gefangen sein. #line:fd3bbc
+Mae: ich meine, wenn wir bis dahin nicht tot sind. L O L. #line:b05fc6
+Bea: Du hast eine Art, den Untergang nach einer Menge Spass klingen zu lassen, Maeday. #line:14083b
+Bea: das ist eigentlich eine Art Geschenk. #line:da55ec
+
+//from offscreen to the left//
+<<close>>
+<<playAmbientSFX AmbientSFX:band_door_open>>
+<<lookAt Bea Gregg>>
+<<wait 2>>
+Gregg: GODDAMN THIS DOOR! #line:6aa8a6
+Angus: Ich glaube, das hat Gott schon. #line:a41f04
+Mae: Da sind sie! #line:afb46a
+<<close>>
+<<walk Angus CharEnter1 wait>>
+Angus: Hey Leute. #line:7a864e
+<<close>>
+<<walk Gregg CharEnter2 wait>>
+Gregg: sup nerds. #line:c600d8
+->pssh. Ihr seid doch die Nerds. #line:f6559e
+	Gregg:{width=8} whaaaaaaaaaaaaaat? #line:131708
+	Angus: Oje. Wir sind noch nie so beleidigt worden. #line:ffcd5a
+	Gregg: Nimm es gleich zurueck, Trottel. #line:25004a
+	Mae: keine Chance. #line:b9c3cb
+->Wie hast du Angus aus der Arbeit geholt? #line:d6ed0c
+	Gregg: ich habe einen familiaeren Notfall erfunden. #line:788599
+	Angus: mein Onkel ist von einem Traktor ueberfahren worden. #line:c77b3c
+	Mae: ha ha wow. #line:418d1f
+	Angus: ich meine, im wirklichen Leben hat er das auch, aber das ist Jahre her. #line:17676a
+Bea: hey gregg, also... #line:e5b372
+Bea: ich kannte Casey nicht wirklich. #line:9be5c5
+Gregg: ... #line:faf615
+Gregg: Ja. #line:832c15
+Bea: Ich wollte nur sagen, dass es mir wirklich leid tut. #line:cd08c3
+Gregg: Ja. #line:4472e0
+Gregg: Danke. #line:7412e4
+Gregg: Casey war ein guter. #line:816d0a
+<<lookAt Bea Mae>>
+Mae: Casey war gut. #line:2d22bf
+Bea: Sollen wir... es seinen Eltern sagen? #line:c01a11
+->wahrscheinlich? #line:56ae4a
+	Angus: was sollen wir ihnen sagen? #line:5922c2
+	Mae: ich weiss nicht. #line:13b554
+	Mae: koennen wir... etwas erfinden, das echt klingt? #line:514e6b
+	Bea: oh was, die Wahrheit ist nicht real genug? #line:043bcf
+	<<wait 2>>
+	Bea: nein du hast recht die Wahrheit ist verrueckt #line:1aabbc
+->no???? #line:8e0f31
+	Mae: ich meine, ihnen was sagen? #line:9b1c31
+	Bea: aeh. Ok ja. #line:218393
+	Bea: hm #line:591189
+	Bea: guter Punkt. #line:219564
+<<lookAt Bea Gregg>>
+Angus: Also, was machen wir jetzt? #line:c6a595
+Mae: wegen Casey? #line:d24827
+Angus: nein, ganz allgemein #line:d27047
+<<wait 3>>
+<<lookAt Bea Mae>>
+Mae: koennen wir morgen darueber nachdenken? #line:70c982
+Mae: koennen wir einfach ein Lied spielen und eine Pizza holen? #line:341f62
+Bea: ich glaube nicht, dass "Lied und Pizza" eine Antwort ist, wirklich. #line:ec1a5c
+Mae: koennen wir nur einen Tag lang normal sein? #line:f3239f
+Bea: Ich weiss nicht, wie sich der heutige Tag ueberhaupt normal anfuehlen kann. #line:fd4671
+->als ich in diesem Koma war oder was auch immer #line:b2a873
+	Mae: ich habe die Zukunft gesehen #line:1bc973
+	Mae: oder vielleicht ist es jetzt die Zukunft #line:0d2fe1
+	Mae: oder war die Zukunft #line:be4bd7
+	<<lookAt Bea Gregg>>
+	Angus: wie fliegende Autos und so? #line:b74a0b
+	Angus: eigentlich waeren die eine Katastrophe #line:dfc79c
+	Gregg: ha ha ENDLICH gibst du es zu. Du schuldest mir 5 Maeuse. #line:0245a6
+	Angus: Wette ist Wette. #line:2d33b1
+	<<lookAt Bea Mae>>
+	Mae: nein, es war, als ob die Stadt verlassen wurde #line:46ff77
+	Mae: als wuerde sie von der Natur aufgefressen und zurueckerobert oder so ein Scheiss #line:95e30b
+	Mae: ich ging dorthin, wo mein Haus frueher war #line:f695c2
+	Mae: als ich dort war, fuehlte ich mich voellig hoffnungslos #line:22b1f9
+	Mae: aber jetzt denke ich, ich koennte einfach ein anderes Haus bauen. #line:8291ab
+	Mae: oder ich koennte einfach weiterziehen. #line:ba6c3d
+	Mae: wissen, wann man festhalten muss #line:6f528e
+	Mae: und wann man loslassen muss #line:68466d
+	Mae: ... #line:7dca4a
+	Mae: ok ich habe meinen ganzen Gedankengang verloren. #line:ff61b3
+	Mae: ich hatte ihn fuer eine Sekunde. #line:ae7eee
+	Mae: dann war er weg. #line:20c47a
+	<<wait 2>>
+	Bea: Lied und Pizza klingt gut, Mae. #line:9f180f
+	Gregg: Lied und Pizza. #line:dd6967
+	Mae: ja. #line:a5f7a8
+	Mae: gut genug. #line:e87b95
+->als ich letzte Nacht da unten war #line:f1d732
+	Mae: ich habe die Entscheidung getroffen, nicht zu sterben #line:f5d206
+	Mae: oder zumindest nicht kampflos zu sterben #line:1f0ddc
+	Mae: und das... Ding da unten... #line:c99d9e
+	Mae: sagte mir, nichts wuerde mich fuer immer retten #line:2885cd
+	Bea: warte, es hat also mit dir gesprochen? #line:126292
+	Mae: es redet schon seit langer Zeit mit mir. #line:98e961
+	Mae: ich wusste nur nicht was es war. #line:585884
+	Mae: aber wie auch immer, nichts wird uns fuer immer retten #line:80ef44
+	Mae: aber eine Menge Dinge koennen uns heute retten. #line:842699
+	Angus: das ist wirklich schoen, Mae. #line:7a7a4b
+	Mae: ha ha danke ich habe es mir total ausgedacht #line:ce42de
+	Mae: wie genau auf der Stelle gestern Abend #line:3ae4d6
+	Bea: ich habe es schon mal gesagt. Du bist gut mit dem Untergang. #line:80df4f
+	Gregg: Untergang Untergang Untergang #line:9ad6ea
+	Mae: also jedenfalls. Lied und Pizza. #line:5c6b49
+	Mae: wir haben es uns verdient, weil wir noch einen weiteren Tag am Leben sind #line:7186cf
+	Bea: das ist ein anstaendiger Grund. #line:01f628
+	Gregg: anstaendig. #line:ed780b
+	Angus: anstaendig. #line:541cba
+	<<wait 2>>
+	Mae: anstaendig. #line:8ba087
+
+<<wait 5>>
+<<scene EndCredits>>
+===
+title: TalkAboutLibrary
+tags: 
+colorID: 4
+position: 4562,-539
+---
+<<lookAt Gregg Mae>>
+<<lookAt Bea Mae>>
+<<fadeIn 1 wait>>
+Mae: ...und ausserdem weiss ich nicht einmal, ob es Traeume sind oder nicht. #line:627bc6
+Mae: und dieser Typ, von dem ich glaube, dass er ein Geist ist #line:fee36a
+Mae: hat irgendein Kind entfuehrt und war danach auch in meinem Kopf #line:4413ea
+Mae: waehrend ich geschlafen habe #line:17dbe9
+Mae: und ueberhaupt, ja ich glaube ich muss etwas tun #line:631db9
+Mae: denn das ist beaengstigend. #line:088315
+<<wait 2>>
+Bea: Nun, das ist nicht das, was ich heute Abend zu hoeren erwartet habe. #line:b65518
+Gregg: Bist du okay, Mann? #line:ecb8a9
+    ->yeah! #line:44a4b0
+        Mae: ich verliere nicht den Verstand oder so. #line:139064
+    ->Nein! #line:dc81f6
+        Mae: ich bin irgendwie ausgeflippt! #line:146dca
+Angus: es war wahrscheinlich kein Geist. #line:75d1ca
+Gregg: ja, wahrscheinlich nicht. #line:24b44b
+Bea: ja, auf jeden Fall. #line:c879d0
+Mae: uuuugh. #line:983c2e
+Mae: ok gut, dann werde ich das selbst herausfinden. #line:1629fd
+Gregg: ach Alter, sei doch nicht so. #line:d9bfd8
+Angus: du hast uns erwischt! #line:1ad11e
+Mae: ach...Leute... #line:ae1615
+<<wait 2>>
+Bea: ok gut. #line:3d8a87
+Mae: also muessen wir vielleicht sehen #line:75a67d
+Mae: ob da was ist #line:9e8b60
+Mae: irgendwelche geisterhaften Dinge hier passieren? #line:08175f
+Mae: von einer Quelle, der wir vertrauen koennen. #line:ec295e
+Angus: wie zum Beispiel... #line:346db7
+Mae: hat die Zeitung so etwas wie einen Geisterteil? #line:e7671d
+<<wait 2>>
+Mae: Was? Warum ist das eine dumme Frage? #line:e2f35f
+Bea: Weisst du, wir koennten in der Bibliothek nachsehen. #line:a2f669
+Mae: fuer... Buecher? darueber? #line:3cf81f
+Bea: nein, sie haben die Lokalzeitung in den Akten #line:1ece51
+Bea: geht ein Jahrhundert zurueck. #line:b1a004
+Bea: wenn es eine geheime Geschichte von Geistern gibt, die entfuehrt wurden #line:894cad
+Bea: wir werden es dort wahrscheinlich finden. #line:1a5720
+Mae: oh wow! ich wusste nicht, dass sie das haben! #line:85ffce
+Mae: ich dachte, es waere nur ein alter, kaputter Haufen Buecher? #line:f6ee9c
+Bea: wann warst du das letzte Mal in der Buecherei? #line:daf9f2
+Bea: wir haben eigentlich eine der schoeneren in der Gegend. #line:b1c1b5
+Mae: oh. wie? #line:c56814
+Bea: reicher Kerl, der dafuer bezahlt hat, damals? #line:09df7c
+Bea: ja sie haben eine Stiftung gegruendet, und... #line:e29448
+Mae: ? #line:6b9fda
+Bea: Vergiss es, lass uns gehen. #line:3c4a94
+Mae: koennen wir uns danach neu gruppieren? #line:a7a4a3
+Gregg: aeh #line:66e9e7
+Angus: sicher! #line:b9d513
+Mae: ok! wir sind gleich zurueck!!!! #line:c5130c
+Bea: wooohooo. geisterhaft. #line:5c2b04
+Mae: das ist die richtige Einstellung! #line:d25d19
+<<set $bea_investigation_quest to 1>>
+<<irisOut 1 wait>>
+<<sectionTitle TheLibrary Library>>
+===
+title: UpForSomeCrimes
+tags: 
+colorID: 3
+position: 2852,-301
+---
+Gregg: bist du bereit fuer ein paar Verbrechen??? #line:c42f1b
+Mae: Hm #line:5b5cd2
+-> Ich haenge vielleicht mit Bea rum, lass mich erst mal nachsehen. #line:28364f
+    Gregg: coooool. lass es mich wissen. #line:a606a4
+-> DEFINITELY! #line:d2a6ec
+    Gregg:{width=8} AWOOOOOOOOOOOOOOOOOOOOOO! #line:4e15ff
+    Mae:{width=8} AWOOOOOOOOOOOOOOOOOOOOOOOO! #line:ecd548
+    <<set $gregg_friendship_quest to 1>>
+    <<set $did_gregg_friendship_quest_1 to 1>>
+    <<fadeOut 1 wait>>
+    <<sectionTitle GreggFQ1Intro Outskirts>>
+===
+title: BeaWeSureWereDoingThis
+tags: 
+colorID: 3
+position: 3515,-357
+---
+Bea: ok, sind wir sicher, dass wir das tun? #line:60580a
+Mae: o_o :| #line:3bfc8a
+-> Lass mich schnell mit Gregg nachfragen. #line:2bb28a
+    Bea: okeydoke. #line:211bf8
+-> Ja. Lass uns malling gehen. #line:2eb002
+    Bea: Super. #line:14af92
+    <<close>>
+    <<set $bea_friendship_quest to 1>>
+    <<set $did_bea_friendship_quest to 1>>
+    <<fadeOut 1 wait>>
+    <<scene BeaCar>>
+===
+title: Finish_A2D1
+tags: temp
+colorID: 3
+position: 2896,-913
+---
+<<lookNearest Gregg>>
+
+===

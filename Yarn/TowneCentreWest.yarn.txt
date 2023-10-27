@@ -1,0 +1,1106 @@
+title: EnterLevel_A1D1
+tags: 
+colorID: 0
+position: -211,528
+---
+[[OutsideDiner]]
+
+===
+title: OutsideDiner
+tags: 
+colorID: 0
+position: -208,858
+---
+<<if $diner is 1>>
+	Mae: Es ist wirklich toll, wieder hier zu sein. #line:243934
+	Gregg: Kumpel, wir koennen jeden Tag abhaengen! #line:96a1c9
+    <<musicFadeOut 4>>
+	Angus: Oh mein Gott. #line:302f95
+    <<lookDirection Gregg .5 -.5>>
+    <<lookDirection Bea .25 -.75>>
+	Bea: Heiliger Bimbam. #line:545131
+	Mae: Was? #line:522550
+    <<lookDirection Mae .6 -.4>>
+	Angus: Ist das ein Arm? #line:1f8313
+	Bea: Das ist ein Arm. #line:72d8ab
+	Gregg: NIEMAND BEWEGT SICH. #line:a38ff1
+	Gregg: LET'S POKE IT WITH A STICK. #line:c6e5c2
+	Mae: Ich rufe als erstes an!!! \o/ #line:777a38
+	<<fadeOut 1 wait>>
+	<<set $diner to 2>>
+	<<scene PawsModeSeveredArm>>
+<<elseif $diner is 2>>
+    <<fadeOutMusic .01>>
+    <<lookAt Gregg Molly>>
+    Mae: Hey Tante Molly! Wir haben einen Arm gefunden! #line:f265df
+    Molly: In Ordnung Mae, leg den Stock weg und geh von dem Arm weg. #line:4660ea
+    Mae: Schon gut, schon gut! Tasert mich nicht oder so. #line:167204
+    Molly: Ich verspreche nichts. #line:c26569
+    Gregg: Oh, ich glaube, es ist Zeit fuer Angus und mich, nach Hause zu gehen. #line:145fa8
+    Gregg: Wir sehen uns morgen, Mae! #line:27f362
+    Molly: In Ordnung, ich will nicht, dass einer von euch heute Abend alleine nach Hause geht #line:ae2c9b
+    Molly: Kumpel-System. Etwas Schlimmes geht hier vor. #line:dc9066
+    Bea: Ich kann Mae nach Hause fahren, Officer. #line:6679cf
+    Molly: Danke, Bea. #line:022a50
+    Mae: Ja, danke, Bea! Los geht's! #line:694872
+    <<unlockDoodle Arm>>
+    <<if $found_tattoo>>
+        <<unlockDoodle ArmTattoo>>
+    <<endif>>
+	<<fadeOut 1 wait>>
+	<<set $diner to 3>>
+	<<scene BeaCar>>
+<<endif>>
+===
+title: Scout1
+tags: 
+colorID: 0
+position: 605,1103
+---
+[[Scouts]]
+===
+title: Scout2
+tags: 
+colorID: 0
+position: 911,1094
+---
+[[Scouts]]
+===
+title: Scouts
+tags: 
+colorID: 0
+position: 764,1431
+---
+<<if $scouts_sequence is 0>>
+    <<if $scouts is 0>>
+        <<set $scouts += 1>>
+        [[Scouts_00_00]]
+    <<elseif $scouts is 1>>
+        [[Scouts_00_01]]
+    <<endif>>
+<<elseif $scouts_sequence is 1>>
+    <<if $scouts is 0>>
+        <<set $scouts += 1>>
+        [[Scouts_01_00]]
+    <<elseif $scouts is 1>>
+        <<set $scouts += 1>>
+        <<set $scouts_done to 1>>
+        [[Scouts_01_01]]
+    <<endif>>
+<<endif>>
+===
+title: Scouts_00_00
+tags: 
+colorID: 0
+position: 408,1779
+---
+Scout1: Hey! Kaufst du ein paar Kekse? #line:0665a7
+Scout2: Ja, kauft ein paar Kekse! #line:e20571
+Mae: Hm. Wir haben im Fruehling immer Kekse verkauft. #line:8ec7c6
+Scout1: Wir haben jetzt Herbstkekse! #line:a79e31
+Scout2: Ja, bist du nicht auf dem Laufenden ueber aktuelle Ereignisse? #line:a8cff6
+<<if $current_events is 1>>
+    Mae: Oje! Nein! Ich bin nicht auf dem Laufenden ueber aktuelle Ereignisse! #line:42dc6e
+<<endif>>
+<<set $current_events to 1>>
+Scout1: Kaufe jetzt 9 Kisten! #line:66c440
+Scout2: Pleeeease!!! #line:005e27
+Mae: Ich habe kein Geld. #line:99773f
+Scout1: Dann geh weiter, armer Kerl! #line:f2909c
+===
+title: Scouts_00_01
+tags: 
+colorID: 0
+position: 691,1789
+---
+Scout1: Kekse! Holt euch Kekse hier! #line:c4902c
+===
+title: Bargoers_A1D1
+tags: 
+colorID: 2
+position: -1084,1795
+---
+Bargoer1: Es ist fast 5! Zeit zum Aufhoeren! #line:40c34f
+Bargoer2: Ein paar Bierchen trinken und den Smelters zusehen! #line:742ccb
+<<set $bargoers_done to 1>>
+===
+title: Bargoers_A1D2
+tags: 
+colorID: 2
+position: -842,1793
+---
+Bargoer1: Besser in Deckung gehen! Hier kommen die Schmelzer! #line:029f0f
+Bargoer2: Es hat keinen Sinn, sich zu verstecken. Die Schmelzer werden euch finden. #line:65fb32
+<<set $bargoers_done to 1>>
+===
+title: LeftSideBlocker
+tags: 
+colorID: 0
+position: 337,678
+---
+<<if $act is 1>>
+    <<if $day is 1>>
+        Mae: Glaube nicht, dass ich Gregg bei dem verlassenen Futteresel finden werde. #line:88f8c1
+        Mae: Geh lieber in Richtung Snack Falcon. #line:18f4ba
+    <<elseif $day is 2>>
+        Mae: Ich will nur meinen Computer. Ich brauche das Internet. #line:8da143
+        Mae: Es ist wichtiger als alles, was da draussen ist. #line:3c330b
+    <<elseif $day is 3>>
+        Mae: Igitt. Ich gehe heute nicht an den Stadtrand. #line:1d0ab2
+        Mae: habe noch was zu tun. #line:36f6b1
+    <<endif>>
+<<elseif $act is 2>>
+    <<if $day is 1>>
+        [[LeftSideBlocker_A2D1]]
+    <<endif>>
+<<endif>>
+===
+title: Bargoers_A2D1
+tags: 
+colorID: 3
+position: -1090,2039
+---
+Bargoer2: Wie waer's mit den Schmelzhuetten? #line:bf9608
+Bargoer1: Haben letzte Nacht ein paar Blaubaeren in den Arsch getreten! #line:b61068
+Bargoer2: Gutes Spiel, gutes Spiel. #line:16053a
+Bargoer1: Das wird eine Wahnsinnssaison, Kumpel. #line:83b085
+<<set $bargoers_done to 1>>
+===
+title: Scouts_01_00
+tags: 
+colorID: 0
+position: 964,1771
+---
+Scout1: HEY! KAUFEN SIE 9 KISTEN HERBSTKUCHEN BITTE #line:b460d4
+Mae: Kein Geld hier! #line:c8973b
+Scout2: Dann zieh weiter, Bauer! #line:4ddfc0
+Scout1: Hey. Hoert mal. Wir sind Scouts, ok? #line:7c7bc5
+Scout2: Ja, und? #line:e93e5f
+Scout1: Pfadfinder nennen Leute nicht Bauern, ok? #line:51e1c9
+Scout2: Ja, du hast recht. #line:f8c3b8
+Scout1: Auch wenn sie Bauern sind. #line:0533fc
+Scout2: Pfadfinder sind nett zu Bauern. #line:e40182
+Mae: Ihr zwei lernt gerade wertvolle Lektionen. #line:1dd38d
+===
+title: Bargoers_A1D3
+tags: 
+colorID: 2
+position: -619,1793
+---
+Bargoer1: Schmelzer! Smelters! Ich komme euch holen! #line:b49c58
+Bargoer2: Was wollt ihr tun? Was wollt ihr tun? #line:a167ce
+<<set $bargoers_done to 1>>
+===
+title: Scouts_01_01
+tags: 
+colorID: 0
+position: 1233,1776
+---
+Scout2: Kekse! Helft den Pfadfindern! Haltet uns von den Strassen fern! #line:acb2ff
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: -662,418
+---
+<<if $act is 1 and $day is 1>>
+    <<if $diner is 1>>
+    	<<warp Player MaeDiner>>
+    	<<show Gregg>>
+    	<<show Bea>>
+    	<<show Angus>>
+    	<<warp Gregg GreggDiner>>
+    	<<warp Bea BeaDiner>>
+    	<<warp Angus AngusDiner>>
+        <<play TowneCentreMusic>>
+    <<elseif $diner is 2>>
+    	<<warp Player MaeArm>>
+    	<<show Gregg>>
+    	<<show Bea>>
+    	<<show Angus>>
+    	<<warp Gregg GreggArm>>
+    	<<warp Bea BeaArm>>
+    	<<warp Angus AngusArm>>
+        <<show Molly>>
+        <<flip Molly -1>>
+        <<warp Molly MollyArm>>
+        <<lookAt Molly Bea instant>>
+    <<endif>>
+<<endif>>
+
+<<if $act is 2 and $day is 1>>
+    <<hide Scout1>>
+    <<hide Scout2>>
+<<endif>>
+
+<<if $act is 2 and $day is 2>>
+    <<show CityCouncil>>
+<<else>>
+    <<hide CityCouncil>>
+<<endif>>
+
+<<if $demo2>>
+    <<show Pastor>>
+    <<show Bruce>>
+    <<setCanInteract Bruce 0>>
+<<else>>
+    <<hide Pastor>>
+    <<hide Bruce>>
+<<endif>>
+
+<<if $act is 3 and $day is 1 and $rooftop_hangout>>
+    <<cameraLookAt CameraRooftopHangout>>
+    <<warp Mae RooftopHangoutMae>>
+    <<warp Gregg RooftopHangoutGregg>>
+    <<warp Angus RooftopHangoutAngus>>
+    <<warp Bea RooftopHangoutBea>>
+<<endif>>
+
+<<if $act is 4 and $day is 3>>
+    <<hide Bargoer2>>
+<<endif>>
+
+<<if $act is 4 and $day is 3>>
+    <<show GarretRandell>>
+<<else>>
+    <<hide GarretRandell>>
+<<endif>>
+
+<<if $act is 2 and $day is 3>>
+    <<show CeeJay>>
+<<else>>
+    <<hide CeeJay>>
+<<endif>>
+
+<<if $act is 3 and $day is 3>>
+    <<show RyanBranch>>
+<<else>>
+    <<hide RyanBranch>>
+<<endif>>
+
+<<if $act is 2 and $day is 1>>
+    <<show KevinClark>>
+<<else>>
+    <<hide KevinClark>>
+<<endif>>
+
+<<if $act is 2 and $day is 2>>
+    <<show IlyaSobin>>
+<<else>>
+    <<hide IlyaSobin>>
+<<endif>>
+
+<<if $act is 3 and $day is 2>>
+    <<show DmitryGavriluk>>
+<<else>>
+    <<hide DmitryGavriluk>>
+<<endif>>
+
+<<if $act is 1 and $day is 3>>
+    <<show Shane>>
+<<else>>
+    <<hide Shane>>
+<<endif>>
+===
+title: OutsideVideoStore.1
+tags: demo2
+colorID: 0
+position: 1457,1058
+---
+Mae: Ich glaube nicht, dass Angus heute arbeitet. #line:cb780d
+Mae: Wer geht ueberhaupt in eine Videothek? #line:2c49f2
+Mae: Ich frage mich, ob es nur seltsame Typen sind, die in die VHS-Abteilung fuer Erwachsene gehen. #line:83989d
+Mae: Creepo: jemand, der verlangt, dass seine Pornos ueber veraltete Maschinen geliefert werden. #line:c71aac
+===
+title: OutsideVideoStore.2
+tags: demo2
+colorID: 0
+position: 1664,1060
+---
+Mae: Ich meine, der Rest von uns benutzt moderne Geraete wie zivilisierte Menschen. #line:8c28f6
+<<set $outside_video_store_done to 1>>
+===
+title: SnackFalconPole.1
+tags: demo2
+colorID: 0
+position: 2001,1089
+---
+Mae: Grossvater hat mir mal eine Geschichte vorgelesen #line:3f3f31
+Mae: ueber einen Seemann, dessen Schiff sank #line:123818
+Mae: und er kletterte einen der Schiffsmasten hoch...... #line:3647ab
+Mae: und das Schiff landete auf einer Koralle oder so, bevor es ganz sank #line:83eac1
+Mae: und er sass eine Woche lang auf dem Schiffsmast fest #line:42d0e7
+Mae: beobachtete die Haie im Kreis. #line:4b5649
+===
+title: SnackFalconPole.2
+tags: demo2
+colorID: 0
+position: 2247,1096
+---
+Mae: Mast! Das nennt man einen Mast. #line:c25c05
+Mae: Klingt besser als Schiffsmast. #line:a0c4ce
+
+===
+title: SnackFalconPole.3
+tags: demo2
+colorID: 0
+position: 2466,1067
+---
+Mae: Der Kerl hat Seevoegel gegessen und Hurrikanregen getrunken. #line:c10dba
+Mae: Sah Seegeister. #line:018ff4
+Mae: Der Kerl war toll. #line:07cf7c
+<<set $snack_falcon_pole_done to 1>>
+===
+title: PreInitLevel_A1D1
+tags: 
+colorID: 0
+position: -232,251
+---
+<<if $diner is 2>>
+    <<destroy _TowneMusic>>
+<<endif>>
+===
+title: LeftSideBlocker_A2D1
+tags: demo2
+colorID: 0
+position: 611,668
+---
+Mae: Koennte zu dem verlassenen Food Donkey wandern. #line:c5d910
+Mae: ... #line:ec8ff7
+Mae: Ich werde nicht zu dem verlassenen Essensesel wandern. #line:057d12
+===
+title: Pastabilities_Act2
+tags: 
+colorID: 3
+position: 1853,1395
+---
+Mae: was zum... #line:a9555a
+Mae: Was... #line:dca6a5
+Mae: NO! #line:0c146a
+Mae: nein, nein, nein, nein, nein, nein, nein, nein, nein, nein! #line:a331c9
+Mae: Pastabilities is gone!!!! #line:2d6e82
+Mae: keine Pizzalieferung mehr! #line:84e99c
+Mae: kein Big Sal mehr! #line:2dd5b2
+Mae: keine besonderen Geburtstage mehr. #line:059d9b
+Mae: das ist das Schlimmste, was dieser Stadt je passiert ist #line:a24538
+Mae: seit der Flut, die #line:bfc65a
+->der Streichelzoo #line:ae6475
+    Mae: Gott sei Dank sind alle Tiere in Sicherheit geschwommen #line:9537e0
+    Mae: auf dem Dach des Reifenladens. #line:4eef22
+    Mae: wer haette gedacht, dass Ziegen so gute Schwimmer sind? #line:2a46c3
+->die Minigolf-Eisdiele. #line:9efaa0
+    Mae: Sommernaechte. #line:e51f9d
+    Mae: Eis essen. #line:3251c1
+    Mae: ein bisschen Putt-Putt spielen. #line:46cf9e
+    Mae: alles weggespuelt. #line:2bf509
+Mae: ich bin jetzt so verdammt DEPRESSIERT. #line:78c28c
+<<set $knows_pastabilities to 1>>
+<<set $pastabilities_act2_done to 1>>
+===
+title: Pastabilities_Act3
+tags: 
+colorID: 4
+position: 2103,1397
+---
+Mae: whoa. #line:23edac
+Mae: zieht da jemand ein? #line:f46f21
+Mae: wahrscheinlich etwas Dummes. #line:7a4532
+Mae: ich vermisse dich, Pizzeria. #line:18e480
+<<set $pastabilities_act3_done to 1>>
+===
+title: Pastabilities_Act4
+tags: 
+colorID: 5
+position: 2361,1400
+---
+<<if $talked_to_dan_about_taco_buck is 1>>
+    Mae: wow. #line:83e261
+    Mae: unsere ganz eigene Taco-Bude. #line:b038e0
+<<else>>
+    Mae: HOLY CRAP!!!!! #line:a0aed2
+    Mae: A... #line:cbcc73
+    Mae: AAAAAAAH #line:3b8f53
+    Mae: A TACO PLACE!!!! #line:902b48
+<<endif>>
+Mae: das ist das Beste, was dieser Stadt passiert ist, seit #line:e4cb82
+->die ganzen Schlangen im Diner losgeworden sind! #line:b15eda
+    Mae: die Besitzer waren religioes #line:6c41bb
+    Mae: und sie holten einen Prediger #line:e44be9
+    Mae: aus einem der heiligen Lager oben in den Bergen. #line:5f8c66
+    Mae: und er ging da rein und schrie die Schlangen an, zu verschwinden. #line:10f648
+    Mae: am naechsten Tag, nachdem er gestorben war, stellten sie einfach Fallen auf. #line:93c4e7
+    Mae: niemand weiss, woher sie kamen #line:922786
+    Mae: oder warum sie eingezogen sind. #line:3126cb
+    Mae: aber jetzt sind sie schon lange weg. #line:e82f87
+->Wir haben Internet! #line:e790f2
+    Mae: wir haben bis vor etwa 2 Jahren noch CyberFish benutzt. #line:7e12ea
+    Mae: weil es hier ewig 2 Jahrzehnte hinterherhinkt. #line:121b9b
+    Mae: man braucht 3 Tage, um einen Film zu torren. #line:08d0e1
+    Mae: braucht 1 Tag, um ein Gif zu laden. #line:9f7b4a
+    Mae: barbarische Zeiten. #line:dd8124
+Mae: Gott. #line:54067f
+Mae: das Leben geht weiter, hm. #line:02f2a6
+<<wait 2>>
+Mae: oh mein Gott! Sie liefern!!! #line:ce7cf5
+Mae: Ich werde die Scheisse aus ein paar Tacos essen. #line:20145e
+<<set $pastabilities_act4_done to 1>>
+===
+title: ArmSpot.1
+tags: 
+colorID: 0
+position: 2941,748
+---
+Mae: also wie kommt der Arm hierher... #line:b1afc1
+Mae: jemand, der einfach die Strasse runterlaeuft #line:d703ee
+Mae: "hoppla, mein Arm ist abgefallen!" #line:88a74e
+Mae: "ich komme einfach spaeter wieder!" #line:28a542
+===
+title: ArmSpot.2
+tags: 
+colorID: 0
+position: 3195,737
+---
+Mae: niemand koennte ueberleben, wenn sein Arm einfach abfaellt #line:88c552
+Mae: oder abgehackt zu werden #line:b4e639
+Mae: wie, nicht von einem Arzt. #line:626172
+Mae: heisst es immer noch Koerperverletzung, wenn man einen Arm abhackt? #line:f32fea
+Mae: scheint, als sollte es ein anderes Wort sein. #line:1f4f68
+Mae: "armchoppy" #line:7d35a2
+Mae: du bist verhaftet wegen armchoppy! #line:e43ac9
+===
+title: ArmSpot.3
+tags: 
+colorID: 0
+position: 3429,733
+---
+Mae: wer auch immer der Arm war, der ist wahrscheinlich tot. #line:62093f
+Mae: Nee. Eindeutig. #line:ca0e47
+Mae: es sei denn, ich sehe jemanden herumlaufen #line:1219ef
+Mae: der bis vor kurzem noch einen Arm hatte. #line:dafad8
+<<end>>
+===
+title: StatueLedge.1
+tags: 
+colorID: 0
+position: 2944,1005
+---
+Mae: nun hier ist ein Mann, der Statuen liebt. #line:fd059a
+Mae: es gibt nicht viele Leute, die sich heute Statuen von sich selbst machen lassen. #line:b769ae
+Mae: wir sind uns unserer selbst sicher, ok. #line:28f624
+Mae: wir brauchen keine Statuen, damit wir uns besser fuehlen. #line:6aa339
+===
+title: StatueLedge.2
+tags: 
+colorID: 0
+position: 3192,1008
+---
+Mae: wenn ich eine Statue haette, wuerde ich mich richtig gross machen lassen #line:caba5d
+<<end>>
+===
+title: HellMalt.1
+tags: 
+colorID: 0
+position: 2935,1236
+---
+Mae: was zum Teufel ist ein Malz? #line:d42955
+<<end>>
+===
+title: FrontOfVideoStore.1
+tags: 
+colorID: 0
+position: 2933,1483
+---
+Mae: "auch"? #line:9e8cd9
+Mae: ist das wie "zwei" #line:b4a817
+Mae: oder wie "auch" #line:face3d
+Mae: das ist ein so schlimmer Fehler, dass selbst ich ihn nicht machen wuerde. #line:909304
+===
+title: FrontOfVideoStore.2
+tags: 
+colorID: 0
+position: 3179,1485
+---
+Mae: auch wo war der andere Video-Aussenposten? #line:a5dac2
+<<end>>
+===
+title: Bargoers_A2D2
+tags: 
+colorID: 3
+position: -852,2045
+---
+Bargoer2: Es ist nass und mir ist kalt. #line:e25385
+Bargoer1: Die Schmelzer wuerden das nicht sagen. #line:717451
+Bargoer2: Zur Hoelle nein - Schmelzer spielen bei jedem Wetter! #line:796935
+Bargoer1: Ob Regen oder Sonnenschein, es ist immer Schmelzerwetter. #line:a6613d
+<<set $bargoers_done to 1>>
+===
+title: Bargoers_A2D3
+tags: 
+colorID: 3
+position: -625,2039
+---
+Bargoer2: Wieder sonnig. Dem Himmel sei Dank. #line:5c3260
+Bargoer1: ... #line:9dbc2c
+Bargoer2: Was macht dich fertig? #line:fd4f7e
+Bargoer1: Ach, es ist nichts. #line:1b7af4
+Bargoer2: Hey aeh... #line:de7b87
+Bargoer2: Go Smelters, right? #line:0dc793
+Bargoer1: Ja, los Smelters! #line:28b78c
+<<set $bargoers_done to 1>>
+===
+title: Bargoers_A2D4
+tags: 
+colorID: 3
+position: -389,2030
+---
+Bargoer2: Gehst du zum Harfest? #line:beebb0
+Bargoer1: Nee, werde mir das Spiel ansehen. #line:e37c68
+Bargoer2: Gibt es heute Abend ein Spiel? #line:2f65b0
+Bargoer1: Nein, aber ich wollte mir meine Lieblings-Highlights ansehen. #line:fd2af3
+Bargoer2: Warum kommst du nicht raus, koennte gut sein. #line:1dc65d
+Bargoer2: Vertritt dir die Beine. Sehen Sie sich die Parade an. #line:74757f
+Bargoer1: ... #line:14f1e3
+Bargoer2: Hast du das Spiel schon mal live gesehen? #line:4cec01
+Bargoer1: ... #line:862648
+Bargoer1: Nee, noch nie. #line:b404a2
+Bargoer2: Komm doch mit zum Harfest. Man kann nie wissen. #line:0001ac
+Bargoer1: ... #line:2dd608
+Bargoer1: Ja, schon gut! #line:a275b0
+Bargoer2: Ja! Los Schmelzer! #line:261776
+Bargoer1: Gooooo Smelters! #line:2b105a
+<<set $bargoers_done to 1>>
+===
+title: Bargoers_A3D1
+tags: 
+colorID: 4
+position: -1099,2281
+---
+Bargoer2: Es ist wieder nass. #line:984f6c
+Bargoer2: und mir ist wieder kalt. #line:03c297
+Bargoer1: Es ist nur Regen. #line:4beb09
+Bargoer2: Hey aeh... #line:1322e8
+Bargoer2: Warum stehen wir immer noch hier draussen? #line:225bd6
+Bargoer1: Irgendjemand muss es ja tun. #line:8dd911
+<<set $bargoers_done to 1>>
+===
+title: Bargoers_A3D2
+tags: 
+colorID: 4
+position: -861,2288
+---
+Bargoer2: Hey - du hast mir nie gesagt, warum du neulich so niedergeschlagen warst... #line:98123d
+Bargoer1: Muss ich dir denn alles erzaehlen? #line:e2ea90
+Bargoer2: Nee, nee. Ich frage nur, das ist alles. #line:d292b3
+Bargoer1: Na, dann frag jemand anderen. #line:f0ed21
+Bargoer2: ... #line:79c6b4
+Bargoer1: ... #line:78ee2a
+<<set $bargoers_done to 1>>
+===
+title: Bargoers_A3D3
+tags: 
+colorID: 4
+position: -627,2277
+---
+Bargoer2: Also sage ich zu ihr - "Mabel, geh von dem verdammten Tisch runter!" #line:210341
+Bargoer1: Hahaha #line:467e9d
+Bargoer2: Und sie sagt: "Warum kletterst du nicht einfach mit mir hier hoch." #line:64b9c0
+Bargoer1: Auf keinen Fall. #line:ae9353
+Bargoer2: Doch, es ist wahr. Wir haben beide auf diesem Tisch getanzt. Haetten das verdammte Ding fast kaputt gemacht. #line:339e68
+Bargoer1: ... #line:cd3344
+Bargoer1: Irgendwie kann ich es nicht sehen. #line:d44e0e
+Bargoer2: Na ja. Du haettest dabei sein muessen. #line:f87dfd
+Bargoer1: Das war ich wirklich nicht. #line:4579bb
+<<set $bargoers_done to 1>>
+===
+title: Bargoers_A3D4
+tags: 
+colorID: 4
+position: -394,2264
+---
+Bargoer2: Nun, das war's, morgen geht's los. #line:3b3d89
+Bargoer1: Ich kann nicht glauben, dass du den neuen Job tatsaechlich bekommen hast. #line:cd8f6a
+Bargoer2: Jep. Ich mache mich auf den Weg zu besseren Dingen. #line:b662f7
+Bargoer1: ... #line:2a1759
+Bargoer1: Sind die Kinder aufgeregt? #line:9fb634
+Bargoer2: Oh ja. Sie werden es lieben. Koennte aber eine Weile dauern. #line:ade23c
+Bargoer1: Ha. #line:0a6cbb
+Bargoer2: Na ja... #line:f1d61f
+Bargoer1: Jawohl. #line:e251d9
+Bargoer2: Jepp. #line:439e48
+Bargoer1: ... #line:d6f385
+Bargoer2: ... #line:8049c6
+Bargoer2: Vielleicht nur noch einen, hm. #line:312206
+Bargoer1: Ja. Einen noch. #line:056cbf
+<<wait 1>>
+<<runNextLinesTogether 2>>
+Bargoer1: [shake=.05]Huhu Schmelzer![/shake] #line:f98ce6
+Bargoer2: [shake=.05]Huhu Schmelzer![/shake] #line:cf8fea
+<<wait .5>>
+Bargoer2: Ja, genau. #line:cb589e
+<<set $bargoers_done to 1>>
+===
+title: Bargoers_A4D3
+tags: 
+colorID: 6
+position: -1098,2542
+---
+<<flip Bargoer1 -1>>
+Bargoer1: ... #line:eb6bbc
+Bargoer1: Wer sind Sie? #line:9ade7a
+Mae: Habt ihr mich nicht gesehen? #line:26d972
+Bargoer1: Nee. #line:0091d8
+Mae: Nun, ich habe dich bemerkt. #line:5cd2fc
+Bargoer1: Das ist nicht seltsam oder so. #line:0c3dd1
+Mae: Etwas kalt, um draussen zu stehen, oder? #line:a3ffa8
+Bargoer1: Irgendjemand muss ja hier stehen. #line:fb8754
+Bargoer1: ... #line:f3eea2
+Bargoer1: Hey, bist du Smelters-Fan? #line:066d64
+-> Aeh... ja #line:216c87
+    Bargoer1: Ach wirklich? #line:cc6343
+    Mae: Haha. Y-yeah! #line:ce27a1
+    Bargoer1: Go Smelters? #line:2d9979
+    Mae: Go Smelters. :) #line:e5969e
+    Bargoer1: Los Schmelzer. #line:5d11e3
+    Mae: :| #line:36332d
+-> Umm... naw #line:05714e
+    Bargoer1: Ah. Naja. #line:958812
+    Bargoer1: ... #line:e90b8e
+<<set $bargoers_done to 1>>
+===
+title: CeeJay
+tags: 
+colorID: 0
+position: 1789,1861
+---
+Mae: Hey... CJ? #line:82a5a2
+CeeJay: ja? #line:dff6d4
+Mae: du warst sozusagen... in der Highschool, als ich in der Mittelschule war. #line:8da581
+CeeJay: oh. Huh. #line:f11471
+CeeJay: kannte ich dich? #line:f040d9
+Mae: du hast frueher mit Tom Bramwell Nerd-Spiele gespielt #line:ad4ed8
+Mae: gegenueber von meinem Haus. #line:a2d32f
+CeeJay: ha ha. Nerd-Spiele. #line:f8a464
+CeeJay: das ist ja ein tolles Gedaechtnis, das du da hast #line:efe13a
+Mae: wohnst du noch hier? #line:4111dd
+CeeJay: nein, bin nur zu Besuch da. #line:6b2cd9
+Mae: fuer Nerd-Spiele? #line:df0368
+CeeJay: das war so ein Stift-und-Papier-Rollenspielzeug #line:6845c9
+Mae: cool. #line:e1c788
+CeeJay: aber nein, ich bin nur zu Besuch bei der Familie. #line:396f93
+CeeJay: Ehemann faehrt morgen runter. #line:d1a48a
+Mae: was tust du jetzt? #line:44e7e3
+CeeJay: Anwalt #line:de6a8c
+Mae: oh wow. #line:c15198
+Mae: kann ich dich etwas ueber Recht fragen? #line:12634e
+CeeJay: nun, ich bin nicht in einer professionellen Funktion taetig #line:2e9004
+CeeJay: aber ja sicher. #line:abc791
+	->Wie raubt man am besten eine Bank aus? #line:a774d7
+		CeeJay: das ist nicht wirklich eine Rechtsberatung #line:ec64d0
+		Mae: legal ist wie Gesetze, richtig? #line:15ee95
+		CeeJay: aeh #line:e2fb84
+        Mae: und Bankueberfall ist ein Verbrechen, richtig? #line:08cbe3
+		Mae: und Verbrechen sind gegen das Gesetz? #line:52b04d
+		Mae: das haengt alles zusammen. #line:4b8b68
+		CeeJay: ich schaetze einfach... Du weisst schon... Banditenmaske und eine Waffe? #line:a85adb
+		Mae: eh. Das hat es schon gegeben. #line:c359b9
+	->Was ist der beste Weg, um aus dem Knast zu kommen? #line:e90034
+		CeeJay: nun, das kommt auf die Situation an, weisst du- #line:3a07d8
+		Mae: wie wuerdest du dich durch die Wand graben oder wie #line:e24d10
+		Mae: eine Wache angreifen und ihre Hose und Identitaet nehmen #line:68c619
+		Mae: oder wie, ich weiss nicht... einfach einen Aufstand anzetteln oder so? #line:bae7a6
+		CeeJay: huh. #line:9933f1
+		Mae: was ist die *beste* Gefaengnisbande? #line:0f7d67
+		Mae: wie, wenn du *musst* waehlen? #line:6c9222
+CeeJay: weisst du, wir lernen solche Sachen nicht wirklich in der juristischen Fakultaet. #line:5eeef9
+Mae: was bringt es, aufs College zu gehen, wenn man nichts Nuetzliches lernt? #line:012c79
+CeeJay: Gesetze sind ziemlich nuetzlich. #line:02e2f0
+Mae: nuetzlich am Arsch, CJ! #line:040d67
+<<wait 2>>
+Mae: sorry Willkommen zurueck Viel Spass beim Besuch #line:c55b86
+CeeJay: aeh. wir sehen uns. #line:b63fae
+<<set $cee_jay_done to 1>>
+===
+title: IlyaSobin
+tags: 
+colorID: 0
+position: 1130,660
+---
+IlyaSobin: Entschuldigt mich! #line:266de6
+Mae: Ja? #line:641d7a
+IlyaSobin: Ich suche den Parkladen? #line:7edb3c
+Mae: Du hast ihn gerade verpasst. #line:94b80d
+IlyaSobin: Was? #line:5bf4ee
+Mae: Du hast einen Akzent. #line:a0aeba
+Mae: Woher kommst du? #line:7ea757
+IlyaSobin: Russland. #line:74e195
+Mae: Wie bist du den ganzen Weg hierher gekommen? #line:8324c3
+IlyaSobin: Ich wandere auf dem Great Eastern Deciduous Trail. #line:ba7b89
+->Oh wow. Wie ist das? #line:d6de11
+    IlyaSobin: Es ist anstrengend, aber schoen. #line:a4a54d
+    Mae: Es geht durch etwa 6 Staaten, richtig? #line:04afa0
+    IlyaSobin: Ich habe nicht mehr mitgezaehlt. #line:da5244
+    Mae: Ich kann mir nicht vorstellen, so weit zu laufen. #line:ca5354
+->Hast du irgendwelche Baeren gesehen? #line:3881fc
+    IlyaSobin: Nicht so weit. #line:9a074b
+    Mae: Manchmal fressen sie Menschen. #line:a5f416
+    IlyaSobin: Eigentlich alle eure Baeren hier #line:a455d2
+    IlyaSobin: fressen meistens Muell. #line:98b701
+    Mae: unhoeflich. #line:a7d320
+IlyaSobin: Mein Fuehrer sagte, es gaebe hier einen Parkladen? #line:a4fb90
+Mae: Der ist weg. Frueher war er genau hier. #line:85f8b9
+Mae: Aber jetzt gibt es einen Imbiss-Falken! #line:79016e
+IlyaSobin: Weisst du, wo ich Nachschub bekommen kann? #line:7e87ed
+Mae: Ich meine... #line:387099
+Mae: Snack Falcon, Kumpel. #line:356a7c
+IlyaSobin: Ich denke, ich kann da drin etwas finden... #line:71d869
+Mae: Ja, Mann, die haben alle moeglichen coolen Sachen. #line:62629f
+IlyaSobin: Wahrscheinlich alles verderblich... hm... #line:1136d5
+Mae: Ist nicht alles verderblich? #line:2bad13
+Mae: Wir werden alle verderben. #line:a7ba2a
+Mae: alles wird vergehen. #line:e21951
+<<wait 2>>
+Mae: Aber ja, sie haben Muesliriegel, glaube ich. #line:32c085
+IlyaSobin: spasibo! #line:c5f6ea
+Mae: Was ist spasibo? #line:b1d11b
+IlyaSobin: Danke! #line:642048
+Mae: oooh! Russisch! #line:7413d6
+<<set $ilya_sorbin_done to 1>>
+===
+title: DmitryGavriluk
+tags: 
+colorID: 0
+position: 1424,663
+---
+Mae: Kenne ich dich? #line:f6bb5e
+DmitryGavriluk: Nein. #line:aadcad
+Mae: Oh.  #line:29b384
+Mae: Bist du nicht die Cousine von Gregg? #line:4e7824
+Mae: Du siehst wirklich aus wie seine Cousine. #line:b6e314
+Mae: Nicht wie seine coole Cousine Jen, wie #line:27d186
+Mae: die andere Cousine? #line:91e808
+DmitryGavriluk: Nein. #line:8265a9
+Mae: Wer bist du dann? Warum bist du hier? #line:f48ea3
+DmitryGavriluk: Ich versuche, Ihren Stadtrat zu finden. #line:0acdc6
+Mae: Stadtrat. Wir sind eine Stadt. #line:923fde
+DmitryGavriluk: richtig. #line:949ba4
+Mae: warum suchst du nach ihnen? #line:67252d
+DmitryGavriluk: Sie sollen ein Programm zur Verwaltung von Infrastruktur und kommunalen Diensten vorfuehren. #line:5ceed9
+Mae: was #line:5fb794
+DmitryGavriluk: Hilft bei der Verwaltung von Dingen wie Schneepfluegen und kaputten Hydranten und so #line:2ca485
+Mae: oh ja, die haben wir manchmal #line:0e6c8d
+DmitryGavriluk: Ich dachte nur, dass es hilfreich sein koennte. #line:817255
+DmitryGavriluk: Ich weiss es nicht. Viele Orte haben einfach Angst vor neuen Dingen. #line:de24c0
+DmitryGavriluk: Sie wollen die Dinge einfach fuer immer so lassen, wie sie sind. Sie fallen auseinander. #line:05d9ce
+DmitryGavriluk: Es ist frustrierend. #line:16301f
+Mae: Du stehst wirklich darauf, was? #line:238455
+DmitryGavriluk: Ich meine, es ist mein Job, also #line:6b443d
+Mae: Ich hatte einen Job. Ich habe Lebensmittel eingetuetet. #line:0cceee
+Mae: koenntest du etwas programmieren, damit der Job nicht so scheisse ist? #line:127ef5
+DmitryGavriluk: na ja, bald wird sowieso alles von Robotern erledigt, also #line:71edee
+Mae: Oje. Ja. Hm. #line:8ece76
+<<wait 2>>
+Mae: Ich hab's! Du bist die Cousine von Donna! #line:2f23e6
+DmitryGavriluk: Yeah! #line:5668ab
+Mae: Sie hat auf mich aufgepasst. #line:71e4c7
+DmitryGavriluk: Oh wow, bist du das Kind, das einen Vogel mit ihrer Keule getoetet hat? #line:3eb8b5
+Mae: Es war ein Unfall! Und ich war gerade mal 9! #line:288128
+DmitryGavriluk: ha ha ha #line:66330b
+Mae: Ich dachte, es waere Parfuem oder so! #line:25f375
+Mae: Ich dachte, der Vogel wuerde es moegen! #line:af38b8
+DmitryGavriluk: Nun, du warst 9. #line:f97924
+Mae: Er ist auf der Stelle gestorben. Einfach #line:6f037d
+Mae: ACK! WHOOMPH! #line:595afb
+Mae: TOT. #line:ee187b
+DmitryGavriluk: ha ha ha oh mein Gott #line:5e2732
+Mae: ok, ich werde jetzt gehen. Viel Glueck. #line:e71965
+DmitryGavriluk: versuche, nichts zu toeten! #line:fc2244
+Mae: keine Versprechungen. #line:43e1f5
+<<set $dmitry_gavriluk_done to 1>>
+===
+title: KevinClark
+tags: 
+colorID: 0
+position: 1671,670
+---
+KevinClark: Hey! #line:2a9cb6
+Mae: Whoa! Hey! #line:df988a
+KevinClark: Wir haben ungefaehr das gleiche Hemd! #line:cdc6fa
+KevinClark: Aber wie Gegensaetze! #line:aa11a7
+Mae: Oh wow. Was sagt man dazu. #line:cebe3a
+KevinClark: Woher ist dein Hemd? #line:480295
+Mae: "von?" #line:b574cc
+KevinClark: ja, ist es eine Band oder so? #line:2453f8
+Mae: Nein. Ich habe es im Hauswirtschaftsunterricht in der Highschool gemacht. #line:448494
+Mae: Ich mochte einfach das Symbol. #line:d3ac5a
+KevinClark: es ist ein Null-Symbol, richtig? #line:5e467a
+Mae: Ich weiss es nicht. #line:5de3b6
+Mae: was bedeutet dein Hemd? #line:d33708
+KevinClark: Geheimes Symbol der Wrestling-Liga Gottes. #line:3f986f
+Mae: Whoa?! Was ist das denn? #line:1ce496
+KevinClark: Wrestling im Hinterhof.  #line:3bf92e
+Mae: Whoooooaaaa!!!!! #line:44f526
+Mae: Wo passiert das denn? #line:990310
+KevinClark: Ueberall auf der Welt. #line:62c422
+KevinClark: Hinterhoefe. Ihr wisst schon. #line:2bfcfd
+Mae: wie konnte ich das nicht wissen? #line:82a9db
+KevinClark: Es ist geheim. Weil illegal denke ich #line:cc1510
+KevinClark: und die Leute gehen ins Krankenhaus und so. #line:69beb6
+Mae: Das ist grossartig. Das ist grossartig. #line:2e6899
+KevinClark: Es ist grossartig. #line:4131b7
+Mae: Heiliger Bimbam. Ich werde das mal nachschlagen. #line:adb621
+KevinClark: Wir sehen uns dort irgendwann mal! #line:663e6f
+<<set $kevin_clark_done to 1>>
+===
+title: RyanBranch
+tags: 
+colorID: 0
+position: 1918,661
+---
+Mae: Wow! Was machst du denn hier oben? #line:bda107
+RyanBranch: aeh. Aehm. was machst du denn hier oben? #line:b51191
+Mae: Ich wohne hier. #line:9359da
+RyanBranch: auf dem Dach? #line:7ffd8d
+Mae: *seufz* Nein, in der Stadt. #line:1ec068
+RyanBranch: notiert. #line:1a0ddb
+Mae: du wirst fallen und dich umbringen. #line:dfa260
+RyanBranch: zur Kenntnis genommen. #line:40a787
+Mae: ... #line:2d3663
+RyanBranch: Ich versuche... die Stadt von oben zu sehen. #line:44b7fb
+Mae: Oh. Ok. #line:c7dc46
+RyanBranch: ich werde eine Karte des Stadtzentrums zeichnen. #line:c0103b
+Mae: haben die keine Karten? #line:e72151
+Mae: wie sie sie mit Satelliten machen? #line:a0f3df
+Mae: aus dem Weltraum? #line:4d90cf
+RyanBranch: eh. ich mag sie machen. #line:fa3421
+RyanBranch: sie sind gaaaanz wunderbar. #line:54d4cd
+Mae: Ich mag Karten. Alles ist so winzig! #line:07ec91
+RyanBranch: nicht wahr? #line:c80fbf
+<<if $did_gregg_investigation_quest>>
+	Mae: es gibt einen grossen Stadtplan in der historischen Gesellschaft #line:dc01af
+	RyanBranch: oh? Ich war noch nie da. #line:b9e0b5
+	Mae: ja, pass auf den Geist auf. und das seltsame Gemaelde. #line:521ee7
+	Mae: genau wie geh nicht in der Nacht. Geh auch nicht auf den Dachboden. #line:1d61cd
+	<<wait 2>>
+	RyanBranch: zur Kenntnis genommen. #line:a92355
+<<endif>>
+Mae: ok, sei vorsichtig. #line:c52422
+Mae: ich bin hier oben, weil ich ein Profi bin. #line:845542
+Mae: ich habe die Schuhe dafuer. #line:d02547
+RyanBranch: ok. Danke. #line:c13819
+Mae: wenn ich dich in den Nachrichten mit einem gebrochenen Rueckgrat sehe #line:5e87a5
+Mae: sag nur nicht, ich haette dich nicht gewarnt. #line:75d9d4
+RyanBranch: Ich werde wahrscheinlich nichts sagen. #line:9f5e61
+Mae: oh richtig. Gutes Argument. #line:68dfef
+Mae: viel Spass! #line:210818
+<<set $ryan_branch_done to 1>>
+===
+title: NewspaperGuy
+tags: 
+colorID: 0
+position: 4127,726
+---
+<<if $met_newspaper_guy is 0>>
+    Mae: Hey. #line:e1c425
+    NewspaperGuy: Was machst du da vor meinem Fenster. #line:f7d3c4
+    Mae: Ich weiss es nicht. #line:6f4266
+    NewspaperGuy: Bitte geh weg. #line:b12aba
+    Mae: Was machst du da? #line:53aecd
+    NewspaperGuy: Zeitung. #line:3f8611
+    <<set $met_newspaper_guy to 1>>
+<<endif>>
+
+Mae: Was gibt es in den Nachrichten? #line:43d5da
+<<if $act is 2 and $day is 1>>
+    NewspaperGuy: Regen im Anmarsch. #line:f394a8
+    Mae: Nee. Es hat nicht geregnet, seit ich zurueck bin. Trockenes Jahr. #line:fef0e8
+    NewspaperGuy: Was? Wir hatten doch erst vor einer Woche diesen grossen Heuler! #line:efae32
+    Mae: Oh. Da war ich noch nicht hier. #line:f74133
+    NewspaperGuy: Nun, dann ist es wohl nicht passiert. #line:7d18df
+<<elseif $act is 2 and $day is 2>>
+    NewspaperGuy: Sinkloch auf der anderen Seite der Stadt. #line:d8f2d4
+    Mae: oof. #line:7ba2d1
+    NewspaperGuy: bald wird die ganze Stadt aufgeschwemmt werden. #line:8b091d
+<<elseif $act is 2 and $day is 3>>
+    NewspaperGuy: Quanterax macht naechsten Monat dicht. Entlaesst die letzten 24 Leute. #line:35190c
+    Mae: Was ist das? #line:d1e0ef
+    NewspaperGuy: Platz draussen hinter Briddle. Baut winzige Computer-Dingsbums zusammen. #line:14e9e8
+    Mae: Oh ok, ja, die Mutter von jemandem, den ich kenne, hat dort gearbeitet. #line:267c07
+    NewspaperGuy: Wirklich kleine Arbeit. Schlecht fuer die Finger nach einer Weile. #line:7921f8
+    Mae: Ich habe eine Zeit lang Lebensmittel eingetuetet. #line:d1b471
+    NewspaperGuy: Wie ist das? #line:ac5dba
+    Mae: Man legt das kalte, schwere Zeug auf den Boden #line:6b8220
+    Mae: und dann das Gemuese und das Obst #line:97afc4
+    Mae: und das Brot oben drauf! #line:ea3685
+    NewspaperGuy: Sieht so aus, als haettest du das alles im Griff! #line:bad96b
+<<elseif $act is 2 and $day is 4>>
+    NewspaperGuy: Halloween-Verbrechen dieses Jahr ruecklaeufig #line:9a6b25
+    Mae: was zaehlt als Halloween-Verbrechen? #line:49e893
+    NewspaperGuy: Sachen verbrennen. Vandalizmus. Heidnisches Zeug. #line:1e6a46
+    Mae: Nun, die Nacht ist noch jung. #line:e21fe2
+    NewspaperGuy: Mach kein heidnisches Zeug da draussen. #line:b75c8f
+    Mae: Ich werde *alles* heidnische Zeug machen #line:a55999
+    NewspaperGuy: Ich rufe die Bullen, wenn du irgendwelchen heidnischen Kram machst. *Zeile:5efc57
+    Mae: Die Bullen haben nichts gegen Daemonen und gefallene Geister. #line:9f0823
+    NewspaperGuy: Blech. #line:055d2b
+<<elseif $act is 3 and $day is 1>>
+    NewspaperGuy: Dummes Maedchen rutscht vom Sims aus und stirbt auf der Strasse darunter. #line:a9201b
+    Mae: Ein verschrobener Mann wird von einem schreienden Poltergeist heimgesucht. #line:de4e69
+    NewspaperGuy: Durchnaesste Leiche kaum zu erkennen, durch Zaehne identifiziert. #line:490967
+    Mae: Ein Mann aus der Gegend stirbt an einem Herzinfarkt, weil er von einem schreienden und bruellenden Phantom erschreckt wurde. #line:012600
+    NewspaperGuy: Beweise zeigen, dass Maedchen geschubst wurde. #line:c8667f
+    Mae: schon gut, schon gut #line:8439e4
+<<elseif $act is 3 and $day is 2>>
+    NewspaperGuy: Yamswurzelknappheit an Thanksgiving. #line:e86d07
+    Mae: ach herrje. Wir brauchen die Suesskartoffeln. #line:baefcd
+    NewspaperGuy: Hol sie besser jetzt, bevor sie weg sind. #line:6270b5
+    Mae: Es wird so etwas geben wie #line:262099
+    Mae: Suesskartoffel-Unruhen #line:2c0a75
+    Mae: weil es nicht genug Yamswurzeln gibt. #line:ec314d
+    NewspaperGuy: Schlimmere Gruende. #line:08b271
+<<elseif $act is 3 and $day is 3>>
+    NewspaperGuy: Kojote wanderte in Snack Falcon hinein, vorbei an Briddle. #line:451c2a
+    Mae: einfach so... reingelaufen? #line:8c1f0d
+    NewspaperGuy: jep. Sass in der Sandwich-Kuehlbox. #line:8ca6b5
+    Mae: hat es ein Sandwich gegessen? #line:60efeb
+    NewspaperGuy: Nach dem hier starrte der Kojote die Kassiererin an. #line:78e259
+    Mae: das ist gruselig. #line:efbdf7
+    NewspaperGuy: Ein Kojote ist ein gruseliges Tier. #line:4f53a6
+<<elseif $act is 3 and $day is 4>>
+    NewspaperGuy: Der Vogel fliegt dieses Jahr frueh in den Sueden. #line:35666b
+    Mae: was soll das bedeuten? #line:8c51a3
+    NewspaperGuy: Sie wissen etwas, was wir nicht wissen. #line:d792a1
+<<elseif $act is 4 and $day is 3>>
+    NewspaperGuy: Es wird ein kalter Winter werden. Der schlimmste seit Jahren... #line:c6f434
+    Mae: Wie koennen sie das vorhersagen? #line:98d561
+    NewspaperGuy: Eh. Die Zukunft ist reine Raterei. #line:a51aeb
+<<endif>>
+
+<<set $newspaper_guy_done to 1>>
+===
+title: Shane
+tags: 
+colorID: 0
+position: 3746,1163
+---
+<<if $shane is 0>>
+    <<set $shane += 1>>
+    Shane: Hallo! #line:f9ed47
+    Mae: aeh. hey. #line:d52a61
+    Mae: wer bist du? #line:1cd105
+    Shane: Wags! #line:3851a2
+    Mae: ok. Hallo. #line:51e799
+    Mae: was machst du... #line:1e1c88
+    Mae: oh warte da ist ein Schild #line:39eab1
+    <<wait 1>>
+    Mae: Marine, hm? #line:7645a6
+    Shane: ja Ma'am. #line:e1e901
+    Shane: Hast du jemals ueber eine Zukunft bei der Marine nachgedacht? #line:56caa3
+    Mae: wie Boote? #line:88d788
+    Shane: es ist viel mehr als das, aber ja, es gibt Boote. #line:13c3e8
+    ->Ich werde wahrscheinlich nicht zur Marine gehen. #line:5e1587
+    	Shane: Nun, es koennte gut sein, wenn du, du weisst schon... #line:e9476a
+    	Mae: eine... gute... Schwimmerin? #line:f16ded
+    	Shane: ich wollte sagen "auf der Suche nach einer Richtung". #line:09116b
+    	Mae: ich habe jede Menge Orientierung! #line:718f2a
+    	Mae: ich werde mit meinen Freunden rumhaengen #line:be2c10
+    	Mae: und dann vielleicht Videospiele spielen #line:cea81d
+    	Mae: vielleicht irgendwo dazwischen Bass spielen #line:91b8b4
+    	Mae: und dann spaeter schlafen gehen. #line:04cc69
+    	Shane: nun, es sieht so aus, als ob du alles geplant haettest! #line:924b39
+    	Mae: Ja. #line:55792c
+    ->Kann ich ein U-Boot fahren?  #line:f4e814
+		Shane: potentiell! #line:566ca3
+		<<wait 2>>
+		Mae: eh. das kann ich auch alleine machen. #line:2c773f
+		Mae: spaeter! #line:6f3e5f
+		Shane: weisst du, ich will mich nicht aufdraengen #line:4fb47c
+		Mae: ... #line:cff6bf
+		Shane: aber wenn du jemand bist, der vielleicht #line:1cce78
+		Shane: dem ein bisschen die Richtung fehlt...? #line:06bbc7
+		Shane: das ist es, was viele Leute zur Marine bringt. #line:821532
+		Mae: ja, aber ich habe eine Menge Orientierung. #line:68509f
+		Mae: als ob ich mit Freunden rumhaengen wuerde #line:234b94
+		Mae: Bass spielen, Videospiele spielen, schlafen gehen #line:8a4c9d
+		<<wait 2>>
+		Mae: und so weiter #line:1342a5
+		Mae: ich schaetze ich fuege "U-Boot fahren" irgendwo auf der Liste hinzu... #line:9e1ec7
+    Shane: naja, ich sag ja nur - #line:2a1f12
+    Mae: ich werde jetzt gehen. #line:d438ff
+    Shane: in Ordnung jetzt! Habt einen schoenen Tag! #line:0deded
+<<elseif $shane is 1>>
+    <<set $shane_done to 1>>
+    Mae: bist du etwa... von hier? #line:b2469c
+    Shane: in der Naehe. War ich jedenfalls mal. #line:926ccb
+    Mae: ist das eine Sache, die sie dich machen lassen? #line:633328
+    Mae: warum bist du nicht auf einem Schlachtschiff oder so? #line:35546a
+    Shane: jeder Job ist wichtig, dies ist nur mein Job im Moment. #line:03cf2d
+    Mae: Warst du schon woanders? #line:4d2c03
+    Shane: Oh, ich bin schon ueberall auf der Welt gewesen. #line:1accd1
+    Mae: irgendwelche Haie gesehen? #line:fad5e3
+    Shane: ich habe Haie gesehen, ja. #line:660c3c
+    Mae: grosse? #line:43f87d
+    Shane: ziemlich gross, ziemlich gross. #line:834037
+    Mae: wenn du deinen Vortrag haeltst #line:660376
+    Mae: du solltest mit den Haien anfangen. #line:08c824
+    Shane: zur Kenntnis genommen. #line:ca2d44
+    Mae: oder! Wie zum Beispiel, anstatt dass die Marine etwas mit der Marine macht #line:136237
+    Mae: du machst das ganze Ding ueber Haie. #line:f520dd
+    Mae: Haifischtauchen #line:42df28
+    Mae: Hai beobachten #line:c757d9
+    Mae: Hai reiten #line:e1e4fe
+    Mae: schreibst du das auf? #line:25705a
+    Shane: ich werde es die Kette hochschicken. #line:aede28
+<<endif>>
+===
+title: GarretRandell
+tags: 
+colorID: 6
+position: -373,1327
+---
+<<lookAt Mae GarretRandell>>
+GarretRandell: Nun, der Herbst ist wirklich zu Ende. #line:ea3634
+Mae: Sieht ganz so aus. #line:a64ee6
+Mae: ... #line:c51a89
+Mae: Ich habe, aeh... dich noch nie zuvor hier gesehen? #line:500edb
+GarretRandell: Ich verbringe viel Zeit in geschlossenen Raeumen #line:06c256
+GarretRandell: aber es ist schoen, mal eine Pause zu machen. #line:ab7348
+GarretRandell: Und ich mag die Kaelte. #line:3ac9f3
+GarretRandell: Es ist heute sehr frisch. #line:6a9b77
+Mae: brrrrrrisk. #line:d604c5
+<<wait 1>>
+GarretRandell: Manchmal stehe ich mit ausgebreiteten Armen in der Kaelte... #line:534f26
+GarretRandell: Und lasse eine Windboee ueber mich hinwegziehen. #line:def259
+GarretRandell: kuehlt mich ein wenig ab. #line:9d562b
+<<wait 1>>
+Mae: \o/ #line:b03e23
+<<wait 1>>
+Mae: Gefaellt dir das? #line:1c6180
+GarretRandell: Ja. #line:ff4be8
+GarretRandell: Funktioniert es? #line:a19941
+-> Ja! #line:5cf6ce
+    Mae: [size=.75]Es ist... k-k-kalt. Vielleicht zu kalt.[/all] #line:0940a0
+    GarretRandell: Ja, du willst das nicht zu lange machen. #line:11aa6d
+    GarretRandell: Aber dann kannst du dir einen Kaffee oder eine heisse Schokolade oder so holen. #line:74687c
+-> Nee, noch warm #line:51a9ff
+    GarretRandell: Na ja, man will ja nicht zu kalt werden. #line:e9a840
+    GarretRandell: Nur ein bisschen. #line:8bfe41
+    GarretRandell: Dann kannst du dir einen Kaffee oder eine heisse Schokolade oder so holen. #line:998e40
+Mae: Der endlose Kreislauf des Lebens. #line:a0b850
+GarretRandell: Es ist gemuetlich. #line:794d0e
+Mae: der endlose, gemuetliche Kreislauf des Lebens. #line:9e235a
+Mae: Oje. #line:0fe95c
+Mae: Ich hatte nicht daran gedacht, wie kalt es hier draussen wird, bis du es erwaehnt hast. #line:952bbf
+GarretRandell: Es schneit. #line:d0637c
+Mae: Ich weiss. #line:d6c6ee
+GarretRandell: Tut mir leid. #line:483a13
+Mae: Du brauchst dich nicht zu entschuldigen. #line:aec8a5
+GarretRandell: Ich komme aus Kanada. Ich muss mich entschuldigen. #line:5f0fc4
+Mae: Ich werde jetzt meine Arme runter nehmen. #line:c81068
+GarretRandell: Das ist wahrscheinlich eine gute Idee. #line:ec1de5
+Mae: _o_ #line:9e189e
+Mae: das Blut lief mir aus den Armen. #line:e5458e
+GarretRandell: ok #line:fd0cd7
+Mae: taube Arme. #line:a1b8ba
+<<lookNearest Mae>>
+<<set $garret_randell_done to 1>>
+===

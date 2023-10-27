@@ -1,0 +1,61 @@
+title: PamphletHarfest
+tags: 
+colorID: 0
+position: 220,270
+---
+MaePaws: Oh Gott, das Harfest steht vor der Tuer. #line:3474bc
+MaePaws: Muss noch ein suesses Kostuem besorgen. #line:3f83d2
+MaePaws: Iss Kuerbiskuchen und jede Menge Candy Corn. #line:ea7b3b
+MaePaws: Fahre die instabilen Fahrgeschaefte. #line:9d2396
+MaePaws: Alle Leute vollkotzen. #line:a5e112
+MaePaws: ...Oh ja #line:7934b0
+<<set $pamphlet_harfest_done to 1>>
+===
+title: PamphletCasey
+tags: 
+colorID: 0
+position: -30,209
+---
+MaePaws: Casey wusste, was los war.  #line:9c9aa3
+MaePaws: Ich wuenschte, sie wuerden einfach akzeptieren, dass er auf einen Zug aufgesprungen und ausgestiegen ist. #line:a36977
+MaePaws: Er waere nicht der erste, der eines Tages einfach aufsteht und verschwindet. #line:505171
+MaePaws: Hoffentlich geht es ihm gut. #line:81aa53
+<<set $pamphlet_casey_done to 1>>
+===
+title: PamphletMap
+tags: 
+colorID: 0
+position: 471,243
+---
+MaePaws: Ich kann mein Haus von hier aus sehen #line:39ce97
+MaePaws: Das wuerde ich sagen, wenn diese Karte nicht wie eine Vergnuegungsparkkarte waere. #line:e40b49
+MaePaws: Hier drueben ist das Kohlebergwerk-Koenigreich! #line:ceb254
+MaePaws: Besuchen Sie den verlassenen Futteresel! #line:ccf583
+MaePaws: Fahre mit dem schlimmsten Bus aller Zeiten! #line:36b46a
+<<set $pamphlet_map_done to 1>>
+===
+title: YarnBall
+tags: demo2
+colorID: 0
+position: 723,216
+---
+MaePaws: Ok, das ist einfach nur herablassend. Wer wuerde das hier lassen? #line:444008
+<<set $yarn_ball_done to 1>>
+===
+title: YarnBallBounce
+tags: demo2
+colorID: 0
+position: 961,199
+---
+MaePaws: Oh man. Es huepft. #line:7c1e04
+<<set $yarn_ball_bounce_done to 1>>
+===
+title: PamphletCasey_A4D3
+tags: 
+colorID: 0
+position: -62,454
+---
+MaePaws: Casey... #line:6ab919
+MaePaws: ... #line:a9701e
+<<set $pamphlet_casey_done to 1>>
+===

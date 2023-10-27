@@ -1,0 +1,773 @@
+title: EnterLevel
+tags: 
+colorID: 4
+position: -397,237
+---
+<<set $check_grave_1_done to 1>>
+<<set $check_grave_2_done to 1>>
+<<set $check_grave_3_done to 1>>
+<<if $want_graveyard_ending>>
+    [[Ending]]
+<<else>>
+    [[Intro]]
+<<endif>>
+===
+title: ThreeWyrdTeens
+tags: cut
+colorID: 4
+position: 561,256
+---
+// check variable if they've met the teens before or not
+WyrdTeen1: Ihr muesst mit uns reden, bevor ihr geht. #line:212a86
+Bea: Ugh. #line:b8b80e
+Bea: Gut, okay, wir werden mit dir reden. #line:8bff93
+===
+title: BeaVisitMom
+tags: 
+colorID: 4
+position: 293,264
+---
+Bea: ok also #line:0a1134
+Bea: ich werde meine Mutter besuchen #line:ddc175
+Bea: sie ist gleich da unten #line:5142e9
+Mae: oh. Ok. #line:279894
+Bea: gib mir eine Minute oder zwei, ok? #line:aaebcb
+Mae: absolut kein Problem. #line:5bb0e1
+Mae: Entschuldigung. #line:66a905
+Bea: Was tut dir leid? #line:6039ad
+Mae: wegen deiner Mutter und so. #line:c569be
+Bea: Es ist ok. Das kommt vor. #line:af9846
+Mae: Cool, cool, cool. Ich werde mir ein paar Graeber ansehen. #line:56993d
+Bea: In Ordnung. #line:b1e430
+Mae: Ich hatte einen Kurs ueber Tod und Sterben #line:610a83
+Mae: als ich in der Schule nicht in den Dinosaurierkurs reinkam. #line:7add46
+Mae: das ist wie... etwas, von dem ich tatsaechlich etwas verstehe. #line:c1939a
+Bea: Cool. Ich treffe dich dann wieder hier oben. #line:c156c7
+<<close>>
+//bea walks to grave//
+<<stopFollowing Bea>>
+<<walk Bea BeaMomGrave>>
+<<show Gravedigger>>
+<<set $check_grave_1_done to 0>>
+<<set $check_grave_2_done to 0>>
+<<set $check_grave_3_done to 0>>
+<<setCanInteract Bea 1>>
+Mae: Let’s check out a grave or three. #line:fdc405
+<<playMusic graveyard_main_section 10>>
+===
+title: Statue
+tags: 
+colorID: 4
+position: 23,283
+---
+Bea: well, there’s the statue #line:d35d9d
+Mae: ooh! also Spooky! #line:5b043e
+Bea: i thought you were like, actually kind of afraid. #line:04ffe6
+Mae: i mean, i am but like #line:c82112
+Mae: whatever #line:f40779
+Bea: so we wait here? #line:9b6682
+Mae: yeah #line:a04594
+Bea: and a ghost shows up? #line:20f5a4
+Bea: ... #line:6f64af
+Mae: this isn’t dumb! #line:b1b8ce
+Mae: don’t act like this is dumb! #line:60d24e
+Bea: hey, i’m along for the ride. #line:9bcae5
+<<close>>
+<<wait 5>>
+Mae: kennst du irgendwelche Geistergeschichten? #line:703fb5
+Bea: Nicht aus dem Stegreif. #line:dce1cc
+Mae: ok, was ist gruselig? #line:bbf92c
+Bea: aeh. #line:0d55a1
+Bea: Die Dinge sind gerade monumental beschissen #line:a14e83
+Bea: und niemand an der Macht kuemmert sich einen Dreck #line:9d51f3
+Bea: oder sie machen es aktiv noch schlimmer #line:62a3e5
+Bea: aus Bosheit oder aus Profitgier. #line:218398
+Mae: WHOA! GEEZ! #line:801160
+Mae: Ich meinte wie #line:39b988
+Mae: ein Skelett oder so. #line:6a6d56
+Bea: Ach so. Entschuldigung. #line:008eaa
+Mae: ok ok ok #line:6bf60a
+Mae: wir werden ein Spukspiel haben #line:d6fe4a
+Mae: ich sage etwas, und du machst es noch gruseliger. #line:315ef1
+Bea: in Ordnung #line:d7274b
+Mae: wie waere es damit- #line:ec7c38
+    ->ein Skelett in deinem Hausflur bei Nacht #line:36666e
+        Bea: ein normaler fremder Kerl in deinem Hausflur bei Nacht #line:1071a1
+            ->und er hat ein Messer #line:444d6c
+                Bea: und er ist ein pharmazeutischer Geschaeftsfuehrer #line:ece074
+                Mae: was? #line:c62647
+                Bea: und er hat den Preis von Medikamenten erhoeht, die Menschen vor dem Tod bewahren #line:b3b828
+                Mae: aehm #line:c3de81
+                Bea: ...und er ist ein Skelett #line:1609bb
+                Mae: Ach ja. Skelett-CEO mit einem Messer. #line:425af3
+            -> und er fluestert Sachen #line:83c439
+            	Bea: und er ist eine Fuehrungskraft in der Krankenversicherungsbranche #line:b0fd55
+            	Mae: ok? #line:06a2f0
+            	Bea: er will von deiner Krankheit und Angst profitieren #line:3b871b
+            	Mae: was fluestert er da? #line:a9f813
+            	Bea: kompliziertes Kleingedrucktes. #line:05d6b7
+            	Mae: Bea, das ist nicht lustig. #line:c46ec7
+            	Bea: ...und er ist ein Geist. #line:552a09
+				Mae: DANKESCHOEN. #line:d2b67a
+                Mae: der fluesternde Geist eines... aehm #line:9aa010
+				Mae: Fuehrungskraft im Gesundheitswesen? #line:a48e8e
+	->ein Skelett vor deinem Fenster #line:743099
+		Bea: eine normale fremde Person vor deinem Fenster #line:bfbbff
+			->er laechelt #line:dd8b53
+				Bea: und er ist von der Bank #line:9fd32f
+				Mae: ach komm schon #line:7db2a5
+				Bea: er ist hier um dir zu sagen, dass sie dir dein Haus wegnehmen werden #line:99a415
+				Mae: das ist einfach nur deprimierend #line:f096e8
+				Bea: und er ist ein Zombie #line:04713b
+				Mae: ok gut das funktioniert #line:5c2b08
+				Mae: Zombie-Bankmann! #line:1d092e
+            ->er runzelt die Stirn #line:5eefb4
+				Bea: und er ist dein Vermieter #line:6a0790
+				Mae: das ist nicht- #line:c91e48
+				Bea: du bist mit der Miete im Rueckstand #line:34796c
+				Bea: und du kannst nicht zahlen #line:38fe41
+				Bea: und er ist da, um dich rauszuwerfen #line:3d8834
+				Mae: Mensch Bea #line:5060ac
+				Bea: und er ist wie kopflos #line:577d78
+				Mae: KOPFLOSER LANDLORD!! #line:ec7b7b
+				Mae: brutal enthauptet, wandert jetzt durch die Welt #line:f00157
+				Bea: ich wuenschte es mir so sehr. #line:f5d2e5
+Mae: all die Dinge, vor denen du dich fuerchtest, sind [wave]BORING[/wave]. #line:599d79
+Bea: die furchterregendsten Sachen sind wirklich sehr langweilig #line:dd7002
+Mae: oh mein Gott Beatrice #line:874837
+Bea: was sollten wir denn machen? #line:2048f2
+Mae: eine Statue anschauen oder so #line:708642
+Mae: das ist dumm. Lasst uns gehen. #line:796e70
+===
+title: Gravedigger
+tags: 
+colorID: 4
+position: 49,31
+---
+Mae: Hey. #line:fe326c
+Gravedigger: N'Abend #line:c07543
+Mae: Guten Abend. #line:fab7f2
+Gravedigger: Was hast du vor, Mann? #line:a78742
+Mae: nach einem Geist suchen, waehrend meine Freundin das Grab ihrer Mutter besucht. #line:81d441
+Mae: du? #line:5ea877
+Gravedigger: ich bin der Totengraeber, Friedhofswaerter, was auch immer. #line:3c873a
+Mae: koennen wir kurz fachsimpeln? #line:47eda9
+Gravedigger: schiess los. #line:76aa6f
+    -> grabt ihr die Graeber mit einer Schaufel? #line:96a546
+        Mae: im fahlen Mondlicht? #line:a47a3d
+        Mae: wenn die Geister durch die Reihen schleichen? #line:061194
+        Gravedigger: nein. wir haben einen kleinen Bagger. #line:533c5f
+        Gravedigger: vertreibt auch die Geister, denke ich. #line:d58f5f
+    -> wirst du hier draussen ganz alleine gegruselt? #line:b181ec
+        Gravedigger: Nein. Ich arbeite hier. #line:af46ec
+        Gravedigger: neigt dazu, dem Ort den Spuk zu nehmen. #line:67b379
+Mae: wird dieser Job gut bezahlt? #line:f9008c
+Gravedigger: denkst du daran, Graeber zu schaufeln? #line:d85362
+Mae: kommt auf den Lohn an #line:e7df0d
+Gravedigger: nicht viel. #line:d22983
+Mae: oh. #line:0288da
+Gravedigger: Ich bin nebenbei ein Hochzeits-DJ. #line:6c6fde
+Mae: verdammt suess. #line:b5760a
+Gravedigger: Ich werde dich rocken. Hart. #line:6cf14e
+Mae: Klingt toll, mein Mann. #line:68ae8d
+<<wait 2>>
+Mae: na dann, man sieht sich! #line:e2b523
+Gravedigger: viel Glueck beim Finden deines Geistes! #line:a4cd2b
+<<set $gravedigger_done to 1>>
+<<unlockDoodle Gravedigger>>
+===
+title: CheckGrave1
+tags: 
+colorID: 4
+position: 585,-212
+---
+Mae: oooh! schick. #line:4af114
+Mae: dieser Typ war ein schicker Typ. #line:e24bfc
+Mae: Hm. #line:56431b
+Mae: Ok ich rate mal... #line:3ea6c2
+    -> er hat sein Fahrrad geschrottet. #line:2f4cec
+        Mae: ach ja, ich wette es war wie #line:3021a4
+        Mae: er ist zum Haus seiner Suessen gerast #line:09b948
+        Mae: um sie anzuflehen, die Stadt nicht zu verlassen #line:b4a3c5
+        Mae: und er nahm eine gefaehrliche Kurve zu schnell #line:9b34ed
+        Mae: und flog von einer Klippe #line:0b5f19
+        Mae: und seine letzten Worte #line:8c970d
+        Mae: gefluestert in den Regen #line:ec8bc2
+        Mae: inmitten der Luft #line:c253d1
+        Mae: waren #line:a6e2ee
+        Mae: "eigentlich liebe ich mein Fahrrad mehr bitte leg es auf mein Grab ok" #line:9edec0
+    -> er wurde von einem Fahrrad angefahren. #line:044434
+        Mae: und sie... aeh... #line:b3033b
+        Mae: hat seinen Moerder auf seinen Grabstein eingraviert. #line:e669e7
+        Mae: fuer immer beschaemt, dieses Fahrrad. #line:9cc4f7
+    ->er liebte sein Fahrrad. #line:9b71a8
+        Mae: er liebte es so sehr. #line:204385
+        Mae: er hat es geknutscht #line:aa568c
+        Mae: so richtig. #line:75bc89
+<<close>>
+<<set $checked_graves += 1>>
+<<set $check_grave_1_done to 1>>
+<<tell GraveBubble1 Hide>>
+<<wait .5>>
+<<destroy GraveBubble1>>
+<<destroy GraveLeaves1>>
+[[VerifyGraves]]
+===
+title: CheckGrave2
+tags: 
+colorID: 4
+position: 886,-260
+---
+Mae: hm. Standard-Grabstein, nichts Ausgefallenes. #line:8e47ab
+Mae: eindeutig religioes. #line:47f590
+    ->Kann nicht wirklich traurig darueber sein. #line:88a735
+        Mae: Sie hatte einen wirklich guten Lauf. #line:fba992
+        Mae: wie wenn das Leben ein Arcade-Spiel waere #line:540564
+        Mae: das wuerde auf dem Highscore-Bildschirm stehen. #line:4541e8
+    ->95 Jahre. Wow. #line:a744ec
+        Mae: als sie geboren wurde, waren Pferde das High-Tech-Ding #line:3a95f4
+        Mae: sie musste schon aus dem Fenster schauen, um ein Pferd zu sehen. #line:1925b3
+        Mae: und jetzt haben wir Bilder von Pferden im Internet. #line:7bf353
+        Mae: wie jedes Pferd, das man sich vorstellen kann. #line:97ba0e
+        Mae: sie hat uns von Pferden zu Internetpferden gesehen. #line:fcfc94
+        Mae: anstaendiger Lauf. #line:945e72
+<<close>>
+<<set $checked_graves += 1>>
+<<set $check_grave_2_done to 1>>
+<<tell GraveBubble2 Hide>>
+<<wait .5>>
+<<destroy GraveBubble2>>
+<<destroy GraveLeaves2>>
+[[VerifyGraves]]
+===
+title: CheckGrave3
+tags: 
+colorID: 4
+position: 1231,-228
+---
+Mae: Aw verdammt. #line:40622a
+Mae: lebte etwa 14 Jahre. #line:72db2a
+    ->das ist nicht genug Zeit. #line:752d51
+        Mae: hat wahrscheinlich nie etwas gesagt, was jemand verstehen koennte. #line:b7cab6
+        Mae: du solltest wenigstens einen guten Satz im Leben abbekommen. #line:a56dba
+    ->Arme Familie. #line:01cd5f
+        Mae: ok ich bin jetzt einfach traurig. #line:a58da4
+<<close>>
+<<set $checked_graves += 1>>
+<<set $check_grave_3_done to 1>>
+<<tell GraveBubble3 Hide>>
+<<wait .5>>
+<<destroy GraveBubble3>>
+<<destroy GraveLeaves3>>
+[[VerifyGraves]]
+===
+title: MaeDoneWithGraves
+tags: 
+colorID: 4
+position: 943,338
+---
+<<set $graves_done to 1>>
+Mae: Oje Bea. #line:b30fb3
+<<warp Bea BeaMidWay>>
+<<walk Bea BeaAtSteps>>
+Mae: Wie lange dauert der Besuch einer Mutter? #line:5dcb9f
+Mae: Tick tock, Beatrice. Wir muessen noch woanders hin. #line:ccf449
+<<wait 1>>
+Mae: Heilige Scheisse. Ich bin ein Idiot. #line:5b47ff
+<<setCanInteract Bea 1>>
+===
+title: VerifyGraves
+tags: 
+colorID: 4
+position: 952,1
+---
+<<if $checked_graves >= 3>>
+    [[MaeDoneWithGraves]]
+<<endif>>
+===
+title: InitLevel
+tags: 
+colorID: 4
+position: -803,124
+---
+<<setCanInteract Bea 0>>
+<<setCanInteract Britt 0>>
+<<setCanInteract Pam 0>>
+<<setCanInteract Karla 0>>
+<<hide Gravedigger>>
+
+<<if $want_graveyard_ending>>
+    <<warp Bea BeaEnding>>
+    <<flip Bea 1>>
+    <<warp Mae MaeEnding>>
+    <<flip Mae -1>>
+    <<cameraLookAt CameraEnding>>
+<<else>>
+    <<warp Bea BeaOffLeft>>
+    <<warp Mae MaeOffLeft>>
+<<endif>>
+===
+title: Ending
+tags: 
+colorID: 4
+position: -236,515
+---
+<<freezePlayer>>
+<<unlockDoodle BeaIQ>>
+Mae: NUN, DAS WAR SELTSAM, ODER? #line:e59dc1
+Bea: Seltsam?! Das war nicht seltsam! #line:403508
+Bea: das war ein Verbrechen! #line:c58cf0
+Mae: Hast du den Geist gesehen?? #line:16974a
+Mae: Er war da!!! #line:b9ee13
+Bea: woher weisst du, dass der Geist ein Kerl ist? #line:8244a6
+Mae: ... #line:45f02b
+Mae: ok gut aber er war da!!! #line:8489a5
+Bea: Mae es war der Platzwart oder so #line:a09a88
+Bea: erforscht WER SEINEN GRABHOF VERSCHMUTZT HAT!!! #line:6c8f73
+Mae: woher weisst du, dass der Friedhofswaerter ein Kerl ist? #line:c7fb70
+Bea: oh halt die Klappe!! #line:f6b131
+Mae: RAAAAAGH! ICH HABE DEN VERDAMMTEN GEIST GESEHEN!!!! #line:a6a5b7
+<<set $night to 1>>
+<<set $did_bea_investigation_quest to 1>>
+<<if $act is 3 and $day is 2>>
+    <<set $did_bea_investigation_quest_on_a3d2 to 1>>
+<<endif>>
+<<set $completed_investigation_quests += 1>>
+<<if $act is 3 and $day is 4>>
+	Mae: WHY DOES NOB- #line:5cff48
+    //freakout animation and sound plays//
+    <<close>>
+    <<fadeOutMusic 2>>
+    <<wait 2>>
+    <<enableAnimator _CameraControl>>
+    <<playAnimation Mae MaeFreakoutHeadLeft>>
+    <<trigger _CameraControl Freakout>>
+    <<wait 12>>
+    <<playAmbientSFX _AmbientSFX:mae_head_hurt 3>>
+    <<wait 3>>
+    Mae: AAAAAAAAAAAAAAAAAGH!!! #line:9fc816
+    Bea: Mae?!!! Was ist denn los?!! #line:dc1c40
+    Mae: AAAAAUUGHHHGH. #line:c47760
+    Bea: Heilige Scheisse ... aeh ... #line:7a0dd1
+    Mae: Igitt. Mein Kopf... oh je... igitt #line:820f39
+    Bea: Lass uns zum Auto gehen. Ich habe Migraenetabletten und wir koennen dich nach Hause bringen. #line:8f6bc5
+    Mae: NEIN! #line:f4dcfe
+    Mae: Ich muss mit... allen... heute Abend reden... #line:ef8f2d
+    Bea: Was? #line:2df55f
+    Mae: Alle. #line:6680c3
+    Bea: OK ok ok. #line:2c0395
+    Mae: Ich brauche alle. #line:3dd5e9
+    Bea: Hoer auf zu reden!!! Geh ins Auto!!! #line:e49c87
+    <<close>>
+    <<fadeOut 1 wait>>
+    <<scene GreggAngusApartment>>
+<<else>>
+    Bea: wir haben *jemanden* gesehen #line:e4fa41
+    Bea: da sind noch andere Leute auf dem Friedhof, weisst du? #line:7ad5cb
+    Mae: Igitt. Was auch immer #line:04c8e8
+    Bea: Wir hauen ab, bevor die Bullen hier sind. #line:c2acd5
+    <<close>>
+    <<walk Bea BeaEnter>>
+    <<walk Mae MaeEnter>>
+    <<wait 3>>
+    <<fadeOut 1 wait>>
+    <<scene MaeHouse left>>
+<<endif>>
+===
+title: Intro
+tags: 
+colorID: 4
+position: -579,511
+---
+<<hide Collision:Left>>
+<<walk Mae MaeEnter>>
+<<walk Bea BeaEnter>>
+<<waitForMove Mae>>
+<<show Collision:Left>>
+<<wait 1>>
+Mae: Foggy. #line:307c0c
+Bea: Es gibt immer diesen abendlichen Herbstnebel. #line:7b0146
+Bea: Sammelt sich zwischen den Bergkaemmen. #line:2d5f35
+Mae: Es ist gespenstisch. #line:c1a72b
+Bea: Ich weiss nicht. Gut gruselig. #line:bb7489
+Bea: Ich werde richtig traurig, weil es nicht das ganze Jahr ueber hier ist. #line:8e7874
+<<if $did_bea_friendship_quest_4>>
+	Mae: Hey Bea? #line:2eaa9d
+    Bea: Yep? #line:80a7e0
+    Mae: Tut mir nochmal leid wegen gestern Abend. #line:96e10d
+	Bea: aaah. Das ist schon in Ordnung. #line:360328
+    Bea: wer braucht schon ein Sozialleben? #line:133069
+    Mae: das ist sozial! #line:5c620c
+    Bea: das ist es sicher. #line:27ceff
+<<endif>>
+<<generateFollowPoints Mae Bea>>
+<<follow Bea Mae>>
+===
+title: Bea
+tags: 
+colorID: 4
+position: 309,25
+---
+<<if $check_grave_1_done and $check_grave_2_done and $check_grave_3_done>>
+    <<hide Gravedigger>>
+    <<setCanInteract Bea 0>>
+    Mae: Hey. #line:7866ba
+    Mae: Aeh. Wie ist es gelaufen? #line:7c29f8
+    Bea: Gut. #line:ce879a
+    Bea: Sie ist immer noch da. #line:a4ce16
+    Mae: Warst du besorgt, dass... #line:18029f
+    Bea: Du weisst doch, dass wir in der Stadt Probleme mit Erdfaellen haben? #line:c9517a
+    <<if $knows_sinkholes>>
+        Mae: Ja. #line:e11643
+        Bea: Das war es, was mit deiner Strasse nicht stimmte #line:3901e2
+    <<else>>
+        Mae: ...nein? #line:dbbc65
+        Bea: Wir hatten Probleme mit Sinkkaesten in der Stadt. #line:3d8883
+        Bea: Das war es, was mit deiner Strasse los war #line:666b00
+        Mae: ? #line:f60e93
+        Bea: Die Typen, die in deiner Strasse gearbeitet haben? #line:123fa9
+        <<if $did_germ_friendship_quest_3>>
+            Mae: Germs Vater! #line:5f0c2c
+            Bea: Was? #line:ea93b4
+        <<endif>>
+    <<endif>>
+    Bea: Wie auch immer, meine Mutter ist an einer ziemlich niedrigen Stelle begraben #line:7c1829
+    Bea: konnte sich den Huegel nicht leisten #line:9da81e
+    Bea: also habe ich mir Sorgen gemacht. #line:60f5ea
+    Mae: Wie, du hast dir Sorgen gemacht, dass der Boden einbricht? #line:09b3da
+    Bea: Welcher Teil von "Sinkloch" ist schwer zu verstehen? #line:9bd19f
+    Mae: WIR SIND AUF EINEM FRIEDHOF! #line:a9e29d
+    Mae: SIE SOLLTEN DIESE NICHT DORT BAUEN, WO SENKGRUBEN EIN PROBLEM SIND! #line:977f63
+    Bea: ja, und sie sollten keine Staedte bauen, die ueberflutet werden #line:7bafea
+    Bea: und doch sind wir hier. #line:794681
+    Mae: Ok, bist du bereit? #line:9b581d
+    Bea: Weisst du, als ich da unten war #line:e4538d
+    Bea: Ich glaube, ich habe Musik von der Spitze des Huegels gehoert #line:4da3cb
+    Bea: und wie...Stimmen... #line:95ccc2
+    Mae: Huh. Das ist... aeh... #line:f965f0
+    Mae: Gruselig. #line:eb2e2c
+    Bea: Ja. Bin mir nicht sicher, was da oben los ist. #line:59689d
+    Mae: Lass es uns herausfinden. #line:e1ac95
+    Mae: Kommst du mit? #line:932d21
+    Bea: Oh ja. Ja, klar. #line:062660
+    <<generateFollowPoints Mae Bea>>
+    <<follow Bea Mae>>
+    <<set $graveyard_step_collision to 1>>
+<<else>>
+    Mae: Hey. #line:ee1a09
+    Bea: Hey. #line:afd99d
+    Mae: Ist das? #line:6f4e4f
+    Bea: Yup. #line:3fce70
+    Mae: Oh. #line:ccf7a1
+    Bea: Jupp. #line:b18451
+    <<setCanInteract Bea 0>>
+<<endif>>
+===
+title: HillTop
+tags: 
+colorID: 4
+position: 1229,20
+---
+<<flip Bea 1>>
+Pam: HO, MUEDE REISENDE #line:23b2a4
+Karla: Du suchst Antworten bei den Toten #line:89aaf3
+Britt: aber sie werden dir keine geben. #line:54bfa6
+<<if $met_wyrd_teens>>
+	Mae: Ha ha ha oh wow. #line:3d78c3
+	Mae: Hey Leute. #line:c6f435
+	Bea: kennst du diese Kinder? #line:cb9897
+	Mae: ha ha ja. Wir sind uns schon begegnet. #line:a934df
+    <<lookAt Mae Britt>>
+	Mae: Was macht ihr denn da? #line:2f6c47
+	<<close>>
+	<<wait 1>>
+    <<lookNearest Mae>>
+    <<wait 2>>
+	Mae: Ok, so- #line:4416e8
+<<else>>
+	<<set $met_wyrd_teens to 1>>
+	Bea: Wer zum Teufel bist du? #line:048fb7
+	Pam: nur Boten #line:f938ee
+	Karla: Beobachter #line:d50d3d
+	Britt: Einmischer #line:097c8f
+    <<lookAt Mae Bea>>
+	Mae: Teens. Das sind seltsame Teenager. #line:c0906d
+    Bea: oh #line:7dec61
+	<<close>>
+	<<wait 1>>
+    <<lookNearest Mae>>
+    <<wait 2>>
+	Mae: Nun gut, also- #line:e0e756
+<<endif>>
+Pam: Wir sind die Hueter des Tores #line:007a0d
+Bea: Es gibt ein richtiges Tor, vor dem du sitzt? #line:554119
+Karla: Wir bestimmen, wer passieren soll #line:0975f9
+Britt: und wer bleiben soll #line:33af11
+Mae: na gut, #line:7badae
+Pam: beantworte uns diese Fragen #line:4b4980
+Karla: wahrheitsgemaess #line:3f9bf2
+Bea: was #line:f08e39
+Britt: und du kannst in das Reich der Toten uebergehen #line:e41fe6
+Mae: ok ok ok gut was auch immer! #line:84be6a
+Bea: mach weiter!! #line:62e172
+Pam: ERSTE FRAGE!!! #line:0c1949
+Pam: HAST DU ES JEMALS GETAN? #line:70f223
+    ->Getan? #line:3aba17
+        Mae: "getan" #line:5dd9ae
+        Bea: "it"? #line:93fe48
+        Pam: du hast mich gehoert #line:582f88
+        Mae: wie alt seid ihr Teenager? #line:781efa
+    ->Du kannst es einfach Sex nennen. #line:0cc9d9
+        Mae: wir sind hier erwachsen #line:2037aa
+        Bea: nun, *wir* sind es zumindest #line:42bfbc
+Pam: ANTWORTE!! #line:3e3727
+    ->nein #line:b2524b
+        Mae: bin nie dazu gekommen. #line:3b1eae
+    ->ja #line:cfbf85
+        Mae: es war gaaaaaaaanz toll. #line:1e3783
+        Bea: wirklich? #line:51b5da
+        Mae: nein ich luege sehr gerne. #line:f4d638
+        Bea: oh ok. #line:f1f53d
+Pam: UND DU? #line:845b5f
+Bea: ja. #line:d83006
+Mae: Was? Wann? #line:d29cb4
+Bea: Im Sommer vor der 11. Klasse. #line:8839fe
+Mae: Wirklich? Wie konnte ich das nicht wissen? #line:0d32b2
+Bea: Das war, als du noch nicht mit mir gesprochen hast. #line:af5f8f
+Mae: wer? mit wem ist das passiert? #line:1a0d36
+Bea: ugh du kennst ihn nicht. #line:365877
+Bea: es war im Mathe-Camp. #line:99488f
+Mae: "Mathe-Camp?!" #line:35d6a2
+Pam: was ist ein Mathe-Camp #line:d86923
+Bea: man geht hin und macht so Mathekram #line:4a0f00
+Bea: und Lagerzeug #line:64316d
+Mae: und anscheinend viel Sex haben?!? #line:5958dc
+Bea: es war nicht gut. #line:4235ca
+Bea: aber Mathe war spitze. #line:68b725
+Pam: DIES IST LANGWEILIG. #line:9d1b95
+Britt: NAECHSTE FRAGE!!! #line:be7a24
+Bea: Oje. Gut. #line:095cd0
+Britt: BESCHREIBE DEIN TRAUMDATUM #line:f7c5dd
+Bea: das sind die duemmsten Fragen #line:9b5f40
+<<lookAt Mae Britt>>
+Mae: ja willst du nicht wenigstens etwas gruseliges fragen? #line:410ef4
+Britt: TRAUM-DATE!!!! #line:b14d06
+<<lookNearest Mae>>
+Bea: ok gut. #line:487172
+Bea: aeh er waere gross, wuerde sich cool anziehen, #line:5db4b6
+Bea: wirklich klug, mag gute Musik, #line:9e2799
+Bea: und wir gehen ins Kino- #line:c242e5
+Britt: Langweilig. #line:a2eecd
+Britt: DU? #line:39b673
+Mae: Wrestling. #line:f89063
+Bea: Willst du ringen oder willst du dir Wrestling ansehen? #line:5d762a
+<<lookAt Mae Britt>>
+->Wir gehen Wrestling gucken. #line:f993a6
+    Mae: Ja, sie wuerden uns Karten kaufen #line:fe98fb
+    Britt: SIE??? #line:5fc487
+    <<lookAt Mae Britt>>
+    Mae: Mann oder Frau. ich bin nicht waehlerisch. #line:ac8e63
+    Mae: und wir wuerden nach Hucklesburgh rausfahren #line:9044bd
+    Mae: zum Kongresszentrum #line:83df4a
+    Mae: und wir schauen #line:63bf71
+    Mae: Unstoppable Hayseed vs The Impending Cronk. #line:8b5a88
+    Mae: und essen Corndogs. #line:f2bca2
+    <<lookNearest Mae>>
+    Bea: oof. Ich koennte jetzt einen Corndog essen. #line:278136
+    Bea: Ich schaue kein Wrestling #line:fab5b9
+    Pam: Ich schon. #line:2258e6
+    Pam: Es ist grossartig. #line:9fb5d6
+    Britt: NIEMAND KOTZT AUF #line:d628aa
+->Ich koennte ringen. #line:4ac5b9
+    Mae: Es ist mir egal, ob es ein Junge oder ein Maedchen ist #line:de8e4f
+    Mae: aber sie muessten wie GRRRR sein #line:e4de4b
+    Mae: weil ich nicht mal mit jemandem ausgehen will #line:701c80
+    Mae: der es nicht ist #line:67085f
+    Mae: GRRR. #line:9e0318
+    <<lookAt Mae Bea>>
+    Bea: also wirst du mit dieser Person ringen #line:5fbd5f
+    Mae: ja, sie waeren super hart und cool #line:485909
+    Mae: und wir waeren alle muede und schmutzig und blutend #line:fd105a
+    Mae: und dann wuerden wir auf dem Boden liegen #line:5695fd
+    Mae: und uns gegenseitig Geheimnisse erzaehlen #line:434c6a
+    Bea: das ist eigentlich ganz suess. #line:26e300
+    <<lookNearest Mae>>
+    Britt: Ich rate mal. #line:8a2b41
+Mae: was willst du von mir? #line:2a8548
+Karla: NAECHSTE FRAGE #line:6f0b18
+Karla: was ist dein peinlichstes Erlebnis? #line:ed1ca9
+Bea: was?! #line:771e69
+Mae: mach einfach mit. #line:fca203
+Karla: ANTWORT! #line:a0b82b
+Bea: einmal habe ich vor der Klasse gefurzt. #line:d86077
+<<wait 1>>
+Mae: HA HA HA #line:ded57d
+Karla: Das war's? #line:ff4946
+Bea: was hast du denn erwartet? #line:659871
+Karla: ok das war aetzend. jetzt gehst du. #line:f99454
+Mae: aeh ... oh ... Gott ... #line:95a766
+<<lookAt Mae Karla>>
+    ->einmal in der Junior High #line:d87267
+        Mae: ich... oh Gott. #line:7e0247
+        Karla: TELL. #line:05093a
+        Mae: ich hatte gerade meine Periode bekommen. #line:73de09
+        Mae: und ich blutete auf den Stuhl im Wissenschaftsunterricht #line:46593b
+        <<fadeOutAmbientSFX _AmbientSFX:WyrdTeens .5>>
+        <<playOneShot event:/snack_falcon/switch_music Mae>>
+        <<wait 1>>
+        Karla: oh Gott. #line:8ef41f
+        Bea: Oh Gott. #line:a8bb9b
+        Mae: und ich bin am Ende der Stunde aufgestanden und gerannt #line:878c0c
+        Bea: oh nein #line:bf994a
+        Mae: und dieses Kind kam rein und setzte sich auf den Stuhl #line:dd649a
+        Bea: oh NOOOOOOOOOO #line:32d24c
+        Mae: und spaeter bin ich am Buero der Krankenschwester vorbeigegangen #line:d2ae13
+        Mae: und der Junge sass da drin #line:5a8d4b
+        Mae: mit Blut auf seinem Hintern #line:fdb8cb
+        Mae: und die Schwester rief seine Mutter an #line:b13a9c
+        Mae: und- und- und- #line:4db55f
+        Mae: er sah mich an als ich vorbeiging und #line:a802fe
+        //if we have a mae cry emote use it here//
+        Mae: ICH DENKE, ER WUSSTE-E-E... #line:1c781c
+        <<wait 2>>
+        <<playAmbientSFX _AmbientSFX:WyrdTeens 5>>
+        Karla: ok. #line:85ab63
+        Karla: das war ziemlich beschissen. #line:06197c
+    ->einmal in der Highschool #line:193c4a
+        Mae: Ich war auf dem Abschlussball mit diesem Typen Cole... #line:595a02
+        <<lookAt Mae Bea>>
+        Bea: oh wow I've been wanting this story for years. #line:f4b458
+        <<lookAt Mae Karla>>
+        Mae: und es war peinlich und ich musste ein Kleid tragen #line:9e3ddf
+        Mae: und ich konnte nicht langsam tanzen #line:7b9e39
+        Mae: und er war wirklich nett und so, denke ich #line:2adf32
+        Mae: und ich habe versucht, ihn zu kuessen #line:59fd8d
+        Mae: aber irgendwie habe ich es vermasselt und Blut geleckt? #line:49f86e
+        Karla: du hast ihn gebissen? #line:c0e059
+        <<lookAt Mae Bea>>
+        Bea: wie sehr hast du diesen Kuss vermasselt? #line:d6df63
+        Mae: Ich habe keine Ahnung! aber er hat stark geblutet. #line:78f5dd
+        <<fadeOutAmbientSFX _AmbientSFX:WyrdTeens .5>>
+        <<playOneShot event:/snack_falcon/switch_music Mae>>
+        <<wait .5>>
+        <<lookAt Mae Karla>>
+        Mae: also bin ich mit ihm ins Bad gerannt, um Papiertuecher zu holen #line:eb49f6
+        Mae: also schiebe ich ihm diese Papierhandtuecher in den Mund #line:da751a
+        Mae: und ich uebertreibe es und er beginnt zu wuergen und wehrt sich #line:8e95f8
+        Mae: und ich kaue mich an den Mandeln fest #line:84c6cd
+        <<lookAt Mae Bea>>
+        Bea: von wo??? #line:0502ac
+        Mae: ich habe sie von den Tischen gestohlen und sie in mein Kleid geschoben!
+        <<lookAt Mae Karla>>
+        Mae: also pfluege ich mich durch diese Mandeln #line:f80720
+        Mae: und eine bleibt in meiner Kehle stecken #line:e2b7f3
+        Mae: der arme Cole ist gegen die Badezimmerwand geknallt #line:fcf32f
+        Mae: ich versuche, mir das Heimlich-Manoever zu geben #line:97eee0
+        Mae: und es funktioniert, aber...aber... #line:e16fa5
+        Mae: ich kotze alles ueber Cole #line:a2f93b
+        Mae: Haehnchen Cordon Bleu. #line:af71ce
+        Karla: das ist unglaublich #line:0fb80f
+        Mae: genau dann kommt jemand rein und sieht Cole benommen und blutend und erstickt #line:444c1c
+        Mae: und ich kotze in die Spuele #line:29f3f0
+        Mae: also ziehe ich alle Papierhandtuecher aus Coles Mund #line:462ae0
+        Mae: und aus irgendeinem Grund denke ich, ich spuele sie die Toilette runter #line:daa7ac
+        Mae: und das laesst sie ueberlaufen #line:2d9ae0
+        Mae: also schnappte ich mir Cole und zog ihn aus dem Bad #line:b193e7
+        Mae: wir beide bedeckt mit Kotze und Blut und Toilettenwasser #line:bd9573
+        Mae: und er rannte weg und ging. #line:dd1c38
+        Mae: und er war mein Fahrer. #line:0ffc03
+        <<lookAt Mae Bea>>
+        Bea: wie bist du nach Hause gekommen? #line:d258eb
+        Mae: dieser Junge Josh, der mit seinem Traktor zum Abschlussball gefahren ist #line:bfe247
+        <<lookAt Mae Karla>>
+        Mae: also fahren wir langsam zu meinem Haus #line:66065a
+        Mae: Autos, die langsamer werden und hupen #line:dfc468
+        Mae: waehrend ich auf dem Ruecksitz sitze und mir die Augen ausweine. #line:896b01
+        <<wait 2>>
+        <<playAmbientSFX _AmbientSFX:WyrdTeens 5>>
+        Karla: DAS WAR SCHWER VERMISCHT. #line:48fed6
+        <<lookAt Mae Bea>>
+        Bea: Mae Ich... I... #line:ec5bae
+        Mae: Ich habe etwa einmal pro Woche Albtraeume davon. #line:44fbb1
+        <<lookAt Mae Karla>>
+        Karla: *ICH* WERDE ALPTRAEUME DAVON HABEN. #line:e7db41
+        Bea: ... #line:b0aca8
+        Bea: Koennen wir jetzt gehen?  #line:46a36c
+        Karla: YEAH. DAS WIRD NIEMAND UEBERTREFFEN. #line:f21aa3
+    ->einmal im College #line:5abab2
+        Mae: Da war dieses suesse Maedchen, das ich in der Cafeteria sah #line:585d32
+        Mae: so ein paar Mal die Woche #line:44181b
+        Mae: ich schaetze, unsere Stundenplaene haben sich ueberschnitten oder so #line:d5c67d
+        Mae: was seltsam am College ist, es ist wie eine kleine Stadt- #line:f8b61e
+        <<lookAt Mae Britt>>
+        Britt: KOMM AUF DEN PUNKT. #line:e6e3da
+        <<lookAt Mae Bea>>
+        Bea: Oje #line:55ae3e
+        <<lookAt Mae Karla>>
+        Mae: ok so... #line:c54b0b
+        Mae: ich habe den Mut aufgebracht, sie anzusprechen #line:1f84ed
+        Mae: und ich bin ihr auf den Flur gefolgt #line:edbc82
+        Mae: und ich weiss nicht warum, aber ich habe geschrien #line:24a9d6
+        Mae: [shake=.05]HEY![/shake] #line:b660c7
+        Mae: und sie drehte sich um und und und #line:45428a
+        Mae: alles was ich tun konnte war winken???? #line:8e85cf
+        <<lookAt Mae Bea>>
+        Bea: ooof. #line:37521c
+        <<lookAt Mae Britt>>
+        Britt: das ist lustig. #line:00eb42
+        <<lookAt Mae Karla>>
+        Mae: und und und und #line:13d2ac
+        <<fadeOutAmbientSFX _AmbientSFX:WyrdTeens .5>>
+        <<playOneShot event:/snack_falcon/switch_music Mae>>
+        <<wait .5>>
+        Mae: und dann habe ich mich umgedreht und versucht, ganz cool wegzugehen #line:6f50c2
+        Mae: aber ich rannte in diesen Tuerrahmen direkt hinter mir #line:934579
+        Mae: und es tat weh und ich taumelte zurueck und und und #line:254b7b
+        Mae: fiel in den Muelleimer vor der Cafeteria #line:bb606a
+        Mae: und mein Gesicht ging in Muellspaghetti #line:0e2dbe
+        <<lookAt Mae Bea>>
+        Bea: holy shit dude. #line:ca7916
+        <<lookAt Mae Britt>>
+        Britt: WEITER! #line:bc3d0c
+        <<lookAt Mae Karla>>
+        Mae: Und ich habe so lange gefuchtelt, bis der Muelleimer umgekippt ist... #line:c4e485
+        Mae: und ich stand auf und das Maedchen hatte die Nase voll... #line:9efc52
+        Mae: sie hatte alles gesehen... #line:ea9259
+        Mae: und ich versuchte, ihr dieses Laecheln zu schenken #line:6e9c1e
+        Mae: das hatte ich irgendwie vorgehabt #line:99b91c
+        Mae: aber es stellte sich heraus, dass ich etwas von dem Muell verschluckt hatte #line:109780
+        Mae: Spaghetti #line:52f32f
+        Mae: und und und und #line:f99463
+        Mae: Ich habe mich vollgekotzt!!! #line:f24c92
+        <<wait 2>>
+        <<lookAt Mae Bea>>
+        Bea: kein Wunder, dass du nach Hause gekommen bist. #line:68ce61
+        Mae: oh halt die Klappe. #line:1d9d6c
+        <<wait 2>>
+        <<playAmbientSFX _AmbientSFX:WyrdTeens 5>>
+        <<lookAt Mae Karla>>
+        Karla: Wow, das ist ja total daneben. #line:ebeeea
+        <<lookAt Mae Pam>>
+        Pam: Ich muss gleich kotzen. Danke fuer nichts. #line:e5dbd4
+<<lookNearest Mae>>
+Britt: Du bist deinem tiefsten Punkt begegnet. #line:706463
+Britt: du kannst unbelastet gehen. #line:e1f18d
+Mae: UNBELASTET?!?! #line:46b705
+Bea: ja, wirklich. #line:5be5a8
+<<lookAt Mae Britt>>
+Mae: ok lass uns mal weitergehen. #line:f84a67
+<<lookNearest Mae>>
+Pam: die Macht weiterzugehen... lag die ganze Zeit in deinen Haenden... #line:bd974a
+Mae: WAS?! #line:223f80
+Bea: WAS ZUR HOELLE?!? #line:adaf15
+Karla: Du kannst gehen. #line:098180
+Mae: Verdammt noch mal! #line:20c3d0
+Bea: fahrt zur Hoelle, Teens. #line:513e99
+Pam: ha ha ha #line:5218e4
+Karla: ha ha ha #line:481394
+Britt: ha ha ha #line:d88901
+<<close>>
+//gate opens//
+Mae: ich hasse im Moment alles. #line:d5aaef
+Bea: vergiss es, lass uns gehen. #line:5495c8
+===

@@ -1,0 +1,11 @@
+LineCode,LineText,Comment
+line:0e3f61,"Gregg: Beneeeee, guarda chi si vede!",
+line:c7e553,Mae: Già. Ancora viva per oggi.,
+line:d3f254,Gregg: Come stai?,
+line:e70895,Mae: Mi sentivo piuttosto male ma poi ho girato per la città,
+line:073c92,Mae: e non so. Mi ha aiutato.,
+line:c2a0c9,Gregg: L'aria fresca! Per quanto fresca possa essere da queste parti!,
+line:534d77,Mae: È davvero piacevole.,
+line:6fac31,Per caso hai parlato di... lampadine?,
+line:0efd3c,Andiamo a far le prove con la band?,
+line:25bac4,Sono solo di passaggio. Adesso vado.,

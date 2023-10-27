@@ -1,0 +1,125 @@
+title: EnterLevel_A2D1
+tags: demo2
+colorID: 3
+position: 479,-30
+---
+<<if $bea_friendship_quest is 1>>
+    <<setCanInteract Bea 0>>
+    <<if $fort_lucenne_mall < 3>>
+        <<show Bea>>
+    <<else>>
+        <<hide Bea>>
+    <<endif>>
+<<endif>>
+
+<<if $fort_lucenne_mall < 3 and $did_music_store is 0>>
+    <<warp Mae MaeOffRight>>
+    <<set $did_music_store_intro to 1>>
+    Bea: Nun, das sollte gut sein. #line:5f8959
+    <<walk Mae MaeCounter>>
+    Mae: Ich frage mich, welche Art von- #line:3c8486
+    <<close>>
+    Mae: \o/ :( #line:257319
+    <<lookUp Mae>>
+    Mae: OH COME ON! #line:6c90cb
+    <<lookNearest Mae>>
+    Mae: Es ist niemand an der Theke! #line:bf9211
+    <<walk Bea BeaCounter>>
+    Bea: Oh wow. #line:ccaa6f
+    Mae: o> #line:16efc5
+    Mae: [wave]HALLO?! ist hier jemand?![/wave] #line:d1cede
+    <<waitForMove Bea>>
+    <<walk Bea BeaTalk2>>
+    Mae: Oje. #line:e49d26
+    Mae: :| #line:596732
+    Bea: Das ist trostlos. #line:f03736
+    Mae: _o_ #line:6a28b1
+    Bea: Das ist wie etwas aus einem gescheiterten Staat oder so. #line:bf53ed
+    <<set $failed_state_joke to 1>>
+    <<walk Mae MaeTalk2>>
+    Mae: Was ist das? #line:610695
+    Bea: Wenn man ein Land gruendet und es nicht klappt. #line:dac943
+    <<lookRight Mae>>
+    Mae: Also... wie dieses Land? #line:2c1a2b
+    Mae: :) =_= #line:627f7c
+    Bea: AAAAAYYYYYY. #line:3d6ae8
+    Mae: o> #line:c36599
+    Mae: [hop]AAAAAAAAAYYYY.[/hop] #line:e25cfb
+    Mae: o_o :| _o_ #line:0657f9
+    <<generateFollowPoints Mae Bea>>
+    <<follow Bea Mae>>
+<<endif>>
+===
+title: InitLevel
+tags: 
+colorID: 0
+position: 190,-35
+---
+
+
+===
+title: ThatSong
+tags: demo2
+colorID: 0
+position: 823,260
+---
+<<if $fort_lucenne_mall < 3>>
+    Mae: Oh hey, das ist die Band. #line:8c270a
+    Bea: Welche Band? #line:1ed580
+    Mae: Du weisst schon... #line:08e275
+    Mae: erinnerst du dich an dieses Lied #line:70a6ab
+    Mae: hatte dieses Video, das die Leute zig mal gepostet haben #line:3a4e2b
+    Bea: Ich habe buchstaeblich keine Ahnung, wovon du sprichst. #line:59e98a
+    Mae: Da war dieses komische Pferd drin. #line:12cf32
+    Mae: {emote=pferd_stand} #line:ccb230
+    Bea: Ok ja ich erinnere mich. Da war ein komisches Pferd drin. #line:03dbb7
+    Mae: Oh Gott ja, das Pferd war total #line:f1f6cc
+    Mae: {emote=pferd_tanz1} #line:32d191
+    Bea: Ich erinnere mich. #line:6c3a21
+    Mae: {emote=horse_dance2} #line:0c3eff
+    Bea: Yep. Wir haben uns offiziell an das Video erinnert. #line:a84ba8
+    Mae: Wir haben es geschafft! #line:76cfa2
+<<else>>
+    Mae: Ich schaue mir das selbst an. #line:47e033
+<<endif>>
+<<end>>
+===
+title: EmptyRacks
+tags: demo2
+colorID: 0
+position: 544,469
+---
+<<if $fort_lucenne_mall < 3>>
+    Bea: Geeeeeeez. #line:8da6b7
+    Bea: Ruinen. #line:e78cd9
+    Mae: Schauen wir mal, was sie haben. #line:45615c
+        ->Honky Tonk Armaggeddon. #line:51e4b0
+            Bea: Whoa. Das wuerde ich mir tatsaechlich anhoeren. #line:c4cc64
+            Bea: Nur um zu sehen, was es ueberhaupt bedeutet. #line:256370
+            Mae: Das Cover hat einen Pickup-Truck, genau wie der von meinem Onkel #line:c82532
+            Mae: aber dieser steht in Flammen und fliegt auf das Gesicht eines Drachens. #line:9a4139
+            Bea: Aufruesten. #line:81668d
+        ->Clubbagurl: Rollin' Hard On That Eeee At This Rave Remixes #line:3f3776
+            Bea: Oje. Das ist niedlich. #line:ab89bb
+            Mae: Was soll das bedeuten? #line:948d6a
+            Bea: Jemand ist sehr aufgeregt, an einem Schulabend unterwegs zu sein. #line:2dbdf6
+            Mae: Sind es Drogen? #line:201ca6
+            Bea: Es sind Drogen. #line:413cde
+<<else>>
+    Mae: Wenn man das ohne Bea betrachtet. #line:bd8ab1
+<<endif>>
+<<end>>
+===
+title: LetsGo
+tags: demo2
+colorID: 0
+position: 1122,494
+---
+Bea: Ok, wir muessen gehen. #line:b750c3
+Bea: Ich bekomme eine Kontaktdepression, wenn ich hier drin bin. #line:b7cf80
+Mae: Oje. Ja, ja. #line:d3624e
+Mae: Sogar das riesige leuchtende Gekritzel ist deprimierend. #line:1daf06
+Bea: Die Zeit ist weitergegangen und hat das leuchtende Gekritzel zurueckgelassen. #line:1c90a4
+Mae: Ok ja wir gehen. #line:fbea1f
+<<end>>
+===
